@@ -1,13 +1,13 @@
 created: 20190212153013018
-modified: 20190705140855698
+modified: 20191112210513714
 revision: 0
-tags: Mannigfaltigkeit [[Kompaktum mit glattem Rand]]
+tags: Untermannigfaltigkeit [[Kompaktum mit glattem Rand]]
 title: Normalenvektor
 type: text/vnd.tiddlywiki
 
 !! Mannigfaltigkeiten
 
-Seien $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit|Mannigfaltigkeit]] und $$a\in M.$$ Ein Vektor $$v\in\Bbb R^d$$ heißt ein //Normalenvektor// von $$M$$ in $$a,$$ wenn er auf $$\mathrm T_a M$$ senkrecht steht, also wenn für jedes $$w\in\mathrm T_a M$$ gilt: $$\langle v,w\rangle=0.$$ Mit $$\mathrm N_a M$$ bezeichnen wir die Menge der Normalenvektoren von $$M$$ in $$a.$$
+Seien $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit]] und $$a\in M.$$ Ein Vektor $$v\in\Bbb R^d$$ heißt ein //Normalenvektor// von $$M$$ in $$a,$$ wenn er auf $$\mathrm T_a M$$ senkrecht steht, also wenn für jedes $$w\in\mathrm T_a M$$ gilt: $$\langle v,w\rangle=0.$$ Mit $$\mathrm N_a M$$ bezeichnen wir die Menge der Normalenvektoren von $$M$$ in $$a.$$
 
 !! Kompakta mit glattem Rand
 

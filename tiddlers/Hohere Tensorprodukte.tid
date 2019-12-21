@@ -1,0 +1,8 @@
+created: 20191121225011014
+modified: 20191123200616368
+tags: Tensorprodukt
+title: Höhere Tensorprodukte
+
+Das Tensorprodukt ist assoziativ, wir können also den Raum $$U\otimes V\otimes W$$ betrachten, durch den ähnlich wie oben jede trilineare Funktion faktorisiert, und so weiter. Betrachten wir Tensorprodukte eines Raumes mit sich selbst, so schreiben wir $$V^{\otimes k}\coloneqq V\otimes\dots\otimes V$$ für die $$k$$-fache Tensorpotenz von $$V.$$
+
+{{Tensoralgebra}}

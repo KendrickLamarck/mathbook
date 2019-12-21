@@ -1,0 +1,13 @@
+created: 20191116154036263
+modified: 20191129232713273
+revision: 0
+tags: Mannigfaltigkeit
+title: Manifold with boundary
+
+An //$$m$$-manifold with boundary// $$M^m$$ is a [[second-countable|Second-countable]] [[Hausdorff|Hausdorff'scher Raum]] space locally homeomorphic to the closed half-space
+
+$$
+H^m \coloneqq \{ (x_1,\dots,x_m) \in \R^m : x_1\le 0 \}.
+$$
+
+The points that are mapped to $$\partial H\cong \R^{m-1}$$ in a chart have this property in any chart, are called the //boundary// $$\partial M$$ of $$M$$ (possibly empty) and are an $$(m-1)$$-manifold. The //interior// $$M\setminus\partial M$$ is an $$m$$-manifold.

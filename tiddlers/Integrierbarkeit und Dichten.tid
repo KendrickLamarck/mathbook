@@ -1,11 +1,11 @@
 created: 20190406214330408
-modified: 20191003233732554
+modified: 20191201160003229
 revision: 0
 tags: no-toc Dichte
 title: Integrierbarkeit und Dichten
 type: text/vnd.tiddlywiki
 
-Sei $$\varphi$$ eine [[Dichte]] von $$\nu$$ bezüglich $$\mu.$$ Eine [[messbare|Messbare Funktion]] Abbildung $$f\colon\Omega\to\Bbb R$$ ist genau dann $$\nu$$-[[integrierbar|Lebesgue-Integral]], wenn $$f\varphi$$ integrierbar bezüglich $$\mu$$ ist und dann gilt
+Sei $$\varphi$$ eine [[Dichte]] von $$\nu$$ bezüglich $$\mu.$$ Eine [[messbare|Messbare Funktion]] Abbildung $$f\colon\varOmega\to\Bbb R$$ ist genau dann $$\nu$$-[[integrierbar|Lebesgue-Integral]], wenn $$f\varphi$$ integrierbar bezüglich $$\mu$$ ist und dann gilt
 
 $$
 \int f\,\mathrm d\nu=\int f\varphi\,\mathrm d\mu.

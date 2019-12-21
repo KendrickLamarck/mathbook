@@ -1,9 +1,9 @@
 created: 20180725204135188
 creator: Leander
-modified: 20191003210021834
+modified: 20191121231641388
 modifier: Leander
 revision: 0
-tags: Vektorraum
+tags: [[Multilineare Abbildung]]
 title: Tensorprodukt
 type: text/vnd.tiddlywiki
 
@@ -15,31 +15,16 @@ $$
 
 mit der folgenden universellen Eigenschaft: Für jede bilineare Abbildung $$F\colon V_1\times V_2\to W$$ gibt es genau eine [[lineare Abbildung|Lineare Abbildung]] $$\tilde F\colon V_1\otimes V_2\to W,$$ so dass $$F=\tilde F\circ\eta.$$
 
-''Bemerkung.''
-Wenn $$\eta'\colon V_1\times V_2\to V_1\otimes' V_2$$ auch ein Tensorprodukt ist, dann gibt es jeweils genau eine lineare Abbildung
+Wir erhalten also einen Isomorphismus zwischen den Räumen $$\hom_2(V_1,V_2;W)$$ und $$\hom(V_1 \otimes V_2,W).$$
 
-$$
-\tilde F\colon V_1\otimes V_2\to V_1\otimes' V_2,\quad \tilde F'\colon V_1\otimes' V_2\to V_1\otimes V_2
-$$
+!! Eindeutigkeit
 
-mit
+{{Eindeutigkeit des Tensorproduktes}}
 
-$$
-\eta'=\tilde F\circ\eta,\quad \eta=\tilde F'\circ\eta'.
-$$
-
-Aus $$\eta=\tilde F'\circ\tilde F\circ\eta$$ folgt $$\tilde F'=\tilde F^{-1}.$$
-
-Mit anderen Worten: Für zwei Tensorprodukte $$\eta\colon V_1\times V_2\to V_1\otimes V_2$$ und $$\eta'\colon V_1\times V_2\to V_1\otimes' V_2$$ gibt es genau einen [[Isomorphismus]]
-
-$$
-\tilde F\colon V_1\otimes V_2\to V_1\otimes' V_2,
-$$
-
-so dass $$\eta'=\tilde F\circ\eta.$$ In diesem Sinne gibt es im Wesentlichen für zwei $$K$$-Vektorräume (höchstens) ein Tensorprodukt $$V_1\times V_2\to V_1\otimes V_2.$$
-
----
-
-!! Basen
+!! Existenz: Angabe einer Basis
 
 {{Basen für Tensorprodukte}}
+
+!! Existenz: Der freie Vektorraum
+
+{{Tensorprodukte mit freien Vektorräumen}}

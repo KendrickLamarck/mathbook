@@ -1,0 +1,12 @@
+created: 20191220222336253
+modified: 20191220223748311
+tags: Connection
+title: Levi-Civita connection
+
+Any Riemannian manifold has a unique [[torsion-free|Torsion]] [[metric connection|Metric connection]] $$\nabla$$ called the //Levi-Civita connection,// characterized by the //Koszul formula//
+
+$$\begin{aligned}
+\langle \nabla_X Y, Z\rangle &=
+X(\langle Y,Z \rangle)+Y(\langle X,Z \rangle)-Z(\langle X,Y \rangle) \\
+&\quad+\langle [X,Y],Z \rangle-\langle [X,Z],Y \rangle-\langle [Y,Z],X \rangle
+\end{aligned}$$

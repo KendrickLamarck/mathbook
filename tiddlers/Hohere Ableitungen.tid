@@ -1,7 +1,7 @@
 created: 20180611214308645
 creator: Leander
 list: [[Satz von Taylor]] Schrankensatz [[Satz von Schwarz]] Hesse-Matrix [[Höhere Ableitungen und Richtungsableitungen]] [[Höhere Ableitungen auf dem Rn]] [[Assoziativität höherer Ableitungen]] [[Formel für die zweite Ableitung]]
-modified: 20191003233048198
+modified: 20191116164606201
 modifier: Leander
 revision: 0
 tags: Ableitung
@@ -23,21 +23,21 @@ $$
 Ist $$f\colon V\supset G\to W$$ bereits $$(k-1)$$-mal [[differenzierbar|Ableitung]] und ist die $$(k-1)$$-te Ableitung
 
 $$
-\mathrm D^{k-1}f\colon G\to L^{k-1}(V,W),\quad x\mapsto \mathrm D_x^{k-1}f
+\D^{k-1}f\colon G\to L^{k-1}(V,W),\quad x\mapsto \D_x^{k-1}f
 $$
 
 in $$p\in G$$ differenzierbar, so heißt $$f$$ in $$p$$ $$k$$-mal differenzierbar und die $$k$$-te Ableitung in $$p$$ ist gegeben durch
 
 $$\begin{aligned}
-\mathrm D_p^k f(v_1,\dots,v_k)&\coloneqq
-j_k(\mathrm D_p(\mathrm D^{k-1}f))(v_1,\dots,v_k) \\&=
-\mathrm D_p(\mathrm D^{k-1}f)(v_1)(v_2,\dots,v_k).
+\D_p^k f(v_1,\dots,v_k)&\coloneqq
+j_k(\D_p(\D^{k-1}f))(v_1,\dots,v_k) \\&=
+\D_p(\D^{k-1}f)(v_1)(v_2,\dots,v_k).
 \end{aligned}$$
 
 Die $$k$$-te Ableitung einer $$k$$-mal differenzierbaren Abbildung $$f\colon V\supset G\to W$$ an einer Stelle $$p$$ ist also eine $$k$$-lineare Abbildung
 
 $$
-\mathrm D_p^k f\in L^k(V,W).
+\D_p^k f\in L^k(V,W).
 $$
 
 !! Berechnung mit Richtungsableitungen

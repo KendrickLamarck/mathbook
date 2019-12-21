@@ -1,0 +1,12 @@
+created: 20191202000253887
+modified: 20191202001257852
+tags: [[Differential form]]
+title: Contraction of a form
+
+The //contraction// $$\iota_X\omega\in\Omega^{k-1}$$ of a [[form|Differential form]] $$\omega\in\Omega^k M$$ with a [[vector field|Vektorfeld]] $$X\in\mathcal X M$$ (also knows as //interior multiplication//)  is given by
+
+$$
+\iota_X \omega(X_2,\dots,X_k) \coloneqq \omega(X,X_2,\dots,X_k).
+$$
+
+It is an [[antiderivation|Antiderivation]] on $$\Omega^* M$$ of degree $$-1$$ with $$\iota_X \circ \iota_X=0.$$

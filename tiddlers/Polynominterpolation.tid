@@ -1,0 +1,10 @@
+created: 20191201194114330
+list: Lagrange-Interpolation [[Verfahren von Neville-Aitken]] Newton-Interpolation Hermite-Interpolation [[Fehler der Polynominterpolation]]
+modified: 20191201195953106
+tags: Numerik
+title: Polynominterpolation
+
+Seien Stützstellen $$(x_0,f_0),\dots,(x_n,f_n)\in\R^2$$ mit paarweise verschiedenen $$x_i$$ gegeben. Dann gibt es ein eindeutig bestimmtes Polynom $$P$$ vom Grad $$n$$ mit $$P(x_i)=f_i.$$
+
+!! Fehler
+{{Fehler der Polynominterpolation}}

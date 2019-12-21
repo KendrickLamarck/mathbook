@@ -1,6 +1,7 @@
 created: 20190708232139709
-modified: 20190715161652903
+modified: 20191112212811244
 revision: 0
+tags: [[Gemeinsame Verteilung]] no-toc
 title: Unabhängigkeit und Dichten
 
 Seien $$X_1,\dots,X_n$$ reellwertige Zufallsvariablen. Besitzen diese eine [[gemeinsame Dichte|Gemeinsame Dichte]] $$f_\Bbb X$$, so sind äquivalent:

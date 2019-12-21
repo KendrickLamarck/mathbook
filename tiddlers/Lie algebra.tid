@@ -1,0 +1,16 @@
+created: 20191213212229105
+modified: 20191213212458139
+tags: Algebra
+title: Lie algebra
+
+A //Lie algebra// is a vector space $$\mathcal L$$ with a skew-symmetric product
+
+$$
+\mathcal L\times \mathcal L\to\mathcal L,\qquad (v,w)\mapsto [v,w]=-[w,v]
+$$
+
+which is bilinear and satisfies the //Jacobi identity//
+
+$$
+[u,[v,w]]+[v,[w,u]]+[w,[u,v]]=0.
+$$

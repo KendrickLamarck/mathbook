@@ -1,22 +1,17 @@
 created: 20190216191811545
-modified: 20190216192333181
+modified: 20191201222553472
 revision: 0
-tags: Skalarprodukt
+tags: Mannigfaltigkeit
 title: Riemannian metric
 type: text/vnd.tiddlywiki
 
-A //Riemannian metric// on an open set $$U\subseteq\Bbb R^n$$ is a $$\mathcal C^\infty$$-map
+A //Riemannian metric// on a [[smooth manifold|Smooth manifold]] $$M^m$$ is a positive definite [[section|Section]] $$g\in\Gamma(\mathrm Q(\T M)),$$ where $$\mathrm Q(\T M)$$ is the [[vector bundle|Vector bundle]] of [[quadratic forms|Quadratische Form]] on $$\T_p M.$$ It consists of an [[inner product|Skalarprodukt]] $$\langle X_p,Y_p\rangle=g_p(X_p,Y_p)$$ on every tangent space $$\T_p M.$$
 
-$$
-g\colon U\times\Bbb R^n\times\Bbb R^n\to\Bbb R,\quad (p,v,w)\mapsto g_p(v,w),
-$$
+Every manifold admits a Riemannian metric. A manifold together with a Riemannian metric is called a //Riemannian manifold.//
 
-such that for all $$p\in U,$$ $$g_p$$ is a [[Euclidean scalar product|Skalarprodukt]] on $$\Bbb R^n.$$
-
-Such a Riemannian metric is called //conformal// if
-
-$$
-g_p(u,v)=\lambda(p)\langle u,v\rangle_{\Bbb R^n}
-$$
-
-for some function $$\lambda\colon\Bbb R^n\to\Bbb R_{>0}.$$ In this case, angles measured using $$g$$ are equal to the euclidean angles.
+!! Metrization
+{{Manifolds as metric spaces}}
+!! Pullback
+{{Pullback of Riemannian metrics}}
+!! Conformality
+{{Conformal Riemannian metric}}

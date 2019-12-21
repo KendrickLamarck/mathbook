@@ -1,8 +1,9 @@
 created: 20190102175918810
 creator: Leander
 list: Rechteck [[Elementare Menge]]
-modified: 20191011175501026
+modified: 20191028134319112
 modifier: Leander
+revision: 0
 tags: Lebesgue-Borel-Maß
 title: Lebesgue-Maß im R2
 type: text/vnd.tiddlywiki
@@ -37,7 +38,7 @@ $$
 Dies setzt $$\lambda_{\mathcal E_E}$$ fort, ist aber nicht mehr $$\sigma$$-additiv.
 </div>
 
-# Eine Menge $$A\in\mathcal P(E)$$ heißt //Lebesgue-messbar,// falls zu jedem $$\epsilon>0$$ ein $$B\in\mathcal E_E$$ existiert mit $$\lambda_E^*(A\mathbin\triangle B)\le\epsilon.$$ Sei $$\mathcal F_E\subset\mathcal P(E)$$ die Menge der Lebesgue-messbaren Mengen. Die Einschränkung $$\lambda_E$$ von $$\lambda_E^*$$ auf $$\mathcal F_E$$ heißt das //Lebesgue-Maß// auf $$E.$$ $$\mathcal F_E$$ ist eine $$\sigma$$-[[Algebra|Sigma-Algebra]] und $$\lambda_E$$ ein [[Maß]] darauf
+# Eine Menge $$A\in\mathcal P(E)$$ heißt //Lebesgue-messbar,// falls zu jedem $$\epsilon>0$$ ein $$B\in\mathcal E_E$$ existiert mit $$\lambda_E^*(A\sd B)\le\epsilon.$$ Sei $$\mathcal F_E\subset\mathcal P(E)$$ die Menge der Lebesgue-messbaren Mengen. Die Einschränkung $$\lambda_E$$ von $$\lambda_E^*$$ auf $$\mathcal F_E$$ heißt das //Lebesgue-Maß// auf $$E.$$ $$\mathcal F_E$$ ist eine $$\sigma$$-[[Algebra|Sigma-Algebra]] und $$\lambda_E$$ ein [[Maß]] darauf
 
 # <div>
 Definiere

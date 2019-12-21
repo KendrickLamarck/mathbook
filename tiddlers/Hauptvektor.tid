@@ -1,6 +1,6 @@
 created: 20180504164335088
 creator: Leander
-modified: 20180709193729568
+modified: 20191121232659541
 modifier: Leander
 revision: 0
 tags: [[Jordan'sche Normalform]]
@@ -18,3 +18,7 @@ Punkt 2 ist äquivalent zu folgender Definition:
 ** $$(F-\lambda\operatorname{id}_V)^{k-1}(v)\ne 0.$$
 
 Die Hauptvektoren der Stufe $$1$$ sind genau die Eigenvektoren.
+
+!! Hauptraum
+
+{{Hauptraum}}

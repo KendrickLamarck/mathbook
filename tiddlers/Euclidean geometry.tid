@@ -1,6 +1,7 @@
 created: 20190426111130999
-list: [[Thales' theorem]] [[Trigonometrische Funktionen]] [[Pythagorean trigonometric identities]]
-modified: 20191011162052942
+list: [[Thales' theorem]] [[Trigonometrische Funktionen]] [[Pythagorean trigonometric identities]] [[Euclidean metric in Möbius space]] [[Ptolemy's theorem]]
+modified: 20191107153036278
+revision: 0
 tags: Geometrie
 title: Euclidean geometry
 type: text/vnd.tiddlywiki
@@ -13,4 +14,12 @@ $$
 
 with $$A\in \mathrm O(n),\ b\in\Bbb R^n.$$
 
-This is an obvious [[subgeometry|Subgeometry]] of [[similarity geometry|Similarity geometry]]. It can also be obtained in a similar way from [[Möbius geometry]]: Let $$p\in Q.$$ Consider the projective model and the subgroup of transformations that come from maps $$A\in\mathrm{GL}(n+2)$$ with $$Ap=p$$ and [[project stereographically|Stereographic projection]].
+!! From Möbius geometry
+
+This is an obvious [[subgeometry|Subgeometry]] of [[similarity geometry|Similarity geometry]]. It can also be obtained in a similar way from $$n$$-dimensional [[Möbius geometry]]: Let $$p\in Q\subset\RP^{n+1}$$ (most obviously the north pole of the $$S^n$$). Consider the projective model and the subgroup of transformations that come from maps $$A\in\PO(n+1,1)$$ with $$Ap=p.$$ Then [[project stereographically|Stereographic projection]] from $$p$$.
+
+{{Euclidean metric in Möbius space}}
+
+!! From Laguerre geometry
+
+We obtain euclidean geometry if we consider the [[Laguerre transformations|Laguerre geometry]] that map point spheres to point spheres.

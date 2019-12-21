@@ -1,12 +1,11 @@
 created: 20180420152605372
 creator: Leander
-list: Algebra Algorithmus Analysis Datenstrukturen Formeln Geometrie Graph Kombinatorik [[Lineare Algebra]] Logik Maßtheorie Stochastik [[Math notation]] Mengenlehre Optimierung Ordnungstheorie Topologie Trigonometrie Zahldarstellung Zahlentheorie
-modified: 20191008185158438
+list: [[Lineare Algebra]] Geometrie Topologie Analysis Maßtheorie Stochastik Algebra Algorithmus Datenstrukturen Graph Kombinatorik Numerik Optimierung Zahldarstellung Mengenlehre Ordnungstheorie Logik [[Math notation]] Zahlentheorie Formeln
+modified: 20191201182945597
 modifier: Leander
+revision: 0
 tags: [[Table of contents]]
 title: Mathematics
 type: text/vnd.tiddlywiki
-
-@@color:red; delete [[$:/core/macros/toc]] before updating to 5.1.22 @@
 
 {{Disclaimer}}

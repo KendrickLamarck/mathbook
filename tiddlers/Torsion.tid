@@ -1,0 +1,13 @@
+created: 20191220220450471
+modified: 20191220221437173
+tags: Connection
+title: Torsion
+
+Let $$\nabla$$ be a [[connection|Connection]] on the tangent bundle $$\T M$$ to a manifold $$M.$$ We define the //torsion// of the connection to be
+
+$$
+T(X,Y)\coloneqq \nabla_X Y - \nabla_Y X - [X,Y].
+$$
+
+* This expression is $$\mathcal C^\infty M$$-linear in both arguments.
+* We call $$\nabla$$ //torsion-free// or //symmetric// if $$T(X,Y)=0$$ For all $$X$$ and $$Y.$$

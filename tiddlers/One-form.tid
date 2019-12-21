@@ -1,0 +1,13 @@
+created: 20191116234907420
+modified: 20191214203721026
+revision: 0
+tags: [[Differential form]]
+title: One-form
+
+A (smooth) [[section|Section]] $$\omega$$ of the [[cotangent bundle|Cotangent space]] is called a //covector field// or a //(differential) one-form.// We write $$\Omega^1(M)=\Gamma(\T^*M)$$ for the space of all sections.
+
+A one-form $$\omega\in\Omega^1(M)$$ together with a [[vector field|Vektorfeld]] $$X\in\mathcal X(M)$$ gives a smooth function $$\omega(X)\in\mathcal C^\infty(M)$$ via $$(\omega X)(p)=\omega_p(X_p)\in\R.$$ In a coordinate chart $$(U,\varphi)$$ we have the basis vector fields $$\partial_i$$; taking the [[dual basis|Duale Basis]] pointwise we get the basis one-forms $$\d x_i$$ satisying $$\d x_i(\partial_j)=\delta_{ij}.$$ Any one-form $$\sigma\in\Omega^1(U)$$ can be written as $$\sigma=\sum\sigma_i\d x_i,$$ where the components $$\sigma_i=\sigma(\partial_i)\in\mathcal C^\infty(U)$$ are smooth functions.
+
+!! Pullback
+
+{{Pullback of one-forms}}

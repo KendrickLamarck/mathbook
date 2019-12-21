@@ -1,7 +1,7 @@
 created: 20180226130652318
 creator: Leander
 list: 
-modified: 20191003225554167
+modified: 20191116160722378
 modifier: Leander
 revision: 0
 tags: Potenzreihe
@@ -14,7 +14,7 @@ $$
 \sum_{k=0}^\infty \frac{f^{(k)}(x_0)}{k!} (x-x_0)^k.
 $$
 
-Wenn die Restglieder für $$n\to\infty$$ gegen 0 konvergieren, so erhält man eine Darstellung von $$f$$ als Potenzreihe. Funktionen, für die das lokal der Fall ist, heißen auch //reell-analytisch//.
+Wenn die Restglieder für $$n\to\infty$$ gegen 0 konvergieren, so erhält man eine Darstellung von $$f$$ als Potenzreihe. Funktionen, für die das lokal der Fall ist, heißen auch //reell-analytisch// und wir schreiben $$f\in\mathcal C^\omega.$$
 
 !! Satz von Borel
 

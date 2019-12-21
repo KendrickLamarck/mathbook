@@ -1,7 +1,8 @@
 created: 20181210161255478
-modified: 20191011180138076
+modified: 20191028134220897
+revision: 0
 tags: [[Algebra (Mengensystem)]] Maß no-toc
 title: Approximationssatz
 type: text/vnd.tiddlywiki
 
-Sei $$\mu$$ das [[Maß]] auf $$\sigma(\mathcal A),$$ welches ein $$\sigma$$-endliches [[Prämaß]] auf einer [[Algebra|Algebra (Mengensystem)]] $$\mathcal A$$ nach dem [[Satz von Carathéodory]] erweitert. Dann existiert zu jedem $$A\in\sigma(\mathcal A)$$ mit $$\mu(A)<\infty$$ zu jedem $$\epsilon>0$$ ein $$B\in\mathcal A$$ mit $$\mu(A\mathbin\triangle B)<\epsilon.$$
+Sei $$\mu$$ das [[Maß]] auf $$\sigma(\mathcal A),$$ welches ein $$\sigma$$-endliches [[Prämaß]] auf einer [[Algebra|Algebra (Mengensystem)]] $$\mathcal A$$ nach dem [[Satz von Carathéodory]] erweitert. Dann existiert zu jedem $$A\in\sigma(\mathcal A)$$ mit $$\mu(A)<\infty$$ zu jedem $$\epsilon>0$$ ein $$B\in\mathcal A$$ mit $$\mu(A\sd B)<\epsilon.$$

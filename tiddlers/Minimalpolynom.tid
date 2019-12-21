@@ -1,15 +1,17 @@
 created: 20180519111113942
 creator: Leander
-modified: 20191003205032852
+modified: 20191121232538172
 modifier: Leander
 revision: 0
 tags: [[Jordan'sche Normalform]]
 title: Minimalpolynom
 type: text/vnd.tiddlywiki
 
-Sei $$V$$ ein endlichdimensionaler $$K$$-[[Vektorraum]]. Das //Minimalpolynom// $$m_F\in K[t]$$ von $$F\in\operatorname{End}(V)$$ ist das normierte [[Polynom]], welches das [[Ideal]] $$I_F$$ von $$F$$ erzeugt.
-
-Anders gesagt: $$m_F$$ ist das eindeutig bestimmte normierte Polynom mit folgenden Eigenschaften:
+Sei $$V$$ ein endlichdimensionaler $$K$$-[[Vektorraum]]. Das //Minimalpolynom// $$m_F\in K[t]$$ von $$F\in\operatorname{End}(V)$$ ist das normierte [[Polynom]], welches das [[Ideal]] $$I_F$$ von $$F$$ erzeugt. Anders gesagt: $$m_F$$ ist das eindeutig bestimmte normierte Polynom mit folgenden Eigenschaften:
 
 * $$m_F(F)=0.$$
 * Wenn $$p(F)=0$$ für ein $$p\in K[t]$$, dann teilt $$m_F$$ das Polynom $$p$$.
+
+!! Zusammenhang mit dem charakteristischen Polynom
+
+{{Minimalpolynom und charakteristisches Polynom}}

@@ -1,0 +1,8 @@
+created: 20191122174409535
+modified: 20191122180316263
+tags: Topologie
+title: Product topology
+
+Let $$(X_i)_{i\in I},Y$$ be [[topological spaces|Topologie]]. The //product topology// on $$X\coloneqq \prod X_i$$ is defined to be the coarsest topology such that all projections $$\pi_i\colon X\to X_i$$ are continuous.
+
+The product topology can also be defined using the following universal property: For all collections of continuous functions $$(f_i\colon Y\to X_i)_{i\in I}$$ there exists a unique continuous function $$f\colon Y\to X$$ such that $$f_i=\pi_i\circ f$$ for all $$i\in I.$$

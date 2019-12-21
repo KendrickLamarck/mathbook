@@ -1,0 +1,12 @@
+created: 20191201195050402
+modified: 20191201195920955
+tags: Polynominterpolation
+title: Hermite-Interpolation
+
+Die Dividierten Differenzen aus der [[Newton-Interpolation]] lassen sich auf mehrfache Stützstellen $$x_i=x_j$$ erweitern, falls $$f(x_i)=f(x_j)$$: Wir setzen
+
+$$
+f[\underbrace{x_k,\dots,x_k}_{m+1}] \coloneqq \frac 1 {m!} f^{(m)}(x_k).
+$$
+
+Wir geben also zusätzlich zu Funktionswerten $$f_k$$ auch Ableitungen $$f_k',f_k''$$ vor.

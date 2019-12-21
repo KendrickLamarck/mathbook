@@ -1,0 +1,10 @@
+caption: Pencils of circles
+created: 20191014231715944
+modified: 20191015194552808
+revision: 0
+tags: [[Möbius geometry]]
+title: Möbius geometric pencil of circles
+
+Hyperspheres in $$Q\subset\R\mathrm P^{n+1}$$ correspond to points outside the sphere. A //Möbius geometric pencil of circles// is a set of spheres corresponding to a line in $$\R\mathrm P^{n+1}.$$
+
+For $$S^2$$ there are three cases: The line is tangent to the sphere, it intersects it in two points or it does not intersect it at all. If $$l$$ is a line, then every circle in the pencil of $$l$$ intersects every circle in the pencil of $$l^\perp$$ orthogonally.

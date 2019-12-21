@@ -1,0 +1,12 @@
+created: 20191122203330057
+modified: 20191122204056508
+tags: [[Multilineare Abbildung]]
+title: Alternierende multilineare Abbildung
+
+Seien $$V$$ und $$W$$ $$K$$-[[Vektorräume|Vektorraum]]. Eine [[multilineare Abbildung|Multilineare Abbildung]] $$F\colon V^p\to W$$ heißt //alternierend,// falls eine der folgenden äquivalenten Aussagen gilt:
+
+* Falls es ein $$1\le i\le p-1$$ gibt, so dass $$x_i=x_{i+1},$$ dann ist $$F(x_1,\dots,x_p)=0.$$
+
+* Falls es $$1\le i\ne j\le p$$ gibt, so dass $$x_i=x_j,$$ dann ist $$F(x_1,\dots,x_p)=0.$$
+
+* Falls $$x_1,\dots,x_p$$ [[linear abhängig|Lineare Unabhängigkeit]] sind, dann ist $$F(x_1,\dots,x_p)=0.$$

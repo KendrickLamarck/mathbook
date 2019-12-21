@@ -1,0 +1,10 @@
+created: 20191114212124839
+modified: 20191214192916023
+revision: 0
+tags: [[Tangent space]]
+title: Cotangent space
+
+The [[dual vector space|Dualraum]] $$\T_p^* M$$ of the [[tangent space|Tangent space]] $$\T_p M$$ is called the //cotangent space// and its elements the //cotangent vectors// or //covectors.//
+
+* Just like the tangent spaces, the cotangent spaces form a [[vector bundle|Vector bundle]] called the //cotangent bundle.//
+* Smooth sections of the cotangent bundle are called //covector fields.//

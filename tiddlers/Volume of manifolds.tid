@@ -1,0 +1,12 @@
+created: 20191214195010403
+modified: 20191214195442133
+tags: Volumen no-toc
+title: Volume of manifolds
+
+The //volume// of a [[smooth manifold|Smooth manifold]] $$M$$ with a specified [[volume form|Volume form]] $$\varOmega$$ is defined to be 
+
+$$
+\vol(M)\coloneqq \int_M 1 \,\d\vol = \int_M \varOmega.
+$$
+
+If $$M$$ is compact, this works directly. If it is not, take the limit over a compact exhaustion.

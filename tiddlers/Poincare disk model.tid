@@ -1,5 +1,6 @@
 created: 20190216185217976
-modified: 20191010175113373
+modified: 20191107154546365
+revision: 0
 tags: [[Hyperbolic geometry]]
 title: Poincaré disk model
 type: text/vnd.tiddlywiki
@@ -14,11 +15,10 @@ $$\begin{gathered}
 \end{gathered}$$
 
 ''Theorem.''
-Stereographic projection $$\sigma_{H^2}\colon H^2\to D^2$$ maps [[intersections|Circles, hypercycles and horocycles]] of $$H^2\subset\Bbb R^{2,1}$$ with planes in $$\Bbb R^{2,1}$$ to intersections of $$D^2$$ with circles and lines.
+Stereographic projection $$\sigma_{H^2}\colon H^2\to D^2$$ maps [[intersections|Circles, hypercycles and horocycles]] of $$H^2\subset\Bbb R^{2,1}$$ with planes in $$\R^{2,1}$$ to intersections of $$D^2$$ with circles and lines. In particular, [[hyperbolic lines|Hyperbolic line]] are mapped to intersections of $$D^2$$ with circles and lines that intersect the unit circle $$\partial D^2$$ orthogonally.
 
-In particular, [[hyperbolic lines|Hyperbolic line]] are mapped to intersections of $$D^2$$ with circles and lines that intersect the unit circle $$\partial D^2$$ orthogonally.
+!! Riemannian metric
 
-''Theorem.''
 Consider two curves $$\hat\gamma,\hat\eta\colon{]-\epsilon,\epsilon[}\to H^2$$ in the hyperbolic plane with $$\hat\gamma(0)=\hat\eta(0)=\hat p.$$ Let $$\gamma=\sigma_{H^2}\circ\hat\gamma$$ and $$\eta=\sigma_{H^2}\circ\hat\eta$$ be their images in $$D^2$$ under stereographic projection and let $$\hat v=\hat\gamma'(0),\ \hat w=\hat\eta'(0),\ v=\gamma'(0),\ w=\eta'(0).$$ Then
 
 $$
@@ -31,8 +31,16 @@ $$
 The [[isometries|Isometrie]] are the [[Möbius transformations|Möbius transformation]] that map $$D^2\to D^2.$$ These are the maps
 
 $$
-z\mapsto\frac{az+b}{cz+d},\quad
-z\mapsto\frac{a\bar z+b}{c\bar z+d}
+z\mapsto\frac{az+b}{\bar a z+\bar b},\quad
+z\mapsto\frac{a\bar z+b}{\bar a\bar z+\bar b}
 $$
 
-with $$a,b\in\Bbb C$$ and $$|a|^2-|b|^2>0,$$ which is the group $$\mathrm{PSU}(1,1).$$
+with $$a,b\in\Bbb C$$ and $$|a|^2-|b|^2>0,$$ which is the group $$\operatorname{PSU}(1,1).$$
+
+!! Map to the Klein model
+
+{{Mapping the Klein- to the Poincaré model}}
+
+!! Map to the half-plane model
+
+{{Mapping the Poincaré disk to the half-plane model}}

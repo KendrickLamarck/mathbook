@@ -1,6 +1,6 @@
 created: 20180605165810188
 creator: Leander
-modified: 20191004192425701
+modified: 20191102214034431
 modifier: Leander
 revision: 0
 tags: [[Linearer Differentialoperator]]
@@ -19,8 +19,6 @@ $$
 $$
 
 der //Gradient// von $$f$$ in $$p$$.
-
----
 
 !! Eigenschaften
 

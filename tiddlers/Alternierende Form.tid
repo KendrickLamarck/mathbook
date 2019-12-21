@@ -1,22 +1,11 @@
 created: 20180528193207858
 creator: Leander
-modified: 20180528194340978
+modified: 20191129161325136
 modifier: Leander
 revision: 0
 tags: Bilinearform
 title: Alternierende Form
 
-Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung
-
-$$
-s\colon V\times V\to K
-$$
-
-
-heißt //alternierend//, falls
-
-$$
-s(v,v)=0.
-$$
+Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung $$s\colon V\times V\to K$$ heißt //alternierend//, falls $$s(v,v)=0$$ für alle $$v\in V.$$
 
 Jede alternierende [[Bilinearform]] ist [[schiefsymmetrisch|Schiefsymmetrische Form]].

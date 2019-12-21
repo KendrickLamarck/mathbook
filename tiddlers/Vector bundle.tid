@@ -1,0 +1,12 @@
+created: 20191116225728237
+modified: 20191123203317677
+revision: 0
+tags: Mannigfaltigkeit
+title: Vector bundle
+
+A (smooth) //vector bundle// of rank $$k$$ is a map $$\pi\colon E^{m+k}\to M^m$$ of manifolds such that
+
+* each fiber $$\pi^{-1}(p)$$ is a [[vector space|Vektorraum]] of dimension $$k,$$
+* each point in $$M$$ has a //trivializing neighborhood// $$U,$$ meaning there is a fiber-preserving diffeomorphism $$\pi^{-1}(U)\eqqcolon E_U\to U\times\R^k$$ that is a vector space [[isomorphism|Isomorphismus]] on each fiber.
+
+{{Section}}

@@ -1,7 +1,8 @@
 created: 20190114141341046
 creator: Leander
-modified: 20191011231222255
+modified: 20191116222040326
 modifier: Leander
+revision: 0
 tags: Stetigkeit
 title: Homöomorphismus
 type: text/vnd.tiddlywiki
@@ -11,3 +12,5 @@ Seien $$X,Y$$ [[topologische Räume|Topologie]]. Eine Abbildung $$f\colon X\to Y
 * $$f$$ [[bijektiv|Bijektivität]] ist,
 * $$f$$ [[stetig|Stetigkeit]] ist und
 * die [[Umkehrabbildung]] $$f^{-1}$$ ebenfalls stetig ist.
+
+if $$X$$ is [[compact|Kompaktheit]] and $$Y$$ is [[Hausdorff|Hausdorff'scher Raum]], then any continuous bijection $$f\colon X\to Y$$ is a homeomorphism.

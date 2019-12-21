@@ -1,0 +1,7 @@
+ca: 
+created: 20191123200837082
+modified: 20191213221004688
+tags: Algebra
+title: Algebra (algebraische Struktur)
+
+Eine //Algebra// $$A$$ über einem Körper $$K$$ ist ein $$K$$-[[Vektorraum]] oder [[Modul]]) mit einer bilinearen Verknüpfung $$A\times A\to A,$$ Multiplikation genannt, die durch $$xy$$ oder $$x\cdot y$$ symbolisiert wird.

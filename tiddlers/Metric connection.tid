@@ -1,0 +1,11 @@
+created: 20191220221059724
+modified: 20191220221823580
+tags: Connection
+title: Metric connection
+
+Let $$\nabla$$ be a [[connection|Connection]] on the tangent bundle $$\T M$$ to a Riemannian manifold. We call the connection //metric// if for all $$X,Y$$ and $$Z$$ it satisfies
+
+$$
+X\langle Y,Z\rangle =
+\langle \nabla_X Y,Z\rangle + \langle Y, \nabla_X Z\rangle.
+$$

@@ -1,23 +1,21 @@
 created: 20191008231459206
-modified: 20191010172728867
+modified: 20191116145624827
+revision: 0
 tags: Geometrie
 title: Elliptic geometry
 type: text/vnd.tiddlywiki
 
-Let $$q$$ be a positive definite quadratic form on $$\R^{n+1}.$$ This induces $$n$$-dimensional elliptic geometry on $$\R\mathrm P^n$$: Define $$n$$-dimensional elliptic space as
+Let $$q$$ be a positive definite [[symmetric|Symmetrische Form]] [[bilinear form|Bilinearform]] on $$\R^{n+1}.$$ This induces $$n$$-dimensional elliptic geometry on $$\R\mathrm P^n$$: Define $$n$$-dimensional elliptic space as $$\RP^n$$ equipped with the metric $$d_\mathrm{ell}$$ satisfying
 
 $$
-E^n\coloneqq\{[x]\in\R\mathrm P^n\mid q(x,x)\}=\R\mathrm P^n
+\cos d_\mathrm{ell}([a],[b])=
+\frac {q(a,b)} {\sqrt{q(a,a)q(b,b)}}
 $$
 
-equipped with the metric $$d_\mathrm{ell}$$ satisfying (see [[Hilbert metric]])
+which is also the [[Cayley-Klein metric]]
 
 $$
-\cos d_\mathrm{ell}([x],[y])=
-\frac {q(x,y)} {\sqrt{q(x,x)q(y,y)}} {\color{red}=
-\frac 1 2 \log\operatorname{cr}(Y,A,X,B).}
+d_\mathrm{ell}(A,B)=\frac i 2 \log\crossratio(B,X,A,Y).
 $$
 
-@@color:red; The last equality is probably wrong. Complex coordinates must be allowed? Unsure if $$\frac 1 2$$ is the correct scalar. Maybe $$d_\mathrm{ell}([x],[y])=\frac i 2 \log\operatorname{cr}(Y,A,X,B)?$$@@
-
-This geometry can also be obtained by associating pairs of opposite points in [[spherical geometry|Spherical geometry]]. The transformation group then is $$\mathrm O(n+1)/\{\pm I\}.$$
+This geometry can also be viewed as [[spherical geometry|Spherical geometry]], where antipodal points are identified with each other. The space then is $$S^n/\pm$$ and the transformation group is $$\O(n+1)/\{\pm I\}.$$

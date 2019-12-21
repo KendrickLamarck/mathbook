@@ -1,0 +1,15 @@
+created: 20191016204949012
+modified: 20191201184851437
+revision: 0
+tags: 
+title: Aktuelles
+
+@@color:red;
+!!! When updating to 5.1.22 
+
+* delete [[$:/core/macros/toc]]
+
+* and for god's sake, don't forget to delete the ``customMacros`` function argument and variable from [[$:/plugins/tiddlywiki/katex/wrapper.js]] before updating and add it back in after. We need something better for that.
+
+* Use ``\substack`` in [[Lagrange-Interpolation]]
+@@

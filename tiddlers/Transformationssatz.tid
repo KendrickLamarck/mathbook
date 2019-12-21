@@ -1,30 +1,32 @@
 created: 20181106162450155
 creator: Leander
-modified: 20191011220153550
+modified: 20191201160120474
 modifier: Leander
+revision: 0
 tags: Lebesgue-Integral [[Haar'sches Maß]]
 title: Transformationssatz
 type: text/vnd.tiddlywiki
 
-! Riemann
+!! Riemann
 
-Seien $$U$$ und $$V$$ [[offene|Offenheit]] Teilmengen des $$\mathbb R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-[[invertierbare|Diffeomorphismus]] Abbildung. Dann gilt für jede stetige Funktion $$f\colon V\to\Bbb R,$$ so dass $$f_+$$ und $$f_-$$ [[integrierbar|Integral monoton approximierbarer Funktionen]] sind:
-
-$$
-\int_U f(\varphi(x))\left|\det\mathrm D_x\varphi\right|\,\mathrm dx=\int_V f(y)\,\mathrm dy.
-$$
-
-Symbolisch kann man schreiben: $$\mathrm d(\varphi(x))=\left|\det\mathrm D_x\varphi\right|\,\mathrm dx.$$
-
-Man beachte insbesondere die Sonderfälle, dass $$\varphi=A\in \operatorname{GL}(d;\Bbb R)$$ oder sogar [[orthogonal|Orthogonaler/unitärer Endomorphismus]] ist.
-
-! Lebesgue
-
-Seien $$U$$ und $$V$$ zwei offene Mengen im $$\Bbb R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-invertierbare Abbildung. Dann ist eine Funktion $$f\colon V\to\overline\Bbb R$$ genau dann [[Lebesgue-integrierbar|Lebesgue-Integral]] über $$V,$$ wenn die Abbildung $$f\circ \varphi\left|\det\mathrm D\varphi\right|$$ über $$U$$ integrierbar ist, und dann gilt
+Seien $$U$$ und $$V$$ offene Teilmengen des $$\R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-[[invertierbare|Diffeomorphismus]] Abbildung. Dann gilt für jede stetige Funktion $$f\colon V\to\R,$$ so dass $$f_+$$ und $$f_-$$ [[integrierbar|Integral monoton approximierbarer Funktionen]] sind:
 
 $$
-\int_U f(\varphi(x))\left|\det\mathrm D_x\varphi\right|\,\lambda(\mathrm dx)=
-\int_V f(y)\,\lambda(\mathrm dy).
+\int_U f(\varphi(x))\left|\det\D_x\varphi\right|\d x=
+\int_V f(y)\,\d y.
 $$
 
-Das [[Bildmaß]] der Abbildung $$\varphi^{-1}$$ unter $$\lambda$$ (also das [[Maß]] $$A\mapsto \lambda(\varphi(A))$$) ist gegeben durch $$\left|\det\mathrm D_x\varphi\right|\,\lambda(\mathrm dx),$$ d.h. als das Maß mit Lebesgue-[[Dichte]] $$x\mapsto\left|\det\mathrm D_x\varphi\right|.$$
+Symbolisch kann man schreiben: $$\d(\varphi(x))=\left|\det\D_x\varphi\right|\,\d x.$$
+
+Man beachte insbesondere die Sonderfälle, dass $$\D_x\varphi=A\in \GL(d;\R)$$ oder sogar [[orthogonal|Orthogonaler/unitärer Endomorphismus]] ist.
+
+!! Lebesgue
+
+Seien $$U$$ und $$V$$ zwei offene Mengen im $$\R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-invertierbare Abbildung. Dann ist eine Funktion $$f\colon V\to\overline\R$$ genau dann [[Lebesgue-integrierbar|Lebesgue-Integral]] über $$V,$$ wenn die Abbildung $$(f\circ \varphi)\left|\det\D\varphi\right|$$ über $$U$$ integrierbar ist, und dann gilt
+
+$$
+\int_U f(\varphi(x))\left|\det\D_x\varphi\right|\,\lambda(\d x)=
+\int_V f(y)\,\lambda(\d y).
+$$
+
+Das [[Bildmaß]] der Abbildung $$\varphi^{-1}$$ unter $$\lambda$$ (also das [[Maß]] $$A\mapsto \lambda(\varphi(A))$$) ist gegeben durch $$\left|\det\D_x\varphi\right|\,\lambda(\d x),$$ d.h. als das Maß mit Lebesgue-[[Dichte]] $$x\mapsto\left|\det\D_x\varphi\right|.$$

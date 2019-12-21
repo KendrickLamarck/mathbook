@@ -1,0 +1,6 @@
+created: 20191201214009499
+modified: 20191201223151668
+tags: [[Differential form]] no-toc
+title: Volume form
+
+A //volume form// on a [[manifold|Smooth manifold]] $$M$$ is a nowhere vanishing $$m$$-form $$\omega \in \Omega^m M.$$

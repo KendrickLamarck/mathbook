@@ -1,0 +1,10 @@
+created: 20191122205009882
+modified: 20191210194752776
+tags: Determinante [[Exterior algebra]]
+title: Wedge product and determinant
+
+We can use the exterior algebra to define the [[determinant|Determinante]]: If we have $$m$$ vectors $$v_j\in V$$ given in terms of the basis $$(e_1,\dots,e_m)$$ as $$\sum_i v_j^i,$$ then
+
+$$
+v_1 \wedge\dots\wedge v_m = \det(v_j^i)e_{1 2 \cdots m}.
+$$

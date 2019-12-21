@@ -1,6 +1,6 @@
 created: 20180611221544130
 creator: Leander
-modified: 20191003233105387
+modified: 20191116164535201
 modifier: Leander
 revision: 0
 tags: no-toc [[Höhere Ableitungen]]
@@ -16,7 +16,7 @@ $$
 gegeben, so gilt
 
 $$
-\mathrm D_p^k f(v_1,\dots,v_k)=
+\D_p^k f(v_1,\dots,v_k)=
 \sum_{i_1,\dots,i_k=1}^n
 \partial_{i_1}\cdots\partial_{i_k} f(p) v_{{i_1}1}\cdots v_{{i_k}k}.
 $$

@@ -1,10 +1,11 @@
 caption: Uniqueness
 created: 20190107205148630
 creator: Leander
-modified: 20191008213952268
+modified: 20191109154052749
 modifier: Leander
+revision: 0
 tags: [[Projective transformation]] no-toc
 title: Uniqueness of projective transformations
 type: text/vnd.tiddlywiki
 
-Let $$P(V)$$ and $$P(W)$$ be two $$n$$-dimensional [[projective spaces|Projective space]] and suppose $$A_1,\dots,A_{n+2}\in P(V)$$ and $$B_1,\dots,B_{n+2}\in P(W)$$ are in [[general position|General position (projective space)]]. Then there is a unique [[projective transformation|Projective transformation]] $$\hat f\colon P(V)\to P(W)$$ with $$\hat f(A_i)=B_i$$ for $$i=1,\dots,n+2.$$
+Let $$\mathrm P(V)$$ and $$\mathrm P(W)$$ be two $$n$$-dimensional [[projective spaces|Projective space]] and suppose $$A_1,\dots,A_{n+2}\in \mathrm P(V)$$ and $$B_1,\dots,B_{n+2}\in \mathrm P(W)$$ are in [[general position|General position (projective space)]]. Then there is a unique [[projective transformation|Projective transformation]] $$\hat f\colon \mathrm P(V)\to \mathrm P(W)$$ with $$\hat f(A_i)=B_i$$ for $$i=1,\dots,n+2.$$

@@ -1,25 +1,15 @@
-caption: Projective geometry
-created: 20181205092022596
-creator: Leander
-list: [[Projective subspace]] [[Projective line]] [[Homogeneous coordinates]] [[Affine coordinates]] [[General position (projective space)]] [[Desargues' theorem]] [[Pappus' theorem]] Cross-ratio [[Separation on the real projective line]] [[Harmonic position]] [[Theorem on the complete quadrilateral]] [[Projective transformation]] [[Topology on the real projective line]] [[Dual projective space]] [[Projective conic]] [[Projective quadric]]
-modified: 20191008213154582
-modifier: Leander
-tags: Geometrie
+created: 20191109133344166
+modified: 20191109153257197
+revision: 0
+tags: [[Projective geometry]] no-toc
 title: Projective space
-type: text/vnd.tiddlywiki
 
-Let $$V$$ be a [[vector space|Vektorraum]] over a [[field|Körper]] $$F.$$ The //projective space// of $$V$$ is the set $$P(V)$$ of one-dimensional [[subspaces|Untervektorraum]] of $$V.$$ If the dimension of $$V$$ is $$n+1$$ then the dimension of the projective space is (defined to be) $$n.$$
+Let $$V$$ be a [[vector space|Vektorraum]] over a [[field|Körper]] $$F.$$ The //projective space// of $$V$$ is the set $$\mathrm P(V)$$ of one-dimensional [[subspaces|Untervektorraum]] of $$V.$$ If the dimension of $$V$$ is $$n+1$$ then the dimension of the projective space is (defined to be) $$n.$$
 
-* If $$v\in V,\ v\ne 0,$$ then we write$$
-[v]\coloneqq\operatorname{span}(v)\in P(V).
-$$ The vector $$v$$ represents the subspace. If $$\lambda\ne 0,$$ then $$[\lambda v]=[v].$$
+* <div>If $$v\in V,\ v\ne 0,$$ then we write
+$$
+[v]\coloneqq\span(v)\in \mathrm P(V).
+$$
+The vector $$v$$ represents the subspace. If $$\lambda\ne 0,$$ then $$[\lambda v]=[v].$$</div>
 
-* We write $$P(F^{n+1})\eqqcolon FP^n.$$
-
-!! Homogeneous coordinates
-
-{{Homogeneous coordinates}}
-
-!! Affine coordinates
-
-{{Affine coordinates}}
+* We write $$\mathrm P(F^{n+1})\eqqcolon F\mathrm P^n.$$

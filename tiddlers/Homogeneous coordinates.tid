@@ -1,6 +1,7 @@
 created: 20181229134412132
-modified: 20191008212645720
-tags: [[Projective space]] no-toc
+modified: 20191109153318757
+revision: 0
+tags: [[Projective geometry]] no-toc
 title: Homogeneous coordinates
 type: text/vnd.tiddlywiki
 
@@ -10,4 +11,4 @@ $$
 v=\sum_{j=1}^{n+1} x_j v_j,
 $$
 
-then for a point $$[v]\in P(V),\ (x_1,\dots,x_{n+1})$$ are called //homogeneous coordinates// of $$[v].$$ These are unique only up to a non-zero factor.
+then for a point $$[v]\in \mathrm P(V),\ (x_1,\dots,x_{n+1})$$ are called //homogeneous coordinates// of $$[v].$$ These are unique only up to a non-zero factor.

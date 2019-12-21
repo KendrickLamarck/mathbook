@@ -1,22 +1,12 @@
 created: 20180528193125853
 creator: Leander
 list: Ausartungsraum [[Normalform symmetrischer Bilinearformen]] Signatur [[Signatur und Hauptminoren]]
-modified: 20180723130324726
+modified: 20191122203029444
 modifier: Leander
 revision: 0
 tags: Bilinearform
 title: Symmetrische Form
 
-Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung
-
-$$
-s\colon V\times V\to K
-$$
-
-heißt //symmetrisch//, falls
-
-$$
-s(v,w)=s(w,v).
-$$
+Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung $$s\colon V\times V\to K$$ heißt //symmetrisch//, falls $$s(v,w)=s(w,v).$$
 
 Eine [[Bilinearform]] ist genau dann symmetrisch, falls ihre [[darstellende Matrix|Darstellende Matrix (Bilinearformen)]] $$M_\mathcal A(s)$$ [[symmetrisch|Symmetrische Matrix]] ist.

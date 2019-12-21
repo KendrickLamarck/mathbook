@@ -1,13 +1,7 @@
 created: 20190510145111961
-modified: 20190510145255669
+modified: 20191121233750821
 revision: 0
 tags: Matrix
 title: Spezielle lineare Gruppe
 
-Die //spezielle lineare Gruppe//
-
-$$
-\operatorname{SL}(n;K)
-$$
-
-vom Grad $$n$$ über einem [[Körper]] $$K$$ ist die Menge aller [[Matrizen|Matrix]] $$A\in K^{n\times n},$$ für die $$\det A=1$$ gilt.
+Die //spezielle lineare Gruppe// $$\operatorname{SL}(n;K)$$ vom Grad $$n$$ über einem [[Körper]] $$K$$ ist die Menge aller [[Matrizen|Matrix]] $$A\in K^{n\times n},$$ für die $$\det A=1$$ gilt.

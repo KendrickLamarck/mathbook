@@ -1,0 +1,14 @@
+created: 20191116161739640
+list: [[Compatible charts]] [[Smooth atlas]] [[Smooth structure]] [[Pulling back smooth structures]] [[Differenzierbarkeit auf Mannigfaltigkeiten]] Germ
+modified: 20191214191242116
+revision: 0
+tags: Mannigfaltigkeit
+title: Smooth manifold
+
+{{Compatible charts}} {{Smooth atlas}} {{Smooth structure}}
+
+A //$$\mathcal C^r$$-manifold// is a topological manifold with a choice of $$\mathcal C^r$$-structure.
+
+!! Pulling back smooth structures
+
+{{Pulling back smooth structures}}

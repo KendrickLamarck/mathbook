@@ -1,7 +1,8 @@
 created: 20191010163825241
-modified: 20191010164156317
+modified: 20191105225708815
+revision: 0
 tags: Geometrie
 title: Subgeometry
 type: text/vnd.tiddlywiki
 
-Let $$(X,G)$$ be a transformation geometry with space $$X$$ and transformation group $$G.$$ A geometry $$(Y,H)$$ is a //subgeometry// of $$(X,G)$$ if $$Y\subseteq X$$ and $$H$$ is a [[subgroup|Untergruppe]] of $$G.$$
+Let $$(X,G)$$ be a transformation geometry with space $$X$$ and transformation [[group|Gruppe]] $$G.$$ A geometry $$(Y,H)$$ is a //subgeometry// of $$(X,G)$$ if $$Y\subseteq X$$ and $$H$$ is a [[subgroup|Untergruppe]] of $$G.$$

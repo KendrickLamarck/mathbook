@@ -1,9 +1,9 @@
 created: 20181210143432286
 creator: Leander
-modified: 20190107224844991
+modified: 20191109133501357
 modifier: Leander
 revision: 0
-tags: [[Projective space]]
+tags: [[Projective geometry]]
 title: Desargues' theorem
 
 Let $$A,A',B,B',C,C'$$ be points in a [[projective plane|Projective subspace]], $$A\ne A',\ B\ne B',\ C\ne C'.$$ If the lines $$AA',BB',CC'$$ intersect in one point $$P,$$ then the intersection points

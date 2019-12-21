@@ -1,9 +1,9 @@
 created: 20181217132114233
 creator: Leander
-modified: 20190206191228907
+modified: 20191109133501359
 modifier: Leander
 revision: 0
-tags: [[Projective space]]
+tags: [[Projective geometry]]
 title: Pappus' theorem
 
 Let $$A,B,C$$ be points on one line in a [[projective plane|Projective space]] $$P(V)$$ and let $$A',B',C'$$ be points on another line. Then the points

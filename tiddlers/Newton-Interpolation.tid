@@ -1,0 +1,34 @@
+created: 20191201192205915
+modified: 20191201195916127
+tags: Polynominterpolation
+title: Newton-Interpolation
+
+Seien Stützstellen $$(x_0,f_0),\dots,(x_n,f_n)\in\R^2$$ gegeben. Der Ausdruck $$f[x_k,\dots,x_k],$$ definiert durch die Rekursion
+
+$$\begin{aligned}
+f[x_k] &\coloneqq f_k,
+  &\text{ falls $k=l$,} \\
+f[x_k,\dots,x_l] &\coloneqq \frac
+  { f[x_{k+1},\dots,x_l] - f[x_k,\dots,x_{l-1}] }
+  { x_l - x_k },
+  &\text{ falls $k<l$,}
+\end{aligned}$$
+
+heißt //$$(l-k)$$-te Dividierte Differenz// von $$(x_k,f_k),\dots,(x_l,f_l).$$ Verwenden wir die //Newton-Basis// der Polynome höchstens $$n$$-ten Grades
+
+$$\begin{aligned}
+N_0(x) &= 1, \\
+N_i(x) &= (x-x_0)(x-x_1)\cdots(x-x_{i-1}), \quad i=1,\dots,n
+\end{aligned}$$
+
+und die Koeffizienten
+
+$$
+a_i=f[x_0,\dots,x_i], \quad i=0,\dots,n,
+$$
+
+so ist das eindeutige Polynom $$n$$-ten Grades, welches die Stützstellen $$(x_0,f_0),\dots,(x_n,f_n)$$ interpoliert gegeben durch
+
+$$
+P(x)=a_0 N_0(x) + \dots + a_n N_n(x).
+$$

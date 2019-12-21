@@ -1,7 +1,7 @@
 caption: Diagonalisierbarkeit
 created: 20180626182149565
 creator: Leander
-modified: 20191004194932807
+modified: 20191028133741937
 modifier: Leander
 revision: 0
 tags: [[Selbstadjungierter Endomorphismus]] no-toc
@@ -14,10 +14,11 @@ Ist $$F$$ ein [[selbstadjungierter|Selbstadjungierter Endomorphismus]] [[Endomor
 Ist $$A\in \mathbb K^{n\times n}$$ eine [[symmetrische|Symmetrische Matrix]] bzw. [[Hermite'sche|Hermite'sche Matrix]] [[Matrix]], so gibt es eine [[orthogonale|Orthogonale/unitäre Matrix]] bzw. unitäre Matrix $$S,$$ so dass
 
 $$
-\bar S^\mathrm T AS=\begin{pmatrix}
-\lambda_1 && 0 \\
-& \mkern{-15mu}\raisebox{-3mu}{$\ddots$} \\
-0 && \mkern{-15mu}\lambda_n
+\bar S^\mathrm T AS=
+\begin{pmatrix}
+\lambda_1 &                     & 0                      \\[3mu]
+          & \mkern{-15mu}\ddots                          \\[-5mu]
+0         &                     & \mkern{-15mu}\lambda_n
 \end{pmatrix}.
 $$
 
@@ -25,11 +26,7 @@ $$
 Sind $$\lambda_1,\dots,\lambda_k$$ die verschiedenen Eigenwerte eines selbstadjungierten oder unitären Endomorphismus $$F$$ von $$V,$$ so ist
 
 $$
-V=\operatorname{Eig}(F;\lambda_1)
-\mathbin{\perp\kern-21mu{\bigcirc}}
-\dots
-\mathbin{\perp\kern-21mu{\bigcirc}}
-\operatorname{Eig}(F;\lambda_n).
+V=\Eig(F;\lambda_1)\operp\dots\operp\Eig(F;\lambda_n).
 $$
 
 !!! Algorithmus

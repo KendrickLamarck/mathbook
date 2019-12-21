@@ -1,0 +1,10 @@
+created: 20191129165327262
+modified: 20191129165602890
+tags: [[Graded algebra]]
+title: Antiderivation
+
+An //antiderivation// on the [[graded algebra|Graded algebra]] $$(\Omega^* M,\wedge)$$ is a linear map $$D\colon \Omega^* M \to \Omega^* M$$ satisfying the following version of the Leibniz product rule for $$\omega\in\Omega^k M$$ and $$\eta\in\Omega^l M$$:
+
+$$
+D(\omega\wedge\eta) = (D\omega) \wedge \eta + (-1)^k\omega \wedge (D\eta).
+$$

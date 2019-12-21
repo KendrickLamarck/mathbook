@@ -1,0 +1,9 @@
+created: 20191112195156861
+modified: 20191116215448430
+revision: 0
+tags: Mannigfaltigkeit
+title: Topologische Mannigfaltigkeit
+
+A //topological $$m$$-manifold// is a [[second countable|Second-countable]] [[Hausdorff space|Hausdorff'scher Raum]] $$M=M^m$$ that is locally [[homeomorphic|Homöomorphismus]] to $$\R^m,$$ i.e. for all $$p\in M$$ there exists an open neighborhood $$U\ni p$$ and a homeomorphism $$\varphi\colon U\to\varphi(U)\subseteq\R^m.$$ The pair $$(U,\varphi)$$ is called a //(coordinate) chart// for $$M.$$
+
+A topological manifold $$M$$ is [[locally connected|Local connectedness]], [[locally compact|Local compactness]], [[normal|Normal topological space]] and [[paracompact|Paracompactness]].

@@ -1,0 +1,61 @@
+caption: Planar curves
+created: 20191015201352387
+modified: 20191106215753228
+revision: 0
+tags: [[Lie geometry]]
+title: Lie geometric planar curve
+
+A //Lie geometric planar curve// is a one-parameter family of [[contact elements|Lie geometric contact element]]
+
+$$
+l(t)=\mathrm P(\span(S_1(t),S_2(t)))
+\subset\mathscr L\subset\RP^4
+$$
+
+satisfying $$\langle S_1',S_2\rangle=0.$$ This is called the //strip condition// or //Streifenbedingung.//
+
+[[Lie transformations|Lie transformation]] map Lie geometric plane curves to Lie-geometric plane curves.
+
+!! Derivation
+
+A [[planar curve|Regular curve]] $$\gamma\colon I\to\R^2$$ can be seen as the collection of lines through the points
+
+$$
+[S_1]=
+\begin{bmatrix}
+\gamma_1   \\
+\gamma_2   \\
+|\gamma|^2 \\
+1             \\
+0
+\end{bmatrix},\quad
+[S_2]=
+\begin{bmatrix}
+ \gamma_2'   \\
+-\gamma_1'   \\
+-2(-\gamma_2'\gamma_1+\gamma_1'\gamma_2) \\
+0             \\
+|\gamma'|
+\end{bmatrix}.
+$$
+
+$$S_1(t)$$ is the point sphere corresponding to $$\gamma(t)$$ and $$S_2(t)$$ is the tangent line at $$\gamma(t)$$ given by $$\langle N(t),x\rangle=\langle N(t),\gamma(t)\rangle.$$
+
+For the other direction, let $$l$$ be a collection of contact elements. Assume the point sphere contained in them is not $$\infty.$$ Then every $$l(t)$$ contains exactly one oriented line
+$$\langle x,n\rangle-d=0.$$
+A necessary condition for the one-parameter family $$l(t)$$ of contact elements to envelop the curve $$\gamma(t)$$ is that $$\langle\gamma,n\rangle-d=0$$ and $$\langle\gamma',n\rangle=0.$$
+The first condition is equivalent to
+$$\langle S_1,S_2\rangle=0$$
+(wich is always satisfied) and the second one is equivalent to
+$$\langle S_1',S_2\rangle=0.$$
+
+We can also choose any other parametrization: Let $$l(t)=\mathrm P(\operatorname{span}(S_1(t),S_2(t))$$ is a one-parameter family of lines in $$\mathscr L$$ and $$\langle S_1',S_2\rangle=0.$$ If
+$$\mathrm P(\span(\tilde S_1(t),\tilde S_2(t))$$
+is another representation of the same one-parameter family of lines, then
+$$\langle \tilde S_1',\tilde S_2\rangle=0.$$
+
+!! Osculating circles
+
+Let us call a Lie geometric planar curve $$l(t)=\mathrm P(\span(S_1(t),S_2(t)))$$ //regular,// if $$\rank(S_1,S_2,S_1',S_2')\ge 3.$$ Since $$S_1,S_2,S_1',S_2'$$ are linearly dependent, such a curve also [[envelops a curve|Projective lines enveloping a curve]] $$[S(t)]$$ in the Lie quadric itself. This curve is the one-parameter family of [[osculating circles|Osculating circle]] (Schmiegekreise).
+
+{{Osculating circle}}

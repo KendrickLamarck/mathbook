@@ -1,19 +1,20 @@
 created: 20180617122044542
 creator: Leander
-modified: 20191010153342572
+modified: 20191104155243262
 modifier: Leander
+revision: 0
 tags: Orthogonalität no-toc
 title: Orthogonale Gruppen
 type: text/vnd.tiddlywiki
 
 Die Mengen
 
-* $$\mathrm O(n)\coloneqq\{\,A\in\operatorname{GL}(n;\mathbb R):A^{-1}=A^\mathrm T\,\},$$ @@float:right;(orthogonale Gruppe)@@
+* $$\O(n)\coloneqq\{\,A\in\GL(n;\R):A^{-1}=A^\mathrm T\,\},$$ @@float:right;(orthogonale Gruppe)@@
 
-* $$\mathrm{SO}(n)\coloneqq\{\,A\in \mathrm O(n):\det A=1\,\},$$ @@float:right;(spezielle orthogonale Gruppe)@@
+* $$\SO(n)\coloneqq\{\,A\in \O(n):\det A=1\,\},$$ @@float:right;(spezielle orthogonale Gruppe)@@
 
-* $$\mathrm U(n)\coloneqq\{\,A\in\mathrm{GL}(n;\mathbb C):A^{-1}=\bar A^\mathrm T\,\}$$ @@float:right;(unitäre Gruppe)@@
+* $$\U(n)\coloneqq\{\,A\in\GL(n;\C):A^{-1}=\bar A^\mathrm T\,\}$$ @@float:right;(unitäre Gruppe)@@
 
-sind [[Untergruppen|Untergruppe]] von $$\operatorname{GL}(n;\mathbb K).$$
+sind [[Untergruppen|Untergruppe]] von $$\GL(n;\mathbb K).$$
 
-Für $$\mathbb R^{p,q}$$ bezeichnen wir die entsprechenden Gruppen mit $$\mathrm O(p,q)$$ und $$\mathrm{SO}(p,q).$$ (siehe [[Orthogonale/unitäre Matrix]]).
+Für $$\R^{p,q}$$ bezeichnen wir die entsprechenden Gruppen mit $$\O(p,q)$$ und $$\SO(p,q).$$ (siehe [[Orthogonale/unitäre Matrix]]).

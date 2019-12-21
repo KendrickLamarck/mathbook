@@ -1,0 +1,7 @@
+created: 20191116160442697
+modified: 20191129231452164
+revision: 0
+tags: [[Smooth manifold]] no-toc
+title: Smooth structure
+
+A //$$\mathcal C^r$$-structure// on $$M$$ is a maximal $$\mathcal C^r$$-atlas, i.e. a $$\mathcal C^r$$-atlas $$\mathcal U=\{(U_\alpha,\varphi_\alpha)\}$$ such that any chart $$(V,\psi)$$ that is compatible with all the $$(U_\alpha,\varphi_\alpha)$$ is already contained in $$\mathcal U.$$ For any $$\mathcal C^r$$-atlas there is a unique maximal one containing it.

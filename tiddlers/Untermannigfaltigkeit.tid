@@ -1,0 +1,24 @@
+created: 20180708183242867
+creator: Leander
+list: [[Mannigfaltigkeit als lokale Nullstellenmenge]] [[Mannigfaltigkeiten als Graphen]] [[Mannigfaltigkeit als Bild eines Homöomorphismus]] [[Parameterdarstellung von Mannigfaltigkeiten]] Atlas Kartenwechsel [[Gleichungsdefinierte Mannigfaltigkeiten]] Tangentialvektor [[Tangentialraum von Untermannigfaltigkeiten]] Normalenvektor [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Integrale über Untermannigfaltigkeiten]] [[Kompaktum mit glattem Rand]] [[Extrema auf Mannigfaltigkeiten]]
+modified: 20191213211924491
+modifier: Leander
+revision: 0
+tags: Mannigfaltigkeit
+title: Untermannigfaltigkeit
+type: text/vnd.tiddlywiki
+
+Given a [[manifold|Topologische Mannigfaltigkeit]] $$N^n,$$ we say a subset $$M\subseteq N$$ is an //$$m$$-submanifold// if around each point $$p\in M$$ there is a coordinate chart $$(U,\varphi)$$ for $$N$$ such that
+
+$$
+\varphi(M\cap U)=\varphi(U)\cap(\R^m\times\{0\})\subseteq\R^n.
+$$
+
+!! Definition als lokale Nullstellenmenge
+{{Mannigfaltigkeit als lokale Nullstellenmenge}}
+!! Lokale Parametrisierungen
+{{Parameterdarstellung von Mannigfaltigkeiten}}
+!! Als Graph
+{{Mannigfaltigkeiten als Graphen}}
+!! Als Bild eines Homöomorphismus
+{{Mannigfaltigkeit als Bild eines Homöomorphismus}}

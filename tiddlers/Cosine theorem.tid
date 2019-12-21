@@ -1,0 +1,9 @@
+created: 20191105192446341
+modified: 20191105192509981
+revision: 0
+tags: [[Euclidean geometry]]
+title: Cosine theorem
+
+$$
+c^2=a^2+b^2-2ab\cos(\gamma)
+$$

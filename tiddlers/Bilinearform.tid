@@ -1,20 +1,14 @@
 created: 20180528192533677
 creator: Leander
 list: [[Darstellende Matrix (Bilinearformen)]] [[Transformationsformel (Bilinearformen)]] [[Symmetrische Form]] Sesquilinearform [[Alternierende Form]] [[Schiefsymmetrische Form]] Definitheit [[Bilinearformen und Endomorphismen]] [[Bilinearformen und duale Abbildungen]]
-modified: 20191003195550916
+modified: 20191122203133828
 modifier: Leander
 revision: 0
 tags: [[Lineare Algebra]]
 title: Bilinearform
 type: text/vnd.tiddlywiki
 
-Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung
-
-$$
-s\colon V\times V\to K
-$$
-
-heißt //Bilinearform//, wenn für alle $$v,v'w,w'\in V$$ und $$\lambda\in\mathbb K$$ gilt:
+Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung $$s\colon V\times V\to K$$ heißt //Bilinearform//, wenn für alle $$v,v'w,w'\in V$$ und $$\lambda\in\mathbb K$$ gilt:
 $$\begin{aligned}
 s(v+v',w)&=s(v,w)+s(v',w),\quad s(\lambda v,w)=\lambda s(v,w),\\
 s(v,w+w')&=s(v,w)+s(v,w'),\quad s(v,\lambda w)=\lambda s(v,w).

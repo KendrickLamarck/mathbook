@@ -1,0 +1,30 @@
+created: 20191112232507929
+modified: 20191214192450927
+revision: 0
+tags: Mannigfaltigkeit
+title: Pushforward
+
+Let $$M,N$$ be [[smooth manifolds|Smooth manifold]] and $$f\colon M\to N$$ be a smooth map. Consider a point $$p\in M$$ and its image $$q=f(p).$$ Then for $$X_p\in\mathrm T_p M$$ (or a whole [[vector field|Vektorfeld]]), the //pushforward// is defined as
+
+$$
+f_*\colon\T_p M\to \T_q M,\quad
+f_*(X_p)\coloneqq X_p\circ f^*,
+$$
+
+i.e. the [[dual map|Duale Abbildung]] of the [[pullback|Pullback]]. This is a generalization of the [[differential|Ableitung]], so we also write this map as $$\D_p f.$$ For $$g\in\mathcal C^\infty(q)$$ we have
+
+$$
+\D_p f(X_p)(g)=X_p(g\circ f).
+$$
+
+If $$f=h\circ g,$$ then $$f_*=h_*\circ g_*.$$
+
+!! Pushforwards as covector fields
+
+In the case where $$f\in\mathcal C^\infty(M),$$ we write
+
+$$
+\T_p^* M\ni\d f = \d_p f\colon \T_p M\to\R,\quad \d f(X)\coloneqq Xf.
+$$
+
+This [[one-form|One-form]] is just another way to view the differential, since $$\D_p f(X)=\d_p f(X)\partial_t,$$ where $$\partial_t$$ is the standard basis for $$\T_{f(p)}\R.$$

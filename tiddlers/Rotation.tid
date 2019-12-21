@@ -1,11 +1,11 @@
 created: 20190408230946576
-modified: 20190408233015676
+modified: 20191112213855084
 revision: 0
 tags: [[Linearer Differentialoperator]]
 title: Rotation
 type: text/vnd.tiddlywiki
 
-Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld|Vektor- und skalares Feld]]. Dann definieren wir
+Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir
 
 $$
 \operatorname{rot}a\coloneqq
@@ -16,4 +16,4 @@ $$
 \end{pmatrix}.
 $$
 
-Sumbolisch ist $$\operatorname{rot} a=(\partial_1,\partial_2,\partial_3)\times(a_1,a_2,a_3).$$
+Symbolisch ist $$\operatorname{rot} a=(\partial_1,\partial_2,\partial_3)\times(a_1,a_2,a_3).$$

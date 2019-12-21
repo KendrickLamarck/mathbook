@@ -1,0 +1,23 @@
+created: 20191214195549411
+modified: 20191214195549411
+tags: Volumen
+title: Volumen von Untermannigfaltigkeiten des Rn
+
+Sei $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit]]. Eine Teilmenge $$A\subseteq M$$ heißt eine //integrierbare Teilmenge,// wenn $$\mathbf 1_A$$ über $$M$$ integrierbar ist. In diesem Fall nennt man
+
+$$
+\operatorname{Vol}_k(A)\coloneqq
+\int_M\mathbf 1_A(x)\,\Bbb S(\mathrm dx)
+$$
+
+das //$$k$$-dimensionale Volumen// oder den //$$k$$-dimensionalen Flächeninhalt// von $$A.$$ Eine Funktion $$f\colon M\to\Bbb R$$ heißt über $$A$$ integrierbar, wenn $$f\mathbf 1_A$$ über $$M$$ integrierbar ist, und man setzt
+
+$$
+\int_A f(x)\,\Bbb S(\d x)\coloneqq
+\int_M f(x)\mathbf 1_A(x)\,\Bbb S(\d x).
+$$
+
+Die Menge $$A$$ heißt eine //$$k$$-dimensionale Nullmenge,// falls $$\operatorname{Vol}_k(A)=0.$$
+
+!! Skalierung
+{{Skaliertes Volumen}}

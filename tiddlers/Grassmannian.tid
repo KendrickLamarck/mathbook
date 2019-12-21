@@ -1,0 +1,24 @@
+created: 20191122214332057
+modified: 20191123195912140
+tags: [[Exterior algebra]]
+title: Grassmannian
+
+Let $$V$$ be a vector space. By $$\G_k V$$ we denote the set of oriented $$k$$-planes in $$V,$$ called the //(oriented) Grassmannian.//
+
+!! Correspondence with multivectors
+
+{{Multivectors as hyperplanes}}
+
+!! Grassmannian as a manifold
+
+If we choose an inner product on $$V,$$ then we can identify
+
+$$
+\G_k V=\SO(m)/(\SO(k)\times\SO(m-k)).
+$$
+
+In particular, it is a smooth manifold of dimension $$m(m-k).$$
+
+!! Hodge star operator
+
+{{Hodge star}}

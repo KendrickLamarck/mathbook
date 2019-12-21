@@ -1,0 +1,7 @@
+created: 20191116232244035
+modified: 20191116232625477
+revision: 0
+tags: Mannigfaltigkeit no-toc
+title: Section
+
+A //section// of a vector bundle $$\pi\colon E\to M$$ is a smooth map $$\sigma\colon M\to E$$ such that $$\pi\circ\sigma=\id_M,$$ meaning $$\sigma(p)\in E_p$$ for each $$p\in M.$$ The space of all (smooth) sections is denoted $$\Gamma(E).$$

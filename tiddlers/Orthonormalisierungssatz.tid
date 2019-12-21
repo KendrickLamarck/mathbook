@@ -1,6 +1,6 @@
 created: 20180608212150116
 creator: Leander
-modified: 20191004194005603
+modified: 20191028133905376
 modifier: Leander
 revision: 0
 tags: Orthogonalität
@@ -20,9 +20,7 @@ Jeder endlichdimensionale euklidische bzw unitäre Vektorraum besitzt eine Ortho
 Ist $$W$$ Untervektorraum eines euklidischen bzw. unitären Vektorraumes $$V,$$ so gilt
 
 $$
-V=W
-\mathbin{\perp\kern-21mu{\bigcirc}}
-W^\perp,\quad\dim V=\dim W+\dim W^\perp.
+V=W \operp W^\perp,\quad\dim V=\dim W+\dim W^\perp.
 $$
 
 !! Gram-Schmidt-Verfahren

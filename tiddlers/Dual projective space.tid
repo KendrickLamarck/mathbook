@@ -1,9 +1,9 @@
 created: 20190128135149346
 creator: Leander
-modified: 20190128135737557
+modified: 20191109133501357
 modifier: Leander
 revision: 0
-tags: [[Projective space]]
+tags: [[Projective geometry]]
 title: Dual projective space
 
 For a [[projective space|Projective space]] $$P(V),$$ we define the //dual projective space// to be $$P(V^*).$$ We obtain the following //duality principle://

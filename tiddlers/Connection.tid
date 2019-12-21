@@ -1,0 +1,20 @@
+created: 20191220195817702
+modified: 20191220200916470
+tags: Mannigfaltigkeit
+title: Connection
+
+Given a [[vector bundle|Vector bundle]] $$E \to M,$$ a connection on $$E$$ is a bilinear map 
+
+$$
+\nabla\colon\mathcal X(M)\times\Gamma(E)\to \Gamma(E),\quad
+(X,\sigma)\mapsto\nabla_X\sigma,
+$$
+
+which is $$\mathcal C^\infty(M)$$-linear in $$X$$ and satisfies a product rule for $$\sigma$$:
+
+$$
+\nabla_{fX} \sigma = f \nabla_X \sigma,\quad
+\nabla_X(f\sigma) = (Xf)\sigma + f \nabla_X \sigma.
+$$
+
+We call $$\nabla_X \sigma$$ the //covariant derivative// of $$\sigma.$$

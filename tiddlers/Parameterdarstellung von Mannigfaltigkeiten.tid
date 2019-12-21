@@ -1,0 +1,8 @@
+created: 20190324105523782
+modified: 20191124215952856
+revision: 0
+tags: Untermannigfaltigkeit no-toc
+title: Parameterdarstellung von Mannigfaltigkeiten
+type: text/vnd.tiddlywiki
+
+Eine Teilmenge $$M^m$$ einer Mannigfaltigkeit $$N^n$$ ist genau dann eine [[Untermannigfaltigkeit]], wenn zu jedem $$p\in M$$ eine offene Umgebung $$U\subseteq N$$ von $$p,$$ eine offene Teilmenge $$T\subseteq\Bbb R^m$$ und eine [[Immersion|Immersion und Submersion]] $$\varphi\in\mathcal C^r(T\to U),$$ die $$T$$ [[homöomorph|Homöomorphismus]] auf $$M\cap U$$ abbildet, existieren. Der Homöomorphismus $$\varphi\colon T\to M\cap U$$ heißt eine //lokale reguläre Parameterdarstellung// der Mannigfaltigkeit $$M.$$

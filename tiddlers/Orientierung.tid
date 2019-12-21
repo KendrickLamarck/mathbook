@@ -1,6 +1,6 @@
 created: 20180420124512429
 creator: Leander
-modified: 20180710185541244
+modified: 20191201214418338
 modifier: Leander
 revision: 0
 tags: Basis
@@ -18,4 +18,8 @@ $$
 X=X_\bullet\cup X^\bullet,
 $$
 
-Als //Orientierung// von $$V$$ bezeichnet man eine Äquivalenzklasse gleich orientierter Basen.
+Als //Orientierung// von $$V$$ bezeichnet man eine Äquivalenzklasse gleich orientierter Basen. Der $$\R^n$$ besitzt eine kanonische Orientierung, die durch die Standardbasis gegeben ist.
+
+!! With differential forms
+
+An //orientation// on an $$m$$-dimensional vector space $$V$$ is a choice of component of $$\Lambda^m V\setminus\{0\}\cong\R\setminus\{0\},$$ i.e. a choice of nonzero $$m$$-form in $$\omega\in\Lambda^m V$$ up to positive multiples. If $$\omega$$ orients $$V,$$ then an ordered basis $$(e_1,\dots,e_m)$$ is said to be //positively oriented// if $$\omega(e_1,\dots,e_m)>0.$$

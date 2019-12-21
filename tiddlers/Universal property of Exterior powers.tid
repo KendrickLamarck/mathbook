@@ -1,0 +1,6 @@
+created: 20191122204845747
+modified: 20191128224817490
+tags: [[Exterior algebra]] no-toc
+title: Universal property of Exterior powers
+
+The exterior powers together with the ($$k$$-linear) quotient map $$\varrho\colon V^k\to\Lambda_k V$$ are also characterized by the following universal property: For any [[alternating|Alternierende multilineare Abbildung]] $$k$$-linear map $$F$$ from $$V^k$$ to any vector space $$W,$$ it factors uniquely through $$\Lambda_k V,$$ i.e. there is exactly one linear map $$\tilde F$$ such that $$F=\tilde F\circ\varrho.$$

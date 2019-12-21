@@ -1,0 +1,13 @@
+created: 20191114011328888
+modified: 20191129165738396
+revision: 0
+tags: Vektorfeld no-toc
+title: Verknüpfte Vektorfelder
+
+Sei $$f\colon M\to N$$ [[glatt|Differenzierbarkeit auf Mannigfaltigkeiten]] und seien $$X$$ und $$Y$$ zwei [[Vektorfelder|Vektorfeld]] auf $$M$$ bzw. $$N.$$ Wir sagen,  //$$Y$$ ist $$f$$-verknüpft mit ($$f$$-related to) $$X$$,// wenn
+
+$$
+\D_p f(X_p)=Y_{f(p)}.
+$$
+
+Wenn $$f$$ ein [[Diffeomorphismus]] ist, gibt es ein eindeutiges $$Y,$$ welches $$f$$-verknüpft mit $$X$$ ist und wir schreiben $$Y=f_*(X).$$

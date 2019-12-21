@@ -1,0 +1,16 @@
+caption: Strips
+created: 20191020200709771
+modified: 20191106223114388
+revision: 0
+tags: [[Lie geometry]]
+title: Lie-geometric strip
+
+Consider three-dimensional Lie geometry and a family of [[contact elements|Lie geometric contact element]]
+$$l(t)=\mathrm P(\R S_1(t)+\R S_2(t))\subset\mathscr L.$$
+If $$S_1$$ and $$S_2$$ satisfy the strip condition $$\langle S_1,S_2'\rangle=0,$$ then the velocity vector $$\gamma'(t)$$ is in the direction of the plane at $$t.$$ A one-parameter family of contact elements satisfying the strip condition is called a //Lie-geometric strip.//
+
+If in addition $$S_1,S_2,S_1',S_2'$$ are linearly dependent, then the strip is called a //curvature strip (Krümmungsstreifen).// A curvature strip can be thought of as a curve with a normal vector field.
+
+!! Curvature strip of curves
+
+Consider a curve $$\gamma\colon I\to\R^3$$ which is parametrized by arclength, i.e. $$\|\gamma'\|=1$$ and $$\gamma''(t)\ne 0.$$ Define the unit tangent vector $$T(t)\coloneqq\gamma'(t)$$ and the unit Frénet normal vector $$N(t)\coloneqq\gamma''(t)/\|\gamma''(t)\|,$$ then $$N$$ is orthogonal to $$T.$$ The strip $$(\gamma,N)$$ is a curvature strip. The enveloped curve in $$\mathscr L$$ represents the spheres with center $$c=\gamma+\frac 1 \kappa N$$ and radius $$r=\frac 1 \kappa,$$ where $$\kappa=\|\gamma''\|.$$

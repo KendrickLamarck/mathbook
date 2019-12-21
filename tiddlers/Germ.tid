@@ -1,0 +1,17 @@
+created: 20191113194032904
+modified: 20191214191236388
+revision: 0
+tags: [[Smooth manifold]]
+title: Germ
+
+Let $$p$$ be a point in a [[smooth manifold|Smooth manifold]] $$M^m$$ and consider the class
+
+$$
+\mathcal C=\bigcup_{U\ni p}\mathcal C^\infty(U)
+$$
+
+of smooth functions defined on some open neighborhood of $$p.$$ Define the following [[equivalence relation|Äquivalenzrelation]]: $$f\colon U\to\R$$ and $$g\colon V\to\R$$ are equivalent if there exists an open $$W\subseteq U\cap V$$ containing $$p$$ such that $$f|_W=g|_W.$$ An equivalence class is called a //germ// (of a smooth function) at $$p.$$ The set of all germs at $$p$$ is the quotient space
+$$\mathcal C/\text{\textasciitilde}\eqqcolon\mathcal C^\infty(p)$$
+and we sometimes write $$g$$ instead of $$[g].$$
+
+Note that we know the value of a germ $$g$$ at $$p$$ but not anywhere else. In $$\R^m$$ it also encodes all derivatives. The space $$\mathcal C^\infty(p)$$ is an [[algebra|Algebra (algebraische Struktur)]].

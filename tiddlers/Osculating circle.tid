@@ -1,0 +1,17 @@
+created: 20191020175857039
+modified: 20191020180449663
+revision: 0
+tags: Kurve
+title: Osculating circle
+
+If
+$$\gamma\colon I\to\R^2$$
+is a [[regular curve|Regular curve]] parametrized by arclength, i.e.
+$$\|\gamma'\|=1,$$
+then
+$$\gamma''=\kappa N,$$
+where
+$$\kappa$$
+is the curvature. The osculating circle is the circle with center $$\gamma+\frac 1 \kappa N$$
+and radius
+$$\frac 1 \kappa.$$

@@ -1,13 +1,13 @@
 created: 20181204161329752
 creator: Leander
-modified: 20190414130053714
+modified: 20191129162137132
 modifier: Leander
 revision: 0
 tags: Maßtheorie
 title: Äußeres Maß
 type: text/vnd.tiddlywiki
 
-Sei $$\Omega$$ eine Menge. Eine Mengenfunktion $$\mu^*\colon\mathcal P(\Omega)\to[0,\infty]$$ heißt ein //äußeres Maß,// falls gilt:
+Sei $$\Omega$$ eine Menge. Eine Mengenfunktion $$\mu^*\colon\mathcal P(\varOmega)\to[0,\infty]$$ heißt ein //äußeres Maß,// falls gilt:
 
 * $$\mu^*(\varnothing)=0,$$
 * $$\mu^*$$ ist monoton,

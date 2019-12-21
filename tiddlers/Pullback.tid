@@ -1,0 +1,25 @@
+created: 20191112232513190
+list: [[Pullback of Riemannian metrics]] [[Pullback of one-forms]] [[Pullback of differential forms]]
+modified: 20191129170416889
+revision: 0
+tags: Mannigfaltigkeit
+title: Pullback
+
+!! Germs
+
+Let $$M,N$$ be smooth manifolds and $$f\colon M\to N$$ be a smooth map. Consider a point $$p\in M$$ and its image $$q=f(p).$$ This induces the //pullback// map
+
+$$
+f^*\colon\mathcal C^\infty(q)\to\mathcal C^\infty(p),\quad
+f^*(g)\coloneqq g\circ f,
+$$
+
+and similarly for $$\mathcal C^\infty(N)\to\mathcal C^\infty(M).$$ This is a linear map. If $$f=h\circ g,$$ then $$f^*=g^*\circ h^*.$$
+
+!! Riemannian metrics
+
+{{Pullback of Riemannian metrics}}
+
+!! Differential forms
+
+{{Pullback of differential forms}}

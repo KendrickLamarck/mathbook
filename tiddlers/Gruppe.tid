@@ -1,6 +1,6 @@
 created: 20171225175847529
 list: Untergruppe [[Symmetrische Gruppe]] [[Orthogonale Gruppen]]
-modified: 20191003191122247
+modified: 20191105225741631
 revision: 0
 tags: Algebra
 title: Gruppe
@@ -25,3 +25,7 @@ _a\tau&\colon G\to G,\quad x \mapsto a\cdot x,
 $$
 
 genannt Rechtstranslation und Linkstranslation. Ist $$(G,\cdot)$$ eine Gruppe, so sind für jedes $$a\in G$$ die Abbildungen $$\tau_a$$ und $$_a\tau$$ [[bijektiv|Bijektivität]]. Ist umgekehrt $$G$$ eine Menge mit einer assoziativen Verknüpfung, so folgt das zweite Axiom aus der [[Surjektivität]] von $$\tau_a$$ und $$_a\tau$$ für alle $$a\in G$$.
+
+!! Untergruppe
+
+{{Untergruppe}}

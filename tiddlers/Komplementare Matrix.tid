@@ -1,6 +1,6 @@
 created: 20180410195153332
 creator: Leander
-modified: 20190705144331445
+modified: 20191122000652856
 modifier: Leander
 revision: 0
 tags: Determinante
@@ -27,7 +27,7 @@ $$
 also ist die Komplementäre Matrix bis auf den Faktor $$\det A$$ gleich der inversen Matrix. Dies gilt ebenso falls der Körper $$K$$ durch einen kommutativen [[Ring]] mit Eins ersetzt wird.
 
 ''Korollar.''
-Sei $$A\in\operatorname{GL}(n;K)$$. Definiert man $$C=(c_{ij})\in K^{n\times n}$$ durch
+Sei $$A\in\GL(n;K)$$. Definiert man $$C=(c_{ij})\in K^{n\times n}$$ durch
 
 $$
 c_{ij}\coloneqq(-1)^{i+j}\cdot\det A'_{ij},

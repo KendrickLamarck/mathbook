@@ -1,8 +1,9 @@
 created: 20180731215641815
 creator: Leander
-modified: 20191011164807005
+modified: 20191114195738916
 modifier: Leander
-tags: Mannigfaltigkeit
+revision: 0
+tags: Untermannigfaltigkeit
 title: Gleichungsdefinierte Mannigfaltigkeiten
 type: text/vnd.tiddlywiki
 
@@ -12,7 +13,7 @@ $$
 M\coloneqq g^{-1}(\{q\})
 $$
 
-eine $$(d-r)$$-dimensionale $$\mathcal C^\alpha$$-[[Mannigfaltigkeit]]. Für den [[Tangentialraum]] gilt
+eine $$(d-r)$$-dimensionale $$\mathcal C^\alpha$$-[[Mannigfaltigkeit|Untermannigfaltigkeit]]. Für den [[Tangentialraum|Tangentialraum von Untermannigfaltigkeiten]] gilt
 
 $$
 \mathrm T_a M=\ker\mathrm D_a g.

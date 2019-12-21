@@ -1,0 +1,12 @@
+created: 20191214194759006
+modified: 20191214194759006
+tags: Volumen
+title: Volumen von Kompakta
+
+Das Volumen einer [[kompakten|Kompaktheit]] Teilmenge $$K\subset\mathbb R^d$$ ist definiert als
+
+$$
+\operatorname{Vol}_d(K)\coloneqq
+\int_{\mathbb R^d} \mathbf 1_K(x)\,\mathrm dx =
+\int_K 1\,\mathrm dx.
+$$

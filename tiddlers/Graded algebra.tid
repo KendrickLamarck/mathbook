@@ -1,0 +1,6 @@
+created: 20191121215500928
+modified: 20191121222101719
+tags: Mannigfaltigkeit
+title: Graded algebra
+
+A //graded algebra// is a [[vector space|Vektorraum]] $$A$$ [[decomposed|Direkte Summe]] as $$A=\bigoplus_{k=0}^\infty A_k$$ together with an associative [[bilinear|Multilineare Abbildung]] multiplication operation $$A\times A\to A$$ that respects the grading in the sense that the product $$\omega\cdot\eta$$ of elements $$\omega\in A_k$$ and $$\eta\in A_l$$ is an element of $$A_{k+l}.$$ Certain graded algebras can be commutative or anticommutative, where //anticommutative// means that for $$\omega,\eta$$ as above, we have $$\omega\cdot\eta=(-1)^{kl}\eta\cdot\omega.$$

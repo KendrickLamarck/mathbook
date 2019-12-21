@@ -1,0 +1,18 @@
+created: 20191123223003774
+modified: 20191123223556107
+tags: Gruppe
+title: Group action
+
+If $$G$$ is a [[group|Gruppe]] and $$X$$ is any set, then an //action// $$\theta$$ of $$G$$ on $$X$$ is a map
+
+$$
+\theta\colon G\times X\to X,\quad (g,x)\mapsto g\cdot x\coloneqq \theta_g(x)
+$$
+
+Such that $$\theta_e=\id_X$$ and $$\theta_{gh}=\theta_g \circ \theta_h.$$ The action $$\theta$$ partitions $$X$$ into //orbits//
+
+$$
+G\cdot x\coloneqq \{\, g\cdot x\mid g\in G \,\},
+$$
+
+which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot x.$$

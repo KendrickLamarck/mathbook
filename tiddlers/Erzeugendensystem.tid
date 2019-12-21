@@ -1,6 +1,6 @@
 created: 20171230201623304
 creator: Leander
-modified: 20180725180417789
+modified: 20191121233959034
 modifier: Leander
 revision: 0
 tags: Basis
@@ -14,3 +14,7 @@ V = \operatorname{span} (v_i)_{i \in I},
 $$
 
 d.h. wenn jedes $$v \in V$$ [[Linearkombination]] von endlichen vielen $$v_i$$ ist. $$V$$ heißt //endlich erzeugt//, falls es ein endliches Erzeugendensystem gibt.
+
+!! Basisauswahlsatz
+
+{{Basisauswahlsatz}}

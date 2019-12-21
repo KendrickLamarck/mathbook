@@ -1,7 +1,7 @@
 created: 20181219095331444
-modified: 20181219100332052
+modified: 20191016210653126
 revision: 0
 tags: [[Projective transformation]]
 title: Projective linear group
 
-The //projective linear group// $$\mathrm{PGL}(V)$$ is the quotient group $$\mathrm{GL}(V)/\{\lambda I\}_{\lambda\ne 0}$$ of the [[general linear group|Allgemeine lineare Gruppe]] with regard to the [[equivalence relation|Äquivalenzrelation]] $$F\sim G\iff F=\lambda G.$$
+The //projective linear group// $$\PGL(V)$$ is the quotient group $$\mathrm{GL}(V)/\{\lambda I\}_{\lambda\ne 0}$$ of the [[general linear group|Allgemeine lineare Gruppe]] with regard to the [[equivalence relation|Äquivalenzrelation]] $$F\sim G\iff F=\lambda G.$$

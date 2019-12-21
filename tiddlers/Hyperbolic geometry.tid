@@ -1,17 +1,12 @@
 caption: Hyperbolic geometry
 created: 20181105183948853
 creator: Leander
-list: [[Hyperboloid model]] Hyperbelfunktionen [[Hyperbolic line]] [[Hyperbolic half-space]] [[Hyperbolic triangle]] [[Congruence in hyperbolic space]] [[Circles, hypercycles and horocycles]] [[Angle of parallelism]] [[Klein model]] [[Poincaré disk model]] [[Hemisphere model]] [[Poincaré half-plane model]] [[Mapping the Klein- to the Poincaré model]] [[Projective model of hyperbolic geometry]] [[Hyperbolic metric]]
-modified: 20191013010549711
+list: [[Hyperboloid model]] [[Hyperbolic metric]] Hyperbelfunktionen [[Hyperbolic line]] [[Hyperbolic half-space]] [[Hyperbolic triangle]] [[Congruence in hyperbolic space]] [[Circles, hypercycles and horocycles]] [[Angle of parallelism]] [[Ptolemy's theorem]] [[Klein model]] [[Poincaré disk model]] [[Hemisphere model]] [[Half-plane model]] [[Mapping the Klein- to the Poincaré model]] [[Mapping the Poincaré disk to the half-plane model]] [[Projective model of hyperbolic geometry]]
+modified: 20191107154203611
 modifier: Leander
+revision: 0
 tags: Geometrie
 title: Hyperbolic geometry
 type: text/vnd.tiddlywiki
 
-! Hyperboloid model (elementary)
-
 {{Hyperboloid model}}
-
-! Projective model
-
-{{Projective model of hyperbolic geometry}}

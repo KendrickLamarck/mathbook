@@ -1,6 +1,6 @@
 created: 20180621112736759
 creator: Leander
-modified: 20190410182557671
+modified: 20191117161225024
 modifier: Leander
 revision: 0
 tags: [[Höhere Ableitungen]]
@@ -10,8 +10,9 @@ type: text/vnd.tiddlywiki
 Sei $$f\colon V\supset G\to W$$ $$n$$-mal [[differenzierbar|Höhere Ableitungen]]. Dann lässt sich $$f$$ darstellen als
 
 $$
-f(x)=\left(\sum_{k=0}^n\frac{1}{k!}\mathrm
-D_p^k f(\underbrace{x-p,\dots,x-p}_{k\text{-mal}})\right)+R(x),
+f(x)=\left(
+\sum_{k=0}^n\frac{1}{k!}\D_p^k f(\underbrace{x-p,\dots,x-p}_{k\text{-mal}})
+\right)+R(x),
 $$
 
 wobei für die dadurch definierte Restfunktion $$R$$ gilt:
@@ -24,5 +25,6 @@ $$
 Ist $$f$$ sogar $$n+1$$-mal differenzierbar und reellwertig und ist $$\overline{px}\subset G,$$ so gibt es $$q\in\overline{px},$$ so dass
 
 $$
-R(x)=\frac{1}{(n+1)!}\mathrm D_q^{n+1}f(\underbrace{x-p,\dots,x-p}_{n+1\text{-mal}}).
+R(x)=\frac{1}{(n+1)!}\D_q^{n+1}
+f(\underbrace{x-p,\dots,x-p}_{n+1\text{-mal}}).
 $$

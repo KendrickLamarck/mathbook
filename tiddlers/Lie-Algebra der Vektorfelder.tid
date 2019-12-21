@@ -1,0 +1,10 @@
+created: 20191213213234973
+modified: 20191213213329076
+tags: Vektorfeld no-toc
+title: Lie-Algebra der Vektorfelder
+
+Der Raum der Vektorfelder $$\mathcal X(M)$$ ist eine [[Lie-Algebra|Lie algebra]] mit der //Lie-Klammer//
+
+$$
+[X,Y]f \coloneqq X(Yf)-Y(Xf).
+$$

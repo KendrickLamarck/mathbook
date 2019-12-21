@@ -1,9 +1,19 @@
 created: 20190408230643462
-modified: 20190408232830769
+modified: 20191208222443927
 revision: 0
 tags: [[Integrale über Untermannigfaltigkeiten]]
 title: Stokes'scher Integralsatz
 type: text/vnd.tiddlywiki
+
+!! Abstrakt
+
+Suppose $$M^m$$ is an oriented manifold with boundary and $$\omega\in\Omega^{m-1}_\mathrm cM$$ is an $$(m-1)$$-form on $$M$$ with compact support. Then
+
+$$
+\int_M \d\omega = \int_{\partial M} \omega.
+$$
+
+!! Elementar
 
 Definiere zu einer $$\mathcal C^2$$-Abbildung $$\varphi=(\varphi_1,\varphi_2,\varphi_3)\colon\Bbb R^2\to\Bbb R^3,\ (u,v)\mapsto\varphi(u,v)$$ das sogenannte //Dachprodukt// als
 
@@ -16,17 +26,23 @@ $$
 \end{pmatrix}.
 $$
 
-Sei $$\Omega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und $$a\in\mathcal C^1(\Omega\to\Bbb R^3)$$ ein $$\mathcal C^1$$-[[Vektorfeld|Vektor- und skalares Feld]]. Sei $$A\subset\Bbb R^2$$ ein [[Kompaktum mit glattem Rand]] und $$\nu\colon\partial A\to S^1$$ das [[äußere Einheits-Normalenfeld|Normalenvektor]]. Außerdem sei $$\varphi=(\varphi_1,\varphi_2,\varphi_3)\in\mathcal C^2(A\to\Omega)$$ eine Fläche der Klasse $$\mathcal C^2$$ in $$\Omega.$$ Dann gilt
+Sei $$\Omega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und
+$$a\in\mathcal C^1(\Omega\to\R^3)$$
+ein $$\mathcal C^1$$-[[Vektorfeld]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und
+$$\nu\colon\partial A\to S^1$$
+das [[äußere Einheits-Normalenfeld|Normalenvektor]]. Außerdem sei
+$$\varphi=(\varphi_1,\varphi_2,\varphi_3)\in\mathcal C^2(A\to\Omega)$$
+eine Fläche der Klasse $$\mathcal C^2$$ in $$\Omega.$$ Dann gilt
 
 $$
-\int_A \langle(\operatorname{rot}a)\circ\varphi,\varphi_u\land\varphi_v\rangle \,\mathrm du\mathrm dv=
-\int_{\partial A}\langle a\circ\varphi,\mathrm d\varphi\rangle,
+\int_A \langle(\operatorname{rot}a)\circ\varphi,\varphi_u\land\varphi_v\rangle \,\d u\,\d v=
+\int_{\partial A}\langle a\circ\varphi,\d\varphi\rangle,
 $$
 
 wobei wir setzen:
 
 $$
-\langle a\circ\varphi,\mathrm d\varphi\rangle=\langle a\circ\varphi,\varphi_u\rangle\,\mathrm du+\langle a\circ\varphi,\varphi_v\rangle\,\mathrm dv
+\langle a\circ\varphi,\d\varphi\rangle=\langle a\circ\varphi,\varphi_u\rangle\,\d u+\langle a\circ\varphi,\varphi_v\rangle\,\d v
 $$
 
 wobei $$\varphi_u=(\partial_u\varphi_1,\partial_u\varphi_2,\partial_u\varphi_3)^\mathrm T.$$

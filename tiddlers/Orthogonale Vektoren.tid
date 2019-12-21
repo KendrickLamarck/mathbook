@@ -1,5 +1,5 @@
 created: 20191004192510442
-modified: 20191004193950770
+modified: 20191028133944168
 revision: 0
 tags: Orthogonalität no-toc
 title: Orthogonale Vektoren
@@ -17,11 +17,7 @@ U^\perp\coloneqq\{\,v\in V\mid\forall u\in U\colon v\perp u\,\}.$$ Das ist wiede
 * Eine Familie $$(v_1,\dots,v_n)$$ in $$V$$ heißt //orthogonal//, wenn $$v_i\perp v_j$$ für alle $$i\ne j.$$
 
 * Ist $$V=V_1\oplus\dots\oplus V_k,$$ so heißt die [[direkte Summe|Direkte Summe]] //orthogonal//, wenn $$V_i\perp V_j$$ für alle $$i\ne j.$$ Man schreibt auch$$
-V=V_1
-\mathbin{\perp\kern-21mu{\bigcirc}}
-\dots
-\mathbin{\perp\kern-21mu{\bigcirc}}
-V_n.$$
+V=V_1 \operp \dots \operp V_n.$$
 
 !! Orthonormalbasen
 

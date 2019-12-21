@@ -1,0 +1,17 @@
+created: 20191201183047996
+modified: 20191201201338448
+tags: Polynominterpolation
+title: Lagrange-Interpolation
+
+Betrachte folgende Basis des Vektorraumes der Polynome mit Grad höchstens $$n$$:
+
+$$
+L_i(x) \coloneqq \prod_{j\ne i}
+\frac{x-x_j}{x_i-x_j}.
+$$
+
+Dann ist $$L_i(x_j)=\delta_{ij}$$ und das Interpolationspolynom ist gegeben durch
+
+$$
+P(x)=\sum_{i=0}^n f_i L_i(x).
+$$

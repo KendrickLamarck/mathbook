@@ -1,7 +1,7 @@
 created: 20180423211827083
 creator: Leander
 list: [[Ähnliche Matrizen und charakteristische Polynome]] [[Satz von Cayley-Hamilton]] [[Minimalpolynom und charakteristisches Polynom]]
-modified: 20191003212258034
+modified: 20191121232419772
 modifier: Leander
 revision: 0
 tags: Eigenwert
@@ -27,3 +27,11 @@ wobei
 * $$a_0=\det A.$$
 
 Man nennt $$a_{11}+\dots+a_{nn}$$ auch die //Spur// von $$A$$. [[Ähnliche Matrizen|Äquivalente und ähnliche Matrizen]] haben das gleiche charakteristische Polynom.
+
+!! Satz von Cayley-Hamilton
+
+{{Satz von Cayley-Hamilton}}
+
+!! Charakteristische Polynome von ähnlichen Matrizen
+
+{{Ähnliche Matrizen und charakteristische Polynome}}

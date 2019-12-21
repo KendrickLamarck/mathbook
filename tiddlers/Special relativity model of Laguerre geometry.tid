@@ -1,0 +1,17 @@
+created: 20191031225047922
+modified: 20191031225101677
+revision: 0
+tags: no-toc [[Laguerre geometry]]
+title: Special relativity model of Laguerre geometry
+
+We can represent an oriented circle in $$\R^n$$ with center $$c\in\R^n$$ and radius $$r\in\R$$ by the point $$p=(c,r)\in\R^{n+1}.$$ If $$d(p,p')$$ denotes the tangent distance, we have
+
+$$
+d(p,p')^2=\left\langle p-p',p-p'\right\rangle_{n,1}.
+$$
+
+In this model, the group of Laguerre transformations consists of all maps $$\R^{n,1}\to\R^{n,1}$$ of the form
+
+$$
+x\mapsto Ax+b,\qquad A\in\O(n,1),\ b\in\R^{n+1}.
+$$

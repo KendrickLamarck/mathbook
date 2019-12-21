@@ -1,15 +1,16 @@
 created: 20181217142151332
-list: [[Uniqueness of projective transformations]] [[Fundamental theorem of projective geometry]] [[Central projection]] [[Projective transformations between lines]] [[Dual central projection]] [[Projective involution]] [[Projective linear group]]
-modified: 20191008214011866
-tags: [[Projective space]]
+list: [[Projective linear group]] [[Projective orthogonal group]] [[Uniqueness of projective transformations]] [[Fundamental theorem of projective geometry]] [[Central projection]] [[Projective transformations between lines]] [[Dual central projection]] [[Projective involution]]
+modified: 20191109153931581
+revision: 0
+tags: [[Projective geometry]]
 title: Projective transformation
 type: text/vnd.tiddlywiki
 
-Let $$V,W$$ be $$n+1$$-dimensional [[vector spaces|Vektorraum]] over a field $$\mathbf F.$$ A map $$f\colon P(V)\to P(W)$$ is a //projective transformation// if there is an [[invertible|Inverse Matrix]] [[linear map|Lineare Abbildung]] $$F\colon V\to W$$ such that $$f([v])=[F(v)]$$ for all $$[v]\in P(V).$$
+Let $$V,W$$ be $$n+1$$-dimensional [[vector spaces|Vektorraum]] over a field $$\mathbf F.$$ A map $$f\colon \mathrm P(V)\to \mathrm P(W)$$ is a //projective transformation// if there is an [[invertible|Inverse Matrix]] [[linear map|Lineare Abbildung]] $$F\colon V\to W$$ such that $$f([v])=[F(v)]$$ for all $$[v]\in \mathrm P(V).$$
 
-* A projective transformation maps $$k$$-[[planes|Projective subspace]] (in particular: lines) in $$P(V)$$ to $$k$$-planes in $$P(W).$$
+* A projective transformation maps $$k$$-[[planes|Projective subspace]] (in particular: lines) in $$\mathrm P(V)$$ to $$k$$-planes in $$\mathrm P(W).$$
 
-* In [[homogeneous coordinates|Homogeneous coordinates]], projective transformations correspond to matrix multiplication with an invertible matrix $$A\in\mathrm{GL}(n;\mathbf F)$$
+* In [[homogeneous coordinates|Homogeneous coordinates]], projective transformations correspond to matrix multiplication with an invertible matrix $$A\in\GL(n;\mathbf F)$$
 
 * In [[affine coordinates|Affine coordinates]] $$p_i=x_i/x_{n+1},\ q_i=y_i/y_{n+1}$$ the map is a so-called fractional linear transformation $$
 \frac
@@ -18,7 +19,7 @@ Let $$V,W$$ be $$n+1$$-dimensional [[vector spaces|Vektorraum]] over a field $$\
 $$
 
 
-Two invertible linear transformations $$F,G\colon V\to W$$ induce the same projective transformation if and only if $$G=\lambda F$$ for some nonzero scalar $$\lambda.$$
+Two invertible linear transformations $$F,G\colon V\to W$$ induce the same projective transformation if and only if $$G=\lambda F$$ for some nonzero scalar $$\lambda,$$ so the group of projective transformations of $$\mathrm P(V)$$ corresponds to the [[projective linear group|Projective linear group]] $$\PGL(V).$$
 
 !! Uniqueness
 

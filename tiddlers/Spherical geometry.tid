@@ -1,9 +1,10 @@
 caption: Spherical geometry
 created: 20180124194541350
 creator: Leander
-list: [[Great circle]] [[Spherical metric]] Hemisphere [[Spherical Digon]] [[Angles on the sphere]] [[Spherical triangle]] [[Stereographic projection]]
-modified: 20191013015731511
+list: Einheitssphäre [[Great circle]] [[Spherical metric]] Hemisphere [[Spherical Digon]] [[Angles on the sphere]] [[Spherical triangle]] [[Ptolemy's theorem]] [[Stereographic projection]]
+modified: 20191106233644950
 modifier: Leander
+revision: 0
 tags: Geometrie
 title: Spherical geometry
 type: text/vnd.tiddlywiki
@@ -24,5 +25,5 @@ $$
 \frac
 {\langle x,y\rangle_{n+1,1}}
 {\langle x,p\rangle_{n+1,1}\langle y,p\rangle_{n+1,1}}=
--2\sin^2\frac {d_\mathrm{hyp}([x],[y])} 2.
+-2\sin^2\frac {d_\mathrm{sph}([x],[y])} 2.
 $$

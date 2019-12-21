@@ -1,0 +1,7 @@
+created: 20191116162235209
+modified: 20191129231343509
+revision: 0
+tags: [[Smooth manifold]] no-toc
+title: Smooth atlas
+
+A $$\mathcal C^r$$-atlas for $$M$$ is a collection of $$\mathcal C^r$$-[[compatible|Compatible charts]] charts which covers $$M.$$

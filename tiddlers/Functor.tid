@@ -1,9 +1,9 @@
 created: 20181119224646574
 creator: Leander
-modified: 20190104210500026
+modified: 20191028152038482
 modifier: Leander
 revision: 0
-tags: Category
+tags: Category no-toc
 title: Functor
 
 A //(covariant) functor// $$F$$ from a [[category|Category]] $$\mathcal C$$ to a category $$\mathcal D$$, written as $$F\colon \mathcal C\to\mathcal D,$$ consists of:

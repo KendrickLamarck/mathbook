@@ -1,0 +1,20 @@
+created: 20191123201130062
+modified: 20191123202057500
+tags: Algebra
+title: Modul
+
+Ein //Modul// (Plural: Moduln) über einem kommutativen [[Ring|Ring]] $$(R,+,\cdot)$$ oder //$$R$$-Modul// ist eine abelsche Gruppe $$(M,+)$$ zusammen mit einer Abbildung
+
+$$
+R\cdot M\to M,\quad (r,m)\mapsto r\cdot m=rm,
+$$
+
+so dass gilt:
+
+$$\begin{aligned}
+r_1\cdot(r_2\cdot m) &= (r_1\cdot r_2)\cdot m   \\
+    (r_1+r_2)\cdot m &= r_1\cdot m + r_2\cdot m \\
+    r\cdot (m_1+m_2) &= r\cdot m_1 + r\cdot m_2.
+\end{aligned}$$
+
+Gibt es zusätzlich ein Einselement $$1\in R$$ mit $$1\cdot m=m,$$ so nennt man den Modul //unitär.// Ist $$R$$ sogar ein [[Körper]], so handelt es sich um einen [[Vektorraum]].

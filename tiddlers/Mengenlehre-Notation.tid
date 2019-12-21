@@ -1,6 +1,6 @@
 created: 20171031162123950
 creator: Leander
-modified: 20191004235252520
+modified: 20191028134210217
 modifier: Leander
 revision: 0
 tags: Mengenlehre
@@ -34,5 +34,5 @@ type: text/vnd.tiddlywiki
 ; $$A^C$$
 : Komplement von $$A$$, falls die Obermenge bekannt ist.
 
-;$$A\mathbin\triangle B\coloneqq(A\setminus B)\cup(B\setminus A)$$
+;$$A\sd B\coloneqq(A\setminus B)\cup(B\setminus A)$$
 : Symmetrische Differenz

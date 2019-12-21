@@ -2,7 +2,7 @@ caption: Satz von Taylor
 created: 20180108164601258
 creator: Leander
 list: 
-modified: 20190412151442349
+modified: 20191117164722242
 modifier: Leander
 revision: 0
 tags: [[Ableitung in R]]
@@ -27,9 +27,7 @@ $$
 T_{f,x_0,n}(x)=\sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} (x-x_0)^k
 $$
 
-das Taylorpolynom $$n$$-ten [[Grades|Grad von Polynomen]] von $$f$$ an der Stelle $$x_0$$ und $$R$$ das zugehörige Restglied.
-
-Ist $$f$$ sogar $$n+1$$-mal differenzierbar, so gibt es zu jedem $$x \in J \setminus \{x_0\}$$ ein $$\xi$$ zwischen $$x_0$$ und $$x$$, so dass
+das Taylorpolynom $$n$$-ten [[Grades|Grad von Polynomen]] von $$f$$ an der Stelle $$x_0$$ und $$R$$ das zugehörige Restglied. Ist $$f$$ sogar $$n+1$$-mal differenzierbar, so gibt es zu jedem $$x \in J \setminus \{x_0\}$$ ein $$\xi$$ zwischen $$x_0$$ und $$x$$, so dass
 
 $$
 R(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!} (x-x_0)^{n+1}.

@@ -1,0 +1,10 @@
+created: 20191123222854196
+modified: 20191206184119079
+tags: Mannigfaltigkeit
+title: Flow
+
+A //(global) flow// on a smooth manifold $$M^m$$ is a smooth [[group action|Group action]] $$\theta$$ of $$(\R,+)$$ on $$M.$$
+
+Each $$\theta_t\colon M\to M$$ is a [[diffeomorphism|Diffeomorphismus]] with inverse $$\theta_{-t}$$ and since $$(\R,+)$$ is an abelian group, all of these diffeomorphisms commute. If we fix $$p\in M$$ instead, we get a curve $$\gamma_p(t)\coloneqq\theta_t(p)$$ parametrizing the orbit of $$p$$ under $$\theta.$$ If $$q=\gamma_p(s)$$ is another point on the same orbit, $$\gamma_q$$ is just a reparametrization of $$\gamma_p,$$ namely $$\gamma_q(t)=\gamma_p(s+t).$$ Equivalently, $$\gamma_q=\theta_s\circ\gamma_p.$$
+
+We say a vector field $$X$$ is //invariant// under the flow $$\theta$$ if it s invariant under each $$\theta_t,$$ i.e. if $$\theta_{t*} X=X$$ for all $$t.$$

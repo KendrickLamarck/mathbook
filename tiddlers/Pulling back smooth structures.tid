@@ -1,0 +1,9 @@
+created: 20191116223602637
+modified: 20191116225000086
+revision: 0
+tags: [[Smooth manifold]] no-toc
+title: Pulling back smooth structures
+
+Let $$h\colon M\to N$$ be a [[homeomorphism|Homöomorphismus]], where $$M$$ is a [[topological manifold|Topologische Mannigfaltigkeit]] and $$N$$ is a [[smooth manifold|Smooth manifold]] with smooth structure $$\mathcal U.$$ We can pull it back to give a smooth structure $$h^*(\mathcal U)$$ on $$M$$ by defining the pullback of a chart $$(U,\varphi)\in\mathcal U$$ as the chart $$(h^{-1}(U),\varphi\circ h)$$ on $$M.$$ Using this structure, $$h$$ is then a diffeomorphism from $$(M,h^*(\mathcal U))$$ to $$(N,\mathcal U).$$
+
+In the case of a self-homeomorphism $$h\colon M\to M$$ from a smooth manifold $$M$$ to itself, we get $$h^*(\mathcal U)=\mathcal U$$ if and only if $$h$$ is a diffeomorphism. If it is not, $$h^*(\mathcal U)$$ defines a distinct smooth structure on $$M.$$

@@ -1,13 +1,17 @@
 created: 20181008184702549
 creator: Leander
-modified: 20191011222227988
+modified: 20191214191023695
 modifier: Leander
-tags: Mannigfaltigkeit
+revision: 0
+tags: [[Smooth manifold]]
 title: Differenzierbarkeit auf Mannigfaltigkeiten
 type: text/vnd.tiddlywiki
 
-Sei $$M$$ eine $$\mathcal C^\alpha$$-[[Untermannigfaltigkeit|Mannigfaltigkeit]] der Dimension $$k$$ von $$\mathbb R^d.$$ Eine [[stetige|Stetigkeit]] Abbildung $$f\colon\mathbb R^k\supset G\to M$$ ($$G$$ offen) heißt //stetig differenzierbar,// wenn es für jedes $$p\in G$$ einen [[Diffeomorphismus]] $$\phi\colon U\to\Bbb R^d$$ um $$f(p)$$ wie in der Definition gibt, so dass 
+Let $$f\colon M^m\to N^n$$ be a map between two [[smooth manifolds|Smooth manifold]]. We call this map smooth, if for every $$p\in M,$$ we can find charts $$(U,\varphi)$$ around $$p$$ and $$(V,\psi)$$ around $$f(p)$$ such that the expression of $$f$$ in these coordinates
 
 $$
-\phi\circ f|_{f^{-1}(U)}\in\mathcal C^1(f^{-1}(U)\to\mathbb R^d).
+\psi\circ f\circ\varphi^{-1}\colon
+\R^m\supseteq\varphi\left(U\cap f^{-1}(V)\right)\to\R^n
 $$
+
+is [[smooth|Höhere Ableitungen]]. If this is the case, it is true in any coordinate charts. We write $$\mathcal C^\infty(M,N)$$ for the smooth maps from $$M$$ to $$N$$ and we define $$\mathcal C^\infty(M)\coloneqq\mathcal C^\infty(M,\R).$$

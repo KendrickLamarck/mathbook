@@ -1,8 +1,16 @@
 created: 20190325161247329
-modified: 20190329004755696
+modified: 20191214191100473
 revision: 0
 tags: Mannigfaltigkeit
 title: Kartenwechsel
 type: text/vnd.tiddlywiki
 
-Sei $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Mannigfaltigkeit]] der Klasse $$\mathcal C^\alpha$$ und seien $$\varphi_i\colon T_i\to V_i,\ i\in\{1,2\}$$ zwei [[Karten|Karte]] der Klasse $$\mathcal C^\alpha,$$ die $$T_i$$ [[homöomorph|Homöomorphismus]] auf $$V_i\subseteq M$$ abbilden. Setze $$V=V_1\cap V_2.$$ Dann ist $$W_i=\varphi^{-1}(V),\ i\in\{1,2\}$$ eine offene Teilmenge von $$T_i$$ und $$\tau\coloneqq\varphi_2^{-1}\circ\varphi_1\colon W_1\to W_2$$ ist ein $$\mathcal C^\alpha$$-[[Diffeomorphismus]].
+If $$(U,\varphi)$$ and $$(V,\psi)$$ are two charts for a [[manifold|Topologische Mannigfaltigkeit]] $$M^m,$$ then
+
+$$
+\psi\circ\varphi^{-1}\colon\varphi(U\cap V)\to\psi(U\cap V)
+$$
+
+is a [[homeomorphism|Homöomorphismus]] between open sets of $$\R^m$$ and is called a //change of coordinates// or //transition function.//
+
+{{Compatible charts}}

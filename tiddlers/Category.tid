@@ -1,5 +1,5 @@
 created: 20181119223326772
-modified: 20181119230437820
+modified: 20191028152138035
 revision: 0
 tags: Algebra
 title: Category
@@ -15,3 +15,11 @@ A //category// $$\mathcal C$$ consists of the following three mathematical entit
 #* Associativity: If $$f\colon a\to b,\ g\colon b\to c$$ and $$h\colon c\to d$$ then $$(h\circ g)\circ f=h\circ(g\circ f).$$
 
 #* Identity: For every object $$x,$$ there exists a morphism $$1_x\colon x\to x$$ called the //identity morphism// for $$x,$$ such that for every morphism $$f\colon a\to b,$$ we have $$1_b\circ f=f=f\circ 1_a.$$
+
+!! Functor
+
+{{Functor}}
+
+!! Natural transformation
+
+{{Natural transformation}}

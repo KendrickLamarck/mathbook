@@ -1,0 +1,14 @@
+created: 20180605175239306
+creator: Leander
+modified: 20191004200415493
+modifier: Leander
+revision: 0
+tags: Skalarprodukt
+title: Unitärer Vektorraum
+type: text/vnd.tiddlywiki
+
+Ein $$\mathbb C$$-[[Vektorraum]] mit [[Skalarprodukt]] heißt //unitärer Vektorraum//.
+
+!! Standardraum
+
+{{Standardskalarprodukt in C}}

@@ -1,0 +1,17 @@
+created: 20171225173806507
+creator: Leander
+modified: 20191011202739303
+modifier: Leander
+tags: Mengenlehre
+title: Äquivalenzrelation
+type: text/vnd.tiddlywiki
+
+Eine [[Relation]] $$\sim$$ auf $$X$$ heißt Äquivalenzrelation, wenn für beliebige $$x,y,z \in X$$ gilt:
+
+# $$x \sim x$$ (Reflexivität),
+# $$x \sim y \implies y \sim x$$ (Symmetrie),
+# $$x \sim y \land y \sim z \implies x \sim z$$ (Transitivität).
+
+!! Äquivalenzklassen
+
+{{Äquivalenzklasse}}

@@ -1,0 +1,27 @@
+created: 20180226121603358
+list: 
+modified: 20191003224432233
+revision: 0
+tags: no-toc Reihe
+title: Leibniz-Kriterium
+type: text/vnd.tiddlywiki
+
+Für die [[Reihe]]
+$$
+\sum_{k=0}^\infty (-1)^k a_k
+$$
+gelte
+
+# Die [[Folge]] $$(a_k)$$ ist [[monoton fallend|Monotonie]]:$$
+a_0\ge a_1 \ge a_2 \ge\ldots\ge 0,$$
+# $$\lim_{k\to\infty} a_k = 0$$.
+
+Dann ist die Reihe konvergent. Ihre Summe liegt zwischen je zwei aufeinanderfolgenden Partialsummen: für jedes $$m\in\mathbb N$$ ist
+
+$$
+s_{2m-1} \le \sum_{k=0}^\infty (-1)^k a_k \le s_{2m},
+$$
+und
+$$
+s_{2m+1} \le \sum_{k=0}^\infty (-1)^k a_k \le s_{2m}.
+$$

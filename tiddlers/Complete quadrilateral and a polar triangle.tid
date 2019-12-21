@@ -1,0 +1,14 @@
+created: 20190219204224278
+modified: 20190219204742242
+revision: 0
+tags: [[Projective conic]]
+title: Complete quadrilateral and a polar triangle
+type: text/vnd.tiddlywiki
+
+Let $$A,B,C,D$$ be points on a non-degenerate [[conic|Projective conic]]. Then the points
+
+$$
+AB\cap CD,\quad AC\cap BD,\quad AD\cap BC
+$$
+
+form a //polar triangle//, i.e. each of the points is the [[pole|Pole-polar relationship]] of the line through the other two.

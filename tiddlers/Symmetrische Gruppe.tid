@@ -1,0 +1,18 @@
+created: 20180306120621967
+creator: Leander
+modified: 20180725180852227
+modifier: Leander
+revision: 0
+tags: Permutation Gruppe
+title: Symmetrische Gruppe
+type: text/vnd.tiddlywiki
+
+Die Menge
+
+$$
+S(X)=\{\, f\in\operatorname{Abb}(X,X):f\ \href{#Bijektivität}{\text{bijektiv}}\,\}
+$$
+
+wird mit der [[Komposition]] als [[Verknüpfung]] $$\cdot$$ zu einer [[Gruppe]] und heißt die //symmetrische Gruppe// der Menge $$X$$.
+
+Ist $$X=\{1,\ldots,n\}$$, so schreibt man $$S_n$$ statt $$S(X)$$. Jedes $$\sigma\in S_n$$ heißt [[Permutation]] der Zahlen $$1,\ldots,n$$ und $$S_n$$ nennt man auch //Permutationsgruppe//.

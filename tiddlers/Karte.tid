@@ -1,0 +1,10 @@
+created: 20190324105523782
+modified: 20191004233500099
+revision: 0
+tags: Mannigfaltigkeit no-toc
+title: Karte
+type: text/vnd.tiddlywiki
+
+Eine Teilmenge $$M\subseteq\Bbb R^d$$ ist genau dann eine $$k$$-dimensionale [[Untermannigfaltigkeit|Mannigfaltigkeit]] der Klasse $$\mathcal C^\alpha,$$ wenn zu jedem $$a\in M$$ eine in $$M$$ offene Umgebung $$V\subseteq M$$ von $$a,$$ eine offene Teilmenge $$T\subseteq\Bbb R^k$$ und eine [[Immersion|Immersion und Submersion]] $$\varphi\in\mathcal C^\alpha(T\to V),$$ die $$T$$ [[homöomorph|Homöomorphismus]] auf $$V$$ abbildet, existieren.
+
+Der Homöomorphismus $$\varphi\colon T\to V$$ heißt eine lokale //Parameterdarstellung// oder //Karte// der Mannigfaltigkeit $$M.$$

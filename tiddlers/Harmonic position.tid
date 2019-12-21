@@ -1,0 +1,13 @@
+created: 20190114141921569
+creator: Leander
+modified: 20191008213541285
+modifier: Leander
+tags: [[Projective space]] no-toc
+title: Harmonic position
+type: text/vnd.tiddlywiki
+
+Two pairs of points $$\{A,B\},\{P,Q\}$$ in $$\Bbb R\mathrm P^1$$ are in //harmonic position// (or $$\{A,B\}$$ [[separates|Separation on the real projective line]] $$\{P,Q\}$$ //harmonically//) if
+
+$$
+\operatorname{cr}(A,P,B,Q)=-1.
+$$

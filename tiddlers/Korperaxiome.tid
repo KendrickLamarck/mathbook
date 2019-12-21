@@ -1,0 +1,27 @@
+created: 20171016200411893
+creator: Leander
+modified: 20180624212948928
+modifier: Leander
+revision: 0
+tags: Körper
+title: Körperaxiome
+type: text/vnd.tiddlywiki
+
+Ein [[Körper]] ist eine nicht leere Menge $$K$$, auf der eine Addition und eine Multiplikation erklärt sind, d.h. für alle $$a,b \in K$$ sind $$a+b \in K$$ und $$ab \in K$$ und für die folgende Axiome gelten:
+
+!! Addition
+# Für alle $$a,b,c \in K$$ gilt: $$(a+b)+c=a+(b+c).$$ <div style="float: right;">(Assoziativgesetz)</div>
+# Es gibt genau eine $$0 \in K$$ so dass für alle $$a \in K$$ gilt:
+## $$0+a=a.$$ <div style="float: right;">(neutrales Element der Addition)</div>
+## Es gibt genau ein $$b \in K$$ mit $$a+b=0.$$ <div style="float: right;">(inverses Element der Addition)</div>
+# Für alle $$a,b \in K$$ gilt: $$a+b=b+a.$$ <div style="float: right;">(Kommutativgesetz)</div>
+
+!! Multiplikation
+# Für alle $$a,b,c \in K$$ gilt: $$(ab)c=a(bc)$$ <div style="float: right;">(Assoziativitätsgesetz)</div>.
+# Es gibt genau eine $$1\in K\setminus \{0\}$$, so dass für jedes $$a\in K$$ gilt:
+## $$1a=a.$$ <div style="float: right;">(neutrales Element der Multiplikation)</div>
+## Es gibt genau ein $$b\in K$$ mit $$ab = 1$$, falls $$a\neq 0$$. <div style="float: right;">(inverses Element)</div>
+# Für alle $$a,b \in K$$ gilt: $$ab=ba$$. <div style="float: right;">(Kommutativgesetz)</div>
+
+!! Distributivgesetz
+# Für alle $$a,b,c\in K$$ gilt: $$(a+b)c=ac+bc$$.

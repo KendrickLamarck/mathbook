@@ -1,0 +1,18 @@
+created: 20180411234835031
+creator: Leander
+modified: 20180704154556898
+modifier: Leander
+revision: 0
+tags: Graph
+title: Kantenzug
+
+Ein //Kantenzug// oder //Pfad// in einem [[Graphen|Graph]] $$G=(V,E)$$ ist eine Folge
+
+$$
+v_1,e_1,v_2,e_2\ldots,v_k,e_k,v_{k+1}
+$$
+
+mit $$k\in\mathbb N$$ und $$e_i=(v_i,v_{i+1})\in E$$ bzw. $$e_i=\{v_i,v_{i+1}\}\in E$$ für $$e=1,\ldots,k$$.
+
+* Ist $$v_1=v_{k+1}$$, so handelt es sich um einen geschlossenen Kantenzug.
+* Die Länge eines Kantenzuges ist die Anzahl $$k$$ der enthaltenen kanten.

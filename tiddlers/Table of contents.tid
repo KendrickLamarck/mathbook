@@ -1,0 +1,17 @@
+caption: Contents
+color: #bfbfbf
+created: 20161201122457822
+creator: Leander
+icon: 
+list: Mathematics Disclaimer [[Style guide]]
+list-before: 
+modified: 20191003185415197
+modifier: Leander
+revision: 0
+tags: $:/tags/SideBar
+title: Table of contents
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Mathematics" "!tag[no-toc]">>
+</div>

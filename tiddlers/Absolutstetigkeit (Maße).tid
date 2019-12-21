@@ -1,0 +1,13 @@
+caption: Absolutstetigkeit
+created: 20190122135823690
+creator: Leander
+modified: 20190816161318131
+modifier: Leander
+revision: 0
+tags: Maß
+title: Absolutstetigkeit (Maße)
+type: text/vnd.tiddlywiki
+
+Wir nennen ein [[Maß]] $$\nu$$ //absolutstetig// bezüglich eines Maßes $$\mu,$$ wenn $$\mu(A)=0\implies\nu(A)=0$$ gilt und schreiben $$\nu\ll\mu.$$ Falls $$\nu\ll\mu$$ und $$\mu\ll\nu,$$ so nennen wir $$\nu$$ und $$\mu$$ //äquivalent// und schreiben $$\nu\approx\mu.$$
+
+Falls eine Menge $$A\in\mathcal F$$ existiert mit $$\mu(A)=0$$ und $$\nu\left(A^\mathrm C\right)=0,$$ so nennen wir $$\mu$$ //singulär// zu $$\nu.$$

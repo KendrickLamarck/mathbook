@@ -1,0 +1,10 @@
+created: 20190406221519993
+modified: 20190715151116636
+revision: 0
+tags: Verteilung
+title: Cauchy-Verteilung
+type: text/vnd.tiddlywiki
+
+$$
+\varphi_c(x)=\frac c {\pi(c^2+x^2)},\quad c>0
+$$

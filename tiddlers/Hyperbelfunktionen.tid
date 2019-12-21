@@ -1,0 +1,49 @@
+caption: Sinh and cosh
+created: 20180107011122196
+creator: Leander
+modified: 20191010174458293
+modifier: Leander
+tags: [[Hyperbolic geometry]]
+title: Hyperbelfunktionen
+type: text/vnd.tiddlywiki
+
+Die Hyperbelfunktionen //Cosinus Hyperbolicus// und //Sinus Hyperbolicus// sind gegeben durch
+
+$$
+\cosh(x) \coloneqq \frac{e^x+e^{-x}}{2}, \qquad
+\sinh(x) \coloneqq \frac{e^x-e^{-x}}{2}.
+$$
+
+Für sie gilt
+
+$$
+\cosh^2(x)-\sinh^2(x) = 1,
+$$
+
+Der Punkt $$(\cosh x,\sinh x)$$ liegt also auf der Einheitshyperbel
+
+$$
+\left\{\,(x,y)\in\mathbb R^2 \mid x^2 - y^2 = 1\,\right\}.
+$$
+
+Es gilt
+
+$$
+\sinh' = \cosh, \qquad \cosh' = \sinh.
+$$
+
+Der hyperbolische Cotangens und Tangens ist definiert durch
+
+$$
+\coth(x) \coloneqq \frac{\cosh(x)}{\sinh(x)}, \qquad \tanh(x) \coloneqq \frac{\sinh(x)}{\cosh(x)}.
+$$
+
+Der //Tangens Hyperbolicus// bildet die reelle Achse [[bijektiv|Bijektivität]] auf das Intervall $$\left]-1,1\right[$$ ab. Für die Ableitung gilt
+
+$$
+\tanh' = \frac{1}{\cosh^2} = 1 - \tanh^2.
+$$
+
+!! Umkehrfunktionen
+
+{{Areafunktionen}}

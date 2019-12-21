@@ -1,0 +1,21 @@
+caption: Half-angle theorem
+created: 20181105193313717
+modified: 20191008210016910
+tags: [[Spherical triangle]] no-toc
+title: Spherical half-angle theorem
+type: text/vnd.tiddlywiki
+
+Side lengths and interior angles of a [[spherical triangle|Spherical triangle]] satisfy
+
+$$\begin{aligned}
+\tan\frac\alpha 2 &=
+\sqrt{
+  \frac{\sin\frac{a-b+c}2 \sin\frac{a+b-c}2}
+       {\sin\frac{-a+b+c}2 \sin\frac{a+b+c}2}
+}, \\[3ex]
+\tan\frac a 2 &=
+\sqrt{
+  -\frac{\cos\frac{-\alpha+\beta+\gamma}2 \cos\frac{\alpha+\beta+\gamma}2}
+        {\cos\frac{\alpha-\beta+\gamma}2 \cos\frac{\alpha+\beta-\gamma}2}
+}.
+\end{aligned}$$

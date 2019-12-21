@@ -1,0 +1,38 @@
+created: 20171031162123950
+creator: Leander
+modified: 20191004235252520
+modifier: Leander
+revision: 0
+tags: Mengenlehre
+title: Mengenlehre-Notation
+type: text/vnd.tiddlywiki
+
+;$$\emptyset,\varnothing$$
+:Leere Menge
+
+;$$x\in A,\ x \notin A$$
+:x is / is not a member of A
+
+;$$A \subseteq B$$
+:$$x \in A \implies x \in B$$. $$A$$ is a subset of $$B$$. Analogous for $$A \supseteq B$$.
+
+;$$A \subsetneq B$$
+:$$x \in A \implies x \in B, A \neq B$$. $$A$$ is a proper subset of $$B$$. Analogous for $$A \supsetneq B$$.
+
+;$$A \subset B$$
+:$$A$$ is a (proper) subset of $$B$$, depending on the author. In this Wiki this is the same as $$\subseteq$$. Analogous for $$A \supset B$$.
+
+;$$A \cup B \coloneqq \{\,x : x\in A \lor x\in B\,\}$$
+:Union of $$A$$ and $$B$$
+
+;$$A \cap B \coloneqq \{\,x : x\in A \land x\in B\,\}$$
+:Intersection of $$A$$ and $$B$$
+
+;$$A \setminus B \coloneqq \{\,x : x \in A \land x \notin B\,\}$$
+: $$A$$ ohne $$B$$, Komplement von $$A$$
+
+; $$A^C$$
+: Komplement von $$A$$, falls die Obermenge bekannt ist.
+
+;$$A\mathbin\triangle B\coloneqq(A\setminus B)\cup(B\setminus A)$$
+: Symmetrische Differenz

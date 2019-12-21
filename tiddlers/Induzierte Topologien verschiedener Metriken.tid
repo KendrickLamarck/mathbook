@@ -1,0 +1,15 @@
+created: 20180427180934921
+creator: Leander
+modified: 20191011214655109
+modifier: Leander
+tags: [[Metrischer Raum]] no-toc
+title: Induzierte Topologien verschiedener Metriken
+type: text/vnd.tiddlywiki
+
+Falls auf einer Menge $$X$$ zwei [[Metriken|Metrik]] $$d$$ und $$\tilde d$$ definiert sind mit
+
+$$
+cd\le\tilde d\le\frac{1}{c}d
+$$
+
+für ein $$c>0$$, dann fallen die Begriffe [[Offenheit|Offenheit (metrische Räume)]], [[Konvergenz]] und [[Umgebung|Umgebung (metrische Räume)]] in $$(X,d)$$ und $$(X,\tilde d)$$ zusammen.

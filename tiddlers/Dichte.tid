@@ -1,0 +1,33 @@
+created: 20190115162908788
+creator: Leander
+list: [[Eindeutigkeit von Dichten]] [[Integrierbarkeit und Dichten]] [[Satz von Radon-Nikodym]] Cauchy-Verteilung [[Stetige Dichte]] Normalverteilung
+modified: 20191003233938034
+modifier: Leander
+revision: 0
+tags: Lebesgue-Integral Maß
+title: Dichte
+type: text/vnd.tiddlywiki
+
+Seien $$\mu$$ und $$\nu$$ zwei [[Maße|Maß]] auf einem [[messbaren Raum|Sigma-Algebra]] $$(\Omega,\mathcal F).$$ Eine $$\mathcal F$$-$$\mathcal B$$-[[messbare|Messbare Funktion]] Abbildung $$\varphi\colon\Omega\to[0,\infty[$$ heißt eine //Dichte// von $$\nu$$ bezüglich $$\mu,$$ wenn 
+
+$$
+\nu(A)=\int_A\varphi\,\mathrm d\mu
+$$
+
+für alle $$A\in\mathcal F$$ gilt. Wir schreiben dann auch $$\varphi=\frac{\mathrm d\nu}{\mathrm d\mu}$$ und $$\nu=\varphi\,\mathrm d\mu.$$
+
+!! Integrierbarkeit
+
+{{Integrierbarkeit und Dichten}}
+
+!! Eindeutigkeit
+
+{{Eindeutigkeit von Dichten}}
+
+!! Satz von Radon-Nikodym
+
+{{Satz von Radon-Nikodym}}
+
+!! Stetige Dichten
+
+{{Stetige Dichte}}

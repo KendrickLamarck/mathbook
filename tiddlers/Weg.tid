@@ -1,0 +1,15 @@
+caption: Weg
+created: 20180411235334480
+creator: Leander
+modified: 20180730110233717
+modifier: Leander
+revision: 0
+tags: Kantenzug
+title: Weg
+
+Ein //Weg// ist ein [[Kantenzug]] $$v_1,e_1,\ldots,v_k,e_k,v_{k+1}$$, so dass $$v_i\ne v_j$$ für $$1\le i<j\le k+1$$. Um Anfangs- und Endknoten eines Weges hervorzuheben, sprechen wir auch von einem $$v_1$$-$$v_{k+1}$$-Weg.
+
+Die minimale Länge eines Weges von $$v$$ nach $$w$$ defniert eine [[Metrik]] auf endlichen [[zusammenhängenden Graphen|Zusammenhängender Graph]].
+
+''Lemma.''
+Es gibt genau dann einen $$v$$-$$w$$ weg in einem [[Graphen|Graph]] $$G$$, wenn es einen Kantenzug von $$v$$ nach $$w$$ gibt.

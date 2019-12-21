@@ -1,0 +1,36 @@
+created: 20190604222054651
+modified: 20191003215117318
+revision: 0
+tags: Stochastik
+title: Erzeugende Funktion
+type: text/vnd.tiddlywiki
+
+Sei $$X$$ eine diskrete [[Zufallsvariable]] mit Werten in $$\Bbb N_0$$ und $$p_n=\Bbb P(X=n)$$ die dazugehörige [[Verteilung]]. Die Funktion
+
+$$
+G_X(s)\coloneqq\Bbb E\left[s^X\right]=\sum_{n=0}^\infty p_n s^n
+$$
+
+heißt //erzeugende Funktion// von $$X.$$ Sie ist auf dem Konvergenzradius der rechts stehenden Reihe definiert. Für $$|s|<1$$ ist sie immer definiert.
+
+''Satz.''
+Es seien $$X_1,\dots,X_n$$ unabhängige $$\N_0$$-wertige Zufallsvariablen und $$S_n\coloneqq X_1+\dots+X_n.$$ Dann gilt für $$|s|\le 1$$:
+$$
+G_{S_n}(s)=G_{X_1}(s)\cdots G_{X_n}(s)
+$$
+
+''Satz.''
+Es sei $$G$$ die erzeugende Funktion von $$X.$$ Dann gilt:
+
+# $$\Bbb E(X)=G'(1-)\coloneqq\lim_{s\uparrow 1} G'(s)\in[0,\infty].$$
+# Ist $$G'(1-)<\infty,$$ so gilt <div>
+$$
+V(X)=G''(1-)+G'(1-)(1-G'(1-)).
+$$
+Insbesondere ist $$\Bbb E(X)<\infty$$ genau dann, wenn $$G'(1-)<\infty$$ und die [[Varianz]] endlich, wenn zusätzlich $$G''(1-)<\infty.$$</div>
+
+---
+
+!! Konvergenzsatz
+
+{{Konvergenzsatz für erzeugende Funktionen}}

@@ -1,0 +1,17 @@
+created: 20171110203719945
+creator: Leander
+modified: 20191011215247157
+modifier: Leander
+tags: Betrag Formeln no-toc
+title: Dreiecksungleichung
+type: text/vnd.tiddlywiki
+
+Seien $$(V,\|.\|)$$ ein [[normierter Vektorraum|Normierter Vektorraum]] wie zum Beispiel $$(\mathbb R,|\cdot|)$$ und $$a,b\in V$$. Dann gilt
+
+$$
+\|a+b\| \le \|a\|+\|b\|
+$$
+und
+$$
+\bigl|\|b\|-\|a\|\bigr| \le \|b-a\|.
+$$

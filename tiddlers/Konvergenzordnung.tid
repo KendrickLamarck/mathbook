@@ -1,0 +1,23 @@
+created: 20180414220809814
+creator: Leander
+modified: 20191011210717518
+modifier: Leander
+tags: Optimierung
+title: Konvergenzordnung
+type: text/vnd.tiddlywiki
+
+Es sei $$(x_n)_{n\in\mathbb N}$$ eine [[konvergente|Konvergenz]] [[Folge]] und $$x^*\coloneqq\lim_{n\to\infty}x_n$$. Existiert ein $$c<1$$ mit
+
+$$
+|x_{n+1}-x^*|<c\cdot|x_n-x^*|\qquad\forall n\in\mathbb N,
+$$
+
+so hat die Folge (mindestens) //Konvergenzordnung// $$1$$.
+
+Sei nun $$p>1$$. Existiert ein $$c\in\mathbb R$$ mit
+
+$$
+|x_{n+1}-x^*|<c\cdot|x_n-x^*|^p\qquad\forall n\in\mathbb N,
+$$
+
+so hat die Folge (mindestens) Konvergenzordnung $$p$$. Man spricht dann z.B. von "linearer" oder "quadratischer" Konvergenz.

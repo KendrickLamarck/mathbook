@@ -1,0 +1,27 @@
+created: 20171031161429242
+creator: Leander
+modified: 20191011220035328
+modifier: Leander
+tags: Norm [[Komplexe Zahlen]]
+title: Betrag
+type: text/vnd.tiddlywiki
+
+! Reell
+
+Für $$x \in \mathbb{R}$$:
+$$
+|x|\coloneqq
+\begin{cases}
+-x, &\text{if } x<0 \\
+x,&\text{if } x \geq 0
+\end{cases}
+$$
+
+! Komplex
+
+Für $$z \in \mathbb{C}, z=a+bi$$:
+$$
+|z|\coloneqq\sqrt{z \cdot \bar{z}}=\sqrt{(a+bi)(a-bi)}=\sqrt{a^{2}+b^{2}}
+$$
+
+{{Rechenregeln für den Betrag}}

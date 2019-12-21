@@ -1,0 +1,17 @@
+created: 20171122195401944
+list: 
+modified: 20180410191952855
+revision: 0
+tags: Polynom
+title: Identitätssatz für Polynome
+type: text/vnd.tiddlywiki
+
+Seien
+$$
+f\colon\mathbb{C} \to \mathbb{C}, \quad z \mapsto \sum_{k=0}^{n} a_k z^k
+$$
+und
+$$
+g\colon\mathbb{C} \to \mathbb{C}, \quad z \mapsto \sum_{k=0}^{m} b_k z^k
+$$
+zwei [[Polynome|Polynom]] mit $$a_n \neq 0$$ und $$b_n \neq 0$$. Es gelte $$f(x)=g(x)$$ für alle $$x \in \mathbb{R}$$. Dann folgt $$m=n$$ und $$a_k = b_k$$ für alle $$k \in \{1,\ldots,n\}$$.

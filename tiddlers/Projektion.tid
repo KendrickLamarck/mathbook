@@ -1,0 +1,10 @@
+created: 20180324115559166
+creator: Leander
+modified: 20180810215855682
+modifier: Leander
+revision: 0
+tags: Endomorphismus
+title: Projektion
+type: text/vnd.tiddlywiki
+
+Ein [[Vektorraum]]-[[Endomorphismus]] $$P\colon V\to V$$ heißt //Projektion//, wenn er //idempotent// ist, d.h. $$P\circ P=P$$ ist.

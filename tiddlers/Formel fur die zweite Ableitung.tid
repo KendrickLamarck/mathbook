@@ -1,0 +1,14 @@
+created: 20180612213123720
+creator: Leander
+modified: 20190325194220770
+modifier: Leander
+revision: 0
+tags: [[Höhere Ableitungen]]
+title: Formel für die zweite Ableitung
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon V\supset G\to W$$ [[differenzierbar|Ableitung]] und in $$p\in G$$ [[zweimal differenzierbar|Höhere Ableitungen]]. Dann gilt für alle $$u,v\in V$$
+
+$$
+\mathrm D_p^2 f(u,v)=\lim_{t\to 0}\frac{f(p+tu+tv)-f(p+tu)-f(p+tv)+f(p)}{t^2}.
+$$

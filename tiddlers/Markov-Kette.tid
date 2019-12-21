@@ -1,0 +1,42 @@
+created: 20190615132748455
+list: [[Stochastische Matrix]] [[Existenz von Markov-Ketten]] [[Mehrfache Übergangswahrscheinlichkeiten von Markov-Ketten]] [[Erreichbarkeit in Markov-Ketten]] [[Abgeschlossene Zustandsmenge]] Irreduzibilität [[Stationäre Markov-Kette]] [[Stationäre Verteilung]] [[Konvergenzsatz für endliche Markov-Ketten]]
+modified: 20190710225133648
+revision: 0
+tags: Stochastik
+title: Markov-Kette
+
+Sei $$I\ne\varnothing$$ höchstens abzählbar. Sei $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Wahrscheinlichkeitsmaß]]. Eine Folge $$X_0,X_1,\dots$$ $$I$$-wertiger Zufallsvariablen auf $$(\Omega,\mathcal A,\Bbb P)$$ heißt //(zeitlich homogene) Markov-Kette// mit [[Übergangsmatrix|Stochastische Matrix]] $$P,$$ wenn für alle $$n\in\Bbb N$$ und $$i_0,\dots,i_{n+1}\in I$$ mit $$\Bbb P(X_0=i_0,\dots,X_{n+1}=i_{n+1})>0$$ gilt:
+
+$$
+\Bbb P(X_{n+1}=i_{n+1}\mid X_0=i_0,\dots,X_n=i_n)=p_{i_ni_{n+1}}.
+$$
+
+Die //Startverteilung// $$\nu$$ einer Markov-Kette ist das durch $$\nu_i\coloneqq\Bbb P(X_0=i),i\in I$$ auf $$I$$ definierte Wahrscheinlichkeitsmaß, also die [[Verteilung]] $$\Bbb P_{X_0}.$$ Ist $$\nu$$ auf einem Punkt konzentriert, d.h. $$\nu_i=1$$ für ein $$i\in I,$$ so schreibt man auch $$\Bbb P_i$$ anstelle von $$\Bbb P$$ und sagt, dass die Markov-Kette in $$i$$ startet. $$I$$ heißt //Zustandsraum// der Markov-Kette.
+
+---
+
+''Satz.''
+Sei $$(X_n)$$ eine Markov-Kette mit Startverteilung $$\nu.$$ Dann gilt:
+
+* $$\forall n\in\Bbb N_0,\ \forall i_0,\dots,i_n\in I$$ <div>
+$$
+\Bbb P(X_0=i_0,\dots,X_n=i_n)=
+\nu_{i_0} p_{i_0 i_1} p_{i_1 i_2}\cdots p_{i_{n-1} i_n}.
+$$
+</div>
+
+* Es seien $$n,m\in\Bbb N_0$$ und $$i_n\in I,$$ sowie $$A\subseteq I^n,B\subseteq I^m.$$ Falls $$\Bbb P((X_0,\dots,X_{n-1})\in A,X_n=i_n)>0,$$ so gilt die //Markov-Eigenschaft// <div>
+$$\begin{aligned}
+&\Bbb P((X_{n+1},\dots,X_{n+m})\in B\mid (X_0,\dots,X_{n-1})\in A, X_n=i_n)\\
+={}&\Bbb P((X_{n+1},\dots,X_{n+m})\in B\mid X_n=i_n).
+\end{aligned}$$
+</div>
+
+''Bemerkung.''
+Man kann die Definition einer Markov-Kette verallgemeinern auf den Fall, in dem die Übergangsmatrix $$P$$ von der Zeit $$n$$ abhängen kann. Man hat dann eine ganze Familie $$P^{(n)}=\left(p_{ij}^{(n)}\right)_{i,j\in I}$$ von Übergangsmatrizen. Analog gilt zum vorherigen Satz gilt dann: <div>
+$$
+\Bbb P(X_0=i_0,\dots,X_n=i_n)=
+\nu_{i_0} p_{i_0 i_1}^{(0)} p_{i_1 i_2}^{(1)}\cdots p_{i_{n-1} i_n}^{(n-1)}.
+$$
+</div>
+Auch in diesem Fall gilt die Markov-Eigenschaft und man nennt die Folge $$X_0,X_1,\dots$$ eine //zeitlich inhomogene Markovsche Kette.//

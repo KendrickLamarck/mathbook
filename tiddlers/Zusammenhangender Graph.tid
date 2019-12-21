@@ -1,0 +1,25 @@
+caption: Zusammenhang
+created: 20180411235908638
+creator: Leander
+modified: 20191011181612462
+modifier: Leander
+tags: Graph
+title: Zusammenhängender Graph
+type: text/vnd.tiddlywiki
+
+Ein ungerichteter [[Graph]] $$G=(V,E)$$ heißt //zusammenhängend//, falls es für je zwei Knoten $$v,w\in V$$ einen $$v$$-$$w$$-[[Weg]] in $$G$$ gibt. Andernfalls heißt $$G$$ unzusammenhängend.
+
+!!! Charakterisierungen
+
+* $$G$$ ist genau dann zusammenhängend, wenn $$G$$ einen [[Baum]] als aufspannenden [[Teilgraphen|Teilgraph]] enthält.
+* Sei außerdem für $$X\subset V$$ $$
+\delta(X)\coloneqq\{\,e\in E:|e\cap X|=1\,\}
+$$die Menge aller Kanten zwischen einem Knoten in $$X$$ und einem Knoten in $$V\setminus X$$. Dann ist $$G$$ zusammenhägend genau dann, wenn $$\delta(X)\ne\varnothing$$ für alle $$\varnothing\subsetneq X\subsetneq V$$.
+
+!! Zusammenhangskomponenten
+
+{{Zusammenhangskomponente}}
+
+!! Starker Zusammenhang
+
+{{Starker Zusammenhang}}

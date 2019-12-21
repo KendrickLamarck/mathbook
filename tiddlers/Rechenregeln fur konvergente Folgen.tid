@@ -1,0 +1,15 @@
+created: 20171122213157995
+list: 
+modified: 20191003223413587
+revision: 0
+tags: no-toc Folge
+title: Rechenregeln für konvergente Folgen
+type: text/vnd.tiddlywiki
+
+Seien $$(x_n)$$ und $$(y_n)$$ [[konvergente|Konvergenz]] [[Folgen|Folge]] mit den Grenzwerten $$\lim x_n = a$$ und $$\lim y_n = b$$. Dann gilt:
+
+* Die Folge $$(x_n+y_n)$$ ist konvergent und $$\lim(x_n+y_n)=a+b$$.
+* Die Folge $$(x_n y_n)$$ ist konvergent und $$\lim(x_n y_n)=ab$$ (insbesondere auch für konstante Folgen $$c$$).
+* Ist $$b \neq 0$$ und $$y_n\neq 0$$ für alle $$n$$, so ist die Folge $$(x_n/y_n)$$ konvergent und $$\lim(x_n/y_n)=a/b$$.
+* Ist $$\lim x_n = 0$$ (Nullfolge) und $$(z_n)$$ eine beschränkte Folge, so gilt $$\lim(x_n z_n)=0$$.
+* Wenn für fast alle $$n$$ (endlich viele Ausnahmen) $$x_n \leq y_n$$ gilt, dann folgt $$a \leq b$$.

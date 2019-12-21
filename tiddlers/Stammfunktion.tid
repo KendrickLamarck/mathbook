@@ -1,0 +1,16 @@
+created: 20180222125234149
+creator: Leander
+list: 
+modified: 20191011171018165
+modifier: Leander
+tags: [[Ableitung in R]]
+title: Stammfunktion
+type: text/vnd.tiddlywiki
+
+Seien $$J\subset\mathbb R$$ ein nicht-triviales Intervall oder eine offene Teilmenge und $$f,F\colon J\to\mathbb R$$ zwei Funktionen. Dann heißt $$F$$ eine //Stammfunktion// von $$f$$, wenn $$F\colon J\to\mathbb R$$ differenzierbar ist und $$F'=f$$ ist.
+
+Jede stetige Funktion $$f\colon J\to\mathbb R$$ auf einem Intervall hat nach dem [[Hauptsatz der Differential- und Integralrechnung]] eine Stammfunktion, nämlich
+
+$$
+F(x) \coloneqq \int_a^x f(t)\,\mathrm dt.
+$$

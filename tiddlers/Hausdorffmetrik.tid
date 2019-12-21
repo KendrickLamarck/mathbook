@@ -1,0 +1,16 @@
+created: 20180531185913762
+creator: Leander
+modified: 20190215224347440
+modifier: Leander
+revision: 0
+tags: Metrik
+title: Hausdorffmetrik
+type: text/vnd.tiddlywiki
+
+Sei $$\mathcal FX$$ die Menge der nichtleeren [[kompakten|Kompaktheit]] Teilmengen eines [[vollständigen|Vollständigkeit]] (kompakten) [[metrischen Raumes|Metrischer Raum]] $$(X,d).$$ Definiere für $$A,B\in\mathcal FX$$:
+
+* $$d(x,B)\coloneqq\inf\{\,d(x,y)\mid y\in B\,\}$$ für $$x\in A.$$
+* $$d(A,B)\coloneqq\sup\{\,d(x,B)\mid x\in A\,\}.$$
+* $$h(A,B)\coloneqq\sup\{\,d(A,B),d(B,A)\,\}.$$
+
+Dann ist $$(\mathcal FX,h)$$ ein vollständiger (kompakter) metrischer Raum, der //Raum der Fraktale// und $$h$$ heißt die //Hausdorffmetrik//.

@@ -1,0 +1,11 @@
+created: 20180901215848155
+modified: 20180901220437168
+revision: 0
+tags: Templates
+title: Transclude self template
+type: text/vnd.tiddlywiki
+
+<h1>
+<$view field="title"/>
+</h1>
+<$transclude mode="block"/>

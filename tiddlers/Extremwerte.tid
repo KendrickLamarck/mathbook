@@ -1,0 +1,24 @@
+created: 20180907085740346
+creator: Leander
+list: [[Extremwerte in R]] [[Ableitung und Extremwerte in R]] [[Notwendiges Extremwertkriterium]] [[Ableitung und Extremwerte]] [[Extrema auf Mannigfaltigkeiten]]
+modified: 20191011165220527
+modifier: Leander
+tags: Ableitung Abbildung
+title: Extremwerte
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein [[Banachraum]]. Die Funktion $$f\colon V\supset G\to\mathbb R$$ hat in $$p$$ ein //striktes lokales Maximum//, wenn es ein $$\epsilon>0$$ gibt, so dass
+
+$$
+\forall x\in G\colon 0<\|x-p\|<\epsilon\implies f(x)<(p).
+$$
+
+Genau so definiert man strikte lokale Minima.
+
+!! Notwendiges Kriterium
+
+{{Notwendiges Extremwertkriterium}}
+
+!! Ableitungen und Extremwerte
+
+{{Ableitung und Extremwerte}}

@@ -1,0 +1,23 @@
+created: 20180124195538534
+creator: Leander
+modified: 20191011162257751
+modifier: Leander
+tags: [[Trigonometrische Funktionen]] no-toc
+title: Arcus-Funktionen
+type: text/vnd.tiddlywiki
+
+Die //Arcus-Funktionen// sind die [[Umkehrfunktionen|Umkehrabbildung]] der [[trigonometrischen Funktionen|Trigonometrische Funktionen]], eingeschränkt auf Intervalle auf denen sie [[injektiv|Injektivität]] sind. die Folgenden Einschränkungen sind wegen der Periodizität willkürlich gewählt, sind aber die gängigen, genannt Hauptwerte:
+
+$$
+\begin{gathered}
+\arcsin\colon[-1,1]\to[-\pi/2,\pi/2]\\
+\arccos\colon[-1,1]\to[0,\pi]\\
+\arctan\colon\mathbb{R}\to(-\pi/2,\pi/2)
+\end{gathered}
+$$
+
+Für die [[Ableitungen|Ableitung]] ergibt sich
+
+$$
+\arcsin'x=\frac{1}{\sqrt{1-x^2}},\quad\arccos'x=\frac{-1}{\sqrt{1-x^2}},\quad\arctan'x=\frac{1}{1+x^2}
+$$

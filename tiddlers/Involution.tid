@@ -1,0 +1,7 @@
+created: 20180906221521899
+modified: 20191011211402494
+tags: Abbildung no-toc
+title: Involution
+type: text/vnd.tiddlywiki
+
+Eine [[Abbildung]] $$f\colon X\to X,$$ für die $$f\circ f=\operatorname{id}_X$$ gilt heißt //Involution.// Es gilt also $$f=f^{-1}.$$

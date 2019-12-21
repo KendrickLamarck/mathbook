@@ -1,0 +1,27 @@
+created: 20180222123740620
+list: 
+modified: 20191011170337705
+modifier: Leander
+tags: Regelintegral Stetigkeit no-toc
+title: Stückweise Stetigkeit und Monotonie
+type: text/vnd.tiddlywiki
+
+Wir nennen $$f\colon [a,b]\to\mathbb R$$ //stückweise stetig// bzw. //stückweise Monoton//, wenn gilt: Es gibt eine Zerlegung
+
+$$
+a=x_0\le\ldots\le x_n=b
+$$
+
+und [[stetige|Stetigkeit]] bzw. [[monotone|Monotonie]] Funktionen
+
+$$
+f_i\colon [x_{i-1},x_i]\to\mathbb R,\qquad i\in\{\,1,\ldots,n\,\}
+$$
+
+so dass für alle $$i\in\{\,1,\ldots,n\,\}$$ gilt:
+
+$$
+f|_{]x_{i-1},x_i[}=f_i|_{]x_{i-1},x_i[}.
+$$
+
+Stückweise stetige und stückweise monotone beschränkte Funktionen sind [[Regelfunktionen|Regelfunktion]].

@@ -1,0 +1,16 @@
+created: 20180723124046885
+creator: Leander
+modified: 20191003195453224
+modifier: Leander
+revision: 0
+tags: [[Hermite'sche Form]] no-toc
+title: Normalform hermitescher Sesquilinearformen
+type: text/vnd.tiddlywiki
+
+Zu jeder [[hermiteschen|Hermite'sche Form]] [[Sesquilinearform]] $$b$$ auf einem [[endlichdimensionalen|Dimension]] [[unitären|Unitärer Vektorraum]] [[Vektorraum]] $$V$$ gibt es eine [[Orthonormalbasis]] $$(v_1,\dots,v_n)$$ von $$V$$ und $$\lambda_1,\dots,\lambda_n\in\mathbb R,$$ so dass für alle $$v=\sum x_i v_i$$ und $$w=\sum y_i v_i$$ in $$V$$ gilt:
+
+$$
+b(v,w)=\sum \lambda_i x_i \bar y_i.
+$$
+
+Das $$n$$-Tupel $$\lambda_1,\dots,\lambda_n$$ ist bis auf [[Permutation]] eindeutig bestimmt bzw. hängt nur von $$b$$ ab.

@@ -1,0 +1,35 @@
+caption: Reihen
+created: 20180315141123585
+creator: Leander
+list: [[Kriterien zur Konvergenz von Reihen]] [[Cauchy-Kriterium für Konvergenz von Reihen]] Nullfolgenkriterium Majorantenkriterium Wurzelkriterium Quotientenkriterium Leibniz-Kriterium [[Absolute Konvergenz]] [[Rechenregeln für konvergente Reihen]] [[Assoziativgesetz für Reihen]] Cauchyprodukt Umordnung Umordnungssatz [[Riemann'scher Umordnungssatz]] [[Harmonische Reihe]] [[Geometrische Reihe]] Potenzreihe Reihen-Integral-Kriterium
+modified: 20191011211748622
+modifier: Leander
+tags: Analysis
+title: Reihe
+type: text/vnd.tiddlywiki
+
+Sei $$(a_k)_{k\in\mathbb N}$$ eine komplexe oder reelle [[Folge]]. Durch
+
+$$
+s_n=a_0+\ldots+a_n=\sum_{k=0}^n a_k
+$$
+
+definieren wir eine neue Folge $$(s_n)$$, die wir mit
+
+$$
+\sum_{k=0}^\infty a_k
+$$
+
+bezeichnen. Folgen dieser Form heißen //unendliche Reihen//. Man nennt $$s_n$$ auch die $$n$$-te //Partialsumme// der unendlichen Reihe.
+
+Die unendliche Reihe heißt //konvergent// gegen $$a$$, wenn die Folge $$(s_n)$$ [[konvergent|Konvergenz]] gegen $$a$$ ist. In diesem Fall schreiben wir auch
+
+$$
+a=\sum_{k=0}^\infty a_k
+$$
+
+und nennen diesen Grenzwert die //Summe// der unendlichen Reihe. Dieses Symbol kann also die Folge der Partialsummen oder den Grenzwert bezeichnen.
+
+!! Rechenregeln
+
+{{Rechenregeln für konvergente Reihen}}

@@ -1,0 +1,32 @@
+created: 20180519104602827
+creator: Leander
+modified: 20180725180351749
+modifier: Leander
+revision: 0
+tags: Polynom
+title: Einsetzungshomomorphismen
+
+Sei $$V$$ ein $$K$$-[[Vektorraum]]. Für ein [[Polynom]]
+
+$$
+p=a_0+a_1t+a_2t^2+\dots+a_nt^n\in K[t]
+$$
+
+und für $$F\in\operatorname{End}(V)$$ und $$A\in K^{n\times n}$$ seien
+
+$$\begin{aligned}
+p(F)&\coloneqq a_0\operatorname{id}_V+a_1F+a_2F^2+\dots+a_nF^n,\\
+p(A)&\coloneqq a_0E+a_1A+a_2A^2+\dots+a_nA^n.
+\end{aligned}$$
+
+Die sogenannten //Einsetzungshomomorphismen//
+
+$$\begin{aligned}
+&\operatorname{ev}_F\colon K[t]\to\operatorname{End}(V),\quad &p\mapsto \operatorname{ev}_F(p)\coloneqq p(F)\\
+&\operatorname{ev}_A\colon K[t]\to K^{n\times n},\quad &p\mapsto \operatorname{ev}_A(p)\coloneqq p(A)
+\end{aligned}$$
+
+sind [[lineare Abbildungen|Lineare Abbildung]] und [[Homomorphismen|Homomorphismus]] von [[Ringen|Ring]]. Die Bilder von $$\operatorname{ev}_F$$ und $$\operatorname{ev}_A$$ sind kommutative Ringe mit Eins.
+
+* Ist $$\dim V=n<\infty$$, dann ist $$\dim\operatorname{End}(V)=\dim K^{n\times n}=n^2$$, also sind $$\operatorname{id}_V,F\ldots,F^{n^2}$$ linear abhängig und es gibt ein Polynom $$p$$ vom Grad höchstens $$n^2$$ (es gilt sogar $$\deg p\le n$$), für das $$p(F)=0$$ ist.
+* Das [[Ideal]] von $$F$$ ist $$I_F\coloneqq\{\,p\in K[t]: p(F)=0\,\}=\ker\operatorname{ev}_F.$$

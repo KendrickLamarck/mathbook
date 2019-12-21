@@ -1,0 +1,10 @@
+created: 20180517182518800
+creator: Leander
+list: 
+modified: 20180517190001612
+modifier: Leander
+revision: 0
+tags: Stetigkeit
+title: Komponentenweise Stetigkeit
+
+Ist $$(X,d_X)$$ beliebig und $$(Y,d_Y)=\mathbb R^m$$, so ist $$f=(f_1,\ldots,f_m)$$ genau dann [[stetig|Stetigkeit]] in $$p$$, wenn alle Komponentenfunktionen $$f_i\colon X\to\mathbb R$$ in $$p$$ stetig sind.

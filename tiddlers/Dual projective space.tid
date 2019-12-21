@@ -1,0 +1,13 @@
+created: 20190128135149346
+creator: Leander
+modified: 20190128135737557
+modifier: Leander
+revision: 0
+tags: [[Projective space]]
+title: Dual projective space
+
+For a [[projective space|Projective space]] $$P(V),$$ we define the //dual projective space// to be $$P(V^*).$$ We obtain the following //duality principle://
+
+<<<
+From every theorem that talks only about incidence relations between points and lines in a projective plane, one obtains another valid theorem by interchanging the words "point" and "line" and the phrases "goes through" and "lies on".
+<<<

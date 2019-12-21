@@ -1,0 +1,13 @@
+created: 20170911225557462
+creator: Leander
+modified: 20191011161809437
+modifier: Leander
+tags: [[Euclidean geometry]]
+title: Pythagorean trigonometric identities
+type: text/vnd.tiddlywiki
+
+$$\begin{gathered}
+\sin^2 \theta + \cos^2 \theta = 1\\
+1 + \tan^2 \theta = \sec^2 \theta\\
+1 + \cot^2 \theta = \csc^2 \theta
+\end{gathered}$$

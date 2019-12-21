@@ -1,0 +1,19 @@
+created: 20171225145412768
+list: 
+modified: 20191003221858064
+revision: 0
+tags: no-toc [[Grenzwert von Funktionen]]
+title: Existenz des Grenzwerts und einseitige Grenzwerte
+type: text/vnd.tiddlywiki
+
+Seien $$f\colon\mathbb{R}\supset D \to \mathbb{R}$$ eine [[Funktion|Abbildung]], $$p \in \mathbb{R}$$ und für ein $$\delta > 0$$ sei
+
+$$
+]p-\delta,p+\delta[ \subset D \cup \{p\}.
+$$
+
+Dann gilt: Der [[Grenzwert|Grenzwert von Funktionen]] $$\lim_{x \to p} f(x)$$ existiert genau dann, wenn in $$p$$ der [[linksseitige|Einseitiger Grenzwert]] und der rechtsseitige Grenzwert existieren und beide gleich sind. In diesem Fall ist
+
+$$
+\lim_{x \to p} f(x) = \lim_{x \nearrow p} f(x) = \lim_{x \searrow p} f(x).
+$$

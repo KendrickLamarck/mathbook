@@ -1,0 +1,13 @@
+caption: Metrische Räume
+created: 20180416181103871
+creator: Leander
+list: Metrik Spurmetrik [[Offenheit (metrische Räume)]] Epsilon-Kugel Offenheit Abgeschlossenheit Vollständigkeit [[Beschränktheit (metrische Räume)]] [[Induzierte Topologien verschiedener Metriken]] Schachtelungsprinzip Isometrie [[Isomorphe metrische Räume]] Kontraktion
+modified: 20191012022422575
+modifier: Leander
+tags: Analysis
+title: Metrischer Raum
+type: text/vnd.tiddlywiki
+
+Ein //metrischer Raum// ist ein Paar $$(X,d)$$ bestehend aus einer Menge $$X$$ und einer [[Metrik]] $$d$$.
+
+{{Metrik}}

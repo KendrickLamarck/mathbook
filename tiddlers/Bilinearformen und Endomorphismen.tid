@@ -1,0 +1,16 @@
+created: 20180723121847612
+creator: Leander
+modified: 20180723122320689
+modifier: Leander
+revision: 0
+tags: Endomorphismus Bilinearform
+title: Bilinearformen und Endomorphismen
+
+Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[euklidischer|Euklidischer Vektorraum]] [[Vektorraum]].
+
+* Für jeden [[Endomorphismus]] $$F\in\operatorname{End}(V)$$ ist die Abbildung$$
+b_F\colon V\times V\to\mathbb R,\quad b_F(v,w)\coloneqq \langle v,F(w)\rangle
+$$eine [[Bilinearform]]. Sie ist genau dann [[symmetrisch|Symmetrische Form]], wenn $$F$$ [[selbstadjungiert|Selbstadjungierter Endomorphismus]] ist.
+
+* Für jede Bilinearform $$b$$ auf $$V$$ gibt es genau einen Endomorphismus $$F,$$ so dass$$
+b(v,w)=\langle v,F(w)\rangle\quad\forall v,w\in V.$$

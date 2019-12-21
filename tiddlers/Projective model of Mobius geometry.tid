@@ -1,0 +1,9 @@
+created: 20190605210919018
+modified: 20191010215430684
+tags: [[Möbius geometry]] no-toc
+title: Projective model of Möbius geometry
+type: text/vnd.tiddlywiki
+
+Consider [[stereographic projection|Stereographic projection]] $$\widehat\Bbb R^n \to S^n\subset\R\mathrm P^{n+1}.$$ All hyperspheres and hyperplanes correspond to hyperspheres in $$S^n,$$ which in turn correspond to points $$s$$ outside $$S^n,$$ i.e. points with $$\langle s,s\rangle_{n+1,1}>0.$$ A hypersphere in $$S^n$$ is the intersection of $$S^n$$ with the [[polar hyperplane|Pole-polar relationship]] of $$s.$$
+
+The space does not have to be $$S^n$$ but can be any [[quadric|Projective quadric]] $$Q$$ of signature $$(n+1,1).$$ The Möbius transformations are exactly the [[projective transformations|Projective transformation]] mapping the quadric to itself, i.e. the transformations coming from maps in $$\mathrm{PO}(n+1,1).$$

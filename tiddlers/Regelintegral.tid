@@ -1,0 +1,26 @@
+created: 20180315140954423
+creator: Leander
+list: [[Rechenregeln für Integrale]] Treppenfunktion [[Integral für Treppenfunktionen]] Regelfunktion [[Stückweise Stetigkeit und Monotonie]] [[Regelfunktionen und Riemann'sche Summen]] Integralschranken [[Mittelwertsatz der Integralrechnung]] [[Hauptsatz der Differential- und Integralrechnung]] [[Riemann'sche Summe]] [[Partielle Integration in R]] Substitutionsregel [[Negative Integrale]] [[Uneigentliches Integral]] Reihen-Integral-Kriterium [[Integral von 1/x]] [[Integral komplexwertiger Funktionen]]
+modified: 20191011181107588
+modifier: Leander
+tags: Integration
+title: Regelintegral
+type: text/vnd.tiddlywiki
+
+! Treppenfunktionen und ihr Integral
+
+{{Treppenfunktion}}
+
+{{Integral für Treppenfunktionen}}
+
+! Regelfunktionen
+
+{{Regelfunktion}}
+
+!! Regelintegral
+
+Sei $$f\colon [a,b]\to\mathbb{R}$$ eine [[Regelfunktion]] und $$(\phi_k)$$ eine approximierende [[Folge]] von [[Treppenfunktionen|Treppenfunktion]]. Wir definieren das //Regelintegral// von $$f$$ als die ([[konvergente|Konvergenz]]) [[Integralfolge|Integral für Treppenfunktionen]]
+
+$$
+\int_a^b f=\int_a^b f(x)\,\mathrm{d}x\coloneqq\lim_{k\to\infty}\int_a^b\phi_k(x)\,\mathrm{d}x.
+$$

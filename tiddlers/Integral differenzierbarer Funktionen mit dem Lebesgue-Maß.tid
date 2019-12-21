@@ -1,0 +1,18 @@
+created: 20190128161021163
+creator: Leander
+modified: 20190128161047267
+modifier: Leander
+revision: 0
+tags: Lebesgue-Integral
+title: Integral differenzierbarer Funktionen mit dem Lebesgue-Maß
+
+Sei $$(\Omega,\mathcal F,\mu)$$ ein $$\sigma$$-endlicher Maßraum, $$f\colon\Omega\to[0,\infty[$$ messbar und $$\varphi\colon{[0,\infty[}\to[0,\infty[,$$ so dass gilt:
+
+# $$\varphi$$ ist [[stetig|Stetigkeit]] und [[monoton wachsend|Monotonie]],
+# $$\varphi$$ ist auf $$]0,\infty[$$ stetig [[differenzierbar|Ableitung in R]] mit $$\varphi(0)=0.$$
+
+Dann gilt:
+
+$$
+\int_\Omega\varphi\circ f\,\mathrm d\mu=\int_0^\infty\varphi'(t)\mu(\{f\ge t\})\,\mathrm d\lambda(t)
+$$

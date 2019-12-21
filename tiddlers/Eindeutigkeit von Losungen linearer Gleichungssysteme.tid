@@ -1,0 +1,15 @@
+caption: Eindeutigkeit von Lösungen
+created: 20180327165704853
+creator: Leander
+modified: 20191004230644988
+modifier: Leander
+revision: 0
+tags: [[Lineares Gleichungssystem]] no-toc
+title: Eindeutigkeit von Lösungen linearer Gleichungssysteme
+type: text/vnd.tiddlywiki
+
+Sei $$Ax=b$$ ein [[lineares Gleichungssystem|Lineares Gleichungssystem]] mit $$A\in K^{m\times n}$$ und $$b\in K^m$$. Ist $$\operatorname{rang}A=\operatorname{rang}(A;b)=n$$, so ist das System eindeutig lösbar.
+
+Ist $$m=n$$, so reicht die Bedingung $$\operatorname{rang}A=n$$ und die [[lineare Abbildung|Lineare Abbildung]] $$A\colon K^n\to K^n$$ ist [[bijektiv|Bijektivität]]. Ist $$A^{-1}$$ die [[Umkehrabbildung]], so ist die eindeutige Lösung durch $$x=A^{-1}(b)$$ gegeben.
+
+Ist die [[Matrix]] $$A\in K^{m\times n}$$ vom [[Rang]] $$m$$, so ist die Abbildung $$A\colon K^n\to K^m$$ surjektiv, also ist der Lösungsraum von $$Ax=b$$ für jedes $$b\in K^m$$ nicht leer, das Gleichungssystem ist //universell lösbar//.

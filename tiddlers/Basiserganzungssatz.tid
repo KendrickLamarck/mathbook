@@ -1,0 +1,14 @@
+created: 20171230204409855
+modified: 20180410191951847
+revision: 0
+tags: Basis
+title: Basisergänzungssatz
+type: text/vnd.tiddlywiki
+
+In einem [[endlich erzeugten|Erzeugendensystem]] [[Vektorraum]] $$V$$ seien linear unabhängige Vektoren $$w_1,\ldots,w_n$$ gegeben. Dann kann man $$w_{n+1},\ldots,w_r$$ finden, so dass
+
+$$
+\mathcal{B} = (w_1,\ldots,w_n,w_{n+1},\ldots,w_r)
+$$
+
+eine [[Basis]] von $$V$$ ist.

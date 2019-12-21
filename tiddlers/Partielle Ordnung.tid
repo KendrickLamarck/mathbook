@@ -1,0 +1,15 @@
+created: 20180103223145629
+list: 
+modified: 20180413121913943
+revision: 0
+tags: Ordnungstheorie
+title: Partielle Ordnung
+type: text/vnd.tiddlywiki
+
+Es sei $$S$$ eine Menge. Eine [[Relation]] $$R \subset S \times S$$ heiß //partielle Ordnung// auf $$S$$, falls für alle $$a,b,c \in S$$ gilt:
+
+# $$(a,a) \in R$$ (Reflexivität);
+# Wenn $$(a,b) \in R$$ und $$(b,a) \in R$$, so folgt $$a=b$$ (Antisymmetrie);
+# Wenn $$(a,b) \in R$$ und $$(b,c) \in R$$, so folgt $$(a,c) \in R$$ (Transitivität).
+
+Statt $$(a,b)\in R$$ schreiben wir auch $$aRb$$.

@@ -1,0 +1,9 @@
+created: 20180626210644014
+creator: Leander
+modified: 20191011222724171
+modifier: Leander
+tags: Ford-Algorithmus no-toc
+title: Ford-Algorithmus für azyklische Digraphen
+type: text/vnd.tiddlywiki
+
+Ist ein gerichteter [[Graph]] $$G=(V,E)$$ azyklisch, so existiert eine [[topologische Sortierung|Topologische Sortierung (Graphen)]] von $$V.$$ Dann gibt es auch eine Sortierung von $$E,$$ so dass $$(v_i,v_j)$$ vor $$(v_k,v_l)$$ kommt, falls $$i<k.$$ Dann ist jeder Pfad in $$G$$ in dieser Sortierung eingebettet, sie muss also nur einmal durchlaufen werden.

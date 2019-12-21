@@ -1,0 +1,32 @@
+created: 20180329170314186
+creator: Leander
+modified: 20190705144311726
+modifier: Leander
+revision: 0
+tags: Matrix
+title: Matrizenmultiplikation
+type: text/vnd.tiddlywiki
+
+Seien
+
+$$
+A=(a_{ij})\in K^{m\times n},\quad B=(b_{jk})\in K^{n\times r},
+$$
+
+d.h. $$A$$ hat so viele Spalten wie $$B$$ Zeilen. Dann ist das Produkt definiert durch
+
+$$
+A\cdot B=(c_{ik})\in K^{m\times r},\quad c_{ik}\coloneqq\sum_{j=1}^n a_{ij}b_{jk}.
+$$
+
+Das Produkt hat also so viele Zeilen wie $$A$$ und so viele Spalten wie $$B$$. $$(K^{n\times n};+;\cdot)$$ ist ein [[Ring]] mit der [[Einheitsmatrix]] $$E_n$$ als Einselement. Der Ring ist jedoch weder kommutativ noch nullteilerfrei.
+
+!! Rechenregeln
+
+Seien $$A,A'\in K^{m\times n}$$ und $$B,B'\in K^{n\times r}$$, sowie $$C\in K^{r\times s}$$ und $$\lambda\in K$$. Dann gilt:
+
+* $$A\cdot(B+B')=A\cdot B+A\cdot B'$$ und $$(A+A')\cdot B=A\cdot B+A'\cdot B$$
+* $$A\cdot (\lambda B)=(\lambda A)\cdot B=\lambda (A\cdot B)$$
+* $$(A\cdot B)\cdot C=A\cdot (B\cdot C)$$
+* $$(A\cdot B)^\mathrm T=B^\mathrm T\cdot A^\mathrm T$$
+* $$E_m\cdot A=A\cdot E_n=A$$

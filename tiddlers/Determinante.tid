@@ -1,0 +1,67 @@
+created: 20180404220238608
+creator: Leander
+list: Leibnizformel [[Entwicklungssatz von Laplace]] [[Determinante eines Endomorphismus]] [[Determinante und Permutationen]] [[Komplementäre Matrix]] [[Gram'sche Determinante]] Kreuzprodukt [[Ableitung der Determinante]]
+modified: 20191004230202311
+modifier: Leander
+revision: 0
+tags: [[Lineare Algebra]]
+title: Determinante
+type: text/vnd.tiddlywiki
+
+Sei $$K$$ ein [[Körper]] (oder mit Einschränkungen ein kommutativer [[Ring]] mit Eins) und $$n$$ eine von Null verschiedene natürliche zahl. Eine Abbildung
+
+$$
+\det\colon K^{n\times n}\to K,\quad A\mapsto\det A
+$$
+
+heißt //Determinante//, falls folgendes gilt:
+
+* $$\det$$ ist ''multilinear'' in jeder Zeile, d.h. für einen Index $$i\in\{1,\ldots,n\}$$ gilt:
+
+*#<div>Ist $$a_i=a_i'+a_i''$$, so ist
+$$
+\det\begin{pmatrix} \vdots \\ a_i   \\ \vdots \end{pmatrix}=
+\det\begin{pmatrix} \vdots \\ a_i'  \\ \vdots \end{pmatrix}+
+\det\begin{pmatrix} \vdots \\ a_i'' \\ \vdots \end{pmatrix}.
+$$</div>
+
+*# <div>Ist $$a_i=\lambda a_i'$$, so ist
+$$
+\det\begin{pmatrix} \vdots \\ a_i \\ \vdots \end{pmatrix}=
+\lambda\cdot\det\begin{pmatrix} \vdots \\ a_i' \\ \vdots \end{pmatrix}.
+$$</div>
+
+* $$\det$$ ist ''alternierend'', d.h. hat $$A$$ zwei gleiche Zeilen, so ist $$\det A=0$$.
+
+* $$\det$$ ist ''normiert'', d.h. $$\det E_n=1$$.
+
+!! Eigenschaften
+
+* Für jedes $$\lambda\in K$$ ist $$\det(\lambda A)=\lambda^n\det A$$.
+
+* Ist eine Zeile von $$A$$ gleich Null, so ist $$\det A=0$$.
+
+* Entsteht $$B$$ aus $$A$$ durch Zeilenvertauschung, so ist $$\det B=-\det A$$.
+
+* Ist $$\lambda\in K$$ und ensteht $$B$$ aus $$A$$ durch Addition der $$\lambda$$-fachen $$j$$-ten Zeile zur $$i$$-ten Zeile ($$i\ne j$$), so ist $$\det B=\det A$$.
+
+* Ist $$A$$ eine obere Dreicksmatrix mit $$a_{ii}=\lambda_i$$, so ist $$\det A=\lambda_1\cdot\ldots\cdot\lambda_n$$.
+
+* <div>Sei $$n\ge 2$$ und $$A\in K^{n\times n}$$ von der Gestalt
+$$
+A=\begin{pmatrix}A_1&\mkern{-15mu}C\\0&\mkern{-15mu}A_2\end{pmatrix},
+$$
+wobei $$A_1$$ und $$A_2$$ quadratisch sind. Dann gilt $$\det A=\det A_1\cdot\det A_2$$.</div>
+
+* $$\det A=0\iff\operatorname{Rang}A<n$$.
+
+* <div>Es gilt der ''Determinanten-Multiplikationssatz''
+$$
+\det(A\cdot B)=\det A\cdot \det B.
+$$
+für alle $$A,B\in K^{n\times n}.$$ Insbesondere gilt für $$A\in\operatorname{GL}(n;K)$$
+$$
+\det A^{-1}=(\det A)^{-1}.
+$$</div>
+
+* Es gilt $$\det A^\mathrm T=\det A$$, Spalten sind also den Zeilen in keiner Weise untergeordnet.

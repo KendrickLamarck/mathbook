@@ -1,0 +1,9 @@
+created: 20190708224833962
+modified: 20190715161458607
+revision: 0
+title: Unabhängigkeit und Verteilungsfunktionen
+
+Besitzen die Zufallsvariablen die Verteilungsfunktionen $$F_{X_i}$$, so sind äquivalent:
+
+# $$X_1,\dots,X_n$$ sind unabhängig,
+# $$F_\Bbb X(x_1,\dots,x_n)=F_{X_1}(x_1)\cdots F_{X_n}(x_n)$$ für alle $$(x_1,\dots,x_n)\in\R^n.$$

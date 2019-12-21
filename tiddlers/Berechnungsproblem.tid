@@ -1,0 +1,16 @@
+created: 20180708142730626
+creator: Leander
+modified: 20180708143155015
+modifier: Leander
+revision: 0
+tags: Algorithmus
+title: Berechnungsproblem
+
+Es sei $$P\subset D\times E$$ eine [[Relation]], so dass es zu jedem $$d\in D$$ ein $$e\in E$$ mit $$(d,e)\in P$$ gibt. Dann heißt $$P$$ //Berechnungsproblem.//
+
+* Ist $$(d,e)\in P$$, so ist $$e$$ //korrekte Ausgabe// für das Problem $$P$$ mit Eingabe $$d.$$
+* Die Elemente von $$D$$ sind die //Instanzen// des Problems.
+* Ist $$P$$ eine [[Funktion|Abbildung]], so ist das Problem $$P$$ //eindeutig.//
+* Sind $$D$$ und $$E$$ Sprachen über einem endlichen [[Alphabet|Sprache]] $$\Sigma,$$ so ist $$P$$ ein //diskretes// Berechnungsproblem.
+* Ist $$D\subset\mathbb R^n$$ und $$E\subset\mathbb R^m$$ mit $$n,m\in\mathbb N\setminus\{0\},$$ so ist $$P$$ ein //numerisches// Berechnungsproblem.
+* Ein eindeutiges Berechnungsproblem $$P\colon D\to E$$ mit $$|E|=2$$ ist ein //Entscheidungsproblem.//

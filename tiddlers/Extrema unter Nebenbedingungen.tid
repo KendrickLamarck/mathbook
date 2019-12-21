@@ -1,0 +1,18 @@
+created: 20190331231504269
+modified: 20191011164958413
+tags: [[Extrema auf Mannigfaltigkeiten]] no-toc
+title: Extrema unter Nebenbedingungen
+type: text/vnd.tiddlywiki
+
+Zur Bestimmung der Kandidaten $$p$$ für Stellen [[lokaler Extrema|Extrema auf Mannigfaltigkeiten]] von $$f\colon\Bbb R^n\supseteq G\to\Bbb R$$ unter der Nebenbedingung $$g=0$$ mit $$g\colon G\to\Bbb R^m$$ sucht man
+
+# alle Punkte $$p$$ mit $$g(p)=0$$ in denen $$\mathrm D_p g(\Bbb R^n)\ne\Bbb R^m$$ (singuläre Punkte),
+
+# <div>alle Lösungen $$p,\lambda$$ von
+$$
+\begin{gathered}
+g_1(p)=\dots=g_m(p)=0, \\
+\partial_j f(p)=\sum_{i=1}^m \lambda_i \partial_j g_i(p),\quad j=1,\dots,n.
+\end{gathered}
+$$
+Das sind $$m+n$$ Gleichungen für die $$n+m$$ Variablen $$p_1,\dots,p_n,\lambda_1,\dots,\lambda_m.$$</div>

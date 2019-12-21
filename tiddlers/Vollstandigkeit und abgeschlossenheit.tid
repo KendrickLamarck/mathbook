@@ -1,0 +1,13 @@
+created: 20180427184045848
+creator: Leander
+list: 
+modified: 20191011205344873
+modifier: Leander
+tags: Abgeschlossenheit Vollständigkeit no-toc
+title: Vollständigkeit und abgeschlossenheit
+type: text/vnd.tiddlywiki
+
+Ist $$(X,d)$$ [[vollständig|Vollständigkeit]] und $$A\subset X$$ versehen mit der [[Spurmetrik]] $$d_A$$, so sind folgende Aussagen äquivalent:
+
+# $$A$$ ist [[abgeschlossen|Abgeschlossenheit]],
+# $$(A,d_A)$$ ist vollständig.

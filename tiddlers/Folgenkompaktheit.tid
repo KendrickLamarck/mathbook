@@ -1,0 +1,13 @@
+created: 20180509203705498
+creator: Leander
+modified: 20191011225525460
+modifier: Leander
+tags: Folge Kompaktheit no-toc
+title: Folgenkompaktheit
+type: text/vnd.tiddlywiki
+
+Eine Teilmenge $$A$$ eines [[metrischen Raumes|Metrischer Raum]] heißt //folgenkompakt//, falls jede [[Folge]] in $$A$$ eine [[konvergente|Konvergenz]] [[Teilfolge]] besitzt.
+
+!! Satz von Bolzano-Weierstraß
+
+{{Satz von Bolzano-Weierstraß}}

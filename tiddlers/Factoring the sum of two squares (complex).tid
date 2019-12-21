@@ -1,0 +1,11 @@
+caption: Sum of two squares (complex)
+created: 20170906190542095
+modified: 20191004165525248
+revision: 0
+tags: Factoring no-toc
+title: Factoring the sum of two squares (complex)
+type: text/vnd.tiddlywiki
+
+$$
+a^2+b^2=(a+bi)(a-bi)
+$$

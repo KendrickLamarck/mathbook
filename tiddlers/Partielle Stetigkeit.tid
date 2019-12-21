@@ -1,0 +1,10 @@
+created: 20180517182823308
+creator: Leander
+list: 
+modified: 20180517190001612
+modifier: Leander
+revision: 0
+tags: Stetigkeit
+title: Partielle Stetigkeit
+
+Sei $$(Y,d)$$ ein [[metrischer Raum|Metrischer Raum]] und $$f\colon\mathbb R^m\supset G\to Y$$ eine Funktion. Betrachten wir nur eine Komponente $$x_i$$ als variabel und wählen alle anderen fest, so können wir die stetigkeit in dieser Komponente betrachten. Ist $$f$$ in allen komponenten einzeln stetig, so nennen wir sie //partiell stetig//. Dies impliziert jedoch ''nicht'' die [[Stetigkeit]].

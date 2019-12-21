@@ -1,0 +1,37 @@
+created: 20180708132744565
+creator: Leander
+modified: 20191011222909001
+modifier: Leander
+tags: Algorithmus
+title: Optimale statische Suchbäume
+type: text/vnd.tiddlywiki
+
+Sind Schlüssel $$s_1<\dots<s_n$$ mit bekannten Zugriffshäufigkeiten $$\beta_1,\dots,\beta_n$$ gegeben, so kann ein optimaler statischer Suchbaum berechnet werden, der die //totale Zugriffszeit//
+
+$$
+C(T)\coloneqq\sum_{i=1}^n\beta_i(d_T(s_i)+1)
+$$
+
+und damit auch die mittlere Zugriffszeit $$C(T)/w_{0,n}$$ (siehe unten) minimiert.
+
+Der Algorithmus funktioniert nach dem Prinzip der //optimalen Substruktur:// Sei $$T$$ ein optimaler statischer Suchbaum mit Wurzel $$s_k$$. Dann sind $$T_{s_k.\mathtt{left}}$$ und $$T_{s_k.\mathtt{right}}$$ für $$\{s_1,\dots,s_{k-1}\}$$ und $$\beta_1,\dots,\beta_{k-1}$$ bzw.  für $$\{s_{k+1},\dots,s_n\}$$ und $$\beta_{k+1},\dots,\beta_n$$ optimal statische Suchbäume.
+
+Man definiert also für $$0\le i\le j\le n$$
+
+$$
+\begin{gathered}
+C_{i,j}^\mathrm{opt}\coloneqq\min\{\,C(T_{i,j})\mid T_{i,j}\text{ Suchbaum für }\{s_{i+1},\dots,s_j\}\,\}, \\
+w_{i,j}\coloneqq\sum_{q=i+1}^j \beta_q.
+\end{gathered}
+$$
+
+Dann gilt
+
+$$
+C_{i,j}^\mathrm{opt}=w_{i,j}+
+\min_{k=i+1}^j\left(C_{i,k-1}^\mathrm{opt}+C_{k,j}^\mathrm{opt}\right).
+$$
+
+Findet man das Minimum bei einem $$k$$, so steht der Knoten $$s_k$$ an der Wurzel.
+
+Der Algorithmus berechnet schließlich alle $$C_{i,j}^\mathrm{opt}$$ und die zugehörigen optimalen Teilbäume $$T_{i,j}^\mathrm{opt}$$ nach aufsteigenden $$j-i$$ und läuft auf diese Weise in Zeit $$\mathcal O(n^3)$$.

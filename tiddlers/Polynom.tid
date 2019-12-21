@@ -1,0 +1,23 @@
+created: 20180315155155048
+creator: Leander
+list: [[Grad von Polynomen]] [[Fundamentalsatz der Algebra]] [[Identitätssatz für Polynome]] Partialbruchzerlegung Polynomdivision pq-Formel abc-Formel [[Algebraische Abgeschlossenheit]] [[Rationale Funktion]] Einsetzungshomomorphismen Minimalpolynom
+modified: 20191003230220381
+modifier: Leander
+revision: 0
+tags: Algebra
+title: Polynom
+type: text/vnd.tiddlywiki
+
+Ein reelles Polynom ist eine [[Funktion|Abbildung]] $$f\colon\mathbb{R}\to\mathbb{R}$$ der Form
+$$
+x \mapsto \sum_{k=0}^{n} a_k x^k
+$$
+mit $$n\in\mathbb N$$ und $$a_k \in \mathbb{R}$$. Ersetzt man überall $$\mathbb{R}$$ durch $$\mathbb{C}$$, erhält man ein [[komplexes|Komplexe Zahlen]] Polynom.
+
+Aus der [[Polynomdivision]] und dem [[Fundamentalsatz der Algebra]] folgt, dass jedes komplexe Polynom eine eindeutige Darstellung
+$$
+f(z)=a_n(z-z_1)^{k_1}\cdots(z-z_r)^{k_r}
+$$
+besitzt mit $$a_n \in \mathbb{C} \setminus \{0\}$$, paarweise verschiedenen $$z_1,\ldots,z_r \in \mathbb{C}$$ (Nullstellen von $$f$$) und positiven natürlichen Zahlen $$k_1,\dots,k_r$$ mit $$k_1+\dots+k_r=n$$, mit $$n = \deg f$$.
+
+''Bemerkung:'' In der [[Algebra]] unterscheidet man zu einem [[Körper]] $$K$$ und einer unbestimmten $$t$$ zwischen der Menge der Polynome $$K[t]$$ als formale Ausdrücke der bekannten Form, welche einen [[Ring]] bildet und den durch sie beschriebenen Polynomfunktionen. Im Fall eines endlichen Körpers ist die Abbildung, welche Polynome auf ihre Polynomfunktionen abbildet nicht notwendigerweise [[injektiv|Injektivität]].

@@ -1,0 +1,19 @@
+created: 20180411144346747
+modified: 20180411144455838
+revision: 0
+tags: Zahldarstellung
+title: Absoluter und relativer Fehler
+
+Zu einer Näherung $$\tilde x$$ von $$x\in\mathbb R$$ ist
+
+$$
+|x-\tilde x|
+$$
+
+der //absolute Fehler//. Für $$x\ne 0$$ ist
+
+$$
+\left|\frac{x-\tilde x}{x}\right|
+$$
+
+der //relative Fehler.//

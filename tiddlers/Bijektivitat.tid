@@ -1,0 +1,12 @@
+created: 20171111133755983
+creator: Leander
+list: 
+modified: 20191011164014926
+modifier: Leander
+tags: [[Injektiv, surjektiv, bijektiv]] no-toc
+title: Bijektivität
+type: text/vnd.tiddlywiki
+
+Eine [[Abbildung]] $$f\colon X \to Y$$ heißt bijektiv, wenn sie [[injektiv|Injektivität]] und [[surjektiv|Surjektivität]] ist oder wenn es eine Abbildung $$g\colon Y \to X$$ gibt, so dass die [[Komposition]] $$f \circ g = \operatorname{id}_Y$$ und $$g \circ f = \operatorname{id}_X$$ ist. In diesem Fall ist $$g$$ die [[Umkehrabbildung]] $$f^{-1}$$ zu $$f$$.
+
+Jedes $$y \in Y$$ besitzt ''genau'' ein Urbild in $$X$$.

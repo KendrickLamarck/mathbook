@@ -1,0 +1,16 @@
+created: 20180731222117222
+creator: Leander
+modified: 20181021172644491
+modifier: Leander
+revision: 0
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Satz von Peano
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon\mathbb R\times V\supset G\to V$$ [[stetig|Stetigkeit]] auf der [[offenen|Offenheit]] Menge $$G,$$ und sei $$(t_0,x_0)\in G.$$ Dann ist das [[Anfangswertproblem|Gewöhnliche Differentialgleichung]]
+
+$$
+\dot x=f(t,x),\quad x(t_0)=x_0
+$$
+
+lösbar. Ist $$f$$ nach $$x$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]], so ist die Lösung eindeutig. Insbesondere gibt es eine Lösung auf einem Intervall der Form $$J={]t_0-\epsilon,t_0+\epsilon[}.$$

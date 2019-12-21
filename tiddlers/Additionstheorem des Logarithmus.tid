@@ -1,0 +1,11 @@
+created: 20180107005628260
+modified: 20191011162607247
+tags: Exponentialfunktion no-toc
+title: Additionstheorem des Logarithmus
+type: text/vnd.tiddlywiki
+
+Für alle $$x,y \in {]0,+\infty[}$$ gilt wie beim [[Additionstheorem der Exponentialfunktion]]
+
+$$
+\log(xy) = \log(x) + \log(y).
+$$

@@ -1,0 +1,12 @@
+created: 20180414224859830
+modified: 20180414225145398
+revision: 0
+tags: Ordnungstheorie
+title: Maximales/größtes Element
+
+Sei $$S$$ eine Menge und sei $$\preceq$$ eine [[partielle Ordnung|Partielle Ordnung]] auf $$S$$. Ein Element $$x\in S$$ heißt
+
+* //maximal//, wenn für alle $$y\in S$$ mit $$y\succeq x$$ gilt, dass $$y=x,$$
+* //größtes Element//, wenn für alle $$y\in S$$ gilt, dass $$y\preceq x$$.
+
+Analog definiert man //minimal// und //kleinstes Element//.

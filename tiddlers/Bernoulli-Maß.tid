@@ -1,0 +1,14 @@
+created: 20190407192213728
+modified: 20190407192503109
+revision: 0
+tags: [[Diskretes Maß]]
+title: Bernoulli-Maß
+type: text/vnd.tiddlywiki
+
+Für eine endliche Menge $$I$$ heißt das [[Maß]]
+
+$$
+(p\delta_1+(1-p)\delta_0)^{\otimes I}
+$$
+
+auf $$\{0,1\}^I$$ mit der [[Potenzmenge]] das //Bernoulli-Maß// zum Parameter $${]0,1[}.$$

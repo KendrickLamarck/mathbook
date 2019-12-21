@@ -1,0 +1,8 @@
+created: 20180315152314445
+modified: 20180423192456098
+revision: 0
+tags: Analysis
+title: Wichtige Funktionen
+type: text/vnd.tiddlywiki
+
+<<list-links [tag{!!title}]>>

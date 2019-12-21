@@ -1,0 +1,13 @@
+created: 20171110210545701
+creator: Leander
+modified: 20180429103700352
+modifier: Leander
+revision: 0
+tags: Formeln
+title: Binomialsatz
+type: text/vnd.tiddlywiki
+
+Für $$n \in \mathbb{N}$$ und $$a,b \in \mathbb{R}$$ gilt
+$$
+(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k}b^{k}.
+$$

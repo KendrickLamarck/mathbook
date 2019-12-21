@@ -1,0 +1,14 @@
+created: 20190708211439791
+modified: 20190708211925881
+revision: 0
+tags: 
+title: Binomialapproximation
+
+Für $$N,K_N\to\infty$$ mit $$p_N\coloneqq\frac{K_N}{N}\xrightarrow{N\to\infty} p$$ gilt (mit $$K=K_N$$)
+
+$$
+\frac
+{\binom K k \binom{N-K}{n-k}}
+{\binom N n}\xrightarrow{N\to\infty}
+\binom n k p^k(1-p)^{n-k}
+$$

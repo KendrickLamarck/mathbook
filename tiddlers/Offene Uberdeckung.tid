@@ -1,0 +1,13 @@
+created: 20180430173933112
+creator: Leander
+modified: 20191011231113426
+modifier: Leander
+tags: Kompaktheit
+title: Offene Überdeckung
+type: text/vnd.tiddlywiki
+
+Seien $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]] und $$A\subset X$$. Eine //offene Überdeckung// von $$A$$ ist eine Familie von offenen Teilmengen $$(U_i)_{i\in I}$$ mit
+
+$$
+A\subset\bigcup_{i\in I} U_i.
+$$

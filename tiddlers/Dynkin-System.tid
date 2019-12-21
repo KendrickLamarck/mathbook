@@ -1,0 +1,27 @@
+created: 20181203155344999
+modified: 20190414131400305
+revision: 0
+tags: Maßtheorie
+title: Dynkin-System
+type: text/vnd.tiddlywiki
+
+Sei $$\Omega$$ eine Menge. Ein Mengensystem $$\mathcal C\subseteq\mathcal P(\Omega)$$ heißt ein //Dynkin-System,// falls
+
+# $$\Omega\in\mathcal C$$
+
+# $$A\in\mathcal C\implies A^c\in\mathcal C$$
+
+# $$A_1,A_2,\ldots \in\mathcal C$$ paarweise disjunkt $$\implies\bigcup_{n\in\mathbb N} A_n\in\mathcal C.$$
+
+''Satz.''
+Ein durchschnittstabiles Dynkin-System $$\mathcal C$$, d.h. eines mit
+
+$$
+A,B\in\mathcal C\implies A\cap B\in\mathcal C,
+$$
+
+ist eine $$\sigma$$-[[Algebra|Sigma-Algebra]].
+
+!! Erzeugtes Dynkin-System
+
+{{Erzeugtes Dynkin-System}}

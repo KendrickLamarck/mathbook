@@ -1,0 +1,15 @@
+created: 20180404231008080
+modified: 20180410191952440
+revision: 0
+tags: Matrix
+title: Elementarmatrizen
+type: text/vnd.tiddlywiki
+
+Die //Elementarmatrizen// kodieren die elementaren Zeilen- und Spaltenumformungen:
+
+# $$S_i(\lambda)=E_m+(\lambda-1)E_i^j$$ multipliziert die $$i$$-te Spalte einer [[Matrix]] mit $$\lambda$$,
+# $$Q_i^j=E_m+E_i^j$$ addiert die $$i$$-te Spalte zur $$j$$-ten Spalte,
+# $$Q_i^j(\lambda)=E_m+\lambda E_i^j$$ addiert das $$\lambda$$-fache der $$i$$-ten Spalte zur $$j$$-ten Spalte und
+# $$P_i^j=E_m-E_i^i-E_j^j+E_i^j+E_j^i$$ vertauscht die $$i$$-te Spalte mit der $$j$$-ten Spalte,
+
+wenn diese Matrizen aus $$K^{m\times m}$$ von ''rechts'' mit einer Matrix mit $$m$$ Spalten [[multipliziert|Matrizenmultiplikation]] werden. Multiplikation von ''links'' mit einer Matrix mit $$m$$ Zeilen ergibt die entsprechenden Zeilenumformungen.

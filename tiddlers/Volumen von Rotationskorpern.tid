@@ -1,0 +1,16 @@
+caption: Rotationskörper
+created: 20190105153237577
+creator: Leander
+modified: 20191010145548994
+modifier: Leander
+tags: Volumen
+title: Volumen von Rotationskörpern
+type: text/vnd.tiddlywiki
+
+Sei $$-\infty<a<b<\infty$$ und $$f\colon [a,b]\to[0,\infty[$$ [[stetig|Stetigkeit]]. Dann hat der dreidimensionale //Rotationskörper//
+
+$$
+K\coloneqq\left\{(x,y,z)\in[a,b]\times\Bbb R^2:y^2+z^2\le f(x)^2\right\}
+$$
+
+Das [[Volumen]] $$\operatorname{Vol}_3(K)=\pi\int_a^b f(x)^2\,\mathrm dx.$$

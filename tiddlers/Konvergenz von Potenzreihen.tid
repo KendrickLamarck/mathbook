@@ -1,0 +1,16 @@
+created: 20180226124437621
+creator: Leander
+list: 
+modified: 20191003224825457
+modifier: Leander
+revision: 0
+tags: no-toc Potenzreihe
+title: Konvergenz von Potenzreihen
+type: text/vnd.tiddlywiki
+
+Sei $$R\in \left[0,+\infty\right[\cup\{+\infty\}$$ der [[Konvergenzradius]] der [[Potenzreihe]] $$\sum_{k=0}^\infty a_k(z-z_0)^k$$. Dann gilt nach dem [[Wurzelkriterium]] für alle $$z\in\mathbb C$$:
+
+# Die [[Reihe]] ist [[absolut konvergent|Absolute Konvergenz]] für $$|z-z_0|<R$$
+# Die Reihe ist divergent für $$|z-z_0|>R$$.
+
+Die Menge $$\{\,z\in\mathbb C : |z-z_0|<R \,\}$$ ist ein offener Kreis vom Radius $$R$$ um den Mittelpunkt $$z_0$$, der sogenannte //Konvergenzkreis// der Reihe.

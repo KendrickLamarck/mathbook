@@ -1,0 +1,42 @@
+created: 20171110211150363
+creator: Leander
+modified: 20180725162855284
+modifier: Leander
+revision: 0
+tags: Körper
+title: Komplexe Zahlen
+type: text/vnd.tiddlywiki
+
+Die Komplexen Zahlen $$\mathbb{C}$$ sind der [[Körper]] $$\mathbb{R} \times \mathbb{R}$$ mit den folgendermaßen definierten [[Verknüpfungen|Verknüpfung]]
+$$
+(a,b)+(a',b') \coloneqq (a+a',b+b')
+$$
+und
+$$
+(a,b) \cdot (a',b') \coloneqq (aa'-bb',ab'+a'b).
+$$
+Das neutrale Element der Addition ist $$(0,0)$$, das negative von $$(a,b)$$ ist $$(-a,-b)$$, das neutrale Element der Multiplikation ist $$(1,0)$$. Das multiplikative inverse ist
+
+$$
+\left(\frac{a}{a^2+b^2},\frac{-b}{a^2+b^2}\right).
+$$
+
+Man definiert auch $$i \coloneqq (0,1)$$. Dann ist $$i^2=-1$$ und für jedes $$(a,b) \in \mathbb{C}$$ gilt
+$$
+(a,b)=(a,0)+(0,b)=a+bi.
+$$
+Man nennt diese Form die kartesischen Koordinaten und
+$$
+a = \operatorname{Re}(z) = \Re(z)
+$$
+den Realteil von $$z$$ und
+$$
+b = \operatorname{Im}(z) = \Im(z)
+$$
+den Imaginärteil von $$z$$.
+
+Aus der [[Euler'schen Formel|Euler'sche Formel]] und dem [[Betrag]] ergeben sich die Schreibweisen in Polarkoordinaten:
+$$
+|z|e^{i\theta} = |z|(\cos\theta+i \sin\theta)
+$$
+wobei der von der positiven reellen Achse gegen den Urzeigersinn (im positiven mathematischen Drehsinn) gemessene Winkel $$\theta$$ auch $$\arg(z)$$ oder das Argument von $$z$$ heißt. Addition zweier komplexer Zahlen funktioniert geometrisch wie Vektoraddition. Die Multiplikation hingegen addiert die Winkel und Skaliert, bzw. multipliziert einen Betrag mit dem jeweils anderen.

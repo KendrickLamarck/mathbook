@@ -1,0 +1,37 @@
+created: 20180708183242867
+creator: Leander
+list: [[Mannigfaltigkeit als lokale Nullstellenmenge]] [[Mannigfaltigkeiten als Graphen]] [[Mannigfaltigkeit als Bild eines Homöomorphismus]] Karte Atlas Kartenwechsel [[Gleichungsdefinierte Mannigfaltigkeiten]] Tangentialvektor Tangentialraum Normalenvektor [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Integrale über Untermannigfaltigkeiten]] [[Kompaktum mit glattem Rand]] [[Extrema auf Mannigfaltigkeiten]]
+modified: 20191004233553689
+modifier: Leander
+revision: 0
+tags: Analysis
+title: Mannigfaltigkeit
+type: text/vnd.tiddlywiki
+
+Seiem $$k,\alpha\in\mathbb N,\ \alpha>0.$$ Eine Teilmenge $$M\subset V$$ eines $$d$$-[[dimensionalen|Dimension]] [[Banachraums|Banachraum]] ist genau dann eine $$k$$-dimensionale $$\mathcal  C^\alpha$$-[[Mannigfaltigkeit]], wenn es zu jedem Punkt $$a\in M$$ eine [[offene|Offenheit]] [[Umgebung]] $$U$$ von $$p$$ in $$V$$ und einen $$\mathcal C^\alpha$$-[[Diffeomorphismus]] $$\phi\colon U\to \phi(U)$$ auf eine offene Teilmenge $$\phi(U)\subset\mathbb R^d$$ gibt, so dass gilt:
+
+$$
+M\cap U=\phi^{-1}\left(\mathbb R^k\cap\phi(U)\right),
+$$
+
+wobei wir identifizieren: $$\Bbb R^k=\Bbb R^k\times \{0\}\subset\Bbb R^d,$$ d.h.
+
+$$
+M\cap U=\{\,x\in U\mid \phi_{k+1}(x)=\dots=\phi_d(x)=0\,\}.
+$$
+
+!! Definition als lokale Nullstellenmenge
+
+{{Mannigfaltigkeit als lokale Nullstellenmenge}}
+
+!! Definition mit Karten
+
+{{Karte}}
+
+!! Als Graph
+
+{{Mannigfaltigkeiten als Graphen}}
+
+!! Als Bild eines Homöomorphismus
+
+{{Mannigfaltigkeit als Bild eines Homöomorphismus}}

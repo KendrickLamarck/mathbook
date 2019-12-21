@@ -1,0 +1,15 @@
+created: 20190607001321920
+modified: 20191011173814305
+tags: Stochastik no-toc
+title: Chebychev'sche Ungleichung
+type: text/vnd.tiddlywiki
+
+Die [[Markovsche Ungleichung]] angewandt auf $$t^p$$ und $$p=2$$ ergibt für alle $$a>0$$:
+
+$$
+\Bbb P(|X-\Bbb E(X)|\ge a)\le
+\frac
+{\Bbb E(|X-\Bbb E(X)|^2)}
+{a^2}=
+\frac 1 {a^2} \operatorname{Var}(X)
+$$

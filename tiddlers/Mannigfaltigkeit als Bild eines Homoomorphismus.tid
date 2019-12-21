@@ -1,0 +1,8 @@
+created: 20190325160020250
+modified: 20191004233606724
+revision: 0
+tags: Mannigfaltigkeit no-toc
+title: Mannigfaltigkeit als Bild eines Homöomorphismus
+type: text/vnd.tiddlywiki
+
+Sei $$\Omega\subset\Bbb R^k$$ offen und $$\varphi\in\mathcal C^\alpha(\Omega\to\Bbb R^d)$$ eine [[Immersion|Immersion und Submersion]] der Klasse $$\mathcal C^\alpha.$$ Dann gibt es zu jedem $$c\in\Omega$$ eine [[offene|Offenheit]] [[Umgebung]] $$T\subseteq\Omega,$$ so dass $$\varphi(T)$$ eine $$k$$-dimensionale [[Mannigfaltigkeit]] der Klasse $$\mathcal C^\alpha$$ und $$\varphi\colon T\to\varphi(T)$$ ein [[Homöomorphismus]] ist.

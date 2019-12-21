@@ -1,0 +1,9 @@
+created: 20180417184839862
+modified: 20191011214018909
+tags: Topologie
+title: Hausdorff'scher Raum
+type: text/vnd.tiddlywiki
+
+Ein [[topologischer Raum|Topologie]] heißt //Hausdorff'sch//, wenn zu je zwei unterschiedlichen Punkten $$x,y\in X$$ zwei disjunkte [[Umgebungen|Umgebung]] existieren.
+
+Jeder [[metrische Raum|Metrischer Raum]] ist ein Hausdorff'scher Raum.

@@ -1,0 +1,9 @@
+created: 20171111134201455
+list: 
+modified: 20181009145345534
+revision: 0
+tags: Abbildung
+title: Einschränkung
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon X \to Y$$ eine [[Abbildung]]. Dann ist $$f|_A\colon A \to Y$$ die Einschränkung von $$f$$ auf den Definitionsbereich $$A \subset X$$.

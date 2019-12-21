@@ -1,0 +1,27 @@
+created: 20180327171457165
+creator: Leander
+modified: 20180725183557334
+modifier: Leander
+revision: 0
+tags: [[Lineare Abbildung]]
+title: Eindeutigkeit linearer Abbildungen
+type: text/vnd.tiddlywiki
+
+Gegeben seien endlichdimensionale [[Vektorräume|Vektorraum]] $$V$$ und $$W$$, sowie Vektoren $$v_1,\ldots,v_r\in V$$ und $$w_1,\ldots,w_r\in W$$. Dann gilt:
+
+* Sind  $$v_1,\ldots,v_r$$ [[linear unabhängig|Lineare Unabhängigkeit]], so gibt es mindestens eine [[lineare Abbildung|Lineare Abbildung]] $$
+F\colon V\to W
+\quad\text{mit }
+F(v_i)=w_i
+\quad\text{für }
+i=1,\ldots,r.$$
+* Ist $$(v_1,\ldots,v_r)$$ eine [[Basis]], so gibt es genau ein solches $$F$$ und es hat folgende Eigenschaften:
+** $$\operatorname{Im}F=\operatorname{span}(w_1,\ldots,w_r)$$.
+** $$F$$ [[injektiv|Injektivität]] $$\iff w_1,\ldots,w_r$$ linear unabhängig.
+
+''Korollar.''
+Zu jeder linearen Abbildung $$F\colon K^n\to K^m$$ gibt es genau eine [[Matrix]] $$A\in K^{m\times n}$$, so dass
+$$
+F(x)=A\cdot x
+$$
+für alle Spaltenvektoren $$x\in K^n$$.

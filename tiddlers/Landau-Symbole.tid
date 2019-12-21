@@ -1,0 +1,33 @@
+created: 20180330185957537
+creator: Leander
+modified: 20180827184238735
+modifier: Leander
+revision: 0
+tags: Optimierung
+title: Landau-Symbole
+type: text/vnd.tiddlywiki
+
+Es sei $$g\colon \mathbb N\to\mathbb R$$.
+
+$$\begin{gathered}
+O(g)\coloneqq
+\{\,f\colon\mathbb N\to\mathbb R \mid
+\exists\alpha>0\ \exists n_0\in\mathbb N\ \forall n\ge n_0
+\colon 0\le f(n)\le\alpha g(n)\,\} \\
+\Omega(g)\coloneqq\{\,f\colon\mathbb N\to\mathbb R \mid
+\exists\beta>0\ \exists n_0\in\mathbb N\ \forall n\ge n_0
+\colon f(n)\ge\beta g(n)\ge 0\,\} \\
+\Theta(g)\coloneqq O(g)\cap\Omega(g)
+\end{gathered}$$
+
+Weiter schreiben wir $$f\in o(g),$$ wenn für irgendeinen Grenzübergang $$x\to a$$ gilt
+
+$$
+\lim_{x\to a}\left|\frac{f(x)}{g(x)}\right|=0
+$$
+
+und $$f\in\omega(g),$$ wenn
+
+$$
+\lim_{x\to a}\left|\frac{f(x)}{g(x)}\right|=\infty.
+$$

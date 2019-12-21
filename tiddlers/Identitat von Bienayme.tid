@@ -1,0 +1,18 @@
+created: 20190609152159018
+modified: 20190708223818102
+revision: 0
+title: Identität von Bienaymé
+
+Sind quadratintegrierbare [[Zufallsvariablen|Zufallsvariable]] $$X_1,\dots,X_n$$ gegeben, so gilt
+
+$$
+\operatorname{Var}\left(\sum X_i\right)=
+\sum\operatorname{Var}(X_i)+\sum_{i\ne j}\operatorname{Cov}(X_i,X_j).
+$$
+
+Sind $$X_1,\dots,X_n$$ insbesondere paarweise [[unkorelliert|Kovarianz]], so gilt
+
+$$
+\operatorname{Var}(X_1+\dots+X_n)=
+\operatorname{Var}(X_1)+\dots+\operatorname{Var}(X_n).
+$$

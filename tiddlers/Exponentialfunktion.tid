@@ -1,0 +1,30 @@
+created: 20180107003506030
+list: [[Additionstheorem der Exponentialfunktion]] [[Euler's identity]] Logarithmus [[Additionstheorem des Logarithmus]] [[Allgemeine Potenz]] [[Rechenregeln für die allgemeine Potenz]] [[Euler'sche Formel]] [[Euler'sche Zahl]] [[Komplexe Exponentialfunktion]]
+modified: 20191011163334499
+tags: [[Wichtige Funktionen]]
+title: Exponentialfunktion
+type: text/vnd.tiddlywiki
+
+! Reell
+
+Die Exponentialfunktion $$\exp\colon\mathbb{R} \to \mathbb{R}$$ oder $$x \mapsto e^x$$ ist die einzige [[differenzierbare|Ableitung]] [[Funktion|Abbildung]] mit
+
+$$
+\exp'=\exp, \quad \exp(0)=1.
+$$
+
+Sie lässt sich schreiben als [[Reihe]]
+
+$$
+\sum_{k=0}^{\infty} \frac{x^k}{k!}.
+$$
+
+{{Additionstheorem der Exponentialfunktion}}
+
+!! Umkehrfunktion
+
+{{Logarithmus}}
+
+! Komplex
+
+{{Komplexe Exponentialfunktion}}

@@ -1,0 +1,9 @@
+created: 20190114155439655
+creator: Leander
+modified: 20191011173351236
+modifier: Leander
+tags: Lp-Räume no-toc
+title: Satz von Riesz-Fischer
+type: text/vnd.tiddlywiki
+
+Für jedes $$p\in[1,\infty]$$ ist $$(L^p,\|\cdot\|_p)$$ ein [[Banachraum]], im Spezialfall $$p=2$$ sogar ein [[Hilbertraum]].

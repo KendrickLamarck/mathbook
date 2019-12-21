@@ -1,0 +1,12 @@
+created: 20180907183735322
+modified: 20190401190111440
+revision: 0
+tags: Abbildung
+title: Vektor- und skalares Feld
+type: text/vnd.tiddlywiki
+
+Sei $$G\subseteq V$$ eine [[offene|Offenheit]] Teilmenge eines [[endlichdimensionalen|Dimension]] [[Banachraumes|Banachraum]] $$V.$$
+
+* Ein //Vektorfeld// auf $$G$$ ist eine [[Abbildung]] $$X\colon G\to V.$$
+
+* Ein //skalares Feld// auf $$G$$ ist eine Abbildung $$f\colon G\to\mathbb R.$$

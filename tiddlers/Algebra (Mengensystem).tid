@@ -1,0 +1,15 @@
+caption: Algebra
+created: 20181203163632892
+list: Inhalt Prämaß [[Satz von Carathéodory]] [[Eindeutigkeit von Maßen]] Approximationssatz
+modified: 20191011180413658
+tags: Maßtheorie
+title: Algebra (Mengensystem)
+type: text/vnd.tiddlywiki
+
+Ein nichtleeres Mengensystem $$\mathcal A\subseteq\mathcal P(\Omega)$$ heißt eine //Algebra,// falls für $$A,B\in\mathcal A$$ auch $$A\cup B,$$ $$A\cap B,$$ $$A^c\in\mathcal A.$$
+
+Analog zur [[erzeugten|Erzeugte sigma-Algebra]] $$\sigma$$-[[Algebra|Sigma-Algebra]] bezeichnen wir mit $$a(\mathcal C)$$  die von einem nichtleeren Mengensystem $$\mathcal C\subseteq\mathcal P(\Omega)$$ erzeugte Algebra.
+
+!! Inhalt
+
+{{Inhalt}}

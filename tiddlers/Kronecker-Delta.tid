@@ -1,0 +1,18 @@
+created: 20180329121613628
+creator: Leander
+modified: 20180725162728243
+modifier: Leander
+revision: 0
+tags: [[Wichtige Funktionen]]
+title: Kronecker-Delta
+type: text/vnd.tiddlywiki
+
+Sei $$I$$ eine beliebige Indexmenge und $$R$$ ein [[Ring]]. Für $$i,j\in I$$ definieren wir
+
+$$
+\delta_{ij}\coloneqq
+\begin{cases}
+1_R &\text{falls } i=j,\\
+0_R &\text{falls } i\ne j.
+\end{cases}
+$$

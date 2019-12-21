@@ -1,0 +1,16 @@
+created: 20180107005929173
+creator: Leander
+modified: 20180429103119103
+modifier: Leander
+revision: 0
+tags: Exponentialfunktion
+title: Allgemeine Potenz
+type: text/vnd.tiddlywiki
+
+Wir definieren $$a^x$$ für reelles $$a>0$$ und $$x \in \mathbb{R}$$ durch
+
+$$
+a^x = \exp(x \log a).
+$$
+
+{{Rechenregeln für die allgemeine Potenz}}

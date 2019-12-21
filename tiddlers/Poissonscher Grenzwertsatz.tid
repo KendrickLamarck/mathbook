@@ -1,0 +1,12 @@
+created: 20190509212254517
+modified: 20191003214851969
+revision: 0
+tags: Poisson-Verteilung Binomialverteilung no-toc
+title: Poissonscher Grenzwertsatz
+type: text/vnd.tiddlywiki
+
+Sei $$(p_n)\in [0,1]^\Bbb N$$ eine [[Folge]] von Erfolgsparametern mit $$\lim_{n\to\infty} np_n=\lambda>0.$$ Dann folgt
+
+$$
+\lim_{n\to\infty} b(k;n,p_n)=\pi_\lambda(k)\qquad\forall k\in\Bbb N_0.
+$$

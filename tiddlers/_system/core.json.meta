@@ -1,0 +1,11 @@
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: TiddlyWiki5 core
+list: readme
+plugin-priority: 0
+plugin-type: plugin
+revision: 0
+title: $:/core
+type: application/json
+version: 5.1.21

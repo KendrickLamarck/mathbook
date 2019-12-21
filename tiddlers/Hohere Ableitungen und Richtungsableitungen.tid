@@ -1,0 +1,16 @@
+created: 20180611220744917
+creator: Leander
+modified: 20191003232940959
+modifier: Leander
+revision: 0
+tags: no-toc Richtungsableitung [[Höhere Ableitungen]]
+title: Höhere Ableitungen und Richtungsableitungen
+type: text/vnd.tiddlywiki
+
+Ist $$f$$ in $$p$$ $$k$$-mal [[differenzierbar|Höhere Ableitungen]], so gilt für $$v_1,\dots,v_k\in V$$
+
+$$
+\mathrm D_p^k f(v_1,\dots,v_k)=\partial_{v_1}\cdots\partial_{v_k} f(p).
+$$
+
+Insbesondere existiert die rechte Seite.

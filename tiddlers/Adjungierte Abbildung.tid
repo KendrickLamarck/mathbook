@@ -1,0 +1,26 @@
+created: 20180725185440325
+creator: Leander
+modified: 20191004222205828
+modifier: Leander
+revision: 0
+tags: Skalarprodukt
+title: Adjungierte Abbildung
+type: text/vnd.tiddlywiki
+
+Seien $$V$$ und $$W$$ [[euklidische Vektorräume|Euklidischer Vektorraum]] und sei $$F\in\hom(V,W).$$ Dann gibt es genau eine Abbildung $$F^\mathrm{ad}\in\hom(W,V),$$ so dass für alle $$v\in V,\ w\in W$$ gilt:
+
+$$
+\langle F(v),w\rangle_W=\langle v,F^\mathrm{ad}(w)\rangle_V.
+$$
+
+Sie heißt auch die zu $$F$$ //adjungierte Abbildung,// denn es gilt
+
+$$
+F^\mathrm{ad}=\Psi_V^{-1}\circ F^*\circ\Psi_W,
+$$
+
+siehe auch [[Duale Basis]] und [[Duale Abbildung]]. Man zeichne ein Diagramm.
+
+!! Adjungierter Endomorphismus
+
+{{Adjungierter Endomorphismus}}

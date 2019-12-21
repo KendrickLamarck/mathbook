@@ -1,0 +1,25 @@
+created: 20180611205125493
+creator: Leander
+modified: 20191010153612761
+modifier: Leander
+tags: Orthogonalität no-toc
+title: Orthogonaler/unitärer Endomorphismus
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein [[euklidischer|Euklidischer Vektorraum]] bzw. [[unitärer|Unitärer Vektorraum]] [[Vektorraum]]. Ein [[Endomorphismus]] $$F\in\operatorname{End}(V)$$ heißt //orthogonal// bzw. //unitär//, wenn
+
+# $$F$$ [[bijektiv|Bijektivität]] ist und
+# $$\langle F(v),F(w)\rangle=\langle v,w\rangle$$ für alle $$v,w\in V.$$
+
+Ist $$V$$ [[endlichdimensional|Dimension]], so folgt 1. aus 2.
+
+!! Eigenschaften
+
+* $$\|F(v)\|=\|v\|$$ für alle $$v\in V$$ (das ist äquivalent zu 2.).
+* $$v\perp w \iff F(v)\perp F(w)$$
+* $$F^{-1}$$ ist orthogonal bzw. unitär
+* Ist $$\lambda\in\mathbb K$$ [[Eigenwert]] von $$F$$, so ist $$|\lambda|=1$$
+
+!! Normalform
+
+{{Euklidische Normalform}}

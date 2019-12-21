@@ -1,0 +1,25 @@
+created: 20180211215427139
+creator: Leander
+list: 
+modified: 20191003224910874
+modifier: Leander
+revision: 0
+tags: no-toc Reihe
+title: Quotientenkriterium
+type: text/vnd.tiddlywiki
+
+Sei $$\sum_{k=0}^\infty a_k$$ eine Reihe und $$a_k\ne 0$$ für fast alle $$k$$. Gibt es ein $$q<1$$, so dass für fast alle $$k\in\mathbb N$$
+
+$$
+\left|\frac{a_{k+1}}{a_k}\right|\le q,
+$$
+
+so ist die Reihe $$\sum_{k=0}^\infty a_k$$ [[absolut konvergent|Absolute Konvergenz]]. Ist dagegen für fast alle $$k\in\mathbb N$$
+
+$$
+\left|\frac{a_{k+1}}{a_k}\right|\ge 1,
+$$
+
+so ist die Reihe  $$\sum_{k=0}^\infty a_k$$ divergent.
+
+Anders geschrieben ist die Reihe konvergent, wenn $$\lim\left|\frac{a_{k+1}}{a_k}\right|<1$$ oder $$\limsup\left|\frac{a_{k+1}}{a_k}\right|<1$$ gilt. Wenn $$\limsup\left|\frac{a_{k+1}}{a_k}\right|>1$$ ist, ist die Reihe divergent.

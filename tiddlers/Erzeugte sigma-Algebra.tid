@@ -1,0 +1,21 @@
+created: 20181127151856486
+modified: 20181229192005381
+revision: 0
+tags: Sigma-Algebra
+title: Erzeugte sigma-Algebra
+
+Die von einem Mengensystem $$\varnothing\ne\mathcal C\subset\mathcal P(\Omega)$$ //erzeugte// $$\sigma$$-[[Algebra|Sigma-Algebra]] ist die kleinste $$\sigma$$-Algebra, die $$\mathcal C$$ enthält, d.h. $$\sigma(\mathcal C)$$ ist eine $$\sigma$$-Algebra mit $$\mathcal C\subset\sigma(\mathcal C)$$ und jede $$\sigma$$-Algebra, die $$\mathcal C$$ enthält, enthält auch $$\sigma(\mathcal C).$$
+
+Wir können $$\sigma(\mathcal C)$$ angeben als 
+
+$$
+\sigma(\mathcal C)=\bigcap \left\{\,\mathcal A:\mathcal A\text{ ist $\sigma$-Algebra mit $\mathcal C\subset\mathcal A$}\,\right\}.
+$$
+
+Ist für jedes $$i$$ in einer Indexmenge $$I$$ das System $$\mathcal F_i$$ eine $$\sigma$$-Algebra, so schreiben wir auch
+
+$$
+\bigvee_{i\in I} \mathcal F_i=\sigma\left(\bigcup_{i\in I}\mathcal F_i\right)
+$$
+
+oder $$\mathcal F_1\vee\dots\vee\mathcal F_n$$ für $$I=\{1,\dots,n\}.$$

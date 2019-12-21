@@ -1,0 +1,15 @@
+created: 20180517112646648
+creator: Leander
+modified: 20191011230708046
+modifier: Leander
+tags: Kompaktheit no-toc
+title: Lebesgue'sche Zahl
+type: text/vnd.tiddlywiki
+
+Seien $$(X,d)$$ ein [[metrischer Raum|Metrischer Raum]], $$A\subset X$$ kompakt und $$(U_i)_{i\in I}$$ eine [[offene Überdeckung|Offene Überdeckung]] von $$A$$. Dann gibt es eine positive Zahl $$\delta$$, so dass gilt:
+
+$$
+\forall a\in A\ \exists i\in I\colon\quad U_\delta(a)\subset U_i.
+$$
+
+Jedes solche $$\delta$$ nennt man eine //Lebesgue'sche Zahl// der Überdeckung.

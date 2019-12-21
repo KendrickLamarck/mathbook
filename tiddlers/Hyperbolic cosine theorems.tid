@@ -1,0 +1,13 @@
+caption: Cosine theorems
+created: 20190215225932692
+modified: 20191008204051898
+tags: no-toc [[Hyperbolic triangle]]
+title: Hyperbolic cosine theorems
+type: text/vnd.tiddlywiki
+
+The side lengths $$a,b,c$$ and interior angles $$\alpha,\beta,\gamma$$ of a [[hyperbolic triangle|Hyperbolic triangle]] satisfy the equations
+
+$$\begin{aligned}
+\cos\alpha&=\frac{-\cosh a+\cosh b\cosh c}{\sinh b\sinh c}, \\[2ex]
+\cosh a&=\frac{-\cos\alpha+\cos\beta\cos\gamma}{\sin\beta\sin\gamma}.
+\end{aligned}$$

@@ -1,0 +1,19 @@
+created: 20190708231045926
+modified: 20190715161832783
+revision: 0
+tags: [[Gemeinsame Verteilung]]
+title: Gemeinsame Zähldichte
+
+Sind $$X_1,\dots,X_n$$ diskret, dann ist auch $$\Bbb X=(X_1,\dots,X_n)$$ mit Werten in $$E=E_1\times\dots\times E_n$$ diskret und ihre [[Verteilung]] ist eindeutig durch die [[Zähldichte|Diskretes Maß]]
+
+$$
+p_\Bbb X(e_1,\dots,e_n)=
+\Bbb P(X_1=e_1,\dots,X_n=e_n),\quad
+(e_1,\dots,e_n)\in E
+$$
+
+bestimmt.
+
+---
+
+{{Unabhängigkeit und Zähldichten}}

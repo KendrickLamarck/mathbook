@@ -1,0 +1,9 @@
+created: 20190216134632858
+modified: 20191008202735183
+tags: [[Hyperbolic line]] no-toc
+title: Perpendicular hyperbolic lines
+type: text/vnd.tiddlywiki
+
+If $$x\in H^2$$ and $$l$$ is a [[hyperbolic line|Hyperbolic line]], then there is a unique hyperbolic line through $$x$$ which intersects $$l$$ orthogonally.
+
+If $$l_1,l_2$$ are two hyperbolic lines with unit normals $$n_1,n_2$$ such that $$|\langle n_1,n_2\rangle|\ge 1$$ (so the lines do not intersect), then there is a unique line $$l_3$$ intersecting both $$l_1$$ and $$l_2$$ orthogonally.

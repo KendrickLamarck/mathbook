@@ -1,0 +1,11 @@
+created: 20190219184728346
+modified: 20191008221204942
+tags: [[Projective conic]] no-toc
+title: Pencil of conics containing four points
+type: text/vnd.tiddlywiki
+
+If there are four points $$P_1,P_2,P_3,P_4$$ in $$\Bbb R\mathrm P^2,$$ no three of which are on a line, then the [[conics|Projective conic]] through these points form a [[pencil|Pencil of conics]] which contains precisely three degenerate conics. if $$\ell_{ij}$$ is a [[linear form|Dualraum]] on $$\Bbb R^3$$ such that $$\ell_{ij}(x)=0$$ describes the line $$P_i P_j,$$ then the [[quadratic forms|Quadratische Form]] of the degenerate conics are $$\ell_{12}\ell_{34},\ \ell_{13}\ell_{24},\ \ell_{14}\ell_{23}.$$ All conics in the pencil are of the form
+
+$$
+s\ell_{12}\ell_{34}+t\ell_{13}\ell_{24}\quad s,t\in\Bbb R.
+$$

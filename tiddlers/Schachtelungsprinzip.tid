@@ -1,0 +1,19 @@
+created: 20180430170015028
+creator: Leander
+modified: 20191011215122620
+modifier: Leander
+tags: [[Metrischer Raum]]
+title: Schachtelungsprinzip
+type: text/vnd.tiddlywiki
+
+Sei $$(X,d)$$ [[vollständig|Vollständigkeit]] und
+
+$$
+A_0\supset A_1\supset\dots
+$$
+
+eine "absteigende" Folge von [[abgeschlossenen|Abgeschlossenheit]] nicht-leeren Mengen. Es gelte $$\lim_{k\to\infty}\operatorname{diam}\,A_k=0$$. Dann gibt es genau ein $$x^*\in X$$, das in allen $$A_k$$ liegt:
+
+$$
+\bigcap_{k\in\mathbb N} A_k=\{x^*\}.
+$$

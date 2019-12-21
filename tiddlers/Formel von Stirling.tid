@@ -1,0 +1,12 @@
+created: 20180406134242323
+creator: Leander
+modified: 20180429103630899
+modifier: Leander
+revision: 0
+tags: Formeln
+title: Formel von Stirling
+type: text/vnd.tiddlywiki
+
+$$
+n!\approx\sqrt{2\pi n}\left(\frac{n}{e}\right)^n
+$$

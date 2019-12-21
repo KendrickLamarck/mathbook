@@ -1,0 +1,14 @@
+created: 20180330193704969
+creator: Leander
+modified: 20180626170100807
+modifier: Leander
+revision: 0
+tags: Zahldarstellung
+title: b-adische Darstellung
+type: text/vnd.tiddlywiki
+
+Es seien $$b\in\mathbb N,\,b\ge 2$$ und $$n\in\mathbb N\setminus\{0\}$$. Für $$\ell\coloneqq\lfloor\log_b n\rfloor+1$$ existieren eindeutig bestimmte Zahlen $$z_i\in\{0,\ldots,b-1\}$$ für $$i=0,\ldots,\ell-1$$ mit
+
+$$
+n=\sum_{i=0}^{\ell-1} z_i b^i,\quad z_{\ell-1}\ne 0.
+$$

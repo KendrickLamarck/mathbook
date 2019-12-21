@@ -1,0 +1,10 @@
+created: 20190205155532624
+creator: Leander
+modified: 20190329004643005
+modifier: Leander
+revision: 0
+tags: [[Integrale über Untermannigfaltigkeiten]]
+title: Untergeordnete Teilung der Eins
+type: text/vnd.tiddlywiki
+
+Sei $$M$$ eine [[Mannigfaltigkeit]]. Falls endlich viele [[Karten|Karte]] $$\varphi_i\colon T_i\to V_i,\ i=1,\dots,m$$ existieren mit $$\bigcup_{i=1}^m V_i=M,$$ so nennen wir $$(\alpha_i\colon M\to[0,1])_{i=1,\dots,m}$$ eine der Überdeckung $$(V_i)_{i=1,\dots,m}$$ //untergeordnete Teilung der Eins,// falls $$\{\alpha_i\ne0\}\subseteq V_i,$$ $$\sum_{i=1}^m\alpha_i=1$$ auf $$M$$ und $$\alpha_i\circ\varphi_i$$ über jede kompakte Teilmenge von $$T_i$$ integrierbar ist.

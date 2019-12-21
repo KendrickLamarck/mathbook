@@ -1,0 +1,30 @@
+created: 20180625171645056
+creator: Leander
+modified: 20191003192909726
+modifier: Leander
+revision: 0
+tags: Bilinearform
+title: Definitheit
+type: text/vnd.tiddlywiki
+
+!! Multilinearformen
+
+Sei $$l\in L^k(V,\mathbb R)$$ eine $$k$$-linearform. $$l$$ heißt
+
+# //positiv definit//, wenn $$l(v,\dots,v)>0$$ für alle $$v\ne 0,$$
+# //positiv semidefinit//, wenn $$l(v,\dots,v)\ge 0$$ für alle $$v,$$
+# //indefinit//, wenn $$v\mapsto l(v,\dots,v)$$ das Vorzeichen wechselt.
+
+Analog definiert man //negativ definit// und //negativ semidefinit//.
+
+---
+
+!! Matrizen
+
+{{Positiv definite Matrix}}
+
+---
+
+!! Bilinearformen und ihre darstellenden Matrizen
+
+{{Positiv definite darstellende Matrizen}}

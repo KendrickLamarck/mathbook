@@ -1,0 +1,16 @@
+caption: Stetige Funktionen mit kompaktem Träger
+created: 20181023221045226
+modified: 20191011220334218
+tags: [[Haar'sches Maß]] no-toc
+title: Träger
+type: text/vnd.tiddlywiki
+
+Der //Träger (Support)// einer Funktion $$f\colon\mathbb R^d\to\mathbb R$$ ist definiert als die Menge
+
+$$
+\operatorname{supp}(f)=\overline{\{x\in\mathbb R^d:f(x)\ne 0\}},
+$$
+
+Also der [[Abschluss|Abgeschlossene Hülle]] der Menge, die nicht verschwindet.
+
+Mit $$\mathcal C_\mathrm c(\mathbb R^d)$$ bezeichnen wir die Menge aller [[stetigen|Stetigkeit]] Funktionen $$\mathbb R^d\to\mathbb R$$ mit [[kompaktem|Kompaktheit]] Träger.

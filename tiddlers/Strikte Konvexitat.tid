@@ -1,0 +1,19 @@
+created: 20180109171102138
+creator: Leander
+list: 
+modified: 20191003221456822
+modifier: Leander
+revision: 0
+tags: no-toc Konvexität
+title: Strikte Konvexität
+type: text/vnd.tiddlywiki
+
+Sei $$J \subset \mathbb{R}$$ ein Intervall und $$f\colon J \to \mathbb{R}$$. $$f$$ heißt //strikt konvex//, wenn für alle $$x,y \in J$$ und für alle $$\lambda \in {]0,1[}$$ gilt:
+
+$$
+f((1-\lambda)x+\lambda y) <(1-\lambda)f(x)+\lambda f(y).
+$$
+
+Strikt konvexe Funktionen besitzen höchstens eine lokale [[Minimalstelle|Extremwerte]], welche dann automatisch auch ein globales Minimum ist.
+
+{{Striktes Konvexitätskriterium}}

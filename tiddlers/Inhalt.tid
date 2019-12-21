@@ -1,0 +1,17 @@
+created: 20181203164117039
+modified: 20191011180519031
+tags: [[Algebra (Mengensystem)]] no-toc
+title: Inhalt
+type: text/vnd.tiddlywiki
+
+Ein //Inhalt// $$\mu$$ auf einer [[Algebra|Algebra (Mengensystem)]] $$\mathcal A$$ ist eine Abbildung $$\mu\colon\mathcal A\to[0,\infty],$$ die $$\mu(\varnothing)=0$$ erfüllt und additiv ist.
+
+!! Prämaß
+
+{{Prämaß}}
+
+''Lemma.''
+Es sei $$\mu$$ ein endlicher Inhalt auf einer Algebra $$\mathcal A.$$ Dann sind äquivalent:
+
+* $$\mu$$ ist $$\sigma$$-additiv (d.h. ein [[Prämaß]])
+* $$\mu$$ ist stetig in $$\varnothing.$$

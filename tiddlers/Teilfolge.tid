@@ -1,0 +1,21 @@
+created: 20171122212322415
+list: 
+modified: 20191011210205536
+tags: Folge
+title: Teilfolge
+type: text/vnd.tiddlywiki
+
+Sei $$(x_n)$$ eine [[Folge]]. Eine Teilfolge von $$(x_n)$$ ist eine Folge $$(y_k)_{k\in\mathbb{N}}$$, für die es eine streng [[monoton|Monotonie]] wachsende Folge $$(n_k)_{k\in\mathbb{N}}$$ natürlicher Zahlen gibt, so dass
+
+$$
+y_k=x_{n_k} \quad \forall\, k \in \mathbb{N}.
+$$
+
+* {{Existenz monotoner Teilfolgen}}
+* {{Teilfolgen konvergenter Folgen}}
+
+!! Häufungspunkte
+
+{{Häufungspunkt (Folgen)}}
+
+{{Limes superior/inferior und Folgen}}

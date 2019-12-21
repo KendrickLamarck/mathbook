@@ -1,0 +1,12 @@
+created: 20180719184915748
+creator: Leander
+modified: 20180719185206517
+modifier: Leander
+revision: 0
+tags: Turingmaschine
+title: Laufzeit und Speicherplatz von Turingmaschinen
+
+* Die //Rechenzeit// einer [[DTM|Turingmaschine]] ist die Anzahl der Zustandsübergänge, bis die Maschine stoppt.
+* Die //Worst-Case-Rechenzeit// $$t(n)$$ ist die maximale Anzahl Rechenschritte, die die Maschine auf Inputs aus $$\Sigma^n$$ durchführt.
+* Der //Speicherplatz// einer DTM  für einen bestimmten Eingabestring ist die Anzahl der Zellen, auf die der Kopf der Maschine jeals zeigt.
+* Der //Worst-Case-Speicherplatz// $$s(n)$$ ist der maximale Speicherplatz, den die Maschine auf Inputs aus $$\Sigma^n$$ nutzt.

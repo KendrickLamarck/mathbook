@@ -1,0 +1,7 @@
+created: 20190523221438188
+modified: 20190523221438188
+revision: 0
+tags: 
+title: Standardabweichung
+
+Die Wurzel $$S(X)\coloneqq\sqrt{V(X)}$$ aus der [[Varianz]] heißt //Standardabweichung// von $$X.$$

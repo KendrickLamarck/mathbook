@@ -1,0 +1,15 @@
+created: 20190104223513292
+creator: Leander
+modified: 20191011221021204
+modifier: Leander
+tags: [[Haar'sches Maß]]
+title: Positive Definitheit des Integrals
+type: text/vnd.tiddlywiki
+
+Sei $$U\subset\Bbb R^d$$ [[offen|Offenheit]] und $$h\in\mathcal C(U)$$ mit der Eigenschaft, dass
+
+$$
+\int_U h(x)g(x)\,\mathrm dx=0
+$$
+
+für jedes $$g\in\mathcal C_\mathrm c^\infty(\Bbb R^d).$$ Dann ist $$h(x)=0$$ für jedes $$x\in U.$$

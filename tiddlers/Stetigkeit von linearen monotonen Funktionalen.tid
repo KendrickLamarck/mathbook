@@ -1,0 +1,8 @@
+created: 20190410183101317
+modified: 20190410183319690
+revision: 0
+tags: [[Haar'sches Maß]]
+title: Stetigkeit von linearen monotonen Funktionalen
+type: text/vnd.tiddlywiki
+
+Sei $$J\colon\mathcal C_\mathrm c(\Bbb R^d)\to\Bbb R$$ ein lineares und monotones Funktional. Es sei $$(f_k)_{k\in\Bbb N}$$ eine [[Folge]] in $$\mathcal C_\mathrm c(\Bbb R^d),$$ deren [[Träger]] alle in einem gewissen kompakten Quader $$Q\subset\Bbb R^d$$ enthalten sind. Die Folge der $$f_k$$ konvergiere [[gleichmäßig|Gleichmäßige Konvergenz]] gegen ein $$f\in\mathcal C_\mathrm c(\Bbb R^d).$$ Dann gilt $$\lim_{k\to\infty} J(f_k)=J(f).$$

@@ -1,0 +1,16 @@
+caption: Stetige Funktionen auf Kompakta und offenen Mengen
+created: 20190102014513049
+creator: Leander
+modified: 20191011174750536
+modifier: Leander
+tags: [[Monoton approximierbare Funktionen]] no-toc
+title: Integral stetiger Funktionen auf Kompakta und offenen Mengen
+type: text/vnd.tiddlywiki
+
+Sei $$K\subset\mathbb R^d$$ [[kompakt|Kompaktheit]] und $$f\colon K\to [0,\infty[$$ stetig. Mit $$\tilde f\colon\Bbb R^d\to[0,\infty[$$ bezeichnen wir die triviale Fortsetzung von $$f$$, d.h. $$\tilde f(x)=0$$ für $$x\in\Bbb R^d\setminus K.$$ Dann liegt $$\tilde f$$ in $$\mathcal H^\downarrow(\mathbb R^d).$$ Insbesondere ist die folgende Definition sinnvoll:
+
+$$
+\int_K f(x)\,\mathrm dx=\int_{\Bbb R^d} \tilde f(x)\,\mathrm dx.
+$$
+
+Ist ähnlich dazu $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]], so ist $$\tilde f\in\mathcal H^\uparrow(\mathbb R^d)$$ und die Definition funktioniert genau so.

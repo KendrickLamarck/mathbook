@@ -1,0 +1,13 @@
+created: 20190114141341046
+creator: Leander
+modified: 20191011231222255
+modifier: Leander
+tags: Stetigkeit
+title: Homöomorphismus
+type: text/vnd.tiddlywiki
+
+Seien $$X,Y$$ [[topologische Räume|Topologie]]. Eine Abbildung $$f\colon X\to Y$$ heißt ein //Homöomorphismus,// wenn
+
+* $$f$$ [[bijektiv|Bijektivität]] ist,
+* $$f$$ [[stetig|Stetigkeit]] ist und
+* die [[Umkehrabbildung]] $$f^{-1}$$ ebenfalls stetig ist.

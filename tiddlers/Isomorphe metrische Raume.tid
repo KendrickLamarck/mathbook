@@ -1,0 +1,25 @@
+created: 20180416191912734
+creator: Leander
+modified: 20191011213346995
+modifier: Leander
+tags: [[Metrischer Raum]] no-toc
+title: Isomorphe metrische Räume
+type: text/vnd.tiddlywiki
+
+Für $$X=\{1,\ldots,n\},\,Y=\mathbb R$$ sind $$(\mathcal B(X,Y),d^{\sup})$$ und $$(\mathbb R^n,d^\infty)$$ isometrisch isomorph:
+
+$$
+(\mathcal B(X,Y),d^{\sup})\cong(\mathbb R^n,d^\infty).
+$$
+
+Das heißt, es gibt eine [[Bijektion|Bijektivität]] $$\phi\colon\mathcal B(X,Y)\to\mathbb R^n$$, nämlich
+
+$$
+\phi\colon f\mapsto (f(1),\ldots,f(n)),
+$$
+
+für die
+
+$$
+d^\infty(\phi(f),\phi(g))=d^{\sup}(f,g).
+$$

@@ -1,0 +1,10 @@
+created: 20180725210152589
+creator: Leander
+modified: 20191003210041440
+modifier: Leander
+revision: 0
+tags: Tensorprodukt no-toc
+title: Basen für Tensorprodukte
+type: text/vnd.tiddlywiki
+
+Sei $$\eta\colon V_1\times V_2\to V_1\otimes V_2$$ ein [[Tensorprodukt]] und seien $$(e_1,\dots,e_m),(f_1,\dots,f_n)$$ [[Basen|Basis]] von $$V_1$$ und $$V_2.$$ Dann bilden die Vektoren $$e_i\otimes f_j=\eta(e_i,f_j)$$ eine Basis von $$V_1\otimes V_2.$$

@@ -1,0 +1,13 @@
+created: 20180708182857276
+creator: Leander
+modified: 20190325194807723
+modifier: Leander
+revision: 0
+tags: [[Stetige Differenzierbarkeit]]
+title: Immersion und Submersion
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon V\supset G\to W$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]].
+
+* Ist $$f$$ eine //Immersion//, d.h. $$\mathrm D_p f$$ für alle $$p$$ [[injektiv|Injektivität]], so ist $$f$$ [[lokal|Umgebung]] injektiv.
+* Ist $$f$$ eine //Submersion//, d.h. $$\mathrm D_p f$$ für alle $$p$$ [[surjektiv|Surjektivität]], so ist $$f$$ eine [[offene|Offenheit]] Abbildung, d.h. $$f$$ bildet offene Mengen in offene Mengen ab.

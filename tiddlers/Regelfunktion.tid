@@ -1,0 +1,25 @@
+created: 20180124202504348
+creator: Leander
+list: 
+modified: 20191011170415364
+modifier: Leander
+tags: Regelintegral no-toc
+title: Regelfunktion
+type: text/vnd.tiddlywiki
+
+Eine [[Funktion|Abbildung]] $$f\colon[a,b]\to\mathbb{R}$$ heißt //Regelfunktion//, wenn es zu jedem $$\epsilon>0$$ eine [[Treppenfunktion]], wenn es eine [[Folge]] $$(\phi_k)$$ von Treppenfunktionen gibt, die [[gleichmäßig|Gleichmäßige Konvergenz]] gegen $$f$$ konvergiert.
+
+Man sagt dann, die Folge $$(\phi_k)$$ ist eine //aproximierende Folge.// $$\mathcal R([a,b])$$ bezeichnet die Menge aller Regelfunktionen auf $$[a,b]$$.
+
+!!! Äquivalente Charakterisierung
+
+Eine Funktion $$f\colon [a,b]\to\mathbb R$$ ist genau dann eine Regelfunktion, wenn gilt:
+
+# Für alle $$x\in[a,b)$$ existiert $$\lim_{t\searrow x}f(t)\in\mathbb R$$ und
+# Für alle $$x\in(a,b]$$ existiert $$\lim_{t\nearrow x}f(t)\in\mathbb R$$.
+
+Die Funktion muss also an jeder Stelle einen rechtsseitigen und einen linksseitigen [[Limes|Grenzwert von Funktionen]] besitzen.
+
+!!! Beispiel: Stückweise Stetigkeit und Monotonie
+
+{{Stückweise Stetigkeit und Monotonie}}

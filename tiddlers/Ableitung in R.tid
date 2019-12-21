@@ -1,0 +1,41 @@
+caption: In den reellen Zahlen
+created: 20180315140927895
+creator: Leander
+list: [[Rechenregeln für die Ableitung]] [[Kettenregel in R]] [[Satz von Taylor in R]] [[Extremwerte in R]] [[Ableitung der Umkehrfunktion]] Mittelwertsatz [[Schrankensatz in R]] [[Satz von Dini]] Stammfunktion [[Hauptsatz der Differential- und Integralrechnung]] Konstanzkriterium [[Lokale Differenzierbarkeit]] Mini-Sard [[Höhere Produktregel]]
+modified: 20191011231831399
+modifier: Leander
+tags: Ableitung
+title: Ableitung in R
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon\mathbb{R} \supset J \to \mathbb{R}$$ eine [[Funktion|Abbildung]] auf einem Intervall mit mehr als einem Punkt oder auf einer nichtleeren [[offenen|Offenheit (metrische Räume)]] Teilmenge $$J \subset \mathbb{R}$$. $$f$$ heißt //differenzierbar// in $$x_0 \in J$$, wenn der [[Grenzwert|Grenzwert von Funktionen]] des Differenzenquotienten
+
+$$
+f'(x_0) \coloneqq \lim_{x \to x_0} \frac{f(x)-f(x_0)}{x-x_0}
+$$
+
+in $$\mathbb{R}$$ existiert. $$f'(x_0)$$ heißt dann die //Ableitung// von $$f$$ in $$x_0$$. Man nennt $$f$$ differenzierbar auf $$J$$, wenn sie in allen $$x_0 \in J$$ differenzierbar ist. Außerdem gibt es die Umformulierung
+
+$$
+f'(x)\coloneqq\lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}.
+$$
+
+Statt $$f'(x)$$ schreibt man auch $$\frac{\mathrm{d}f}{\mathrm{d}x}$$ oder, wenn die Variable $$t$$ Zeit bedeutet, $$\dot{f}(t)$$.
+
+Differenzierbare Funktionen sind [[stetig|Stetigkeit]].
+
+!! Rechenregeln
+
+{{Rechenregeln für die Ableitung}}
+
+!!! Kettenregel
+
+{{Kettenregel in R}}
+
+!! Schrankensatz
+
+{{Schrankensatz in R}}
+
+!! Mittelwertsatz
+
+{{Mittelwertsatz}}

@@ -1,0 +1,22 @@
+created: 20171230182205866
+list: 
+modified: 20181009153437028
+modifier: Leander
+revision: 0
+tags: Stetigkeit
+title: Lipschitz-Stetigkeit
+type: text/vnd.tiddlywiki
+
+Eine [[Funktion|Abbildung]] $$f\colon\mathbb{R} \supset D \to \mathbb{R}$$ heißt //Lipschitz-Stetig//, falls eine Konstante $$L \geq 0$$ existiert, so dass gilt:
+
+$$
+\forall x,y \in D\colon\quad|f(x)-f(y)| \leq L |x-y|.
+$$
+
+Eine Funktion ist genau dann Lipschitz-Stetig, wenn ihre [[Ableitung]] [[beschränkt|Beschränktheit (Funktionen)]] ist.
+
+$$f$$ heißt //lokal// Lipschitz-Stetig auf $$D$$, falls es zu jedem $$x \in D$$ ein $$\delta_x > 0$$ und eine Konstante $$L_x \geq 0$$ gibt, so dass
+
+$$
+\forall y,z \in U_{\delta_x} \cap D\colon\quad|f(y)-f(z)| \leq L_x |y-z|.
+$$

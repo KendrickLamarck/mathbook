@@ -1,0 +1,37 @@
+created: 20180724220500508
+creator: Leander
+modified: 20191004223604098
+modifier: Leander
+revision: 0
+tags: Dualraum no-toc
+title: Duale Basis
+type: text/vnd.tiddlywiki
+
+Gegeben sei eine [[Basis]] $$\mathcal B=(v_1,\dots,v_n)$$ eines $$K$$-[[Vektorraums|Vektorraum]] $$V.$$ Zu jedem $$i\in\{1,\dots,n\}$$ gibt es genau eine [[lineare Abbildung|Lineare Abbildung]]
+
+$$
+v_i^*\colon V\to K \quad\text{mit}\quad v_i^*(v_j)=\delta_{ij}.
+$$
+
+Diese Linearform hängt von allen Basisvektoren ab.
+
+Für jedes $$\mathcal B$$ ist $$\mathcal B^*=(v_1^*,\dots,v_n^*)$$ eine Basis von $$V^*,$$ die sogenannte //duale Basis//.
+
+''Korollar 1.''
+Zu jedem $$0\ne v\in V$$ gibt es ein $$\varphi\in V^*$$ mit $$\varphi(v)=0.$$
+
+''Korollar 2.''
+Zu jeder Basis $$\mathcal B=(v_1,\dots,v_n)$$ von $$V$$ gibt es einen [[Isomorphismus]]
+
+$$
+\Psi_\mathcal B\colon V\to V^* \quad\text{mit}\quad \Psi_\mathcal B(v_i)=v_i^*.
+$$
+
+''Bemerkung.''
+Wenn $$V$$ ein [[euklidischer Vektorraum|Euklidischer Vektorraum]] ist und $$\mathcal B=(v_1,\dots,v_n)$$ eine [[Orthonormalbasis]], dann ist $$v_i^*=\langle v_i,\cdot\rangle.$$ In diesem Fall gibt es einen kanonischen Isomorphismus
+
+$$
+\Psi\colon V\to V^*,\quad v\mapsto \langle v,\cdot\rangle,
+$$
+
+da er durch das Skalarprodukt bestimmt ist.

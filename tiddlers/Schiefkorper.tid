@@ -1,0 +1,10 @@
+created: 20190217184747227
+modified: 20190217185025867
+revision: 0
+tags: Algebra
+title: Schiefkörper
+type: text/vnd.tiddlywiki
+
+Ein //Schiefkörper// ist ein [[Ring]] mit Einselement $$1\ne 0,$$ in dem jedes Element $$a\ne 0$$ ein multiplikatives Inverses Element $$a^{-1}$$ besitzt.
+
+Ist der Ring zusätzlich kommutativ, so handelt es sich um einen [[Körper]].

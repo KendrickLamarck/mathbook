@@ -1,0 +1,17 @@
+created: 20180226131851093
+list: 
+modified: 20180420224247482
+revision: 0
+tags: Formeln
+title: Orthogonalitätsrelationen
+type: text/vnd.tiddlywiki
+
+$$
+\int_0^{2\pi} \cos(mx)\sin(nx)\,\mathrm dx=0,\quad\forall m,n\in\mathbb N,
+$$
+$$
+\int_0^{2\pi} \cos(mx)\cos(nx)\,\mathrm dx=\int_0^{2\pi} \sin(mx)\sin(nx)\,\mathrm dx=0,\quad\forall m,n\in\mathbb N,\;m\neq n,
+$$
+$$
+\int_0^{2\pi} \cos^2(mx)\,\mathrm dx=\int_0^{2\pi} \sin^2(mx)\,\mathrm dx=0,\quad\forall m\in\mathbb N\setminus\{0\}.
+$$

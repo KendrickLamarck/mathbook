@@ -1,0 +1,14 @@
+created: 20180728182830303
+creator: Leander
+modified: 20191004223318978
+modifier: Leander
+revision: 0
+tags: Norm
+title: Parallelogrammgleichung
+type: text/vnd.tiddlywiki
+
+Sei $$(V,\|.\|)$$ ein [[normierter Vektorraum|Normierter Vektorraum]]. Es gibt genau dann ein [[Skalarprodukt]] $$\langle\cdot,\cdot\rangle$$ auf $$V$$ mit $$\|v\|=\sqrt{\langle v,v\rangle},$$ wenn die //Parallelogrammgleichung// erfüllt ist:
+
+$$
+\|v+w\|^2+\|v-w\|^2=2\|v\|^2+2\|w\|^2.
+$$

@@ -1,0 +1,11 @@
+created: 20171110204519219
+modified: 20180410191952838
+revision: 0
+tags: Algebra
+title: Induktive Menge
+type: text/vnd.tiddlywiki
+
+Eine Teilmenge $$N \subset \mathbb{R}$$ heißt //induktiv//, wenn gilt:
+
+# $$0 \in N$$
+# Ist $$a \in N$$, so ist auch $$a+1 \in N$$.

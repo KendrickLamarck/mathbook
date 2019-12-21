@@ -1,0 +1,10 @@
+created: 20180106171249947
+creator: Leander
+list: 
+modified: 20191011164402920
+modifier: Leander
+tags: Ableitung Extremwerte no-toc
+title: Notwendiges Extremwertkriterium
+type: text/vnd.tiddlywiki
+
+Hat $$f\colon V\supset G\to\mathbb R$$ ein lokales [[Extremum|Extremwerte]] in $$p$$ und ist dort [[differenzierbar|Ableitung]], so ist $$\mathrm D_p f=0.$$

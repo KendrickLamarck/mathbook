@@ -1,0 +1,11 @@
+created: 20180319183310544
+creator: Leander
+list: Eigenwert [[Determinante eines Endomorphismus]] [[Invarianter Unterraum]] [[Jordan'sche Normalform]] Minimalpolynom Projektion
+modified: 20180708214801868
+modifier: Leander
+revision: 0
+tags: [[Lineare Abbildung]]
+title: Endomorphismus
+type: text/vnd.tiddlywiki
+
+Eine [[lineare Abbildung|Lineare Abbildung]] $$F\colon V\to W$$ heißt //Endomorphismus//, wenn $$V=W$$ ist.

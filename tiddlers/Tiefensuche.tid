@@ -1,0 +1,10 @@
+created: 20180413120653567
+creator: Leander
+modified: 20191003191030055
+modifier: Leander
+revision: 0
+tags: no-toc Graphendurchmusterung
+title: Tiefensuche
+type: text/vnd.tiddlywiki
+
+Es gibt genau dann einen von $$r$$ aus erreichbaren [[Kreis]] in $$G$$, wenn der Algorithmus eine Kante von $$v\in Q$$ zu einem Knoten $$w\in Q$$ findet. Entfernt man alle solche Kanten aus $$G$$, so gibt es keinen von $$r$$ aus erreichbaren Kreis mehr.

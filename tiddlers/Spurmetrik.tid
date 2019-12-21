@@ -1,0 +1,16 @@
+created: 20180416183228107
+creator: Leander
+modified: 20191003191843787
+modifier: Leander
+revision: 0
+tags: [[Metrischer Raum]]
+title: Spurmetrik
+type: text/vnd.tiddlywiki
+
+Ist $$(X,d)$$ ein [[metrischer Raum|Metrischer Raum]], so ist jede Teilmenge $$A\subset X$$ ein metrischer Raum mit der von $$d$$ //induzierten Metrik// oder //Spurmetrik//
+
+$$
+d_A\coloneqq d|_A
+$$
+
+Die von $$d_A$$ induzierte [[Topologie]] ist gleich der [[Spurtopologie]].

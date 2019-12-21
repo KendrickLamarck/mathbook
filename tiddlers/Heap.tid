@@ -1,0 +1,15 @@
+created: 20180502124651552
+creator: Leander
+modified: 20180626195808428
+modifier: Leander
+revision: 0
+tags: Datenstrukturen Baum
+title: Heap
+
+Fasst man ein Array A [[als Binärbaum auf|Array als Binärbaum]], so besitzen sie die //MaxHeap//-Eigenschaft, falls ``A[parent(i)] >= A[i]`` für $$1<i\le n$$. Analog definiert man //MinHeap//.
+
+* Das größte Element ist die Wurzel ``A[1]``.
+* Die Elemente fallen auf dem Weg von der Wurzel zu einem Blatt [[monoton|Monotonie]].
+* Die Höhe des Baumes ist $$\lfloor\log n\rfloor$$.
+* Ist A absteigend sortiert, so hat A die MaxHeap-Eigenschaft (hinreichend aber nicht notwendig).
+* Es gilt: Der Knoten $$i$$ ist ein Blatt genau dann, wenn $$i>\lfloor n/2\rfloor$$.

@@ -1,0 +1,31 @@
+created: 20180530153430792
+creator: Leander
+modified: 20190406184202670
+modifier: Leander
+revision: 0
+tags: Lp-Räume
+title: Folgenräume
+type: text/vnd.tiddlywiki
+
+Sei für $$p\in[1,\infty[$$
+
+$$
+\ell^p\coloneqq\Bigl\{(x_n)_{n\in\mathbb N}\in\mathbb R^\Bbb N:\sum_{n\in\mathbb N}|x_n|^p<\infty\Bigr\}
+$$
+
+und sei
+
+$$
+\ell^\infty\coloneqq\Bigl\{(x_n)_{n\in\mathbb N}\in\mathbb R^\Bbb N:\sup_{n\in\mathbb N}|x_n|<\infty\Bigr\}.
+$$
+
+Das sind [[Banachräume|Banachraum]] mit der [[Norm]]
+
+$$
+\|(x_n)_{n\in\mathbb N}\|_p\coloneqq\begin{cases}
+\left(\sum_{n\in\mathbb N}|x_n|^p\right)^{\frac{1}{p}},&\text{falls }p\in[1,\infty[,\\
+\sup_{n\in\mathbb N}|x_n|,&\text{falls }p=\infty.
+\end{cases}
+$$
+
+Es handelt sich um $$L^p(\Bbb N,\mathcal P(\Bbb N),\#),$$ wobei $$\#$$ das [[Zählmaß|Diskretes Maß]] ist.

@@ -1,0 +1,15 @@
+created: 20190108160829258
+creator: Leander
+modified: 20190108162224311
+modifier: Leander
+revision: 0
+tags: Lebesgue-Integral
+title: Stetigkeitslemma
+
+Sei $$f\colon\Omega\times\Bbb R\to\Bbb R$$ eine Funktion und $$x_0\in\Bbb R,$$ so dass gelten:
+
+# Für jedes $$x\in\Bbb R$$ ist $$f(\cdot,x)\in\mathcal L^1(\mu),$$
+# für fast alle $$\omega\in\Omega$$ ist $$f(\omega,\cdot)$$ [[stetig|Stetigkeit]] in $$x_0,$$
+# es gibt eine [[Umgebung]] $$\mathcal U$$ von $$x_0,$$ so dass die Abbildung $$\sup_{x\in\mathcal U}|f(\cdot,x)|$$ in $$\mathcal L^1(\mu)$$ liegt.
+
+Dann ist die Abbildung $$\int f(\omega,\cdot)\,\mu(\mathrm d\omega)$$ stetig in $$x_0.$$

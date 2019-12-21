@@ -1,0 +1,22 @@
+created: 20180319193855714
+creator: Leander
+modified: 20180706001528453
+modifier: Leander
+revision: 0
+tags: [[Lineare Abbildung]]
+title: Lineare Funktionenräume
+type: text/vnd.tiddlywiki
+
+Man definiert
+
+$$
+\hom_K(V,W) \coloneqq \{\, F\colon V\to W\mid F \text{ ist } K\text{-}\href{#Lineare Abbildung}{\text{linear}}\,\}.
+$$
+
+Diese Menge ist mit der üblichen Addition und Skalaren Multiplikation für Funktionen ein [[Untervektorraum]] von $$\operatorname{Abb}(V,W)$$. Weiter definiert man
+
+$$
+\operatorname{End}(V) \coloneqq \hom(V,V)
+$$
+
+als die Menge aller [[Endomorphismen|Endomorphismus]] auf $$V$$. Wie oben ist dies ein Vektorraum. Zusammen mit der [[Komposition]] als Multiplikation wird diese Menge sogar zu einem [[Ring]].

@@ -1,0 +1,28 @@
+caption: Spherical geometry
+created: 20180124194541350
+creator: Leander
+list: [[Great circle]] [[Spherical metric]] Hemisphere [[Spherical Digon]] [[Angles on the sphere]] [[Spherical triangle]] [[Stereographic projection]]
+modified: 20191013015731511
+modifier: Leander
+tags: Geometrie
+title: Spherical geometry
+type: text/vnd.tiddlywiki
+
+! The space
+
+{{Einheitssphäre}}
+
+!! The metric
+
+{{Spherical metric}}
+
+! Transformation geometry
+
+$$n$$-dimensional spherical geometry can also be obtained as a subgeometry of $$n$$-dimensional [[Möbius geometry]]: Take its projective model and fix a point $$[p]$$ inside of the quadric $$Q.$$ We obtain the space $$S^n\subset\R^{n+1}$$ with the transformation group $$\mathrm O(n+1).$$ The spherical metric $$d_\mathrm{sph}$$ is then given by
+
+$$
+\frac
+{\langle x,y\rangle_{n+1,1}}
+{\langle x,p\rangle_{n+1,1}\langle y,p\rangle_{n+1,1}}=
+-2\sin^2\frac {d_\mathrm{hyp}([x],[y])} 2.
+$$

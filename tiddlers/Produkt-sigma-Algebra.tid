@@ -1,0 +1,42 @@
+created: 20190122160741913
+creator: Leander
+modified: 20190415113851487
+modifier: Leander
+revision: 0
+tags: Sigma-Algebra
+title: Produkt-sigma-Algebra
+type: text/vnd.tiddlywiki
+
+Sei $$I$$ eine beliebige Indexmenge und für jedes $$i\in I$$ sei $$(E_i,\mathcal E_i)$$ ein [[messbarer Raum|Sigma-Algebra]]. Definiere für $$A_j\in \mathcal E_j,$$ $$j\in I$$:
+
+$$
+\mathcal A^{(j)}(A_j)=\Bigl\{
+(x_i)_{i\in I}\in\prod_{i\in I} E_i\colon x_j\in A_j
+\Bigr\}
+$$
+
+Die von diesen Mengen auf $$\prod_{i\in I} E_i$$ [[erzeugte|Erzeugte sigma-Algebra]] $$\sigma$$-Algebra heißt die //Produkt-$$\sigma$$-Algebra// $$\bigotimes_{i\in I} \mathcal E_i.$$ Sind alle $$(E_i,\mathcal E_i)=(E,\mathcal E)$$ gleich, so schreibt man auch $$(E^{\otimes I},\mathcal E^{\otimes I})$$ für den Produktraum.
+
+Bezeichnen wir mit $$\pi_j\colon\prod_{i\in I} E_i\to E_j,$$ $$(x_i)_{i\in I}\mapsto x_j$$ die Projektionen, so gilt auch
+
+$$\begin{aligned}
+\bigotimes_{i\in I}\mathcal E_i&=
+\sigma(\pi_i :i\in I)
+=\bigvee_{i\in I}\pi_i^{-1}(\mathcal E_i)=
+\bigvee_{i\in I}\sigma(\pi_i) \\ &=
+\sigma\left(\left\{\pi_i^{-1}(A_i):A_i\in\mathcal E_i\right\}:i\in I\right).
+\end{aligned}$$
+
+Dieses Erzeugendensystem ist nicht schnittstabil. Deshalb verwenden wir auch Folgendes: Für $$J\subseteq I$$ endlich und Mengen $$A_j\in \mathcal E_j$$ für $$j\in J$$ setzen wir
+
+$$
+\mathcal A^{(J)}((A_j)_{j\in J})=
+\bigcap_{j\in J}\mathcal A^{(j)}(A_j)=
+\{(x_i)_{i\in I}:x_j\in A_j\ \forall j\in J\}
+$$
+
+und diese Mengen (auch //endlichdimensionale Zylinder// genannt) bilden ein schnittstabiles Erzeugendensystem der Produkt-$$\sigma$$-Algebra.
+
+!! Produktmaß
+
+{{Produktmaß}}

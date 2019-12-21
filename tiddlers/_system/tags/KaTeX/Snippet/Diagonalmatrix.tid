@@ -1,0 +1,13 @@
+created: 20180723125707571
+creator: Leander
+modified: 20180723125848418
+modifier: Leander
+revision: 0
+tags: $:/tags/KaTeX/Snippet
+title: $:/tags/KaTeX/Snippet/Diagonalmatrix
+
+$$\begin{pmatrix}
+\lambda_1 && 0\, \\
+& \mkern{-15mu}\raisebox{-3mu}{$\ddots$} \\
+0 && \mkern{-15mu}\lambda_n
+\end{pmatrix}$$

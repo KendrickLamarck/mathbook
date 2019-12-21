@@ -1,0 +1,9 @@
+created: 20180509203439455
+creator: Leander
+modified: 20191011225934056
+modifier: Leander
+tags: Kompaktheit no-toc
+title: Satz von Heine-Borel
+type: text/vnd.tiddlywiki
+
+EIne Teilmenge $$A$$ des $$\mathbb R^n$$ mit der [[Standardmetrik|lp-Norm]] ist kompakt genau dann, wenn sie [[abgeschlossen|Abgeschlossenheit]] und [[beschränkt|Beschränktheit (metrische Räume)]] ist.

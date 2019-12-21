@@ -1,0 +1,14 @@
+created: 20180626202006952
+creator: Leander
+modified: 20181009144230532
+modifier: Leander
+revision: 0
+tags: Algorithmus Graph
+title: Prims Algorithmus
+type: text/vnd.tiddlywiki
+
+Dies ist ein [[Greedy-Algorithmus|Greedy-Algorithmus und Matroide]], der zu einem gegebenen zusammenhängenden gewichteten [[Graphen|Graph]] einen [[aufspannenden|Teilgraph]] [[Baum]] minimalen Gewichts findet.
+
+Es werden alle von einem Startknoten bzw. der aktuellen Zusammenhangskomponente ausgehenden Kanten hinzugefügt, wobei immer die Kante mit niedrigstmöglichem Gewicht hinzugefügt wird.
+
+Prims Algorithmus kann mit einem [[Heap]] effizient implementiert werden.

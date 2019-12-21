@@ -1,0 +1,11 @@
+created: 20180430171946458
+creator: Leander
+modified: 20191011165429997
+modifier: Leander
+tags: Kontraktion no-toc
+title: Banach'scher Fixpunktsatz
+type: text/vnd.tiddlywiki
+
+Seien $$(X,d)$$ ein nicht-leerer, [[vollständiger|Vollständigkeit]] [[metrischer Raum|Metrischer Raum]] und $$f\colon X\to X$$ eine Abbildung, so dass $$f^m=f\circ\dots\circ f$$ für ein $$M\in\mathbb N$$ eine [[Kontraktion]] ist. Dann hat $$f$$ genau einen Fixpunkt, also ein $$x^*\in X$$ mit $$f(x^*)=x^*$$.
+
+Ist $$x_0\in X$$ und definiert man rekursiv $$x_{k+1}=f(x_k)$$ für alle $$k\in\mathbb N$$, so ist die Iterationsfolge $$(x_k)_{k\in\mathbb N}$$ [[konvergent|Konvergenz]] gegen $$x^*$$.

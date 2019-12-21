@@ -1,0 +1,18 @@
+created: 20171111133602129
+creator: Leander
+list: 
+modified: 20191011164008265
+modifier: Leander
+tags: [[Injektiv, surjektiv, bijektiv]] no-toc
+title: Surjektivität
+type: text/vnd.tiddlywiki
+
+Eine [[Abbildung]] $$f\colon X \to Y$$ ist surjektiv, wenn gilt:
+$$
+f(X) = Y
+$$
+oder wenn es eine Abbildung $$g\colon Y \to X$$ gibt, so dass die [[Komposition]]
+$$
+f \circ g = \operatorname{id}_Y.
+$$
+Jedes $$y \in Y$$ besitzt ''mindestens'' ein Urbild in $$X$$.

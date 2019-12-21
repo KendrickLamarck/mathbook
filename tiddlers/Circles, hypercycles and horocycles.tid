@@ -1,0 +1,13 @@
+created: 20190216150920242
+modified: 20191010174458373
+tags: [[Hyperbolic geometry]]
+title: Circles, hypercycles and horocycles
+type: text/vnd.tiddlywiki
+
+Let $$v\in\Bbb R^{2,1},\ b\in\Bbb R$$ and let $$\{x\in\Bbb R^{2,1}\mid \langle x,v\rangle=b\}$$ be a plane in $$\Bbb R^{2,1}.$$
+
+* If $$\langle v,v\rangle<1$$ (w.l.o.g. $$v\in H^2$$), a non-empty intersection with $$H^2$$ is of the form $$\langle v,x\rangle=-\cosh r.$$ It is therefore a //circle// with center $$v$$ and radius $$r.$$
+
+* If $$\langle v,v\rangle>1,$$ we can assume $$\langle v,v\rangle=1$$ and $$b>0.$$ The intersection with $$H^2$$ is never empty and is of the form $$\langle v,x\rangle=\sinh r$$ and is therefore a //hypercycle// or //curve of constant distance// from the [[line|Hyperbolic line]] $$\langle v,x\rangle=0.$$ For $$r=0$$ this is the line itself.
+
+* If $$\langle v,v\rangle=0,$$ a non-empty intersection with $$H^2$$ is called a //horocircle.//

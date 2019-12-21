@@ -1,0 +1,23 @@
+created: 20180322152802183
+creator: Leander
+modified: 20190718134306115
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Affiner Unterraum
+type: text/vnd.tiddlywiki
+
+Eine Teilmenge $$X$$ eines $$K$$-[[Vektorraums|Vektorraum]] $$V$$ heißt ein //affiner Unterraum//, falls es ein $$v\in V$$ und einen [[Untervektorraum]] $$W\subset V$$ gibt, so dass
+
+$$
+X=v+W\coloneqq\{\,u\in V:\exists w\in W(u=v+w)\,\}.
+$$
+
+Es handelt sich also um einen verschobenen Untervektorraum. Wir nennen auch die leere Menge $$\varnothing$$ einen affinen Unterraum.
+
+Für einen affinen Unterraum $$X=v+W\subset V$$ gilt:
+
+* Für ein beliebiges $$v'\in X$$ ist $$X=v'+W$$.
+* Ist $$v'\in V$$ und $$W'\subset V$$ ein Untervektorraum mit $$v+W=v'+W'$$, so folgt $$W=W'$$ und $$v'-v\in W$$.
+
+Der Untervektorraum $$W$$ ist also eindeutig bestimmt und der //Aufhängepunkt// $$v$$ kann beliebig in $$X$$ gewählt werden.

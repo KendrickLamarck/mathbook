@@ -1,0 +1,19 @@
+created: 20180731215641815
+creator: Leander
+modified: 20191011164807005
+modifier: Leander
+tags: Mannigfaltigkeit
+title: Gleichungsdefinierte Mannigfaltigkeiten
+type: text/vnd.tiddlywiki
+
+Seien $$V$$ und $$W$$ [[Banachräume|Banachraum]] der [[Dimension]] $$d\in\mathbb N$$. Seien $$G\subset V$$ [[offen|Offenheit]] und $$g\colon G\to W\in\mathcal C^\alpha,\ \alpha>0$$ vom [[konstanten Rang|Konstanter Rang]] $$r,\ 0<r<d$$ und $$q\in g(G).$$ Dann ist
+
+$$
+M\coloneqq g^{-1}(\{q\})
+$$
+
+eine $$(d-r)$$-dimensionale $$\mathcal C^\alpha$$-[[Mannigfaltigkeit]]. Für den [[Tangentialraum]] gilt
+
+$$
+\mathrm T_a M=\ker\mathrm D_a g.
+$$

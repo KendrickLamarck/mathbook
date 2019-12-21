@@ -1,0 +1,10 @@
+created: 20171225230925189
+creator: Leander
+modified: 20180429103153360
+modifier: Leander
+revision: 0
+tags: Ring
+title: Unterring
+type: text/vnd.tiddlywiki
+
+Ist $$R$$ ein [[Ring]] und $$R' \subset R$$ eine Teilmenge, so heißt $$R'$$ Unterring, wenn $$R'$$ bezüglich der Addition [[Untergruppe]] ist und bezüglich der Multiplikation für $$a,b \in R'$$ auch $$a \cdot b \in R'$$.

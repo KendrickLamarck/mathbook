@@ -1,0 +1,18 @@
+created: 20190103020052588
+creator: Leander
+modified: 20191011175001338
+modifier: Leander
+tags: Verteilung
+title: Geometrische Verteilung
+type: text/vnd.tiddlywiki
+
+Sei $$p\in{]0,1]}.$$ Das durch die [[Zähldichte|Diskretes Maß]]
+
+$$
+g_p\colon\Bbb N\to [0,1],\quad
+k\mapsto(1-p)^{k-1}p
+$$
+
+definierte [[Wahrscheinlichkeitsmaß]] auf $$\Bbb N$$ heißt //geometrische Verteilung zu $$p$$// und wird mit $$\operatorname{Geom}(p)$$ bezeichnet. 
+
+Sie ist die Verteilung der [[Wartezeit]].

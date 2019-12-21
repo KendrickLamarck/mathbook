@@ -1,0 +1,9 @@
+created: 20180626205200443
+creator: Leander
+modified: 20191011222717328
+modifier: Leander
+tags: Ford-Algorithmus no-toc
+title: Bellman-Ford-Algorithmus
+type: text/vnd.tiddlywiki
+
+Diese Verfeinerung des [[Ford-Algorithmus]] basiert darauf, dass von der Wurzel ausgehende [[Wege|Weg]] in einem [[Baum]] mit $$|V|$$ Knoten maximal $$|V|-1$$ Kanten lang sind. Es kann also eine beliebige Permutation der Kanten $$(|V|-1)$$-mal durchgegangen werden. In dieser Sequenz ist dann jeder kürzeste Weg eingebettet und wird auch gefunden.

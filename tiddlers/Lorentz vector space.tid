@@ -1,0 +1,11 @@
+created: 20181116213120367
+modified: 20191010224833695
+tags: [[Scalar products with signature (p,q)]] no-toc
+title: Lorentz vector space
+type: text/vnd.tiddlywiki
+
+A //Lorentz vector space// is $$\mathbb R^{n,1},$$ for $$n\ge 1.$$ The corresponding scalar product ist called a //Lorentz scalar product.//
+
+In a Lorentz vector space, any non-zero vector which is orthogonal to a timelike vector is spacelike.
+
+{{Lorentz transformation}}

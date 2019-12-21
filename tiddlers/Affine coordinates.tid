@@ -1,0 +1,29 @@
+created: 20181229134533569
+creator: Leander
+modified: 20191008212650314
+modifier: Leander
+tags: [[Projective space]] no-toc
+title: Affine coordinates
+type: text/vnd.tiddlywiki
+
+Let $$V$$ be an $$F$$-[[vector space|Vektorraum]] and $$(v_1,\dots,v_{n_1})$$ be a [[basis|Basis]]. Let
+
+$$
+\mathcal U\coloneqq
+\{\,[v]\in P(V)\mid x_{n+1}\ne 0\,\}.
+$$
+
+Then there is a bijection $$\mathcal U\to F^n$$
+
+$$
+[v]\mapsto
+\begin{pmatrix}
+u_1 \\[-5mu] \vdots \\[-4mu] u_n
+\end{pmatrix}=
+\frac 1 {x_{n+1}}
+\begin{pmatrix}
+x_1 \\[-5mu] \vdots \\[-4mu] x_n
+\end{pmatrix}
+$$
+
+and $$u_1,\dots,u_n$$ are called //affine coordinates// of $$v\in\mathcal U.$$ The points with $$x_{n+1}=0$$ are called //points at infinity// and recursively give another bijection of the above form for points with $$x_n=0.$$ In this way, an $$n$$-dimensional projective space $$FP^n$$ can be identified as $$F^n$$ with a projective hyperplane $$FP^{n-1}$$ "at infinity".

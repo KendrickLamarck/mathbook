@@ -1,0 +1,15 @@
+created: 20171230203428683
+creator: Leander
+modified: 20180725163701405
+modifier: Leander
+revision: 0
+tags: Basis
+title: Dimension
+type: text/vnd.tiddlywiki
+
+Ist $$V$$ ein $$K$$-[[Vektorraum]], so definieren wir
+
+* $$\dim_K(V) \coloneqq \infty$$, falls $$V$$ keine endliche [[Basis]] besitzt und
+* $$\dim_K(V) \coloneqq r$$, falls $$V$$ eine Basis der Länge $$r$$ besitzt.
+
+Wir nennen $$\dim_K(V)$$ die //Dimension// von $$V$$ über $$K$$.

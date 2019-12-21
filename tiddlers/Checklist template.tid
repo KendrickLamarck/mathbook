@@ -1,0 +1,12 @@
+created: 20171009160757094
+modified: 20180410191952000
+revision: 0
+tags: Templates
+title: Checklist template
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}!tag[Done]]">
+
+<$checkbox tag="Done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>
+
+</$list>

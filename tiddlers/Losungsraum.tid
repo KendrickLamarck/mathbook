@@ -1,0 +1,27 @@
+created: 20180326180424436
+creator: Leander
+modified: 20191004230728553
+modifier: Leander
+revision: 0
+tags: [[Lineares Gleichungssystem]]
+title: Lösungsraum
+type: text/vnd.tiddlywiki
+
+Gegeben sei das [[lineare Gleichungssystem|Lineares Gleichungssystem]] $$Ax=b$$ mit $$m$$ Gleichungen und $$n$$ Unbekannten, es sei $$r=\operatorname{rang}A$$ und sei
+$$
+F\colon K^n\to K^m,\quad x\mapsto Ax
+$$
+die durch $$A$$ beschriebene [[lineare Abbildung|Lineare Abbildung]]. Dann gilt für die Lösungsräume
+
+$$
+\operatorname{Lös}(A;b)\coloneqq\{\,x\in K^n : Ax=b \,\}\subset K^n\colon
+$$
+
+* $$\operatorname{Lös}(A;0)=\ker F\subset K^n$$ ist ein [[Untervektorraum]] der [[Dimension]] $$n-r$$.
+* $$\operatorname{Lös}(A;b)\subset K^n$$ ist entweder leer oder ein [[affiner Raum|Affiner Unterraum]] der Dimension $$n-r$$. Ist $$v\in\operatorname{Lös}(A;b)$$ beliebig, so ist$$
+\operatorname{Lös}(A;b)=v+\operatorname{Lös}(A;0).
+$$
+
+!! Parametrisierung
+
+{{Parametrisierung des Lösungsraums}}

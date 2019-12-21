@@ -1,0 +1,27 @@
+created: 20180420190933516
+creator: Leander
+modified: 20191004165022362
+modifier: Leander
+revision: 0
+tags: Eigenwert
+title: Diagonalisierung
+type: text/vnd.tiddlywiki
+
+Ein [[Endomorphismus]] $$F$$ (oder seine [[darstellende Matrix|Darstellende Matrix (lineare Abbildungen)]]) heißt //diagonalisierbar//, wenn es eine [[Basis]] $$\mathcal B$$ aus [[Eigenvektoren|Eigenwert]] gibt, denn dann kann man $$M_\mathcal B(F)$$ als Diagonalmatrix mit den Eigenwerten auf der Diagonalen schreiben.
+
+Ist $$F$$ ein Endomorphismus eines endlichdimensionalen [[Vektorraums|Vektorraum]] $$V$$, so sind folgende Aussagen äquivalent:
+
+* $$F$$ ist diagonalisierbar.
+* Es gibt eine Basis $$\mathcal B=(v_1,\ldots,v_n)$$ von $$V$$, so dass $$M_\mathcal B(F)$$ eine Diagonalmatrix ist.
+* Das [[charakteristische Polynom|Charakteristisches Polynom]] $$P_F$$ zerfällt in Linearfaktoren und es gilt $$\mu(P_F;\lambda)=\dim\operatorname{Eig}(F;\lambda)$$ für alle Eigenwerte $$\lambda$$ von $$F$$.
+* Sind $$\lambda_1,\ldots,\lambda_k$$ die paarweise verschiedenen Eigenwerte von $$F$$, so ist$$
+V=\operatorname{Eig}(F;\lambda_1)\oplus\dots\oplus\operatorname{Eig}(F;\lambda_k).$$
+
+
+!! Unitäre Endomorphismen
+
+{{Diagonalisierbarkeit unitärer Endomorphismen}}
+
+!! Selbstadjungierte Endomorphismen
+
+{{Diagonalisierbarkeit selbstadjungierter Endomorphismen}}

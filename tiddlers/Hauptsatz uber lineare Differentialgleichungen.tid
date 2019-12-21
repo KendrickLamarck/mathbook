@@ -1,0 +1,36 @@
+created: 20180801133437762
+creator: Leander
+modified: 20191011221447888
+modifier: Leander
+tags: [[Lineare Differentialgleichung]] no-toc
+title: Hauptsatz über lineare Differentialgleichungen
+type: text/vnd.tiddlywiki
+
+Sei $$n\coloneqq\dim V.$$ Für $$t_0\in J,\ \xi_0\in V$$ gilt:
+
+# <div>Das [[Anfangswertproblem|Lineare Differentialgleichung]]
+$$
+\dot x=F(t)x+g(t),\qquad x(t_0)=\xi_0 \tag*{\dag}
+$$
+hat genau eine auf ganz $$J$$ definierte Lösung.</div>
+
+# <div>Der Lösungsraum $$\ker L$$ der zugehörigen homogenen Gleichung
+$$
+\dot x=F(t) x
+$$
+ist $$n$$-dimensional. Funktionen $$x_1,\dots,x_n\in\ker L$$ sind genau dann [[linear unabhängig|Lineare Unabhängigkeit]], wenn ihre Werte $$x_1(t),\dots,x_n(t)\in V$$ an einer (und dann an jeder) Stelle $$t\in J$$ linear unabhängig sind. In diesem Fall ist jede Lösung der homogenen Gleichung von der Form
+$$
+x(t)=\sum_{i=1}^n c_i x_i(t),\qquad c_i\in\mathbb R
+$$
+und für jedes $$n$$-Tupel $$(c_1,\dots,c_n)$$ reeller Zahlen ist das eine Lösung.</div>
+
+# <div>Ist $$(x_1,\dots,x_n)$$ eine [[Basis]] von $$\ker L,$$ so ist jede Lösung von der Form
+$$
+x(t)=\sum_{i=1}^n c_i(t) x_i(t), \tag*{\ddag}
+$$
+mit geeigneten Funktionen $$c_1,\dots,c_n\in\mathcal C^1(J,\mathbb R).$$ Die Funktion $$\ddag$$ ist genau dann eine Lösung von $$\dag,$$ wenn die $$c_i$$ die folgende DGL erfüllen:
+$$
+\sum_{i=1}^n \dot c_i(t) x_i(t)=g(t).
+$$</div>
+
+''Variation der Konstanten.'' Ist $$x_1,\dots,x_n$$ eine Basis von $$\ker L,$$ so erhält man durch Lösen des letzten gewöhnlichen linearen Gleichungssystems die $$\dot c_i(t).$$ Anschließende Integration liefert die $$c_i(t)$$ und damit eine Lösung der Form $$\ddag.$$

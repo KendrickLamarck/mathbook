@@ -1,0 +1,10 @@
+created: 20170330213751355
+list: 
+modified: 20191011162842516
+tags: Exponentialfunktion no-toc
+title: Euler'sche Formel
+type: text/vnd.tiddlywiki
+
+$$
+e^{iy}=\cos y+i\sin y.
+$$

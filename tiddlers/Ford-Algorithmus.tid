@@ -1,0 +1,21 @@
+created: 20180626204659021
+creator: Leander
+modified: 20191011222711957
+modifier: Leander
+tags: Algorithmus
+title: Ford-Algorithmus
+type: text/vnd.tiddlywiki
+
+Dieser Algorithmus findet in einem gegebenen gewichteten Graphen ohne negative Kreise einen kürzeste-Wege-Baum, ausgehend von einem Startknoten als Wurzel.
+
+Es werden so lange Potentialverletzungen gesucht und geändert, bis ein [[zulässiges Potential|Zulässiges Potential]] erreicht ist. Bei diesem allgemeinen Algorithmus ist nicht vorgegeben, in welcher Reihenfolge die Kanten betrachtet werden sollen.
+
+''Erinnerung:'' {{Zulässiges Potential}}
+
+!! Bellman-Ford-Algorithmus
+
+{{Bellman-Ford-Algorithmus}}
+
+!! Für azyklische Digraphen
+
+{{Ford-Algorithmus für azyklische Digraphen}}

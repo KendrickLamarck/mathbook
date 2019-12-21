@@ -1,0 +1,10 @@
+created: 20180611213409758
+creator: Leander
+modified: 20191004194156747
+modifier: Leander
+revision: 0
+tags: no-toc Orthogonalität
+title: Orthogonale darstellende Matrizen
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein [[euklidischer|Euklidischer Vektorraum]]/[[unitärer|Unitärer Vektorraum]] [[Vektorraum]] mit einer [[Orthonormalbasis]] $$\mathcal B$$ und $$F$$ ein [[Endomorphismus]] von $$V.$$ Dann ist $$F$$ genau dann [[orthogonal|Orthogonaler/unitärer Endomorphismus]], wenn $$M_\mathcal B(F)$$ [[orthogonal|Orthogonale/unitäre Matrix]] ist.

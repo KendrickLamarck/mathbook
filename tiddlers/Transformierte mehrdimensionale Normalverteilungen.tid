@@ -1,0 +1,7 @@
+created: 20190705142825546
+modified: 20190715210329423
+revision: 0
+tags: Normalverteilung
+title: Transformierte mehrdimensionale Normalverteilungen
+
+Ist $$\Bbb X$$ $$n$$-dimensional $$N(m,\Sigma^2)$$-verteilt, so ist für eine $$l\times n$$-Matrix $$B,\ d\in\R^l$$ auch $$\Bbb W=B\Bbb X+d$$ wieder normalverteilt mit [[Mittelwertvektor|Erwartungswertvektor]] $$Bm+d$$ und [[Kovarianzmatrix]] $$B\Sigma^2 B^\mathrm T.$$

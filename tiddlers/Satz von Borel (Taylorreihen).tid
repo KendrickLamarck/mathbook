@@ -1,0 +1,11 @@
+created: 20180226131028142
+creator: Leander
+list: 
+modified: 20191003225557133
+modifier: Leander
+revision: 0
+tags: no-toc Taylorreihe
+title: Satz von Borel (Taylorreihen)
+type: text/vnd.tiddlywiki
+
+Jede [[Folge]] reeller Zahlen ist die Folge der [[Taylorkoeffizienten|Satz von Taylor]] einer geeigneten $$C^\infty$$-Funktion im Entwicklungspunkt $$0$$.

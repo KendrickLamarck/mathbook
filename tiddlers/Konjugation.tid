@@ -1,0 +1,17 @@
+created: 20171110213710178
+creator: Leander
+modified: 20191003222856906
+modifier: Leander
+revision: 0
+tags: [[Komplexe Zahlen]]
+title: Konjugation
+type: text/vnd.tiddlywiki
+
+Sei $$z \in \mathbb{C}, z = a + bi$$. Dann ist
+$$
+\bar{z} \coloneqq a-bi.
+$$
+
+Das konjugierte hat die praktische Eigenschaft, dass $$z \cdot \bar{z} = a^2+b^2$$ reell ist.
+
+{{Rechenregeln für die Konjugation}}

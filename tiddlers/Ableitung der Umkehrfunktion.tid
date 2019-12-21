@@ -1,0 +1,27 @@
+created: 20180106165648183
+creator: Leander
+list: 
+modified: 20191003220605491
+modifier: Leander
+revision: 0
+tags: [[Ableitung in R]]
+title: Ableitung der Umkehrfunktion
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon J\to \mathbb{R}$$ auf dem Intervall $$J$$ streng [[monoton|Monotonie]] und [[stetig|Stetigkeit]]. Dann existiert die [[Umkehrabbildung]] $$f^{-1}\colon f(J) \to \mathbb{R}$$ auf dem Intervall $$f(J)$$. Sei $$f$$ [[differenzierbar|Ableitung]] in $$x_0 \in J$$ und 
+
+$$
+f'(x_0) \neq 0.
+$$
+
+Dann ist $$f^{-1}$$ in $$y_0 = f(x_0)$$ differenzierbar und
+
+$$
+(f^{-1})'(y_0)=\frac{1}{f'(x_0)}.
+$$
+
+Durch Umstellen erhält man die hilfreichere Darstellung
+
+$$
+(f^{-1})'(x)=\frac{1}{f'(f^{-1}(x))}.
+$$

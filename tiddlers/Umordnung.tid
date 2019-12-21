@@ -1,0 +1,19 @@
+created: 20180226122428655
+creator: Leander
+list: 
+modified: 20191003225902594
+modifier: Leander
+revision: 0
+tags: Reihe
+title: Umordnung
+type: text/vnd.tiddlywiki
+
+Die [[Reihe]] $$\sum_{k=0}^\infty a_k'$$ heißt eine //Umordnung// der Reihe $$\sum_{k=0}^\infty a_k$$, wenn es eine [[bijektive|Bijektivität]] Abbildung $$\sigma\colon\mathbb N\to\mathbb N,\ k\mapsto n_k$$ gibt, so dass für alle $$k$$ $$a_k'=a_{\sigma(k)}$$ gilt.
+
+!! Umordnungssatz
+
+{{Umordnungssatz}}
+
+!! Riemann'scher Umordnungssatz
+
+{{Riemann'scher Umordnungssatz}}

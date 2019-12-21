@@ -1,0 +1,33 @@
+created: 20180411231850882
+creator: Leander
+modified: 20180712122040554
+modifier: Leander
+revision: 0
+tags: Graph
+title: Knotengrad
+
+Ist $$G=(V,E)$$ ein ungerichteter [[Graph]] und $$v\in V$$, so ist
+
+$$
+\delta(v)=\{\,e\in E\mid v\in e\,\}
+$$
+
+die Menge der zu $$v$$ inzidenten Kanten. Der //Grad// eines Knoten $$v$$ ist $$|\delta(v)|$$. Ebenso definiert man in einem gerichteten Graphen $$G=(V,E)$$
+
+$$\begin{gathered}
+\delta^+(v)=\{\,e\in E\mid\exists w\in V\colon e=(v,w)\,\}, \\
+\delta^-(v)=\{\,e\in E\mid\exists w\in V\colon e=(w,v)\,\}, \\
+\delta(v)=\delta^+\cup\delta^-.
+\end{gathered}$$
+
+Es gilt
+
+$$
+\sum_{v\in V}|\delta(v)|=2|E|,
+$$
+
+insbesondere ist die Anzahl der Knoten mit ungeradem Grad gerade. Für gerichtete Graphen gilt außerdem
+
+$$
+\sum_{v\in V}|\delta^+(v)|=|E|=\sum_{v\in V}|\delta^-(v)|.
+$$

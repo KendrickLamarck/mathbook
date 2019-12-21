@@ -1,0 +1,16 @@
+caption: Schrankensatz
+created: 20180106170818723
+creator: Leander
+list: 
+modified: 20191003235910167
+modifier: Leander
+revision: 0
+tags: no-toc [[Ableitung in R]]
+title: Schrankensatz in R
+type: text/vnd.tiddlywiki
+
+Ist $$f\colon [a,b] \to \mathbb{R}$$ [[stetig|Stetigkeit]] und auf $$]a,b[$$ [[differenzierbar|Ableitung]] und sind $$m,M \in \mathbb{R}$$ mit $$m \leq f'(x) \leq M$$ für alle $$x \in {]a,b[}$$, so ist
+
+$$
+m(b-a) \leq f(b)-f(a) \leq M(b-a).
+$$

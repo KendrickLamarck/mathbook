@@ -1,0 +1,14 @@
+caption: Pencils of conics
+created: 20190204133359725
+creator: Leander
+modified: 20191008221524513
+modifier: Leander
+tags: [[Projective conic]]
+title: Pencil of conics
+type: text/vnd.tiddlywiki
+
+A //pencil of conics// is a set of [[conics|Projective conic]] corresponding to a line in the projective space of the vector space of [[quadratic forms|Quadratische Form]] on $$\Bbb R^3.$$
+
+!! Pencils through four points
+
+{{Pencil of conics containing four points}}

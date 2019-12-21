@@ -1,0 +1,16 @@
+created: 20180213172637195
+creator: Leander
+modified: 20191011223116608
+modifier: Leander
+tags: Ordnungstheorie Körper
+title: Angeordneter Körper
+type: text/vnd.tiddlywiki
+
+Ein [[Körper]] $$(K,+,\cdot)$$ zusammen mit einer [[totalen Ordnung|Totale Ordnung]] $$\le$$ heißt //angeordnet//, falls zusätzlich für alle $$a,b,c\in\mathbb R$$ gilt:
+
+# Aus $$a \le b$$ folgt $$a+c \le b+c$$ (Additive Monotonie),
+# aus $$0\le a$$ und $$0\le b$$ folgt $$0\le a\cdot b$$ (Multiplikative Monotonie)
+
+oder Äquivalent zu 2.
+
+* Aus $$0\le a$$ und $$a\le b$$ folgt $$a\cdot c \le b \cdot c$$.

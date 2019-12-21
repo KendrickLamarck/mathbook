@@ -1,0 +1,27 @@
+caption: Riemann-Integrierbarkeit
+created: 20180125194207787
+creator: Leander
+list: 
+modified: 20191011181042394
+modifier: Leander
+tags: Regelintegral
+title: Riemann'sche Summe
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon[a,b]\to\mathbb R$$ eine [[Funktion|Abbildung]], $$\mathcal Z$$ eine [[Zerlegung|Treppenfunktion]] $$\{\,a=x_0,\ldots,x_n=b\,\}$$ von $$[a,b]$$ und $$\xi_i\in[x_{i-1},x_i]$$. Dann nennen wir
+
+$$
+\delta(\mathcal Z)\coloneqq\max_{i=1}^n(x_i-x_{i-1})
+$$
+
+Die //Maschenweite// der Zerlegung und
+
+$$
+S(f,\mathcal Z)\coloneqq\sum_{i=1}^n f(\xi_i)(x_i-x_{i-1})
+$$
+
+die //Riemannsche Summe// von $$f$$ zur Zerlegung $$\mathcal Z$$. Es handelt sich um das [[Integral für Treppenfunktionen]].
+
+!! Regelintegrale
+
+{{Regelfunktionen und Riemann'sche Summen}}

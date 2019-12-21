@@ -1,0 +1,26 @@
+created: 20180107010145066
+creator: Leander
+modified: 20191003222831326
+modifier: Leander
+revision: 0
+tags: no-toc Exponentialfunktion
+title: Rechenregeln für die allgemeine Potenz
+type: text/vnd.tiddlywiki
+
+Für $$a,b>0$$ und $$x,y \in \mathbb{R}$$ gilt
+
+$$
+\begin{aligned}
+a^{x+y} &= a^x a^y,\\
+(ab)^x &= a^x b^x,\\
+a^{-x} &= \frac{1}{a^x},\\
+(a^x)^y &= a^{xy},\\
+a^0 &= 1.
+\end{aligned}
+$$
+
+Die Ableitung ist nach der [[Kettenregel|Kettenregel in R]]
+
+$$
+\frac{\mathrm{d}a^x}{\mathrm{d}x} = \log(a)a^x.
+$$

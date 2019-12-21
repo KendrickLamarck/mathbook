@@ -1,0 +1,16 @@
+created: 20190621145721256
+modified: 20190715210314463
+revision: 0
+tags: Erwartungswert
+title: Erwartungswertvektor
+
+Ist $$\Bbb X=(X_1,\dots,X_n)$$ ein [[Zufallsvektor|Zufallsvariable]], so definieren wir den //Erwartungsvektor// als
+
+$$
+\Bbb E(\Bbb X)\coloneqq
+\begin{pmatrix}
+\Bbb E(X_1) \\[-1ex]
+\vdots      \\
+\Bbb E(X_n)
+\end{pmatrix}.
+$$

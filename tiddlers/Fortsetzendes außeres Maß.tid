@@ -1,0 +1,17 @@
+created: 20190403135416781
+modified: 20191011175801468
+tags: [[Äußeres Maß]] no-toc
+title: Fortsetzendes äußeres Maß
+type: text/vnd.tiddlywiki
+
+Sei $$\mathcal C\subseteq\mathcal P(\Omega)$$ ein beliebiges Mengensystem mit $$\varnothing\in\mathcal C$$ und $$\mu\colon\mathcal C\to[0,\infty]$$ eine monotone Mengenfunktion mit $$\mu(\varnothing)=0.$$ Definiere $$\mu^*\colon\mathcal P(\Omega)\to[0,\infty]$$ durch
+
+$$
+\mu^*(A)=
+\inf\Bigl\{
+\sum_{n\in\Bbb N} \mu(A_n):
+A_1,A_2,\ldots\in\mathcal C,A\subseteq\bigcup_{n\in\Bbb N} A_n
+\Bigr\},
+$$
+
+wobei $$\inf\varnothing=\infty.$$ Dann ist $$\mu^*$$ ein [[äußeres Maß|Äußeres Maß]], das $$\mu$$ fortsetzt, d.h. $$\mu^*(A)=\mu(A)$$ für alle $$A\in\mathcal C.$$

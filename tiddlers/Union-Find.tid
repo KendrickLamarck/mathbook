@@ -1,0 +1,15 @@
+created: 20180626200058381
+creator: Leander
+modified: 20180701224130440
+modifier: Leander
+revision: 0
+tags: Datenstrukturen
+title: Union-Find
+
+Mit dieser Datenstruktur kann man schnell überprüfen, ob zwei Elemente in der selben Menge enthalten sind, insbesondere um [[Kruskals Algorithmus]] effizient zu implementieren. Dazu gibt es zu jeder Menge einen Repräsentanten, welcher auf Anfrage zurückgegeben wird. Die Operationen sind
+
+# ``Make-Set(x)`` (fügt Menge {x} hinzu),
+# ``Union(x,y)`` (vereinigt die Mengen, die x bzw. y enthalten) und
+# ``Find-Set(x)``.
+
+Eine mögliche Implementation ist ein [[Wald]]. Die Knoten sind dabei alle enthaltenen Objekte, die [[Zusammenhangskomponenten|Zusammenhangskomponente]] die Mengen und der Repräsentant steht an der Wurzel. Um die amortisierte Laufzeit zu verbessern, kann zusätzlich Pfadkompression verwendet werden, das heißt, dass beim Ausführen der Operationen Elemente direkt an die Wurzel gehängt werden, um den Weg zu dieser in zukünftigen Durchläufen zu verkürzen.

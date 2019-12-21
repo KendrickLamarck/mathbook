@@ -1,0 +1,7 @@
+created: 20190426105242125
+modified: 20191008223138716
+tags: [[Projective quadric]]
+title: Projective transformations of quadrics
+type: text/vnd.tiddlywiki
+
+If the [[signature|Signatur]] is not neutral, then any [[projective transformation|Projective transformation]] that maps a [[quadric|Projective quadric]] $$Q$$ to itself comes from a linear map which is orthogonal with respect to the defining non-degenerate [[symmetric|Symmetrische Form]] [[bilinear form|Bilinearform]] $$q.$$

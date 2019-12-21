@@ -1,0 +1,16 @@
+created: 20190426111724861
+modified: 20191011161619542
+tags: Geometrie
+title: Similarity geometry
+type: text/vnd.tiddlywiki
+
+$$\Bbb R^n$$ with the [[group|Gruppe]] of similarity transformations
+
+$$
+x\mapsto \lambda Ax+b,\quad\textsf{where }
+\lambda\in\Bbb R_{>0},\ A\in \mathrm O(n),\ b\in\Bbb R^n
+$$
+
+yields $$n$$-dimensional affine geometry.
+
+This is an obvious [[subgeometry|Subgeometry]] of [[affine geometry|Affine geometry]], but it can also be obtained by considering the projective model of [[Möbius geometry]] and the subgroup of Möbius transformations that fix a point in $$Q,$$ then [[stereographically projecting|Stereographic projection]] from that point.

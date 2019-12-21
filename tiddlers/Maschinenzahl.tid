@@ -1,0 +1,15 @@
+created: 20180410213151219
+modified: 20180411150850879
+revision: 0
+tags: Zahldarstellung
+title: Maschinenzahl
+
+Es sei $$b\in\mathbb N$$ mit $$b\ge 2$$. Eine Zahl $$x\in\mathbb R$$ der Form
+
+$$
+x=\sigma\cdot\left(\sum_{i=0}^{m-1}z_i\cdot b^{-i}\right)\cdot b^E
+$$
+
+mit $$E\in\mathbb Z$$, $$\sigma\in\{\pm 1\}$$, $$z_i\in\{0,\ldots,b-1\}$$ und $$z_0\ne 0$$ heißt $$m$$-stellige $$b$$-adische //normalisierte Gleitkommazahl// mit //Mantisse// $$\sum_{i=0}^{m-1}z_i\cdot b^{-1}$$ und //Exponent// $$E$$.
+
+Die Menge $$F(b,m,E_{\min},E_{\max})$$ der so darstellbaren Zahlen heißt //Maschinenzahlbereich//.

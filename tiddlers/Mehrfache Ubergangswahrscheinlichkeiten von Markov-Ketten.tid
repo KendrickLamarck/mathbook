@@ -1,0 +1,20 @@
+created: 20190629201805622
+modified: 20190713233029503
+revision: 0
+tags: Markov-Kette
+title: Mehrfache Übergangswahrscheinlichkeiten von Markov-Ketten
+
+Sei $$(X_n)$$ eine [[Markov-Kette]] mit [[Übergangsmatrix|Stochastische Matrix]] $$P$$ und sei $$p^{(n)}_{ij}=(P^n)_{ij}.$$ Für $$m,n\in\N_0,\ i,j\in I$$ mit $$\Bbb P(X_m=i)>0$$ gilt dann
+
+$$
+P(X_{m+n}=j \mid X_m=i)=p_{ij}^{(n)}.
+$$
+
+Man bezeichnet daher $$P^n$$ als die matrix der $$n$$-fachen Übergangswahrscheinlichkeiten.
+
+Dies ergibt sich aus den //Chapman-Kolmogorov-Gleichungen://
+Für $$m,n\in\N_0,\ i,j\in I$$ ist
+
+$$
+p_{ij}^{(n+m)}=\sum_{k\in I} p_{ik}^{(m)}p_{kj}^{(n)}.
+$$

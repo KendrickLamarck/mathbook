@@ -1,0 +1,12 @@
+caption: Lines
+created: 20181210133404430
+creator: Leander
+modified: 20191008212728099
+modifier: Leander
+tags: [[Projective space]]
+title: Projective line
+type: text/vnd.tiddlywiki
+
+Through any two distinct points in a [[projective space|Projective space]], there is a unique projective line. The line through $$[v_1],[v_2]$$ is $$P(\operatorname{span}(v_1,v_2)).$$
+
+Two distinct lines in a [[projective plane|Projective subspace]] always intersect in a unique point.

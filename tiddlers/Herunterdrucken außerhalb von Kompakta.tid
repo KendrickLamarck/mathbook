@@ -1,0 +1,9 @@
+created: 20190104223156927
+creator: Leander
+modified: 20191011221214609
+modifier: Leander
+tags: [[Haar'sches Maß]]
+title: Herunterdrücken außerhalb von Kompakta
+type: text/vnd.tiddlywiki
+
+Sei $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] und $$K\subseteq U$$ [[kompakt|Kompaktheit]]. Sei $$n\in\Bbb N\cup\{\infty\}.$$ Dann gibt es zu jeder $$n$$-mal [[stetig differenzierbaren|Stetige Differenzierbarkeit]] Funktion $$f\colon U\to\Bbb R$$ eine Funktion $$\beta\in\mathcal C_\mathrm c^n(\Bbb R^d)$$ mit $$\beta_K=f.$$

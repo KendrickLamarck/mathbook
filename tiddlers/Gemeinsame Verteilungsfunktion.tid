@@ -1,0 +1,17 @@
+created: 20190708231001679
+modified: 20190715161753375
+revision: 0
+tags: [[Gemeinsame Verteilung]]
+title: Gemeinsame Verteilungsfunktion
+
+Seien $$X_1,\dots,X_n$$ reellwertige Zufallsvariablen. Dann können wir die [[Verteilung]] von $$\Bbb X=(X_1,\dots,X_n)$$ eindeutig durch die //gemeinsame Verteilungsfunktion//
+
+$$
+F_\Bbb X(x_1,\dots,x_n)=\Bbb P(X_1\le x_1,\dots X_n\le x_n)
+$$
+
+beschreiben.
+
+---
+
+{{Unabhängigkeit und Verteilungsfunktionen}}

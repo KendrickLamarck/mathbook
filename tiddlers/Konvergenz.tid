@@ -1,0 +1,28 @@
+created: 20171122210115930
+creator: Leander
+list: 
+modified: 20191011214501395
+modifier: Leander
+tags: Folge
+title: Konvergenz
+type: text/vnd.tiddlywiki
+
+! In Topologischen Räumen
+
+{{Konvergenz (Topologie)}}
+
+! In metrischen Räumen
+
+{{Konvergenz (metrische Räume)}}
+
+! In $$\mathbb R$$ und $$\mathbb C$$
+
+{{Konvergenz in R und C}}
+
+{{Divergenz (Folgen)}}
+
+!! Eigenschaften
+
+{{Vollständigkeitsaxiom}}
+
+{{Rechenregeln für konvergente Folgen}}

@@ -1,0 +1,17 @@
+created: 20180408110255039
+creator: Leander
+modified: 20190403112505073
+modifier: Leander
+revision: 0
+tags: Determinante
+title: Leibnizformel
+type: text/vnd.tiddlywiki
+
+Für $$A\in K^{n\times n}$$ mit $$n\ge 1$$ ist
+
+$$
+\det A=\sum_{\sigma\in S_n}\left(\operatorname{sign}(\sigma)
+\prod_{i=1}^n a_{i,\sigma(i)}\right).
+$$
+
+Dadurch ist die [[Determinante]] eindeutig bestimmmt.

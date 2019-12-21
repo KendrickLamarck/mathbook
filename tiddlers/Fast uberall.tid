@@ -1,0 +1,8 @@
+created: 20190406134217407
+modified: 20190712172711906
+revision: 0
+tags: Maß
+title: Fast überall
+type: text/vnd.tiddlywiki
+
+Sei $$(\Omega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]]. Wir sagen, eine Eigenschaft $$E(\omega)$$ gilt //$$\mu$$-fast überall (fast sicher in Wahrscheinlichkeitsräumen),// wenn die Menge $$\{\omega:\lnot E(\omega)\}$$ eine [[Nullmenge]] ist.

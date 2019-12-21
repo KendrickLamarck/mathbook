@@ -1,0 +1,51 @@
+created: 20190604222345968
+modified: 20190704230807338
+revision: 0
+tags: Stochastik
+title: Charakteristische Funktion
+
+Sei $$X$$ eine reellwertige [[Zufallsvariable]]. Dann heißt die Funktion $$\Bbb R\to \Bbb C$$
+
+$$
+\chi_X(t)\coloneqq
+\Bbb E\left[ e^{itX} \right]
+=\Bbb E[\cos(tX)]+i\Bbb E[\sin(tX)]
+$$
+
+//charakteristische Funktion// oder //Fourier-Transformation// der Zufallsvariablen $$X.$$
+
+---
+
+* <div>Ist $$X$$ diskret verteilt mit Werten $$x_n,$$ so ist
+$$
+\chi_X(t)=\sum_n \Bbb P(X=x_n)e^{itx_n}.
+$$
+</div>
+
+* <div>Ist $$X$$ stetig verteilt mit [[Dichte]] $$f,$$ so ist
+$$
+\chi_X(t)=\int_\R e^{itx} f(x)\,\mathrm dx.
+$$</div>
+
+* <div>Ist $$\Bbb X=(X_1,\dots,X_n)$$ ein [[Zufallsvektor|Zufallsvariable]], so definieren wir seine charakteristische Funktion als
+$$
+\chi_\Bbb X(\lambda)\coloneqq
+\Bbb E\left[ e^{i\langle \lambda,\Bbb X\rangle} \right],
+\quad\lambda\in\R^n.
+$$</div>
+
+* Die ([[gemeinsame|Gemeinsame Verteilung]]) [[Verteilung]] von $$X$$ ist durch ihre charakteristische Funktion eindeutig bestimmt.
+
+* <div>Besitzt $$X$$ endliches $$n$$-tes Moment, d.h. $$\Bbb E(|X|^n)<\infty,$$ so folgt
+$$
+\Bbb E(X^n)=i^{-n}\chi_X^{(n)}(0).
+$$</div>
+
+* <div>Seien $$X_1,\dots,X_n$$ unabhängige Zufallsvariablen. Dann gilt für $$S_n\coloneqq X_1+\dots+X_n$$
+$$
+\chi_{S_n}(t)=\chi_{X_1}(t)\cdots\chi_{X_n}(t).
+$$</div>
+
+* Es gilt folgender Konvergenzsatz: Seien $$X,X_1,X_2,\dots$$ Zufallsvariablen. Dann sind Äquivalent:
+** $$\lim_{n\to\infty} F_{X_n}(x)=F_X(x)$$ für alle Stetigkeitspunkte von $$F.$$
+** $$\lim_{n\to\infty} \chi_{X_n}(t)=\chi_X(t)$$ für alle $$t\in\R.$$

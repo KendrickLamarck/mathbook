@@ -1,0 +1,17 @@
+created: 20180107004939808
+modified: 20191011163359327
+tags: Exponentialfunktion no-toc
+title: Logarithmus
+type: text/vnd.tiddlywiki
+
+Die Exponentialfunktion $$\exp\colon\mathbb{R} \to \left]0,\infty\right[$$ ist [[bijektiv|Bijektivität]]. Die [[Umkehrabbildung]] heißt der //(natürliche) Logarithmus// $$\ln$$ oder
+
+$$
+\log\colon\left]0,\infty\right[ \to \mathbb{R}.
+$$
+
+{{Additionstheorem des Logarithmus}}
+
+!! Basiswechselformel
+
+{{Logarithm change of base}}

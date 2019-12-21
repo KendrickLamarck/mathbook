@@ -1,0 +1,11 @@
+created: 20190523215755044
+modified: 20190523215945825
+revision: 0
+tags: Lebesgue-Integral
+title: Faltung
+
+Die //Faltung// $$f*g$$ zweier Funktionen $$f,g\colon\Bbb R^n\to\Bbb C$$ ist definiert als
+
+$$
+(f*g)(x)\coloneqq\int_{\Bbb R^n} f(\tau)g(x-\tau)\,\mathrm d\tau.
+$$

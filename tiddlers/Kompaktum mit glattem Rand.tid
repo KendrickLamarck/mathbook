@@ -1,0 +1,10 @@
+created: 20190212152351050
+modified: 20191011224546893
+tags: Mannigfaltigkeit
+title: Kompaktum mit glattem Rand
+type: text/vnd.tiddlywiki
+
+Wir sagen, ein [[Kompaktum|Kompaktheit]] $$A\subseteq\Bbb R^d$$ habe einen //glatten Rand,// wenn zu jedem [[Randpunkt]] $$a\in\partial A$$ eine [[offene|Offenheit]] [[Umgebung]] $$U\subseteq\Bbb R^d$$ und eine Abbildung $$\psi\in\mathcal C^1(U\to\Bbb R^d)$$ existieren mit $$A\cap U=\{x\in U:\psi(x)\le 0\}$$ und $$\nabla\psi(x)\ne 0$$ für jedes $$x\in U.$$
+
+''Bemerkung.''
+Es gilt $$\partial A\cap U=\{x\in U:\psi(x)=0\}.$$ Insbesondere ist der Rand von $$A$$ eine kompakte $$(d-1)$$-dimensionale [[Untermannigfaltigkeit|Mannigfaltigkeit]] des $$\Bbb R^d.$$

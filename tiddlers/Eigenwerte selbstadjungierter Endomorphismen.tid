@@ -1,0 +1,12 @@
+created: 20180626183054616
+creator: Leander
+modified: 20191004194949213
+modifier: Leander
+revision: 0
+tags: [[Selbstadjungierter Endomorphismus]] no-toc
+title: Eigenwerte selbstadjungierter Endomorphismen
+type: text/vnd.tiddlywiki
+
+Ist $$F$$ [[selbstadjungiert|Selbstadjungierter Endomorphismus]], so sind (auch im komplexen Fall) alle [[Eigenwerte|Eigenwert]] reell. Insbesondere hat eine [[Hermite'sche Matrix]] nur reelle Eigenwerte.
+
+''Korollar.'' Das [[charakteristische Polynom|Charakteristisches Polynom]] jeder [[hermiteschen|Hermite'sche Matrix]], also insbesondere jeder [[symmetrischen Matrix|Symmetrische Matrix]] zerfällt in reelle Linearfaktoren.

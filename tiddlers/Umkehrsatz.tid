@@ -1,0 +1,20 @@
+created: 20180625170324616
+creator: Leander
+modified: 20191003220524023
+modifier: Leander
+revision: 0
+tags: [[Stetige Differenzierbarkeit]]
+title: Umkehrsatz
+type: text/vnd.tiddlywiki
+
+Seien $$G\subset V$$ offen und $$f\colon V\supset G\to W$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]]. Sei $$p\in G$$ und sei $$\mathrm D_p f\colon V\to W$$ [[invertierbar|Inverse Matrix]]. Dann ist $$f$$ bei $$p$$ lokal invertierbar mit stetig differenzierbarem [[Inversen|Umkehrabbildung]].
+
+Genauer: Es gibt eine offene Umgebung $$U\subset G$$ von $$p,$$ so dass gilt
+
+# $$f|_U$$ ist [[injektiv|Injektivität]],
+# $$f(U)$$ ist [[offen|Offenheit]] in $$W,$$
+# $$(f|_U)^{-1}\colon f(U)\to V$$ ist stetig differenzierbar und für alle $$x\in U$$ gilt
+
+$$
+\mathrm D_{f(x)}(f|_U)^{-1}=(\mathrm D_x f)^{-1}.
+$$

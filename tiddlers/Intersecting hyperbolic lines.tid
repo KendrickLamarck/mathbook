@@ -1,0 +1,13 @@
+created: 20190216132814475
+modified: 20191008202627991
+tags: no-toc [[Hyperbolic line]]
+title: Intersecting hyperbolic lines
+type: text/vnd.tiddlywiki
+
+Let $$n_1\ne n_2\in\Bbb R^{2,1}$$ with $$\langle n_1,n_1\rangle=\langle n_2,n_2\rangle=1$$ and let $$l_1,l_2$$ be the corresponding [[hyperbolic lines|Hyperbolic line]] $$l_i=\{x\in H^2\mid\langle x,n_i\rangle=0\}.$$ Then the following statements are equivalent:
+
+# The lines $$l_1$$ and $$l_2$$ intersect.
+
+# The restriction of $$\langle\cdot,\cdot\rangle$$ to $$\operatorname{span}(n_1,n_2)$$ has [[signature|Signatur]] $$(2,0).$$
+
+# $$|\langle n_1,n_2\rangle|<1.$$

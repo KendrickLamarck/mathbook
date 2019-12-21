@@ -1,0 +1,12 @@
+created: 20180723112055017
+creator: Leander
+modified: 20191004193101577
+modifier: Leander
+revision: 0
+tags: Skalarprodukt no-toc
+title: Nichteuklidisches Skalarprodukt
+type: text/vnd.tiddlywiki
+
+Folgende abweichende Definition wird gerne in der [[Geometrie]] verwendet:
+
+Eine nicht [[ausgeartete|Ausartungsraum]] [[symmetrische|Symmetrische Form]] [[Bilinearform]] auf einem reellen [[Vektorraum]] heißt ein //Skalarprodukt//. Ein Skalarprodukt, welches nicht [[positiv definit|Definitheit]] ist heißt //nichteuklidisch//.

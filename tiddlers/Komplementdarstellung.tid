@@ -1,0 +1,30 @@
+created: 20180409182647700
+creator: Leander
+modified: 20180713200434236
+modifier: Leander
+revision: 0
+tags: Zahldarstellung
+title: Komplementdarstellung
+type: text/vnd.tiddlywiki
+
+Für $$\ell\ge 1,\,b\ge 2$$ und
+$$
+n\in \left\{-\left\lfloor{\frac{b^\ell}{2}}\right\rfloor,\ldots,
+\left\lceil\frac{b^\ell}{2}\right\rceil-1\right\}\eqqcolon Z
+$$ 
+erhält man die //$$\ell$$-stellige $$b$$-Komplementdarstellung//, indem man die [[b-adische Darstellung]] von $$n$$ (falls $$n\ge 0$$) bzw. die $$b$$-adische Darstellung von $$K_b^\ell(-n)$$ (falls $$n<0$$) vorne mit Nullen zu einer $$\ell$$-stelligen Zahl auffüllt.
+
+!! Satz
+
+$$
+f\colon Z\to \{0,1,\ldots,b^\ell-1\},\quad z\mapsto
+\begin{cases}
+z &\text{falls } z\ge 0,\\
+K_b^\ell(-n) &\text{falls } z<0.
+\end{cases}
+$$
+
+ist [[bijektiv|Bijektivität]] und für $$x,y\in Z$$ gilt:
+
+* Ist $$x+y\in Z$$, so gilt $$f(x+y)=(f(x)+f(y))\mod b^\ell$$;
+* Ist $$x\cdot y\in Z$$, so gilt $$f(x\cdot y)=(f(x)\cdot f(y))\mod b^\ell$$.

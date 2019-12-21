@@ -1,0 +1,30 @@
+created: 20180608212150116
+creator: Leander
+modified: 20191004194005603
+modifier: Leander
+revision: 0
+tags: Orthogonalität
+title: Orthonormalisierungssatz
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[euklidischer|Euklidischer Vektorraum]] bzw. [[unitärer|Unitärer Vektorraum]] [[Vektorraum]] und $$W\subset V$$ ein [[Untervektorraum]] mit [[Orthonormalbasis]] $$(w_1,\dots,w_m).$$ Dann gibt es eine Ergänzung zu einer Orthonormalbasis von $$V$$
+
+$$
+(w_1,\dots,w_m,w_{m+1},\dots,w_{m+n}).
+$$
+
+''Korollar 1.''
+Jeder endlichdimensionale euklidische bzw unitäre Vektorraum besitzt eine Orthonormalbasis.
+
+''Korollar 2.''
+Ist $$W$$ Untervektorraum eines euklidischen bzw. unitären Vektorraumes $$V,$$ so gilt
+
+$$
+V=W
+\mathbin{\perp\kern-21mu{\bigcirc}}
+W^\perp,\quad\dim V=\dim W+\dim W^\perp.
+$$
+
+!! Gram-Schmidt-Verfahren
+
+{{Gram-Schmidt-Verfahren}}

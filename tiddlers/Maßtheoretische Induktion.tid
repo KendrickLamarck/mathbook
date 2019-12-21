@@ -1,0 +1,15 @@
+created: 20181217162253982
+modified: 20191011180032660
+tags: [[Messbare Funktion]] no-toc
+title: Maßtheoretische Induktion
+type: text/vnd.tiddlywiki
+
+Es sei $$(\Omega,\mathcal F)$$ ein [[messbarer Raum|Sigma-Algebra]] und $$\Gamma$$ eine Menge von nichtnegativen [[messbaren|Messbare Funktion]] [[numerischen|Numerische Funktion]] Funktionen mit den folgenden Eigenschaften:
+
+# $$f,g\in\Gamma,\ a,b\in{]0,\infty[}\implies af+bg\in\Gamma,$$
+# $$f_1,f_2,\ldots\in\Gamma,\ f_n\uparrow f\implies f\in\Gamma,$$
+# $$\{\,\mathbf 1_A\mid A\in\mathcal F\,\}\subseteq\Gamma.$$
+
+Dann ist $$\Gamma$$ die Menge aller nichtnegativen messbaren numerischen Funktionen.
+
+Daraus ergibt sich eine Beweistechnik um Aussagen für alle nichtnegativen messbaren Funktionen zu zeigen.

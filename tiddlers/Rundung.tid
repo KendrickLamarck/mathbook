@@ -1,0 +1,13 @@
+created: 20180411144211872
+creator: Leander
+modified: 20180725180720250
+modifier: Leander
+revision: 0
+tags: Zahldarstellung
+title: Rundung
+
+Es sei $$F$$ ein [[Maschinenzahlbereich|Maschinenzahl]]. Eine [[Abbildung]] $$\operatorname{rd}\colon\mathbb R\to F$$ heißt //Rundung// zu $$F$$, falls für alle $$x\in\mathbb R$$ gilt:
+
+$$
+|x-\operatorname{rd}(x)|=\min_{a\in F}|x-a|.
+$$

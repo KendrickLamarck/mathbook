@@ -1,0 +1,18 @@
+created: 20190709163746397
+modified: 20190709164250190
+revision: 0
+tags: Stochastik
+title: Korrelationskoeffizient
+
+Seien $$X$$ und $$Y$$ zwei [[Zufallsvariablen|Zufallsvariable]] mit endlichen [[Erwartungswerten|Erwartungswert]]. Der //Korrelationskoeffizient// ist definiert als
+
+$$
+\operatorname{corr}(X,Y)\coloneqq
+\frac{\operatorname{Cov}(X,Y)}
+{\sqrt{V(X)V(Y)}}.
+$$
+
+---
+
+* Es gilt $$|\operatorname{corr}(X,Y)|\le 1.$$
+* Es ist $$|\operatorname{corr}(X,Y)|= 1$$ genau dann, wenn es $$a,b\in\R$$ gibt, so dass $$Y=aX+b$$ fast sicher.

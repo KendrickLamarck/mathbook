@@ -1,0 +1,15 @@
+created: 20180602122721869
+creator: Leander
+modified: 20180728184028523
+modifier: Leander
+revision: 0
+tags: Norm
+title: Supremumsnorm
+
+Sei $$X\ne\varnothing$$ eine Menge und $$(V,\|.\|_V)$$ ein [[normierter Vektorraum|Normierter Vektorraum]]. Für den [[Vektorraum]] der beschränkten Funktionen $$\mathcal B(X,V)$$ definiert
+
+$$
+\|f\|_\infty\coloneqq\sup_{x\in X}\|f(x)\|_V
+$$
+
+eine [[Norm]], die sogenannte //Supremums//- oder //Unendlich-Norm//.

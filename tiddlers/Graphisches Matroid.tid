@@ -1,0 +1,15 @@
+created: 20180414232055276
+creator: Leander
+modified: 20180725163307577
+modifier: Leander
+revision: 0
+tags: Matroid Graph
+title: Graphisches Matroid
+
+Es sei $$G=(V,E)$$ ein ungerichteter [[Graph]], möglicherweise mit Schleifen und Mehrfachkanten. Eine Teilmenge $$I\subset E$$ heißt //unabhängig//, falls der [[Teilgraph]] $$(V,I)$$ von $$G$$ ein [[Wald]] (d.h. kreisfrei) ist. Wir setzen also
+
+$$
+\mathcal I\coloneqq\{\,I\subset E:(V,I)\text{ Wald}\,\}.
+$$
+
+Das Paar $$(E,\mathcal I)$$ ist dann ein [[Matroid]].

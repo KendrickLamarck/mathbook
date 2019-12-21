@@ -1,0 +1,33 @@
+caption: Abbildungen
+created: 20180315152130442
+creator: Leander
+list: [[Injektiv, surjektiv, bijektiv]] Umkehrabbildung Involution Einschränkung Komposition [[Gleichheit von Abbildungen]] Monotonie [[Beschränktheit (Funktionen)]] Extremwerte [[Gleichmäßige Konvergenz]] Konvexität [[Numerische Funktion]] [[Vektor- und skalares Feld]]
+modified: 20191011211544787
+modifier: Leander
+tags: Analysis
+title: Abbildung
+type: text/vnd.tiddlywiki
+
+Eine //Abbildung //oder //Funktion//
+$$
+f\colon X \to Y
+$$
+Ist eine [[Relation]], die jedem Element $$x \in X$$ genau ein Element $$f(x) \in Y$$ zuordnet. Man schreibt auch
+$$
+f\colon X \to Y, \quad x \mapsto f(x).
+$$
+
+!! Begriffe
+
+* $$X$$ heißt der //Definitionsbereich// von $$f$$.
+* $$Y$$ heißt der //Zielbereich// oder //Wertebereich// von $$f$$.
+* Für $$x \in X$$ heißt $$f(x)$$ das //Bild// von $$x$$ unter $$f$$.
+* Die Menge $$
+f(X) = \{\,f(x)\mid x\in X\,\}\subset Y
+$$ heißt die //Wertemenge// von $$f$$.
+* Für $$A \subset X$$ heißt $$
+f(A) \coloneqq \{\,f(x) \mid x \in A\,\}
+$$ das //Bild// von $$A$$ unter $$f$$.
+* Für $$B \subset Y$$ heißt $$
+f^{-1}(B) \coloneqq \{\,x \mid f(x) \in B\,\} \subset X$$ das //Urbild// von $$B$$ unter $$f$$ (Es kann leer sein).
+* {{Gleichheit von Abbildungen}}

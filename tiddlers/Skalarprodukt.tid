@@ -1,0 +1,37 @@
+created: 20180525162236152
+creator: Leander
+list: [[Cauchy-Schwarz'sche Ungleichung]] [[Euklidischer Vektorraum]] [[Unitärer Vektorraum]] [[Standardskalarprodukt in R]] [[Standardskalarprodukt in C]] Orthogonalität [[Adjungierte Abbildung]] [[Nichteuklidisches Skalarprodukt]] [[Scalar products with signature (p,q)]] Kreuzprodukt [[Riemannian metric]]
+modified: 20191004231933368
+modifier: Leander
+revision: 0
+tags: [[Lineare Algebra]]
+title: Skalarprodukt
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein reeller oder komplexer [[Vektorraum]]. Eine Abbildung
+
+$$
+\langle\cdot,\cdot\rangle\colon V\times V\to\mathbb R,\quad (x,y)\mapsto\langle x,y\rangle
+$$
+
+heißt //Skalarprodukt//, wenn sie
+
+# [[bilinear|Bilinearform]] bzw. [[sesqulinear|Sesquilinearform]],
+# [[symmetrisch|Symmetrische Form]] bzw. [[Hermite'sch|Hermite'sche Form]] und
+# [[positiv definit|Definitheit]] ist.
+
+Definiert man
+
+$$
+\|x\|\coloneqq\sqrt{\langle x,x\rangle},
+$$
+
+so erhält man immer eine [[Norm]] auf $$V$$.
+
+!! Parallelogrammgleichung
+
+{{Parallelogrammgleichung}}
+
+!! Andere Definition
+
+{{Nichteuklidisches Skalarprodukt}}

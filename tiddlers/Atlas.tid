@@ -1,0 +1,10 @@
+created: 20181008182537519
+creator: Leander
+modified: 20190329004704011
+modifier: Leander
+revision: 0
+tags: Mannigfaltigkeit
+title: Atlas
+type: text/vnd.tiddlywiki
+
+Sei $$M$$ eine $$\mathcal C^\alpha$$-[[Untermannigfaltigkeit|Mannigfaltigkeit]] der [[Dimension]] $$k$$ von $$\mathbb R^d.$$ Eine Menge $$\mathcal A$$ von [[Karten|Karte]] von $$M$$ heißt ein //Atlas// von $$M,$$ falls es für alle $$a\in M$$ eine Karte um $$p$$ gibt, welche in $$\mathcal A$$ enthalten ist. Nach Definition hat jede Untermannigfaltigkeit einen (nicht eindeutigen) Atlas.

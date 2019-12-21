@@ -1,0 +1,45 @@
+created: 20180725204135188
+creator: Leander
+modified: 20191003210021834
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Tensorprodukt
+type: text/vnd.tiddlywiki
+
+Ein //Tensorprodukt// von $$K$$-[[Vektorräumen|Vektorraum]] $$V_1$$ und $$V_2$$ ist ein $$K$$-Vektorraum $$V_1\otimes V_2$$ zusammen mit einer [[bilinearen|Multilineare Abbildung]] Abbildung
+
+$$
+\eta\colon V_1\times V_2\to V_1\otimes V_2,\quad (v_1,v_2)\mapsto\eta(v_1,v_2)\eqqcolon v_1\otimes v_2
+$$
+
+mit der folgenden universellen Eigenschaft: Für jede bilineare Abbildung $$F\colon V_1\times V_2\to W$$ gibt es genau eine [[lineare Abbildung|Lineare Abbildung]] $$\tilde F\colon V_1\otimes V_2\to W,$$ so dass $$F=\tilde F\circ\eta.$$
+
+''Bemerkung.''
+Wenn $$\eta'\colon V_1\times V_2\to V_1\otimes' V_2$$ auch ein Tensorprodukt ist, dann gibt es jeweils genau eine lineare Abbildung
+
+$$
+\tilde F\colon V_1\otimes V_2\to V_1\otimes' V_2,\quad \tilde F'\colon V_1\otimes' V_2\to V_1\otimes V_2
+$$
+
+mit
+
+$$
+\eta'=\tilde F\circ\eta,\quad \eta=\tilde F'\circ\eta'.
+$$
+
+Aus $$\eta=\tilde F'\circ\tilde F\circ\eta$$ folgt $$\tilde F'=\tilde F^{-1}.$$
+
+Mit anderen Worten: Für zwei Tensorprodukte $$\eta\colon V_1\times V_2\to V_1\otimes V_2$$ und $$\eta'\colon V_1\times V_2\to V_1\otimes' V_2$$ gibt es genau einen [[Isomorphismus]]
+
+$$
+\tilde F\colon V_1\otimes V_2\to V_1\otimes' V_2,
+$$
+
+so dass $$\eta'=\tilde F\circ\eta.$$ In diesem Sinne gibt es im Wesentlichen für zwei $$K$$-Vektorräume (höchstens) ein Tensorprodukt $$V_1\times V_2\to V_1\otimes V_2.$$
+
+---
+
+!! Basen
+
+{{Basen für Tensorprodukte}}

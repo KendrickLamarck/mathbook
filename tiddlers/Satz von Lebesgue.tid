@@ -1,0 +1,13 @@
+created: 20190108154335939
+creator: Leander
+modified: 20191011172753963
+modifier: Leander
+tags: Lebesgue-Integral no-toc
+title: Satz von Lebesgue
+type: text/vnd.tiddlywiki
+
+Sei $$(f_n)_{n\in\Bbb N}$$ eine [[Folge]] von $$\mu$$-[[integrierbaren|Lebesgue-Integral]] Funktionen. Es existiere eine nichtnegative Funktion $$g\in\mathcal L^1$$ mit $$|f_n(\omega)|\le g(\omega)$$ für alle $$\omega\in\Omega$$ und alle $$n\in\Bbb N.$$ Falls $$f(\omega)=\lim_{n\to\infty} f_n(\omega)$$ für $$\mu$$-fast alle $$\omega\in\Omega$$ existiert, so gilt
+
+$$
+\lim_{n\to\infty}\int f_n\,\mathrm d\mu=\int f\,\mathrm d\mu.
+$$

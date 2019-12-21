@@ -1,0 +1,10 @@
+created: 20180731220501320
+creator: Leander
+modified: 20190325194813810
+modifier: Leander
+revision: 0
+tags: Ableitung
+title: Konstanter Rang
+type: text/vnd.tiddlywiki
+
+Seien $$V,W$$ [[endlichdimensionale|Dimension]] [[Banachräume|Banachraum]], $$G\subset V$$ offen. Eine [[differenzierbare|Ableitung]] Abbildung $$f\colon V\supset G\to W$$ heißt //von konstantem Rang $$r$$,// wenn der [[Rang]] von $$\mathrm D_x f\colon V\to W$$ immer $$r$$ ist, unabhängig von $$x\in G.$$

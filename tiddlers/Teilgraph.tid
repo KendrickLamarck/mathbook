@@ -1,0 +1,21 @@
+created: 20180411234147405
+modified: 20180411234714337
+revision: 0
+tags: Graph
+title: Teilgraph
+
+Sei $$G=(V(G),E(G),\Psi_G)$$ ein [[Graph]] (gerichtet oder ungerichtet). Ein Graph $$H=(V(H),E(H),\Psi_H)$$ ist ein //Teilgraph// von $$G$$, falls
+
+# $$V(H)\subset V(G)$$,
+# $$E(H)\subset E(G)$$ und
+# $$\Psi_H=\Psi_G|_{E(H)}$$.
+
+Ist zusätzlich $$V(H)=V(G)$$, so ist $$H$$ ein //aufspannender Teilgraph//.
+
+Der Teilgraph $$H$$ heißt //induzierter Teilgraph//, falls
+
+$$
+E(H)=\{\,\{v,w\}\in E(G): v,w\in V(H)\,\}
+$$
+
+und analog für gerichtete Graphen. In diesem Fall schreiben wir auch $$H=G[V(H)]$$.

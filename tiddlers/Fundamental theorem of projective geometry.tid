@@ -1,0 +1,22 @@
+created: 20190121131922817
+creator: Leander
+modified: 20191011160437525
+modifier: Leander
+tags: [[Projective transformation]] no-toc
+title: Fundamental theorem of projective geometry
+type: text/vnd.tiddlywiki
+
+If a bijective map $$\Bbb R\mathrm P^n\to\Bbb R\mathrm P^n$$ maps lines to lines, then it is a [[projective transformation|Projective transformation]].
+
+''General statement.''
+If $$V$$ is a vector space over a field $$\mathbf F$$ with $$\dim V\ge 3$$ and if $$f\colon P(V)\to P(V)$$ is bijective and maps lines to lines, then there is a [[semilinear map|Semilinear map]] $$F\colon V\to V$$ such that
+
+$$
+f([v])=[F(v)].
+$$
+
+''Corollary.''
+A bijective map $$F\colon\Bbb R^n\to\Bbb R^n$$ that maps lines to lines is an [[affine transformation|Affine geometry]].
+
+''Localized version.''
+If $$U\subseteq\Bbb R^n$$ ($$n\ge 2$$) is an open subset and $$f\colon U\to\Bbb R\mathrm P^n$$ is an injective map with the property that intersections of lines in $$\Bbb R^n$$ with $$U$$ are mapped into lines, then $$f$$ is the restriction of a projective transformation $$\Bbb R\mathrm P^n\to\Bbb R\mathrm P^n$$ to $$U\subseteq\Bbb R^n\subseteq \Bbb R\mathrm P^n.$$

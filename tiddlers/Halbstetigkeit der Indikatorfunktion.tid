@@ -1,0 +1,11 @@
+created: 20181113153041080
+modified: 20191003233403979
+revision: 0
+tags: no-toc Indikatorfunktion
+title: Halbstetigkeit der Indikatorfunktion
+type: text/vnd.tiddlywiki
+
+Sei $$A\subset\mathbb R^d.$$ Dann gilt:
+
+* $$\mathbf 1_A$$ ist [[unterhalbstetig|Halbstetigkeit]] $$\iff$$ $$A$$ ist [[offen|Offenheit]],
+* $$\mathbf 1_A$$ ist oberhalbstetig $$\iff$$ $$A$$ ist [[abgeschlossen|Abgeschlossenheit]].

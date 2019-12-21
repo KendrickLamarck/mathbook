@@ -1,0 +1,20 @@
+created: 20180413124400919
+creator: Leander
+modified: 20180719183551342
+modifier: Leander
+revision: 0
+tags: Optimierung
+title: Aufteilungs-Beschleunigungs-Satz
+
+Es sei $$f\colon\mathbb N\to\mathbb N$$ [[monoton wachsend|Monotonie]] und $$a,b,c\in\mathbb R$$ mit $$a>1$$, sodass $$f(1)<c/a$$ ist und die folgende rekursive Ungleichung gilt:
+$$
+f(a\cdot n)\le b\cdot f(n)+c\cdot n\qquad\forall n\ge 1.
+$$
+Dann gilt
+$$
+f(n)=\begin{cases}
+\mathcal O(n)&\text{falls }a>b,\\
+\mathcal O(n\log n)&\text{falls }a=b,\\
+\mathcal O(n^{\log_a b})&\text{falls }a<b.
+\end{cases}
+$$

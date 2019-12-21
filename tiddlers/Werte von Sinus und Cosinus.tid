@@ -1,0 +1,9 @@
+created: 20180301175431588
+modified: 20191011163628658
+tags: [[Trigonometrische Funktionen]] no-toc
+title: Werte von Sinus und Cosinus
+type: text/vnd.tiddlywiki
+
+|$$x$$|$$0$$|$$\pi/6$$|$$\pi/4$$|$$\pi/3$$|$$\pi/2$$|
+|$$\cos$$|$$\sqrt{4}/2$$|$$\sqrt{3}/2$$|$$\sqrt{2}/2$$|$$\sqrt{1}/2$$|$$\sqrt{0}/2$$|
+|$$\sin$$|$$\sqrt{0}/2$$|$$\sqrt{1}/2$$|$$\sqrt{2}/2$$|$$\sqrt{3}/2$$|$$\sqrt{4}/2$$|

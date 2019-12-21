@@ -1,0 +1,24 @@
+caption: Kettenregel
+created: 20180107000527950
+creator: Leander
+list: 
+modified: 20191003231143854
+modifier: Leander
+revision: 0
+tags: no-toc [[Ableitung in R]]
+title: Kettenregel in R
+type: text/vnd.tiddlywiki
+
+Seien $$g\colon\mathbb{R} \supset I \to J$$ in $$x \in I$$ und $$f\colon J \to \mathbb{R}$$ in $$g(x)$$ [[differenzierbar|Ableitung]]. Dann ist $$f \circ g$$ differenzierbar und es gilt
+
+$$
+(f \circ g)'(x) = (f' \circ g)(x)g'(x) = f'(g(x))g'(x).
+$$
+
+Symbolisch kann man das schreiben als
+
+$$
+\frac{\mathrm df}{\mathrm dx}=
+\frac{\mathrm df}{\mathrm dg}
+\frac{\mathrm dg}{\mathrm dx}.
+$$

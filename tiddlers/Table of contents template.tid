@@ -1,0 +1,11 @@
+created: 20190103171210000
+creator: Leander
+modified: 20190510143741342
+modifier: Leander
+revision: 0
+tags: Templates
+title: Table of contents template
+
+<div class="tc-table-of-contents">
+<$macrocall $name=toc tag={{!!title}} sort=!tag[no-toc]/>
+</div>

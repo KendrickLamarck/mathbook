@@ -1,0 +1,20 @@
+created: 20190715221016817
+modified: 20191003233346606
+revision: 0
+tags: [[Wichtige Funktionen]]
+title: Indikatorfunktion
+type: text/vnd.tiddlywiki
+
+Ist $$A\subseteq X,$$ so ist die //Indikatorfunktion// $$\mathbf 1_A\colon X\to\R$$ definiert als
+
+$$
+\mathbf 1_A(x)\coloneqq
+\begin{cases}
+1 &\text{falls } x\in A,\\
+0 &\text{sonst}.
+\end{cases}
+$$
+
+!! Halbstetigkeit
+
+{{Halbstetigkeit der Indikatorfunktion}}

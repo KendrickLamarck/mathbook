@@ -1,0 +1,15 @@
+created: 20180511101103006
+creator: Leander
+list: 
+modified: 20191004192047887
+modifier: Leander
+revision: 0
+tags: no-toc Stetigkeit
+title: Stetigkeit (metrische Räume)
+type: text/vnd.tiddlywiki
+
+Seien $$(X,d_X)$$ und $$(Y,d_Y)$$ [[metrische Räume|Metrischer Raum]] und $$f\colon X\supset G\to Y$$ eine Abbildung. $$f$$ heißt //stetig// in $$p\in G$$, wenn $$\lim_{x\to p} f(x)=f(p)$$ ist, d.h. wenn für jede gegen $$p$$ [[konvergente|Konvergenz]] [[Folge]] $$(x_k)_{k\in\mathbb N}$$ in $$G$$ auch $$\lim_{k\to\infty}f(x_k)=f(p)$$ ist.
+
+$$f$$ heißt stetig in oder auf $$G$$, wenn es stetig in jedem Punkt $$p\in G$$ ist.
+
+''Bemerkung:'' $$f\colon X\supset G\to Y$$ ist im Sinne dieser Definition stetig (in $$p\in G$$) genau dann, wenn es (in $$p$$) stetig ist als Abbildung des metrischen Raumes $$(G,d_G)$$ nach $$Y$$.

@@ -1,0 +1,19 @@
+created: 20180519115403567
+creator: Leander
+modified: 20180519115552281
+modifier: Leander
+revision: 0
+tags: [[Charakteristisches Polynom]]
+title: Satz von Cayley-Hamilton
+
+Sei $$K$$ ein beliebiger [[Körper]], $$A\in K^{n\times n}$$ und sei
+
+$$
+P_A(t)=\det (A-tE)\in K[t]
+$$
+
+das [[charakteristische Polynom|Charakteristisches Polynom]] von $$A$$. Dann gilt
+
+$$
+P_A(A)=0.
+$$

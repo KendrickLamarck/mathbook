@@ -1,0 +1,15 @@
+created: 20181127164409923
+modified: 20181229195039318
+revision: 0
+tags: Maß
+title: Vollständiger Maßraum
+
+Ein [[Maßraum|Maß]] $$(\Omega,\mathcal F,\mu)$$ heißt //vollständig,// wenn $$\mathcal F$$ alle [[Nullmengen|Nullmenge]] enthält.
+
+Maßräume lassen sich vervollständigen: Das Mengensystem
+
+$$
+\mathcal G=\{\, A\subset\Omega\mid\exists B\in\mathcal F\colon A\mathbin{\triangle} B \text{ ist eine $\mu$-Nullmenge} \,\}
+$$
+
+ist eine $$\sigma$$-[[Algebra|Sigma-Algebra]]. Definiere $$\bar\mu$$ auf $$\mathcal G$$ durch $$\bar\mu(A)=\mu(B)$$ mit $$B$$ wie in der Definition von $$\mathcal G.$$ Dann ist $$\bar\mu$$ eine vollständige Erweiterung von $$\mu.$$

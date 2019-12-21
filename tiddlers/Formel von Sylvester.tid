@@ -1,0 +1,15 @@
+created: 20190426112252317
+modified: 20190426114301188
+revision: 0
+tags: Stochastik
+title: Formel von Sylvester
+type: text/vnd.tiddlywiki
+
+Sei $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]]. Dann gilt für beliebige $$A_1,\dots,A_n\in\mathcal A$$:
+
+$$\begin{aligned}
+\Bbb P(A_1\cup\dots\cup A_n)&=
+\sum_{\varnothing\ne I\subseteq\{1,\dots,n\}}(-1)^{|I|-1}
+\Bbb P\Bigl(\bigcap_{i\in I} A_i\Bigr)  \\&=
+\sum_{j=1}^n(-1)^{j-1}\sum_{1\le i_1<\dots<i_j \le n} \Bbb P(A_{i_1}\cap\dots\cap A_{i_j}).
+\end{aligned}$$

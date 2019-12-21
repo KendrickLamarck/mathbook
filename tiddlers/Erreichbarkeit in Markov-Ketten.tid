@@ -1,0 +1,9 @@
+created: 20190629203221591
+modified: 20190710230218065
+revision: 0
+tags: Markov-Kette
+title: Erreichbarkeit in Markov-Ketten
+
+Seien $$i,j\in I.$$ $$j$$ heißt von $$i$$ aus //erreichbar,// ($$i\leadsto j$$) falls ein $$n\in\Bbb N$$ existiert mit $$p_{ij}^{(n)}=(P^n)_{ij}>0.$$
+
+Gilt $$i\leadsto j$$ und $$j\leadsto i,$$ so nennen wir $$i$$ und $$j$$ //äquivalent.// und schreiben $$i\leftrightsquigarrow j.$$ Dies definiert eine [[Äquivalenzrelation]].

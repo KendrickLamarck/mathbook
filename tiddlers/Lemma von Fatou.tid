@@ -1,0 +1,14 @@
+created: 20190107163958394
+creator: Leander
+modified: 20191011172747208
+modifier: Leander
+tags: no-toc Lebesgue-Integral
+title: Lemma von Fatou
+type: text/vnd.tiddlywiki
+
+Es sei $$(f_n)_{n\in\Bbb N}$$ eine beliebige Folge nichtnegativer [[messbarer|Messbare Funktion]] [[numerischer|Numerische Funktion]] Funktionen. Dann gilt
+
+$$
+\int\liminf_{n\to\infty} f_n\,\mathrm d\mu \le
+\liminf_{n\to\infty}\int f_n\,\mathrm d\mu.
+$$

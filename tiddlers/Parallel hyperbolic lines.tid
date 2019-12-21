@@ -1,0 +1,13 @@
+created: 20190216142448645
+modified: 20191008203353312
+tags: [[Hyperbolic line]] no-toc
+title: Parallel hyperbolic lines
+type: text/vnd.tiddlywiki
+
+For two hyperbolic lines $$l_1,l_2$$ with unit normals $$n_1,n_2$$ there are three possibilities:
+
+# $$|\langle n_1,n_2\rangle|<1$$: the lines intersect,
+
+# $$|\langle n_1,n_2\rangle|=1$$: the lines do not intersect and their images in the [[Klein model]] intersect on the unit circle //(parallel),//
+
+# $$|\langle n_1,n_2\rangle|>1$$: The lines do not intersect and their images in the Klein model intersect outside the unit circle //(ultra-parallel).//

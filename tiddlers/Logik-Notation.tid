@@ -1,0 +1,39 @@
+created: 20171031162254166
+creator: Leander
+modified: 20191004235321729
+modifier: Leander
+revision: 0
+tags: Logik
+title: Logik-Notation
+type: text/vnd.tiddlywiki
+
+;$$\land$$
+:"Und"
+
+;$$\lor$$
+:"Oder" (inklusiv)
+
+;$$\therefore$$
+:Therefore, used before conclusion
+
+;$$\because$$
+:Because, used before reasoning
+
+;$$\neg$$
+:Negation, like ! in computer Science
+
+;$$ \forall $$
+: For all
+
+;$$\exists,\ \exists!,\ \nexists$$
+:Es gibt mindestens ein, es gibt genau ein, es gibt kein
+
+;$$:\ ,\ \mid$$
+:"So dass", "gilt" usw.
+
+;$$\implies$$
+:"Es folgt, dass..."
+
+;$$\iff$$
+:"Ist äquivalent zu..."
+

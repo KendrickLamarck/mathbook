@@ -1,0 +1,41 @@
+created: 20180504162349245
+creator: Leander
+list: Hauptvektor Hauptraum Minimalpolynom [[Minimalpolynom und charakteristisches Polynom]]
+modified: 20180728123042650
+modifier: Leander
+revision: 0
+tags: Endomorphismus
+title: Jordan'sche Normalform
+
+Sei $$V$$ ein endlichdimensionaler [[Vektorraum]] über einem beliebigen Körper $$K$$ und sei $$F\colon V\to V$$ ein [[Endomorphismus]], dessen [[charakteristisches Polynom|Charakteristisches Polynom]] in Linearfaktoren zerfällt. Dann gibt es eine [[Basis]] $$\mathcal B$$ (Jordan-Basis genannt) von $$V$$, bezüglich derer der [[Endomorphismus]] $$F$$ von einer [[Matrix]] der folgenden Form //(Jordan'sche Normalform, Jordanform)// [[dargestellt|Darstellende Matrix (lineare Abbildungen)]] wird:
+
+$$
+M_\mathcal B(F)=\begin{pmatrix}
+J_{n_1}(\lambda_1)&&0\\
+&\ddots&\\
+0&&J_{n_l}(\lambda_l)
+\end{pmatrix}
+$$
+
+wobei $$\lambda_1,\ldots,\lambda_l$$ die (nicht notwendigerweise verschiedenen) [[Eigenwerte|Eigenwert]] von $$F$$ sind und
+
+$$
+J_n(\lambda)=\begin{pmatrix}
+\lambda&1&&0 \\
+&\ddots&\ddots& \\
+&&\ddots&1 \\
+0&&&\lambda
+\end{pmatrix}\in K^{n\times n}.
+$$
+
+Diese Darstellung ist eindeutig bis auf die Reihenfolge der //Jordan-Blöcke// $$J_{n_j}(\lambda_j)$$.
+
+!! Bemerkungen
+
+* Eine [[diagonale Matrix|Diagonalisierung]] ist in Jordan-Form, wobei alle Jordan-Blöcke die Größe $$n_j=1$$ haben.
+* Es gilt $$P_F(t)=(\lambda_1-t)^{n_1}\cdots(\lambda_l-t)^{n_l}$$
+* Die Summe der Größen der Jordanblöcke zu einem Eigenwert $$\lambda$$ ist die [[algebraische Vielfachheit|Vielfachheit von Eigenwerten]] von $$\lambda$$:$$
+\sum_{j\colon\lambda_j=\lambda} n_j=\mu(P_F,\lambda).$$
+* Die Anzahl Jordanblöcke zu einem Eigenwert $$\lambda$$ ist die geometrische Vielfachheit von $$\lambda$$:$$
+\#\{\, j\in\{1,\ldots,l\}\mid\lambda_j=\lambda\,\}=\dim\operatorname{Eig}(F;\lambda).$$
+* Die anderen Basisvektoren $$v_{j2},\ldots,v_{jn_j}$$ sind [[Hauptvektoren|Hauptvektor]], und zwar ist $$v_{jk}$$ ein Hauptvektor der Stufe $$k$$ zum Eigenwert $$\lambda$$.

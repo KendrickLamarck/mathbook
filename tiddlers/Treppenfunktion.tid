@@ -1,0 +1,16 @@
+created: 20180124201106488
+creator: Leander
+list: 
+modified: 20191011170343862
+modifier: Leander
+tags: Regelintegral no-toc
+title: Treppenfunktion
+type: text/vnd.tiddlywiki
+
+Eine [[Funktion|Abbildung]] $$\phi\colon [a,b]\to\mathbb{R}$$ heißt //Treppenfunktion//, wenn es eine Zerlegung
+
+$$
+\mathcal{Z}\colon a=x_0<\dots<x_n=b
+$$
+
+gibt, so dass $$\phi|_{]x_{i-1},x_i[}$$ konstant ist für alle $$i \in \{\,1,\dots,n\,\}$$. $$\mathcal{T}([a,b])$$ gibt die Menge aller Treppenfunktionen auf $$[a,b]$$ an.

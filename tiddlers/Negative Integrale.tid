@@ -1,0 +1,12 @@
+created: 20180222124727362
+list: 
+modified: 20191011165829572
+tags: Regelintegral
+title: Negative Integrale
+type: text/vnd.tiddlywiki
+
+Seien $$b<a$$ und $$f\colon [b,a]\to\mathbb R$$ eine [[Regelfunktion]]. Dann definieren wir
+
+$$
+\int_a^a f(x)\,\mathrm dx=0, \qquad \int_a^b f(x)\,\mathrm dx=-\int_b^a f(x)\,\mathrm dx.
+$$

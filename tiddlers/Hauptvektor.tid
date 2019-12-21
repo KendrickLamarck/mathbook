@@ -1,0 +1,20 @@
+created: 20180504164335088
+creator: Leander
+modified: 20180709193729568
+modifier: Leander
+revision: 0
+tags: [[Jordan'sche Normalform]]
+title: Hauptvektor
+
+# Ein Vektor $$v\in V$$ heißt //verallgemeinerter Eigenvektor// oder //Hauptvektor// von $$F\in\operatorname{End}(V)$$ zu einem [[Eigenwert]] $$\lambda$$ von $$F$$, wenn $$v$$ ein Hauptvektor der Stufe $$k$$ von $$F$$ zum Eigenwert $$\lambda$$ ist für ein $$k\in\mathbb Z_{>0}$$.
+# Die Hauptvektoren der Stufe $$1$$ sind die Eigenvektoren. Für $$k\in\mathbb Z_{\ge 2}$$ heißt ein Hauptvektor der Stufe $$k$$ von $$F$$ zum Eigenwert $$\lambda$$, wenn$$
+F(v)=\lambda v+\tilde v,
+$$wobei $$\tilde v$$ ein Hauptvektor der Stufe $$k-1$$ von $$F$$ zum Eigenwert $$\lambda$$ ist.
+
+Punkt 2 ist äquivalent zu folgender Definition:
+
+* Für $$k\in\mathbb Z_{>0}$$ heißt $$v$$ ein Hauptvektor der Stufe $$k$$ von $$F$$ zum Eigenwert $$\lambda$$, wenn bezüglich der Mehrfachausführung) gilt:
+** $$(F-\lambda\operatorname{id}_V)^k(v)= 0$$, aber
+** $$(F-\lambda\operatorname{id}_V)^{k-1}(v)\ne 0.$$
+
+Die Hauptvektoren der Stufe $$1$$ sind genau die Eigenvektoren.

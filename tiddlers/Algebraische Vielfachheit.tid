@@ -1,0 +1,10 @@
+created: 20180428162250806
+creator: Leander
+modified: 20191003205245333
+modifier: Leander
+revision: 0
+tags: no-toc [[Vielfachheit von Eigenwerten]]
+title: Algebraische Vielfachheit
+type: text/vnd.tiddlywiki
+
+Die Vielfachheit $$\mu(P_F,\lambda)$$ eines [[Eigenwerts|Eigenwert]] $$\lambda$$ als Nullstelle von $$P_F$$ heißt die //algebraische Vielfachheit// des Eigenwerts $$\lambda$$.

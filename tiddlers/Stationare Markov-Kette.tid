@@ -1,0 +1,16 @@
+created: 20190628180820643
+modified: 20190628181906475
+revision: 0
+tags: Markov-Kette
+title: Stationäre Markov-Kette
+
+Eine [[Markov-Kette]] $$(X_n)$$ heißt //stationär,// falls für beliebiges $$m\in\N$$ die Ketten $$(X_n)_{n\in\N_0}$$ und $$(X_{m+n})_{n\in\N_0}$$ dieselben endlichdimensionalen Verteilungen besitzen, d.h. falls für beliebige $$m\in\N$$ und $$r\in\N_0$$ die [[Zufallsvektoren|Zufallsvariable]] $$(X_0,\dots,X_r)$$ und $$(X_m,\dots,X_{m+r})$$ die selbe [[Verteilung]] besitzen.
+
+Inbesondere sind damit $$X_0,X_1,\dots$$ identisch verteilt.
+
+''Lemma.''
+Sei $$(X_n)$$ eine [[Markov-Kette]] mit Anfangsverteilung $$\nu$$ und [[Übergangsmatrix|Stochastische Matrix]] $$P=(p_{ij})_{i,j\in I}.$$ Dann sind äquivalent:
+
+# $$(X_n)$$ ist stationär,
+
+# $$\sum_{j\in I} \nu_j p_{ji}=\nu_i$$ für alle $$i\in I.$$

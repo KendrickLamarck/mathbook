@@ -1,0 +1,26 @@
+created: 20171110205840528
+creator: Leander
+modified: 20190701231258636
+modifier: Leander
+revision: 0
+tags: Kombinatorik
+title: Binomialkoeffizient
+type: text/vnd.tiddlywiki
+
+Für $$n,k \in \mathbb{N}$$ ist der Binomialkoeffizient folgendermaßen definiert:
+$$
+\binom{n}{k} \coloneqq \frac{n!}{k!(n-k)!}.
+$$
+Es gilt
+$$
+\binom{n}{n}=1
+$$
+und
+$$
+\binom{n}{k}=0 \text{ falls } k>n.
+$$
+Außerdem gibt es die Rekursionsformel
+$$
+\binom{n}{k-1}+\binom{n}{k}=\binom{n+1}{k}.
+$$
+Der Binomialkoeffizient gibt die Koeffizienten beim [[Binomialsatz]] an.

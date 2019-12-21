@@ -1,0 +1,20 @@
+caption: Beschränktheit
+created: 20171122205211757
+creator: Leander
+list: 
+modified: 20180531160707297
+modifier: Leander
+revision: 0
+tags: Abbildung
+title: Beschränktheit (Funktionen)
+type: text/vnd.tiddlywiki
+
+Eine Reelle [[Funktion|Abbildung]] $$f\colon\mathbb{R} \supset D \to \mathbb{R}$$ heißt nach oben //beschränkt//, wenn es ein $$M \in \mathbb{R}$$ gibt, so dass
+$$
+f(x) \leq M \qquad \forall x \in D.
+$$
+$$M$$ ist dann die //obere Schranke// von $$f$$. Entsprechend definiert man nach unten beschränkt. Eine Funktion heißt beschränkt, wenn sie sowohl nach oben und nach unten beschränkt ist, also
+$$
+|f(x)| \leq M \qquad \forall x \in D.
+$$
+Hiermit kann man Beschränktheit auch für komplexe Funktionen definieren.

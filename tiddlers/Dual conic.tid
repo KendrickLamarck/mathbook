@@ -1,0 +1,10 @@
+created: 20190211134636317
+creator: Leander
+modified: 20190224182014574
+modifier: Leander
+revision: 0
+tags: [[Projective conic]]
+title: Dual conic
+type: text/vnd.tiddlywiki
+
+The set of tangents of a nondegenerate nonempty [[conic|Projective conic]] in $$\Bbb R\mathrm P^2$$ is a conic in the [[dual plane|Dual projective space]] $$\Bbb R\mathrm P^{2*}.$$

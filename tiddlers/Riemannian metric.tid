@@ -1,0 +1,22 @@
+created: 20190216191811545
+modified: 20190216192333181
+revision: 0
+tags: Skalarprodukt
+title: Riemannian metric
+type: text/vnd.tiddlywiki
+
+A //Riemannian metric// on an open set $$U\subseteq\Bbb R^n$$ is a $$\mathcal C^\infty$$-map
+
+$$
+g\colon U\times\Bbb R^n\times\Bbb R^n\to\Bbb R,\quad (p,v,w)\mapsto g_p(v,w),
+$$
+
+such that for all $$p\in U,$$ $$g_p$$ is a [[Euclidean scalar product|Skalarprodukt]] on $$\Bbb R^n.$$
+
+Such a Riemannian metric is called //conformal// if
+
+$$
+g_p(u,v)=\lambda(p)\langle u,v\rangle_{\Bbb R^n}
+$$
+
+for some function $$\lambda\colon\Bbb R^n\to\Bbb R_{>0}.$$ In this case, angles measured using $$g$$ are equal to the euclidean angles.

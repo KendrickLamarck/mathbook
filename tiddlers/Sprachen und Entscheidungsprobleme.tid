@@ -1,0 +1,23 @@
+created: 20180708144313360
+creator: Leander
+modified: 20180708145006431
+modifier: Leander
+revision: 0
+tags: Algorithmus
+title: Sprachen und Entscheidungsprobleme
+
+Das zu einer [[Sprache]] $$L\subset\Sigma^*$$ gehörende [[Entscheidungsproblem|Berechnungsproblem]] ist
+
+$$
+P_L\colon\Sigma^*\to\{\text{True, False}\},\quad P_L(x)=
+\begin{cases}
+\text{True, falls }x\in L, \\
+\text{False, falls }x\in\Sigma^*\setminus L.
+\end{cases}
+$$
+
+Die zu einem Entscheidungsproblem $$P\colon\Sigma^*\to\{\text{True, False}\}$$ gehörende Sprache ist
+
+$$
+L_P=\{\,x\in\Sigma^*\mid P(x)=\text{True}\,\}\subset\Sigma^*.
+$$

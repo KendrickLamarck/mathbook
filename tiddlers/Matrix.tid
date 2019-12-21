@@ -1,0 +1,12 @@
+caption: Matrizen
+created: 20170206224656431
+creator: Leander
+list: [[Transposition (Matrizen)]] [[Zeilenraum und Spaltenraum]] Rang [[Inverse Matrix]] [[Rang von Produktmatrizen]] Matrizenmultiplikation [[Symmetrische Matrix]] [[Alternierende Matrix]] [[Hermite'sche Matrix]] [[Allgemeine lineare Gruppe]] [[Spezielle lineare Gruppe]] Elementarmatrizen [[Äquivalente und ähnliche Matrizen]]
+modified: 20191004232853372
+modifier: Leander
+revision: 0
+tags: [[Lineare Algebra]]
+title: Matrix
+type: text/vnd.tiddlywiki
+
+A //matrix// is an array in which numbers, symbols etc. are arranged in rows and columns. A matrix $$A=(a_{ij})\in K^{m\times n}=K^{m,n}=\operatorname M(m\times n; K)$$ has $$m$$ rows and $$n$$ columns which contain elements $$(a_{ij})\in K$$ in the $$i$$-th row and the $$j$$-th column.

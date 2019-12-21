@@ -1,0 +1,9 @@
+created: 20190528093859950
+modified: 20191013040851526
+tags: [[Lie quadric]] no-toc
+title: Lie transformation
+type: text/vnd.tiddlywiki
+
+A //Lie transformation// is a transformation on the set of [[Lie spheres|Lie sphere]] that corresponds to a [[projective transformation|Projective transformation]] of $$\Bbb R\mathrm P^{n+2}$$ that map the [[Lie quadric]] to itself. The [[group|Gruppe]] of Lie transformations corresponds to $$\mathrm{PO}(n+1,2).$$
+
+Lie transformations preserve oriented contact and any transformation of the space of spheres which maps spheres in oriented contact to spheres in oriented contact is a Lie transformation.

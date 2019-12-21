@@ -1,0 +1,13 @@
+created: 20180502123923945
+creator: Leander
+modified: 20191011181922511
+modifier: Leander
+tags: [[Datenstrukturen für Graphen]] no-toc
+title: Array als Binärbaum
+type: text/vnd.tiddlywiki
+
+Ein Array A kann als (fast) vollständiger Binärbaum aufgefasst werden. Die Funktionen um Kinder bzw. Eltern zu finden sind dann:
+
+* ``parent(i)=A[i//2]`` (teilen ohne Rest)
+* ``left(i)=A[2i]``
+* ``right(i)=A[2i+1]``

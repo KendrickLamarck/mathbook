@@ -1,0 +1,16 @@
+created: 20180725123855901
+creator: Leander
+modified: 20191004223805659
+modifier: Leander
+revision: 0
+tags: no-toc Dualraum
+title: Darstellende Matrix der dualen Abbildung
+type: text/vnd.tiddlywiki
+
+Gegeben seien $$K$$-[[Vektorräume|Vektorraum]] $$V$$ und $$W$$ mit [[Basen|Basis]] $$\mathcal A$$ und $$\mathcal B,$$ sowie eine [[lineare Abbildung|Lineare Abbildung]] $$F\colon V\to W.$$ Dann gilt
+
+$$
+M^{\mathcal B^*}_{\mathcal A^*}(F^*)=\left(M^\mathcal A_\mathcal B(F)\right)^\mathrm T.
+$$
+
+Die [[duale Abbildung|Duale Abbildung]] wird also bezüglich der [[dualen Basen|Duale Basis]] durch die [[transponierte|Transposition (Matrizen)]] Matrix beschrieben.

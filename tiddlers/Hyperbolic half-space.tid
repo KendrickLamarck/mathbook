@@ -1,0 +1,12 @@
+caption: Half-spaces
+created: 20190216132001922
+modified: 20191010174458274
+tags: [[Hyperbolic geometry]]
+title: Hyperbolic half-space
+type: text/vnd.tiddlywiki
+
+Let $$n\in\Bbb R^{2,1}$$ with $$\langle n,n\rangle=1.$$ A //hyperbolic half-space// is the intersection of $$H^2$$ with the half-plane $$\{x\in\Bbb R^{2,1}\mid\langle n,x\rangle\ge 0\}.$$
+
+!! Angles between half-spaces
+
+{{Angles in hyperbolic space}}

@@ -1,0 +1,44 @@
+created: 20180509195852709
+creator: Leander
+list: [[Satz von Peano]] [[Satz von Picard-Lindelöf]] [[Lineare Differentialgleichung]]
+modified: 20190401210521941
+modifier: Leander
+revision: 0
+tags: Analysis
+title: Gewöhnliche Differentialgleichung
+type: text/vnd.tiddlywiki
+
+Seien $$V$$ ein endlichdimensionaler [[Banachraum]], $$G\subseteq\Bbb R\times V$$ [[offen|Offenheit]] und $$f\colon G\to V,$$ $$(t,x)\mapsto f(t,x)$$ eine Abbildung.
+
+# <div>
+Die Gleichung
+$$
+\dot x=f(t,x) \tag*{\dag}
+$$
+heißt eine //gewöhnliche Differentialgleichung erster Ordnung in expliziter Form// oder ein //dynamisches System.//
+</div>
+
+# <div>
+Ist $$f$$ in der ersten Variablen konstant, so kann man $$f$$ auffassen als eine Abbildung $$f\colon G\to V.$$ In diesem Fall nennt man
+$$
+\dot x=f(x)
+$$
+eine //autonome Differentialgleichung// oder ein //autonomes System.//
+</div>
+
+# <div>
+Eine auf einem Intervall $$J\subseteq\Bbb R$$ mit nichtleerem Inneren $$\circ J\ne\varnothing$$ definierte differenzierbare Funktion $$x\colon J\to V$$ heißt eine //Lösung// von $$\dag$$, wenn für alle $$t\in J$$
+$$
+(t,x(t))\in G\text{ und }\dot x(t)=f(t,x(t)).
+$$
+</div>
+
+# <div>
+Sei $$(t_0,x_0)\in G.$$ Das Gleichungssystem 
+$$
+\dot x=f(t,x),\quad x(t_0)=x_0 \tag*{\ddag}
+$$
+heißt ein //Anfangswertproblem.//
+</div>
+
+# Das Anfangswertproblem $$\ddag$$ heißt //eindeutig lösbar,// wenn es eine Lösung gibt und wenn je zwei Lösungen $$x_1\colon J_1\to V$$ und $$x_2\colon J_2\to V$$ auf $$J_1\cap J_2$$ übereinstimmen.

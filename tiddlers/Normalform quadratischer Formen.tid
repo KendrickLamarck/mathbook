@@ -1,0 +1,22 @@
+created: 20191003194221609
+modified: 20191003194849654
+revision: 0
+tags: no-toc [[Quadratische Form]]
+title: Normalform quadratischer Formen
+type: text/vnd.tiddlywiki
+
+Zu jeder [[quadratischen Form|Quadratische Form]] $$q\colon V\to\mathbb R$$ auf einem endlichdimensionalen euklidischen Vektorraum $$V$$ gibt es eine Orthonormalbasis $$\mathcal B=(v_1,\dots,v_n)$$ von $$V$$ und $$\lambda_1,\dots,\lambda_n\in\mathbb R,$$ so dass für alle $$v=\sum x_i v_i$$ in $$V$$ gilt:
+
+$$
+q(v)=\sum \lambda_i x_i^2.
+$$
+
+In anderen Worten:
+
+$$
+M_\mathcal B(q)=\begin{pmatrix}
+\lambda_1 && 0\, \\[3mu]
+& \mkern{-15mu}\ddots \\
+0 && \mkern{-15mu}\lambda_n
+\end{pmatrix}.
+$$

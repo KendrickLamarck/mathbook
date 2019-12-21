@@ -1,0 +1,14 @@
+caption: Spate
+created: 20190102020640930
+modified: 20191010145327715
+tags: Volumen
+title: Volumen eines Spats
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[euklidischer|Euklidischer Vektorraum]] bzw. [[unitärer|Unitärer Vektorraum]] [[Vektorraum]] und $$v_1,\dots,v_m\in V.$$ Man definiert das $$m$$-[[dimensionale|Dimension]] Volumen des durch diese Vektoren aufgespannten Spates als
+
+$$
+\operatorname{Vol}(v_1,\dots,v_m)\coloneqq \sqrt{G(v_1,\dots,v_m)},
+$$
+
+wobei $$G$$ die [[Gram'sche Determinante]] ist.

@@ -1,0 +1,15 @@
+created: 20180412210456277
+creator: Leander
+modified: 20180712122421838
+modifier: Leander
+revision: 0
+tags: Kantenzug
+title: Vereinigung von Wegen
+
+Es sei $$G$$ ein gerichteter oder ungerichteter [[Graph]] mit $$s,t\in V(G)$$. Ist $$P$$ ein $$s$$-$$t$$-[[Weg]] und $$Q$$ ein $$t$$-$$s$$-Weg in $$G$$ mit $$E(P)\ne E(Q)$$, dann enthält der [[Teilgraph]]
+
+$$
+(V(P)\cup V(Q),E(P)\cup E(Q))
+$$
+
+einen [[Kreis]].

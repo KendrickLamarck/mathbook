@@ -1,0 +1,21 @@
+created: 20180319200148091
+creator: Leander
+modified: 20191004225215070
+modifier: Leander
+revision: 0
+tags: [[Lineare Abbildung]] no-toc
+title: Kern
+type: text/vnd.tiddlywiki
+
+Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]]. Wir nennen die [[Faser]]
+
+$$
+\ker F\coloneqq F^{-1}(0)
+$$
+
+den //Kern// von $$F$$.
+
+!!! Eigenschaften
+
+* $$\ker F\subset V$$ ist ein [[Untervektorraum]]
+* $$F$$ [[injektiv|Injektivität]] $$\iff\ker F=\{0\}.$$

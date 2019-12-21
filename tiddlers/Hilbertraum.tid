@@ -1,0 +1,11 @@
+created: 20180727122619660
+creator: Leander
+modified: 20190122141239957
+modifier: Leander
+revision: 0
+tags: [[Normierter Vektorraum]]
+title: Hilbertraum
+
+Ein [[Banachraum]], dessen Norm durch ein [[Skalarprodukt]] induziert ist, heißt //Hilbertraum.//
+
+Nicht notwendigerweise [[vollständige|Vollständigkeit]] $$\mathbb K$$-Vektorräume mit Skalarprodukt nennt man auch //Prähilbertraum.//

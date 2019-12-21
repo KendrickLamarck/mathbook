@@ -1,0 +1,30 @@
+caption: Graphentheorie
+created: 20180101203625187
+creator: Leander
+list: Knotengrad Teilgraph Kantenzug [[Zusammenhängender Graph]] Baum [[Datenstrukturen für Graphen]] Graphenisomorphismus [[Graphisches Matroid]] [[Topologische Sortierung (Graphen)]] Graphendurchmusterung [[Kruskals Algorithmus]] [[Prims Algorithmus]] [[Zulässiges Potential]]
+modified: 20191011181359284
+modifier: Leander
+tags: Mathematics
+title: Graph
+type: text/vnd.tiddlywiki
+
+Ein //ungerichteter Graph// $$G$$ ist ein Tripel $$G=(V,E,\Psi)$$, wobei $$V$$ und $$E$$ endliche mengen sind, $$V\ne\varnothing$$ und
+
+$$
+\Psi\colon E\to\{\,X\subset V : |X|=2\,\}.
+$$
+
+Die Elemente in $$V=V(G)$$ heißen //Knoten//, die Elemente in $$E=E(G)$$ //Kanten//.
+
+Für einen //gerichteten Graphen// oder //Digraph// ist
+
+$$
+\Psi\colon E\to\{\,(v,w)\in V\times V: v\ne w\,\}.
+$$
+
+!! Terminologie
+
+* Zwei Kanten $$e,e'\in E$$ heißen //parallel//, falls $$\Psi(e)=\Psi(e')$$.
+* Ein Graph ohne parallele Kanten heißt //einfacher Graph//.
+* Für einfache Graphen identifiziert man $$e\in E$$ mit $$\Psi(e)$$ und schreibt $$G=(V,E)$$.
+* Die Kante $$e=\{v,w\}$$ bzw. $$e=(v,w)$$ verbindet die Knoten $$v$$ und $$w$$. Die Knoten $$v$$ und $$w$$ heißen in diesem Fall benachbart oder //adjazent//; sie sind Endknoten der Kante $$e$$ und mit dieser //inzident//.

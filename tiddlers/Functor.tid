@@ -1,0 +1,19 @@
+created: 20181119224646574
+creator: Leander
+modified: 20190104210500026
+modifier: Leander
+revision: 0
+tags: Category
+title: Functor
+
+A //(covariant) functor// $$F$$ from a [[category|Category]] $$\mathcal C$$ to a category $$\mathcal D$$, written as $$F\colon \mathcal C\to\mathcal D,$$ consists of:
+
+# for each object $$x$$ in $$\mathcal C,$$ an object $$F(x)$$ in $$\mathcal D$$ and
+
+# for each morphism $$f\colon x\to y$$ in $$\mathcal C,$$ a morphism $$F(f)\colon F(x)\to F(y),$$ in $$\mathcal D,$$ such that the following two properties hold:
+
+#* For every object $$x$$ in $$\mathcal C,$$ $$F(1_x)=1_{F(x)},$$
+
+#* For all morphisms $$f\colon x\to y$$ and $$g\colon y\to z,\ F(g\circ f)=F(g)\circ F(f).$$
+
+A //contravariant functor// has the properties above, except that it reverses the direction of the morphisms, that is every morphism $$f\colon x\to y$$ in $$\mathcal C$$ must be assigned to a morphism $$F(f)\colon F(y)\to F(x)$$ in $$\mathcal D.$$

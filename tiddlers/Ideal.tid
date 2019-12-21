@@ -1,0 +1,18 @@
+created: 20180517202320386
+creator: Leander
+modified: 20180517202701688
+modifier: Leander
+revision: 0
+tags: Ring
+title: Ideal
+
+Eine nichtleere Teilmenge $$I$$ eines kommutativen [[Rings|Ring]] $$R$$ heißt ein //Ideal// von $$R$$, wenn gilt:
+
+# Wenn $$p,q\in I$$, dann ist $$p+q\in I$$ und $$-p\in I.$$
+# Wenn $$p\in I$$ und $$q\in R$$, dann ist $$p\cdot q\in I.$$
+
+!! Bemerkungen
+
+* Jedes Ideal enthält $$0\in R.$$
+* Das //Nullideal// $$\{0\}$$ und $$R$$ selbst sind Ideale von $$R.$$
+* Für $$m\in R$$ ist $$m\cdot R$$ ein Ideal, das von $$m$$ //erzeugte// Ideal von $$R.$$

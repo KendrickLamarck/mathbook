@@ -1,0 +1,9 @@
+caption: Gleichheit
+created: 20171111134152728
+list: 
+modified: 20191011211553702
+tags: Abbildung no-toc
+title: Gleichheit von Abbildungen
+type: text/vnd.tiddlywiki
+
+Zwei [[Abbildungen|Abbildung]] $$f$$ und $$g$$ heißen gleich, wenn sie den gleichen Definitionsbereich $$X$$ haben und $$f(x)=g(x)$$ für alle $$x \in X$$ gilt.

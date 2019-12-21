@@ -1,0 +1,27 @@
+caption: Darstellende Matrix
+created: 20180601212802863
+creator: Leander
+modified: 20191003204826723
+modifier: Leander
+revision: 0
+tags: Sesquilinearform
+title: Darstellende Matrix (Sesquilinearformen)
+type: text/vnd.tiddlywiki
+
+Sei $$s$$ eine [[Sesquilinearform]] auf einem [[endlich-dimensionalen|Dimension]] $$K$$-[[Vektorraum]] $$V$$, Mit [[Basis]] $$\mathcal B=(v_1,\ldots,v_n)$$ und $$\Phi_\mathcal B$$ das dazugehörige [[Koordinatensystem]]. Wir betrachten die [[Matrix]]
+
+$$
+A=M_\mathcal B(s)\coloneqq(s(v_i,v_j))_{ij}\in K^{n\times n}.
+$$
+
+und für $$v,w\in V$$ die Koordinaten $$x=\Phi_\mathcal B^{-1}(v)$$ und $$y=\Phi_\mathcal B^{-1}(w)$$. Dann ist
+
+$$
+s(v,w)=x^\mathrm T A \bar y.
+$$
+
+---
+
+!! Transformationsformel
+
+{{Transformationsformel (Sesquilinearformen)}}

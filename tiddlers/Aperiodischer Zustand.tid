@@ -1,0 +1,17 @@
+created: 20190710230347512
+modified: 20190710230614440
+revision: 0
+tags: Markov-Kette
+title: Aperiodischer Zustand
+
+Sei $$i$$ ein Zustand einer [[Markov-Kette]]. Die Zahl
+
+$$
+d_i\coloneqq\operatorname{ggT}\left\{ n\in\N\mid p_{ii}^{(n)}>0 \right\}
+$$
+
+heißt //Periode// von $$i.$$ Der Zustand $$i$$ heißt //aperiodisch,// falls $$d_i=1.$$
+
+---
+
+* sind $$i$$ und $$j$$ [[äquivalent|Erreichbarkeit in Markov-Ketten]], so ist $$d_i=d_j.$$

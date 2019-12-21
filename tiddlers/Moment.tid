@@ -1,0 +1,7 @@
+created: 20190712173421801
+modified: 20190712173527270
+revision: 0
+tags: Erwartungswert
+title: Moment
+
+Für eine reellwertige [[Zufallsvariable]] $$X$$ und $$p\in\N$$ heißt $$\Bbb E(X^p)$$ das //$$p$$-te Moment// von $$X.$$

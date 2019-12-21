@@ -1,0 +1,10 @@
+created: 20170121124042580
+list: 
+modified: 20191011161819886
+tags: [[Euclidean geometry]]
+title: Thales' theorem
+type: text/vnd.tiddlywiki
+
+Every right triangle inside a circle (with all corners touching the circle) has to have the hypotenuse as the diameter of the circle.
+
+An elegant proof is to mirror a right triangle forming a rectangle, thus showing that half of the hypotenuse is equal to the distance from the halfway point of the hypotenuse to the opposing vertex. Also note that drawing a line from the halfway point of the hypotenuse to the opposing vertex cuts the triangle into two isosceles triangles.

@@ -1,0 +1,10 @@
+created: 20171122214509551
+creator: Leander
+list: 
+modified: 20191011205022859
+modifier: Leander
+tags: Folge no-toc
+title: Teilfolgen konvergenter Folgen
+type: text/vnd.tiddlywiki
+
+Ist $$\lim_{n\to\infty} x_n = a$$, so gilt $$\lim_{k\to\infty} x_{n_k} = a$$ für jede [[Teilfolge]] $$(x_{n_k})$$ von $$(x_n)$$.

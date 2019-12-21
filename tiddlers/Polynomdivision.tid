@@ -1,0 +1,22 @@
+created: 20171122195958048
+creator: Leander
+list: 
+modified: 20180725183345232
+modifier: Leander
+revision: 0
+tags: Polynom
+title: Polynomdivision
+type: text/vnd.tiddlywiki
+
+Seien $$f,g$$ zwei reelle oder [[komplexe|Komplexe Zahlen]] [[Polynome|Polynom]]. Dann gibt es eindeutig bestimmte Polynome $$q,r$$ mit
+$$
+f=qg+r, \quad \deg(r)<\deg(g).
+$$
+Sind $$f,g$$ reell, so auch $$q,r$$.
+
+''Korollar.''
+Ist $$a$$ eine Nullstelle eines Polynoms $$f$$, dann gibt es ein eindeutig bestimmtes Polynom $$q$$ mit
+$$
+f(z)=(z-a)q(z).
+$$
+In einem algebraisch abgeschlossenen Körper wie $$\mathbb C$$ (nach dem [[Fundamentalsatz der Algebra]]) zerfällt also jedes Polynom in linearfaktoren.

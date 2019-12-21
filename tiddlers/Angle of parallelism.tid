@@ -1,0 +1,11 @@
+created: 20190216142053534
+modified: 20191010174458392
+tags: no-toc [[Hyperbolic geometry]]
+title: Angle of parallelism
+type: text/vnd.tiddlywiki
+
+If $$l\subset H^2$$ is a [[hyperbolic line|Hyperbolic line]] and $$x\in H^2$$ is a point not on $$l,$$ then there exist two [[parallels|Parallel hyperbolic lines]] and infintely many ultra-parallels. The angle $$\alpha$$ between one of the parallels and the perpendicular through $$x$$ is called the //angle of parallelism.// It depends only on the distance $$b$$ from $$x$$ to $$l$$ and satisfies
+
+$$
+\alpha=2\arctan e^{-b}.
+$$

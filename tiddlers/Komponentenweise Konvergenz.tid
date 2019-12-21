@@ -1,0 +1,13 @@
+created: 20180427120748739
+creator: Leander
+modified: 20180602121519861
+modifier: Leander
+revision: 0
+tags: Folge
+title: Komponentenweise Konvergenz
+
+Sei $$(x_k)$$ eine [[Folge]] im $$\mathbb R^n$$ mit einer [[lp-Metrik|lp-Norm]] und $$1\le p\le\infty$$. Weiter sei $$x_k=(x_{k1},\ldots,x_{kn})$$ und $$a=(a_1,\ldots,a_n)\in\mathbb R^n$$. Dann gilt
+
+$$
+\lim_{k\to\infty}x_k=a\iff\forall j\colon\lim_{k\to\infty} x_{kj}=a_j.
+$$

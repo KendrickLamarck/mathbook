@@ -1,0 +1,11 @@
+created: 20180703190127026
+creator: Leander
+modified: 20180703190307647
+modifier: Leander
+revision: 0
+tags: Algorithmus
+title: Selection-Sort
+
+* Läuft in Zeit $$\Theta(n^2).$$
+* In-Place
+* Liefert auch für [[partielle Ordnungen|Partielle Ordnung]] eine [[topologische Sortierung|Topologische Sortierung]].

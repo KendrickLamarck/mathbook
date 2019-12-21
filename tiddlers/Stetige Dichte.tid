@@ -1,0 +1,12 @@
+created: 20190414140108840
+modified: 20191003234024721
+revision: 0
+tags: no-toc Dichte
+title: Stetige Dichte
+type: text/vnd.tiddlywiki
+
+Ist $$f\colon\Bbb R\to [0,\infty[$$ eine [[stetige|Stetigkeit]] nichtnegative Funktion, so gibt es genau ein [[Maß]] $$\mu$$ auf $$(\Bbb R,\mathcal B)$$ mit
+
+$$
+\mu(]a,b])=\int_a^b f(x)\,\mathrm dx.
+$$

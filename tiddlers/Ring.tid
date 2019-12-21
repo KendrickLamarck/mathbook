@@ -1,0 +1,24 @@
+created: 20171225225406253
+creator: Leander
+modified: 20190217184937747
+modifier: Leander
+revision: 0
+tags: Algebra
+title: Ring
+type: text/vnd.tiddlywiki
+
+Eine Menge $$R$$ zusammen mit zwei [[Verknüpfungen|Verknüpfung]] $$+$$ und $$\cdot$$ heißt //Ring//, wenn gilt:
+
+# $$(R;+)$$ ist eine abelsche [[Gruppe]].
+# $$(R;\cdot)$$ ist eine [[Halbgruppe]].
+# Es gelten für alle $$a,b,c \in R$$ die Distributivgesetze$$
+\begin{gathered}
+a\cdot(b+c)=a \cdot b+a \cdot c,\\
+(a+b) \cdot c = a \cdot c + b \cdot c.
+\end{gathered}$$
+
+Ein Ring heißt kommutativ, wenn $$a \cdot b = b \cdot a$$ für alle $$a,b \in R$$.
+
+Ein Element $$1 \in R$$ heißt Einselement, wenn $$1 \cdot a = a \cdot 1 = a$$ für alle $$a \in R$$.
+
+Ein Ring heißt nullteilerfrei, wenn für alle $$a,b \in R$$ aus $$a \cdot b = 0$$ stets $$a=0$$ oder $$b=0$$ folgt.

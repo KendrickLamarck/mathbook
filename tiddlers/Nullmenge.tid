@@ -1,0 +1,10 @@
+created: 20181127163249201
+modified: 20190406134236407
+revision: 0
+tags: Maß
+title: Nullmenge
+type: text/vnd.tiddlywiki
+
+Sei $$(\Omega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]]. Eine Menge $$N\subseteq\Omega$$ (also evtl. $$N\notin\mathcal F$$) heißt eine $$\mu$$-Nullmenge, falls $$N\subseteq F$$ für ein $$F\in\mathcal F$$ mit $$\mu(F)=0.$$
+
+Abzählbare Vereinigungen von Nullmengen sind wieder Nullmengen.

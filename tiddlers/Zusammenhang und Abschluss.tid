@@ -1,0 +1,9 @@
+created: 20180517181125958
+creator: Leander
+modified: 20180517182104756
+modifier: Leander
+revision: 0
+tags: Zusammenhang
+title: Zusammenhang und Abschluss
+
+Sei $$A\subset B\subset \bar A\subset X$$ und sei $$A$$ [[zusammenhängend|Zusammenhang]]. Dann ist auch $$B$$ zusammenhängend. Insbesondere ist auch $$\bar A$$ zusammenhängend.

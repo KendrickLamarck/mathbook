@@ -1,0 +1,19 @@
+created: 20180505135800029
+creator: Leander
+modified: 20180709204229767
+modifier: Leander
+revision: 0
+tags: Logik Mengenlehre
+title: De Morgan'sche Gesetze
+
+In der Logik:
+
+$$
+\neg(a\land b)=\neg a\lor\neg b,\qquad \neg(a\lor b)=\neg a\land\neg b.
+$$
+
+In der [[Mengenlehre]]:
+
+$$
+(A\cap B)^C=A^C\cup B^C,\qquad (A\cup B)^C=A^C\cap B^C.
+$$

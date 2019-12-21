@@ -1,0 +1,11 @@
+created: 20171225165452732
+creator: Leander
+list: 
+modified: 20180530202812421
+modifier: Leander
+revision: 0
+tags: Stetigkeit
+title: Satz vom Maximum
+type: text/vnd.tiddlywiki
+
+Seien $$(X,d_X),(Y,d_Y)$$ [[metrische Räume|Metrischer Raum]], $$\varnothing\ne A\subset X$$ [[kompakt|Kompaktheit]] und $$f\colon A\to\mathbb R$$ [[stetig|Stetigkeit]]. Dann nimmt $$f$$ ihr Maximum und Minimum an.

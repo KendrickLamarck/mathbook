@@ -1,0 +1,11 @@
+caption: Difference of two squares
+created: 20170906190254889
+modified: 20191004165521195
+revision: 0
+tags: Factoring no-toc
+title: Factoring the difference of two squares
+type: text/vnd.tiddlywiki
+
+$$
+a^2-b^2=(a-b)(a+b)
+$$

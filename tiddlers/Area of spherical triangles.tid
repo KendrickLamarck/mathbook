@@ -1,0 +1,8 @@
+caption: Area
+created: 20190216141729070
+modified: 20191008205740011
+tags: [[Spherical triangle]] no-toc
+title: Area of spherical triangles
+type: text/vnd.tiddlywiki
+
+The area of a spherical triangle with interior angles $$\alpha,\beta,\gamma$$ is $$\alpha+\beta+\gamma-\pi.$$

@@ -1,0 +1,13 @@
+created: 20181018205253473
+modified: 20191010155436481
+tags: [[Spherical geometry]]
+title: Hemisphere
+type: text/vnd.tiddlywiki
+
+A //hemisphere// is the intersection of $$S^2$$ with a half-space
+
+$$
+H=\{\,x\in\mathbb R^3\mid\langle x,n\rangle\ge 0\,\},\quad \|n\|=1.
+$$
+
+A hemisphere is bounded by a [[great circle|Great circle]]. One of its poles, $$n,$$ lies inside the hemisphere, the other, $$-n$$ outside.

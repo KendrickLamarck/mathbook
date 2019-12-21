@@ -1,0 +1,18 @@
+created: 20180411144503853
+creator: Leander
+modified: 20180725180553027
+modifier: Leander
+revision: 0
+tags: Zahldarstellung
+title: Maschinengenauigkeit
+
+Es sei $$F$$ [[Maschinenzahlbereich|Maschinenzahl]] mit [[Rundung]] $$\operatorname{rd}$$. Die //Maschinengenauigkeit// von $$F$$ ist
+
+$$
+\operatorname{eps}(F)\coloneqq\sup\left\{\left|\frac{x-\operatorname{rd}(x)}{x}\right|:
+x\in\mathbb R \land |x|\in\operatorname{range}(F)\right\},
+$$
+
+wobei $$\operatorname{range}(F)\coloneqq [F_{\min},F_{\max}]$$ für $$F_{\min},F_{\max}$$ die kleinste bzw. größte darstellbare positive Zahl.
+
+{{Maschinenzahlarithmetik}}

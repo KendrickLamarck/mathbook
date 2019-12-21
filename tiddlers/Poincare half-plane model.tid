@@ -1,0 +1,34 @@
+created: 20190216195554333
+modified: 20191010174458129
+tags: [[Hyperbolic geometry]]
+title: Poincaré half-plane model
+type: text/vnd.tiddlywiki
+
+The Poincaré half-plane model is obtained by steregraphically projecting the upper hemisphere model from a point on the equator, e.g. $$e_1,$$ to the plane $$x_1=0$$ which we identify with the upper half-plane
+
+$$
+H^2_+=\left\{\begin{pmatrix} u_1\\u_2 \end{pmatrix}\in \Bbb R^2\mid u_2>0\right\}.
+$$
+
+Hyperbolic lines are represented in $$H^2_+$$ by half-circles meeting the $$u_1$$-axis orthogonally and vertical lines.
+
+Hyperbolic lengths and angles can be measured with the [[Riemannian metric]]
+
+$$
+g_p(v,w)=\frac 1 {u_2^2} \langle v,w\rangle_{\Bbb R^2}.
+$$
+
+!! Isometries
+
+The [[isometries|Isometrie]] are the [[Möbius transformations|Möbius transformation]] that map the upper half-plane $$\operatorname{Im} z>0$$ to itself. These are the maps
+
+$$
+z\mapsto\frac{az+b}{cz+d},\ ad-bc>0,\quad
+z\mapsto\frac{a\bar z+b}{c\bar z+d},\ ad-bc<0
+$$
+
+with $$a,b,c,d\in\Bbb R,$$ which is the group $$\mathrm{PSL}(2,\Bbb R).$$
+
+!! Map to Klein model
+
+{{Mapping the Klein- to the Poincaré model}}

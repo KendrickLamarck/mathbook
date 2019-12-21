@@ -1,0 +1,11 @@
+created: 20180106170512494
+creator: Leander
+list: 
+modified: 20191003221240319
+modifier: Leander
+revision: 0
+tags: no-toc Monotonie
+title: Monotoniekriterium
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon\mathbb{R}\supset J \to \mathbb{R}$$ [[stetig|Stetigkeit]] auf dem Intervall $$J$$ und [[differenzierbar|Ableitung]] mit $$f'(x) > 0$$ in allen [[inneren Punkten|Innerer Punkt]] $$x$$ von $$J$$. Dann ist $$f$$ streng [[monoton|Monotonie]] steigend. Gilt nur $$f'(x) \geq 0$$, so folgt die schwache Monotonie. Entsprechendes gilt für $$f'<0$$ bzw. $$ f'\leq 0$$.

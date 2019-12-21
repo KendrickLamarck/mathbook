@@ -1,0 +1,11 @@
+created: 20180220192317747
+list: 
+modified: 20191011203232276
+tags: Folge
+title: Existenz von Infimum, Supremum und Folgen
+type: text/vnd.tiddlywiki
+
+Ist $$A \subset \mathbb{R}$$ nicht leer, dann gilt:
+
+# Es gibt in $$A$$ eine [[monoton|Monotonie]] fallende Folge $$(a_n)$$ und eine monoton wachsende Folge $$(b_n)$$ mit $$\lim a_n = \inf A$$ und $$\lim b_n = \sup A$$.
+# Ist $$A$$ nach oben bzw. unten beschränkt, so existiert $$\sup A \in \mathbb{R}$$ bzw. $$\inf A \in \mathbb{R}$$.

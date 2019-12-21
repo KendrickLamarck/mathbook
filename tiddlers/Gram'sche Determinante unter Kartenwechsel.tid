@@ -1,0 +1,14 @@
+created: 20190408004327130
+modified: 20191004233843203
+revision: 0
+tags: [[Integrale über Untermannigfaltigkeiten]] no-toc
+title: Gram'sche Determinante unter Kartenwechsel
+type: text/vnd.tiddlywiki
+
+Sei $$\varphi\colon T\to V\subseteq M$$ und $$\tilde\varphi\colon\tilde T\to\tilde V\subseteq M$$ zwei [[Karten|Karte]] der $$k$$-dimensionalen [[Mannigfaltigkeit]] $$M\subseteq\Bbb R^d$$ und $$g\colon T\to\Bbb R$$ und $$\tilde g\colon\tilde V\to\Bbb R$$ die zugehörigen [[Gram'schen Determinanten|Gram'sche Determinante von Karten]]. Es gelte $$V\cap\tilde V\ne\varnothing.$$ O.b.d.A. sei $$V=\tilde V.$$ Sei $$\tau\colon\tilde T\to T$$ ein [[Kartenwechsel]], d.h. eine $$\mathcal C^\alpha$$-invertierbare Abbildung mit $$\tilde\varphi=\varphi\circ\tau.$$ Dann gilt
+
+$$
+\tilde g(y)=
+\left|\det(\mathrm D_y\tau)\right|^2 g(\tau(y)),\quad
+y\in\tilde\tau
+$$

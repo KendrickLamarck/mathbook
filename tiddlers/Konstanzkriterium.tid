@@ -1,0 +1,11 @@
+created: 20180106183203467
+list: 
+modified: 20181009150343585
+revision: 0
+tags: [[Ableitung in R]]
+title: Konstanzkriterium
+type: text/vnd.tiddlywiki
+
+Ist $$f\colon\mathbb{R} \supset J \to \mathbb{R}$$ [[stetig|Stetigkeit]] auf dem Intervall $$J$$ und [[differenzierbar|Ableitung]] mit $$f'(x)=0$$ im [[Inneren|Innerer Punkt]] von $$J$$, dann ist $$f$$ konstant auf $$J$$.
+
+Haben also zwei Funktionen auf einem Intervall dieselbe Ableitung, so unterscheiden sie sich nur durch eine additive Konstante.

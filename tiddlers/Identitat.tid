@@ -1,0 +1,13 @@
+created: 20171111165248785
+creator: Leander
+modified: 20180519135240609
+modifier: Leander
+revision: 0
+tags: [[Wichtige Funktionen]]
+title: Identität
+type: text/vnd.tiddlywiki
+
+Sei $$X$$ eine Menge und $$x\in X$$. Die Identität oder identische [[Abbildung]] ist definiert als 
+$$
+\operatorname{id}_X: X \to X, \quad x \mapsto x.
+$$

@@ -1,0 +1,12 @@
+created: 20171122201906124
+list: 
+modified: 20180410191952571
+revision: 0
+tags: Polynom
+title: Grad von Polynomen
+type: text/vnd.tiddlywiki
+
+Ist $$\sum_{k=0}^{n} a_k x^k$$ ein [[Polynom]] und $$a_n \neq 0$$, so heißt $$n$$ der //Grad// von $$f$$. Das Nullpolynom hat definitionsmäßig Grad $$-\infty$$. Für zwei Polynome $$f \neq 0 \neq g$$ gilt
+$$
+\deg(fg)=\deg(f)+\deg(g).
+$$

@@ -1,0 +1,15 @@
+created: 20180221201224492
+creator: Leander
+list: 
+modified: 20180724124519344
+modifier: Leander
+revision: 0
+tags: Polynom
+title: pq-Formel
+type: text/vnd.tiddlywiki
+
+Eine [[Polynomfunktion|Polynom]] $$x^2+px+q$$ hat die Nullstellen
+
+$$
+x_{1,2}=-\frac{p}{2}\pm\sqrt{\left(\frac{p}{2}\right)^2-q}
+$$

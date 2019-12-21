@@ -1,0 +1,20 @@
+created: 20170119012725605
+list: 
+modified: 20180410191954043
+revision: 0
+tags: [[Grenzwert von Funktionen]]
+title: Squeeze theorem
+type: text/vnd.tiddlywiki
+
+If$$
+g(x)\leqslant f(x)\leqslant h(x)
+$$
+for all $$x$$ and
+$$
+\lim_{x\to a} g(x) = \lim_{x\to a} h(x) = L,
+$$
+then
+$$
+\lim_{x\to a} f(x) = L.
+$$
+Analog für [[Folgen|Folge]].

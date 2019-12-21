@@ -1,0 +1,11 @@
+created: 20180626201624031
+creator: Leander
+modified: 20180627205135609
+modifier: Leander
+revision: 0
+tags: Algorithmus Graph
+title: Kruskals Algorithmus
+
+Dies ist ein [[Greedy-Algorithmus|Greedy-Algorithmus und Matroide]], der zu einem gegebenen zusammenhängenden gewichteten Graphen einen aufspannenden Baum minimalen Gewichts findet.
+
+Es werden die Kanten nach aufsteigendem Gewicht sortiert und dann, wann immer kein Kreis entsteht (&rarr; [[Union-Find]]) zum Baum hinzugefügt.

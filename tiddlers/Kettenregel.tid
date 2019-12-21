@@ -1,0 +1,14 @@
+created: 20180529173335249
+creator: Leander
+modified: 20190325192953716
+modifier: Leander
+revision: 0
+tags: Ableitung
+title: Kettenregel
+type: text/vnd.tiddlywiki
+
+Seien $$U,V,W$$ [[endlichdimensionale|Dimension]] [[Banachräume|Banachraum]], $$G\subset U$$ und $$H\subset V$$ [[offen|Offenheit (metrische Räume)]], $$g\colon G\to V$$ und $$f\colon H\to W$$ Abbildungen mit $$g(G)\subset H$$. Sei $$g$$ [[differenzierbar|Ableitung]] in $$p\in G$$ und $$f$$ differenzierbar in $$q=g(p)\in H.$$ Dann ist die Abbildung $$f\circ g\colon G\to W$$ differenzierbar in $$p$$ und es gilt
+
+$$
+\mathrm D_p(f\circ g)=\mathrm D_q f\circ\mathrm D_p g.
+$$

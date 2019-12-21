@@ -1,0 +1,17 @@
+created: 20180407143354649
+creator: Leander
+modified: 20180725180942416
+modifier: Leander
+revision: 0
+tags: Permutation Determinante
+title: Determinante und Permutationen
+type: text/vnd.tiddlywiki
+
+Für jede [[Permutation]] $$\sigma\in S_n$$ gilt
+
+$$
+\det\begin{pmatrix}
+e_{\sigma(1)} \\ \vdots \\ e_{\sigma(n)}
+\end{pmatrix}
+=\operatorname{sign}\sigma.
+$$

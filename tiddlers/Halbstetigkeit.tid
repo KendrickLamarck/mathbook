@@ -1,0 +1,37 @@
+created: 20180708182404561
+creator: Leander
+modified: 20190102003828584
+modifier: Leander
+revision: 0
+tags: Stetigkeit
+title: Halbstetigkeit
+type: text/vnd.tiddlywiki
+
+Sei $$(X,d)$$ ein [[metrischer Raum|Metrischer Raum]] und $$f\colon X\to\mathbb R.$$ Sei $$p\in X.$$ Dann heißt $$f$$ //unterhalbstetig in $$p,$$// falls
+
+$$
+\liminf_{x\to p} f(x)\ge f(p).
+$$
+
+oder anders ausgedrückt
+
+$$
+\forall\epsilon>0\ \exists\delta>0\ \forall x\in X\colon\quad
+d(x,p)<\delta\implies f(x)\ge f(p)-\epsilon.
+$$
+
+Analog definiert man //oberhalbstetig//.
+
+---
+
+!! Äquivalente Charakterisierungen
+
+* Eine Funktion $$f\colon\Bbb R^d\to\Bbb R\cup\{\infty\}$$ ist genau dann unterhalbstetig in $$x\in\mathbb R^d,$$ wenn zu jedem $$c\in\Bbb R$$ mit $$c<f(x)$$ ein $$\delta>0$$ existiert mit $$c<f(y)$$ für jedes $$y\in\Bbb R^d$$ mit $$\|y-x\|<\delta.$$
+
+* Eine Funktion $$f\colon\Bbb R^d\to\Bbb R\cup\{\infty\}$$ ist genau dann unterhalbstetig in $$x\in\mathbb R^d,$$ wenn gilt: $$
+\lim_{\epsilon\downarrow 0}\inf_{y\in B_\epsilon(x)} f(y)=f(x).$$
+
+* Eine Funktion $$f\colon\Bbb R^d\to\Bbb R\cup\{\infty\}$$ ist genau dann unterhalbstetig, wenn die Niveaumengen $$\{f\le s\}=\{x\in\Bbb R^d:f(x)\le s\}$$ für jedes $$s\in\Bbb R$$ [[abgeschlossen|Abgeschlossenheit]] sind.
+
+''Bemerkung.''
+Jede oberhalbstetige Funktion $$f\colon\Bbb R^d\to\Bbb R\cup\{-\infty\}$$ nimmt auf jeder [[kompakten|Kompaktheit]] Menge $$K\subseteq\Bbb R^d$$ ihr Maximum an.

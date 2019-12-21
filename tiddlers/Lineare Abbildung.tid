@@ -1,0 +1,43 @@
+caption: Lineare Abbildungen
+created: 20180319182805396
+creator: Leander
+list: [[Eindeutigkeit linearer Abbildungen]] Kern-Bild-Zerlegung Faktorisierungssatz [[Bild (lineare Abbildung)]] Faser Kern Rang [[Darstellende Matrix (lineare Abbildungen)]] Isomorphismus Endomorphismus Automorphismus [[Lineare Funktionenräume]] [[Semilinear map]]
+modified: 20191004225307435
+modifier: Leander
+revision: 0
+tags: [[Lineare Algebra]]
+title: Lineare Abbildung
+type: text/vnd.tiddlywiki
+
+Eine [[Abbildung]] $$F\colon V\to W$$ zwischen $$K$$-[[Vektorräumen|Vektorraum]] $$V$$ und $$W$$ heißt //linear// (genauer //$$K$$-linear// oder [[Homomorphismus]] von $$K$$-Vektorräumen), wenn
+
+# $$F(v+w) = F(v)+F(w)$$ <div style="float: right;">(additivität),</div>
+# $$F(\lambda v) = \lambda F(v)$$ <div style="float: right;">(homogenität von Grad 1)</div>
+
+für alle $$v,w\in V$$ und alle $$\lambda\in K$$. Diese kann man weiter für alle $$\mu\in K$$ zusammenfassen zu
+
+$$
+F(\lambda v+\mu w) = \lambda F(v) + \mu F(w).
+$$
+
+!!! Eigenschaften
+
+* $$F(0)=0$$ und $$F(v-w)=F(v)-F(w).$$
+* $$F(\lambda_1 v_1+\ldots+\lambda_n v_n) = \lambda_1 F(v_1)+\ldots+\lambda_n F(v_n).$$
+* Ist die Familie $$(v_i)_{i\in I}$$ in $$V$$ [[linear abhängig|Lineare Unabhängigkeit]], so ist $$(F(v_i))_{i\in I}$$ linear abhängig.
+* Sind $$V'\subset V$$ und $$W'\subset W$$ Untervektorräume, so sind auch $$F(V')\subset W$$ und $$F^{-1}(W')\subset V$$ Untervektorräume.
+* $$\dim F(V) \le \dim V.$$
+* Ist $$F$$ ein [[Isomorphismus]], so ist auch $$F^{-1}\colon W\to V$$ linear.
+* Die Verknüpfung $$F\circ G$$ zweier linearer Abbildungen $$G\colon U\to V$$ und $$F\colon V\to W$$ ist wieder linear.
+
+!! Bild
+
+{{Bild (lineare Abbildung)}}
+
+!! Faser
+
+{{Faser}}
+
+!! Kern
+
+{{Kern}}

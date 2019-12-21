@@ -1,0 +1,14 @@
+caption: Existence and uniqueness
+created: 20190216141744341
+modified: 20191008205719009
+tags: no-toc [[Spherical triangle]]
+title: Existence and uniqueness of spherical triangles
+type: text/vnd.tiddlywiki
+
+Let $$a,b,c\in\mathbb R.$$ Then $$a,b,c$$ satisfy the inequalities
+
+$$
+-a+b+c>0,\quad a-b+c>0,\quad a+b-c>0,\quad a+b+c<2\pi
+$$
+
+if and only if there is a spherical triangle with side lengths $$a,b,c.$$ If it exists, this triangle is unique up to an orthogonal transformation of $$\mathbb R^3.$$

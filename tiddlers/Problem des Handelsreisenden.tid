@@ -1,0 +1,22 @@
+created: 20180415145635752
+creator: Leander
+modified: 20180725162310982
+modifier: Leander
+revision: 0
+tags: Optimierung
+title: Problem des Handelsreisenden
+
+Gegeben seien endlich viele Punkte $$p_1,\ldots,p_n\in\mathbb R^2$$. Gesucht ist der kürzeste Kreis durch alle Punkte: Für eine [[Permutation]] $$\sigma\in S_n$$ mit $$\sigma(1)=1$$ ist
+
+$$
+\ell(\sigma)\coloneqq\lVert p_{\sigma(1)}-p_{\sigma(n)}\rVert
++\sum_{k=2}^n\lVert p_{\sigma(k)}-p_{\sigma(k-1)}\rVert
+$$
+
+die //Länge// der Tour zu $$\sigma$$. Das Ziel ist es
+
+$$
+\min\{\,\ell(\sigma):\sigma\in S_n\text{ mit }\sigma(1)=1\,\}
+$$
+
+zu bestimmen.

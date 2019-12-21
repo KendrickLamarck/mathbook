@@ -1,0 +1,9 @@
+created: 20180529211118671
+creator: Leander
+modified: 20191011214353573
+modifier: Leander
+tags: Abgeschlossenheit no-toc
+title: Abgeschlossene Produktmengen
+type: text/vnd.tiddlywiki
+
+Seien $$A_1,\dots,A_n\subset\mathbb R$$ [[abgeschlossen|Abgeschlossenheit]]. Dann ist auch $$A_1\times\dots\times A_n\subset\mathbb R^n$$ abgeschlossen.

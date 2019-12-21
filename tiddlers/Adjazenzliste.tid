@@ -1,0 +1,9 @@
+created: 20180413104012265
+creator: Leander
+modified: 20191011181942410
+modifier: Leander
+tags: [[Datenstrukturen für Graphen]] no-toc
+title: Adjazenzliste
+type: text/vnd.tiddlywiki
+
+In dieser Datenstruktur verwaltet jeder Knoten eine Liste der zu ihm adjazenten Knoten oder der zu ihm inzidenten Kanten. In einem gerichteten Graphen Ist es eine Liste aller Nachfolger des Knoten oder aller ausgehenden Kanten, oder man verwaltet zwei Listen, je mit eingehenden und ausgehenden Kanten.

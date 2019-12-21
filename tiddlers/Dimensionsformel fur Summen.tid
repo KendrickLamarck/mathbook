@@ -1,0 +1,14 @@
+created: 20180108175737990
+creator: Leander
+modified: 20191003193201488
+modifier: Leander
+revision: 0
+tags: no-toc [[Summe von Vektorräumen]]
+title: Dimensionsformel für Summen
+type: text/vnd.tiddlywiki
+
+Für [[endlichdimensionale|Dimension]] [[Untervektorräume|Untervektorraum]] $$W_1,W_2\subset V$$ gilt
+
+$$
+\dim(W_1+W_2) = \dim W_1 + \dim W_2 - \dim(W_1 \cap W_2).
+$$

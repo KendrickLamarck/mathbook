@@ -1,0 +1,17 @@
+created: 20171031162102537
+creator: Leander
+modified: 20180725163048927
+modifier: Leander
+revision: 0
+tags: Mengenlehre
+title: Intervall
+type: text/vnd.tiddlywiki
+
+Seien $$a,b \in \mathbb{R}$$. Dann heißen
+
+# $$[a,b] \coloneqq \{\, x \in \mathbb{R} : a \le x \le b \,\}$$ [[abgeschlossenes|Abgeschlossenheit]] ([[kompaktes|Kompaktheit]]) Intervall
+# $$(a,b) = {]a,b[} \coloneqq \{\, x \in \mathbb{R} : a < x < b \,\}$$ [[offenes|Offenheit (metrische Räume)]] Intervall
+# $$(a,b] = {]a,b]} \coloneqq \{\, x \in \mathbb{R} : a < x \le b \,\}$$ halboffenes, genauer links Intervall,
+u.s.w.
+
+Intervalle sind Mengen, die mit zwei Punkten auch alle Punkte dazwischen enthalten, gilt also $$x<z<y$$ und $$x,y\in J$$, dann ist auch $$z\in J$$.

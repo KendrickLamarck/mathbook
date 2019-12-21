@@ -1,0 +1,29 @@
+created: 20171225144344315
+creator: Leander
+list: 
+modified: 20191003221904453
+modifier: Leander
+revision: 0
+tags: no-toc [[Grenzwert von Funktionen]]
+title: Einseitiger Grenzwert
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon\mathbb{R} \supset D \to \mathbb{R}$$ eine [[Funktion|Abbildung]]. Seien $$p,a \in \mathbb{R}$$ und $$p$$ ein "linksseitiger [[Häufungspunkt|Häufungspunkt (Mengen)]]" von $$D$$, d.h. $$D \cap (p-\delta,p) \neq \varnothing$$ für alle $$\delta > 0$$. Wir sagen $$a$$ ist der linksseitige [[Grenzwert|Grenzwert von Funktionen]] von $$f(x)$$ für $$x \to p$$, wenn folgendes gilt:
+
+$$
+\forall\epsilon > 0(\exists\delta > 0(\forall x \in D(p-\delta < x < p \implies |f(x)-a| < \epsilon))).
+$$
+
+Es gibt dann die folgenden Schreibweisen:
+
+$$
+\lim_{x \nearrow p} f(x) = \lim_{x \uparrow p} f(x) = f(p-0) = f(p-) = a
+$$
+
+sowie $$f(x) \to a$$ für $$x \nearrow p$$.
+
+Entsprechend definiert man den rechtsseitigen Grenzwert $$\lim_{x \searrow p} f(x)$$.
+
+!! Existenz des Grenzwerts
+
+{{Existenz des Grenzwerts und einseitige Grenzwerte}}

@@ -1,0 +1,14 @@
+created: 20191010224234286
+modified: 20191011155155299
+tags: no-toc [[Lorentz vector space]]
+title: Lorentz transformation
+type: text/vnd.tiddlywiki
+
+A //Lorentz transformation// is any linear map that is [[orthogonal|Orthogonale/unitäre Matrix]] with respect to the [[Lorentz scalar product|Lorentz vector space]], i.e. an element of $$\mathrm O(n,1).$$ Such a transformation either maps each connected component of the [[hyperboloid|Hyperboloid model]] $$\langle x,x\rangle=-1$$ onto itself or it interchanges the two components. The transformations that map each component onto itself form a subgroup denoted by $$\mathrm O^+(n,1)$$ which can be defined as
+
+$$
+\mathrm O^+(n,1)\coloneqq
+\{A\in\mathrm O(n,1)\mid\langle Ae_{n+1},e_{n+1}\rangle <0\}.
+$$
+
+We further define $$\mathrm{SO}^+(n,1)\coloneqq\mathrm O^+(n,1)\cap\mathrm{SO}(n,1).$$

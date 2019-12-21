@@ -1,0 +1,22 @@
+created: 20180611221544130
+creator: Leander
+modified: 20191003233105387
+modifier: Leander
+revision: 0
+tags: no-toc [[Höhere Ableitungen]]
+title: Höhere Ableitungen auf dem Rn
+type: text/vnd.tiddlywiki
+
+Ist $$f\colon\mathbb R^n\supset G\to W$$ in $$p\in G$$ $$k$$-mal [[differenzierbar|Höhere Ableitungen]] und hat man $$k$$ Vektoren
+
+$$
+v_j=(v_{1j},\dots,v_{nj})\in\mathbb R^n,\qquad j\in\{1,\dots,k\},
+$$
+
+gegeben, so gilt
+
+$$
+\mathrm D_p^k f(v_1,\dots,v_k)=
+\sum_{i_1,\dots,i_k=1}^n
+\partial_{i_1}\cdots\partial_{i_k} f(p) v_{{i_1}1}\cdots v_{{i_k}k}.
+$$

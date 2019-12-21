@@ -1,0 +1,13 @@
+created: 20180226122200882
+list: 
+modified: 20191003225923559
+revision: 0
+tags: no-toc Reihe
+title: Umordnungssatz
+type: text/vnd.tiddlywiki
+
+Sei $$\sum_{k=0}^\infty a_k'$$ eine [[Umordnung]] der Reihe $$\sum_{k=0}^\infty a_k$$. Ist die Reihe $$\sum_{k=0}^\infty a_k$$ [[absolut konvergent|Absolute Konvergenz]], so ist die Reihe $$\sum_{k=0}^\infty a_k'$$ ebenfalls absolut konvergent und beide Reihen haben dieselbe Summe:
+
+$$
+\sum_{k=0}^\infty a_k' = \sum_{k=0}^\infty a_k.
+$$

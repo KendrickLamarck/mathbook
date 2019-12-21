@@ -1,0 +1,23 @@
+created: 20190523220803270
+modified: 20190708223809175
+revision: 0
+tags: Stochastik
+title: Varianz
+
+Sei $$X$$ eine reellwertige [[Zufallsvariable]] mit endlichem [[Erwartungswert]] $$|\Bbb E(X)|<\infty.$$ Dann heißt die mittlere quadratische Abweichung von $$X$$ um ihren Erwartungswert
+
+$$
+V(X)\coloneqq\Bbb E\left((X-\Bbb E(X))^2\right)\in [0,\infty]
+$$
+
+die //Varianz// der Zufallsvariablen $$X.$$
+
+{{Standardabweichung}}
+
+---
+
+!! Eigenschaften
+
+* $$V(aX+b)=a^2 V(X)$$ für alle $$a,b\in\Bbb R.$$
+* $$V(X)=\Bbb E(X^2)-\Bbb E(X)^2$$ (Verschiebungssatz).
+* {{Identität von Bienaymé}}

@@ -1,0 +1,17 @@
+created: 20171225133138926
+creator: Leander
+modified: 20191011214341677
+modifier: Leander
+tags: Topologie [[Metrischer Raum]]
+title: Abgeschlossenheit
+type: text/vnd.tiddlywiki
+
+Eine Teilmenge $$Y\subset X$$ eines [[topologischen Raumes|Topologie]] $$(X,\mathcal T)$$ heißt //abgeschlossen//, wenn $$X\setminus Y$$ [[offen|Offenheit]] ist.
+
+!! Folgenabgeschlossenheit
+
+{{Folgenabgeschlossenheit}}
+
+!! Produktmengen in $$\R^n$$
+
+{{Abgeschlossene Produktmengen}}

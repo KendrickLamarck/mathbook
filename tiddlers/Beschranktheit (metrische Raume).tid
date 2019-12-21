@@ -1,0 +1,21 @@
+caption: Beschränktheit
+created: 20180416183705899
+creator: Leander
+modified: 20180725163819332
+modifier: Leander
+revision: 0
+tags: [[Metrischer Raum]]
+title: Beschränktheit (metrische Räume)
+
+Sei $$(Y,d)$$ ein [[metrischer Raum|Metrischer Raum]].
+
+* $$A\subset Y$$ heißt //beschränkt//, wenn gilt:
+** Zu jedem $$y\in Y$$ gibt es ein $$M\in\mathbb R$$ mit $$d(y,y')\le M$$ für alle $$y'\in A$$.
+* Ist $$Y\ne\varnothing$$, so ist das äquivalent zu folgender Bedingung:
+** Es gibt ein $$y\in Y$$ und ein $$M\in\mathbb R$$ mit $$d(y,y')\le M$$ für alle $$y'\in A$$.
+* Für $$\varnothing\ne A\subset Y$$ heißt$$
+\operatorname{diam}A\coloneqq\sup\{\,d(y,y'):y,y'\in A\,\}
+$$der //Durchmesser// von $$A$$. Wir setzen $$\operatorname{diam}\varnothing\coloneqq 0.$$
+* Eine Abbildung $$f\colon X\to Y$$ einer Menge $$X$$ heißt //beschränkt//, wenn $$f(X)\subset Y$$ beschränkt ist.
+
+Eine Teilmenge $$A$$ des metrischen Raumes $$(Y,d)$$ ist genau dann beschränkt, wenn sie endlichen Durchmesser hat.

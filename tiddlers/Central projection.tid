@@ -1,0 +1,19 @@
+created: 20190217191213823
+modified: 20191008215424535
+tags: [[Projective transformation]]
+title: Central projection
+type: text/vnd.tiddlywiki
+
+Let $$E_1=P(U_1)$$ and $$E_2=P(U_2)$$ be two hyperplanes in a projective space $$P(V)$$ and let $$W\in P(V)$$ be a point not on $$E_1$$ or $$E_2.$$ Then the //central projection// from $$E_1$$ to $$E_2$$ with center $$W$$ is the map $$\hat f\colon E_1\to E_2$$ that maps a point $$A\in E_1$$ to the intersection of $$E_2$$ with the line through $$W$$ and $$A.$$
+
+This is a [[projective transformation|Projective transformation]].
+
+More generally, in an $$n$$-dimensional [[projective space|Projective space]] $$P(V),$$ one can project one $$k$$-plane $$E_1$$ to another $$k$$-plane $$E_2$$ from any $$(n-k-1)$$-plane $$E_C$$ which does not intersect $$E_1$$ or $$E_2$$ as center of projecting: A point $$A\in E_1$$ is mapped to the intersection of $$E_2$$ with the $$(n-k)$$-plane spanned by $$A$$ and $$E_C.$$
+
+!! Projections between lines
+
+{{Projective transformations between lines}}
+
+!! Dual central projection
+
+{{Dual central projection}}

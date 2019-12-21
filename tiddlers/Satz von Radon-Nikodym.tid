@@ -1,0 +1,10 @@
+created: 20190122140321442
+creator: Leander
+modified: 20191003234017019
+modifier: Leander
+revision: 0
+tags: no-toc Dichte
+title: Satz von Radon-Nikodym
+type: text/vnd.tiddlywiki
+
+Seien $$\mu$$ und $$\nu$$ zwei $$\sigma$$-endliche [[Maße|Maß]] auf $$(\Omega,\mathcal F)$$ mit $$\nu\ll\mu.$$ Dann existiert eine [[Dichte]] von $$\nu$$ bezüglich $$\mu.$$

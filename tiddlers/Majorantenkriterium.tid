@@ -1,0 +1,9 @@
+created: 20180211212655699
+list: 
+modified: 20191003224246534
+revision: 0
+tags: no-toc Reihe
+title: Majorantenkriterium
+type: text/vnd.tiddlywiki
+
+Seien $$\sum_{k=0}^\infty a_k$$ eine [[Reihe]] und $$\sum_{k=0}^\infty b_k$$ eine konvergente reelle Reihe. Es gelte $$|a_k|\le b_k$$ für fast alle $$k$$. Dann ist auch die Reihe $$\sum_{k=0}^\infty a_k$$ absolut konvergent, also konvergent.

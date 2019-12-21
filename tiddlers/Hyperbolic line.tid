@@ -1,0 +1,33 @@
+caption: Lines
+created: 20181116220117484
+creator: Leander
+list: [[Hyperbolic metric]] [[Intersecting hyperbolic lines]] [[Angles in hyperbolic space]] [[Perpendicular hyperbolic lines]] [[Parallel hyperbolic lines]] [[Distances of points and lines in hyperbolic space]]
+modified: 20191010175137741
+modifier: Leander
+tags: [[Hyperbolic geometry]]
+title: Hyperbolic line
+type: text/vnd.tiddlywiki
+
+A //hyperbolic line// in $$n$$-dimensional [[hyperbolic space|Hyperbolic geometry]] $$H^n$$ is a non-empty intersection of $$H^n$$ with a 2-dimensional [[linear subspace|Untervektorraum]] $$U\subset\mathbb R^{n+1}.$$
+
+If $$U$$ is such a linear subspace, then the restriction $$\langle\cdot,\cdot\rangle|_U$$ has [[signature|Signatur]] $$(1,1).$$
+
+!! Intersection and parallelism
+
+{{Parallel hyperbolic lines}}
+
+!!! Intersecting lines
+
+{{Intersecting hyperbolic lines}}
+
+!!! Angle of parallelism
+
+{{Angle of parallelism}}
+
+!! Perpendicular lines
+
+{{Perpendicular hyperbolic lines}}
+
+!! Distances of points and lines
+
+{{Distances of points and lines in hyperbolic space}}

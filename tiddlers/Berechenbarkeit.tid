@@ -1,0 +1,13 @@
+created: 20180708144723160
+creator: Leander
+modified: 20180718201503530
+modifier: Leander
+revision: 0
+tags: Algorithmus
+title: Berechenbarkeit
+
+Eine Funktion $$f\colon D\to E$$ (eindeutiges [[Berechnungsproblem]]) heißt //berechenbar,// falls es eine [[deterministische Turingmaschine|Turingmaschine]] gibt, die bei Input $$x\in D$$ nach endlich vielen Schritten terminiert und Output $$f(x)$$ liefert.
+
+Eine [[Sprache]] $$L\subset\Sigma^*$$ heißt //entscheidbar// oder //rekursiv,// falls das zugehörige [[Entscheidungsproblem|Sprachen und Entscheidungsprobleme]] berechenbar ist.
+
+Eine Sprache $$L\subset\Sigma^*$$ heißt //semi-entscheidbar// oder //rekursiv aufzählbar,// wenn es eine DTM gibt, die bei Input $$x\in\Sigma^*$$ genau dann nach endlich vielen Schritten in akzeptierendem Endzustand terminiert, wenn $$x\in L.$$

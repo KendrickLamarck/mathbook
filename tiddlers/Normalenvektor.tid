@@ -1,0 +1,20 @@
+created: 20190212153013018
+modified: 20190705140855698
+revision: 0
+tags: Mannigfaltigkeit [[Kompaktum mit glattem Rand]]
+title: Normalenvektor
+type: text/vnd.tiddlywiki
+
+!! Mannigfaltigkeiten
+
+Seien $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit|Mannigfaltigkeit]] und $$a\in M.$$ Ein Vektor $$v\in\Bbb R^d$$ heißt ein //Normalenvektor// von $$M$$ in $$a,$$ wenn er auf $$\mathrm T_a M$$ senkrecht steht, also wenn für jedes $$w\in\mathrm T_a M$$ gilt: $$\langle v,w\rangle=0.$$ Mit $$\mathrm N_a M$$ bezeichnen wir die Menge der Normalenvektoren von $$M$$ in $$a.$$
+
+!! Kompakta mit glattem Rand
+
+Sei $$A\subseteq\Bbb R^d$$ ein [[Kompaktum mit glattem Rand]] und sei $$a\in\partial A.$$ Dann gibt es genau einen Vektor $$\nu(a)\in\Bbb R^d$$ mit den folgenden Eigenschaften:
+
+# $$\nu(a)$$ steht senkrecht auf $$\mathrm T_a(\partial A),$$
+# $$\|\nu(a)\|=1,$$
+# Es gibt ein $$\epsilon>0$$ mit $$a+t\nu(a)\in A^c$$ für alle $$t\in{]0,\epsilon[}.$$
+
+Dieser Vektor $$\nu(a)$$ heißt //äußerer Einheits-Normalenvektor// von $$A$$ in $$a.$$ Die Funktion, die jedem Randpunkt eines Kompaktums imt glattem Rand seinen äußeren Einheits-Normalenvektor zuordnet, nennen wir auch das //äußere Einheits-Normalenfeld.//

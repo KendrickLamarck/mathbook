@@ -1,0 +1,16 @@
+created: 20180416183456002
+creator: Leander
+modified: 20180529225605712
+modifier: Leander
+revision: 0
+tags: Metrik
+title: Diskrete Metrik
+
+Ist $$X$$ eine Menge, so liefert
+
+$$d(x,y)=\begin{cases}
+0 &\text{für } x=y,\\
+1 &\text{sonst}
+\end{cases}$$
+
+eine [[Metrik]] auf $$X$$, die sogenannte //diskrete Metrik//.

@@ -1,0 +1,14 @@
+created: 20190324105445195
+modified: 20191004233452238
+revision: 0
+tags: Mannigfaltigkeit no-toc
+title: Mannigfaltigkeit als lokale Nullstellenmenge
+type: text/vnd.tiddlywiki
+
+Eine teilmenge $$M\subseteq\Bbb R^d$$ ist genau dann eine $$k$$-dimensionale [[Untermannigfaltigkeit|Mannigfaltigkeit]] der Klasse $$\mathcal C^\alpha$$, wenn zu jedem Punkt $$a\in M$$ eine offene Umgebung $$U$$ und ein $$f\in\mathcal C^\alpha(U\to\Bbb R^{d-k})$$ existiert, so dass
+
+$$
+M\cap U=\{x\in U:f(x)=0\}
+$$
+
+gilt und die Differenzialmatrix $$\mathrm D_a f$$ im Punkt $$a$$ den maximalen [[Rang]] $$d-k$$ besitzt.

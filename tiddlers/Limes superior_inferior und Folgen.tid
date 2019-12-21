@@ -1,0 +1,14 @@
+created: 20171225115736184
+creator: Leander
+list: 
+modified: 20191011203917306
+modifier: Leander
+tags: Folge no-toc
+title: Limes superior/inferior und Folgen
+type: text/vnd.tiddlywiki
+
+Ist $$\limsup x_k \in \mathbb{R}$$, so ist dies der größte [[Häufungspunkt|Häufungspunkt (Folgen)]] der Folge $$(x_k)$$. Analog für $$\liminf$$. $$(x_k)$$ ist genau dann [[konvergent|Konvergenz]] gegen $$a \in \mathbb{R}$$, wenn
+
+$$
+\liminf x_k = a = \limsup x_k.
+$$

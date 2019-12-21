@@ -1,0 +1,29 @@
+created: 20190206095520255
+creator: Leander
+modified: 20191008220039438
+modifier: Leander
+tags: [[Projective quadric]] [[Projective conic]]
+title: Pole-polar relationship
+type: text/vnd.tiddlywiki
+
+A [[nondegenerate|Ausartungsraum]] [[symmetric|Symmetrische Form]] [[bilinear form|Bilinearform]] $$b$$ on a vector space $$V$$ defines a relation between subspaces of $$P(V)$$: If $$U$$ is a $$k+1$$-dimensional linear subspace of $$V$$ and $$\dim V=n+1,$$ then the orthogonal subspace of $$U$$ with respect to $$b$$ is
+
+$$
+U^\perp\coloneqq \{w\in V\mid q(u,w)=0\ \forall u\in U\}.
+$$
+
+The $$k$$-plane $$P(U)$$ and the $$(n-k-1)$$-plane $$P(U^\perp)$$ in $$P(V)$$ are called //polar// to each other. In particular, this defines a relation between points and hyperplanes.
+
+!! Conics
+
+If $$b$$ is [[indefinite|Definitheit]] on $$\Bbb R^3,$$ the corresponding quadratic form defines a non-empty, nondegenerate [[conic section|Projective conic]] $$Q$$ and vice versa, so a conic section determines a pole-polar relationship between points and lines.
+
+# If $$[p]\in Q,$$ then the polar of $$[p]$$ w.r.t. $$Q$$ is the tangent through $$[p].$$
+
+# $$P_1$$ lies on polar of $$P_2\iff P_2$$ lies on polar of $$P_1.$$
+
+# Suppose $$P_1,P_2$$ are on a line $$\ell.$$ Then the polars $$\ell_1,\ell_2$$ of $$P_1,P_2$$ intersect in the pole $$P$$ of $$\ell.$$
+
+!! Quadrics
+
+Let $$Q$$ be a (non-empty) non-degenerate [[quadric|Projective quadric]] in $$\Bbb R\mathrm P^n\ (\Bbb C\mathrm P^n)$$ defined by the symmetric bilinear form $$b$$ and let $$X\in Q,\ Y\in\Bbb R\mathrm P^n\ (\Bbb C\mathrm P^n).$$ Then the line $$XY$$ is tangent to $$Q$$ if and only if $$X$$ is in the polar hyperplane of $$Y.$$

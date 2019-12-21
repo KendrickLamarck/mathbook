@@ -1,0 +1,33 @@
+created: 20180605165810188
+creator: Leander
+modified: 20191004192425701
+modifier: Leander
+revision: 0
+tags: [[Linearer Differentialoperator]]
+title: Gradient
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon\mathbb R^n\to\mathbb R$$ eine in $$p$$ [[differenzierbare|Ableitung]] Abbildung. Dann heißt der Vektor
+
+$$
+\operatorname{grad}f(p)=\nabla f(p)\coloneqq
+\begin{pmatrix}
+\partial_1f(p) \\
+\vdots          \\
+\partial_nf(p) \\
+\end{pmatrix}
+$$
+
+der //Gradient// von $$f$$ in $$p$$.
+
+---
+
+!! Eigenschaften
+
+* $$\langle\operatorname{grad}_p f,v\rangle=\mathrm D_p f(v)$$ für alle $$v\in V.$$
+
+* Der Gradient steht [[senkrecht|Orthogonale Vektoren]] auf den Niveaus von $$f.$$ Genauer gilt für eine differenzierbare Kurve $$c\colon{]a,b[}\to G$$ und alle $$t$$ $$
+f\circ c \text{ konstant}\iff \left\langle\operatorname{grad}_{c(t)}f,\dot c(t)\right\rangle=0.$$
+
+* Der Gradient gibt die Richtung und Größe des stärksten Wachstums der Funktion $$f$$ an: Ist $$\|v\|=1$$ und $$\varphi$$ der Winkel zwischen dem Gradienten und der Richtung $$v,$$ so ist $$
+\partial_v f(p)=\left\|\operatorname{grad}_p f\right\|\cos\varphi.

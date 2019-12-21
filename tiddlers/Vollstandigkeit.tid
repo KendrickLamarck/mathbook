@@ -1,0 +1,19 @@
+created: 20180427183619900
+creator: Leander
+modified: 20191011215132324
+modifier: Leander
+tags: [[Metrischer Raum]]
+title: Vollständigkeit
+type: text/vnd.tiddlywiki
+
+Ein [[metrischer Raum|Metrischer Raum]] heißt //vollständig//, falls jede [[Cauchyfolge]] in ihm konvergiert.
+
+{{Kompaktheit und Vollständigkeit}}
+
+Um die reellen Zahlen zu konstruieren fordern wir auch folgendes Axiom, welches zur obigen Eigenschaft Äquivalent ist:
+
+{{Vollständigkeitsaxiom}}
+
+!! Abgeschlossene Teilmengen
+
+{{Vollständigkeit und abgeschlossenheit}}

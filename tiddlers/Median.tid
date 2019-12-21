@@ -1,0 +1,11 @@
+created: 20180414130333140
+modified: 20180414130700554
+revision: 0
+tags: Ordnungstheorie
+title: Median
+
+Sei $$A$$ eine Menge von $$n$$ paarweise verschiedenen Zahlen und $$1\le i\le n$$.
+
+* Die $$i$$-te //geordnete Statistik// ist das $$i$$-te Element in der aufsteigenden Sortierung von $$A$$.
+* Ist $$n$$ ungerade, so nennt man die $$\frac{n+1}{2}$$-te geordnete Statistik auch //Median// von $$A$$.
+* Ist $$n$$ gerade, so nennt man die $$\frac{n}{2}$$-te auch (unteren) Median und die $$\left(\frac{n}{2}+1\right)$$-te geordnete Statistik oberen Median von $$A$$.

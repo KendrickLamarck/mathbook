@@ -1,0 +1,30 @@
+created: 20181126162813168
+creator: Leander
+list: [[Erzeugte sigma-Algebra]] Spur-sigma-Algebra Urbild-sigma-Algebra Produkt-sigma-Algebra Borel-sigma-Algebra
+modified: 20191011180712278
+modifier: Leander
+tags: Maßtheorie
+title: Sigma-Algebra
+type: text/vnd.tiddlywiki
+
+Sei $$\Omega$$ eine Menge. Ein Mengensystem $$\mathcal F\subset\mathcal P(\Omega)$$ heißt eine //$$\sigma$$-Algebra,// falls
+
+# $$\Omega\in\mathcal F$$
+
+# $$A\in\mathcal F\implies A^c\in\mathcal F$$
+
+# $$A_1,A_2,\ldots \in\mathcal F\implies\bigcup_{n\in\mathbb N} A_n\in\mathcal F.$$
+
+Die Elemente von $$\mathcal F$$ heißen //messbare Mengen// und $$(\Omega,\mathcal F)$$ heißt ein //messbarer Raum.//
+
+!! Bemerkungen
+
+* Es gibt immer zwei triviale $$\sigma$$-Algebren, die [[Potenzmenge]] und $$\{\varnothing,\Omega\}.$$
+
+* Jede $$\sigma$$-Algebra ist auch gegen abzählbare Schnittbildung abgeschlossen.
+
+* Schnitte von $$\sigma$$-Algebren sind wieder $$\sigma$$-Algebren, Vereinigungen nicht.
+
+* Die Menge aller abzählbaren Teilmengen ist immer einer $$\sigma$$-Algebra.
+
+* {{Urbild-sigma-Algebra}}

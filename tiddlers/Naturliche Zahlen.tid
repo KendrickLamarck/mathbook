@@ -1,0 +1,18 @@
+created: 20171110205344115
+creator: Leander
+modified: 20180727124238788
+modifier: Leander
+revision: 0
+tags: Algebra
+title: Natürliche Zahlen
+type: text/vnd.tiddlywiki
+
+Die //natürlichen Zahlen// $$\mathbb{N}$$ sind die kleinste [[induktive Menge|Induktive Menge]], und sind als Schnittmenge aller induktiven Mengen definiert:
+$$
+\mathbb{N} \coloneqq \bigcap_{\mathbb{R} \supset N \text{ induktiv }} N.
+$$
+Die natürlichen Zahlen beginnen manchmal auch mit der Eins, je nach Definition. Dann schreibt man die natürlichen Zahlen mit Null $$\mathbb N_0$$.
+
+Alternativ können die natürlichen Zahlen auch mithilfe der [[Peano-Axiome]] definiert werden:
+
+{{Peano-Axiome}}

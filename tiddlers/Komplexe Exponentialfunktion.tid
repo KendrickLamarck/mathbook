@@ -1,0 +1,27 @@
+created: 20180220202959866
+creator: Leander
+modified: 20191011163135336
+modifier: Leander
+tags: Exponentialfunktion Potenzreihe no-toc
+title: Komplexe Exponentialfunktion
+type: text/vnd.tiddlywiki
+
+Die [[komplexe|Komplexe Zahlen]] [[Exponentialfunktion]] ist definiert als
+
+$$
+\exp\colon\mathbb{C}\to\mathbb{C},\quad z\mapsto \sum_{k=0}^\infty \frac{z^k}{k!},
+$$
+
+denn diese [[Potenzreihe]] ist für alle $$z\in\mathbb C$$ [[absolut konvergent|Absolute Konvergenz]]. Es gilt
+
+$$
+\exp(x+iy) = e^{x+iy} = e^x(\cos y + i \sin y).
+$$
+
+Für rein imaginäres $$iy$$ erhält man die Euler'sche Formel
+
+{{Euler'sche Formel}}
+
+und damit auch einen berühmten Spezialfall, die Euler'sche Identität:
+
+{{Euler's identity}}

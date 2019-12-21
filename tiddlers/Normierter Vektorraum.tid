@@ -1,0 +1,20 @@
+caption: Normierte Vektorräume
+created: 20180522181414300
+creator: Leander
+list: Norm [[Äquivalente Normen]] [[Stetigkeit linearer Abbildungen]] Banachraum Hilbertraum Folgenräume
+modified: 20190119233534549
+modifier: Leander
+revision: 0
+tags: Analysis
+title: Normierter Vektorraum
+type: text/vnd.tiddlywiki
+
+{{Norm}}
+
+Ein //normierter Vektorraum// $$(V,\|.\|)$$ ist ein Vektorraum $$V$$ zusammen mit einer Norm $$\|.\|$$ auf $$V$$. Durch die Definition
+
+$$
+d(u,v)\coloneqq\|u-v\|
+$$
+
+wird daraus ein [[metrischer Raum|Metrischer Raum]].

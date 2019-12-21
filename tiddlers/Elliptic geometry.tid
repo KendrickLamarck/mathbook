@@ -1,0 +1,23 @@
+created: 20191008231459206
+modified: 20191010172728867
+tags: Geometrie
+title: Elliptic geometry
+type: text/vnd.tiddlywiki
+
+Let $$q$$ be a positive definite quadratic form on $$\R^{n+1}.$$ This induces $$n$$-dimensional elliptic geometry on $$\R\mathrm P^n$$: Define $$n$$-dimensional elliptic space as
+
+$$
+E^n\coloneqq\{[x]\in\R\mathrm P^n\mid q(x,x)\}=\R\mathrm P^n
+$$
+
+equipped with the metric $$d_\mathrm{ell}$$ satisfying (see [[Hilbert metric]])
+
+$$
+\cos d_\mathrm{ell}([x],[y])=
+\frac {q(x,y)} {\sqrt{q(x,x)q(y,y)}} {\color{red}=
+\frac 1 2 \log\operatorname{cr}(Y,A,X,B).}
+$$
+
+@@color:red; The last equality is probably wrong. Complex coordinates must be allowed? Unsure if $$\frac 1 2$$ is the correct scalar. Maybe $$d_\mathrm{ell}([x],[y])=\frac i 2 \log\operatorname{cr}(Y,A,X,B)?$$@@
+
+This geometry can also be obtained by associating pairs of opposite points in [[spherical geometry|Spherical geometry]]. The transformation group then is $$\mathrm O(n+1)/\{\pm I\}.$$

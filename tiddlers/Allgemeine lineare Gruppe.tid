@@ -1,0 +1,18 @@
+created: 20180403190745121
+creator: Leander
+modified: 20191004231508425
+modifier: Leander
+revision: 0
+tags: Matrix
+title: Allgemeine lineare Gruppe
+type: text/vnd.tiddlywiki
+
+Die //allgemeine lineare Gruppe (general linear group)//
+
+$$
+\operatorname{GL}(n;K)
+$$
+
+vom Grad $$n$$ über einem [[Körper]] $$K$$ ist die Menge aller [[invertierbaren|Inverse Matrix]] $$n\times n$$-[[Matrizen|Matrix]] mit Koeffizienten aus $$K$$ zusammen mit der [[Matrizenmultiplikation]] als Verknüpfung.
+
+Diese Menge ist eine [[offene|Offenheit (metrische Räume)]] Teilmenge von $$\operatorname{End}(V)$$ mit der [[Operatornorm]].

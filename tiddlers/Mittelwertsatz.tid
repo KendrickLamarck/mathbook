@@ -1,0 +1,15 @@
+created: 20180106171049771
+creator: Leander
+list: 
+modified: 20191003235835901
+modifier: Leander
+revision: 0
+tags: no-toc [[Ableitung in R]]
+title: Mittelwertsatz
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon\mathbb{R} \supset [a,b] \to \mathbb{R}$$ [[stetig|Stetigkeit]] und auf $$]a,b[$$ [[differenzierbar|Ableitung]]. Dann gibt es ein $$\xi \in {]a,b[}$$ mit
+
+$$
+\frac{f(b)-f(a)}{b-a}=f'(\xi).
+$$

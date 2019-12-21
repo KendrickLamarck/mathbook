@@ -1,0 +1,12 @@
+created: 20180319123110338
+creator: Leander
+modified: 20190705144639838
+modifier: Leander
+revision: 0
+tags: Matrix
+title: Symmetrische Matrix
+type: text/vnd.tiddlywiki
+
+Eine [[Matrix]] $$A\in K^{n\times n}$$ heißt  //symmetrisch//, falls $$A = A^\mathrm T$$. Die symmetrischen Matrizen bilden einen [[Untervektorraum]] von $$K^{n\times n}$$.
+
+{{Eigenwerte symmetrischer Matrizen}}

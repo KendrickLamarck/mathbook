@@ -1,0 +1,47 @@
+created: 20180608220829366
+creator: Leander
+modified: 20191010152318986
+modifier: Leander
+tags: [[Integrale über Untermannigfaltigkeiten]] Geometrie
+title: Volumen
+type: text/vnd.tiddlywiki
+
+! Kompakta
+
+Das Volumen einer [[kompakten|Kompaktheit]] Teilmenge $$K\subset\mathbb R^d$$ ist definiert als
+
+$$
+\operatorname{Vol}_d(K)\coloneqq
+\int_{\mathbb R^d} \mathbf 1_K(x)\,\mathrm dx =
+\int_K 1\,\mathrm dx.
+$$
+
+!! Produktmengen
+
+{{Volumen von Produktmengen}}
+
+!! Cavalieri'sches Prinzip
+
+{{Cavalieri'sches Prinzip}}
+
+! Auf Mannigfaltigkeiten
+
+Sei $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit|Mannigfaltigkeit]]. Eine Teilmenge $$A\subseteq M$$ heißt eine //integrierbare Teilmenge,// wenn $$\mathbf 1_A$$ über $$M$$ integrierbar ist. In diesem Fall nennt man
+
+$$
+\operatorname{Vol}_k(A)\coloneqq
+\int_M\mathbf 1_A(x)\,\Bbb S(\mathrm dx)
+$$
+
+das //$$k$$-dimensionale Volumen// oder den //$$k$$-dimensionalen Flächeninhalt// von $$A.$$ Eine Funktion $$f\colon M\to\Bbb R$$ heißt über $$A$$ integrierbar, wenn $$f\mathbf 1_A$$ über $$M$$ integrierbar ist, und man setzt
+
+$$
+\int_A f(x)\,\Bbb S(\mathrm dx)\coloneqq
+\int_M f(x)\mathbf 1_A(x)\,\Bbb S(\mathrm dx).
+$$
+
+Die Menge $$A$$ heißt eine //$$k$$-dimensionale Nullmenge,// falls $$\operatorname{Vol}_k(A)=0.$$
+
+!! Skalierung
+
+{{Skaliertes Volumen}}

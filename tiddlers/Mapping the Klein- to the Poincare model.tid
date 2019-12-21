@@ -1,0 +1,7 @@
+created: 20190216195159534
+modified: 20191010174458169
+tags: [[Hyperbolic geometry]] no-toc
+title: Mapping the Klein- to the Poincaré model
+type: text/vnd.tiddlywiki
+
+The map $$D^2\to D^2$$ obtained by mapping the [[Klein model]] to $$H^2$$ and then back to the [[Poincaré disk model]] is the same as the following construction: First, project $$D^2\subset\Bbb R^2\subset\Bbb R^3$$ orthogonally down to the lower hemisphere of $$S^2\subset\Bbb R^3.$$ Then project [[stereographically|Stereographic projection]] back to $$D^2.$$

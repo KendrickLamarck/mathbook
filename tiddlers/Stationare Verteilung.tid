@@ -1,0 +1,17 @@
+created: 20190628182518692
+modified: 20190629200845288
+revision: 0
+tags: Markov-Kette
+title: Stationäre Verteilung
+
+Gegeben sei eine [[Markov-Kette]] mit Zustandsraum $$I$$ und Übergangsmatrix $$P=(p_{ij})_{i,j\in I}.$$ Eine [[Wahrscheinlichkeitsverteilung|Verteilung]] $$\nu$$ auf $$I$$ heißt //stationär// oder //invariant// bzgl. $$P,$$ falls
+
+$$
+\sum_{j\in I} \nu_j p_{ji} = \nu_i
+$$
+
+für alle $$i\in I$$ gilt, bzw. in Matrixnotation $$\nu P=\nu$$ (wobei $$\nu=(\nu_i)_{i\in I}$$ als Zeilenvektor aufgefasst wird).
+
+Die stationären Verteilungen sind also die Eigenvektoren von $$P^\mathrm T$$ zum Eigenwert $$1,$$ deren Komponenten sich zu $$1$$ aufaddieren.
+
+''Satz.'' Ist $$I$$ eine endliche Menge, so besitzt jede Markov-Kette auf $$I$$ mindestens eine stationäre Verteilung.

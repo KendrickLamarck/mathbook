@@ -1,0 +1,20 @@
+caption: Basen
+created: 20170206212345614
+creator: Leander
+list: Dimension Erzeugendensystem Basisauswahlsatz Basisergänzungssatz Basisaustauschlemma Austauschsatz Kern-Bild-Zerlegung Faktorisierungssatz Rangnormalform Orientierung
+modified: 20180728125359807
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Basis
+type: text/vnd.tiddlywiki
+
+Eine Familie $$(v_i)_{i \in I}$$ in einem [[Vektorraum]] $$V$$ heißt //Basis// von $$V$$, wenn sie ein [[linear unabhängiges|Lineare Unabhängigkeit]] [[Erzeugendensystem]] ist.
+
+Folgende Aussagen sind äquivalent zu dieser Definition, falls $$\mathcal{B} = (v_1,\ldots,v_n)$$ endlich und $$V\neq\{0\}$$ ist:
+
+# $$\mathcal{B}$$ ist ein "unverkürzbares" Erzeugendensystem, d.h. für jedes $$v \in \mathcal{B}$$ ist $$\mathcal{B}$$ ohne $$v$$ kein Erzeugendensystem mehr.
+# Zu jedem $$v \in V$$ ist die Linearkombination $$v=\lambda_1 v_1 + \ldots + \lambda_n v_n$$ eindeutig.
+# $$\mathcal{B}$$ ist "unverlängerbar" linear unabhängig, d.h. $$\mathcal{B}$$ ist linear unabhängig, und für jedes $$v \in V$$ wird $$\mathcal{B}$$ mit $$v$$ linear abhängig.
+
+Jeder Vektorraum besitzt eine Basis. Für endlich erzeugte Vektorräume zeigt das der [[Basisauswahlsatz]].

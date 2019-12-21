@@ -1,0 +1,23 @@
+created: 20180718124626121
+creator: Leander
+modified: 20180718125753108
+modifier: Leander
+revision: 0
+tags: Turingmaschine
+title: Nichtdeterministische Turingmaschine
+
+Eine //nichtdeterministische Turingmaschine// $$M$$ ist wie eine deterministische Turingmaschine definiert, mit dem einzigen Unterschied, dass die [[Funktion|Abbildung]]
+
+$$
+\delta\colon Q\times\Sigma\to Q\times\Sigma\times\{\,L,R,N\,\}
+$$
+
+Durch eine [[Relation]] $$\delta$$ auf
+
+$$
+(Q\times\Sigma)\times(Q\times\Sigma\times\{\,L,R,N\,\})
+$$
+
+ersetzt wird. Es kann also mehrere Möglichkeiten in einem Rechenschritt geben.
+
+Eine nichtdeterministiche Turingmaschine //akzeptiert// Input $$w$$, falls es einen Rechenweg gibt, der zu einem akzeptierenden Endzustand führt.

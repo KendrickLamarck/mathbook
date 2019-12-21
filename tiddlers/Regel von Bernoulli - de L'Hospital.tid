@@ -1,0 +1,41 @@
+created: 20170504182721569
+creator: Leander
+list: 
+modified: 20191003231250479
+modifier: Leander
+revision: 0
+tags: [[Grenzwert von Funktionen]]
+title: Regel von Bernoulli - de L'Hôspital
+type: text/vnd.tiddlywiki
+
+Seien $$J\subset\mathbb R$$ ein Intervall,
+
+$$
+p\in J\cup\{\,\inf J,\sup J\,\}
+$$
+
+und seien $$f,g\colon J\setminus\{p\}\to\mathbb R$$ [[differenzierbar|Ableitung]]. Es gelte
+
+$$
+\lim_{x\to p}f(x)=\lim_{x\to p}g(x)=0
+$$
+
+oder
+
+$$
+\lim_{x\to p}g(x) \in \{\,-\infty,+\infty\,\}.
+$$
+
+Weiter sei $$p$$ kein Häufungspunkt von Nullstellen von $$g'$$ und es existiere
+
+$$
+\lim_{x\to p}\frac{f'(x)}{g'(x)} =: A\in\mathbb R \cup\{\,-\infty,+\infty\,\}.
+$$
+
+Dann existiert auch
+
+$$
+\lim_{x\to p}\frac{f(x)}{g(x)}
+$$
+
+und hat den Wert $$A$$.

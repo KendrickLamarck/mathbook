@@ -1,0 +1,13 @@
+created: 20190107163151125
+creator: Leander
+modified: 20191011172741477
+modifier: Leander
+tags: Lebesgue-Integral no-toc
+title: Satz von Beppo-Lévy
+type: text/vnd.tiddlywiki
+
+Sei $$(f_n)_{n\in\Bbb N}$$ eine [[Folge]] [[integrierbarer|Lebesgue-Integral]] Funktionen mit $$f_n\uparrow f$$ $$\mu$$-f.ü. für $$n\to\infty$$ und $$\sup_{n\in\Bbb N}\int f_n\,\mathrm d\mu<\infty.$$ Dann ist auch $$f$$ integrierbar und es gilt
+
+$$
+\lim_{n\to\infty}\int f_n\,\mathrm d\mu=\int f\,\mathrm d\mu.
+$$

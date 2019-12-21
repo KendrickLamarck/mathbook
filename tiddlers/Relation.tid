@@ -1,0 +1,8 @@
+created: 20171225173247957
+modified: 20181229162736403
+revision: 0
+tags: Mengenlehre
+title: Relation
+type: text/vnd.tiddlywiki
+
+Eine Relation auf einer Menge $$X$$ ist eine Teilmenge $$R \subseteq X \times X$$. Man schreibt statt $$(x,y) \in R$$ auch $$x \sim y$$ oder $$xRy$$.

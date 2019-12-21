@@ -1,0 +1,14 @@
+caption: Existence and uniqueness
+created: 20190130094209407
+creator: Leander
+modified: 20191008215813465
+modifier: Leander
+tags: [[Projective conic]] no-toc
+title: Existence and uniqueness of projective conics
+type: text/vnd.tiddlywiki
+
+Let $$P_1,P_2,P_3,P_4,P_5$$ be five points in the projective plane.
+
+* There is a [[conic|Projective conic]] containing these points.
+* The conic is unique if and only if no four of these points are on a line.
+* If no three of the points lie on a line, then the conic is nondegenerate.

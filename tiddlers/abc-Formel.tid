@@ -1,0 +1,11 @@
+created: 20180221222058172
+list: 
+modified: 20180410191951606
+revision: 0
+tags: Polynom
+title: abc-Formel
+type: text/vnd.tiddlywiki
+
+$$
+x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$

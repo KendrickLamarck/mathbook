@@ -1,0 +1,9 @@
+created: 20190128134544518
+creator: Leander
+modified: 20191008215430449
+modifier: Leander
+tags: [[Projective transformation]] no-toc
+title: Dual central projection
+type: text/vnd.tiddlywiki
+
+Let $$P$$ be a point in $$\Bbb R\mathrm P^2$$ and let $$l^*$$ be the corresponding line in $$\Bbb R\mathrm P^{2*},$$ so that each point of $$l^*$$ corresponds to a line through $$P.$$ Let $$l$$ be a line in $$\Bbb R\mathrm P^2$$ that does not contain $$P.$$ Then the map $$l^*\to l$$ that maps a point of $$l^*$$ to the intersection of the corresponding line with $$l$$ is a [[projective transformation|Projective transformation]].

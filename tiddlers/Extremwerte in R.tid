@@ -1,0 +1,18 @@
+created: 20180108165744041
+list: 
+modified: 20191011165454539
+tags: [[Ableitung in R]] Extremwerte
+title: Extremwerte in R
+type: text/vnd.tiddlywiki
+
+Seien $$f\colon\mathbb{R} \supset D \to \mathbb{R}$$ eine reellwertige [[Funktion|Abbildung]] und $$x_0\in D$$.
+
+# $$f$$ hat in $$x_0$$ ein (globales) Maximum, wenn $$f(x) \leq f(x_0)$$ für alle $$x \in D$$.
+# $$f$$ hat in $$x_0$$ ein (globales) strenges/eigentliches/striktes Maximum, wenn $$f(x)<f(x_0)$$ für alle $$x \in D \setminus \{x_0\}$$.
+# $$f$$ hat in $$x_0$$ ein lokales Maximum, wenn es ein $$\epsilon>0$$ gibt, so dass $$f|_{D\cap U_\epsilon(x_0)}$$ in $$x_0$$ ein Maximum hat.
+
+Analog definiert man Minimum usw.
+
+!! Ableitungen und Extremwerte
+
+{{Ableitung und Extremwerte in R}}

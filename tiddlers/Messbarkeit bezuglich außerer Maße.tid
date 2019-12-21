@@ -1,0 +1,18 @@
+created: 20190403140515924
+modified: 20191011175805475
+tags: [[Äußeres Maß]] no-toc
+title: Messbarkeit bezüglich äußerer Maße
+type: text/vnd.tiddlywiki
+
+Sei $$\mu^*$$ ein [[äußeres Maß|Äußeres Maß]]. Eine Menge $$A\in\mathcal P(\Omega)$$ heißt //$$\mu^*$$-messbar,// falls
+
+$$
+\mu^*(A\cap E)+\mu^*(A^c\cap E)=\mu^*(E)\quad\forall E\in\mathcal P(\Omega).
+$$
+
+Es reicht, "$$\le$$" zu fordern, denn "$$\ge$$" gilt wegen der $$\sigma$$-subadditivität sowieso.
+
+Mit $$\mathcal M(\mu^*)$$ bezeichnen wir die Menge aller $$\mu^*$$-messbaren Mengen.
+
+''Lemma.''
+Wenn $$\mu^*$$ ein äußeres Maß ist, so ist $$\mathcal M(\mu^*)$$ eine $$\sigma$$-[[Algebra|Sigma-Algebra]] und die Einschränkung von $$\mu^*$$ auf $$\mathcal M(\mu^*)$$ ist ein [[Maß]].

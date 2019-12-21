@@ -1,0 +1,9 @@
+created: 20180430171020664
+creator: Leander
+modified: 20191011204506277
+modifier: Leander
+tags: Folge no-toc
+title: Reihen-Cauchyfolgenkriterium
+type: text/vnd.tiddlywiki
+
+Sei $$(x_k)_{k\in\mathbb N}$$ eine Folge im [[metrischen Raum|Metrischer Raum]] $$(X,d)$$. Setze $$a_k\coloneqq d(x_k,x_{k+1})$$. Ist die [[Reihe]] $$\sum_{k=0}^\infty a_k$$ [[konvergent|Konvergenz]], so ist $$(x_k)$$ eine [[Cauchyfolge]].

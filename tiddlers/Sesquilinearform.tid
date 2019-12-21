@@ -1,0 +1,20 @@
+created: 20180601212320413
+creator: Leander
+list: [[Hermite'sche Form]] Polarisierung [[Darstellende Matrix (Sesquilinearformen)]] [[Transformationsformel (Sesquilinearformen)]]
+modified: 20180707130915678
+modifier: Leander
+revision: 0
+tags: Bilinearform
+title: Sesquilinearform
+
+Sei $$V$$ ein $$\mathbb C$$-[[Vektorraum]]. Eine Abbildung
+
+$$
+s\colon V\times V\to K
+$$
+
+heißt //Sesquilinearform//, wenn für alle $$v,v'w,w'\in V$$ und $$\lambda\in\mathbb C$$ gilt:
+$$\begin{aligned}
+s(v+v',w)&=s(v,w)+s(v',w),\quad s(\lambda v,w)=\lambda s(v,w),\\
+s(v,w+w')&=s(v,w)+s(v,w'),\quad s(v,\lambda w)=\bar\lambda s(v,w).
+\end{aligned}$$

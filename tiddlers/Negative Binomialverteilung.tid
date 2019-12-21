@@ -1,0 +1,19 @@
+created: 20190710222446091
+modified: 20190710222856745
+revision: 0
+tags: Verteilung
+title: Negative Binomialverteilung
+
+Zu einer Folge unabhängig [[Bernoulli-verteilter|Bernoulli-Verteilung]] [[Zufallsvariablen|Zufallsvariable]] betrachten wir die Wartezeit auf den $$n$$-ten Erfolg
+
+$$
+T_n\coloneqq\min\Bigl\{k\ge 1:\sum_{l=1}^k X_l=n\Bigr\}\in\{n,n+1,\dots\}.
+$$
+
+Ihre [[Verteilung]] auf $$\{n,n+1,\dots\}$$ ist
+
+$$
+\Bbb P(T_n=k)=\binom{k-1}{n-1}(1-p)^{k-n} p^n,
+$$
+
+die sogenannte //negative Binomialverteilung.// zu $$n$$ und $$p.$$

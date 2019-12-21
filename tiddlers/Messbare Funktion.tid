@@ -1,0 +1,41 @@
+created: 20181211161339608
+creator: Leander
+modified: 20191011180025232
+modifier: Leander
+tags: Maßtheorie
+title: Messbare Funktion
+type: text/vnd.tiddlywiki
+
+Seien $$(\Omega,\mathcal F),(\Omega'\mathcal F')$$ zwei [[messbare Räume|Sigma-Algebra]]. Eine Abbildung $$f\colon\Omega\to\Omega'$$ heißt //$$\mathcal F$$-$$\mathcal F'$$-messbar,// oder kurz //messbar,// falls für jedes $$A\in\mathcal F'$$ das Urbild
+
+$$
+f^{-1}(A)=\{\,\omega\in\Omega\mid f(\omega)\in A\,\}
+$$
+
+in $$\mathcal F$$ liegt.
+
+* Eine Abbildung $$f\colon\Omega\to\Omega'$$ ist genau dann messbar, wenn es ein [[Erzeugendensystem|Erzeugte sigma-Algebra]] $$\mathcal C$$ von $$\mathcal F'$$ gibt mit $$f^{-1}(\mathcal C)\subseteq\mathcal F.$$
+
+* Hintereinanderausführungen messbarer Funktionen sind messbar.
+
+* Ist $$(f_n)_{n\in\mathbb N}$$ eine Folge messbarer [[numerischer Funktionen|Numerische Funktion]], so sind $$\liminf_{n\to\infty} f_n$$ und $$\limsup_{n\to\infty} f_n$$ messbar, insbesondere also auch (punktweise) Grenzwerte.
+
+* Jede konstante numerische Funktion ist messbar.
+
+* Sind $$f,g$$ messbar und numerisch, so sind $$f+g$$ und $$fg,$$ sowie $$f/g,$$ falls $$g\ne 0,$$ messbar.
+
+* Die Indikatorfunktion $$\mathbf 1_A$$ einer Menge $$A\subseteq\Omega$$ ist genau dann messbar, wenn $$A$$ messbar ist.
+
+* Ist $$f$$ eine messbare numerische Funktion, so sind auch $$
+f^+ \coloneqq\max\{f,0\},\quad
+f^- \coloneqq\max\{-f,0\},\quad
+|f|\coloneqq f^+ + f^-
+$$messbar.
+
+!! Approximation
+
+{{Approximation messbarer Funktionen}}
+
+!! Maßtheoretische Induktion
+
+{{Maßtheoretische Induktion}}

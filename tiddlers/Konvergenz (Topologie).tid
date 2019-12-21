@@ -1,0 +1,15 @@
+created: 20180423205112085
+creator: Leander
+modified: 20191011214026556
+modifier: Leander
+tags: no-toc Konvergenz
+title: Konvergenz (Topologie)
+type: text/vnd.tiddlywiki
+
+Eine [[Folge]] $$(x_n)_{n\in\mathbb N}$$ in einem [[topologischen Raum|Topologie]]  $$(X,\mathcal T)$$ heißt //konvergent// gegen $$a\in X$$, falls in jeder [[Umgebung|Umgebung]] von $$a$$ fast alle Glieder der Folge liegen:
+
+$$
+\forall U\in\mathcal T\colon\quad x\in U\implies |\{\,n\in\mathbb N:x_n\notin U\,\}|<\infty.
+$$
+
+Handelt es sich um einen [[Hausdorff'schen Raum|Hausdorff'scher Raum]], so ist der Grenzwert eindeutig bestimmt.

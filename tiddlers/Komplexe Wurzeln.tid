@@ -1,0 +1,17 @@
+created: 20171110214122236
+modified: 20180410191953136
+revision: 0
+tags: [[Komplexe Zahlen]]
+title: Komplexe Wurzeln
+type: text/vnd.tiddlywiki
+
+Seien $$z,w \in \mathbb{C}$$. Dann hat die Gleichung
+$$
+z^n=w
+$$
+genau $$n$$ Lösungen.
+
+Es gilt für $$k = 0,1,\ldots,n-1$$ und $$\theta=\arg(z)$$:
+$$
+z_k=\sqrt[n]{|z|}\left(\cos\left(\frac{\theta + 2 \pi k}{n}\right)+i\sin\left(\frac{\theta + 2 \pi k}{n}\right)\right).
+$$

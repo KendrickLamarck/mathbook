@@ -1,0 +1,15 @@
+created: 20180522185654966
+creator: Leander
+modified: 20180528202358138
+modifier: Leander
+revision: 0
+tags: [[Normierter Vektorraum]]
+title: Äquivalente Normen
+
+Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[normierter Vektorraum|Normierter Vektorraum]] mit zwei Normen $$\|.\|_1,\|.\|_2$$. Dann gilt:
+
+# Es gibt $$c,C>0$$, so dass für alle $$v\in V$$ gilt$$
+c\|v\|_1\le\|v\|_2\le C\|v\|_1.
+$$Man sagt, die Normen sind //äquivalent//.
+# Eine Menge $$G\subset V$$ ist genau dann bezüglich $$\|.\|_1$$ [[offen|Offenheit (metrische Räume)]], wenn sie bezüglich $$\|.\|_2$$ offen ist. Also fallen auch alle anderen [[topologischen|Topologie]] Begriffen zusammen.
+# $$\|.\|_1$$-[[Cauchyfolgen|Cauchyfolge]] sind auch $$\|.\|_2$$-Cauchyfolgen.

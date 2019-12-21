@@ -1,0 +1,43 @@
+created: 20181023221621265
+modified: 20191011220737259
+tags: [[Haar'sches Maß]] no-toc
+title: Satz von Fubini für stetige Funktionen mit kompaktem Träger
+type: text/vnd.tiddlywiki
+
+{{Träger}}
+
+!! Integral / Satz von Fubini
+
+Es sei $$Q=\prod_{i=1}^d [a_i,b_i]$$ ein [[kompakter|Kompaktheit]] Quader im $$\mathbb R^d.$$ Ferner sei $$f\colon Q\to\mathbb R$$ [[stetig|Stetigkeit]]. Dann gilt für jede [[Permutation]] $$\sigma(1),\dots,\sigma(d)$$ der Zahlen $$1,\dots,d,$$ dass die folgend auftretenden [[Integrale|Riemann-Integral]] existieren mit
+
+$$\begin{aligned}
+
+&\int_{a_d}^{b_d}
+\left(\cdots\left(
+\int_{a_1}^{b_1}
+
+f(x_1,\dots,x_d)
+
+\,\mathrm d x_1
+\right)\cdots\right)
+\mathrm d x_d            \\
+
+={}&\int_{a_{\sigma(d)}}^{b_{\sigma(d)}}
+\left(\cdots\left(
+\int_{a_{\sigma(1)}}^{b_{\sigma(1)}}
+
+f(x_1,\dots,x_d)
+
+\,\mathrm d x_{\sigma(1)}
+\right)\cdots\right)
+\mathrm d x_{\sigma(d)}.
+
+\end{aligned}$$
+
+Auf diese Weise lässt sich das Integral von Funktionen $$f\in\mathcal C_\mathrm c(\mathbb R^d)$$ definieren: Wir setzen
+
+$$
+\int_{\mathbb R^d} f(x)\,\mathrm dx = \int_Q f(x)\,\mathrm dx,
+$$
+
+wobei $$\operatorname{supp}(f)$$ im Quader $$Q$$ enthalten ist.

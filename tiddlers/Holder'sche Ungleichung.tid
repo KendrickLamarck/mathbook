@@ -1,0 +1,19 @@
+created: 20190114163524929
+creator: Leander
+modified: 20191011173547662
+modifier: Leander
+tags: Lp-Räume no-toc
+title: Hölder'sche Ungleichung
+type: text/vnd.tiddlywiki
+
+Seien $$p,q\in[1,\infty]$$ mit $$1/p+1/q=1.$$ Seien $$f\in\mathcal L^p$$ und $$g\in\mathcal L^q.$$ Dann gelten $$fg\in\mathcal L^1$$ und
+
+$$
+\|fg\|_1\le \|f\|_p\cdot \|g\|_q.
+$$
+
+Der Spezialfall $$p=q=2$$ wird //Cauchy-Schwarz'sche Ungleichung// genannt.
+
+!!! Summen
+
+{{Hölder'sche Ungleichung (Summen)}}

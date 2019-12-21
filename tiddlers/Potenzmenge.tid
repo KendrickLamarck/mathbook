@@ -1,0 +1,16 @@
+created: 20171110215440336
+creator: Leander
+modified: 20181208162153760
+modifier: Leander
+revision: 0
+tags: Mengenlehre
+title: Potenzmenge
+type: text/vnd.tiddlywiki
+
+Die //Potenzmenge// $$\mathcal{P}(X)$$ oder $$2^X$$ einer Menge $$X$$ ist die Menge aller Teilmengen von $$X$$:
+
+$$
+\mathcal{P}(X) \coloneqq \{\,Y \mid Y \subset X\,\}.
+$$
+
+Die Potenzmenge $$\mathcal P(X)$$ hat immer höhere Kardinalität als $$X.$$ Für endliche Mengen mit $$n\in\mathbb N$$ Elementen enthält sie $$2^n$$ Elemente.

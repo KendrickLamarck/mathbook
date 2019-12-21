@@ -1,0 +1,10 @@
+created: 20181203160932008
+modified: 20191011175817566
+tags: Dynkin-System no-toc
+title: Erzeugtes Dynkin-System
+type: text/vnd.tiddlywiki
+
+Mit $$d(\mathcal C)$$ bezeichen wir das analog zur [[erzeugten|Erzeugte sigma-Algebra]] $$\sigma$$-Algebra $$\sigma(\mathcal C)$$ definierte von $$\varnothing\ne\mathcal C\subseteq\mathcal P(\Omega)$$ //erzeugte// [[Dynkin-System]].
+
+''Satz.''
+Ist $$\mathcal C$$ durchschnittstabil, so gilt $$d(\mathcal C)=\sigma(\mathcal C).$$

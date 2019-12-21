@@ -1,0 +1,9 @@
+created: 20190107205513657
+creator: Leander
+modified: 20191008214249362
+modifier: Leander
+tags: [[Projective transformation]] no-toc
+title: Projective transformations between lines
+type: text/vnd.tiddlywiki
+
+Let $$l_1,l_2$$ be two different [[lines|Projective line]] in a [[projective plane|Projective subspace]] $$P(V).$$ A projective transformation $$l_1\to l_2$$ is a [[central projection|Central projection]] if and only if it maps the intersection $$l_1\cap l_2$$ to itself. Otherwise it is the composition of two central projections $$l_1\to l\to l_2.$$

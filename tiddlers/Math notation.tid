@@ -1,0 +1,29 @@
+caption: Notation
+created: 20170804192959064
+list: 
+modified: 20180810211141249
+revision: 0
+tags: Mathematics
+title: Math notation
+type: text/vnd.tiddlywiki
+
+!! Mengenlehre
+
+{{Mengenlehre-Notation}}
+
+!! Logik
+
+{{Logik-Notation}}
+
+!! Analysis
+
+;$$|x| = \begin{cases}-x, &\text{if } x<0 \\x, &\text{if } x \geq 0 \end{cases}$$
+:Piecewise function
+
+;$$(f \circ g)(x)=f(g(x))$$
+:Komposition von $$f$$ und $$g$$. Die Funktion, die rechts steht wird zuerst angewandt.
+
+!! Zahlentheorie
+
+;$$a| b$$
+:a ist ein Teiler von b

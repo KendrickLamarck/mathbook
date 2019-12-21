@@ -1,0 +1,21 @@
+created: 20180414222441028
+creator: Leander
+modified: 20191011181243408
+modifier: Leander
+tags: Kombinatorik
+title: Matroid
+type: text/vnd.tiddlywiki
+
+{{Unabhängigkeitssystem}}
+
+Gilt in einem [[Unabhängigkeitssystem]] $$(E,\mathcal I)$$ zusätzlich:
+
+* Falls $$I,J\in\mathcal I$$ und $$|I|<|J|$$, so existiert ein Element $$e\in J\setminus I$$, so dass $$I\cup \{e\}\in \mathcal I,$$
+
+
+dann heißt es //Matroid//. Äquivalent ist die Aussage:
+
+* Für jede Teilmenge $$M\subset E$$ haben alle Basen von $$M$$ dieselbe Kardinalität.
+
+''Korollar: Basisaustauschsatz.''
+Es seien $$B_1,B_2$$ Basen eines Matroids $$(E,\mathcal I)$$ und $$e_1\in B_1$$. Dann existiert ein Element $$e_2\in B_2$$, so dass $$(B_1\setminus\{e_1\})\cup\{e_2\}$$ wieder eine Basis ist.

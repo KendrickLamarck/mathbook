@@ -1,0 +1,20 @@
+created: 20190206093529806
+creator: Leander
+modified: 20191010173956498
+modifier: Leander
+tags: 
+title: TODO
+type: text/vnd.tiddlywiki
+
+* Think about structure: Some tiddlers could be tagged with <<tag no-toc>> to be excluded from various tables of content or just have their tags removed.
+** Optimize for searchability
+** More transclusions, smaller tables of content
+* [[Geometry|Geometrie]] everything
+* The landing page is shit
+* Cooperation
+** probably gonna need a git
+** Webserver
+*** Proxy
+* Consider an alias mechanism
+* Review the {{$:/core/ui/UntaggedTemplate}} tiddlers
+* Suggestion/improvement tracker to avoid e.g. [[Elliptic geometry]]

@@ -1,0 +1,10 @@
+created: 20180316115438409
+creator: Leander
+modified: 20180427175452972
+modifier: Leander
+revision: 0
+tags: Topologie
+title: Abgeschloffene Menge
+type: text/vnd.tiddlywiki
+
+Eine //Offene abgeschlossene// oder //abgeschloffene// Menge (engl. //clopen set//) ist eine Menge, die gleichzeitig [[offen|Offenheit (metrische Räume)]] und [[abgeschlossen|Abgeschlossenheit]] ist. In jedem [[topologischen Raum|Topologie]] $$(X,\mathcal T)$$ sind $$X$$ und $$\varnothing$$ abgeschloffen.

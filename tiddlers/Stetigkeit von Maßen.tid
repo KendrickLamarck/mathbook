@@ -1,0 +1,17 @@
+created: 20181229185314356
+modified: 20190102171332726
+revision: 0
+tags: Maß
+title: Stetigkeit von Maßen
+
+Sei $$(\Omega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]] und $$A\in\mathcal F.$$
+
+* Wir schreiben $$A_n\uparrow A$$ für eine [[Folge]] $$(A_n)_{n\in\mathbb N},$$ falls $$A_n\subseteq A_{n+1}$$ für alle $$n\in\mathbb N$$ und $$\bigcup_{n\in\mathbb N} A_n=A.$$
+
+* Analog schreiben wir $$A_n\downarrow A$$ für eine Folge $$(A_n)_{n\in\mathbb N},$$ falls $$\mu(A_n)<\infty$$ für ein $$n\in\mathbb N,\ A_{n+1}\subseteq A_n$$ für alle $$n\in\mathbb N$$ und $$\bigcap_{n\in\mathbb N} A_n=A.$$
+
+$$\mu$$ heißt //stetig// von unten. bzw. von oben, falls für jede Folge mit $$A_n\uparrow A$$ bzw. $$A_n\downarrow A$$ gilt:
+
+$$
+\lim_{n\to\infty} \mu(A_n)=\mu(A).
+$$

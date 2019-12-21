@@ -1,0 +1,23 @@
+caption: Bild
+created: 20180319195536444
+creator: Leander
+modified: 20191004225205963
+modifier: Leander
+revision: 0
+tags: [[Lineare Abbildung]] no-toc
+title: Bild (lineare Abbildung)
+type: text/vnd.tiddlywiki
+
+Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]]. Wir nennen
+
+$$
+\operatorname{Im}F \coloneqq F(V)
+$$
+
+das //Bild// von $$F$$.
+
+!!! Eigenschaften
+
+* $$\operatorname{Im}F$$ ist ein [[Untervektorraum]]
+* $$F$$ [[surjektiv|Surjektivität]] $$\iff\operatorname{Im}F=W.$$
+* Ist $$F$$ [[injektiv|Injektivität]] und sind $$v_1,\ldots,v_n\in V$$ [[linear unabhängig|Lineare Unabhängigkeit]], so sind auch die Bilder $$F(v_1),\ldots,F(v_n)$$ linear unabhängig.

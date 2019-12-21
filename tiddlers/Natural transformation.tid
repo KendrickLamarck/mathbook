@@ -1,0 +1,11 @@
+created: 20181119225638140
+modified: 20181119225923240
+revision: 0
+tags: Category
+title: Natural transformation
+
+Let $$F$$ and $$G$$ be (covariant) [[functors|Functor]] between the [[categories|Category]] $$\mathcal C$$ and $$\mathcal D.$$ A //natural transformation// $$\eta$$ from $$F$$ to $$G$$ associates to every object $$x$$ in $$\mathcal C$$ a morphism $$\eta_x\colon F(x)\to G(x)$$ in $$\mathcal D$$ such that for every morphism $$f\colon x\to y$$ in $$\mathcal C,$$ we have
+
+$$
+\eta_y\circ F(f)=G(f)\circ\eta_x.
+$$

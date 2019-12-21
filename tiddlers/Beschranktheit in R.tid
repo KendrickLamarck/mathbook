@@ -1,0 +1,23 @@
+created: 20171123173357184
+modified: 20191011223541857
+tags: Ordnungstheorie
+title: Beschränktheit in R
+type: text/vnd.tiddlywiki
+
+Sei $$A \subset \mathbb{R}$$.
+
+* $$S \in \mathbb{R}$$ heißt eine //obere Schranke// für A, wenn $$a \leq S$$ für alle $$a \in A$$.
+
+* $$M \in \mathbb{R}$$ heißt das //Supremum// von $$A$$, wenn $$M$$ eine obere Schranke von $$A$$ ist und es keine kleinere obere Schranke von $$A$$ gibt. Man schreibt $$M = \sup A$$.
+
+* Ist $$\sup A \in A$$, so nennt man $$\sup A$$ das //Maximum// von $$A$$, geschrieben $$A = \max A$$.
+
+Entsprechend definiert man //untere Schranke,// //Infimum// und //Minimum.//
+
+* Falls A nicht nach oben bzw. unten beschränkt ist, schreibt man $$\sup A = +\infty$$ bzw. $$\inf A = -\infty$$.
+
+* Für die leere Menge schreibt man, weil jede Zahl eine obere/untere Schranke ist, $$\sup \varnothing = -\infty$$ und $$\inf \varnothing = +\infty$$.
+
+---
+
+{{Existenz von Infimum, Supremum und Folgen}}

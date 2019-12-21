@@ -1,0 +1,10 @@
+caption: Kompaktheit
+created: 20180517191614532
+creator: Leander
+modified: 20191011231527061
+modifier: Leander
+tags: Stetigkeit
+title: Stetige Funktionen und Kompaktheit
+type: text/vnd.tiddlywiki
+
+Seien $$(X,d_X),(Y,d_Y)$$ [[metrische Räume|Metrischer Raum]], $$A\subset X$$ [[kompakt|Kompaktheit]] und $$f\colon A\to Y$$ [[stetig|Stetigkeit]]. Dann ist auch $$f(A)\subset Y$$ kompakt.

@@ -1,0 +1,21 @@
+created: 20171225174256707
+creator: Leander
+modified: 20191011202817767
+modifier: Leander
+tags: no-toc Äquivalenzrelation
+title: Äquivalenzklasse
+type: text/vnd.tiddlywiki
+
+Ist eine [[Äquivalenzrelation]] $$\sim$$ auf einer Menge $$X$$ gegeben, so heißt eine Teilmenge $$A \subseteq X$$ //Äquivalenzklasse//, falls gilt:
+
+# $$A\neq\varnothing$$.
+# $$x,y \in A \implies x \sim y$$.
+# $$x \in A,\, y \in X,\, x \sim y \implies y \in A.$$
+
+Jedes Element $$a \in X$$ gehört zu genau einer Äquivalenzklasse, also sind zwei Äquivalenzklassen entweder gleich oder disjunkt. Die Menge der disjunkten Äquivalenzklassen bezeichnet man als $$X/\!\sim$$ oder die //Quotientenmenge// von $$X$$ nach der Äquivalenzrelation $$\sim$$. Es gibt also eine kanonische (in einer Situation eindeutig festgelegte) [[Abbildung]]
+
+$$
+X \to X/\!\sim, \quad a \mapsto A_a
+$$
+
+die jedem $$a$$ die Äquivalenzklasse $$A_a$$ zuordnet, in der es enthalten ist. Jedes $$a \in A$$ heißt ein Repräsentant der Äquivalenzklasse $$A$$. Das Urbild eines Elements $$A\in X/\!\sim$$ ist $$A\subseteq X$$.

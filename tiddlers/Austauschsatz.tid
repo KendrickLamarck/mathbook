@@ -1,0 +1,21 @@
+created: 20171230202609430
+creator: Leander
+modified: 20180728124935306
+modifier: Leander
+revision: 0
+tags: Basis
+title: Austauschsatz
+type: text/vnd.tiddlywiki
+
+In einem $$K$$-[[Vektorraum]] $$V$$ seien eine [[Basis]] $$\mathcal{B} = (v_1,\ldots,v_r)$$ und eine [[linear unabhängige|Lineare Unabhängigkeit]] Familie $$(w_1,\ldots,w_n)$$ gegeben. Dann ist $$n \leq r$$, und es gibt Indizes $$i_1,\ldots,i_n \in \{1,\ldots,r\}$$ derart, dass man nach Austausch von $$v_{i_1}$$ gegen $$w_1,\ldots,v_{i_n}$$ gegen $$w_n$$ wieder eine Basis von $$V$$ erhält. Nummeriert man so um, dass $$i_1=1,\ldots,i_n=n$$ ist, so bedeutet das, dass
+
+$$
+\mathcal{B}^* = (w_1,\ldots,w_n,v_n,\ldots,v_r)
+$$
+
+eine Basis von $$V$$ ist.
+
+''Korollar 1.''
+Hat ein $$K$$-Vektorraum eine endliche Basis, so ist jede Basis von $$V$$ endlich.
+
+''Korollar 2.'' Je zwei endliche Basen eines $$K$$-Vektorraumes haben gleiche Länge. Hiermit kann die [[Dimension]] sinnvoll definiert werden.

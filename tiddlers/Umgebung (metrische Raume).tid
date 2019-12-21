@@ -1,0 +1,10 @@
+created: 20180417170752948
+creator: Leander
+modified: 20191003190634045
+modifier: Leander
+revision: 0
+tags: no-toc Umgebung
+title: Umgebung (metrische Räume)
+type: text/vnd.tiddlywiki
+
+Für einen [[metrischen Raum|Metrischer Raum]] $$(X,d)$$ heißt $$U\subset X$$ eine //Umgebung// von $$a\in X$$, wenn es $$\epsilon>0$$ gibt, so dass $$U_\epsilon(a)\subset U.$$

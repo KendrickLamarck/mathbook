@@ -1,0 +1,13 @@
+created: 20180518191632308
+creator: Leander
+modified: 20191011182028717
+modifier: Leander
+tags: Graph no-toc
+title: Zulässiges Potential
+type: text/vnd.tiddlywiki
+
+Sei $$G=(V,E)$$ ein gerichteter [[Graph]] mit Kantengewichten $$c\in\mathbb R^E$$. Ein Vektor $$y\in\mathbb R^V$$ heißt //zulässiges Potential//, falls für alle $$(v,w)\in E$$ gilt:
+
+$$
+y_v+c_{(v,w)}\ge y_w.
+$$

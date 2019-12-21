@@ -1,0 +1,18 @@
+created: 20171230185828144
+creator: Leander
+modified: 20190718134201069
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Untervektorraum
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein $$K$$-[[Vektorraum]] und $$W \subset V$$ eine Teilmenge. $$W$$ heißt //Untervektorraum// von $$V$$, falls folgendes Gilt:
+
+* $$W \neq \varnothing,$$
+* $$v,w \in W \implies v+w \in W,$$
+* $$v \in W,\,\lambda \in K \implies \lambda v \in W.$$
+
+$$W$$ muss also abgeschlossen gegenüber der Addition und Multiplikation mit Skalaren sein. Ein Untervektorraum $$W \subset V$$ ist zusammen mit der induzierten Addition und Multiplikation mit Skalaren wieder ein Vektorraum.
+
+Ist $$W \subset V$$ ein Untervektorraum eines endlich [[erzeugten|Erzeugendensystem]] Vektorraumes $$V$$, so ist auch $$W$$ endlich erzeugt, und es gilt $$\dim(W) \leq \dim(V)$$. Aus $$\dim(W) = \dim(V)$$ folgt $$W=V.$$

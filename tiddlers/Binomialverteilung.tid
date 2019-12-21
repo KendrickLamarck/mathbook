@@ -1,0 +1,33 @@
+created: 20190103020332847
+creator: Leander
+modified: 20191011175004080
+modifier: Leander
+tags: Verteilung
+title: Binomialverteilung
+type: text/vnd.tiddlywiki
+
+Sei $$n\in\Bbb N$$ und $$p\in[0,1].$$ Das durch die [[Zähldichte|Diskretes Maß]]
+
+$$
+b(\cdot;n,p)\colon\{0,\dots,n\}\to[0,1],\quad
+k\mapsto\binom n k p^k (1-p)^{n-k}
+$$
+
+definierte [[Wahrscheinlichkeitsmaß]] auf $$\{0,\dots,n\}$$ heißt //Binomialverteilung zu $$n$$ und $$p$$// und wird mit $$\operatorname{Bin}(n,p)$$ bezeichnet.
+
+!! Eigenschaften
+
+* Sind $$X_1,\dots,X_n$$ unabhängig Bernoulli-verteilt zum Parameter $$p,$$ und definiert man $$S_n\coloneqq X_1+\dots+X_n,$$ so ist $$p_k\coloneqq b(k;n,p)$$ die Zähldichte von $$S_n.$$
+
+* <div>Ist $$X\sim\operatorname{Bin}(n,p),$$ so gilt
+$$
+\chi_X(t)=\left(pe^{it}+(1-p)\right)^n.
+$$</div>
+
+* {{Binomialapproximation}}
+
+---
+
+!! Poissonscher Grenzwertsatz
+
+{{Poissonscher Grenzwertsatz}}

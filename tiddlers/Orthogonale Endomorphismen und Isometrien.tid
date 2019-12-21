@@ -1,0 +1,13 @@
+created: 20180611211649133
+creator: Leander
+modified: 20191004192455735
+modifier: Leander
+revision: 0
+tags: Orthogonalität
+title: Orthogonale Endomorphismen und Isometrien
+type: text/vnd.tiddlywiki
+
+Sei $$(V,\langle\cdot,\cdot\rangle)$$ ein [[endlichdimensionaler|Dimension]] [[euklidischer Vektorraum|Euklidischer Vektorraum]]. Für eine beliebige Funktion $$g\colon V\to V$$ sind folgende Aussagen äquivalent:
+
+# $$g$$ ist [[isometrisch|Isometrie]]
+# Es gibt eine [[orthogonale|Orthogonaler/unitärer Endomorphismus]] Abbildung $$F\in\operatorname{End}(V)$$ und $$b\in V$$, so dass $$g(v)=F(v)+b$$ ist für alle $$v\in V.$$

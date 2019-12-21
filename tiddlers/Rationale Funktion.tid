@@ -1,0 +1,12 @@
+created: 20171122202022491
+modified: 20180410191953852
+revision: 0
+tags: Polynom
+title: Rationale Funktion
+type: text/vnd.tiddlywiki
+
+Seien $$f,g$$ [[Polynome|Polynom]] und $$N(g)$$ die Menge der Nullstellen von $$g$$:
+$$
+\frac{f}{g}\colon\mathbb{R} \setminus N(g) \to \mathbb{R}, \quad x \mapsto \frac{f(x)}{g(x)}.
+$$
+heißt eine rationale Funktion. Analog mit $$\mathbb{C}$$.

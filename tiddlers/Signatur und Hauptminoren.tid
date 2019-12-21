@@ -1,0 +1,17 @@
+created: 20180723120215548
+creator: Leander
+list: 
+modified: 20191003195648889
+modifier: Leander
+revision: 0
+tags: [[Symmetrische Form]] no-toc
+title: Signatur und Hauptminoren
+type: text/vnd.tiddlywiki
+
+Sei $$b$$ eine [[symmetrische|Symmetrische Form]] [[Bilinearform]] auf einem [[endlichdimensionalen|Dimension]] $$\mathbb R$$-[[Vektorraum]] $$V,$$ sei $$\mathcal B=(v_1,\dots,v_n)$$ eine [[Basis]] und sei $$A=(a_{ij})=M_\mathcal B(b),$$ d.h. $$a_{ij}=b(v_i,v_j).$$ Dann gilt:
+
+* $$b$$ ist [[ausgeartet|Ausartungsraum]] $$\iff\det A=0.$$
+* Wenn alle Hauptunterdeterminanten $$d_1,\dots,d_n$$ (die [[Determinanten|Determinante]] der oberen linken Quadratmatrizen) ungleich Null sind und wenn $$l$$ die Anzahl der Vorzeichenwechsel in der Folge $$1,d_1,\dots,d_n$$ ist, dann ist die [[Signatur]] von $$b$$ gleich $$(n-l,l).$$
+
+''Korollar.''
+Sind alle Hauptunterdeterminanten einer Matrix positiv, so ist sie [[positiv definit|Definitheit]].

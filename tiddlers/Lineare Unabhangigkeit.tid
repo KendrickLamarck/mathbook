@@ -1,0 +1,33 @@
+created: 20170206214738947
+creator: Leander
+list: 
+modified: 20180725180533252
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Lineare Unabhängigkeit
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine endliche Familie $$(v_1,\ldots,v_r)$$ von Vektoren aus $$V$$ heißt //linear unabhängig//, falls gilt: Sind $$\lambda_1,\ldots,\lambda_r \in K$$ und ist
+
+$$
+\lambda_1 v_1 + \dots + \lambda_r v_r = 0,
+$$
+
+so folgt
+
+$$
+\lambda_1 = \dots = \lambda_r = 0.
+$$
+
+Der Nullvektor lässt sich also nur trivial aus den $$(v_1,\ldots,v_r)$$ [[linear kombinieren|Linearkombination]]. Ist das nicht der Fall, so heißt die Familie //linear abhängig//.
+
+Eine beliebige Familie $$(v_i)_{i \in I}$$ von Vektoren aus $$V$$ heißt linear unabhängig, falls jede endliche Teilfamilie linear unabhängig ist.
+
+!! Folgerungen
+
+# Eine Familie $$(v_i)_{i \in I}$$ ist genau dann linear unabhängig, wenn sich Jeder Vektor $$v \in \operatorname{span}(v_i)$$ in eindeutiger Weise aus Vektoren der Familie $$(v_i)_{i \in I}$$ linear kombinieren lässt.
+# Ein einziger Vektor $$v \in V$$ ist genau dann linear unabhängig, wenn $$v \neq 0$$.
+# Gehört der Nullvektor zu einer Familie, so ist sie linear abhängig.
+# Kommt der gleiche Vektor in einer Familie mehrmals vor, so ist sie linear abhängig.
+# Ist $$r \geq 2$$, so sind die Vektoren $$v_1,\ldots,v_r$$ genau dann linear abhängig, wenn einer davon Linearkombination der anderen ist.

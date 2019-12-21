@@ -1,0 +1,29 @@
+caption: Quadric
+created: 20190411125742560
+modified: 20191008222853832
+tags: [[Projective space]]
+title: Projective quadric
+type: text/vnd.tiddlywiki
+
+If $$q$$ is a [[quadratic form|Quadratische Form]] on the vector space $$V,$$ then the set
+
+$$
+Q=\{[v]\in P(V)\mid q(v)=0\}
+$$
+
+is called a //quadric// in the [[projective space|Projective space]] $$P(V)$$ of $$V.$$ The quadric is called non-degenerate if the quadratic form is [[non-degenerate|Ausartungsraum]].
+
+A nondegenerate nonempty [[quadric|Projective quadric]] $$Q$$ determines the defining indefinite [[quadratic form|Quadratische Form]] $$q$$ up to a nonzero scalar factor.
+
+!! In 3-D space
+
+In $$\Bbb R\mathrm P^3,$$ there are only three (projectively invariant) non-degenerate cases, corresponding to the [[signature|Signatur]] of $$q$$:
+
+;$$(+,+,+,+)$$ or $$(-,-,-,-)$$:
+:$$Q=\varnothing.$$
+
+;$$(+,+,+,-)$$ or $$(-,-,-,+)$$:
+:In an affine view of $$\Bbb R\mathrm P^3,$$ $$Q$$ is an ellipsoid, a two-sheeted hyperboloid or a paraboloid.
+
+;$$(+,+,-,-)$$:
+:In an affine view of $$\Bbb R\mathrm P^3,$$ $$Q$$ is either a one-sheeted hyperboloid of a hyperbolic paraboloid.

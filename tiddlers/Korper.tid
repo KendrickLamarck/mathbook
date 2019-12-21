@@ -1,0 +1,22 @@
+created: 20171225231853394
+creator: Leander
+modified: 20180725162641799
+modifier: Leander
+revision: 0
+tags: Algebra
+title: Körper
+type: text/vnd.tiddlywiki
+
+Eine Menge $$K$$ zusammen mit zwei [[Verknüpfungen|Verknüpfung]] $$+$$ und $$\cdot$$ heißt //Körper// (engl. //Field//), wenn folgendes gilt:
+
+# $$K$$ zusammen mit der Addition $$+$$ ist eine abelsche [[Gruppe]].
+#*Ihr neutrales Element wird mit $$0$$, das zu $$a \in K$$ inverse Element mit $$-a$$ bezeichnet.
+# Bezeichnet $$K^* \coloneqq K \setminus \{0\}$$, so gilt für $$a,b \in K^*$$ auch $$a \cdot b \in K^*$$ und $$K^*$$ zusammen mit der so erhaltenen Multiplikation ist eine abelsche Gruppe.
+#* Ihr neutrales Element wird mit $$1$$, das zu $$a \in K^*$$ inverse Element mit $$a^{-1}$$ bezeichnet Man schreibt $$b/a = a^{-1}b = ba^{-1}$$.
+# Es gelten für alle $$a,b,c \in R$$ die Distributivgesetze$$
+\begin{gathered}
+a\cdot(b+c)=a \cdot b+a \cdot c,\\
+(a+b) \cdot c = a \cdot c + b \cdot c.
+\end{gathered}$$
+
+Ein nullteilerfreier, kommutativer [[Ring]] $$K$$ mit endlich vielen Elementen und Eins ist ein Körper.

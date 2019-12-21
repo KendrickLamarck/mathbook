@@ -1,0 +1,9 @@
+created: 20180218193239318
+list: 
+modified: 20181009150330624
+revision: 0
+tags: [[Ableitung in R]]
+title: Satz von Dini
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon J\to\mathbb R$$ [[differenzierbar|Ableitung]] auf dem Intervall $$J$$. Dann ist $$f'(J)$$ ein Intervall.

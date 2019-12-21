@@ -1,0 +1,21 @@
+created: 20181106161446195
+creator: Leander
+modified: 20190104223923960
+modifier: Leander
+revision: 0
+tags: [[Haar'sches Maß]]
+title: Partielle Integration
+
+Sei $$U\subseteq\mathbb R^d$$ [[offen|Offenheit]] und $$i\in\{1,\dots,d\}.$$ Dann gelten
+
+$$
+\int_U \frac{\partial}{\partial x_i}\varphi(x)\,\mathrm dx=0
+$$
+
+für jedes $$\varphi\in\mathcal C^1_\mathrm c(U)$$ sowie
+
+$$
+\int_U \frac{\partial}{\partial x_i} f(x) g(x)\,\mathrm dx=-\int_U f(x) \frac{\partial}{\partial x_i} g(x)\,\mathrm dx
+$$
+
+für jedes $$f\in\mathcal C^1(U)$$ und jedes $$g\in\mathcal C^1_\mathrm c(U).$$

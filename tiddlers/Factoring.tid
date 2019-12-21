@@ -1,0 +1,17 @@
+created: 20170902184952007
+creator: Leander
+modified: 20191004165444700
+modifier: Leander
+revision: 0
+tags: Formeln
+title: Factoring
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}]">
+  <h3>
+    <$view field="caption">
+      <$view field="title"/>
+    </$view>
+  </h3>
+  <$transclude mode="block"/>
+</$list>

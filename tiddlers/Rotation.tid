@@ -1,0 +1,19 @@
+created: 20190408230946576
+modified: 20190408233015676
+revision: 0
+tags: [[Linearer Differentialoperator]]
+title: Rotation
+type: text/vnd.tiddlywiki
+
+Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld|Vektor- und skalares Feld]]. Dann definieren wir
+
+$$
+\operatorname{rot}a\coloneqq
+\begin{pmatrix}
+\partial_2a_3-\partial_3a_2 \\
+\partial_3a_1-\partial_1a_3 \\
+\partial_1a_2-\partial_2a_1
+\end{pmatrix}.
+$$
+
+Sumbolisch ist $$\operatorname{rot} a=(\partial_1,\partial_2,\partial_3)\times(a_1,a_2,a_3).$$

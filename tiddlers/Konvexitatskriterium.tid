@@ -1,0 +1,14 @@
+created: 20180109170747539
+creator: Leander
+list: 
+modified: 20191003221347165
+modifier: Leander
+revision: 0
+tags: no-toc Konvexität
+title: Konvexitätskriterium
+type: text/vnd.tiddlywiki
+
+Seien $$J \subset \mathbb{R}$$ ein Intervall und $$f\colon J \to \mathbb{R}$$ [[differenzierbar|Ableitung]]. Dann gilt:
+
+# $$f$$ [[konvex|Konvexität]] $$\iff f'$$ [[monoton|Monotonie]] wachsend.
+# Ist $$f$$ zweimal differenzierbar, so gilt: $$f$$ konvex $$\iff f'' \geq 0$$.

@@ -1,0 +1,36 @@
+created: 20181026153907606
+creator: Leander
+modified: 20191003190824799
+modifier: Leander
+revision: 0
+tags: Integration
+title: Riemann-Integral
+type: text/vnd.tiddlywiki
+
+Eine Funktion $$f\colon[a,b]\to\mathbb R$$ heißt //Riemann-Integrierbar,// wenn für jedes $$\epsilon>0$$ zwei [[Treppenfunktionen|Treppenfunktion]] $$\varphi,\psi\colon[a,b]\to\mathbb R$$ mit $$\varphi\le f\le \psi$$ existieren, so dass
+
+$$
+\int_a^b (\psi(x)-\varphi(x))\,\mathrm dx <\epsilon.
+$$
+
+Wobei es sich hier um das [[Integral für Treppenfunktionen]] handelt.
+
+!! Äquivalente Charakterisierung
+
+$$f$$ ist genau dann Riemann-integrierbar, falls eine Zahl $$I\in\mathbb R$$ existiert, so dass für jedes $$\epsilon>0$$ ein $$\delta>0$$ existiert, so dass für jede Unterteilung $$a=t_0<\dots<t_n=b$$ mit Feinheit $$\max_{i-1}^n(t_i,t_{i-1})<\delta$$ und für jede Wahl von Stützstellen $$\xi_i\in (t_{i-1},t_i)$$ gilt:
+
+$$
+\left| I-\sum_{i=1}^n f(\xi_i)(t_i-t_{i-1}) \right| <\epsilon.
+$$
+
+Man schreibt dann
+
+$$
+I=\int_a^b f(x)\,\mathrm dx.
+$$
+
+---
+
+!! Riemann- und Lebesgue-Integrierbarkeit
+
+{{Riemann- und Lebesgue-Integrierbarkeit}}

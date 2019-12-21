@@ -1,0 +1,11 @@
+created: 20181204153947590
+modified: 20190414130437803
+revision: 0
+tags: [[Algebra (Mengensystem)]] Maß
+title: Eindeutigkeit von Maßen
+type: text/vnd.tiddlywiki
+
+Sei $$\mathcal F$$ eine $$\sigma$$-[[Algebra|Sigma-Algebra]] auf $$\Omega$$ und $$\mathcal C$$ ein schnittstabiles [[Erzeugendensystem|Erzeugte sigma-Algebra]]. Falls zwei [[Maße|Maß]] $$\mu,\nu$$ auf $$\mathcal C$$ miteinander übereinstimmen und eine Folge $$(\Omega_n)\in\mathcal C^\Bbb N$$ existiert mit $$\Omega_n\uparrow\Omega$$ und $$\mu(\Omega_n)=\nu(\Omega_n)<\infty$$ für alle $$n\in\mathbb N,$$ dann gilt $$\mu=\nu$$ auf $$\mathcal F.$$
+
+''Korollar.''
+Falls zwei endliche Maße $$\mu,\nu$$ mit $$\mu(\Omega)=\nu(\Omega)$$ auf einem schnittstabilen Erzeugendensystem übereinstimmen, dann sind sie gleich.

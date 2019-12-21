@@ -1,0 +1,30 @@
+created: 20180423210505271
+creator: Leander
+modified: 20191004225546252
+modifier: Leander
+revision: 0
+tags: Eigenwert no-toc
+title: Eigenraum
+type: text/vnd.tiddlywiki
+
+Ist $$F$$ ein [[Endomorphismus]] von $$V$$ und $$\lambda\in K$$, so nennen wir
+
+$$
+\operatorname{Eig}(F;\lambda)\coloneqq\{\,v\in V:F(v)=\lambda v\,\}
+$$
+
+den //Eigenraum// von $$F$$ bezüglich $$\lambda$$.
+
+Ist ein Endomorphismus $$F\colon K^n\to K^n$$ durch die [[Matrix|Darstellende Matrix (lineare Abbildungen)]] $$A\in K^{n\times n}$$ gegeben, so ist der Eigenraum $$\operatorname{Eig}(F;\lambda)$$ für jedes $$\lambda\in K$$ der [[Lösungsraum]] des [[linearen Gleichungssystems|Lineares Gleichungssystem]]
+
+$$
+(A-\lambda E_n)x=0.
+$$
+
+!!! Eigenschaften
+
+* $$\operatorname{Eig}(F;\lambda)$$ ist ein [[Untervektorraum]].
+* $$\lambda$$ ist genau dann [[Eigenwert]] von $$F$$, wenn $$\operatorname{Eig}(F;\lambda)\ne\{0\}$$ ist.
+* $$\operatorname{Eig}(F;\lambda)\setminus\{0\}$$ ist die Menge der zu $$\lambda$$ gehörigen Eigenvektoren von $$F$$.
+* $$\operatorname{Eig}(F;\lambda)=\ker(F-\lambda\operatorname{id}_V).$$
+* Sind $$\lambda_1,\lambda_2\in K$$ verschieden, so ist $$\operatorname{Eig}(F;\lambda_1)\cap\operatorname{Eig}(F;\lambda_2)=\{0\}.$$

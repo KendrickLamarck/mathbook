@@ -1,0 +1,19 @@
+created: 20190215231651192
+modified: 20191010175156019
+tags: [[Hyperbolic geometry]]
+title: Klein model
+type: text/vnd.tiddlywiki
+
+The //Klein model// of the [[hyperbolic plane|Hyperbolic geometry]] is the unit disk
+
+$$
+D^2=\left\{\begin{pmatrix} u_1\\u_2\end{pmatrix}\in\Bbb R^2\mid u_1^2+u_2^2<1\right\}
+$$
+
+where $$(x_1,x_2,x_3)\in H^2$$ corresponds to $$\frac 1{x_3}(x_1,x_2)$$ and inversely $$(u_1,u_2)\in D^2$$ corresponds to $$\frac 1{\sqrt{1-u_1^2-u_2^2}}(u_1,u_2,1)\in H^2.$$
+
+It is obtained by projecting $$H^2$$ to the plane $$x_3=1$$ with $$0\in\Bbb R^{2,1}$$ as center of projection. Hyperbolic lines are mapped to line segments in $$D^2.$$
+
+!! Map to Poincaré disk model
+
+{{Mapping the Klein- to the Poincaré model}}

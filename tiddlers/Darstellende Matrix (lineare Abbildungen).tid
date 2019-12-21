@@ -1,0 +1,42 @@
+caption: Darstellende Matrix
+created: 20180327181008377
+creator: Leander
+list: [[Darstellende Matrizen und Koordinatensysteme]] [[Transformationsformel (lineare Abbildungen)]] [[Matrizenmultiplikation und Komposition]] Einheitsmatrix Rangnormalform
+modified: 20191004231312376
+modifier: Leander
+revision: 0
+tags: [[Lineare Abbildung]]
+title: Darstellende Matrix (lineare Abbildungen)
+type: text/vnd.tiddlywiki
+
+Gegeben seien $$K$$-[[Vektorräume|Vektorraum]] $$V$$ mit [[Basis]] $$\mathcal A=(v_1,\ldots,v_n)$$ und $$W$$ mit Basis $$\mathcal B=(w_1,\ldots,w_m)$$. Dann gibt es zu jeder [[linearen Abbildung|Lineare Abbildung]] $$F\colon V\to W$$ genau eine [[Matrix]] $$A=(a_{ij})\in K^{m\times n}$$, so dass
+
+$$
+F(v_j)=\sum_{i=1}^m a_{ij}w_i\quad\text{für } j=1,\dots,n.
+$$
+
+und die so erhaltene Abbildung
+
+$$
+M_\mathcal B^\mathcal A\colon\hom(V;W)\to K^{m\times n},\quad F\mapsto A=M_\mathcal B^\mathcal A(F)
+$$
+
+ist ein [[Isomorphismus]] von $$K$$-Vektorräumen. Insbesondere gilt
+
+$$
+M_\mathcal B^\mathcal A(F+G)=M_\mathcal B^\mathcal A(F)+M_\mathcal B^\mathcal A(G),\quad M_\mathcal B^\mathcal A(\lambda F)=\lambda M_\mathcal B^\mathcal A(F).
+$$
+
+Nach Wahl fester Basen kann man also lineare Abbildungen durch Matrizen ersetzen. Man nennt $$M_\mathcal B^\mathcal A(F)$$ die Matrix, die $$F$$ bezüglich der Basen $$\mathcal A$$ und $$\mathcal B$$ //darstellt//.
+
+!! Endomorphismen
+
+Ist $$V=W$$ und setzt man $$\mathcal A=\mathcal B=(v_1,\ldots,v_n),$$ so schreibt man auch $$M_\mathcal B\coloneqq M_\mathcal B^\mathcal B.$$ Der ([[Ring]]!)-Isomorphismus $$M_\mathcal B\colon\operatorname{End}(V)\to K^{n\times n}$$ ist dann charakterisiert durch die Gleichungen
+
+$$
+F(v_j)=\sum_{i=1}^n a_{ij}v_j\quad\text{für } j=1,\dots,n.
+$$
+
+!! Transformationsformel
+
+{{Transformationsformel (lineare Abbildungen)}}

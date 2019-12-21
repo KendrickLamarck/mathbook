@@ -1,0 +1,10 @@
+created: 20171123173047614
+creator: Leander
+list: 
+modified: 20191011204036416
+modifier: Leander
+tags: Kompaktheit Folge no-toc
+title: Satz von Bolzano-Weierstraß
+type: text/vnd.tiddlywiki
+
+In [[metrischen Räumen|Metrischer Raum]] gilt [[Folgenkompakt|Folgenkompaktheit]] $$\iff$$ [[Überdeckungskompakt|Kompaktheit]].

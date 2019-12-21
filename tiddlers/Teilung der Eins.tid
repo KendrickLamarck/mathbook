@@ -1,0 +1,38 @@
+created: 20190104211615658
+creator: Leander
+modified: 20191011221043091
+modifier: Leander
+tags: [[Haar'sches Maß]]
+title: Teilung der Eins
+type: text/vnd.tiddlywiki
+
+# Definiere $$\psi\colon\Bbb R\to [0,1],\ t\mapsto (1-|t|)_+.$$
+
+# Definiere $$\Psi\colon\Bbb R^d\to [0,1],\ x\mapsto\prod_{i=1}^d \psi(x_i).$$
+
+Dann gilt für alle $$x\in\Bbb R^d$$:
+
+$$
+\sum_{k\in\Bbb Z^d} \theta_k\Psi(x)=1.
+$$
+
+Definiere nun $$\Psi_\epsilon(x)\coloneqq \Psi(x/\epsilon).$$ Wieder gilt
+
+$$
+\sum_{k\in\Bbb Z^d} \theta_{k\epsilon}\Psi_\epsilon(x)=1.
+$$
+
+Weiter gilt für alle $$f\in\mathcal C_\mathrm c(\Bbb R^d)$$
+
+$$
+\lim_{\epsilon\downarrow 0}\Bigl\|
+f-\sum_{k\in\Bbb Z^d} f(k\epsilon)\theta_{k\epsilon}\Psi_\epsilon
+\Bigr\|_\infty=0.
+$$
+
+''Lemma.''
+Für jedes lineare translationsinvariante Funktional $$J\colon\mathcal C_\mathrm c(\Bbb R^d)\to\Bbb R$$ und jedes $$\epsilon>0$$ gilt:
+
+$$
+J(\Psi_{\epsilon/2})=2^{-d}J(\Psi_\epsilon).
+$$

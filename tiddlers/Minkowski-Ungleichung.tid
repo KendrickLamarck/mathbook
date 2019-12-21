@@ -1,0 +1,13 @@
+created: 20190115153146038
+creator: Leander
+modified: 20191011173513012
+modifier: Leander
+tags: Lp-Räume no-toc
+title: Minkowski-Ungleichung
+type: text/vnd.tiddlywiki
+
+Sei $$p\in[1,\infty].$$ Dann gilt für alle $$f,g\in\mathcal L^P$$
+
+$$
+\|f+g\|_p \le \|f\|_p + \|g\|_p.
+$$

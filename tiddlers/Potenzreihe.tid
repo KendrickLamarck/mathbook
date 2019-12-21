@@ -1,0 +1,26 @@
+created: 20180226123925813
+list: Konvergenzradius [[Differentiation von Potenzreihen]] [[Konvergenz von Potenzreihen]] [[Quotientenkriterium für Potenzreihen]] [[Abel'scher Grenzwertsatz]] Taylorreihe [[Satz von Borel (Taylorreihen)]] [[Komplexe Exponentialfunktion]] Leibnizreihe Logarithmusreihe
+modified: 20191003225245889
+revision: 0
+tags: Reihe
+title: Potenzreihe
+type: text/vnd.tiddlywiki
+
+Eine //Potenzreihe// ist eine unendliche [[Reihe]] der Form
+
+$$
+\sum_{k=0}^\infty a_k(z-z_0)^k,
+$$
+
+mit $$a_k,z_0,z \in \mathbb C$$. Auf der Menge $$D\subset\mathbb C$$ aller $$z\in\mathbb C$$ für die die Reihe konvergiert, liefert dies eine Funktion $$f\colon D\to\mathbb C$$.
+
+!! Konvergenz(radius)
+
+{{Konvergenzradius}}
+
+{{Konvergenz von Potenzreihen}}
+
+
+!! Differenzierbarkeit
+
+{{Differentiation von Potenzreihen}}

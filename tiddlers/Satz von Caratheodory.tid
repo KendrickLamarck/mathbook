@@ -1,0 +1,11 @@
+created: 20181204153530240
+modified: 20191011180133671
+tags: [[Algebra (Mengensystem)]] Maß
+title: Satz von Carathéodory
+type: text/vnd.tiddlywiki
+
+Sei $$\mu$$ ein $$\sigma$$-endliches [[Prämaß]] auf einer [[Algebra|Algebra (Mengensystem)]] $$\mathcal A.$$ Dann gibt es genau ein [[Maß]] $$\tilde\mu$$ auf $$\sigma(\mathcal A),$$ das $$\mu$$ erweitert, d.h. das auf $$\mathcal A$$ mit $$\mu$$ übereinstimmt.
+
+!! Approximationssatz
+
+{{Approximationssatz}}

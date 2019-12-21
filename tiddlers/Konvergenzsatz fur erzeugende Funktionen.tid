@@ -1,0 +1,16 @@
+created: 20190607144800206
+modified: 20191003215151589
+revision: 0
+tags: [[Erzeugende Funktion]] no-toc
+title: Konvergenzsatz für erzeugende Funktionen
+type: text/vnd.tiddlywiki
+
+Es sei $$P_n=\left(p_k^{(n)}\right),\ k,n\in\N_0,$$ eine Folge von [[Verteilungen|Verteilung]] auf $$\N_0$$ mit [[erzeugenden Funktionen|Erzeugende Funktion]] $$G_n.$$ Dann sind äquivalent:
+
+# $$p_k=\lim_{n\to\infty} p_k^{(n)}$$ existiert für alle $$k\in\N_0.$$
+# $$G(s)=\lim_{n\to\infty} G_n(s)$$ existiert für $$|s|<1.$$
+
+In diesem Falle gilt
+$$
+p_k\ge 0,\quad \sum_{k=0}^\infty p_k\le 1,\quad G(s)=\sum_{k=0}^\infty p_k s^k.
+$$

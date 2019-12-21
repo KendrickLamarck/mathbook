@@ -1,0 +1,34 @@
+created: 20180330144319985
+creator: Leander
+modified: 20191003210737373
+modifier: Leander
+revision: 0
+tags: Matrix
+title: Äquivalente und ähnliche Matrizen
+type: text/vnd.tiddlywiki
+
+Zwei Matrizen $$A,B\in K^{m\times n}$$ heißen //äquivalent//, wenn es [[invertierbare|Inverse Matrix]] [[Matrizen|Matrix]] $$S\in K^{m\times m}$$ und $$T\in K^{n\times n}$$ gibt mit
+
+$$
+B=SAT^{-1}.
+$$
+
+Im Spezialfall $$m=n$$ nennen wir $$A,B\in K^{m\times m}$$ //ähnlich//, wenn es eine invertierbare Matrix $$S\in K^{m\times m}$$ gibt mit
+
+$$
+B=SAS^{-1}.
+$$
+
+Zwei Matrizen sind genau dann äquivalent, wenn sie bezüglich verschiedener Paare von [[Basen|Basis]] die gleiche [[lineare Abbildung|Lineare Abbildung]] beschreiben. Analog für [[Endomorphismen|Endomorphismus]] und verschiedene Basen.
+
+''Lemma.''
+Zwei Matrizen sind genau dann äquivalent, wenn sie den gleichen [[Rang]] haben. Insbesondere ist jede Matrix vom Rang $$r$$ äquivalent zu
+
+$$
+\begin{pmatrix}
+E_r&0\\
+0&0
+\end{pmatrix}.
+$$
+
+Diese speziellen Matrizen repräsentieren die [[Äquivalenzklasssen|Äquivalenzklasse]] und heißen //Normalformen//. Siehe auch [[Rangnormalform]].

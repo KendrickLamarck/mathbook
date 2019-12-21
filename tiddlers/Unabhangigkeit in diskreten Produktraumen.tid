@@ -1,0 +1,13 @@
+created: 20190505113604136
+modified: 20190708225021816
+revision: 0
+tags: [[Stochastische Unabhängigkeit]]
+title: Unabhängigkeit in diskreten Produkträumen
+
+Seien $$(\Omega_i,\Bbb P_i),\ 1\le i\le n$$ [[diskrete Wahrscheinlichkeitsräume|Diskretes Maß]]. Für Ereignisse $$A_i\in\mathcal P(\Omega_i),\ 1\le i\le n$$ seien
+
+$$
+A_i^{(i)}=\{\omega=(\omega_1,\dots,\omega_n)\mid\omega_i\in A_i\}
+$$
+
+die Ereignisse im [[Produktraum|Produkt-sigma-Algebra]], die nur vom Ereignis $$A_i$$ im $$i$$-ten Zufallsexperiment abhängen. Dann sind die Ereignisse $$\left(A_i^{(i)}\right)_{1\le i\le n}$$ [[unabhängig|Stochastische Unabhängigkeit]].

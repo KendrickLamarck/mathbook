@@ -1,0 +1,20 @@
+created: 20181127154335313
+modified: 20181229192012396
+revision: 0
+tags: Sigma-Algebra
+title: Spur-sigma-Algebra
+
+Falls $$\mathcal F$$ eine $$\sigma$$-[[Algebra|Sigma-Algebra]] auf $$\Omega$$ ist und $$\varnothing\ne\tilde\Omega\subset\Omega$$ ist, dann heißt
+
+$$
+\tilde\mathcal F\coloneqq
+\{A\cap\tilde\Omega:A\in\mathcal F\}
+$$
+
+die //Spur-$$\sigma$$-Algebra// von $$\mathcal F$$ über $$\tilde\Omega.$$ 
+
+Falls $$\Omega$$ messbar ist, so ist
+
+$$
+\tilde\mathcal F=\{ A\in\mathcal F:A\subset\tilde\Omega \}.
+$$

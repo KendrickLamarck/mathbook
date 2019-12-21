@@ -1,0 +1,10 @@
+created: 20180428163648110
+creator: Leander
+modified: 20191004225441735
+modifier: Leander
+revision: 0
+tags: Eigenwert no-toc
+title: Lineare Unabhängigkeit von Eigenvektoren
+type: text/vnd.tiddlywiki
+
+Gegeben seien $$F\in\operatorname{End}(V)$$ und Eigenvektoren $$v_1,\ldots,v_m$$ zu paarweise verschiedenen Eigenwerten $$\lambda_1,\ldots,\lambda_m$$. Dann sind $$v_1,\ldots,v_m$$ [[linear unabhängig|Lineare Unabhängigkeit]]. Insbesondere ist $$m\le\dim V$$.

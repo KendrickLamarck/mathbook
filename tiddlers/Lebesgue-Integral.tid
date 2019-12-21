@@ -1,0 +1,55 @@
+created: 20181217163629185
+creator: Leander
+list: [[Konvergenzsätze für Lebesgue-Integrale]] [[Monotoner Konvergenzsatz]] [[Satz von Beppo-Lévy]] [[Lemma von Fatou]] [[Satz von Lebesgue]] Stetigkeitslemma Differenziationslemma [[Integral rotationssymmetrischer Funktionen]] Lp-Räume Dichte [[Satz von Fubini]] [[Satz von Tonelli]] [[Integral differenzierbarer Funktionen mit dem Lebesgue-Maß]] [[Riemann- und Lebesgue-Integrierbarkeit]] [[Integrale über Untermannigfaltigkeiten]] Transformationssatz Faltung
+modified: 20191012021355540
+modifier: Leander
+tags: Integration
+title: Lebesgue-Integral
+type: text/vnd.tiddlywiki
+
+Sei $$(\Omega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]].
+
+# <div>Das Integral einer nichtnegativen [[einfachen Funktion|Einfache Funktion]] $$f=\sum_{i=1}^n a_i\mathbf 1_{A_i}$$ mit $$A_1,\dots,A_n\in\mathcal F$$ und $$a_1,\dots,a_n>0$$ wird definiert als
+$$
+\int f\,\mathrm d\mu\coloneqq\sum_{i=1}^n a_i\mu(A_i).
+$$</div>
+
+# <div>Das Integral einer nichtnegativen [[messbaren|Messbare Funktion]] [[numerischen|Numerische Funktion]] Funktion $$f\colon\Omega\to[0,\infty]$$ wird definiert als
+$$
+\int f\,\mathrm d\mu\coloneqq
+\lim_{n\to\infty}\int f_n\,\mathrm d\mu \in [0,\infty],
+$$
+wobei $$(f_n)_{n\in\mathbb N}$$ eine [[Folge]] nichtnegativer einfacher Funktionen ist mit $$f_n\uparrow f.$$</div>
+
+# <div>Sei $$f\colon\Omega\to\overline\Bbb R$$ messbar und numerisch, so dass $$\int f^+\,\mathrm d\mu<\infty$$ und $$\int f^-\mathrm d\mu <\infty.$$ Dann setzen wir
+$$
+\int f\,\mathrm d\mu\coloneqq
+\int f^+\,\mathrm d\mu - \int f^-\,\mathrm d\mu
+$$
+und nennen $$f$$ //integrierbar// bezüglich $$\mu.$$ Wir schreiben $$\mathcal L^1(\Omega,\mathcal F,\mu)$$ oder kurz $$\mathcal L^1(\mu)$$ oder $$\mathcal L^1$$ für die Menge aller bezüglich $$\mu$$ integrierbaren Funktionen.</div>
+
+# <div>Für $$f\in\mathcal L^1$$ und $$A\in\mathcal F$$ setzen wir
+$$
+\int_A f\,\mathrm d\mu\coloneqq
+\int f\mathbf 1_A\,\mathrm d\mu.
+$$</div>
+
+Man schreibt statt $$\int f\,\mathrm d\mu$$ auch ausführlicher $$\int_\Omega f(\omega)\,\mu(\mathrm d\omega)$$ oder $$\int_\Omega f(\omega)\,\mathrm d\mu(\omega).$$
+
+!! Eigenschaften
+
+* Monotonie: $$f\le g\implies\int f\,\mathrm d\mu\le\int g\,\mathrm d\mu$$
+
+* Dreiecksungleichung: $$\left|\int f\,\mathrm d\mu\right|\le \int |f|\,\mathrm d\mu$$
+
+* <div>Linearität: Für $$\alpha,\beta\in\mathbb R$$ ist $$\alpha f+\beta g\in\mathcal L^1$$ und es gilt
+$$
+\int(\alpha f+\beta g)\,\mathrm d\mu=\alpha\int f\,\mathrm d\mu+\beta\int g\,\mathrm d\mu,
+$$
+auch wenn höchstens eines der beiden Integrale $$\infty$$ oder $$-\infty$$ annimmt.</div>
+
+* Falls $$g\colon\Omega\to[0,\infty]$$ nichtnegativ und integrierbar ist und $$f$$ eine numerische messbare Funktion mit $$|f|\le g,$$ so ist auch $$f$$ integrierbar. Insbesondere ist eine messbare numerische Funktion genau dann integrierbar, wenn ihr Betrag integrierbar ist.
+
+* Falls $$f\le g$$ $$\mu$$-f.ü., so gilt $$\int f\,\mathrm d\mu\le\int g\,\mathrm d\mu.$$
+
+* Falls $$f\ge g$$ $$\mu$$-f.ü. und $$\int f\,\mathrm d\mu=\int g\,\mathrm d\mu,$$ so gilt $$f=g$$ $$\mu$$-f.ü.

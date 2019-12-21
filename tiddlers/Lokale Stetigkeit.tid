@@ -1,0 +1,13 @@
+created: 20171225162220439
+creator: Leander
+list: 
+modified: 20191011231759775
+modifier: Leander
+tags: Stetigkeit
+title: Lokale Stetigkeit
+type: text/vnd.tiddlywiki
+
+$$f\colon D \to \mathbb{K}$$ ist [[stetig|Stetigkeit]] in $$p \in D$$, wenn es ein $$\delta > 0$$ gibt, so dass $$f|_{D \cap U_\delta(p)}$$ stetig ist.
+
+''Korollar.''
+Seien $$\mathbb{K}\supset G = \bigcup_{i \in I} U_i$$ die Vereinigung von [[offenen|Offenheit (metrische Räume)]] Mengen $$U_i$$ und $$f$$ eine [[Funktion|Abbildung]] auf $$G$$. Ist $$f|_{U_i}$$ stetig für alle $$i \in I$$, so ist $$f$$ stetig auf $$G$$.

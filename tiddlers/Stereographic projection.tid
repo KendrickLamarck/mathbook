@@ -1,0 +1,35 @@
+created: 20190210221038641
+creator: Leander
+modified: 20191013022212507
+modifier: Leander
+tags: [[Spherical geometry]]
+title: Stereographic projection
+type: text/vnd.tiddlywiki
+
+!! Elementary
+
+//stereographic projection// $$\sigma\colon S^2\setminus \{e_3\}\to\Bbb R^2$$ maps a point on the [[unit sphere|Einheitssphäre]] along the ray from the north pole to the plane $$x_3=0.$$ The equations are
+
+$$\begin{gathered}
+\sigma \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} =
+\frac 1 {1-x_3} \begin{pmatrix} x_1 \\ x_2 \end{pmatrix},\\
+\sigma^{-1}\begin{pmatrix} u_1 \\ u_2 \end{pmatrix} =
+\frac 1 {\|u\|^2+1} \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
+\end{gathered}$$
+
+Stereographic projection maps circles in $$S^2$$ which contain $$e_3$$ to lines in $$\Bbb R^2$$ and all other circles in $$S^2$$ to circles in $$\Bbb R^2.$$ All circles and lines in $$\Bbb R^2$$ are images of circles in $$S^2.$$
+
+!! Projective
+
+$$\widehat\Bbb R^n$$ can be mapped to $$S^n\subset\Bbb R^{n+1}\subset\Bbb R\mathrm P^{n+1}$$ bijectively via stereographic projection:
+
+$$
+\Bbb R^n\ni u\mapsto
+\begin{bmatrix}
+2u        \\
+\|u\|^2-1 \\
+\|u\|^2+1
+\end{bmatrix},
+$$
+
+where $$\infty$$ is mapped to the north pole $$[e_{n+1}+e_{n+2}].$$

@@ -1,0 +1,15 @@
+created: 20180226131146997
+creator: Leander
+list: 
+modified: 20181009150514576
+modifier: Leander
+revision: 0
+tags: [[Ableitung in R]]
+title: Höhere Produktregel
+type: text/vnd.tiddlywiki
+
+Für $$n>0$$ und $$n$$-mal [[differenzierbare|Ableitung]] Funktionen $$u,v$$ gilt
+
+$$
+(uv)^{(n)}=\sum_{k=0}^n \binom{n}{k} u^{(n-k)} v^{(k)}.
+$$

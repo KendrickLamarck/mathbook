@@ -1,0 +1,13 @@
+created: 20180411145210801
+creator: Leander
+modified: 20180725180747734
+modifier: Leander
+revision: 0
+tags: Zahldarstellung
+title: Signifikante Stellen
+
+Es sei $$F$$ [[Maschinenzahlbereich|Maschinenzahl]] und $$s\in\mathbb N$$. Dann hat $$f\in F$$ (mindestens) $$s$$ //signifikante Stellen// in der $$b$$-adischen Gleitkommadarstellung, falls $$f\ne 0$$ und für jede [[Rundung]] $$\operatorname{rd}$$ und jede Zahl $$x\in\mathbb R$$ mit $$\operatorname{rd}(x)=f$$ gilt:
+
+$$
+|x-f|\le\frac 12\cdot b^{\lfloor\log_b|f|\rfloor+1-s}.
+$$

@@ -1,0 +1,13 @@
+created: 20180418085543739
+creator: Leander
+modified: 20180718194355563
+modifier: Leander
+revision: 0
+tags: Graph
+title: Graphenisomorphismus
+
+Seien $$G_1=(V_1,E_1)$$ und $$G_2=(V_2,E_2)$$ zwei einfache ungerichtete [[Graphen|Graph]]. Eine Abbildung $$\Phi\colon V_1\to V_2$$ ist ein //Graphenisomorphismus// zwischen $$G_1$$ und $$G_2$$, falls $$\Phi$$ [[bijektiv|Bijektivität]] ist und für alle $$v,w\in V_1$$ gilt:
+
+$$
+\{\,v,w\,\}\in E_1\iff\{\,\Phi(v),\Phi(w)\,\}\in E_2.
+$$

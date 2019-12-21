@@ -1,0 +1,21 @@
+created: 20190510071859047
+modified: 20190715220647300
+revision: 0
+tags: Verteilung
+title: Gleichverteilung
+
+Für $$a<b$$ heißt eine [[Zufallsvariable]] $$X$$ mit Dichte
+
+$$
+f(x)=\frac 1 {b-a} \mathbf 1_{[a,b]}(x)
+$$
+
+//gleichverteilt// auf $$[a,b].$$ 
+
+
+* <div>Ihre [[Verteilungsfunktion]] ist
+$$
+F(x)=\frac{x-a}{b-a}\mathbf 1_{[a,b]}(x)+\mathbf 1_{]a,\infty[}(x).
+$$</div>
+
+* Für den Erwartungswert gilt $$\Bbb E[X]=\frac 1 2 (a+b).$$

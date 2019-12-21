@@ -1,0 +1,9 @@
+created: 20180509204602672
+creator: Leander
+modified: 20180509204741621
+modifier: Leander
+revision: 0
+tags: Zusammenhang
+title: Wegzusammenhang
+
+Ein metrischer Raum $$(X,d)$$ heißt //wegzusammenhängend//, falls es zu je zwei Punkten $$p,q\in X$$ einen Weg von $$p$$ nach $$q$$, d.h. eine [[stetige|Stetigkeit]] Abbildung $$c\colon[0,1]\to X$$ mit $$c(0)=p$$ und $$c(1)=q$$ gibt.

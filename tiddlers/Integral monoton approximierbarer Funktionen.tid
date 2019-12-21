@@ -1,0 +1,19 @@
+created: 20190102013958945
+creator: Leander
+modified: 20191011174421020
+modifier: Leander
+tags: [[Monoton approximierbare Funktionen]] no-toc
+title: Integral monoton approximierbarer Funktionen
+type: text/vnd.tiddlywiki
+
+Sei $$f\in\mathcal H^\uparrow(\mathbb R^d)\cup\mathcal H^\downarrow(\mathbb R^d).$$ und $$(f_n)_{n\in\Bbb N}$$ eine entsprechende [[approximierende Folge|Monoton approximierbare Funktionen]]. Dann definieren wir
+
+$$
+\int_{\Bbb R^d} f(x)\,\mathrm dx\coloneqq \lim_{n\to\infty}\int_{\Bbb R^d} f_n(x)\,\mathrm dx.
+$$
+
+Für $$f,g\in\mathcal H^\uparrow(\mathbb R^d)$$ liegt auch $$f+\lambda g\in\mathcal H^\uparrow(\mathbb R^d)$$ und das obige Integral ist linear, monoton und translationsinvariant.
+
+!! Satz von Fubini
+
+{{Satz von Fubini für monoton approximierbare Funktionen}}

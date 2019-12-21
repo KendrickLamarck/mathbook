@@ -1,0 +1,14 @@
+caption: Lines in conics
+created: 20190130092202358
+creator: Leander
+modified: 20190603143624155
+modifier: Leander
+revision: 0
+tags: [[Projective conic]]
+title: Lines in conics
+
+If a [[conic|Projective conic]] $$Q$$ contains three points on a line $$l$$, then:
+
+* $$Q$$ contains the whole line,
+* the corresponding quadratic form is degenerate and
+* the conic $$Q$$ is either the line $$l$$ or the union of $$l$$ with another line.

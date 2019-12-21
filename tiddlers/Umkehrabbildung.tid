@@ -1,0 +1,22 @@
+created: 20161210014338771
+list: 
+modified: 20191011211352615
+tags: Abbildung
+title: Umkehrabbildung
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon X \to Y$$ eine [[bijektive|Bijektivität]] [[Abbildung]]. Dann existiert eine Umkehrabbildung
+
+$$
+f^{-1}\colon Y \to X, \quad y \mapsto x = f^{-1}(y)
+$$
+
+mit $$y = f(x)$$. Die Umkehrabbildung ist ebenfalls bijektiv.
+
+!! Involution
+
+{{Involution}}
+
+!! Ableitung
+
+{{Ableitung der Umkehrfunktion}}

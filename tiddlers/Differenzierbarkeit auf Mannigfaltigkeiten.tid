@@ -1,0 +1,13 @@
+created: 20181008184702549
+creator: Leander
+modified: 20191011222227988
+modifier: Leander
+tags: Mannigfaltigkeit
+title: Differenzierbarkeit auf Mannigfaltigkeiten
+type: text/vnd.tiddlywiki
+
+Sei $$M$$ eine $$\mathcal C^\alpha$$-[[Untermannigfaltigkeit|Mannigfaltigkeit]] der Dimension $$k$$ von $$\mathbb R^d.$$ Eine [[stetige|Stetigkeit]] Abbildung $$f\colon\mathbb R^k\supset G\to M$$ ($$G$$ offen) heißt //stetig differenzierbar,// wenn es für jedes $$p\in G$$ einen [[Diffeomorphismus]] $$\phi\colon U\to\Bbb R^d$$ um $$f(p)$$ wie in der Definition gibt, so dass 
+
+$$
+\phi\circ f|_{f^{-1}(U)}\in\mathcal C^1(f^{-1}(U)\to\mathbb R^d).
+$$

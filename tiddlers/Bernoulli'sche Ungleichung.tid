@@ -1,0 +1,13 @@
+created: 20171110205627641
+creator: Leander
+modified: 20180429103733115
+modifier: Leander
+revision: 0
+tags: Formeln
+title: Bernoulli'sche Ungleichung
+type: text/vnd.tiddlywiki
+
+Für alle $$x>-1$$ und $$n \in \mathbb{N}$$ gilt:
+$$
+(1+x)^{n} \geq 1 + nx
+$$

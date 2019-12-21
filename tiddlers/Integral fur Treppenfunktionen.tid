@@ -1,0 +1,16 @@
+created: 20180124201520624
+creator: Leander
+list: 
+modified: 20191011170449826
+modifier: Leander
+tags: Regelintegral no-toc
+title: Integral für Treppenfunktionen
+type: text/vnd.tiddlywiki
+
+Seien $$\phi$$ eine [[Treppenfunktion]], $$\xi_i\in{]x_{i-1},x_i[}$$ und $$\Delta x_i \coloneqq x_i-x_{i-1}$$. Dann gibt das durch
+
+$$
+\int_a^b\phi=\int_a^b\phi(x)\,\mathrm{d}x\coloneqq\sum_{i=1}^n\phi(\xi_i)\Delta x_i
+$$
+
+für Treppenfunktionen definierte Integral den Flächeninhalt (negativ, falls unterhalb der $$x$$-Achse) unter dem Graphen an. Für den Flächeninhalt sind die Funktionswerte an den Sprungstellen offenbar irrelevant und er ist unabhängig von der gewählten Treppenzerlegung.

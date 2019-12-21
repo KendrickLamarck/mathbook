@@ -1,0 +1,22 @@
+created: 20180428165748539
+creator: Leander
+modified: 20190401223116945
+modifier: Leander
+revision: 0
+tags: Metrik
+title: Verkettung von Funktionen und Metriken
+type: text/vnd.tiddlywiki
+
+Sei $$X$$ eine Menge und $$d$$ eine [[Metrik]] auf $$X$$. Sei weiter
+
+$$
+\psi\colon{[0,\infty[}\to[0,M],\qquad M>0.
+$$
+
+mit
+
+# $$\psi(0)=0,$$
+# $$\psi\in\mathcal C^1$$ und $$\psi'>0$$
+# $$\psi'$$ [[monoton fallend|Monotonie]].
+
+Dann ist $$d_b\coloneqq\psi\circ d$$ eine [[beschränkte|Beschränktheit (metrische Räume)]] Metrik.

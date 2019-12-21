@@ -1,0 +1,36 @@
+created: 20190426115511608
+list: [[Unabhängigkeit in diskreten Produkträumen]] [[Unabhängigkeit und Zähldichten]] [[Unabhängigkeit und Verteilungsfunktionen]]
+modified: 20190715161311305
+revision: 0
+tags: Stochastik
+title: Stochastische Unabhängigkeit
+type: text/vnd.tiddlywiki
+
+!! Ereignisse
+
+Eine Familie von [[Ereignissen|Wahrscheinlichkeitsmaß]] $$(A_i)_{i\in I}$$ heißt //(stochastisch) unabhängig,// wenn für jede nichtleere endliche Teilmenge $$J\subseteq I$$ folgende Produktformel gilt:
+
+$$
+\Bbb P\Bigl(\bigcap_{j\in J} A_j\Bigr)=\prod_{j\in J}\Bbb P(A_j).
+$$
+
+''Satz.''
+Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein Wahrscheinlichkeitsraum und $$I=\{1,\dots,n\}.$$ Dann sind $$(A_i)_{i\in I}$$ genau dann unabhängig, wenn für jede Wahl von $$B_i\in\{A_i,A_i^c\}$$ folgende Produktformel gilt:
+
+$$
+\Bbb P\Bigl(\bigcap_{i\in I} B_i\Bigr)=\prod_{i\in I}\Bbb P(B_i).
+$$
+
+!! Zufallsvariablen
+
+Sei $$(\Omega,\mathcal A,\Bbb P)$$ ein beliebiger Wahrscheinlichkeitsraum und $$X_1,\dots,X_n$$ [[Zufallsvariablen|Zufallsvariable]] mit Werten in den messbaren Räumen $$(E_i,\mathcal E_i).$$ Dann heißen $$X_1,\dots,X_n$$ //(stochastisch) unabhängig,// falls für beliebige $$B_i\in\mathcal E_i$$ die Ereignisse
+
+$$
+\{X_1\in B_1\},\dots,\{X_n\in B_n\}
+$$
+
+unabhängig sind.
+
+* Eine beliebige Familie $$(X_i)_{i\in I}$$ von Zufallsvariablen heißt //unabhängig,// falls jede endliche Teilfamilie unabhängig ist.
+
+* Sind $$f_i\colon (E_i,\mathcal E_i)\to(D_i,\mathcal D_i)$$ für $$i=1,\dots,n$$ [[messbare|Messbare Funktion]] Abbildungen und sind $$X_1,\dots X_n$$ unabhängige Zufallsvariablen, so sind auch $$f_1(X_1),\dots,f_n(X_n)$$ unabhängig.

@@ -1,0 +1,13 @@
+created: 20180222132621550
+list: 
+modified: 20191003234959383
+revision: 0
+tags: no-toc Regelintegral
+title: Substitutionsregel
+type: text/vnd.tiddlywiki
+
+Seien $$f\colon [a,b]\to\mathbb R$$ [[stetig|Stetigkeit]] und $$\varphi\colon [\alpha,\beta]\to\mathbb [a,b]$$ stetig [[differenzierbar|Ableitung]]. Dann gilt
+
+$$
+\int_\alpha^\beta f(\varphi(t))\dot\varphi(t)\,\mathrm dt = \int_{\varphi(\alpha)}^{\varphi(\beta)} f(x)\,\mathrm dx.
+$$

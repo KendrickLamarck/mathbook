@@ -1,0 +1,13 @@
+created: 20190505144355910
+modified: 20191008230214632
+tags: [[Möbius geometry]] no-toc
+title: Inversion in a hypersphere
+type: text/vnd.tiddlywiki
+
+//Reflection// or //inversion// in a hypersphere with center $$c$$ and radius $$r$$ is the map
+
+$$
+x\mapsto c+\frac{r^2}{\|x-c\|^2}(x-c).
+$$
+
+If we consider $$\widehat\Bbb R^n\coloneqq\Bbb R^n\cup\{\infty\}$$ and map $$c$$ to $$\infty$$ and vice versa, this map is an [[involution|Involution]] of $$\widehat\Bbb R^n.$$

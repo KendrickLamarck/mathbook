@@ -1,0 +1,20 @@
+created: 20180125201030691
+creator: Leander
+list: 
+modified: 20191011165826490
+modifier: Leander
+tags: Regelintegral
+title: Integralschranken
+type: text/vnd.tiddlywiki
+
+Seien $$f\colon [a,b]\to\mathbb R$$ eine [[Regelfunktion]] und 
+
+$$
+m\le f(x) \le M
+$$
+
+für alle $$x\in[a,b]$$. Dann gilt
+
+$$
+m(b-a)\le\int_a^b f(x)\,\mathrm dx \le M(b-a).
+$$

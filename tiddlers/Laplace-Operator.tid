@@ -1,0 +1,10 @@
+created: 20190408230348624
+modified: 20190408230517238
+revision: 0
+tags: [[Linearer Differentialoperator]]
+title: Laplace-Operator
+type: text/vnd.tiddlywiki
+
+$$
+\Delta f\coloneqq\operatorname{div}\nabla f=\sum_{k=1}^n \frac{\partial^2 f}{\partial x_k^2}
+$$

@@ -1,0 +1,13 @@
+created: 20181229134412132
+modified: 20191008212645720
+tags: [[Projective space]] no-toc
+title: Homogeneous coordinates
+type: text/vnd.tiddlywiki
+
+Let $$V$$ be a an $$F$$-[[vector space|Vektorraum]] and $$(v_1,\dots,v_{n+1})$$ be a [[basis|Basis]]. If
+
+$$
+v=\sum_{j=1}^{n+1} x_j v_j,
+$$
+
+then for a point $$[v]\in P(V),\ (x_1,\dots,x_{n+1})$$ are called //homogeneous coordinates// of $$[v].$$ These are unique only up to a non-zero factor.

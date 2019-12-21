@@ -1,0 +1,22 @@
+created: 20180327143415410
+creator: Leander
+modified: 20191004230733786
+modifier: Leander
+revision: 0
+tags: [[Lineares Gleichungssystem]] no-toc
+title: Parametrisierung des Lösungsraums
+type: text/vnd.tiddlywiki
+
+Sei $$(A;b)$$ in Zeilenstufenform mit $$r=\operatorname{Zeilenrang}A$$ und $$b\in K^r$$. Dann hat die durch Wahl der Parameter und $$b$$ bestimmte und durch Rückwärtseinsetzen konstruierte Parametrisierung
+
+$$
+\Phi_b\colon K^{n-r}\to\operatorname{Lös}(A;b)\subset K^n
+$$
+
+folgende Eigenschaften:
+
+* $$\Phi_0\colon K^{n-r}\to\operatorname{Lös}(A;0)\subset K^n$$ ist ein [[Isomorphismus]] von Vektorräumen
+* $$\Phi_b\colon K^{n-r}\to\operatorname{Lös}(A;b)\subset K^n$$ ist für jedes $$b\in K^r$$ [[bijektiv|Bijektivität]].
+* Es gibt einen [[Homomorphismus]] $$\varphi\colon K^r\to K^n$$, so dass für alle $$b\in K^r$$ $$
+\Phi_b=\varphi(b)+\Phi_0,\quad\operatorname{Lös}(A;b)=\varphi(b)+\operatorname{Lös}(A;0).
+$$ Die Abbildung $$\varphi\colon K^r\to K^n$$ ist ein [[Schnitt|Faktorisierungssatz]].

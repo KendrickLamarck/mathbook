@@ -1,0 +1,16 @@
+created: 20190103011826804
+creator: Leander
+modified: 20190415111601344
+modifier: Leander
+revision: 0
+tags: Sigma-Algebra
+title: Urbild-sigma-Algebra
+type: text/vnd.tiddlywiki
+
+Sind $$\Omega$$ und $$\Omega'$$ zwei Mengen, $$f\colon\Omega\to\Omega'$$ eine Abbildung und $$\mathcal F'$$ eine $$\sigma$$-[[Algebra|Sigma-Algebra]] auf $$\Omega',$$ dann ist
+
+$$
+f^{-1}(\mathcal F')\coloneqq\{f^{-1}(A):A\in\mathcal F'\}
+$$
+
+eine $$\sigma$$-Algebra auf $$\Omega.$$ Wir bezeichnen sie auch als die //von $$f$$ erzeugte $$\sigma$$-Algebra// $$\sigma(f).$$ Sie ist die kleinste $$\sigma$$-Algebra, bezüglich derer $$f$$ messbar ist.

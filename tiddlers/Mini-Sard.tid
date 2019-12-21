@@ -1,0 +1,23 @@
+created: 20180218200855117
+creator: Leander
+list: 
+modified: 20181009150349891
+modifier: Leander
+revision: 0
+tags: Topologie [[Ableitung in R]]
+title: Mini-Sard
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon [a,b]\to\mathbb R$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]] und sei
+
+$$
+S\coloneqq\{\,x:f'(x)=0\,\}
+$$
+
+die Menge der sogenannten //kritischen Punkte// von $$f$$. Dann gibt es zu jedem $$\epsilon>0$$ ein $$k\in\mathbb N$$ und Intervalle $$J_i,\ i=1,\ldots,k$$ der Längen $$|J_i|$$, so dass gilt:
+
+$$
+f(S)\subset\bigcup_{i=1}^k J_i, \qquad \sum_{i=1}^k |J_i|<\epsilon.
+$$
+
+Man sagt: Die Menge $$f(S)$$ der kritischen Werte ist eine //Nullmenge//.

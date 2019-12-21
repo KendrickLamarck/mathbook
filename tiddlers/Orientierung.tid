@@ -1,0 +1,21 @@
+created: 20180420124512429
+creator: Leander
+modified: 20180710185541244
+modifier: Leander
+revision: 0
+tags: Basis
+title: Orientierung
+
+Seien $$\mathcal A=(v_1,\ldots,v_n)$$ und $$\mathcal B=(w_1,\ldots,w_n)$$ [[Basen|Basis]] des $$\mathbb R$$-[[Vektorraumes|Vektorraum]] $$V$$ und $$F$$ der eindeutig bestimmte [[Automorphismus]] von $$V$$ mit
+
+$$
+F(v_1)=w_1,\ldots,F(v_n)=w_n.
+$$
+
+Dann heißen $$\mathcal A$$ und $$\mathcal B$$ //gleichorientiert//, in Zeichen $$\mathcal A\sim\mathcal B$$, wenn $$\det F>0$$. Dadurch ist eine [[Äquivalenzrelation]] in der Menge $$X$$ aller Basen von $$V$$ erklärt und $$X$$ zerfällt in zwei [[Äquivalenzklassen|Äquivalenzklasse]]
+
+$$
+X=X_\bullet\cup X^\bullet,
+$$
+
+Als //Orientierung// von $$V$$ bezeichnet man eine Äquivalenzklasse gleich orientierter Basen.

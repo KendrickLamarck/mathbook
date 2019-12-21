@@ -1,0 +1,43 @@
+caption: Triangles
+created: 20190215230157161
+list: [[Existence of hyperbolic triangles]] [[Area of hyperbolic triangles]]
+modified: 20191010175149883
+tags: [[Hyperbolic geometry]]
+title: Hyperbolic triangle
+type: text/vnd.tiddlywiki
+
+Let $$A,B,C\in H^2$$ be three points in the [[hyperbolic plane|Hyperbolic geometry]] not all on one [[line|Hyperbolic line]]. The //hyperbolic triangle// with vertices $$A,B,C$$ is the intersection of $$H^2\subset\Bbb R^{2,1}$$ with
+
+$$
+\{\,\lambda A+\mu B+\nu C\mid \lambda,\mu,\nu\in\Bbb R_{\ge 0}\,\}.
+$$
+
+If $$A'$$ is a spacelike unit vector such that the half-plane bounded by the line through $$B,C$$ and containing $$A$$ is
+
+$$
+h_{A'}\{x\in H^2\mid \langle A',x\rangle\ge 0\}
+$$
+
+and analogously for $$B',C',$$ then the hyperbolic triangle is the intersection $$h_{A'}\cap h_{B'}\cap h_{C'}$$ and the interior angles $$\alpha,\beta,\gamma$$ at $$A,B,C$$ satisfy
+
+$$
+-\cos\alpha=\langle B',C'\rangle,\quad
+-\cos\beta=\langle A',C'\rangle,\quad
+-\cos\gamma=\langle A',B'\rangle.
+$$
+
+!! Area
+
+{{Area of hyperbolic triangles}}
+
+!! Existence
+
+{{Existence of hyperbolic triangles}}
+
+!! Cosine theorems
+
+{{Hyperbolic cosine theorems}}
+
+!! Sine theorem
+
+{{Hyperbolic sine theorem}}

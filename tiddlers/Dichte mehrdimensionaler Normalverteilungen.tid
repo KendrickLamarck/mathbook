@@ -1,0 +1,18 @@
+created: 20190705142851388
+modified: 20190705143103236
+revision: 0
+tags: Normalverteilung
+title: Dichte mehrdimensionaler Normalverteilungen
+
+Ist $$\Sigma^2\in\R^{n\times n}$$ [[positiv definit|Positiv definite Matrix]], so besitzt die [[Normalverteilung|Mehrdimensionale Normalverteilung]] $$N(m,\Sigma^2)$$ die $$n$$-dimensionale [[Dichte]]
+
+$$
+f_{m,\Sigma^2}(x)=
+\frac 1 {(2\pi)^\frac n 2\sqrt{\det\left(\Sigma^2\right)}}
+\exp\left(
+-\frac 1 2
+\left\langle
+x-m,\left(\Sigma^2\right)^{-1}(x-m)
+\right\rangle
+\right).
+$$

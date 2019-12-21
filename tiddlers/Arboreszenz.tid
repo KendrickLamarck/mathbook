@@ -1,0 +1,18 @@
+created: 20180412222823832
+creator: Leander
+modified: 20191011181729660
+modifier: Leander
+tags: Baum
+title: Arboreszenz
+type: text/vnd.tiddlywiki
+
+{{Branching}}
+
+Ein [[zusammenhängendes|Zusammenhängender Graph]] [[Branching]] heißt //Arboreszenz//.
+
+!! Bemerkungen
+
+* Eine Arboreszenz mit $$n$$ Knoten hat genau $$n-1$$ Kanten.
+* Folglich existiert genau ein Knoten $$r$$ mit $$\delta^-(r)=\varnothing$$. Dieser Knoten $$r$$ heißt //Wurzel// der Arboreszenz.
+* Für eine Kante $$(v,w)$$ eines Branchings heißt $$w$$ //Nachfolger// (oder Kind) von $$v$$ und $$v$$ //Vorgänger// (oder Vater oder Mutter) von $$w.$$
+* Ein Knoten ohne Kinder heißt //Blatt//.

@@ -1,0 +1,9 @@
+created: 20180519175427729
+creator: Leander
+modified: 20180727131127820
+modifier: Leander
+revision: 0
+tags: Endomorphismus
+title: Invarianter Unterraum
+
+Ein [[Untervektorraum]] $$U\subset V$$ heißt //invarianter Unterraum// von $$F\in\operatorname{End}(V)$$, wenn $$F(U)\subset U$$ ist.

@@ -1,0 +1,17 @@
+created: 20171110205555376
+modified: 20180410191954382
+revision: 0
+tags: Algebra
+title: Vollständige Induktion
+type: text/vnd.tiddlywiki
+
+Aus der definition der [[induktiven Menge|Induktive Menge]] und der [[natürlichen Zahlen|Natürliche Zahlen]] folgt die Beweistechnik der vollständigen Induktion: Kann man zeigen, dass eine Aussage
+
+# für $$n=0$$ wahr ist (Induktionsanfang) und
+# für $$n+1$$ wahr ist (Induktionsschritt), falls sie für $$n$$ wahr ist (Induktionsvoraussetzung),
+
+so folgt, dass sie für alle $$n \in \mathbb{N}$$ wahr ist.
+
+Nimmt man bei 1. als Startwert eine natürliche Zahl $$n_0 \geq 0$$, so gilt die Aussage für alle natürlichen Zahlen $$n \geq n_0$$.
+
+Bei 2. kann man außerdem voraussetzen, dass die Aussage für alle $$k$$ mit $$n_0\le k\le n$$ wahr ist und daraus auf $$n+1$$ schließen.

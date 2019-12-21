@@ -1,0 +1,12 @@
+created: 20180315140032663
+creator: Leander
+modified: 20191003215854083
+modifier: Leander
+revision: 0
+tags: Formeln
+title: Logarithm change of base
+type: text/vnd.tiddlywiki
+
+$$
+\log_b x=\frac{\log_a x}{\log_a b}
+$$

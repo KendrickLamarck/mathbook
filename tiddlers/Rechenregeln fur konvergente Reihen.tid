@@ -1,0 +1,19 @@
+created: 20180211210424784
+list: 
+modified: 20191003223149624
+revision: 0
+tags: no-toc Reihe
+title: Rechenregeln für konvergente Reihen
+type: text/vnd.tiddlywiki
+
+Sind $$\sum_{k=0}^\infty a_k = A$$ und $$\sum_{k=0}^\infty b_k = B$$ [[konvergente|Konvergenz]] unendliche [[Reihen|Reihe]], so konvergiert $$\sum_{k=0}^\infty (a_k+b_k)$$ gegen $$A+B$$:
+
+$$
+\sum_{k=0}^\infty (a_k+b_k)=\sum_{k=0}^\infty a_k + \sum_{k=0}^\infty b_k.
+$$
+
+Ist $$c\in\mathbb R$$, so gilt
+
+$$
+\sum_{k=0}^\infty (ca_k)=c\sum_{k=0}^\infty a_k.
+$$

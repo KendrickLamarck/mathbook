@@ -1,0 +1,15 @@
+created: 20190426111923287
+modified: 20191011160308242
+tags: Geometrie
+title: Affine geometry
+type: text/vnd.tiddlywiki
+
+The space $$\Bbb R^n$$ with the [[group|Gruppe]] of affine transformations
+
+$$
+x\mapsto Ax+b, \quad\textsf{where } A\in \mathrm{GL}(n),\ b\in\Bbb R^n.
+$$
+
+yields $$n$$-dimensional affine geometry.
+
+This can be obtained as a [[subgeometry|Subgeometry]] of [[projective geometry|Projective geometry]] by considering the [[subgroup|Untergruppe]] of [[projective transformations|Projective transformation]] that maps some hyperplane to itself.

@@ -1,0 +1,13 @@
+created: 20171122193308620
+list: 
+modified: 20180410191953130
+revision: 0
+tags: Abbildung
+title: Komposition
+type: text/vnd.tiddlywiki
+
+Seien $$f\colon X \to U$$ und $$g:Y \to V$$ [[Abbildungen|Abbildung]]. Dann ist die Komposition von f mit g die Abbildung
+$$
+g \circ f : f^{-1}(Y) \to V, \quad x \mapsto g(f(x)).
+$$
+Man sagt auch "$$g$$ nach $$f$$".

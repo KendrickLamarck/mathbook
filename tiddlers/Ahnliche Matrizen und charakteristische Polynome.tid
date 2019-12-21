@@ -1,0 +1,14 @@
+created: 20180519180017068
+creator: Leander
+modified: 20191003205410477
+modifier: Leander
+revision: 0
+tags: [[Charakteristisches Polynom]] [[Äquivalente und ähnliche Matrizen]]
+title: Ähnliche Matrizen und charakteristische Polynome
+type: text/vnd.tiddlywiki
+
+Seien $$A,B\in K^{n\times n}$$ Matrizen, deren [[charakteristische Polynome|Charakteristisches Polynom]] in Linearfaktoren zerfallen. Dann sind $$A$$ und $$B$$ genau dann [[ähnlich|Äquivalente und ähnliche Matrizen]], wenn gilt:
+
+# $$P_A(t)=P_B(t)=(\lambda_1-t)^{r_1}\cdots(\lambda_k-t)^{r_k}$$, wobei $$\lambda_1,\ldots,\lambda_k$$ die verschiedenen [[Eigenwerte|Eigenwert]] sind.
+# Für $$j\in\{1,\ldots,k\}$$ und $$d\in\{1,\ldots,r_k\}$$ gilt$$
+\dim\ker(A-\lambda_jE)^d=\dim\ker(B-\lambda_jE)^d.$$

@@ -1,0 +1,12 @@
+created: 20180723125042486
+creator: Leander
+modified: 20191003192948430
+modifier: Leander
+revision: 0
+tags: no-toc Definitheit
+title: Positiv definite darstellende Matrizen
+type: text/vnd.tiddlywiki
+
+Eine [[symmetrische|Symmetrische Form]] [[Bilinearform]] $$b$$ auf einem [[endlichdimensionalen|Dimension]] $$\mathbb R$$-[[Vektorraum]] $$V$$ ist genau dann [[positiv definit|Definitheit]] (semidefinit), wenn ihre [[darstellende Matrix|Darstellende Matrix (Bilinearformen)]] bezüglich einer (daher jeder) [[Basis]] von $$V$$ [[positiv definit|Positiv definite Matrix]] (semidefinit) ist.
+
+Gleiches gilt auch für [[hermitesche|Hermite'sche Form]] [[Sesquilinearformen|Sesquilinearform]] auf endlichdimensionalen $$\mathbb C$$-Vektorräumen.

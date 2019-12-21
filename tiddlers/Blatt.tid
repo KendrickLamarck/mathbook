@@ -1,0 +1,10 @@
+caption: Blatt
+created: 20180412215107838
+creator: Leander
+modified: 20191011181849953
+modifier: Leander
+tags: Baum no-toc
+title: Blatt
+type: text/vnd.tiddlywiki
+
+Ist $$G=(V,E)$$ ein [[Wald]] und $$v\in V$$ ein Knoten vom [[Grad|Knotengrad]] $$1$$, so heißt $$v$$ //Blatt//.

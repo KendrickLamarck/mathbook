@@ -1,0 +1,15 @@
+created: 20190216143813921
+modified: 20191009210412891
+tags: no-toc [[Hyperbolic line]]
+title: Distances of points and lines in hyperbolic space
+type: text/vnd.tiddlywiki
+
+Let $$x\in H^2$$ and let $$l=\{y\in H^2\mid \langle y,n\rangle=0\}$$ be a [[hyperbolic line|Hyperbolic line]].
+
+# The point on $$l$$ that is closest to $$x$$ is the intersection $$x_p$$ of $$l$$ with the line $$l_p$$ through $$x$$ that is perpendicular to $$l.$$
+
+# The distance $$d(x,l)$$ from $$x$$ to $$l$$ satisfies $$
+|\langle x,n\rangle|=\sinh d(x,l).$$
+
+# The distance $$d(l_1,l_2)$$ between two lines $$l_i=\{y\in H^2\mid \langle y,n_i\rangle=0\}$$ with $$|\langle n_1,n_2\rangle|\ge 1$$ satisfies $$
+|\langle n_1,n_2\rangle|=\cosh d(l_1,l_2).$$

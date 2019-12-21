@@ -1,0 +1,22 @@
+created: 20180416132800916
+creator: Leander
+modified: 20191004225933018
+modifier: Leander
+revision: 0
+tags: Determinante
+title: Determinante eines Endomorphismus
+type: text/vnd.tiddlywiki
+
+Sind ein beliebiger $$K$$-[[Vektorraum]] mit $$\dim V<\infty$$ gegeben und ein [[Endomorphismus]] $$F\colon V\to V$$ gegeben, so kann man eine [[Basis]] $$\mathcal B$$ von $$V$$ wählen und
+
+$$
+\det F\coloneqq\det M_\mathcal B(F)\in K
+$$
+
+setzen. Dies ist unabhängig von der Wahl der Basis. Für eine beliebige [[lineare Abbildung|Lineare Abbildung]] $$F\colon V\to W$$ ist dies nicht der Fall, also kann die Determinante nicht auf diese Weise definiert werden.
+
+Nach dem Determinantenmultiplikationssatz gilt für zwei Endomorphismen $$F$$ und $$G$$
+
+$$
+\det(F\circ G)=(\det F)\cdot(\det G).
+$$

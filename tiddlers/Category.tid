@@ -1,0 +1,17 @@
+created: 20181119223326772
+modified: 20181119230437820
+revision: 0
+tags: Algebra
+title: Category
+
+A //category// $$\mathcal C$$ consists of the following three mathematical entities:
+
+# A class $$\operatorname{ob}(\mathcal C)$$ whose elements are called //objects.//
+
+# A class $$\hom(\mathcal C)$$ whose elements are called //morphisms//, //maps// or //arrows.// Each morphism has a //source object// $$a$$ and a //target object// $$b.$$ $$\hom(a,b)$$ denotes the class of morphisms from $$a$$ to $$b.$$
+
+# A [[binary operation|Verknüpfung]] called //composition of morphisms//, such that for any three objects $$a,b,c,$$ we have $$\circ\colon\hom(b,c)\times\hom(a,b)\to\hom(a,c).$$ The composition of $$f\colon a\to b$$ and $$g\colon b\to c$$ is written as $$g\circ f$$ and satisfies:
+
+#* Associativity: If $$f\colon a\to b,\ g\colon b\to c$$ and $$h\colon c\to d$$ then $$(h\circ g)\circ f=h\circ(g\circ f).$$
+
+#* Identity: For every object $$x,$$ there exists a morphism $$1_x\colon x\to x$$ called the //identity morphism// for $$x,$$ such that for every morphism $$f\colon a\to b,$$ we have $$1_b\circ f=f=f\circ 1_a.$$

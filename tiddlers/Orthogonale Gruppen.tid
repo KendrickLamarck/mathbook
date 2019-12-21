@@ -1,0 +1,19 @@
+created: 20180617122044542
+creator: Leander
+modified: 20191010153342572
+modifier: Leander
+tags: Orthogonalität no-toc
+title: Orthogonale Gruppen
+type: text/vnd.tiddlywiki
+
+Die Mengen
+
+* $$\mathrm O(n)\coloneqq\{\,A\in\operatorname{GL}(n;\mathbb R):A^{-1}=A^\mathrm T\,\},$$ @@float:right;(orthogonale Gruppe)@@
+
+* $$\mathrm{SO}(n)\coloneqq\{\,A\in \mathrm O(n):\det A=1\,\},$$ @@float:right;(spezielle orthogonale Gruppe)@@
+
+* $$\mathrm U(n)\coloneqq\{\,A\in\mathrm{GL}(n;\mathbb C):A^{-1}=\bar A^\mathrm T\,\}$$ @@float:right;(unitäre Gruppe)@@
+
+sind [[Untergruppen|Untergruppe]] von $$\operatorname{GL}(n;\mathbb K).$$
+
+Für $$\mathbb R^{p,q}$$ bezeichnen wir die entsprechenden Gruppen mit $$\mathrm O(p,q)$$ und $$\mathrm{SO}(p,q).$$ (siehe [[Orthogonale/unitäre Matrix]]).

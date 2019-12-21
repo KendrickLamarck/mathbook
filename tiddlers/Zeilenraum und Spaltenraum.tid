@@ -1,0 +1,16 @@
+created: 20180312140542150
+creator: Leander
+modified: 20180728193234181
+modifier: Leander
+revision: 0
+tags: Matrix
+title: Zeilenraum und Spaltenraum
+type: text/vnd.tiddlywiki
+
+Ist $$A\in K^{m\times n}$$ mit Zeilen $$a_1,\ldots,a_m$$, so heißt
+
+$$
+\operatorname{ZR}(A) \coloneqq \operatorname{span}(a_1,\ldots,a_m) \subset K^n
+$$
+
+der //Zeilenraum// von $$A$$. Der Zeilenraum ändert sich durch elementare Zeilenumformungen nicht. Analog definiert man //Spaltenraum// $$\operatorname{SR}(A)$$.

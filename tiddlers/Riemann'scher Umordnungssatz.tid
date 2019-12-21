@@ -1,0 +1,9 @@
+created: 20180226122722866
+list: 
+modified: 20191003225932138
+revision: 0
+tags: no-toc Reihe
+title: Riemann'scher Umordnungssatz
+type: text/vnd.tiddlywiki
+
+Ist die [[Reihe]] $$\sum_{k=0}^\infty a_k$$ konvergent, aber nicht [[absolut konvergent|Absolute Konvergenz]], so lässt sie sich so [[umordnen|Umordnung]], dass sie konvergent gegen einen beliebig vorgegebenen Wert aus $$\mathbb R \cup \{-\infty,+\infty\}$$ ist.

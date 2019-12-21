@@ -1,0 +1,34 @@
+created: 20180624213549433
+creator: Leander
+modified: 20191010153617528
+modifier: Leander
+tags: Orthogonalität no-toc
+title: Euklidische Normalform
+type: text/vnd.tiddlywiki
+
+Ist $$F$$ ein [[orthogonaler|Orthogonaler/unitärer Endomorphismus]] [[Endomorphismus]] eines [[endlichdimensionalen|Dimension]] [[euklidischen|Euklidischer Vektorraum]] [[Vektorraumes|Vektorraum]] $$V,$$ so gibt es eine [[Orthonormalbasis]] $$\mathcal B$$ von $$V,$$ so dass
+
+$$
+M_\mathcal B(F)=\begin{pmatrix}
+\,+1 \\[3mu]
+&\mkern{-15mu}\ddots \\
+&&\mkern{-20mu}+1&&&& 0 \\
+&&&\mkern{-20mu}-1 \\[3mu]
+&&&&\mkern{-15mu}\ddots \\
+&&&&&\mkern{-20mu}-1 \\
+& 0 &&&&&\mkern{-20mu}\boxed{A_1} \\[3mu]
+&&&&&&&\mkern{-15mu}\ddots \\
+&&&&&&&&\mkern{-20mu}\boxed{A_k}\,
+\end{pmatrix},
+$$
+
+wobei für $$j=1,\dots,k$$
+
+$$
+A_j=\begin{pmatrix}
+\cos\vartheta_j&-\sin\vartheta_j \\
+\sin\vartheta_j&\cos\vartheta_j
+\end{pmatrix}\in \mathrm{SO}(2)
+$$
+
+mit $$\vartheta_j\in{[0,2\pi[},$$ aber $$\vartheta_j\ne 0,\pi.$$

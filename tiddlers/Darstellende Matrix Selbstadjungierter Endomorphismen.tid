@@ -1,0 +1,10 @@
+created: 20180626175848126
+creator: Leander
+modified: 20191004194807852
+modifier: Leander
+revision: 0
+tags: no-toc [[Selbstadjungierter Endomorphismus]]
+title: Darstellende Matrix Selbstadjungierter Endomorphismen
+type: text/vnd.tiddlywiki
+
+Sei $$F$$ ein [[Endomorphismus]] eines [[endlichdimensionalen|Dimension]] [[euklidischen|Euklidischer Vektorraum]] bzw. [[unitären|Unitärer Vektorraum]] [[Vektorraums|Vektorraum]] $$V$$ und $$\mathcal B$$ eine [[Orthonormalbasis]]. Dann ist $$F$$ [[selbstadjungiert|Selbstadjungierter Endomorphismus]] genau dann, wenn $$M_\mathcal B(F)$$ [[symmetrisch|Symmetrische Matrix]] bzw. [[Hermite'sch|Hermite'sche Matrix]] ist.

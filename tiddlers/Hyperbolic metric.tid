@@ -1,0 +1,11 @@
+created: 20190216152701207
+modified: 20191013020618825
+tags: [[Hyperbolic geometry]] no-toc
+title: Hyperbolic metric
+type: text/vnd.tiddlywiki
+
+The shortes piecewise [[continuously differentiable|Stetige Differenzierbarkeit]] curve connecting two points $$x,y\in H^n$$ is the [[hyperbolic line segment|Hyperbolic line]] between them. This defines a [[metric|Metrik]] $$d$$ on [[hyperbolic space|Hyperbolic geometry]] given by
+
+$$
+\cosh d(x,y)=-\langle x,y\rangle.
+$$

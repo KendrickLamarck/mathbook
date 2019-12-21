@@ -1,0 +1,8 @@
+created: 20190426111355487
+modified: 20190426111509786
+revision: 0
+tags: Geometrie
+title: Projective geometry
+type: text/vnd.tiddlywiki
+
+$$\Bbb R\mathrm P^n$$ with the [[group of projective transformations|Projective linear group]] $$\mathrm{PGL}(n+1).$$

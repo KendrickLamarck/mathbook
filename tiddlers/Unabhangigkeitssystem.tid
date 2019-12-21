@@ -1,0 +1,19 @@
+created: 20180414222011811
+creator: Leander
+modified: 20191011181326166
+modifier: Leander
+tags: no-toc Kombinatorik
+title: Unabhängigkeitssystem
+type: text/vnd.tiddlywiki
+
+Sei $$E$$ eine endliche Menge und $$\mathcal I$$ Teilmenge der [[Potenzmenge]] $$2^E$$ von $$E$$. Das Paar $$(E,\mathcal I)$$ heißt //Unabhängigkeitssystem//, wenn gilt
+
+# $$\varnothing\in\mathcal I,$$
+# $$J\in\mathcal I,\ I\subset J\implies I\in\mathcal I.$$ <div style="float: right;">(abgeschlossen unter Teilmengenbildung)</div>
+
+* Die Elemente in $$\mathcal I$$ heißen //unabhängige Mengen//, diejenigen im Komplement $$2^E\setminus\mathcal I$$ //abhängig//.
+* Eine //Basis// ist eine (bzgl. Inklusion) maximale unabhängige Menge.
+* Ein //Kreis// ist eine (bzgl. Inklusion) minimale abhängige Menge.
+* Für $$M\subset E$$ nennt man die maximal unabhängigen Teilmengen von $$M$$ //Basen// von $$M.$$
+* Der //Rang// von $$M\subset E$$ ist die maximale Kardinalität einer Basis von $$M.$$
+* Der Rang der Menge $$E$$ ist der Rang des Unabhängigkeitssystems $$(E,\mathcal I).$$

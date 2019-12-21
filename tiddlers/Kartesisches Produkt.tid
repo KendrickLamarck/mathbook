@@ -1,0 +1,14 @@
+created: 20171110215727838
+creator: Leander
+modified: 20180713181118897
+modifier: Leander
+revision: 0
+tags: Mengenlehre
+title: Kartesisches Produkt
+type: text/vnd.tiddlywiki
+
+Das kartesische Produkt $$\times$$ zweier Mengen $$X$$ und $$Y$$ ist definiert als:
+$$
+X \times Y\coloneqq\{\, (x,y) \mid x \in X \land y \in Y \,\}.
+$$
+Das kartesische Produkt von mehr als zwei Mengen ist analog definiert.

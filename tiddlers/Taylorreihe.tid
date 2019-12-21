@@ -1,0 +1,21 @@
+created: 20180226130652318
+creator: Leander
+list: 
+modified: 20191003225554167
+modifier: Leander
+revision: 0
+tags: Potenzreihe
+title: Taylorreihe
+type: text/vnd.tiddlywiki
+
+Ist $$f\colon J\to\mathbb R$$ beliebig oft differenzierbar, also eine $$C^\infty$$-Funktion, so bildet die Folge der [[Taylorpolynome|Satz von Taylor]] eine [[Potenzreihe]]:
+
+$$
+\sum_{k=0}^\infty \frac{f^{(k)}(x_0)}{k!} (x-x_0)^k.
+$$
+
+Wenn die Restglieder für $$n\to\infty$$ gegen 0 konvergieren, so erhält man eine Darstellung von $$f$$ als Potenzreihe. Funktionen, für die das lokal der Fall ist, heißen auch //reell-analytisch//.
+
+!! Satz von Borel
+
+{{Satz von Borel (Taylorreihen)}}

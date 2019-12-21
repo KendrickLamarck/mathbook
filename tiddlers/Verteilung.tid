@@ -1,0 +1,27 @@
+created: 20190505115739901
+list: [[Gemeinsame Verteilung]] [[Absolutstetige Verteilungsfunktion]] [[Faltung von Dichten]] Bernoulli-Verteilung Binomialverteilung Poisson-Verteilung [[Geometrische Verteilung]] [[Negative Binomialverteilung]] [[Hypergeometrische Verteilung]] Exponentialverteilung Gamma-Verteilung Gleichverteilung Normalverteilung
+modified: 20190715155638272
+revision: 0
+tags: Stochastik
+title: Verteilung
+
+Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]], $$(E,\mathcal E)$$ ein [[messbarer Raum|Sigma-Algebra]] und $$X\colon\Omega\to E$$ eine [[Zufallsvariable]]. Das [[Bildmaß]] $$\Bbb P\circ X^{-1}$$ heißt //Verteilung von $$X$$ (unter $$\Bbb P$$)// und wird auch mit $$\Bbb P_X$$ bezeichnet.
+
+* <div>
+Ist $$X(\Omega)$$ diskret, so kann die Verteilung $$\Bbb P_X$$ vollständig durch die zugehörige [[Zähldichte|Diskretes Maß]]
+
+$$
+p_X(b)=\Bbb P(X=b),\qquad b\in X(\Omega)
+$$
+
+beschrieben werden.
+</div>
+
+* <div>
+Die Verteilung reellwertiger Zufallsvariablen kann durch ihre [[Verteilungsfunktion]]
+
+$$
+F_X(x)\coloneqq\Bbb P(X\le x)=\Bbb P_X(]\infty,x]),\qquad x\in\Bbb R
+$$
+
+beschrieben werden.

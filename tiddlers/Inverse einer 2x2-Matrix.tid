@@ -1,0 +1,20 @@
+created: 20180709210949417
+creator: Leander
+modified: 20191004170038892
+modifier: Leander
+revision: 0
+tags: [[Inverse Matrix]] no-toc
+title: Inverse einer 2x2-Matrix
+type: text/vnd.tiddlywiki
+
+$$
+\begin{pmatrix}
+a&b \\
+c&d
+\end{pmatrix}^{-1}=
+\frac 1{ad-bc}
+\begin{pmatrix}
+d&-b \\
+-c&a
+\end{pmatrix}
+$$

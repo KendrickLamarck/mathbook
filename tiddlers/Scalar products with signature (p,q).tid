@@ -1,0 +1,28 @@
+created: 20181116212240984
+modified: 20191003192503592
+revision: 0
+tags: Skalarprodukt
+title: Scalar products with signature (p,q)
+type: text/vnd.tiddlywiki
+
+$$\mathbb R^{p,q}$$ denotes the real [[vector space|Vektorraum]] $$\mathbb R^{p+q}$$ equipped with the [[scalar product|Nichteuklidisches Skalarprodukt]]
+
+$$
+\langle x,y\rangle=\sum_{k=1}^p x_k y_k - \sum_{k=p+1}^{p+q} x_k y_k,
+$$
+
+which has [[signature|Signatur]] $$(p,q).$$
+
+A vector $$v$$ in $$\mathbb R^{p,q}$$ is called
+
+* //spacelike,// if $$\langle v,v\rangle>0,$$
+* //timelike,// if $$\langle v,v\rangle<0$$ and
+* //lightlike,// if $$\langle v,v\rangle=0.$$
+
+A //Euclidean scalar product// is a scalar product with negative index $$i_-=0.$$
+
+---
+
+!! Special case: Lorentz space
+
+{{Lorentz vector space}}

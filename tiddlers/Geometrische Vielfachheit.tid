@@ -1,0 +1,10 @@
+created: 20180428162446438
+creator: Leander
+modified: 20191003205232845
+modifier: Leander
+revision: 0
+tags: no-toc [[Vielfachheit von Eigenwerten]]
+title: Geometrische Vielfachheit
+type: text/vnd.tiddlywiki
+
+Die [[Dimension]] des [[Eigenraums|Eigenraum]] $$\dim\operatorname{Eig}(F,\lambda)$$ heißt die //geometrische Vielfachheit// des [[Eigenwerts|Eigenwert]] $$\lambda$$.

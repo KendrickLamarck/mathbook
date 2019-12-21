@@ -1,0 +1,20 @@
+caption: Lineare Gleichungssyteme
+created: 20180326181142982
+creator: Leander
+list: [[Existenz von Lösungen linearer Gleichungssysteme]] [[Eindeutigkeit von Lösungen linearer Gleichungssysteme]] Lösungsraum [[Parametrisierung des Lösungsraums]] [[Cramer'sche Regel]]
+modified: 20191004230830593
+modifier: Leander
+revision: 0
+tags: [[Lineare Algebra]]
+title: Lineares Gleichungssystem
+type: text/vnd.tiddlywiki
+
+Ist $$A\in K^{m\times n}$$ eine [[Matrix]], $$x\in K^n$$ und $$b\in K^m$$ so ist $$Ax=b$$ ein //lineares Gleichungssystem// mit $$m$$ Gleichungen und $$n$$ Unbekannten. Ist $$b=0$$, so heißt es //homogen//, andernfalls //inhomogen//.
+
+!! Existenz von Lösungen
+
+{{Existenz von Lösungen linearer Gleichungssysteme}}
+
+!! Eindeutigkeit von Lösungen
+
+{{Eindeutigkeit von Lösungen linearer Gleichungssysteme}}

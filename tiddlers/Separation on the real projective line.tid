@@ -1,0 +1,21 @@
+caption: Separation
+created: 20190114140648880
+creator: Leander
+modified: 20191009225223191
+modifier: Leander
+tags: [[Projective space]]
+title: Separation on the real projective line
+type: text/vnd.tiddlywiki
+
+An unordered pair $$\{A,B\}$$ of points in $$\Bbb R\mathrm P^1$$ //separates// an unordered pair $$\{C,D\}\subset\Bbb R\mathrm P^1$$ if $$C$$ and $$D$$ are in different [[connected|Zusammenhang]] components of $$\Bbb R\mathrm P^1\setminus\{A,B\}.$$
+
+''Theorem.''
+This is the case if and only if
+
+$$
+\operatorname{cr}(D,A,C,B)<0.
+$$
+
+!! Harmonic separation
+
+{{Harmonic position}}

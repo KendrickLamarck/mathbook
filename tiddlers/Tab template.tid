@@ -1,0 +1,22 @@
+created: 20170825210538281
+modified: 20180410191954084
+revision: 0
+tags: Templates
+title: Tab template
+type: text/vnd.tiddlywiki
+
+<$list filter="[<currentTab>tags[]!title<currentTiddler>]">
+<<tag>>
+</$list>
+
+<$tiddler tiddler=<<currentTab>>>
+<$transclude mode="block" />
+</$tiddler>
+
+<$button>
+<$action-sendmessage $message="tm-edit-tiddler" $param=<<currentTab>>/>
+{{$:/core/images/edit-button}}
+<$transclude tiddler=<<currentTab>> field="caption">
+<$view tiddler=<<currentTab>> field="title"/>
+</$transclude>
+</$button>

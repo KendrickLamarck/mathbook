@@ -1,0 +1,31 @@
+caption: Summe
+created: 20180108175155773
+creator: Leander
+list: [[Direkte Summe]] [[Dimensionsformel für Summen]] Faktorisierungssatz
+modified: 20191003194049109
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Summe von Vektorräumen
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein $$K$$-[[Vektorraum]] mit [[Untervektorräumen|Untervektorraum]] $$W_1,\dots,W_r\subset V$$. Dann definieren wir die Summe dieser Untervektorräume als
+
+$$
+W_1+\dots+W_r \coloneqq \{\,v \in V : \exists v_j \in W_j( v = v_1 + \dots + v_r)\,\}.
+$$
+
+---
+
+!! Eigenschaften
+
+* $$W_1+\dots+W_r \subset V$$ ist ein Untervektorraum.
+* $$W_1+\dots+W_r = \operatorname{span}(W_1\cup\dots\cup W_r).$$
+* $$\dim(W_1+\dots+W_r) \leq \dim W_1+\dots+\dim W_r.$$
+* {{Dimensionsformel für Summen}}
+
+Ist $$V=W_1+W_2$$, so sind folgende Bedingungen äquivalent:
+
+* $$W_1\cap W_2 = \{0\}$$,
+* Jedes $$v\in V$$ ist eindeutig darstellbar als $$v=w_1+w_2$$ mit $$w_1\in W_1,w_2\in W_2$$,
+* Zwei von null verschiedene Vektoren $$w_1\in W_1$$ und $$w_2\in W_2$$ sind [[linear unabhängig|Lineare Unabhängigkeit]].

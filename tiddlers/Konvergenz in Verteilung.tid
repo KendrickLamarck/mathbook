@@ -1,0 +1,15 @@
+created: 20190616004726261
+modified: 20190705142117003
+revision: 0
+tags: Stochastik
+title: Konvergenz in Verteilung
+
+Seien $$X,X_1,X_2,\dots$$ [[Zufallsvariablen|Zufallsvariable]] mit [[Verteilungsfunktionen|Verteilungsfunktion]] $$F,F_1,F_2,\dots.$$ Wir sagen, die Folge $$(F_n)$$ //konvergiert schwach gegen $$F$$// oder die Folge $$(X_n)$$ //konvergiert in Verteilung gegen $$X,$$// falls
+
+$$
+\lim_{n\to\infty} F_n(x)=F(x)
+$$
+
+in allen Stetigkeitspunkten $$x$$ von $$F.$$
+
+Wir schreiben $$F_n\Rightarrow F,\ F_n\xrightarrow w F,\ X_n\Rightarrow X,\ X_n\xrightarrow d X.$$

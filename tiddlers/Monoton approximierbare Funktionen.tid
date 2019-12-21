@@ -1,0 +1,33 @@
+created: 20181113162756124
+creator: Leander
+list: [[Approximation halbstetiger Funktionen]] [[Integral monoton approximierbarer Funktionen]] [[Integral stetiger Funktionen auf Kompakta und offenen Mengen]] [[Satz von Fubini für monoton approximierbare Funktionen]]
+modified: 20191011220830155
+modifier: Leander
+tags: [[Haar'sches Maß]]
+title: Monoton approximierbare Funktionen
+type: text/vnd.tiddlywiki
+
+Wir definieren
+
+$$
+\mathcal H^\uparrow(\mathbb R^d)\coloneqq
+\left\{\,
+f\colon\mathbb R^d\to\mathbb R\cup\{+\infty\}\mid
+\exists (f_n)_{n\in\Bbb N}\in(\mathcal C_\mathrm c(\mathbb R^d))^\Bbb N\colon f_n\uparrow f
+\,\right\}.
+$$
+
+Analog definiert man $$\mathcal H^\downarrow(\mathbb R^d).$$
+
+---
+
+''Satz.''
+{{Approximation halbstetiger Funktionen}}
+
+!! Integral
+
+{{Integral monoton approximierbarer Funktionen}}
+
+!! {{Integral stetiger Funktionen auf Kompakta und offenen Mengen!!caption}}
+
+{{Integral stetiger Funktionen auf Kompakta und offenen Mengen}}

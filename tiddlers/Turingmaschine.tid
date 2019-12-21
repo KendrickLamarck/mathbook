@@ -1,0 +1,26 @@
+created: 20180708145416010
+creator: Leander
+modified: 20191011222751692
+modifier: Leander
+tags: Algorithmus
+title: Turingmaschine
+type: text/vnd.tiddlywiki
+
+Eine //deterministische Turingmaschine (DTM)// ist gegeben durch:
+
+* eine endliche //Zustandsmenge// $$Q$$ und einen Anfangszustand $$q_0\in Q,$$
+* ein endliches //Eingegabealphabet// $$\Sigma,$$
+* ein endliches //Bandalphabet// $$\Gamma\supset\Sigma$$ und ein Leerzeichen $$B\in\Gamma\setminus\Sigma,$$
+* ein //Programm// $$\delta\colon Q\times\Gamma\to Q\times\Gamma\times\{\,L,R,N\,\},$$
+* und eine Menge //akzeptierender Endzustände// $$F\subset Q.$$
+
+!! Terminologie
+
+* Ein Zustand $$q\in Q$$ heißt //Endzustand//, falls $$\delta(q,a)=(q,a,N)$$ für alle $$a\in\Gamma.$$
+* Ist die Maschine in einem Zustand $$q$$ und liest ein Zeichen $$a\in\Gamma$$ mit $$\delta(q,a)=(q,a,N),$$ so //terminiert// sie.
+* Terminiert die DTM, so zeigt ihr Kopf auf das erste Zeichen des //Outputs//. Der Output endet vor dem ersten Leerzeichen rechts des Kopfes.
+* Terminiert die DTM in einem Zustand $$q\in F,$$ so //akzeptiert// sie den Input.
+* Anfangs zeigt der Kopf auf das erste Zeichen des //Inputs//.
+
+!! Nichtdeterministische Turingmaschine
+{{Nichtdeterministische Turingmaschine}}

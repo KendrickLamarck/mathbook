@@ -1,0 +1,16 @@
+created: 20170909055926381
+modified: 20191004165516025
+revision: 0
+tags: no-toc Factoring
+title: Completing the square
+type: text/vnd.tiddlywiki
+
+$$
+\begin{aligned}
+ax^2+bx+c
+&=a\left(x^2+\frac{b}{a}x+\frac{c}{a}\right) \\
+&=a\left(x^2+\frac{b}{a}x+\left(\frac{b}{2a}\right)^2-\left(\frac{b}{2a}\right)^2+\frac{c}{a}\right) \\
+&=a\left(\left(x+\frac{b}{2a}\right)^2-\frac{b^2}{4a^2}+\frac{c}{a}\right) \\
+&=a\left(x+\frac{b}{2a}\right)^2-\frac{b^2}{4a}+c
+\end{aligned}
+$$

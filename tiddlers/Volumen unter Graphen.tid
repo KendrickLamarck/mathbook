@@ -1,0 +1,16 @@
+caption: Unter Graphen
+created: 20190105152901975
+creator: Leander
+modified: 20191010145511294
+modifier: Leander
+tags: Volumen
+title: Volumen unter Graphen
+type: text/vnd.tiddlywiki
+
+Sei $$A\subset\Bbb R^d$$ [[kompakt|Kompaktheit]] und $$f\colon A\to[0,\infty[$$ [[stetig|Stetigkeit]]. Dann hat die kompakte Menge
+
+$$
+K\coloneqq \{(x,y)\in A\times\Bbb R:0\le y\le f(x)\}
+$$
+
+Das [[Volumen]] $$\operatorname{Vol}_d(K)=\int_A f(x)\,\mathrm dx.$$

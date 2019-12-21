@@ -1,0 +1,10 @@
+caption: Häufungspunkt
+created: 20171123172951662
+creator: Leander
+modified: 20191011204326588
+modifier: Leander
+tags: no-toc Folge
+title: Häufungspunkt (Folgen)
+type: text/vnd.tiddlywiki
+
+Ein $$a \in \mathbb{R}$$ heißt Häufungspunkt der [[Folge]] $$(x_n)$$, wenn diese eine gegen $$a$$ konvergente [[Teilfolge]] besitzt.

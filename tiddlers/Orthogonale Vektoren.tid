@@ -1,0 +1,28 @@
+created: 20191004192510442
+modified: 20191004193950770
+revision: 0
+tags: Orthogonalität no-toc
+title: Orthogonale Vektoren
+type: text/vnd.tiddlywiki
+
+Sei $$V$$ ein [[euklidischer|Euklidischer Vektorraum]] bzw. [[unitärer|Unitärer Vektorraum]] [[Vektorraum]].
+
+* Zwei Vektoren $$v,w\in V$$ heißen //orthogonal// (oder //senkrecht// im $$\mathbb R^n$$), in Zeichen $$v\perp w,$$ wenn $$\langle v,w\rangle=0$$.
+
+* Zwei [[Untervektorräume|Untervektorraum]] $$U,W\subset V$$ heißen //orthogonal//, in Zeichen $$U\perp W,$$ wenn $$u\perp w$$ für alle $$u\in U,w\in W.$$
+
+* Ist $$U\subset V$$ ein Untervektorraum, so definiert man sein //orthogonales Komplement// als$$
+U^\perp\coloneqq\{\,v\in V\mid\forall u\in U\colon v\perp u\,\}.$$ Das ist wieder ein Untervektorraum.
+
+* Eine Familie $$(v_1,\dots,v_n)$$ in $$V$$ heißt //orthogonal//, wenn $$v_i\perp v_j$$ für alle $$i\ne j.$$
+
+* Ist $$V=V_1\oplus\dots\oplus V_k,$$ so heißt die [[direkte Summe|Direkte Summe]] //orthogonal//, wenn $$V_i\perp V_j$$ für alle $$i\ne j.$$ Man schreibt auch$$
+V=V_1
+\mathbin{\perp\kern-21mu{\bigcirc}}
+\dots
+\mathbin{\perp\kern-21mu{\bigcirc}}
+V_n.$$
+
+!! Orthonormalbasen
+
+{{Orthonormalbasis}}

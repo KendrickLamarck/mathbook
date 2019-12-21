@@ -1,0 +1,15 @@
+created: 20180211211729578
+list: 
+modified: 20180410191952699
+revision: 0
+tags: Reihe
+title: Harmonische Reihe
+type: text/vnd.tiddlywiki
+
+Die [[Reihe]]
+
+$$
+\sum_{k=1}^\infty\frac{1}{k}
+$$
+
+heißt die //harmonische Reihe//. Sie ist divergent gegen $$+\infty$$.

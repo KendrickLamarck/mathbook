@@ -1,0 +1,35 @@
+created: 20180329181911966
+creator: Leander
+modified: 20191004170017262
+modifier: Leander
+revision: 0
+tags: Matrix
+title: Inverse Matrix
+type: text/vnd.tiddlywiki
+
+Eine [[Matrix]] $$A\in K^{n\times n}$$ heißt //invertierbar//, wenn es ein $$A'\in K^{n\times n}$$ gibt mit
+
+$$
+A\cdot A'=A'\cdot A=E_n.
+$$
+
+Die inverse Matrix $$A'$$ ist eindeutig bestimmt und es gilt:
+
+* $$(A^{-1})^{-1}=A$$
+* $$(AB)^{-1}=B^{-1}A^{-1}$$
+* $$(A^\mathrm T)^{-1}=(A^{-1})^\mathrm T$$
+
+Folgende Bedingungen sind für eine Matrix $$A\in K^{n\times n}$$ Gleichwertig:
+
+* $$A$$ ist invertierbar.
+* $$A^\mathrm T$$ ist invertierbar.
+* $$\operatorname{Rang}A=n.$$
+* $$\det A\ne 0.$$
+
+!! Formel für $$2\times 2$$-Matrizen
+
+{{Inverse einer 2x2-Matrix}}
+
+!! Ableitung der Inversenbildung
+
+{{Ableitung der Matrixinversenbildung}}

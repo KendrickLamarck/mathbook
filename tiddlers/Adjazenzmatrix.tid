@@ -1,0 +1,15 @@
+created: 20180412224015310
+creator: Leander
+modified: 20191011181928500
+modifier: Leander
+tags: [[Datenstrukturen für Graphen]] no-toc
+title: Adjazenzmatrix
+type: text/vnd.tiddlywiki
+
+Es sei $$G=(V,E,\Psi)$$ ein [[Graph]] mit $$n$$ Knoten und $$m$$ Kanten. Die [[Matrix]] $$A=(a_{x,y})_{x,y\in V}\in\mathbb Z^{n\times n}$$ heißt //Adjazenzmatrix// von $$G$$, wobei
+
+$$
+a_{x,y}\coloneqq\#\{\,e\in E:\Psi(e)=\{x,y\}\,\}
+$$
+
+und analog für gerichtete Graphen. Bei einem ungerichteten Graphen ist die Matrix [[symmetrisch|Symmetrische Matrix]].

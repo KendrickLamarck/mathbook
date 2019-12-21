@@ -1,0 +1,21 @@
+created: 20180226130231370
+creator: Leander
+list: 
+modified: 20180504190145049
+modifier: Leander
+revision: 0
+tags: Potenzreihe
+title: Leibnizreihe
+type: text/vnd.tiddlywiki
+
+Für $$|x|<1$$ ist
+
+$$
+\arctan x = \sum_{k=0}^\infty (-1)^k \frac{x^{2k+1}}{2k+1}.
+$$
+
+Für $$x=1$$ erhält man mit dem [[Abel'schen Grenzwertsatz|Abel'scher Grenzwertsatz]] die Leibnizreihe
+
+$$
+\frac{\pi}{4} = \sum_{k=0}^\infty \frac{(-1)^k}{2k+1} = 1-\frac{1}{3}+\frac{1}{5}+\ldots
+$$

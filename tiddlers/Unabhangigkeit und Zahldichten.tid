@@ -1,0 +1,10 @@
+created: 20190708224849198
+modified: 20190715161836447
+revision: 0
+title: Unabhängigkeit und Zähldichten
+
+Die folgenden Aussagen sind äquivalent:
+
+# $$X_1,\dots,X_n$$ sind [[unabhängig|Stochastische Unabhängigkeit]].
+# $$P(X_1=e_1,\dots,X_n=e_n)=P(X_1=e_1)\cdots P(X_n=e_n)$$ für alle $$(e_1,\dots,e_n)\in E.$$
+# $$p_\Bbb X(e_1,\dots,e_n)=p_{X_1}(e_1)\cdots p_{X_n}(e_n)$$ für alle $$(e_1,\dots,e_n)\in E.$$

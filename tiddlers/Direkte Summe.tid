@@ -1,0 +1,32 @@
+caption: Direkte Summe
+created: 20180319113556569
+creator: Leander
+modified: 20191003194045949
+modifier: Leander
+revision: 0
+tags: Vektorraum
+title: Direkte Summe
+type: text/vnd.tiddlywiki
+
+Ein [[Vektorraum]] $$V$$ heißt //direkte// [[Summe|Summe von Vektorräumen]] $$W_1\oplus\dots\oplus W_k$$ von [[Untervektorräumen|Untervektorraum]] $$W_1,\dots W_k$$, wenn
+
+# $$V=W_1+ \dots +W_k$$
+# Sind $$w_1\in W_1,\dots,w_k\in W_k$$ gegeben mit $$w_1+\dots+w_k=0$$, so folgt $$w_1=\dots=w_k=0$$.
+
+Für den Spezialfall $$k=2$$ reicht statt 2. die  Forderung $$W_1\cap W_2 = \{0\}$$.
+
+Für Untervektorräume $$W_1,\ldots,W_k$$ eines endlichdimensionalen Vektorraumes $$V$$ sind folgende Bedingungen äquivalent hierzu:
+
+* Ist für jedes $$i\in\{1,\dots,k\}$$ eine [[Basis]] $$\left(v_1^{(i)},\dots,v_{r_i}^{(i)}\right)$$ von $$W_i$$ gegeben, so ist $$
+\mathcal B \coloneqq \left(v_1^{(1)},\dots,v_{r_1}^{(1)},\dots,v_k^{(k)},\dots,v_{r_k}^{(k)}\right)
+$$ eine Basis von $$V$$.
+* $$V=W_1+\dots+W_k$$ und $$\dim V = \dim W_1 + \dots + \dim W_k$$
+
+''Korollar.''
+Ist $$V$$ endlichdimensional und $$W\subset V$$ Untervektorraum, so gibt es dazu einen (im Allgemeinen nicht eindeutig bestimmten) Untervektorraum $$W'\subset V$$, so dass
+
+$$
+V=W\oplus W'.
+$$
+
+$$W'$$ heißt //direkter Summand// von $$V$$ zu $$W$$.

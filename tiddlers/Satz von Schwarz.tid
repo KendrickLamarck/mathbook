@@ -1,0 +1,34 @@
+created: 20180612213417701
+creator: Leander
+modified: 20191003232840569
+modifier: Leander
+revision: 0
+tags: no-toc [[Höhere Ableitungen]]
+title: Satz von Schwarz
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon V\supset G\to W$$ in $$G$$ [[zweimal differenzierbar|Höhere Ableitungen]]. Dann gilt für alle $$u,v\in V$$ und $$p\in G$$
+
+$$
+\mathrm D_p^2 f(u,v)=\mathrm D_p^2 f(v,u).
+$$
+
+''Korollar 1.''
+Ist $$f\colon\mathbb R^n\supset G\to W$$ in $$G$$ zweimal differenzierbar, so gilt für alle $$i,j$$
+
+$$
+\partial_i\partial_j f=\partial_j\partial_i f.
+$$
+
+''Korollar 2.''
+Ist $$f\colon V\supset G\to W$$ $$k$$-mal differenzierbar in $$G$$, so gilt für jede [[Permutation]] $$(\sigma(1),\dots,\sigma(k))$$ von $$(1,\dots,k)$$ und für alle $$p\in G$$ und $$v_1,\dots,v_k\in V$$
+
+$$
+\mathrm D_p^k f(v_1,\dots,v_k)=\mathrm D_p^k f(v_{\sigma(1)},\dots,v_{\sigma(k)})
+$$
+
+bzw.
+
+$$
+\partial_{v_1}\cdots\partial_{v_k} f(p)=\partial_{v_{\sigma(1)}}\cdots\partial_{v_{\sigma(k)}} f(p).
+$$

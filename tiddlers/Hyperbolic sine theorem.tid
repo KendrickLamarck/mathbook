@@ -1,0 +1,12 @@
+caption: Sine theorem
+created: 20190215230559489
+modified: 20191008204057485
+tags: no-toc [[Hyperbolic triangle]]
+title: Hyperbolic sine theorem
+type: text/vnd.tiddlywiki
+
+Side lengths and interior angles of a [[hyperbolic triangle|Hyperbolic triangle]] satisfy
+
+$$
+\frac{\sinh a}{\sin\alpha}=\frac{\sinh b}{\sin\beta}=\frac{\sinh c}{\sin\gamma}.
+$$

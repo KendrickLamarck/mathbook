@@ -1,0 +1,20 @@
+created: 20180218200635871
+creator: Leander
+list: Umkehrsatz [[Satz über implizite Funktionen]] Rangsatz Diffeomorphismus [[Immersion und Submersion]]
+modified: 20190325194440504
+modifier: Leander
+revision: 0
+tags: Ableitung
+title: Stetige Differenzierbarkeit
+type: text/vnd.tiddlywiki
+
+Ist $$f\colon V\supset G\to W$$ $$k$$-mal [[differenzierbar|Höhere Ableitungen]] und die Abbildung
+
+$$
+\mathrm D^k f\colon G\to L^k(V,W),\quad p\mapsto\mathrm D_p^k f
+$$
+
+[[stetig|Stetigkeit]], so heißt $$f$$ //$$k$$-mal stetig differenzierbar// und wir schreiben $$f\in \mathcal C^k(G,W).$$
+
+Für $$V=\mathbb R^n$$ ist das äquivalent dazu, dass alle [[partiellen Ableitungen|Partielle Ableitung]] $$k$$-ter Ordnung von $$f$$ existieren und stetig sind.
+

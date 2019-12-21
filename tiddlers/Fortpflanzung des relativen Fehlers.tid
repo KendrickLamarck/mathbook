@@ -1,0 +1,22 @@
+created: 20180414215211264
+creator: Leander
+modified: 20180725163314977
+modifier: Leander
+revision: 0
+tags: Zahldarstellung
+title: Fortpflanzung des relativen Fehlers
+
+Es seien $$x,y\in\mathbb R$$ und $$\tilde x,\tilde y$$ Näherungen mit $$\varepsilon_x=\frac{x-\tilde x}{x}$$ und $$\varepsilon_y=\frac{y-\tilde y}{y}.$$ Für $$\circ\in\{+,-,\cdot,/\}$$ mit $$x\circ y\ne 0$$ und
+
+$$
+\varepsilon_\circ\coloneqq\frac{(x\circ y)-(\tilde x\circ\tilde y)}{x\circ y}
+$$
+
+gilt dann
+
+$$\begin{gathered}
+\varepsilon_+=\varepsilon_x\cdot\frac{x}{x+y}+\varepsilon_y\cdot\frac{y}{x+y}, \\
+\varepsilon_-=\varepsilon_x\cdot\frac{x}{x-y}-\varepsilon_y\cdot\frac{y}{x-y}, \\
+\varepsilon_\cdot=\varepsilon_x+\varepsilon_y-\varepsilon_x\cdot\varepsilon_y, \\
+\varepsilon_/=\frac{\varepsilon_x-\varepsilon_y}{1-\varepsilon_y}.
+\end{gathered}$$

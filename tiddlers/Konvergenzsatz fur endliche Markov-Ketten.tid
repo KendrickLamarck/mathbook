@@ -1,0 +1,29 @@
+created: 20190629201039912
+modified: 20190710225819573
+revision: 0
+tags: Markov-Kette
+title: Konvergenzsatz für endliche Markov-Ketten
+
+Sei $$(X_n)$$ eine [[Markov-Kette]] auf einem endlichen Zustandsraum $$I$$ mit [[Übergangsmatrix|Stochastische Matrix]] $$P=(p_{ij})_{i,j\in I}.$$ Angenommen, es existiere $$r\in\N,$$ so dass die Matrix $$P^r$$ mindestens eine Spalte mit strikt positiven Einträgen besitzt. Dann gilt:
+
+# Für beliebige $$i,j\in I$$ existieren die von $$i$$ unabhängigen Grenzwerte <div>
+$$
+\lim_{n\to\infty} p_{ij}^{(n)}=\nu_j.
+$$
+</div>
+
+# $$\nu=(\nu_i)_{i\in I}$$ ist die einzige [[stationäre Verteilung|Stationäre Verteilung]] der Markov-Kette.
+
+''Korollar.''
+Unter denselben Voraussetzungen gilt:
+
+# <div>Konvergenz der eindimensionalen Verteilungen gegen die stationäre Verteilung:
+$$
+\lim_{n\to\infty}\Bbb P(X_n=j)=\nu_j\quad\forall j\in I.
+$$</div>
+
+# <div>Konvergenz der endlichdimensionalen Verteilungen gegen die entsprechenden Verteilungen der stationären Markov-Kette: Für beliebige $$r\in\N_0$$ und $$i_0,\dots,i_r\in I$$ gilt:
+$$
+\lim_{n\to\infty}\Bbb P(X_n=i_0,\dots,X_{n+r}=i_r)=
+\nu_{i_0}p_{i_0i_1}\cdots p_{i_{r-1}i_r}.
+$$</div>

@@ -1,0 +1,11 @@
+created: 20180502124032465
+creator: Leander
+list: Adjazenzmatrix Inzidenzmatrix Adjazenzliste [[Array als Binärbaum]]
+modified: 20180901220306694
+modifier: Leander
+revision: 0
+tags: Graph
+title: Datenstrukturen für Graphen
+type: text/vnd.tiddlywiki
+
+{{{ [tag{!!title}] ||Transclude self template}}}

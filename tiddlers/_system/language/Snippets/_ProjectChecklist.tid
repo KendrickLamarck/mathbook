@@ -1,0 +1,13 @@
+caption: Project checklist
+created: 20170808211419734
+modified: 20190211220945446
+revision: 0
+tags: $:/tags/TextEditor/Snippet
+title: $:/language/Snippets/_ProjectChecklist
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}!tag[Done]]">
+
+<$checkbox tag="Done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>
+
+</$list>

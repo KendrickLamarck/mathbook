@@ -1,0 +1,12 @@
+caption: Topologische Sortierung
+created: 20180626210735223
+creator: Leander
+modified: 20180704154826329
+modifier: Leander
+revision: 0
+tags: Graph
+title: Topologische Sortierung (Graphen)
+
+Es sei $$G=(V,E)$$ ein [[Digraph|Graph]]. Eine Sortierung $$v_1,\dots,v_{|V|}$$ von $$V$$ mit $$i<j$$ für alle $$(v_i,v_j)\in E$$ heißt //topologische Sortierung//.
+
+Besitzt $$G$$ eine topologische Sortierung, so ist der Graph //azyklisch// (Kreisfrei).

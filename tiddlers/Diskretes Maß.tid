@@ -1,0 +1,22 @@
+created: 20181127162043069
+modified: 20190509195220428
+revision: 0
+tags: Maß
+title: Diskretes Maß
+type: text/vnd.tiddlywiki
+
+Sei $$\Omega$$ eine Menge und $$\tilde\Omega\subset\Omega$$ eine abzählbare Teilmenge. Sei $$p\colon\tilde\Omega\to\left]0,\infty\right]$$ eine Abbildung. Definieren wir für $$A\subset\Omega$$
+
+$$
+\mu(A)\coloneqq\sum_{\omega\in A\cap\tilde\Omega} p(\omega),
+$$
+
+so ist $$\mu$$ ein [[Maß]] auf der Potenzmenge von $$\Omega,$$ das auf der diskreten Teilmenge $$\tilde\Omega$$ konzentriert ist (d.h. $$\mu(\Omega\setminus\tilde\Omega)=0$$). Es gilt $$\mu(\{\omega\})=p(\omega)>0$$ für alle $$\omega\in\tilde\Omega$$ und man nennt $$\omega$$ ein Atom von $$\mu.$$ Das Maß $$\mu$$ heißt ein //diskretes Maß.//
+
+* Falls $$\sum_{\omega\in\tilde\Omega}p(\omega)=1$$ ist, so ist $$\mu$$ ein //diskretes// [[Wahrscheinlichkeitsmaß]].
+
+* Falls $$p(\omega)=1$$ für alle $$\omega\in\tilde\Omega,$$ so nennen wir $$\mu$$ das //Zählmaß// auf $$\tilde\Omega,$$ denn $$\mu(A)$$ zählt die Elemente von $$A.$$
+
+* $$p$$ kann als [[Dichte]] bezüglich des Zählmaßes aufgefasst werden.
+
+* Falls $$\tilde\Omega=\{\omega_0\}$$ einelementig ist, so heißt das Zählmaß darauf das //Dirac-Maß// in $$\omega_0$$ und wir bezeichnen es mit $$\delta_{\omega_0}.$$

@@ -1,0 +1,8 @@
+created: 20190406214251551
+modified: 20191003233709999
+revision: 0
+tags: no-toc Dichte
+title: Eindeutigkeit von Dichten
+type: text/vnd.tiddlywiki
+
+Ist $$(\Omega,\mathcal F,\nu)$$ $$\sigma$$-endlich, so ist, falls sie existiert, eine [[Dichte]] von $$\nu$$ bezüglich $$\mu$$ eindeutig $$\mu$$-fast überall.

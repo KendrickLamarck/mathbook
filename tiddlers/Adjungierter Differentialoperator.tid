@@ -1,0 +1,22 @@
+created: 20181106155736755
+list: 
+modified: 20190413201942663
+revision: 0
+tags: [[Linearer Differentialoperator]]
+title: Adjungierter Differentialoperator
+type: text/vnd.tiddlywiki
+
+Sei $$U\subset\mathbb R^d$$ offen und $$L$$ ein [[linearer Differentialoperator|Linearer Differentialoperator]] der Ordnung $$n$$ in $$U.$$ Dann gibt es genau einen linearen Differentialoperator $$L^*$$ der Ordnung $$n$$ mit
+
+$$
+\int_U(L^* f)\cdot g\,\mathrm dx=\int_U f\cdot (Lg)\,\mathrm dx\qquad
+\forall f\in\mathcal C^n(U),\ g\in\mathcal C^n_\mathrm c(U).
+$$
+
+Man nennt $$L^*$$ den zu $$L$$ //adjungierten// Operator. Insbesondere gilt
+
+$$
+(\lambda L)^* = \lambda L^*,\quad
+(L_1+L_2)^* = L_1^*+L_2^*,\quad
+(L_1\circ L_2)^* = L_2^*\circ L_1^*.
+$$

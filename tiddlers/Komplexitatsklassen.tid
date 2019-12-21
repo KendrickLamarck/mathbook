@@ -1,0 +1,22 @@
+created: 20180718124317301
+creator: Leander
+modified: 20180718132110440
+modifier: Leander
+revision: 0
+tags: Optimierung
+title: Komplexitätsklassen
+
+Die Klasse $$\mathbf P$$ besteht aus allen [[Sprachen|Sprache]] $$L,$$ (bzw. [[zugehörigen Entscheidungsproblemen|Sprachen und Entscheidungsprobleme]]), für die es eine [[deterministische Turingmaschine|Turingmaschine]] $$M$$ gibt, die $$L$$ entscheidet und $$t_M(n)\le p(n)$$ für alle $$n\in\mathbb Z_{\ge 0}$$ für eine [[Polynomfunktion|Polynom]] $$p.$$
+
+* Eine Sprache in $$\mathbf P$$ heißt //effizient entscheidbar//.
+* Der zugehörige Algorithmus wird dann //effizient// genannt.
+
+Die Klasse $$\mathbf{NP}$$ besteht aus allen [[Sprachen|Sprache]] $$L,$$ für die es eine nichtdeterministische Turingmaschine $$M$$ gibt, die $$L$$ entscheidet und $$t_M(n)\le p(n)$$ für alle $$n\in\mathbb Z_{\ge 0}$$ für eine [[Polynomfunktion|Polynom]] $$p.$$
+
+Eine Sprache $$L$$ heißt //$$\mathbf{NP}$$-schwer//, wenn
+
+$$
+\forall L'\in\mathbf{NP}\colon L'\preceq_p L.
+$$
+
+Ist zusätzlich $$L\in\mathbf{NP}$$, so heißt sie //$$\mathbf{NP}$$-vollständig//.

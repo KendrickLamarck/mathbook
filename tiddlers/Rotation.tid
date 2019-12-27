@@ -1,19 +1,23 @@
 created: 20190408230946576
-modified: 20191112213855084
-revision: 0
+modified: 20191227215528827
 tags: [[Linearer Differentialoperator]]
 title: Rotation
 type: text/vnd.tiddlywiki
 
-Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir
+{{KaTeX macros}}
+
+Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir die //Rotation (engl. curl)// von $$a$$ als
 
 $$
 \operatorname{rot}a\coloneqq
 \begin{pmatrix}
-\partial_2a_3-\partial_3a_2 \\
-\partial_3a_1-\partial_1a_3 \\
-\partial_1a_2-\partial_2a_1
+\fracpartial{a_3}{y} - \fracpartial{a_2}{z} \\[5mu]
+\fracpartial{a_1}{z} - \fracpartial{a_3}{x} \\[5mu]
+\fracpartial{a_2}{x} - \fracpartial{a_1}{y}
 \end{pmatrix}.
 $$
 
-Symbolisch ist $$\operatorname{rot} a=(\partial_1,\partial_2,\partial_3)\times(a_1,a_2,a_3).$$
+Symbolisch ist $$\operatorname{rot} a=\left( \fracpartial{}{x}, \fracpartial{}{y}, \fracpartial{}{z} \right)\times(a_1,a_2,a_3).$$
+
+!! With differential forms
+{{Differential operators with the exterior derivative}}

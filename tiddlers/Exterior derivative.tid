@@ -1,7 +1,8 @@
 created: 20191129163954910
-modified: 20191213224105324
-tags: Mannigfaltigkeit
+modified: 20191227204943942
+tags: [[Differential form]]
 title: Exterior derivative
+type: text/vnd.tiddlywiki
 
 For any manifold $$M^m,$$ the [[differential map|Pushforward]] $$\d\colon\Omega^0 M\to\Omega^1 M$$ has a unique linear extension to an [[antiderivation|Antiderivation]] $$\d\colon\Omega^* M\to\Omega^* M$$ satisfying $$\d^2=\d\circ\d=0.$$ This antiderivation has degree $$1$$ in the sense that it sends $$\Omega^k M$$ to $$\Omega^{k+1} M.$$ It is called the //exterior derivative.//
 

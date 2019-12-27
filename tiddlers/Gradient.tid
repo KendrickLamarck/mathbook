@@ -1,8 +1,7 @@
 created: 20180605165810188
 creator: Leander
-modified: 20191102214034431
+modified: 20191227215918070
 modifier: Leander
-revision: 0
 tags: [[Linearer Differentialoperator]]
 title: Gradient
 type: text/vnd.tiddlywiki
@@ -12,20 +11,34 @@ Sei $$f\colon\mathbb R^n\to\mathbb R$$ eine in $$p$$ [[differenzierbare|Ableitun
 $$
 \operatorname{grad}f(p)=\nabla f(p)\coloneqq
 \begin{pmatrix}
-\partial_1f(p) \\
-\vdots          \\
-\partial_nf(p) \\
+  \partial_1 f(p)  \\
+  \vdots           \\
+  \partial_n f(p)  \\
 \end{pmatrix}
 $$
 
 der //Gradient// von $$f$$ in $$p$$.
 
-!! Eigenschaften
+!!! Eigenschaften
 
-* $$\langle\operatorname{grad}_p f,v\rangle=\mathrm D_p f(v)$$ für alle $$v\in V.$$
+* $$\langle\operatorname{grad}_p f,v\rangle=\D_p f(v)$$ für alle $$v\in V.$$
 
-* Der Gradient steht [[senkrecht|Orthogonale Vektoren]] auf den Niveaus von $$f.$$ Genauer gilt für eine differenzierbare Kurve $$c\colon{]a,b[}\to G$$ und alle $$t$$ $$
-f\circ c \text{ konstant}\iff \left\langle\operatorname{grad}_{c(t)}f,\dot c(t)\right\rangle=0.$$
+* <div>Der Gradient steht [[senkrecht|Orthogonale Vektoren]] auf den Niveaus von $$f.$$ Genauer gilt für eine differenzierbare Kurve $$c\colon{]a,b[}\to G$$ und alle $$t$$
+$$
+f\circ c \text{ konstant}\iff
+\left\langle \operatorname{grad}_{c(t)}f,\dot c(t) \right\rangle =0.
+$$</div>
 
-* Der Gradient gibt die Richtung und Größe des stärksten Wachstums der Funktion $$f$$ an: Ist $$\|v\|=1$$ und $$\varphi$$ der Winkel zwischen dem Gradienten und der Richtung $$v,$$ so ist $$
-\partial_v f(p)=\left\|\operatorname{grad}_p f\right\|\cos\varphi.
+* <div>Der Gradient gibt die Richtung und Größe des stärksten Wachstums der Funktion $$f$$ an: Ist $$\|v\|=1$$ und $$\varphi$$ der Winkel zwischen dem Gradienten und der Richtung $$v,$$ so ist
+$$
+\partial_v f(p)=
+\left\| \operatorname{grad}_p f \right\| \cos\varphi.
+$$</div>
+
+!! Mit Differentialformen
+
+On a Riemannian manifold $$(M^m,g),$$ we can identify $$\T_p M$$ and $$\T_p^* M$$ and thus [[vector fields|Vektorfeld]] and [[one-forms|One-form]]. The //gradient// $$\nabla f$$ of a function $$f\in\mathcal C^\infty M$$ is the vector field corresponding in this way to $$\d f.$$ In particular, we have
+
+$$
+\langle \nabla f, X \rangle = \d f(X) = Xf.
+$$

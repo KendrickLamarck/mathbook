@@ -1,15 +1,17 @@
 caption: Divergenz
 created: 20190408225036837
-modified: 20191112213616906
-revision: 0
+modified: 20191227215534607
 tags: [[Linearer Differentialoperator]]
 title: Divergenz (Differentialoperator)
 type: text/vnd.tiddlywiki
 
-Sei $$F\colon U\to\Bbb R^d$$ mit $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir die //Divergenz// als
+Sei $$F=(F_1,\dots,F_d)\colon U\to\Bbb R^d$$ mit $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir die //Divergenz// als
 
 $$
 \operatorname{div} F\coloneqq\sum_{i=1}^d \partial_i F_i\colon U\to\Bbb R.
 $$
 
 Symbolisch ist $$\operatorname{div} F=\langle (\partial_1,\dots,\partial_d),(F_1,\dots,F_d)\rangle.$$
+
+!! With differential forms
+{{Differential operators with the exterior derivative}}

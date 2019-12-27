@@ -1,0 +1,12 @@
+created: 20191227203334903
+modified: 20191227215636263
+tags: [[Differential form]]
+title: Differential operators with the exterior derivative
+type: text/vnd.tiddlywiki
+
+On $$\R^3,$$ we can use the [[Hodge star]] to identify:
+
+* vectors with [[pseudovectors|Pseudovectors and pseudoscalars]] and thus one-forms with two-forms. Explicitly, identify both the one-form $$p\,\d x+q\,\d y+r\,\d z$$ and the two-form $$p\,\d y\wedge\d z+q\,\d z\wedge\d x+r\,\d x\wedge\d y$$ with the vector field $$p\partial_x+q\partial_y+r\partial_z.$$
+* scalars with pseudoscalars and thus zero-forms with three-forms. Explicitly, identify the three-form $$f\,\d x\wedge\d y\wedge\d z$$ with the function $$f.$$
+
+Then $$\d\colon\Omega^0\to\Omega^1$$ is the gradient, $$\d\colon\Omega^1\to\Omega^2$$ is the curl and $$\d\colon\Omega^2\to\Omega^3$$ is the divergence.

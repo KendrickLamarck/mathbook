@@ -1,13 +1,12 @@
 created: 20180605175140532
 creator: Leander
-modified: 20191004200435677
+modified: 20191227214635856
 modifier: Leander
-revision: 0
 tags: Skalarprodukt
 title: Euklidischer Vektorraum
 type: text/vnd.tiddlywiki
 
-Ein $$\mathbb R$$-[[Vektorraum]] mit [[Skalarprodukt]] heißt //euklidischer Vektorraum//.
+Ein reeller [[Vektorraum]] mit [[Skalarprodukt]] heißt //euklidischer Vektorraum//.
 
 !! Standardraum
 

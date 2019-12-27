@@ -1,18 +1,17 @@
 created: 20181106152953258
 list: Gradient [[Adjungierter Differentialoperator]] [[Divergenz (Differentialoperator)]] Laplace-Operator Rotation
-modified: 20191003230847864
-revision: 0
+modified: 20191227010610758
 tags: Ableitung
 title: Linearer Differentialoperator
 type: text/vnd.tiddlywiki
 
-Für $$\alpha=(\alpha_1,\dots,\alpha_d)\in\mathbb N_0^d$$ sei
+Für $$\alpha=(\alpha_1,\dots,\alpha_d)\in\N_0^d$$ sei
 
 $$
-|\alpha|=\alpha_1+\dots+\alpha_d,\qquad\mathrm D^\alpha=\mathrm D_1^{\alpha_1}\cdots\mathrm D_d^{\alpha_d},
+|\alpha| \coloneqq \alpha_1+\dots+\alpha_d,\qquad
+\D_i^j   \coloneqq \frac{\partial^j}{\partial x_i^j},\qquad
+\D^\alpha\coloneqq \D_1^{\alpha_1}\cdots\D_d^{\alpha_d}.
 $$
-
-wobei $$\mathrm D_i^j$$ Kurzschreibweise für $$\frac{\partial^j}{\partial x_i^j}$$ ist.
 
 Sei $$U\subset\mathbb R^d$$ [[offen|Offenheit]] und $$a_\alpha\in\mathcal C^\infty(U),\ \alpha\in\mathbb N_0^d.$$ Dann heißt der Operator
 

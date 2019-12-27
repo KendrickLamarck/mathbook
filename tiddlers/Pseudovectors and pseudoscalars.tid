@@ -1,0 +1,12 @@
+created: 20191226233707370
+modified: 20191227214543248
+tags: [[Exterior algebra]]
+title: Pseudovectors and pseudoscalars
+type: text/vnd.tiddlywiki
+
+If $$V$$ is a euclidean vector space with dimension $$m$$ (especially if it is $$\R^3$$), we use the following names:
+
+* //Scalars// are elements of $$\R=\Lambda_0 V,$$
+* //vectors// are elements of $$V=\Lambda_1 V,$$
+* //pseudovectors// are elements of $$\star V=\Lambda_{m-1} V,$$
+* //pseudoscalars// are elements of $$\star\R=\Lambda_m V.$$

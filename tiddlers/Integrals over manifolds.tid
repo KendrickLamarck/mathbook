@@ -1,7 +1,8 @@
 created: 20191213211747477
-modified: 20191216213429305
+modified: 20191228154135165
 tags: Mannigfaltigkeit
 title: Integrals over manifolds
+type: text/vnd.tiddlywiki
 
 If $$\omega \in \Omega^m_\mathrm c U$$ is an $$m$$-form with compact support in $$U\subset\R^m$$ then we can write uniquely $$\omega=f\, \d x_1\wedge\dots\wedge\d x_m.$$ We define
 
@@ -25,7 +26,7 @@ $$
 \sum_\alpha \int_{U_\alpha} f_\alpha \omega.
 $$
 
-* If $$-M$$ denotes the same manifold with the opposite orientation, then we have $$\int_{-M}\omega = -\int_M\omega.$$
+If $$-M$$ denotes the same manifold with the opposite orientation, then we have $$\int_{-M}\omega = -\int_M\omega.$$
 
 !! Volume integral
 

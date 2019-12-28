@@ -1,7 +1,8 @@
 created: 20191220195817702
-modified: 20191220200916470
+modified: 20191228152741359
 tags: Mannigfaltigkeit
 title: Connection
+type: text/vnd.tiddlywiki
 
 Given a [[vector bundle|Vector bundle]] $$E \to M,$$ a connection on $$E$$ is a bilinear map 
 
@@ -18,3 +19,12 @@ $$
 $$
 
 We call $$\nabla_X \sigma$$ the //covariant derivative// of $$\sigma.$$
+
+!! Torsion
+{{Torsion}}
+
+!! Metric connections
+{{Metric connection}}
+
+!! Levi-Civita connection
+{{Levi-Civita connection}}

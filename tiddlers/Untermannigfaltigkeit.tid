@@ -1,9 +1,8 @@
 created: 20180708183242867
 creator: Leander
-list: [[Mannigfaltigkeit als lokale Nullstellenmenge]] [[Mannigfaltigkeiten als Graphen]] [[Mannigfaltigkeit als Bild eines Homöomorphismus]] [[Parameterdarstellung von Mannigfaltigkeiten]] Atlas Kartenwechsel [[Gleichungsdefinierte Mannigfaltigkeiten]] Tangentialvektor [[Tangentialraum von Untermannigfaltigkeiten]] Normalenvektor [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Integrale über Untermannigfaltigkeiten]] [[Kompaktum mit glattem Rand]] [[Extrema auf Mannigfaltigkeiten]]
-modified: 20191213211924491
+list: [[Mannigfaltigkeit als lokale Nullstellenmenge]] [[Mannigfaltigkeiten als Graphen]] [[Mannigfaltigkeit als Bild eines Homöomorphismus]] [[Parameterdarstellung von Mannigfaltigkeiten]] Atlas Kartenwechsel [[Gleichungsdefinierte Mannigfaltigkeiten]] Tangentialvektor [[Tangentialraum von Untermannigfaltigkeiten]] Normalenvektor [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Integrale über Untermannigfaltigkeiten des Rn]] [[Kompaktum mit glattem Rand]] [[Extrema auf Mannigfaltigkeiten]]
+modified: 20191228155540882
 modifier: Leander
-revision: 0
 tags: Mannigfaltigkeit
 title: Untermannigfaltigkeit
 type: text/vnd.tiddlywiki
@@ -16,9 +15,6 @@ $$
 
 !! Definition als lokale Nullstellenmenge
 {{Mannigfaltigkeit als lokale Nullstellenmenge}}
+
 !! Lokale Parametrisierungen
 {{Parameterdarstellung von Mannigfaltigkeiten}}
-!! Als Graph
-{{Mannigfaltigkeiten als Graphen}}
-!! Als Bild eines Homöomorphismus
-{{Mannigfaltigkeit als Bild eines Homöomorphismus}}

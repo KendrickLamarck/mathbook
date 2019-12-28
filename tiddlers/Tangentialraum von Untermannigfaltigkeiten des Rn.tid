@@ -1,13 +1,12 @@
 created: 20180731221021576
 creator: Leander
-modified: 20191114195702556
+modified: 20191228153241308
 modifier: Leander
-revision: 0
-tags: Untermannigfaltigkeit
-title: Tangentialraum von Untermannigfaltigkeiten
+tags: [[Untermannigfaltigkeiten des Rn]]
+title: Tangentialraum von Untermannigfaltigkeiten des Rn
 type: text/vnd.tiddlywiki
 
-Sei $$M$$ eine $$k$$-[[dimensionale|Dimension]] [[Mannigfaltigkeit|Untermannigfaltigkeit]] im $$d$$-dimensionalen [[Banachraum]] $$V,$$ sei $$a\in M$$ und $$\phi\colon U\to\mathbb R^d$$ ein Koordinatensystem dazu wie in der Definition der Mannigfaltigkeit. Dann definieren wir den //Tangentialraum// $$\mathrm T_a M$$ an $$M$$ in $$a$$ durch
+Sei $$M$$ eine $$k$$-[[dimensionale|Dimension]] [[Mannigfaltigkeit]] im $$d$$-dimensionalen [[Banachraum]] $$V,$$ sei $$a\in M$$ und $$\phi\colon U\to\mathbb R^d$$ ein Koordinatensystem dazu wie in der Definition der Mannigfaltigkeit. Dann definieren wir den //Tangentialraum// $$\mathrm T_a M$$ an $$M$$ in $$a$$ durch
 
 $$
 \mathrm T_a M\coloneqq\mathrm D_{\phi(a)}\phi^{-1}(\mathbb R^k).

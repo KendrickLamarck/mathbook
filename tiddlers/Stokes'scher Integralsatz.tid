@@ -1,13 +1,12 @@
 created: 20190408230643462
-modified: 20191208222443927
-revision: 0
-tags: [[Integrale über Untermannigfaltigkeiten]]
+modified: 20191228161650558
+tags: [[Integrals over manifolds]] [[Integrale über Untermannigfaltigkeiten des Rn]]
 title: Stokes'scher Integralsatz
 type: text/vnd.tiddlywiki
 
 !! Abstrakt
 
-Suppose $$M^m$$ is an oriented manifold with boundary and $$\omega\in\Omega^{m-1}_\mathrm cM$$ is an $$(m-1)$$-form on $$M$$ with compact support. Then
+Suppose $$M^m$$ is an [[oriented manifold with boundary|Oriented manifold]] and $$\omega\in\Omega^{m-1}_\mathrm cM$$ is an $$(m-1)$$-form on $$M$$ with compact support. Then
 
 $$
 \int_M \d\omega = \int_{\partial M} \omega.
@@ -26,13 +25,13 @@ $$
 \end{pmatrix}.
 $$
 
-Sei $$\Omega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und
-$$a\in\mathcal C^1(\Omega\to\R^3)$$
+Sei $$\varOmega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und
+$$a\in\mathcal C^1(\varOmega\to\R^3)$$
 ein $$\mathcal C^1$$-[[Vektorfeld]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und
 $$\nu\colon\partial A\to S^1$$
 das [[äußere Einheits-Normalenfeld|Normalenvektor]]. Außerdem sei
-$$\varphi=(\varphi_1,\varphi_2,\varphi_3)\in\mathcal C^2(A\to\Omega)$$
-eine Fläche der Klasse $$\mathcal C^2$$ in $$\Omega.$$ Dann gilt
+$$\varphi=(\varphi_1,\varphi_2,\varphi_3)\in\mathcal C^2(A\to\varOmega)$$
+eine Fläche der Klasse $$\mathcal C^2$$ in $$\varOmega.$$ Dann gilt
 
 $$
 \int_A \langle(\operatorname{rot}a)\circ\varphi,\varphi_u\land\varphi_v\rangle \,\d u\,\d v=

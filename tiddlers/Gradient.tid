@@ -1,6 +1,6 @@
 created: 20180605165810188
 creator: Leander
-modified: 20191227215918070
+modified: 20191228151723740
 modifier: Leander
 tags: [[Linearer Differentialoperator]]
 title: Gradient
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 Sei $$f\colon\mathbb R^n\to\mathbb R$$ eine in $$p$$ [[differenzierbare|Ableitung]] Abbildung. Dann heißt der Vektor
 
 $$
-\operatorname{grad}f(p)=\nabla f(p)\coloneqq
+\operatorname{grad}_p f=\operatorname{grad}f(p)=\nabla f(p)\coloneqq
 \begin{pmatrix}
   \partial_1 f(p)  \\
   \vdots           \\

@@ -1,27 +1,26 @@
 created: 20190204155239816
 creator: Leander
 list: [[Untergeordnete Teilung der Eins]] [[Gram'sche Determinante von Karten]] [[Gram'sche Determinante unter Kartenwechsel]] [[Skaliertes Volumen]] [[Integral über Kugelschalen]] [[Gauß'scher integralsatz]] Volumen
-modified: 20191213211817018
+modified: 20191228153512778
 modifier: Leander
-revision: 0
-tags: Untermannigfaltigkeit
-title: Integrale über Untermannigfaltigkeiten
+tags: [[Untermannigfaltigkeiten des Rn]]
+title: Integrale über Untermannigfaltigkeiten des Rn
 type: text/vnd.tiddlywiki
 
 Seien $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Mannigfaltigkeit|Untermannigfaltigkeit]] und $$f\colon M\to\Bbb R$$ [[messbar|Messbare Funktion]]. Falls eine [[Parametrisierung|Parameterdarstellung von Mannigfaltigkeiten]] $$\varphi\colon T\to V\subseteq M$$ existiert, so dass $$f=0$$ in $$M\setminus V,$$ so heißt $$f$$ //integrierbar über $$M,$$// falls die Abbildung $$t\mapsto f(\varphi(t))\sqrt{g(t)}$$ bezüglich des $$k$$-dimensionalen Lebesgue-Maßes über $$T$$ integrierbar ist. In diesem Fall setzen wir
 
 $$
-\int_M f(x)\,\Bbb S(\mathrm dx)\coloneqq
-\int_Tf(\varphi(t))\sqrt{g(t)}\,\mathrm d^k t,
+\int_M f(x)\,\Bbb S(\d x)\coloneqq
+\int_Tf(\varphi(t))\sqrt{g(t)}\,\d^k t,
 $$
 
-wobei $$g(t)\coloneqq\det\left((D_t\varphi)^\mathrm T (D_t\varphi)\right)$$ die zu $$\varphi$$ gehörige [[Gram'sche Determinante]] ist.
+wobei $$g(t)\coloneqq\det\left((\D_t\varphi)^\T (\D_t\varphi)\right)$$ die zu $$\varphi$$ gehörige [[Gram'sche Determinante]] ist.
 
 Falls endlich viele lokale Parametrisierungen $$\varphi_i\colon T_i\to V_i,\ i=1,\dots,m$$ existieren mit $$\bigcup_{i=1}^m V_i=M,$$ so wählen wir eine der Überdeckung $$(V_i)_{i=1,\dots,m}$$ [[untergeordnete Teilung der Eins|Untergeordnete Teilung der Eins]] $$(\alpha_i)_{i=1,\dots,m}.$$ Die Funktion $$f$$ heißt dann integrierbar über $$M,$$ falls die Einschränkung von $$f$$ auf $$V_i$$ für jedes $$i\in\{1,\dots,m\}$$ im vorigen Sinn integrierbar ist, und man setzt
 
 $$
-\int_M f(x)\,\Bbb S(\mathrm dx)\coloneqq
-\sum_{i=1}^m \int _M \alpha_i(x) f(x)\,\Bbb S(\mathrm dx).
+\int_M f(x)\,\Bbb S(\d x)\coloneqq
+\sum_{i=1}^m \int _M \alpha_i(x) f(x)\,\Bbb S(\d x).
 $$
 
 Eine geeignete Teilung der Eins ist z.B. $$\alpha_i=\mathbf 1_{W_i},$$ wobei $$W_i=V_i\setminus(V_1\cup\dots\cup V_{i-1}).$$

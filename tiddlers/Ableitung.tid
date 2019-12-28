@@ -1,10 +1,9 @@
 caption: Differentiation
 created: 20180528201328382
 creator: Leander
-list: [[Ableitung in R]] Richtungsableitung [[Komponentenweise Differentiation]] Jacobi-Matrix Kettenregel Produktregel [[Höhere Ableitungen]] [[Notwendiges Extremwertkriterium]] Extremwerte [[Ableitung und Extremwerte]] [[Stetige Differenzierbarkeit]] [[Konstanter Rang]] [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Linearer Differentialoperator]]
-modified: 20191011165224219
+list: [[Ableitung in R]] [[Komponentenweise Differentiation]] Richtungsableitung Jacobi-Matrix Kettenregel Produktregel [[Höhere Ableitungen]] [[Notwendiges Extremwertkriterium]] Extremwerte [[Stetige Differenzierbarkeit]] [[Konstanter Rang]] [[Linearer Differentialoperator]]
+modified: 20191228162703796
 modifier: Leander
-revision: 0
 tags: Analysis
 title: Ableitung
 type: text/vnd.tiddlywiki

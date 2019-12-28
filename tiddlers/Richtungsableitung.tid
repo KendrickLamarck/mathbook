@@ -1,9 +1,8 @@
 created: 20180528203216756
 creator: Leander
 list: [[Partielle Ableitung]] [[Differenzierbarkeit und partielle Differenzierbarkeit]] [[Höhere Ableitungen und Richtungsableitungen]] Gradient
-modified: 20191116170650465
+modified: 20191228162552520
 modifier: Leander
-revision: 0
 tags: Ableitung
 title: Richtungsableitung
 type: text/vnd.tiddlywiki
@@ -18,7 +17,7 @@ $$
 
 heißt dann die //Richtungsableitung// von $$f$$ in $$p$$ in Richtung $$v$$, falls dieser [[Limes|Grenzwert von Funktionen]] existiert.
 
-This can be localized to an arbitrarily small neighborhood of $$p\colon$$ If $$\gamma\colon\R\to V$$ is a differentiable curve through $$p=\gamma(0)$$ with velocity $$v=\gamma'(0),$$ we have
+Equivalently, if $$\gamma\colon\R\to V$$ is a differentiable curve through $$p=\gamma(0)$$ with velocity $$v=\gamma'(0),$$ we have
 
 $$
 \partial_v f(p)=\fracderiv{}{t}\Bigr|_{t=0}(g\circ\gamma).

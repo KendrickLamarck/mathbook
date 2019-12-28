@@ -1,17 +1,21 @@
 created: 20190205154455592
 creator: Leander
-modified: 20190205155212678
+modified: 20191228162344172
 modifier: Leander
-revision: 0
-tags: [[Integrale über Untermannigfaltigkeiten]]
+tags: [[Integrale über Untermannigfaltigkeiten des Rn]]
 title: Integral über Kugelschalen
+type: text/vnd.tiddlywiki
 
-Sei $$f\colon\Bbb R^d\to\Bbb R$$ [[integrierbar|Integrale über Untermannigfaltigkeiten]]. Dann ist für Lebesgue-fast jedes $$r\in{]0,\infty[}$$ die Funktion $$f$$ über die Sphäre $$\{x\in\Bbb R^d:\|x\|=r\}$$ integrierbar und es gilt
+Sei $$f\colon\R^d\to\R$$ [[integrierbar|Integrale über Untermannigfaltigkeiten]]. Dann ist für Lebesgue-fast jedes $$r\in{]0,\infty[}$$ die Funktion $$f$$ über die Sphäre $$\{x\in\R^d:\|x\|=r\}$$ integrierbar und es gilt
 
 $$\begin{aligned}
-\int_{\Bbb R^d} f(x)\,\mathrm d^d x &=
-\int_{]0,\infty[}\left(\int_{\|x\|=r} f(x)\,\Bbb S(\mathrm dx)\right)\mathrm dr \\ &=
-\int_{]0,\infty[}\left(\int_{S_{d-1}} f(rx)\,\Bbb S(\mathrm dx)\right) r^{d-1}\,\mathrm dr,
+\int_{\Bbb R^d} f(x)\,\d^d x &=
+  \int_{]0,\infty[}\biggl(
+    \int_{\|x\|=r} f(x)\,\Bbb S(\d x)
+  \biggr)\mathrm dr \\ &=
+  \int_{]0,\infty[}\biggl(
+    \int_{S_{d-1}} f(rx)\,\Bbb S(\d x)
+  \biggr) r^{d-1}\,\d r,
 \end{aligned}$$
 
-wobei $$S_{d-1}$$ die [[Einheitssphäre]] im $$\Bbb R^d$$ ist.
+wobei $$S_{d-1}$$ die [[Einheitssphäre]] im $$\R^d$$ ist.

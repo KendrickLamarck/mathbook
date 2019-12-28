@@ -1,7 +1,8 @@
 created: 20191123231123503
-modified: 20191206194011581
+modified: 20191228164303529
 tags: Flow
 title: Infinitesimal generator
+type: text/vnd.tiddlywiki
 
 The //infinitesimal generator// of a [[flow|Flow]] $$\theta$$ on $$M$$ is the [[vector field|Vektorfeld]] $$X$$ on $$M$$ defined by $$X_p \coloneqq \gamma_p'(0).$$
 
@@ -14,7 +15,7 @@ $$
 $$X$$ is $$\theta$$-[[related|Verknüpfte Vektorfelder]] to $$V=(\partial_t,0),$$ since $$X_{\theta_t(p)}=\D_{(t,p)}\theta\left(V_{(t,p)}\right).$$
 
 ''Theorem.''
-If $$\theta$$ is a flow on $$M$$ with infinitesimal generator $$X,$$ then $$X$$ is $$\theta$$-invariant, i.e. for any $$s\in\R$$ and $$p\in M,$$ we have $$\theta_{s*}(X_p)=X_{\theta_s p}.$$
+If $$\theta$$ is a flow on $$M$$ with infinitesimal generator $$X,$$ then $$X$$ is $$\theta$$-invariant, i.e. for any $$s\in\R$$ and $$p\in M,$$ we have $$(\theta_s)_*(X_p)=X_{\theta_s(p)}.$$
 
 ''Corollary.''
 If $$X_p=0,$$ then the curve $$\gamma_p$$ is the constant map $$\gamma_p(t)=p.$$ If $$X_p\ne 0,$$ then the curve $$\gamma_p$$ is an [[immersion|Immersion und Submersion]]. If it is not injective on $$\R,$$ then it is $$s$$-periodic and injective on $$\R/s\Z$$ for some $$s>0.$$

@@ -1,7 +1,8 @@
 created: 20191214195549411
-modified: 20191214195549411
-tags: Volumen
+modified: 20191228155432985
+tags: Volumen no-toc
 title: Volumen von Untermannigfaltigkeiten des Rn
+type: text/vnd.tiddlywiki
 
 Sei $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit]]. Eine Teilmenge $$A\subseteq M$$ heißt eine //integrierbare Teilmenge,// wenn $$\mathbf 1_A$$ über $$M$$ integrierbar ist. In diesem Fall nennt man
 

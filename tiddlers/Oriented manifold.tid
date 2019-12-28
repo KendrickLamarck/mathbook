@@ -1,8 +1,17 @@
 created: 20191201215246830
-modified: 20191206181259641
+modified: 20191228162754643
 tags: [[Differential form]]
 title: Oriented manifold
+type: text/vnd.tiddlywiki
 
 {{Volume form}} We say a manifold $$M$$ is //orientable// if it admits a [[volume form|Volume form]]. An //orientation// of $$M$$ is a choice of volume form up to pointwise multiplication by positive smooth functions $$\lambda\in\mathcal C^\infty M.$$ The standard orientation is given by $$\d x_1\wedge\dots\wedge\d x_m,$$ so that $$\{e_1,\dots,e_m\}$$ is an oriented basis for each $$\T_p M.$$
 
 An equivalent definition is through a coherently oriented atlas for $$M$$: Two charts $$(U,\varphi)$$ and $$(V,\psi)$$ are //coherently oriented//, if the transition function $$\varphi\circ\psi^{-1}$$ is an orientation-preserving diffeomorphism of $$\R^m.$$
+
+!! With boundary
+
+Suppose $$M^m$$ is a [[manifold with boundary|Manifold with boundary]]. For $$p\in\partial M\subset M,\ \T_p\partial M\subset \T_p M$$ is a hyperplane dividing $$\T_p M$$ into two parts: The //outward-pointing// and //inward-pointing// vectors, defined as tangent vectors of curves ending and starting at $$p,$$ respectively.
+
+An orientation on $$M$$ induces an orientation on $$\partial M$$ as follows: Suppose $$(v,v_1,\dots,v_{m-1})$$ is an oriented basis for $$\T_p M,$$ where $$v$$ is outward-pointing and $$v_i\in\T_p\partial M.$$ Then $$(v_1,\dots,v_{m-1})$$ is an oriented basis of $$\T_p\partial M.$$
+
+Equivalently, suppose the orientation on $$M$$ is given by a volume form $$\varOmega$$ and we pick a vector field $$X\in\mathcal X(M)$$ which is outward-pointing along $$\partial M.$$ Then the restricted [[contraction|Contraction of a form]] $$\iota_X(\varOmega)|_{\partial M}$$ is a volume form on $$\partial M.$$

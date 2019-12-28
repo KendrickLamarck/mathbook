@@ -1,10 +1,9 @@
 created: 20190205161650621
 creator: Leander
-modified: 20191114195855647
+modified: 20191228164802575
 modifier: Leander
-revision: 0
 tags: Untermannigfaltigkeit no-toc
 title: Tangentialvektor
 type: text/vnd.tiddlywiki
 
-Seien $$M\subseteq\Bbb R^d$$ eine [[Mannigfaltigkeit|Untermannigfaltigkeit]] und $$a\in M.$$ Ein Vektor $$v\in\Bbb R^d$$ heißt ein //Tangentialvektor,// an $$M$$ in $$a,$$ wenn es ein $$\epsilon>0$$ und eine $$\mathcal C^1$$-Kurve $$\psi\colon{]-\epsilon,\epsilon[}\to M$$ gibt mit $$\psi(0)=a$$ und $$\psi'(0)=v.$$ Die Menge aller Tangentialvektoren an $$M$$ in $$a$$ ist der [[Tangentialraum|Tangentialraum von Untermannigfaltigkeiten]] $$\mathrm T_a M.$$
+Seien $$M\subseteq\Bbb R^d$$ eine [[Mannigfaltigkeit|Untermannigfaltigkeit]] und $$a\in M.$$ Ein Vektor $$v\in\Bbb R^d$$ heißt ein //Tangentialvektor,// an $$M$$ in $$a,$$ wenn es ein $$\epsilon>0$$ und eine $$\mathcal C^1$$-Kurve $$\psi\colon{]-\epsilon,\epsilon[}\to M$$ gibt mit $$\psi(0)=a$$ und $$\psi'(0)=v.$$ Die Menge aller Tangentialvektoren an $$M$$ in $$a$$ ist der [[Tangentialraum|Tangentialraum von Untermannigfaltigkeiten des Rn]] $$\mathrm T_a M.$$

@@ -1,6 +1,6 @@
 created: 20180731215641815
 creator: Leander
-modified: 20191228154007819
+modified: 20191228164817021
 modifier: Leander
 tags: [[Untermannigfaltigkeiten des Rn]]
 title: Gleichungsdefinierte Mannigfaltigkeiten
@@ -12,7 +12,7 @@ $$
 M\coloneqq g^{-1}(\{q\})
 $$
 
-eine $$(d-r)$$-dimensionale $$\mathcal C^\alpha$$-[[Mannigfaltigkeit|Untermannigfaltigkeit]]. Für den [[Tangentialraum|Tangentialraum von Untermannigfaltigkeiten]] gilt
+eine $$(d-r)$$-dimensionale $$\mathcal C^\alpha$$-[[Mannigfaltigkeit|Untermannigfaltigkeit]]. Für den [[Tangentialraum|Tangentialraum von Untermannigfaltigkeiten des Rn]] gilt
 
 $$
 \mathrm T_a M=\ker\mathrm D_a g.

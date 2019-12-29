@@ -1,9 +1,10 @@
 created: 20191206182740988
-modified: 20191206183824366
+modified: 20191228212908374
 tags: Flow
 title: Local flow
+type: text/vnd.tiddlywiki
 
-A //local flow// around $$p\in M$$ is a map $$\theta\colon \left]-\epsilon,\epsilon\right[\times V\to U$$ (for some $$\epsilon>0$$ and some open $$V\ni p$$) such that $$\theta_0(q)=q$$ for all $$q\in V,$$ and
+A //local flow// around $$p\in M$$ is a map $$\theta\colon \left]-\epsilon,\epsilon\right[\times V\to U$$ for some $$\epsilon>0$$ and some open $$V\ni p$$ such that $$\theta_0(q)=q$$ for all $$q\in V,$$ and
 
 $$
 \theta_t(\theta_s(q))=\theta_{t+s}(q)

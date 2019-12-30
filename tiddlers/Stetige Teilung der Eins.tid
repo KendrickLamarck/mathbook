@@ -1,15 +1,14 @@
 created: 20190104211615658
 creator: Leander
-modified: 20191011221043091
+modified: 20191229225222515
 modifier: Leander
-revision: 0
 tags: [[Haar'sches Maß]]
-title: Teilung der Eins
+title: Stetige Teilung der Eins
 type: text/vnd.tiddlywiki
 
-# Definiere $$\psi\colon\Bbb R\to [0,1],\ t\mapsto (1-|t|)_+.$$
+* Definiere $$\psi\colon\Bbb R\to [0,1],\ t\mapsto (1-|t|)_+.$$
 
-# Definiere $$\Psi\colon\Bbb R^d\to [0,1],\ x\mapsto\prod_{i=1}^d \psi(x_i).$$
+* Definiere $$\Psi\colon\Bbb R^d\to [0,1],\ x\mapsto\prod_{i=1}^d \psi(x_i).$$
 
 Dann gilt für alle $$x\in\Bbb R^d$$:
 

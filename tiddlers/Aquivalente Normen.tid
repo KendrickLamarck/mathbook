@@ -1,12 +1,12 @@
 created: 20180522185654966
 creator: Leander
-modified: 20180528202358138
+modified: 20191229222855998
 modifier: Leander
-revision: 0
 tags: [[Normierter Vektorraum]]
 title: Äquivalente Normen
+type: text/vnd.tiddlywiki
 
-Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[normierter Vektorraum|Normierter Vektorraum]] mit zwei Normen $$\|.\|_1,\|.\|_2$$. Dann gilt:
+Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[normierter Vektorraum|Normierter Vektorraum]] mit zwei Normen $$\|.\|_1,\ \|.\|_2$$. Dann gilt:
 
 # Es gibt $$c,C>0$$, so dass für alle $$v\in V$$ gilt$$
 c\|v\|_1\le\|v\|_2\le C\|v\|_1.

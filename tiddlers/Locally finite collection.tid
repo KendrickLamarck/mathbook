@@ -1,0 +1,7 @@
+created: 20191229223915499
+modified: 20191229224021283
+tags: Topologie
+title: Locally finite collection
+type: text/vnd.tiddlywiki
+
+A collection $$\{S_\alpha\}$$ of subsets of a topological space $$X$$ is called //locally finite// if each $$p\in X$$ has a neighbourhood that intersects only finitely many of the $$S_\alpha.$$

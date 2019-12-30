@@ -110,6 +110,7 @@ var customMacros = {
     "\\Rang": "\\operatorname{Rang}",
     "\\Eig": "\\operatorname{Eig}",
     "\\sign": "\\operatorname{sign}",
+    "\\supp": "\\operatorname{supp}",
     "\\id": "\\operatorname{id}",
     "\\vol": "\\operatorname{vol}",
     "\\operp": "\\mathbin{\\perp\\kern-21mu{\\bigcirc}}",

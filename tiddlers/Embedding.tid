@@ -1,5 +1,5 @@
 created: 20191116220932292
-modified: 20191228155640904
+modified: 20191229233425597
 tags: Untermannigfaltigkeit Topologie
 title: Embedding
 type: text/vnd.tiddlywiki
@@ -14,8 +14,6 @@ If $$X$$ is [[compact|Kompaktheit]] and $$Y$$ is [[Hausdorff|Hausdorff'scher Rau
 
 A (smooth) //embedding// $$f\colon M\to N$$ of [[manifolds|Smooth manifold]] is an [[immersion|Immersion und Submersion]] that is a topological embedding.
 
-If $$M$$ is a compact manifold, then any injective immersion $$f\colon M\to N$$ is a smooth embedding.
-
-!!! Embedded submanifolds
-
-{{Embedded submanifolds}}
+* If $$M$$ is a compact manifold, then any injective immersion $$f\colon M\to N$$ is a smooth embedding.
+* {{Embedded submanifolds}}
+* Any compact manifold $$M^m$$ can be embedded in some Euclidean space $$\R^n.$$

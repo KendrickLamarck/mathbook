@@ -1,0 +1,7 @@
+created: 20191230000657263
+modified: 20191230000859517
+tags: Topologie
+title: Normal topological space
+type: text/vnd.tiddlywiki
+
+A topological space $$X$$ is called //normal,// if given any disjoint closed sets $$E$$ and $$F,$$ there are neighbourhoods $$U$$ of $$E$$ and $$V$$ of $$F$$ that are also disjoint.

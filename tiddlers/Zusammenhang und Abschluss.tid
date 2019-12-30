@@ -1,9 +1,9 @@
 created: 20180517181125958
 creator: Leander
-modified: 20180517182104756
+modified: 20191229221437300
 modifier: Leander
-revision: 0
-tags: Zusammenhang
+tags: Zusammenhang no-toc
 title: Zusammenhang und Abschluss
+type: text/vnd.tiddlywiki
 
 Sei $$A\subset B\subset \bar A\subset X$$ und sei $$A$$ [[zusammenhängend|Zusammenhang]]. Dann ist auch $$B$$ zusammenhängend. Insbesondere ist auch $$\bar A$$ zusammenhängend.

@@ -1,15 +1,13 @@
+caption: Stetigkeit
 created: 20171225164141127
 creator: Leander
 list: 
-modified: 20191004192014578
+modified: 20191229220047535
 modifier: Leander
-revision: 0
-tags: no-toc Stetigkeit
+tags: Topologie no-toc
 title: Stetigkeit und offene Urbilder
 type: text/vnd.tiddlywiki
 
-Seien $$(X,d_X),(Y,d_Y)$$ [[metrische Räume|Metrischer Raum]] und $$f\colon X\to Y$$. Dann ist $$f$$ [[stetig|Stetigkeit (metrische Räume)]] genau dann, wenn für jede [[offene|Offenheit (metrische Räume)]] Teilmenge $$V\subset Y$$ das Urbild $$f^{-1}(V)\subset X$$ offen ist. Die Aussage bleibt richtig mit "[[abgeschlossen|Abgeschlossenheit]]" statt "offen".
-
-Ist $$f$$ nicht auf ganz $$X$$ definiert, sondern nur $$f\colon X\supset G\to Y$$ stetig, so sind die Urbilder offener Mengen offen in $$(G,d_G)$$, aber nicht unbedingt in $$X$$.
+Seien $$(X,d_X),(Y,d_Y)$$ [[metrische Räume|Metrischer Raum]] und $$f\colon X\to Y$$. Dann ist $$f$$ [[stetig|Stetigkeit (metrische Räume)]] genau dann, wenn für jede [[offene|Offenheit (metrische Räume)]] Teilmenge $$V\subset Y$$ das Urbild $$f^{-1}(V)\subset X$$ offen ist. Die Aussage bleibt richtig mit "[[abgeschlossen|Abgeschlossenheit]]" statt "offen". Ist $$f$$ nicht auf ganz $$X$$ definiert, sondern nur $$f\colon X\supset G\to Y$$ stetig, so sind die Urbilder offener Mengen offen in $$(G,d_G)$$, aber nicht unbedingt in $$X$$.
 
 Auf diese Weise kann Stetigkeit auch in [[topologischen Räumen|Topologie]] definiert werden.

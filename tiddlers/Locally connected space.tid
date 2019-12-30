@@ -1,0 +1,7 @@
+created: 20191229235836679
+modified: 20191230000117312
+tags: Zusammenhang
+title: Locally connected space
+type: text/vnd.tiddlywiki
+
+We say that a topological space $$X$$ is //locally connected at $$x\in X$$// if for every open set $$V$$ containing $$x$$ there exists a connected, open set $$U$$ with $$x\in U\subseteq V.$$ The space $$X$$ is said to be //locally connected// if it is locally connected at every $$x\in X.$$

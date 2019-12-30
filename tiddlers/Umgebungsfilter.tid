@@ -1,8 +1,7 @@
 created: 20180424171538646
 creator: Leander
-modified: 20191011214051848
+modified: 20191229222346787
 modifier: Leander
-revision: 0
 tags: Topologie
 title: Umgebungsfilter
 type: text/vnd.tiddlywiki
@@ -14,6 +13,6 @@ Sei $$X$$ eine Menge, und für jedes $$a\in X$$ sei eine nicht-leere Menge $$\ma
 * Ist $$U_1,U_2\in\mathcal U(a)$$ für ein $$a\in X$$, so folgt $$U_1\cap U_2\in\mathcal U(a).$$
 * Zu allen $$U\in\mathcal U(a)$$ für ein $$a\in X$$ gibt es ein $$V\in\mathcal U(a)$$, so dass gilt $$U\in\mathcal U(b)$$ für jedes $$b\in V.$$
 
-Dann nennen wir $$\{\,\mathcal U(x)\,\}_{x\in X}$$ einen //Umgebungsfilter//. Eine Teilmenge $$\mathcal B(a)\subset\mathcal U(a)$$ heißt //Umgebungsbasis//, falls es für jedes $$U\in\mathcal U(a)$$ ein $$B\in\mathcal B(a)$$ mit $$B\subset U$$ gibt.
+Dann nennen wir $$\{\mathcal U(x)\}_{x\in X}$$ einen //Umgebungsfilter//. Eine Teilmenge $$\mathcal B(a)\subset\mathcal U(a)$$ heißt //Umgebungsbasis//, falls es für jedes $$U\in\mathcal U(a)$$ ein $$B\in\mathcal B(a)$$ mit $$B\subset U$$ gibt.
 
 Die Familie aller [[Umgebungen|Umgebung]] von Punkten in einem [[topologischen Raum|Topologie]] bildet einen Umgebungsfilter. Die offenen Teilmengen, welche $$a$$ enthalten bilden eine Umgebungsbasis.

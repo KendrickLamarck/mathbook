@@ -1,8 +1,7 @@
 created: 20171225132939154
 creator: Leander
-modified: 20180725162258320
+modified: 20191229224824835
 modifier: Leander
-revision: 0
 tags: Topologie
 title: Randpunkt
 type: text/vnd.tiddlywiki
@@ -16,7 +15,9 @@ $$
 Diese Menge ist [[abgeschlossen|Abgeschlossenheit]]. Außerdem enthält die Umgebung jedes Randpunktes Punkte von $$Y$$ und Punkte von $$X\setminus Y$$:
 
 $$
-\partial Y=\{\,x\in X:\forall\epsilon>0[U_\epsilon(x)\cap Y\ne\varnothing\land U_\epsilon(x)\cap (X\setminus Y)\ne\varnothing]\,\}.
+\partial Y=\{\,p\in X:\forall\mathcal T\ni O\ni p
+[O \cap Y             \ne\varnothing \land
+ O \cap (X\setminus Y)\ne\varnothing ]\,\}.
 $$
 
 $$p \in \mathbb{K}$$ ist genau dann ein Randpunkt von $$D \subset \mathbb{K}$$, wenn $$p$$ weder [[innerer Punkt|Innerer Punkt]] von $$D$$ noch von $$\mathbb{K}\setminus D$$ ist.

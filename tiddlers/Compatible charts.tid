@@ -1,7 +1,7 @@
 created: 20191116161402282
-modified: 20191129231839864
-revision: 0
+modified: 20191229213840914
 tags: [[Smooth manifold]] no-toc
 title: Compatible charts
+type: text/vnd.tiddlywiki
 
-Fix $$r\in\{0,1,\dots,\infty,\omega\}.$$ We say two charts $$(U,\varphi)$$ and $$(V,\psi)$$ for a [[topological manifold|Topologische Mannigfaltigkeit]] are $$\mathcal C^r$$-compatible if the [[transition functions|Kartenwechsel]] $$\psi\circ\varphi^{-1}$$ and $$\varphi\circ\psi^{-1}$$ are $$\mathcal C^r$$-maps (they are then $$\mathcal C^r$$-[[diffeomorphisms|Diffeomorphismus]]).
+Fix $$r\in\{0,1,\dots,\infty,\omega\}.$$ We say two charts $$(U,\varphi)$$ and $$(V,\psi)$$ for a [[topological manifold|Topologische Mannigfaltigkeit]] are $$\mathcal C^r$$-compatible if the [[transition functions|Transition function]] $$\psi\circ\varphi^{-1}$$ and $$\varphi\circ\psi^{-1}$$ are $$\mathcal C^r$$-maps (they are then $$\mathcal C^r$$-[[diffeomorphisms|Diffeomorphismus]]).

@@ -1,0 +1,7 @@
+created: 20191229230927674
+modified: 20191229231123758
+tags: Topologie
+title: Refinement
+type: text/vnd.tiddlywiki
+
+An open cover $$\{V_\beta\}$$ is a //refinement// of another open cover $$\{U_\alpha\}$$ if each $$V_\beta$$ is contained in some $$U_\alpha.$$

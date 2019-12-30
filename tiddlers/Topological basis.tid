@@ -1,8 +1,8 @@
 created: 20191116152409897
-modified: 20191116154211160
-revision: 0
+modified: 20191229222427954
 tags: Topologie
 title: Topological basis
+type: text/vnd.tiddlywiki
 
 Let $$X$$ be a set. A //basis// is a collection of sets $$B\subseteq\mathcal P(X)$$ such that:
 

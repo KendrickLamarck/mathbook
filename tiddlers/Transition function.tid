@@ -1,8 +1,7 @@
 created: 20190325161247329
-modified: 20191214191100473
-revision: 0
+modified: 20191229213824762
 tags: Mannigfaltigkeit
-title: Kartenwechsel
+title: Transition function
 type: text/vnd.tiddlywiki
 
 If $$(U,\varphi)$$ and $$(V,\psi)$$ are two charts for a [[manifold|Topologische Mannigfaltigkeit]] $$M^m,$$ then

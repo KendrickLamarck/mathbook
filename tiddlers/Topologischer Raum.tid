@@ -1,0 +1,15 @@
+created: 20191229214758724
+modified: 20191229214847836
+tags: Topologie
+title: Topologischer Raum
+type: text/vnd.tiddlywiki
+
+Sei $$X$$ eine Menge und $$\mathcal T\subset\mathcal P(X)$$ eine Teilmenge der [[Potenzmenge]] von $$X$$. Man nennt $$\mathcal T$$ eine //Topologie// auf $$X$$, falls gilt:
+
+# $$\varnothing\in\mathcal T$$ und $$X\in\mathcal T$$,
+# Für eine beliebige Indexmenge $$I$$ und Mengen $$U_i\in\mathcal T$$ mit $$i\in I$$ ist $$
+\bigcup_{i\in I}U_i\in\mathcal T,$$
+# Für $$n\in\mathbb N$$ und $$U_1,\ldots,U_n\in\mathcal T$$ ist $$
+\bigcap_{i=1}^n U_i\in\mathcal T.$$
+
+Man nennt dann $$(X,\mathcal T)$$ einen //topologischen Raum// und die mengen in $$\mathcal T$$ //offen//.

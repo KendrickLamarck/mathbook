@@ -1,14 +1,15 @@
 created: 20180416182215860
 creator: Leander
-modified: 20191011213001005
+modified: 20191229223429316
 modifier: Leander
-revision: 0
 tags: [[Metrischer Raum]]
 title: Metrik
 type: text/vnd.tiddlywiki
 
 Eine Abbildung $$d\colon X\times X\to\mathbb R$$ heißt //Metrik//, wenn für alle $$x,y,z\in X$$ gilt:
 
-# $$d(x,y)\ge 0$$ und $$(d(x,y)=0\iff x=y),$$
+# $$d(x,y)\ge 0$$ und $$(d(x,y)=0\iff x=y)$$ @@float:right; (Positive Definitheit), @@
 # $$d(x,y)=d(y,x)$$ @@float:right; (Symmetrie), @@
 # $$d(x,z)\le d(x,y)+d(y,z)$$ @@float:right; ([[Dreiecksungleichung]]). @@
+
+Das Paar $$(X,d)$$ heißt dann ein //metrischer Raum.//

@@ -1,16 +1,13 @@
 created: 20171225164506885
 creator: Leander
 list: 
-modified: 20191011225347781
+modified: 20191229215712951
 modifier: Leander
-revision: 0
 tags: Zusammenhang no-toc
 title: Zwischenwertsatz
 type: text/vnd.tiddlywiki
 
-Sei $$f\colon\mathbb{R} \supset J \to \mathbb{R}$$ [[stetig|Stetigkeit]] auf dem Intervall $$J$$. Dann ist die Bildmenge $$f(J)$$ ein Intervall.
-
-Das heißt: sind $$f(x)$$ und $$f(y)$$ zwei Funktionswerte von $$f$$, so sind auch alle reellen Zahlen dazwischen Funktionswerte von $$f$$.
+Sei $$f\colon\mathbb{R} \supset J \to \mathbb{R}$$ [[stetig|Stetigkeit]] auf dem Intervall $$J$$. Dann ist die Bildmenge $$f(J)$$ ein Intervall. Das heißt: sind $$f(x)$$ und $$f(y)$$ zwei Funktionswerte von $$f$$, so sind auch alle reellen Zahlen dazwischen Funktionswerte von $$f$$.
 
 ''Korollar 1.''
 sind $$x,y \in J$$ mit

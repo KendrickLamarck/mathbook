@@ -1,0 +1,11 @@
+created: 20191229225658673
+modified: 20191229230451142
+tags: Mannigfaltigkeit
+title: Partition of unity
+type: text/vnd.tiddlywiki
+
+A (smooth) //partition of unity// on a manifold $$M$$ is a collection of functions $$\psi_\alpha\colon M \to \R$$ such that
+
+* $$\psi_\alpha\ge 0,$$
+* $$\{\supp\psi_\alpha\}$$ is [[locally finite|Locally finite collection]],
+* $$\sum\psi_\alpha=1.$$

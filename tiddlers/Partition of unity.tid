@@ -1,10 +1,13 @@
 created: 20191229225658673
-modified: 20191229230451142
+creator: Leander
+list: [[Untergeordnete Teilung der Eins]] [[Topological basis of manifolds]] [[Compact exhaustion of manifolds]]
+modified: 20200101181552129
+modifier: Leander
 tags: Mannigfaltigkeit
 title: Partition of unity
 type: text/vnd.tiddlywiki
 
-A (smooth) //partition of unity// on a manifold $$M$$ is a collection of functions $$\psi_\alpha\colon M \to \R$$ such that
+A (smooth) //partition of unity// on a manifold $$M$$ is a collection of functions $$\psi_\alpha\colon M \to\R$$ such that
 
 * $$\psi_\alpha\ge 0,$$
 * $$\{\supp\psi_\alpha\}$$ is [[locally finite|Locally finite collection]],

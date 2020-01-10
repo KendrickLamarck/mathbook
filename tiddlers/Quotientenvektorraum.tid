@@ -1,8 +1,7 @@
 created: 20180903152040493
 creator: Leander
-modified: 20190114154450883
+modified: 20200101192906562
 modifier: Leander
-revision: 0
 tags: Vektorraum
 title: Quotientenvektorraum
 type: text/vnd.tiddlywiki
@@ -47,3 +46,7 @@ $$
 $$
 
 ein [[Isomorphismus]].
+
+!! Dualraum
+
+{{Dualraum von Quotientenvektorräumen}}

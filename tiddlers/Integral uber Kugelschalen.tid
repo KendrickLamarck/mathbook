@@ -1,6 +1,6 @@
 created: 20190205154455592
 creator: Leander
-modified: 20191228164747850
+modified: 20200101184619512
 modifier: Leander
 tags: [[Integrale über Untermannigfaltigkeiten des Rn]]
 title: Integral über Kugelschalen
@@ -14,8 +14,6 @@ $$\begin{aligned}
     \int_{\|x\|=r} f(x)\,\Bbb S(\d x)
   \biggr)\mathrm dr \\ &=
   \int_{]0,\infty[}\biggl(
-    \int_{S_{d-1}} f(rx)\,\Bbb S(\d x)
-  \biggr) r^{d-1}\,\d r,
+    \int_{S^{d-1}} f(rx)\,\Bbb S(\d x)
+  \biggr) r^{d-1}\,\d r.
 \end{aligned}$$
-
-wobei $$S_{d-1}$$ die [[Einheitssphäre]] im $$\R^d$$ ist.

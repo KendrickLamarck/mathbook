@@ -1,6 +1,7 @@
 created: 20191122220848512
-modified: 20191122221809912
+modified: 20200101194500638
 tags: [[Exterior algebra]] no-toc
 title: Multivectors as hyperplanes
+type: text/vnd.tiddlywiki
 
-$$v_1,\dots,v_k\in V$$ are linearly independent if and only if $$v_1\wedge\dots\wedge v_k\ne 0.$$ Furthermore, linearly independent vectors $$v_1,\dots,v_k$$ and $$w_1,\dots,w_k$$ represent the same oriented $$k$$-plane if and only if $$v_1\wedge\dots\wedge v_k$$ and $$w_1\wedge\dots\wedge w_k$$ are positive multiples of each other (the factor is the ratio of the parallelepipeds spanned by the vectors). This means that we can view the set of simple $$k$$-vectors in $$\Lambda_k V$$ as the cone over $$\G_k V.$$ If $$\Lambda_k V$$ comes with a [[norm|Norm]] (for example induced by a scalar product on $$V$$), we can view it as the set of unit simple vectors in $$\Lambda_k V.$$
+$$v_1,\dots,v_k\in V$$ are linearly independent if and only if $$v_1\wedge\dots\wedge v_k\ne 0.$$ Furthermore, linearly independent vectors $$v_1,\dots,v_k$$ and $$w_1,\dots,w_k$$ represent the same oriented $$k$$-plane if and only if $$v_1\wedge\dots\wedge v_k$$ and $$w_1\wedge\dots\wedge w_k$$ are positive multiples of each other (the factor is the ratio of the areas of the parallelepipeds spanned by the vectors). This means that we can view the set of simple $$k$$-vectors in $$\Lambda_k V$$ as the cone over $$\G_k V.$$ If $$\Lambda_k V$$ comes with a [[norm|Norm]] (for example induced by a scalar product on $$V$$), we can view it as the set of unit simple vectors in $$\Lambda_k V.$$

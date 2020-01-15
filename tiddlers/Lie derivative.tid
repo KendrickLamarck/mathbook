@@ -1,5 +1,5 @@
 created: 20191213213736739
-modified: 20191228152440369
+modified: 20200115195447998
 tags: Mannigfaltigkeit
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -19,7 +19,7 @@ $$
 
 * The Lie derivative and Lie bracket coincide, that is, we have $$\L_X Y=[X,Y].$$
 
-* Suppose $$f\colon M^m \to N^n$$ is a smooth map and $$Y\in\mathcal X(N)$$ is $$f$$-related to $$X\in\mathcal X(M)$$ while $$Y'$$ is $$f$$-related to $$X'.$$ Then $$[Y,Y']$$ is $$f$$-related to $$[X,X'].$$
+* Suppose $$f\colon M^m \to N^n$$ is a smooth map and $$Y\in\mathcal X(N)$$ is $$f$$-[[related|Verknüpfte Vektorfelder]] to $$X\in\mathcal X(M)$$ while $$Y'$$ is $$f$$-related to $$X'.$$ Then $$[Y,Y']$$ is $$f$$-related to $$[X,X'].$$
 
 !! Differential forms
 
@@ -31,7 +31,7 @@ $$
 \fracderiv{}{t}\Bigr|_{t=0} (\varphi_t^* \omega)_p \in \Lambda^k \T_p M.
 $$
 
-The Lie derivative $$\L_X$$ on forms satisfies the following properties:
+!!! Properties
 
 * <div>It is a derivation on $$\Omega^* M,$$ i.e. an $$\R$$-linear map satisfying
 $$
@@ -43,7 +43,7 @@ $$
 \L_X(\d\omega)=\d(\L_X\omega).
 $$</div>
 
-* <div>It satisfies the following product formula: for $$k$$-form $$\omega$$ applied to $$k$$ vector field $$Y_i\in\mathcal X(M),$$ we have
+* <div>It satisfies the following product formula: for a $$k$$-form $$\omega$$ applied to $$k$$ vector fields $$Y_i\in\mathcal X(M),$$ we have
 $$\begin{aligned}
 &\phantom{=} \L_X(\omega(Y_1,\dots,Y_k)) \\[-10mu]
 &=(\L_X \omega)(Y_1,\dots,Y_k)+

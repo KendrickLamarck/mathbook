@@ -1,5 +1,5 @@
 created: 20190408225904816
-modified: 20191228153344910
+modified: 20200110223924033
 tags: [[Integrale über Untermannigfaltigkeiten des Rn]]
 title: Green'sche Formel
 type: text/vnd.tiddlywiki
@@ -7,6 +7,6 @@ type: text/vnd.tiddlywiki
 Sei $$U\subseteq\Bbb R^d$$ offen, $$A\subset U$$ ein Kompaktum mit glattem Rand und $$\nu\colon\partial A\to\Bbb R^d$$ das [[äußere Einheits-Normalenfeld|Normalenvektor]]. Dann gilt für je zwei Funktionen $$f,g\in\mathcal C^2(U\to\Bbb R)$$:
 
 $$
-\int_A (f\Delta g-g\Delta f)\,\mathrm d^d x=
-\int_{\partial A} (f\partial_\nu g-g\partial_\nu f)\,\Bbb S(\mathrm dx).
+\int_A (f\Delta g-g\Delta f)\,\d^d x=
+\int_{\partial A} (f\partial_\nu g-g\partial_\nu f)\,\Bbb S(\d x).
 $$

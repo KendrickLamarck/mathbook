@@ -1,8 +1,7 @@
 created: 20180330210525162
-modified: 20180410191951793
-revision: 0
+modified: 20200120222251929
 tags: Zahldarstellung
 title: Binäre Komplementdarstellung
 type: text/vnd.tiddlywiki
 
-Eine negative $$\ell$$ bit lange Binärzahl $$z\in\{-2^{\ell-1},-2^{\ell-1}+1,\ldots,-1\}$$ wird dargestellt als $$z+2^\ell$$. Am ersten Bit kann man dann das Vorzeichen ablesen ($$0$$ wenn positiv, $$1$$ wenn negativ) und man kann die so dargestellten Zahlen wie gewohnt addieren und multiplizieren.
+Eine negative $$\ell$$ bit lange Binärzahl $$z\in\{-2^{\ell-1},-2^{\ell-1}+1,\ldots,-1\}$$ wird dargestellt als $$z+2^\ell$$. Am ersten Bit kann man dann das Vorzeichen ablesen (0 wenn positiv, 1 wenn negativ) und man kann die so dargestellten Zahlen wie gewohnt addieren und multiplizieren.

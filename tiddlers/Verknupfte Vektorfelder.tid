@@ -1,8 +1,8 @@
 created: 20191114011328888
-modified: 20191129165738396
-revision: 0
+modified: 20200120222123777
 tags: Vektorfeld no-toc
 title: Verknüpfte Vektorfelder
+type: text/vnd.tiddlywiki
 
 Sei $$f\colon M\to N$$ [[glatt|Differenzierbarkeit auf Mannigfaltigkeiten]] und seien $$X$$ und $$Y$$ zwei [[Vektorfelder|Vektorfeld]] auf $$M$$ bzw. $$N.$$ Wir sagen,  //$$Y$$ ist $$f$$-verknüpft mit ($$f$$-related to) $$X$$,// wenn
 
@@ -11,3 +11,8 @@ $$
 $$
 
 Wenn $$f$$ ein [[Diffeomorphismus]] ist, gibt es ein eindeutiges $$Y,$$ welches $$f$$-verknüpft mit $$X$$ ist und wir schreiben $$Y=f_*(X).$$
+
+Man beachte für $$g\in\mathcal C^\infty M$$ die Formeln
+
+* $$ f_* (gX) = (g\circ f^{-1}) f_* (X),$$
+* $$f_* (X)_{f(p)} (g\circ f^{-1}) = X_p g.$$

@@ -1,24 +1,24 @@
 created: 20191129163954910
-modified: 20200112230410210
+modified: 20200120221257431
 tags: [[Differential form]]
 title: Exterior derivative
 type: text/vnd.tiddlywiki
 
 For any manifold $$M^m,$$ the [[differential map|Pushforward]] $$\d\colon\Omega^0 M\to\Omega^1 M$$ has a unique linear extension to an [[antiderivation|Antiderivation]] $$\d\colon\Omega^* M\to\Omega^* M$$ satisfying $$\d^2=\d\circ\d=0.$$ This antiderivation has degree 1 in the sense that it sends $$\Omega^k M$$ to $$\Omega^{k+1} M.$$ It is called the //exterior derivative.//
 
-In coordinates, the exterior derivative is given by
+* <div>In coordinates, the exterior derivative is given by
 
 $$
 \d\Bigl( \sum_I\omega_I \, \d x_I \Bigr)=
   \sum_I \sum_i \partial_i\omega_I\,
   \d x_i\wedge\d x_{i_1} \wedge\dots\wedge \d x_{i_k}.
-$$
+$$</div>
 
-The [[pullback of forms|Pullback of differential forms]] under a map $$f\colon M^m\to N^n$$ commutes with the exterior derivative, i.e. for $$\omega\in\Omega^* N$$ we have
+* <div>The [[pullback of forms|Pullback of differential forms]] under a map $$f\colon M^m\to N^n$$ commutes with the exterior derivative, i.e. for $$\omega\in\Omega^* N$$ we have
 
 $$
 \d(f^*\omega)=f^*(\d\omega).
-$$
+$$</div>
 
 ''Theorem.''
 Suppose $$\omega\in\Omega^k(M^m)$$ is a $$k$$-form and $$X_0,\dots,X_k$$ are $$k+1$$ vector fields. Then

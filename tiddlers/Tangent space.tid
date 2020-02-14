@@ -1,9 +1,9 @@
 created: 20191114195905882
 list: [[Tangent bundle]] [[Cotangent space]]
-modified: 20191129164652718
-revision: 0
+modified: 20200121214639736
 tags: Mannigfaltigkeit
 title: Tangent space
+type: text/vnd.tiddlywiki
 
 {{KaTeX macros}}
 
@@ -42,14 +42,4 @@ We can express any $$X_p\in\T_p M$$ in terms of our basis $$\{\partial_i\}$$ as 
 
 $$
 X_p=\sum_{i=1}^m \left(X_p(\pi_i\circ\varphi\right))\partial_i.
-$$
-
-Consider a smooth map $$f\colon M^m\to N^n$$ between manifolds and choose local coordinates $$(U,\varphi)$$ around $$p\in M$$ and $$(V,\psi)$$ around $$q\coloneqq f(p)\in N.$$ Then $$f$$ is given as $$\psi\circ f\circ\varphi^{-1}$$ with component functions $$f_j(x_1,\dots,x_m)$$. In the above basis of $$\T_p M$$ and the basis
-$$\tilde\partial_i\coloneqq\psi^{-1}_*\left(\fracpartial{}{y_i}\right),$$
-$$\D_p f$$ is given by
-
-$$
-\D_p f(\partial_{i,p})=\sum_j
-\left(\fracpartial{f_j}{x_i}\right)_{\varphi(p)}
-\tilde\partial_{j,q}.
 $$

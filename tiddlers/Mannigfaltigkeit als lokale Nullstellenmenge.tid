@@ -1,10 +1,10 @@
 created: 20190324105445195
-modified: 20191228154423892
+modified: 20200125194428263
 tags: Untermannigfaltigkeit no-toc
 title: Mannigfaltigkeit als lokale Nullstellenmenge
 type: text/vnd.tiddlywiki
 
-Eine Teilmenge $$M^m$$ einer [[Mannigfaltigkeit|Smooth manifold]] $$N^n$$ ist genau dann eine [[Untermannigfaltigkeit]], wenn zu jedem Punkt $$p\in M$$ eine offene Umgebung $$U\subseteq N$$ und eine Submersion $$f\in\mathcal C^\alpha(U\to\Bbb R^{n-m})$$ existiert, so dass
+Eine Teilmenge $$M^m$$ einer [[Mannigfaltigkeit|Smooth manifold]] $$N^n$$ ist genau dann eine [[Untermannigfaltigkeit]], wenn zu jedem Punkt $$p\in M$$ eine offene Umgebung $$U\subseteq N$$ und eine [[Submersion|Immersion und Submersion]] $$f\in\mathcal C^\alpha(U\to\Bbb R^{n-m})$$ existiert, so dass
 
 $$
 M\cap U=\{x\in U:f(x)=0\}.

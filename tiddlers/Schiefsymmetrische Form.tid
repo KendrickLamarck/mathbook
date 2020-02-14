@@ -1,12 +1,12 @@
 created: 20180528193258586
 creator: Leander
-modified: 20191122202832428
+modified: 20200213150724150
 modifier: Leander
-revision: 0
 tags: Bilinearform
 title: Schiefsymmetrische Form
+type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]]. Eine Abbildung $$s\colon V\times V\to K$$ heißt //schiefsymmetrisch//, falls $$s(v,w)=-s(w,v)$$ für alle $$v,w\in V.$$
 
 * Ist $$\operatorname{char} K\ne 2$$, so ist jede schiefsymmetrische [[Bilinearform]] [[alternierend|Alternierende Form]].
-* Ist $$\operatorname{char} K=2$$, so ist "schiefsymmetrisch" äquivalent zu "[[symmetrisch|Symmetrische Form]]" und impliziert nicht "alternierend".
+* Ist $$\operatorname{char} K=2$$, so ist &bdquo;schiefsymmetrisch&ldquo; äquivalent zu &bdquo;[[symmetrisch|Symmetrische Form]]&ldquo; und impliziert nicht &bdquo;alternierend&ldquo;.

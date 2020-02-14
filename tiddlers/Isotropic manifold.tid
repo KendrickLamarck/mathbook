@@ -1,0 +1,10 @@
+created: 20200213230708555
+modified: 20200213232333498
+tags: [[Riemannian curvature]] no-toc
+title: Isotropic manifold
+type: text/vnd.tiddlywiki
+
+A Riemannian manifold $$M$$ is called //isotropic// at $$p\in M$$ if $$K(\varPi)$$ is a constant $$K(p)$$ independent of the two-plane $$\varPi\subset \T_p M.$$
+
+''Theorem.''
+Suppose $$M^m$$ is a connected Riemannian manifold of dimension $$m>2$$ which is isotropic at every point $$p\in M.$$ Then $$M$$ has constant curvature, i.e. $$K(\varPi)$$ is constant for all two-planes $$\varPi$$ in all tangent spaces $$\T_p M.$$

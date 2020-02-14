@@ -1,15 +1,16 @@
+caption: Tangentialraum
 created: 20180731221021576
 creator: Leander
-modified: 20191228153241308
+modified: 20200213222428387
 modifier: Leander
 tags: [[Untermannigfaltigkeiten des Rn]]
 title: Tangentialraum von Untermannigfaltigkeiten des Rn
 type: text/vnd.tiddlywiki
 
-Sei $$M$$ eine $$k$$-[[dimensionale|Dimension]] [[Mannigfaltigkeit]] im $$d$$-dimensionalen [[Banachraum]] $$V,$$ sei $$a\in M$$ und $$\phi\colon U\to\mathbb R^d$$ ein Koordinatensystem dazu wie in der Definition der Mannigfaltigkeit. Dann definieren wir den //Tangentialraum// $$\mathrm T_a M$$ an $$M$$ in $$a$$ durch
+Sei $$M$$ eine $$k$$-[[dimensionale|Dimension]] [[Mannigfaltigkeit]] im $$d$$-dimensionalen [[Banachraum]] $$V,$$ sei $$a\in M$$ und $$\phi\colon U\to\R^d$$ ein Koordinatensystem dazu wie in der Definition der Mannigfaltigkeit. Dann definieren wir den //Tangentialraum// $$\T_a M$$ an $$M$$ in $$a$$ durch
 
 $$
-\mathrm T_a M\coloneqq\mathrm D_{\phi(a)}\phi^{-1}(\mathbb R^k).
+\T_a M\coloneqq\mathrm D_{\phi(a)}\phi^{-1}(\mathbb R^k).
 $$
 
 Das ist ein $$k$$-dimensionaler [[Vektorraum]] und eine lineare Approximation für $$M$$ in der Nähe von $$a.$$
@@ -20,8 +21,8 @@ Das ist ein $$k$$-dimensionaler [[Vektorraum]] und eine lineare Approximation f�
 
 !! Charakterisierung des Raums
 
-Sei $$U\subseteq\Bbb R^d$$ eine offene Umgebung von $$a$$ und sei $$f=(f_1,\dots,f_{d-k})\in\mathcal C^1(U\to\Bbb R^{d-k})$$ mit $$M\cap U=\{x\in U: f(x)=0\},$$ so dass die $$(d-k)\times d$$-Matrix $$\mathrm D_a f$$ den maximalen Rang $$d-k$$ hat. Dann ist $$\mathrm T_a M$$ gleich dem Vektorraum
+Sei $$U\subseteq\R^d$$ eine offene Umgebung von $$a$$ und sei $$f=(f_1,\dots,f_{d-k})\in\mathcal C^1(U\to\R^{d-k})$$ mit $$M\cap U=\{x\in U: f(x)=0\},$$ so dass die $$(d-k)\times d$$-Matrix $$\D_a f$$ den maximalen Rang $$d-k$$ hat. Dann ist $$\T_a M$$ gleich dem Vektorraum
 
 $$
-\{v\in\Bbb R^d:\langle v,\nabla f_i\rangle=0\ \forall i=1,\dots,d-k\}.
+\{v\in\R^d:\langle v,\nabla f_i\rangle=0\ \forall i=1,\dots,d-k\}.
 $$

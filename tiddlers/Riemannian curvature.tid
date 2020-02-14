@@ -1,5 +1,5 @@
 created: 20200116215220084
-modified: 20200116223042342
+modified: 20200213232254766
 tags: Mannigfaltigkeit
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
@@ -16,21 +16,19 @@ $$
 R(X,Y,Z,W)\coloneqq \langle R(X,Y)Z,W\rangle.
 $$
 
-This can be defined in the same way for any connection $$\nabla$$ on a vector Bundle $$E.$$
+This can be defined in the same way for any connection $$\nabla$$ on a [[vector Bundle|Vector bundle]] $$E.$$
 
 !!! Properties
 
 * On a Riemannian manifold, the curvature operator $$R(X,Y)Z$$ is tensorial, i.e. its value at $$p$$ depends only on $$X_p,Y_p$$ and $$Z_p.$$ In particular, $$R(X_p,Y_p)$$ is a linear operator on $$\T_p M.$$
-* <div>The Riemannian curvature satisfies the following symmetries:
+* The Riemannian curvature satisfies the following symmetries:
 
-$$\begin{gathered}
-R(X,Y) = -R(Y,X), \\
-\langle R(X,Y)Z W\rangle= \langle R(X,Y)W Z\rangle, \\
-R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0, \\
-\langle R(X,Y)Z W\rangle= \langle R(Z,W)X Y\rangle.
-\end{gathered}$$
+*# $$R(X,Y) = -R(Y,X),$$
+*# $$\langle R(X,Y)Z W\rangle= \langle R(X,Y)W Z\rangle,$$
+*# $$R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0,$$
+*# $$\langle R(X,Y)Z W\rangle= \langle R(Z,W)X Y\rangle.$$
 
-Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\Lambda_2 \T_p M$$
+* <div>Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\Lambda_2 \T_p M$$
 
 $$
 S(X\wedge Y,Z\wedge W)\coloneqq -\langle R(X,Y)Z,W\rangle

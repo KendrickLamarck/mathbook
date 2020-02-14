@@ -1,8 +1,10 @@
 created: 20191112232507929
-modified: 20200112171526300
+modified: 20200121215004227
 tags: Mannigfaltigkeit
 title: Pushforward
 type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
 
 Let $$M,N$$ be [[smooth manifolds|Smooth manifold]] and $$f\colon M\to N$$ be a smooth map. Consider a point $$p\in M$$ and its image $$q=f(p).$$ Then for $$X_p\in\mathrm T_p M$$ (or a whole [[vector field|Vektorfeld]]), the //pushforward// is defined as
 
@@ -11,13 +13,35 @@ f_*\colon\T_p M\to \T_q M,\quad
 f_*(X_p)\coloneqq X_p\circ f^*,
 $$
 
-i.e. the [[dual map|Duale Abbildung]] of the [[pullback|Pullback]]. This is a generalization of the [[differential|Ableitung]], so we also write this map as $$\D_p f.$$ For $$g\in\mathcal C^\infty(q)$$ we have
+i.e. the [[dual map|Duale Abbildung]] of the [[pullback|Pullback]]. This is a generalization of the [[differential|Ableitung]], so we also write this map as $$\D_p f.$$
+
+!!! Properties
+
+* <div>For $$g\in\mathcal C^\infty(q)$$ we have
 
 $$
 \D_p f(X_p)(g)=X_p(g\circ f).
-$$
+$$</div>
 
-If $$f=h\circ g,$$ then $$f_*=h_*\circ g_*$$ (chain rule).
+* If $$f=h\circ g,$$ then $$f_*=h_*\circ g_*$$ (chain rule).
+
+* <div>For a curve $$\gamma$$ in $$M,$$ we define its //velocity vector// at $$p\coloneqq \gamma(t)\in M$$ as
+
+$$
+\gamma'(t)\coloneqq\D_t \gamma(\partial_t) \in \T_p M.
+$$</div>
+
+!! In coordinates
+
+Consider a smooth map $$f\colon M^m\to N^n$$ between manifolds and choose local coordinates $$(U,\varphi)$$ around $$p\in M$$ and $$(V,\psi)$$ around $$q\coloneqq f(p)\in N.$$ Then $$f$$ is given as $$\psi\circ f\circ\varphi^{-1}$$ with component functions $$f_j(x_1,\dots,x_m)$$. In the above basis of $$\T_p M$$ and the basis
+$$\tilde\partial_i\coloneqq\psi^{-1}_*\left(\fracpartial{}{y_i}\right),$$
+$$\D_p f$$ is given by
+
+$$
+\D_p f(\partial_{i,p})=\sum_j
+\left(\fracpartial{f_j}{x_i}\right)_{\varphi(p)}
+\tilde\partial_{j,q}.
+$$
 
 !! Pushforwards as covector fields
 

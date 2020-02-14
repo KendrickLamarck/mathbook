@@ -1,6 +1,5 @@
 created: 20180107004939808
-modified: 20191011163359327
-revision: 0
+modified: 20200202201742834
 tags: Exponentialfunktion no-toc
 title: Logarithmus
 type: text/vnd.tiddlywiki
@@ -13,6 +12,12 @@ $$
 
 {{Additionstheorem des Logarithmus}}
 
+Es gilt $$\log'(x) = 1/x.$$
+
 !! Basiswechselformel
 
 {{Logarithm change of base}}
+
+!! Reihendarstellung
+
+{{Logarithmusreihe}}

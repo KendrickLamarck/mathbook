@@ -1,7 +1,8 @@
 created: 20191201221207733
-modified: 20191206181523015
-tags: [[Differential form]]
+modified: 20200123184831782
+tags: [[Differential form]] no-toc
 title: Riemannian volume form
+type: text/vnd.tiddlywiki
 
 For each $$p$$ in an oriented [[Riemannian manifold|Riemannian metric]] $$M^m$$ there is a unique $$\varOmega_p\in\Lambda^m\T_p M$$ such that $$\varOmega_p(e_1,\dots,e_m)=+1$$ for any oriented orthonormal basis $$(e_1,\dots,e_m)$$ for $$\T_p M.$$ Together they give the //Riemannian volume form// $$\varOmega\in\Omega^m M,$$ which we can also write as $$\varOmega=\star 1.$$
 

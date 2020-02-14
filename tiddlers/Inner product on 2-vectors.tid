@@ -1,0 +1,14 @@
+created: 20200211164713736
+modified: 20200211175520012
+tags: [[Exterior algebra]]
+title: Inner product on 2-vectors
+type: text/vnd.tiddlywiki
+
+An inner product on $$\T_p M$$ induces an inner product on $$\Lambda _2 \T_p M$$ via 
+
+$$
+\lang X\wedge Y, Z\wedge Y \rang\coloneqq
+\lang X,Z \rang \lang Y,W \rang - \lang X,W \rang \lang Y,Z \rang.
+$$
+
+The induced norm $$\|X\wedge Y\|$$ gives the area of the parallelogram spanned by $$X$$ and $$Y.$$

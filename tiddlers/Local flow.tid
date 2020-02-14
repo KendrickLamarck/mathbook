@@ -1,6 +1,6 @@
 created: 20191206182740988
-modified: 20191228212908374
-tags: Flow
+modified: 20200123185203300
+tags: Flow no-toc
 title: Local flow
 type: text/vnd.tiddlywiki
 
@@ -10,7 +10,7 @@ $$
 \theta_t(\theta_s(q))=\theta_{t+s}(q)
 $$
 
-whenever both sides are defined. The //flow lines// are the curves $$\gamma_q(t)\coloneqq\theta_t(q)$$; the //infinitesimal generator// is the vector field $$X_q=\gamma_q'(0)$$ tangent to the flow lines.
+whenever both sides are defined.
 
-
-''Theorem.'' Any vector field $$X$$ on a manifold $$M$$ has a local flow around any point $$p\in M.$$
+* The //flow lines// are the curves $$\gamma_q(t)\coloneqq\theta_t(q)$$
+* The //infinitesimal generator// is the vector field $$X_q=\gamma_q'(0)$$ tangent to the flow lines. Any vector field $$X$$ on a manifold $$M$$ has a local flow around any point $$p\in M.$$

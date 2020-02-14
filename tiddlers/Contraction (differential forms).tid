@@ -1,7 +1,9 @@
+caption: Contraction
 created: 20191202000253887
-modified: 20191202001257852
+modified: 20200213222526345
 tags: [[Differential form]]
-title: Contraction of a form
+title: Contraction (differential forms)
+type: text/vnd.tiddlywiki
 
 The //contraction// $$\iota_X\omega\in\Omega^{k-1}$$ of a [[form|Differential form]] $$\omega\in\Omega^k M$$ with a [[vector field|Vektorfeld]] $$X\in\mathcal X M$$ (also knows as //interior multiplication//)  is given by
 

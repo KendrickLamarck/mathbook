@@ -1,5 +1,5 @@
 created: 20191220195817702
-modified: 20191228152741359
+modified: 20200203220139820
 tags: Mannigfaltigkeit
 title: Connection
 type: text/vnd.tiddlywiki
@@ -28,3 +28,14 @@ We call $$\nabla_X \sigma$$ the //covariant derivative// of $$\sigma.$$
 
 !! Levi-Civita connection
 {{Levi-Civita connection}}
+
+!! In Coordinates
+
+Let $$U$$ be a coordinate neighborhood for $$M^m$$ and a trivializing neighborhood for $$E$$ and let $$\partial_i,\ i=1,\dots,m$$ be a frame for $$\T M$$ and $$e_a,\ a=1,\dots,\rank E.$$ Then for $$X=\sum v^i \partial_i$$ and $$\sigma=\sum \sigma^a e_a$$ we have
+
+$$
+\nabla_X \sigma = \sum_{i,b} v^i \Bigl(
+\partial_i\sigma^b+\sum_a \varGamma_{ia}^{\,b} \sigma^a \Bigr) e_b
+$$
+
+and any collection of smooth functions $$\varGamma_{ia}^{\,b}$$ describes a connection in this neighborhood.

@@ -1,9 +1,8 @@
 created: 20180611214308645
 creator: Leander
 list: [[Satz von Taylor]] Schrankensatz [[Satz von Schwarz]] Hesse-Matrix [[Höhere Ableitungen und Richtungsableitungen]] [[Höhere Ableitungen auf dem Rn]] [[Assoziativität höherer Ableitungen]] [[Formel für die zweite Ableitung]]
-modified: 20191116164606201
+modified: 20200213230632816
 modifier: Leander
-revision: 0
 tags: Ableitung
 title: Höhere Ableitungen
 type: text/vnd.tiddlywiki
@@ -48,7 +47,7 @@ $$
 
 {{Höhere Ableitungen auf dem Rn}}
 
-!! Satz von Schwarz
+!! Symmetrie (Satz von Schwarz)
 
 {{Satz von Schwarz}}
 

@@ -1,10 +1,13 @@
 created: 20191201194552980
-modified: 20191201195928529
+modified: 20200220200437988
 tags: Polynominterpolation no-toc
 title: Fehler der Polynominterpolation
+type: text/vnd.tiddlywiki
 
 Die Funktion $$f\colon\R\to\R$$ sei $$n+1$$-mal differenzierbar, $$x\in\R$$ und $$I$$ sei das kleinste Intervall, das $$x$$ und alle Stützstellen $$x_0,\dots,x_n$$ enthält. Sei $$w(x)\coloneqq(x-x_0)\cdots(x-x_n).$$ Dann gilt für ein $$\xi\in I$$:
 
 $$
 f(x)-P(x)=w(x) f[x_0,\dots,x_n,x]=w(x)\frac{f^{(n+1)}(\xi)}{(n+1)!}.
 $$
+
+Die Funktion $$w$$ kann stark oszillieren, so dass das Polynom die Funktion nicht gut approximiert.

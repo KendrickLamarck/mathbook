@@ -1,5 +1,5 @@
 created: 20191201192205915
-modified: 20200220164601019
+modified: 20200220195851090
 tags: Polynominterpolation
 title: Newton-Interpolation
 type: text/vnd.tiddlywiki
@@ -33,3 +33,9 @@ so ist das eindeutige Polynom $$n$$-ten Grades, welches die Stützstellen $$(x_0
 $$
 P(x)=a_0 N_0(x) + \dots + a_n N_n(x).
 $$
+
+!!! Bemerkungen
+
+* Die auswertung erfolgt mit dem Horner-Schema in $$3n$$ flops.
+* $$f[x_0,\dots,x_n]$$ ist symmetrisch in den $$x_i.$$
+* Weitere Stützstellen können leicht hinzugefügt werden.

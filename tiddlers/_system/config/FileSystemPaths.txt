@@ -1,2 +1,4 @@
 [is[system]removeprefix[$:/]addprefix[_system/]]
 [tag[Journal]addprefix[journal/]]
+[suffix[.js]removesuffix[.js]]
+[suffix[.css]removesuffix[.css]]

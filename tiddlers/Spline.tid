@@ -1,0 +1,53 @@
+created: 20200220200834987
+modified: 20200220214716630
+tags: Numerik
+title: Spline
+type: text/vnd.tiddlywiki
+
+Sei $$[a,b]$$ ein Intervall mit einem Gitter $$\Delta\coloneqq\{a=x_0<\dots<x_n=b\}.$$ Unter einem zu $$\Delta$$ gehörigen //$$k$$-spline// versteht man eine Funktion $$S_\Delta,$$ die
+
+* auf jedem Teilintervall $$[x_i,x_{i+1}]$$ ein Polynom höchstens $$k$$-ten Grades ist;
+* und insgesamt mindestens $$(k-1)$$-mal stetig differenzierbar ist.
+
+Im folgenden betrachten wir kubische splines, d.h. den Fall $$k=3.$$ Es gibt immer einen kubischen Spline, der gegebene paarweise verschiedene Stützstellen $$(x_0,f_0),\dots,(x_n,f_n)$$ interpoliert. Für die Eindeutigkeit brauchen wir aber noch eine der folgenden Bedingungen am Rand:
+
+# $$f'(a)=S_\Delta'(a),\ f'(b)=S_\Delta'(b)$$ @@float:right; (vollständige Spline-Interpolation),@@
+
+# $$S_\Delta''(a) = S_\Delta''(b) = 0$$ @@float:right; (natürliche Spline-Interpolation),@@
+
+# $$S_\Delta'(a)=S_\Delta'(b),\ S_\Delta''(a)=S_\Delta''(b)$$ @@float:right; (periodische Spline-Interpolation).@@
+
+Die Berechnung erfolgt mit der Newton-Interpolation auf jedem Teilintervall, wobei noch ein Gleichungssystem für die $$s_i=S_\Delta'(x_i)=f[x_i,x_i]$$ gelöst werden muss: Mit den Definitionen
+
+$$
+\lambda_i\coloneqq \frac{h_{i+1}}{h_i+h_{i+1}},\quad
+\mu_i\coloneqq\frac{h_i}{h_i+h_{i+1}}=1-\lambda_i,\quad
+b_i\coloneqq 3(\lambda_i m_i+\mu_i m_{i+1})
+$$
+
+Für $$i=1,\dots,n-1$$ erhalten wir die Gleichungen
+
+$$
+\lambda_i s_{i-1} + 2s_i + \mu_i s_{i+1} = b_i.
+$$
+
+Die verbleibenden beiden Gleichungen erhalten wir durch die vorgegebene Randbedingung:
+
+# $$s_0=f_0',\quad s_n=f_n',$$
+# $$2s_0 + s_1 = 3m_1,\quad s_{n-1} + 2s_n = 3m_n,$$
+# $$2s_1 + \mu_1 s_2 + \lambda_1 s_n = b_1,\quad \mu_n s_1 + \lambda_n s_{n-1} + 2s_n = b_n.$$
+
+''Satz (Konvergenz).''
+Sei $$f\colon [a,b]\to\R$$ viermal stetig differenzierbar und $$h=\max_{i=0}^n h_i.$$ Falls $$f''(a)=f''(b)=0$$ im Falle der Randbedingung 2 gilt, bzw. $$f(a)=f(b),\ f'(a)=f'(b)$$ im Falle von Randbedingung 3, dann gilt für die Spline-interpolierende $$S_\Delta$$ zu $$f$$ die folgende Abschätzung für $$i=0,1,2$$ und ein $$\xi\in[a,b]$$:
+
+$$
+\sqrt{\int_a^b \left( f^{(i)}(x)-S_\Delta^{(i)}(x) \right)^2 \d x}\le
+\frac{\sqrt{b-a}\,|f^{(4)}(\xi)|}{2\sqrt{30}}h^{4-i}.
+$$
+
+''Satz (minimale Krümmung).''
+Sei $$g\colon [a,b]\to\R$$ eine Funktion, die zweimal stetig differenzierbar ist und eine der drei Interpolationsbedingungen erfüllt. Dann gilt für $$g$$ und den interpolierenden kubischen Spline $$S$$
+
+$$
+\int_a^b g''(x)^2 \,\d x \ge \int_a^b S''(x)^2 \,\d x.
+$$

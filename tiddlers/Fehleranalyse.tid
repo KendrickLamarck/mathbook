@@ -1,0 +1,12 @@
+created: 20200217233636446
+modified: 20200218001620964
+tags: Numerik
+title: Fehleranalyse
+type: text/vnd.tiddlywiki
+
+Ein Problem besteht im Allgemeinen darin, eine Funktion $$F\colon D\to W$$ auszuwerten. Die Empfindlichkeit der Lösung gegenüber kleinen Änderungen in den Daten $$x\in D$$ heißt //Kondition// des Problems.
+
+Betrachte nun eine durch Fehler in der Berechnung gestört Funktion $$\tilde F.$$
+
+* Die //Vorwärtsanalyse// sucht den akkumulierten Fehler $$\delta$$ definiert durch $$\tilde F(x) = F(x)+\delta.$$
+* Die Rückwärtsanalyse interpretiert diesen Fehler als //äquivalenten Datenfehler//, d.h. $$\tilde F(x)=F(\tilde x).$$

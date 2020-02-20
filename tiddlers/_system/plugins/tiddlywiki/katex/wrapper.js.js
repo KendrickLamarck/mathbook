@@ -116,5 +116,8 @@ var customMacros = {
     "\\vol": "\\operatorname{vol}",
     "\\operp": "\\mathbin{\\perp\\kern-21mu{\\bigcirc}}",
     "\\sd": "\\mathbin\\triangle",
-    "\\span": "\\operatorname{span}"
+    "\\eps": "\\operatorname{eps}",
+    "\\gl": "\\operatorname{gl}",
+    "\\rd": "\\operatorname{rd}",
+    "\\grad": "\\operatorname{grad}"
 };

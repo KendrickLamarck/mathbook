@@ -1,13 +1,13 @@
 created: 20180411153353981
 creator: Leander
-modified: 20180725162403509
+modified: 20200217221001724
 modifier: Leander
-revision: 0
-tags: Zahldarstellung
+tags: Maschinenzahl
 title: Maschinenzahlarithmetik
+type: text/vnd.tiddlywiki
 
-Die Maschinenzahlarithmetik $$x\circledcirc y\coloneqq\operatorname{rd}(x\circ y)$$ für $$\circ\in\{+,-,\cdot,/\}$$ ist kommutativ, aber weder assoziativ noch distributiv. Es gilt
+Die Maschinenzahlarithmetik $$x\circledcirc y\coloneqq\rd(x\circ y)$$ für $$\circ\in\{+,-,\cdot,/\}$$ ist kommutativ, aber weder assoziativ noch distributiv. Es gilt
 
 $$
-\left|\frac{x\circ y-x\circledcirc y}{x\circ y}\right|\le\operatorname{eps}(F).
+\left|\frac{x\circ y-x\circledcirc y}{x\circ y}\right|\le\eps(F).
 $$

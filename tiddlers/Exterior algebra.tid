@@ -1,8 +1,9 @@
 created: 20191121234247621
 list: [[Dual exterior algebra]] [[Wedge product and determinant]] Grassmannian [[Multivectors as hyperplanes]] [[Hodge star]] [[Basis for exterior algebras]] [[Universal property of Exterior powers]]
-modified: 20191128225004088
-tags: Mannigfaltigkeit
+modified: 20200215172827005
+tags: Differentialgeometrie
 title: Exterior algebra
+type: text/vnd.tiddlywiki
 
 Let $$V$$ be a real [[vector space|Vektorraum]] and let $$S\subset V^{\otimes 2}$$ be the span of the elements $$v\otimes v$$ for $$v\in V.$$ We can then define the  //exterior power// $$V\wedge V=\Lambda_2 V$$ of $$V$$ to be the [[quotient space|Quotientenvektorraum]] $$V^{\otimes 2}/S$$ and we write $$v\wedge w$$ for the image of $$v\otimes w$$ under the quotient map. It follows that $$v\wedge w=-w\wedge v.$$
 

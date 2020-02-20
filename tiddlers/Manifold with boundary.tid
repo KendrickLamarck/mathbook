@@ -1,8 +1,8 @@
 created: 20191116154036263
-modified: 20191129232713273
-revision: 0
-tags: Mannigfaltigkeit
+modified: 20200215172826898
+tags: Differentialgeometrie
 title: Manifold with boundary
+type: text/vnd.tiddlywiki
 
 An //$$m$$-manifold with boundary// $$M^m$$ is a [[second-countable|Second-countable]] [[Hausdorff|Hausdorff'scher Raum]] space locally homeomorphic to the closed half-space
 

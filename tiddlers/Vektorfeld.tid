@@ -1,8 +1,8 @@
 created: 20191112213934852
-modified: 20191213213306861
-revision: 0
-tags: Mannigfaltigkeit
+modified: 20200215172826578
+tags: Differentialgeometrie
 title: Vektorfeld
+type: text/vnd.tiddlywiki
 
 Ein //(glattes) Vektorfeld// $$X\colon M\to\T M$$ auf einer [[differenzierbaren Mannigfaltigkeit|Smooth manifold]] $$M$$ ist ein (glatter) [[Schnitt|Section]] im [[Tangentialbündel|Tangent bundle]] $$\T M,$$ d.h. eine Abbildung die jedem $$p\in M$$ einen Vektor $$X_p\in\T_p M$$ zuordnet.
 

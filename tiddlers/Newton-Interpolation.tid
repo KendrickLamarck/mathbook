@@ -1,9 +1,10 @@
 created: 20191201192205915
-modified: 20191201195916127
+modified: 20200220164601019
 tags: Polynominterpolation
 title: Newton-Interpolation
+type: text/vnd.tiddlywiki
 
-Seien Stützstellen $$(x_0,f_0),\dots,(x_n,f_n)\in\R^2$$ gegeben. Der Ausdruck $$f[x_k,\dots,x_k],$$ definiert durch die Rekursion
+Seien Stützstellen $$(x_0,f_0),\dots,(x_n,f_n)\in\R^2$$ gegeben. Der Ausdruck $$f[x_k,\dots,x_l],$$ definiert durch die Rekursion
 
 $$\begin{aligned}
 f[x_k] &\coloneqq f_k,

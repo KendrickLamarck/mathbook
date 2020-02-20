@@ -1,7 +1,7 @@
 created: 20191116221531882
-modified: 20191129170601707
-revision: 0
-tags: Mannigfaltigkeit no-toc
+modified: 20200215172827035
+tags: Differentialgeometrie no-toc
 title: Embedded submanifolds
+type: text/vnd.tiddlywiki
 
 If $$f\colon M\to N$$ is an [[embedding|Embedding]], then $$f(M)\subseteq N$$ is a [[submanifold|Untermannigfaltigkeit]] and $$f\colon M\to f(M)$$ is a [[diffeomorphism|Diffeomorphismus]]. If $$M\subseteq N$$ is any submanifold, then the inclusion $$i\colon M\hookrightarrow N$$ is an embedding.

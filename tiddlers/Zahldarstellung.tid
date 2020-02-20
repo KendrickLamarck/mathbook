@@ -1,11 +1,10 @@
 created: 20180330193747735
 creator: Leander
 list: [[b-adische Darstellung]] [[Komplement (Zahldarstellung)]] Komplementdarstellung [[Binäre Komplementdarstellung]] Maschinenzahl Rundung Maschinenzahlarithmetik Maschinengenauigkeit [[Signifikante Stellen]] [[Absoluter und relativer Fehler]] [[Fortpflanzung des relativen Fehlers]]
-modified: 20180803202314726
+modified: 20200217195455357
 modifier: Leander
-revision: 0
 tags: Mathematics
 title: Zahldarstellung
 type: text/vnd.tiddlywiki
 
-<<list-links [tag{!!title}]>>
+{{||Table of contents template}}

@@ -1,8 +1,8 @@
 created: 20191116225728237
-modified: 20191123203317677
-revision: 0
-tags: Mannigfaltigkeit
+modified: 20200215172826600
+tags: Differentialgeometrie
 title: Vector bundle
+type: text/vnd.tiddlywiki
 
 A (smooth) //vector bundle// of rank $$k$$ is a map $$\pi\colon E^{m+k}\to M^m$$ of manifolds such that
 

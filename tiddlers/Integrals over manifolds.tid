@@ -1,6 +1,6 @@
 created: 20191213211747477
-modified: 20191228154135165
-tags: Mannigfaltigkeit
+modified: 20200219230302704
+tags: Differentialgeometrie
 title: Integrals over manifolds
 type: text/vnd.tiddlywiki
 
@@ -28,6 +28,6 @@ $$
 
 If $$-M$$ denotes the same manifold with the opposite orientation, then we have $$\int_{-M}\omega = -\int_M\omega.$$
 
-!! Volume integral
+!! Volume integrals
 
 {{Volume integral}}

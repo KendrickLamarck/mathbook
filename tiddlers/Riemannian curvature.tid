@@ -1,6 +1,6 @@
 created: 20200116215220084
-modified: 20200213232254766
-tags: Mannigfaltigkeit
+modified: 20200215172826810
+tags: Differentialgeometrie
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
 
@@ -24,11 +24,11 @@ This can be defined in the same way for any connection $$\nabla$$ on a [[vector 
 * The Riemannian curvature satisfies the following symmetries:
 
 *# $$R(X,Y) = -R(Y,X),$$
-*# $$\langle R(X,Y)Z W\rangle= \langle R(X,Y)W Z\rangle,$$
+*# $$\langle R(X,Y)Z, W\rangle= \langle R(X,Y)W, Z\rangle,$$
 *# $$R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0,$$
-*# $$\langle R(X,Y)Z W\rangle= \langle R(Z,W)X Y\rangle.$$
+*# $$\langle R(X,Y)Z, W\rangle= \langle R(Z,W)X, Y\rangle.$$
 
-* <div>Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\Lambda_2 \T_p M$$
+* <div>Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\char"22c0_2 \T_p M$$
 
 $$
 S(X\wedge Y,Z\wedge W)\coloneqq -\langle R(X,Y)Z,W\rangle

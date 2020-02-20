@@ -1,9 +1,8 @@
 created: 20180509195852709
 creator: Leander
 list: [[Satz von Peano]] [[Satz von Picard-Lindelöf]] [[Lineare Differentialgleichung]]
-modified: 20190401210521941
+modified: 20200215174035455
 modifier: Leander
-revision: 0
 tags: Analysis
 title: Gewöhnliche Differentialgleichung
 type: text/vnd.tiddlywiki
@@ -27,7 +26,7 @@ eine //autonome Differentialgleichung// oder ein //autonomes System.//
 </div>
 
 # <div>
-Eine auf einem Intervall $$J\subseteq\Bbb R$$ mit nichtleerem Inneren $$\circ J\ne\varnothing$$ definierte differenzierbare Funktion $$x\colon J\to V$$ heißt eine //Lösung// von $$\dag$$, wenn für alle $$t\in J$$
+Eine auf einem Intervall $$J\subseteq\Bbb R$$ mit nichtleerem Inneren $$\mathring J\ne\varnothing$$ definierte differenzierbare Funktion $$x\colon J\to V$$ heißt eine //Lösung// von $$\dag$$, wenn für alle $$t\in J$$
 $$
 (t,x(t))\in G\text{ und }\dot x(t)=f(t,x(t)).
 $$

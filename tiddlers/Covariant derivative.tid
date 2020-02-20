@@ -1,5 +1,5 @@
 created: 20200213232741256
-modified: 20200213233455730
+modified: 20200215165707194
 tags: Connection
 title: Covariant derivative
 type: text/vnd.tiddlywiki
@@ -7,5 +7,5 @@ type: text/vnd.tiddlywiki
 Suppose $$\nabla$$ is a [[connection|Connection]] on some [[vector bundle|Vector bundle]] $$E\to M.$$ If $$\gamma\colon I\to M$$ is a curve from $$p$$ to $$q$$ and $$\sigma$$ is a section of $$E$$, then we write (conflating $$\sigma$$ and $$\sigma\circ\gamma$$) the //covariant derivative// of $$\sigma$$ along $$\gamma$$ as
 
 $$
-\frac{\D}{\d t}\sigma=\nabla_{\dot\gamma}\sigma.
+\frac{\D}{\d t}\sigma\coloneqq\nabla_{\dot\gamma}\sigma.
 $$

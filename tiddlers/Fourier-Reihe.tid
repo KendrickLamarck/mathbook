@@ -1,5 +1,5 @@
 created: 20200109190205164
-modified: 20200110211355016
+modified: 20200221211444270
 tags: Analysis
 title: Fourier-Reihe
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ $$
 wobei die Koeffizienten $$c_k$$ gegeben sind durch
 
 $$
-c_k = \frac 1 {2\pi} \int_{-\pi}^\pi f(t) e^{-\i kt}\,\d t.
+c_k =\langle f, e^{\i kt}\rangle= \frac 1 {2\pi} \int_{-\pi}^\pi f(t) e^{-\i kt}\,\d t.
 $$
 
 * Ob und wo die Reihe konvergiert, muss untersucht werden.

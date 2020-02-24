@@ -1,0 +1,11 @@
+created: 20200222175447066
+modified: 20200222175626932
+tags: Numerik
+title: Frobenius-Norm
+type: text/vnd.tiddlywiki
+
+Die //Frobenius-Norm// einer Matrix $$A=(a_{ij})\in\Bbb K^{m\times n}$$ ist definiert durch
+
+$$
+\|A\|_F\coloneqq\Bigl( \sum_{i,j} |a_{ij}|^2 \Bigr)^\frac 1 2.
+$$

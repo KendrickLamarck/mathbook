@@ -1,0 +1,11 @@
+created: 20200222182221185
+modified: 20200222182437075
+tags: Numerik
+title: Rundungsfehler bei Matrizen
+type: text/vnd.tiddlywiki
+
+Für $$A\in\Bbb K^{m\times n}$$ gilt bei Komponentenweiser [[Rundung]]
+
+$$
+|\gl(A)-A|\le\eps|A|\quad\text{bzw. } \|\gl(A)-A\|_1\le\eps\|A\|_1.
+$$

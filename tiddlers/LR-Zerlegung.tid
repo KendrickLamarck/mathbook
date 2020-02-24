@@ -1,0 +1,61 @@
+created: 20200222185408210
+modified: 20200222215023877
+tags: Numerik
+title: LR-Zerlegung
+type: text/vnd.tiddlywiki
+
+Wir wollen das Gleichungssystem $$Ax=b$$ lösen, indem wir $$A=LR$$ in eine untere linke Dreicksmatrix $$L$$ mit Einsen auf der Diagonale und eine obere rechte Dreicksmatrix $$R$$ zerlegen und dann erst $$Ly=b$$ und dann $$Rx=y$$ durch vorwärts- bzw. Rückwärtseinsetzen lösen. Dazu führen wir das Gauss-Verfahren durch und speichern die Koeffizienten in der Matrix $$L.$$
+
+!! Existenz und Eindeutigkeit
+
+Eine Matrix $$A\in\Bbb K^{n\times n}$$ hat eine $$LR$$-Zerlegung, wenn alle Hauptunterdeterminanten ungleich Null sind. Falls die $$LR$$-Zerlegung existiert und $$A$$ invertierbar ist, so ist die Zerlegung eindeutig.
+
+!! Pivotisierung
+
+Um kleine Pivotelemente (Diagonalelemente, durch die geteilt wird) zu vermeiden, suchen wir beim Algorithmus in der aktuellen Spalte das betragsmäßig größte Element und bringen es durch eine Zeilenvertauschung in die Diagonalposition. Wir erhalten dann eine Zerlegung $$PA=LR$$ für eine Permutationsmatrix $$P.$$ Zum anschließenden Lösen muss noch der Vektor $$b$$ entsprechend permutiert werden.
+
+Vollständige Pivotisierung sucht das Pivotelement im gesamten Rest der Matrix, was zwar den Fehler verbessert, aber sehr aufwendig ist.
+
+!! Fehler
+
+Sei $$A$$ eine Matrix von Maschinenzahlen. Falls kein Null-Pivot auftritt, dann erfüllen die berechneten Faktoren $$\tilde L$$ und $$\tilde R$$ die Gleichung $$\tilde L\tilde R=A+H$$ mit einem äquivalenten Datenfehler
+
+$$
+|H|\le 3(n-1)\cdot\eps\cdot(|A|+|\tilde L||\tilde R|)+\mathcal O(\eps^2).
+$$
+
+Durch das Vorwärts-/Rückwärtseinsetzen zur Lösung von $$\tilde Ly=b$$ und $$\tilde Rx=\tilde y$$ erhalten wir, dass $$\tilde x$$ die Gleichung $$(A+E)\tilde x=b$$ löst, mit einem äquivalenten Datenfehler
+
+$$
+|E|\le n\cdot\eps\cdot(3|A|+5|\tilde L||\tilde R|)+\mathcal O(\eps^2).
+$$
+
+Der Term $$|\tilde L||\tilde R|$$ kann hierbei sehr groß werden, das Verfahren ist also im Allgemeinen nicht rückwärts stabil.
+
+!!! Mit Pivotisierung
+
+Seien $$\tilde P,\tilde L,\tilde R$$ die berechneten $$P,L,R$$ beim Verfahren mit Pivotisierung. Durch die Pivotisierung gilt $$\|\tilde L\|_\infty\le n$$ und
+
+$$
+\|E\|_\infty \le n\cdot\eps\cdot (3\|A\|_\infty+5n \|\tilde R\|_\infty)+
+\mathcal O(\eps^2).
+$$
+
+Es kann immer noch passieren, dass die Einträge von $$R$$ sehr groß werden, was durch vollständige Pivotisierung vermieden werden kann.
+
+!!! Genauigkeit der Lösung
+
+Wir betrachten nun das Residuum $$r\coloneqq b-A\tilde x$$ und erhalten
+
+$$
+\frac{\|x-\tilde x\|}{\|x\|}\le\kappa(A)\frac{\|r\|}{\|b\|}.
+$$
+
+Als Faustregel gilt: Eine Konditionszahl $$\kappa(A)=10^q$$ kostet $$q$$ Stellen Genauigkeit bei der Lösung von $$Ax=b.$$
+
+!! Bemerkungen 
+
+* Der Algorithmus benötigt $$\frac{2n^3}{3}$$ flops.
+* Die Pivotisierung braucht zusätzlich $$\mathcal O(n^2)$$ Vergleiche.
+* Eine Matrix reicht aus, um $$L$$ und $$R$$ zu speichern, da wir die Einträge von $$L$$ in den frei werdenden Null-Einträgen von $$R$$ speichern können.
+* Anstatt bei der Pivotisierung tatsächlich Spalten zu vertauschen, verändern wir nur den Index, indem wir die Zahlen $$1,\dots,n$$ in einen Vektor schreiben und diesen permutieren.

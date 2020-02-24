@@ -1,12 +1,18 @@
 created: 20180430171946458
 creator: Leander
-modified: 20191011165429997
+modified: 20200223201954515
 modifier: Leander
-revision: 0
 tags: Kontraktion no-toc
 title: Banach'scher Fixpunktsatz
 type: text/vnd.tiddlywiki
 
-Seien $$(X,d)$$ ein nicht-leerer, [[vollständiger|Vollständigkeit]] [[metrischer Raum|Metrischer Raum]] und $$f\colon X\to X$$ eine Abbildung, so dass $$f^m=f\circ\dots\circ f$$ für ein $$M\in\mathbb N$$ eine [[Kontraktion]] ist. Dann hat $$f$$ genau einen Fixpunkt, also ein $$x^*\in X$$ mit $$f(x^*)=x^*$$.
+Seien $$(X,d)$$ ein nicht-leerer, [[vollständiger|Vollständigkeit]] [[metrischer Raum|Metrischer Raum]] und $$f\colon X\to X$$ eine [[Kontraktion]] mit Modul $$\alpha.$$ Dann hat $$f$$ genau einen Fixpunkt, also ein $$x^*\in X$$ mit $$f(x^*)=x^*$$. Ist $$x_0\in X$$ und definiert man rekursiv $$x_{k+1}=f(x_k)$$ für alle $$k\in\mathbb N$$, so ist die Iterationsfolge $$(x_k)_{k\in\mathbb N}$$ [[konvergent|Konvergenz]] gegen $$x^*$$.
 
-Ist $$x_0\in X$$ und definiert man rekursiv $$x_{k+1}=f(x_k)$$ für alle $$k\in\mathbb N$$, so ist die Iterationsfolge $$(x_k)_{k\in\mathbb N}$$ [[konvergent|Konvergenz]] gegen $$x^*$$.
+* Der Satz gilt auch, wenn nur $$f^m=f\circ\dots\circ f$$ eine Kontraktion ist für ein $$m\in\N.$$
+
+* <div>Es gelten die a priori- und a posteriori Fehlerabschätzungen
+
+$$
+\|x^*-x_n\|\le\frac{\alpha^n}{1-\alpha}\|x_1-x_0\|,\quad
+\|x^*-x_n\|\le\frac{\alpha}{1-\alpha}\|x_n-x_{n-1}\|.
+$$</div>

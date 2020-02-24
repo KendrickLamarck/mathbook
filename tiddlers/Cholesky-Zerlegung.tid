@@ -1,0 +1,13 @@
+created: 20200222215937427
+modified: 20200222222203612
+tags: Numerik
+title: Cholesky-Zerlegung
+type: text/vnd.tiddlywiki
+
+Sei $$A\in\R^{n\times n}$$ symmetrisch und positiv definit. Dann existiert genau eine untere Dreiecksmatrix $$G\in\R^{n\times n}$$ mit positiven Diagonalelementen, so dass
+
+$$
+A=GG^\T.
+$$
+
+Die Berechnung kostet wegen der Symmetrie nur ca. die Hälfte der [[LR-Zerlegung]], also $$n^3/3$$ flops.

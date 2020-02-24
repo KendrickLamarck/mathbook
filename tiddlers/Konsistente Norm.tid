@@ -1,0 +1,7 @@
+created: 20200222175725461
+modified: 20200222175929132
+tags: Numerik
+title: Konsistente Norm
+type: text/vnd.tiddlywiki
+
+Eine Matrixnorm heißt //konsistent,// wenn $$\|Ax\|\le \|A\|\cdot\|x\|$$ gilt. Daraus folgt auch die Ungleichung $$\|AB\|\le\|A\|\cdot\|B\|.$$

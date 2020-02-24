@@ -1,0 +1,13 @@
+created: 20200222215207062
+modified: 20200222215830530
+tags: Numerik
+title: Nachiteration bei Gleichungssystemen
+type: text/vnd.tiddlywiki
+
+Angenommen, wir haben durch einer [[LR-Zerlegung]] das Gleichungssystem $$PAx=Pb$$ numerisch gelöst, dann können wir mit dem folgenden Verfahren die Genauigkeit der Lösung verbessern:
+
+# Berechne $$r=b-Ax$$ mit erhöhter Genauigkeit.
+# Löse $$PAd=Pr$$ mit Hilfe der gegebenen $$LR$$-Zerlegung
+# Setze $$x=x+d.$$
+
+Faustregel: Ist $$\eps=10^{-l}$$ und $$\kappa(A)=10^q,$$ so gewinnt man pro Nachiterationsschritt $$l-q$$ Stellen Genauigkeit.

@@ -1,14 +1,15 @@
 caption: Diagonalisierbarkeit
 created: 20180626182149565
 creator: Leander
-modified: 20191028133741937
+modified: 20200223185638749
 modifier: Leander
-revision: 0
 tags: [[Selbstadjungierter Endomorphismus]] no-toc
 title: Diagonalisierbarkeit selbstadjungierter Endomorphismen
 type: text/vnd.tiddlywiki
 
 Ist $$F$$ ein [[selbstadjungierter|Selbstadjungierter Endomorphismus]] [[Endomorphismus]] eines [[euklidischen|Euklidischer Vektorraum]] bzw. [[unitären|Unitärer Vektorraum]] [[Vektorraums|Vektorraum]], so gibt es eine [[Orthonormalbasis]] von $$V,$$ die aus [[Eigenvektoren|Eigenwert]] von $$F$$ besteht.
+
+Anschaulich gesprochen: Ein selbstadjungierter Endomorphismus ist bis auf eine orthogonale Transformation nur eine Achsenskalierung.
 
 ''Korollar 1.''
 Ist $$A\in \mathbb K^{n\times n}$$ eine [[symmetrische|Symmetrische Matrix]] bzw. [[Hermite'sche|Hermite'sche Matrix]] [[Matrix]], so gibt es eine [[orthogonale|Orthogonale/unitäre Matrix]] bzw. unitäre Matrix $$S,$$ so dass

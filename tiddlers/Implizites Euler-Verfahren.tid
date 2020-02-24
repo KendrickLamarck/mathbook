@@ -1,0 +1,19 @@
+created: 20200222175009827
+modified: 20200224014824799
+tags: Numerik
+title: Implizites Euler-Verfahren
+type: text/vnd.tiddlywiki
+
+Das //Implizite Eulerverfahren// geht im Gegensatz zum [[expliziten Eulerverfahren|Explizites Eulerverfahren]] von der Rückwärtsdifferenz
+
+$$
+\frac{u_{i+1}-u_i}{h}=f(t_{i+1},u_{i+1})
+$$
+
+aus. Dies ist eine Fixpunktgleichung
+
+$$
+u_{i+1}=u_i+h f(t_{i+1},u_{i+1})\eqqcolon\varPhi(u_{i+1}).
+$$
+
+welche mit dem [[Fixpunkt-Verfahren|Banach'scher Fixpunktsatz]] oder dem [[Newton-Verfahren]] gelöst werden kann.

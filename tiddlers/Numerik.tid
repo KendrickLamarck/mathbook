@@ -1,6 +1,6 @@
 created: 20191201182627477
-list: [[Explizites Einschrittverfahren]] Fehleranalyse Polynominterpolation Spline [[Eindimensionale Randwertprobleme]] [[Zweidimensionale Randwertprobleme]] Newton-Cotes-Formeln
-modified: 20200221005746728
+list: [[Explizites Einschrittverfahren]] Fehleranalyse Polynominterpolation Spline [[Eindimensionale Randwertprobleme]] [[Zweidimensionale Randwertprobleme]] Newton-Cotes-Formeln [[Diskrete Fourier-Transformation]] [[Implizites Euler-Verfahren]] Frobenius-Norm [[Konsistente Norm]] [[Komponentenweiser Betrag bei Matrizen]] [[Rundungsfehler bei Matrizen]] [[Kondition von linearen Gleichungssystemen]] LR-Zerlegung Cholesky-Zerlegung [[Nachiteration bei Gleichungssystemen]]
+modified: 20200222215945997
 tags: Mathematics
 title: Numerik
 type: text/vnd.tiddlywiki

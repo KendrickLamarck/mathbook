@@ -1,5 +1,5 @@
 created: 20200222004916702
-modified: 20200222013755950
+modified: 20200222150650693
 tags: [[Diskrete Fourier-Transformation]]
 title: Schnelle Fourier-Transformation
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ in der [[Diskreten Fourier-Transformation|Diskrete Fourier-Transformation]] für
 
 Wir teilen nun die Koeffizienten in gerade und ungerade indizes auf und führen zwei FFTs der Ordnung $$M=n/2=2^{p-1}$$ durch.
 
-Für gerade indizes $$l=2q$$ berechnen wir die Hilfsgrößen $$z_l\coloneqq f_l+f_{M+l}$$ für $$l=0,\dots,M-1.$$ Dann gilt
+Für gerade indizes $$k=2q$$ berechnen wir die Hilfsgrößen $$z_l\coloneqq f_l+f_{M+l}$$ für $$l=0,\dots,M-1.$$ Dann gilt
 
 $$
 n\cdot\tilde c_{2q}=
@@ -24,7 +24,7 @@ n\cdot\tilde c_{2q}=
 \operatorname{FFT}_M(z_0,\dots,z_{M-1}).
 $$
 
-Für ungerade indizes $$l=2q+1$$ setzen wir $$z_{M+l}=(f_l-f_{M+l})\omega_n^l$$ für $$l=0,\dots,M-1$$ und erhalten
+Für ungerade indizes $$k=2q+1$$ setzen wir $$z_{M+l}=(f_l-f_{M+l})\omega_n^l$$ für $$l=0,\dots,M-1$$ und erhalten
 
 $$
 n\cdot\tilde c_{2q+1} =
@@ -33,4 +33,4 @@ n\cdot\tilde c_{2q+1} =
 \operatorname{FFT}_M(z_M,\dots,z_{n-1}).
 $$
 
-Dies wiederholen wir und können so die Fourier-Koeffizienten in Zeit $$\mathcal O(n\log n)$$ berechnen.
+Dies wiederholen wir bis wir auf den Fall $$n=1$$ treffen und $$\tilde c_0=f_0$$ setzen. Der Algorithmus läuft in Zeit $$\mathcal O(n\log n).$$

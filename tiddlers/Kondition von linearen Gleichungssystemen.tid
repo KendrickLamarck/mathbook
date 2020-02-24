@@ -1,0 +1,31 @@
+created: 20200222182613683
+modified: 20200222213448981
+tags: [[Lineares Gleichungssystem]] Numerik
+title: Kondition von linearen Gleichungssystemen
+type: text/vnd.tiddlywiki
+
+Für die Lösung eines linearen Gleichungssystems $$Ax=b$$ mit $$A\in\GL(\Bbb K;n),\ F\in\Bbb K^{n\times n},\ f\in\Bbb K^n$$ betrachten wir das gestörte System
+
+$$
+(A+\varepsilon F)x(\varepsilon)=b+\varepsilon f,\quad x(0)=x.
+$$
+
+Wir definieren die //Konditionszahl// von $$A$$ bezüglich der Norm $$\|\cdot\|_p$$ als
+
+$$
+\kappa_p(A)\coloneqq \|A\|_p\|A^{-1}\|_p,
+$$
+
+und falls $$A$$ singulär ist, setzen wir $$\kappa_p(A)\coloneqq\infty.$$ Für den relativen Fehler folgt dann
+
+$$
+\frac{\|x(\varepsilon)-x\|}{\|x\|}\le\kappa(A)(r_A+r_b)+\mathcal O(\varepsilon^2),
+$$
+
+wobei $$r_A=\varepsilon \frac{\|F\|}{\|A\|}$$ und $$r_b=\varepsilon\frac{\|f\|}{\|b\|}$$ die relativen Fehler in $$A$$ und $$b$$ sind. $$\kappa(A)$$ ist also der Verstärkungsfaktor für die relativen Fehler in den Daten.
+
+!! Verbesserung der Kondition
+
+Manchmal kann man die Kondition verbesern, indem man $$Ax=b$$ durch $$D_1Ax=D_1b$$ ersetzt mit $$D_1$$ diagonal, so dass der maximale Eintrag in jeder Zeile vom Betrag 1 ist.
+
+Weiter kann man Eine Diagonalskalierung $$AD_2$$ von rechts so wählen, das in jeder Spalte der maximale Eintrag $$1$$ ist. Wir lösen dann das äquivalente Gleichungssystem $$(D_1AD_2)y=D_1b,$$ wobei $$x=D_2y.$$

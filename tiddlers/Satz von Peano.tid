@@ -1,8 +1,7 @@
 created: 20180731222117222
 creator: Leander
-modified: 20181021172644491
+modified: 20200224193032544
 modifier: Leander
-revision: 0
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Satz von Peano
 type: text/vnd.tiddlywiki
@@ -13,4 +12,4 @@ $$
 \dot x=f(t,x),\quad x(t_0)=x_0
 $$
 
-lösbar. Ist $$f$$ nach $$x$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]], so ist die Lösung eindeutig. Insbesondere gibt es eine Lösung auf einem Intervall der Form $$J={]t_0-\epsilon,t_0+\epsilon[}.$$
+lösbar. Ist $$f$$ nach $$x$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]], so ist die Lösung eindeutig. Insbesondere gibt es eine Lösung auf einem Intervall der Form $$J={]t_0-\varepsilon,t_0+\varepsilon[}.$$

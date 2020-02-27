@@ -1,7 +1,6 @@
 caption: Höhere Ordnungen
 created: 20181016212158809
-modified: 20191011221634651
-revision: 0
+modified: 20200224234130539
 tags: [[Lineare Differentialgleichung]]
 title: Lineare Differentialgleichung höherer Ordnung
 type: text/vnd.tiddlywiki
@@ -13,7 +12,22 @@ x^{(n)}+f_1(t)x^{(n-1)}+\dots+f_{n-1}(t)\dot x+f_n(t)x=g(t) \\
 x(t_0)=\xi_0,\dots,x^{(n-1)}(t_0)=\xi_{n-1}
 \end{gathered}$$
 
-mit [[stetigen|Stetigkeit]] Funktionen $$f_1,\dots,f_n,g\colon J\to\mathbb R$$ auf einem [[Intervall|Intervall]] $$J$$ um $$t_0$$ und $$\xi_0,\dots,\xi_{n-1}\in\mathbb R.$$ Dann gilt:
+mit [[stetigen|Stetigkeit]] Funktionen $$f_1,\dots,f_n,g\colon J\to\mathbb R$$ auf einem [[Intervall|Intervall]] $$J$$ um $$t_0$$ und $$\xi_0,\dots,\xi_{n-1}\in\mathbb R.$$ Wir können dieses Problem in eine Gleichung 1. Ordnung in $$n$$ Dimensionen umwandeln:
+
+$$
+\dot y =
+\begin{pmatrix}
+0      & 1        & \cdots & 0      \\
+\vdots & \vdots   & \ddots & \vdots \\
+0      & 0        & \cdots & 1      \\
+-f_n   & -f_{n-1} & \cdots & -f_1   \\
+\end{pmatrix} y +
+\begin{pmatrix} 0 \\ \vdots \\ 0 \\ g(t) \end{pmatrix} \quad
+y(t_0) =
+\begin{pmatrix} \xi_0 \\ \vdots \\ \xi_{n-1} \end{pmatrix}.
+$$
+
+Wobei $$y=(y_1,\dots,y_n)\coloneqq(x,\dot x,\dots,x^{(n-1)}).$$ Insgesamt gilt
 
 # Das Anfangswertproblem hat genau eine auf ganz $$J$$ definierte Lösung.
 

@@ -1,5 +1,5 @@
 created: 20191213213736739
-modified: 20200215172826919
+modified: 20200224020024184
 tags: Differentialgeometrie
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -33,7 +33,7 @@ $$
 
 !!! Properties
 
-* <div>It is a derivation on $$\Omega^* M,$$ i.e. an $$\R$$-linear map satisfying
+* <div>The Lie derivative is a derivation on $$\Omega^* M,$$ i.e. an $$\R$$-linear map satisfying
 $$
 \L_X(\omega\wedge\eta)=(\L_X\omega)\wedge\eta + \omega\wedge(\L_X\eta).
 $$</div>

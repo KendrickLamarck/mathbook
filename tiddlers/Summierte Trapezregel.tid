@@ -1,5 +1,5 @@
 created: 20200221001703377
-modified: 20200221193836757
+modified: 20200229234447150
 tags: Newton-Cotes-Formeln
 title: Summierte Trapezregel
 type: text/vnd.tiddlywiki
@@ -28,8 +28,8 @@ $$
 Sei $$f\in\mathcal C^{2m+2}([a,b]).$$ Dann hat die Trapezsumme $$T(h)$$ die Entwicklung
 
 $$
-T(h) = \tau_0 + \tau_1 h^2 + \tau_2 H^4 +\dots+ \tau_m h^{2m} +
+T(h) = \tau_0 + \tau_1 h^2 + \tau_2 h^4 +\dots+ \tau_m h^{2m} +
 \alpha_{m+1}(h) h^{2m+2},
 $$
 
-wobei $$\tau_0=\int_a^b f(x)\,\d x.$$ Die Koeffizienten $$\tau_i$$ sind von $$h$$ unabhängige Konstanten und das Restglied erfüllt $$|\alpha_{m+1}(h)|\le M$$ für alle $$h=(b-a)/n,\ n\in\N.$$
+wobei $$\tau_0=\int_a^b f(x)\,\d x.$$ Die Koeffizienten $$\tau_i$$ sind von $$h$$ unabhängige Konstanten und das Restglied erfüllt $$|\alpha_{m+1}(h)|\le M$$ für alle $$h=(b-a)/n,\ n\in\N$$ und eine Konstante $$M.$$

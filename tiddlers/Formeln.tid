@@ -1,13 +1,12 @@
 created: 20170811204942612
 list: 
-modified: 20180423192031186
-revision: 0
+modified: 20200229161108873
 tags: Mathematics
 title: Formeln
 type: text/vnd.tiddlywiki
 
 $$
-\frac{1}{n}\times\frac{1}{n+1}=\frac{1}{n}-\frac{1}{n+1}
+\frac{1}{n}\cdot\frac{1}{n+1}=\frac{1}{n}-\frac{1}{n+1}
 $$
 
 * In a right triangle, a perpendicular coming from the right angle cuts the triangle into two similar triangles.

@@ -1,6 +1,6 @@
 created: 20180411144503853
 creator: Leander
-modified: 20200217215234011
+modified: 20200229180157118
 modifier: Leander
 tags: Maschinenzahl no-toc
 title: Maschinengenauigkeit
@@ -11,13 +11,13 @@ Es sei $$F$$ ein [[Maschinenzahlbereich|Maschinenzahl]] mit [[Rundung]] $$\opera
 
 $$
 \eps(F)\coloneqq\sup\left\{\left|\frac{x-\rd(x)}{x}\right|:
-\land |x|\in\operatorname{range}(F)\right\},
+|x|\in\operatorname{range}(F)\right\},
 $$
 
 wobei $$\operatorname{range}(F)\coloneqq [F_{\min},F_{\max}]$$ für $$F_{\min},F_{\max}$$ die kleinste bzw. größte darstellbare positive Zahl.
 
 ''Konvention 2.''
-Man definiert auch
+Man definiert auch in $$\Bbb M(p,m,e)$$
 
 $$
 \eps\coloneqq\frac p 2 p^{-m}.

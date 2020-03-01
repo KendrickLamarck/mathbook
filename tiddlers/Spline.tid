@@ -1,5 +1,5 @@
 created: 20200220200834987
-modified: 20200220214716630
+modified: 20200228182758110
 tags: Numerik
 title: Spline
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ Im folgenden betrachten wir kubische splines, d.h. den Fall $$k=3.$$ Es gibt imm
 
 # $$S_\Delta'(a)=S_\Delta'(b),\ S_\Delta''(a)=S_\Delta''(b)$$ @@float:right; (periodische Spline-Interpolation).@@
 
-Die Berechnung erfolgt mit der Newton-Interpolation auf jedem Teilintervall, wobei noch ein Gleichungssystem für die $$s_i=S_\Delta'(x_i)=f[x_i,x_i]$$ gelöst werden muss: Mit den Definitionen
+Die Berechnung erfolgt mit der Newton-Interpolation auf jedem Teilintervall, wobei noch ein Gleichungssystem für die $$s_i\coloneqq S_\Delta'(x_i)=f[x_i,x_i]$$ gelöst werden muss: Mit den Definitionen $$m_i\coloneqq f[x_{i-1},x_i]$$ und
 
 $$
 \lambda_i\coloneqq \frac{h_{i+1}}{h_i+h_{i+1}},\quad

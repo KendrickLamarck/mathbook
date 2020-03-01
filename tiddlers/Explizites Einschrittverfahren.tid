@@ -1,5 +1,5 @@
 created: 20200215173854514
-modified: 20200218162652699
+modified: 20200301003133494
 tags: Numerik
 title: Explizites Einschrittverfahren
 type: text/vnd.tiddlywiki
@@ -34,13 +34,13 @@ $$
 \tau_h \coloneqq \max_{t\in [t_0,t_0+T]} \|\tau(t,h)\|.
 $$</div>
 
-* <div>Wir nennen das Verfahren //konsistent,// Wenn $$\lim_{h\to 0,h\ne 0}\tau(t,h)=0$$ für alle $$t\in I$$ und konsistent von der Ordnung $$p\in\N,$$ falls $$\tau(t,h)\in\mathcal O(h^p).$$ Daraus folgt
+* <div>Wir nennen das Verfahren //konsistent,// Wenn $$\lim_{h\to 0}\tau(t,h)=0$$ für alle $$t\in I$$ und konsistent von der Ordnung $$p\in\N,$$ falls $$\tau(t,h)\in\mathcal O(h^p).$$ Daraus folgt
 
 $$
-\dot y(t)=f(t,y(t))=\lim_{h\to 0,h\ne 0}\varPhi(t,y(t),h).
+\dot y(t)=f(t,y(t))=\lim_{h\to 0}\varPhi(t,y(t),h).
 $$</div>
 
-* Das Verfahren heißt //konvergent,// wenn für $$i=0,\dots,n$$ gilt $$\lim_{h\to 0} |e_h(t_i)|$$ Es heißt konvergent von der Ordnung $$p\in\N,$$ wenn für $$i=0,\dots,n$$ gilt $$e_h(t_i)\in\mathcal O(h^p).$$
+* Das Verfahren heißt //konvergent,// wenn für $$i=0,\dots,n$$ gilt $$\lim_{h\to 0} |e_h(t_i)|=0.$$ Es heißt konvergent von der Ordnung $$p\in\N,$$ wenn für $$i=0,\dots,n$$ gilt $$e_h(t_i)\in\mathcal O(h^p).$$
 
 ''Satz.''
 Die Inkrementfunktion $$\varPhi(t,y,h)$$ genüge bezüglich der zweiten Komponente einer Lipschitz-Bedingung, d.h.
@@ -66,7 +66,7 @@ $$
 \tilde u_{i+1} = \tilde u_i + h_i\left( \varPhi(t_i,\tilde u_i,h_i) + \frac{\varepsilon_{i+1}}{h_i} \right).
 $$
 
-Definere nun den //Gesamtfehler// $$E(t_i)\coloneqq \tilde u_i - y(t_i)$$ und $$\varepsilon_h\coloneqq\max_i |\varepsilon_i|.$$ Dann gilt:
+Definere nun den //Gesamtfehler// $$E(t_i)\coloneqq \tilde u_i - y(t_i)$$ und $$\varepsilon_h\coloneqq\max |\varepsilon_i|.$$ Dann gilt:
 
 $$
 \|E(t_i)\|\le

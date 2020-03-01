@@ -1,5 +1,5 @@
 created: 20200218215537996
-modified: 20200219231741646
+modified: 20200301005831134
 tags: [[Eindimensionale Randwertprobleme]]
 title: Konvergenz von Randwertproblemen
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ sowie ein Gitter $$\{x_j=a+jh:j=0,\dots,n\},$$ wobei $$h=\frac{b-a}{n}.$$
 
 $$
 \sum_{j=-l}^l \alpha_j^{(k)} u_{k+j} = s(x_k)
-\tag\dag
+\tag*\dag
 $$
 
 mit festen $$\alpha_{-l}^{(k)},\dots,\alpha_l^{(k)}$$ //konsistent von der Ordnung $$p,$$// falls für hinreichend glattes $$y$$ und alle $$k=1,\dots,n-1$$ gilt, dass

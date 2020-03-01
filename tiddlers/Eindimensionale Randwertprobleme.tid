@@ -1,5 +1,5 @@
 created: 20200218154352407
-modified: 20200218165027998
+modified: 20200301005525793
 tags: Numerik
 title: Eindimensionale Randwertprobleme
 type: text/vnd.tiddlywiki
@@ -55,7 +55,7 @@ $$
 
 Die Gleichungen mit überhängenden Punkten können wir mithilfe der Randbedingungen Lösen. Wir betrachten beispielhaft die drei Fälle am linken Rand:
 
-# <div>Aus der Gleichung $$\dag$$ für $$i=1$$ wird durch Einsetzen von $$u_0 = g_D(x_0)$$
+# <div>In diesem Fall lassen wir eine Gleichung Weg, da der Wert schon vorgegeben ist und setzen diesen in die nächste Gleichung ein: Aus der Gleichung $$\dag$$ für $$i=1$$ wird durch Einsetzen von $$u_0 = g_D(x_0)$$
 
 $$
 \sigma_1 u_1 + \mu_1 u_2 = s(x_1) - \lambda_1 g_D(x_0).

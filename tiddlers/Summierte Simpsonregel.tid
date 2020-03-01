@@ -1,5 +1,5 @@
 created: 20200221003941499
-modified: 20200221005738865
+modified: 20200229175234637
 tags: Newton-Cotes-Formeln
 title: Summierte Simpsonregel
 type: text/vnd.tiddlywiki
@@ -7,14 +7,14 @@ type: text/vnd.tiddlywiki
 Wir zerlegen das Integrationsintervall $$[a,b]$$ in $$n$$ gleich große Teilintervalle $$[x_i,x_{i+1}],\ i=0,\dots,n-1,$$ wobei $$x_i=a+ih$$ und $$ h=(b-a)/n.$$ Wir nehmen an, dass $$n$$ gerade ist und interpolieren auf den Teilintervallen $$[x_{2i},x_{2i+2}],\ i=0,\dots,n/2-1$$ mit quadratischen Polynomen. Die Näherung ist dann
 
 $$
-\int_{x_i}^{x_{i+1}} f(x) \,\d x\approx
+\int_{x_{2i}}^{x_{2i+2}} f(x) \,\d x\approx
 \frac{2h}{6}[f(x_{2i})+4f(x_{2i+1})+f(x_{2i+2})]
 $$
 
 und die Summe
 
 $$\begin{aligned}
-S(h) = &\frac h3 [f(a)+4f(a+h)+2f(a+2h)+4f(a+3h) \\
+S(h) = &\frac h3 [f(a)+4f(a+h)+2f(a+2h)+4f(a+3h)+\dots \\
 &+2f(b-2h)+4f(b-h)+f(b)].
 \end{aligned}$$
 

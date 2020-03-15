@@ -1,8 +1,7 @@
 created: 20180611212520897
 creator: Leander
-modified: 20191010153307097
+modified: 20200305152504927
 modifier: Leander
-revision: 0
 tags: Orthogonalität no-toc
 title: Orthogonale/unitäre Matrix
 type: text/vnd.tiddlywiki
@@ -19,7 +18,7 @@ $$
 A^{-1}=\bar A^\mathrm T.
 $$
 
-In beiden Fällen gilt $$\left|\det A\right|=1.$$
+In beiden Fällen gilt $$|{\det A}|=1.$$
 
 Folgende Bedingungen sind äquivalent für $$A\in\mathbb K^{n\times n}$$:
 

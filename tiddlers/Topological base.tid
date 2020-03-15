@@ -1,10 +1,10 @@
 created: 20191116152409897
-modified: 20191229222427954
+modified: 20200308210305467
 tags: Topologie
-title: Topological basis
+title: Topological base
 type: text/vnd.tiddlywiki
 
-Let $$X$$ be a set. A //basis// is a collection of sets $$B\subseteq\mathcal P(X)$$ such that:
+Let $$X$$ be a set. A //base// is a collection of sets $$B\subseteq\mathcal P(X)$$ such that:
 
 # The base elements cover $$X.$$
 # Let $$B_1,B_2\in B.$$ Then for each $$x\in B_1\cap B_2$$ there is a $$B_3\in B$$ such that $$x\in B_3$$ and $$B_3\subseteq B_1\cap B_2.$$

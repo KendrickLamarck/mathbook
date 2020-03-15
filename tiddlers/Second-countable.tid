@@ -1,7 +1,7 @@
 created: 20191116152211204
-modified: 20191116154230626
-revision: 0
+modified: 20200308210314428
 tags: Topologie no-toc
 title: Second-countable
+type: text/vnd.tiddlywiki
 
-A [[topological space|Topologie]] $$(X,\mathcal T)$$ is called //second countable,// if there is a countable [[base|Topological basis]] for the topology.
+A [[topological space|Topologie]] $$(X,\mathcal T)$$ is called //second countable,// if there is a countable [[base|Topological base]] for the topology.

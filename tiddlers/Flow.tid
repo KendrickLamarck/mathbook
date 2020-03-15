@@ -1,5 +1,5 @@
 created: 20191123222854196
-modified: 20200215172826985
+modified: 20200311212325319
 tags: Differentialgeometrie
 title: Flow
 type: text/vnd.tiddlywiki
@@ -16,6 +16,8 @@ A //(global) flow// on a smooth manifold $$M^m$$ is a smooth [[group action|Grou
 
 If we fix $$p\in M$$ instead, we get a curve $$\gamma_p(t)\coloneqq\theta_t(p)$$ parametrizing the orbit of $$p$$ under $$\theta.$$ If $$q=\gamma_p(s)$$ is another point on the same orbit, $$\gamma_q$$ is just a reparametrization of $$\gamma_p,$$ namely $$\gamma_q(t)=\gamma_p(s+t).$$ Equivalently, $$\gamma_q=\theta_s\circ\gamma_p.$$
 
+''Theorem.''
+For every vector field $$X$$ on a compact manifold, there exists a global flow $$\theta$$ such that $$X$$ is the [[infinitesimal generator|Infinitesimal generator]] for $$\theta.$$
 
 !! Local
 

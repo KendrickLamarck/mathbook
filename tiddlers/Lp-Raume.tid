@@ -1,9 +1,8 @@
 created: 20190114152506693
 creator: Leander
 list: Folgenräume [[Inklusionen der Lp-Räume]] [[Hölder'sche Ungleichung]] [[Jensen'sche Ungleichung]] Minkowski-Ungleichung [[Satz von Riesz-Fischer]]
-modified: 20191011173520748
+modified: 20200308152033068
 modifier: Leander
-revision: 0
 tags: Lebesgue-Integral
 title: Lp-Räume
 type: text/vnd.tiddlywiki
@@ -11,7 +10,7 @@ type: text/vnd.tiddlywiki
 Sei $$(\Omega,\mathcal F,\mu)$$ ein beliebiger [[Maßraum|Maß]]. Definiere für [[messbares|Messbare Funktion]] [[numerisches|Numerische Funktion]] $$f\colon\Omega\to\overline\Bbb R$$ und $$p\in[0,\infty]$$
 
 $$
-\|f\|_p\coloneqq\begin{cases}
+\|f\|_p\coloneqq\begin{cases}\displaystyle
 \left(\int_\Omega |f|^p\,\mathrm d\mu\right)^{1/p} &\text{falls }p<\infty, \\
 \sup\{a\ge 0:\mu(\{|f|\ge a\})>0\},&\text{falls } p=\infty
 \end{cases}
@@ -27,7 +26,7 @@ $$
 Das ist ein [[Vektorraum]]. Weiter definieren wir $$L^p=L^p(\Omega,\mathcal F,\mu)$$ als den [[Quotientenvektorraum]] $$\mathcal L^p/\!\sim$$ bezüglich der [[Äquivalenzrelation]]
 
 $$
-f\sim g\iff \mu(\{f\ne g\})=0.
+f\sim g\iff \mu(f\ne g)=0.
 $$
 
 Dann ist $$L^p\ni [f]=f+\mathcal N,$$ wobei $$\mathcal N=\{f:f\sim 0\}.$$
@@ -35,7 +34,7 @@ Dann ist $$L^p\ni [f]=f+\mathcal N,$$ wobei $$\mathcal N=\{f:f\sim 0\}.$$
 Für $$p=2$$ definieren wir ein [[Skalarprodukt]]
 
 $$
-\langle[f],[g]\rangle\coloneqq\langle f,g\rangle=\int fg\,\mathrm d\mu.
+\langle[f],[g]\rangle\coloneqq\langle f,g\rangle=\int_\Omega fg\,\mathrm d\mu.
 $$
 
 {{Satz von Riesz-Fischer}}

@@ -1,8 +1,7 @@
 created: 20180530153430792
 creator: Leander
-modified: 20190406184202670
+modified: 20200308152558617
 modifier: Leander
-revision: 0
 tags: Lp-Räume
 title: Folgenräume
 type: text/vnd.tiddlywiki
@@ -22,9 +21,12 @@ $$
 Das sind [[Banachräume|Banachraum]] mit der [[Norm]]
 
 $$
-\|(x_n)_{n\in\mathbb N}\|_p\coloneqq\begin{cases}
-\left(\sum_{n\in\mathbb N}|x_n|^p\right)^{\frac{1}{p}},&\text{falls }p\in[1,\infty[,\\
-\sup_{n\in\mathbb N}|x_n|,&\text{falls }p=\infty.
+\|(x_n)_{n\in\mathbb N}\|_p\coloneqq\begin{cases}\displaystyle
+\Bigl(\sum_{n\in\mathbb N}|x_n|^p\Bigr)^{\frac{1}{p}},
+&\text{falls }p\in[1,\infty[,\\
+\phantom{\Bigl(}\displaystyle
+\sup_{n\in\mathbb N}|x_n|,
+&\text{falls }p=\infty.
 \end{cases}
 $$
 

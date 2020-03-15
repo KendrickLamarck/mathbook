@@ -1,7 +1,7 @@
 created: 20191229232334275
-modified: 20191229232603059
+modified: 20200308210321505
 tags: [[Partition of unity]]
 title: Topological basis of manifolds
 type: text/vnd.tiddlywiki
 
-Every manifold $$M$$ has a countable [[basis|Topological basis]] consisting of coordinate neighbourhoods with compact closure.
+Every manifold $$M$$ has a countable [[basis|Topological base]] consisting of coordinate neighbourhoods with compact closure.

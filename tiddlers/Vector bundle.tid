@@ -1,12 +1,27 @@
 created: 20191116225728237
-modified: 20200215172826600
+modified: 20200311213825808
 tags: Differentialgeometrie
 title: Vector bundle
 type: text/vnd.tiddlywiki
 
+A bundle over a //base space// $$M$$ consists of a //total space// $$E$$ with a projection map $$\pi\colon E\to M$$ and we often simply refer to $$E$$ as the bundle.
+
+* The //fiber// over $$p\in M$$ is the preimage $$\pi^{-1}\{p\}\eqqcolon E_p.$$
+* If $$S \subset M,$$ we write $$E_S$$ for the restriction $$\pi_S \colon \pi^{-1}\{S\} = E_S \to S.$$
+* If $$\pi\colon E\to M$$ and $$\pi'\colon E'\to M$$ are two bundles over $$M,$$ we call a map $$\varphi\colon E\to E'$$ //fiber-preserving,// if $$\pi' \circ \varphi = \pi,$$ i.e. $$\varphi(E_p)\subseteq E'_p.$$
+* A //trivial bundle// is a bundle of the form $$F\times M.$$
+
+!! Vector bundles
+
 A (smooth) //vector bundle// of rank $$k$$ is a map $$\pi\colon E^{m+k}\to M^m$$ of manifolds such that
 
 * each fiber $$\pi^{-1}(p)$$ is a [[vector space|Vektorraum]] of dimension $$k,$$
-* each point in $$M$$ has a //trivializing neighborhood// $$U,$$ meaning there is a fiber-preserving diffeomorphism $$\pi^{-1}(U)\eqqcolon E_U\to U\times\R^k$$ that is a vector space [[isomorphism|Isomorphismus]] on each fiber.
+* each point in $$M$$ has a //trivializing neighborhood// $$U,$$ meaning there is a fiber-preserving diffeomorphism $$E_U\to U\times\R^k$$ that is a vector space [[isomorphism|Isomorphismus]] on each fiber.
+
+A //frame// for a local bundle $$E_U$$ is a set of $$k$$ sections $$\sigma_i \in \Gamma(E_U)$$ such that at each $$p\in U,$$ the $$\sigma_i(p)$$ form a basis for $$E_p.$$
+
+Operations on vector spaces induce operations on vector bundles by acting pointwise, for example the //dual bundle// $$E^*$$ with $$(E^*)_p=(E_p)^*$$ or the direct sum $$(E\oplus F)_p=E_p\oplus F_p.$$
+
+!! Sections
 
 {{Section}}

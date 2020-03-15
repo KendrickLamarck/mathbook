@@ -1,12 +1,12 @@
 created: 20191123231123503
-modified: 20200123184923509
+modified: 20200311212336630
 tags: Flow
 title: Infinitesimal generator
 type: text/vnd.tiddlywiki
 
 The //infinitesimal generator// of a [[flow|Flow]] $$\theta$$ on $$M$$ is the [[vector field|Vektorfeld]] $$X$$ on $$M$$ defined by $$X_p \coloneqq \gamma_p'(0).$$
 
-We can also define $$X_p \coloneqq \D_{(0,p)}\theta(V),$$ where the vector field $$V$$ on $$\R\times M,$$ defined by
+We can also define $$X_p \coloneqq \D_{(0,p)}\theta(V),$$ where the vector field $$V$$ on $$\R\times M$$ is defined by
 
 $$
 \T_{(t,p)}(\R\times M)=\T_t \R\times \T_p M\ni (\partial_t,0)\eqqcolon V_{(t,p)}.
@@ -14,10 +14,8 @@ $$
 
 !!! Properties
 
-* $$X$$ is $$\theta$$-[[related|Verknüpfte Vektorfelder]] to $$V=(\partial_t,0),$$ since $$X_{\theta_t(p)}=\D_{(t,p)}\theta\left(V_{(t,p)}\right).$$
-
-* If $$\theta$$ is a flow on $$M$$ with infinitesimal generator $$X,$$ then $$X$$ is $$\theta$$-invariant, i.e. for any $$s\in\R$$ and $$p\in M,$$ we have $$(\theta_s)_*(X_p)=X_{\theta_s(p)}.$$
-
 * If $$X_p=0,$$ then the curve $$\gamma_p$$ is the constant map $$\gamma_p(t)=p.$$ If $$X_p\ne 0,$$ then the curve $$\gamma_p$$ is an [[immersion|Immersion und Submersion]]. If it is not injective on $$\R,$$ then it is $$s$$-periodic and injective on $$\R/s\Z$$ for some $$s>0.$$
 
-* Every vector field $$X$$ on a compact manifold $$M$$ has a global flow.
+* $$X$$ is $$\theta$$-[[related|Verknüpfte Vektorfelder]] to $$V=(\partial_t,0),$$ since $$X_{\theta_t(p)}=\D_{(t,p)}\theta(V_{(t,p)}).$$
+
+* If $$\theta$$ is a flow on $$M$$ with infinitesimal generator $$X,$$ then $$X$$ is $$\theta$$-invariant, i.e. for any $$s\in\R$$ and $$p\in M,$$ we have $$\theta_{s*}(X_p)=X_{\theta_s(p)}.$$

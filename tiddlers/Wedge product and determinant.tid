@@ -1,5 +1,5 @@
 created: 20191122205009882
-modified: 20200111000832770
+modified: 20200313212731724
 tags: Determinante [[Exterior algebra]]
 title: Wedge product and determinant
 type: text/vnd.tiddlywiki
@@ -9,3 +9,5 @@ We can use the [[exterior algebra|Exterior algebra]] to define the [[determinant
 $$
 v_1 \wedge\dots\wedge v_m = \det(v_j^i)e_{1 2 \cdots m}.
 $$
+
+Similarly, the components of the wedge product of $$k$$ vectors $$v_1,\dots,v_k$$ are given by the minor determinants of the matrix $$(v_j^i).$$

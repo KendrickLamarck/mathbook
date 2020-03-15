@@ -1,8 +1,7 @@
 created: 20180708181124878
 creator: Leander
-modified: 20190330173730166
+modified: 20200309021741742
 modifier: Leander
-revision: 0
 tags: [[Stetige Differenzierbarkeit]]
 title: Rangsatz
 type: text/vnd.tiddlywiki
@@ -26,25 +25,10 @@ $$
 \Psi\circ f\circ\Phi^{-1}(x_1,\dots,x_n)=(x_1,\dots,x_r,0,\dots,0).
 $$
 
-$$\mathcal C^k$$-Abbildungen von konstantem Rang $$r$$ sind also in geeigneten $$\mathcal C^k$$-[[Koordinaten|Koordinatensystem]] von der Form
+!! Manifolds
+
+Suppose $$f\colon M^m\to N^n$$ is a smooth map between manifolds of constant rank $$k.$$ Then for each $$p\in M$$ there are coordinate neighborhoods $$(U,\varphi)$$ of $$p$$ and $$(V,\psi)$$ of $$f(p)$$ such that the coordinate expression $$\psi \circ f \circ \varphi^{-1}$$ is the orthogonal projection map
 
 $$
-(x_1,\dots,x_n)\mapsto(x_1,\dots,x_r,0,\dots,0).
+(x^1,\dots,x^m) \mapsto (x^1,\dots,x^k,0,\dots,0).
 $$
-
-!! Alternative Version
-
-Seien $$V,W$$ endlichdimensionale Banachräume, sei $$G\subseteq V$$ offen, $$p\in G$$ und sei $$f\colon V\supseteq G\to W\in\mathcal C^k$$ und von konstantem Rang $$r.$$ Dann gibt es lokale $$\mathcal C^k$$-Diffeomorphismen
-
-$$\begin{gathered}
-\Phi\colon V\to V\text{ bei } p \text{ mit } \Phi(p)=p, \\
-\Psi\colon W\to W\text{ bei } f(p)\text{ mit } \Psi(f(p))=f(p),
-\end{gathered}$$
-
-für die auf einer offenen Umgebung von $$p\in V$$
-
-$$
-\Psi\circ f\circ\Phi^{-1}=\mathrm D_p f
-$$
-
-gilt. In geeigneten lokalen Koordinaten um $$p$$ und $$f(p)$$ sieht $$f$$ also aus wie seine Ableitung, d.h. wie eine lineare Abbildung vom Rang $$r.$$ Die Äquivalenz mit der anderen Version folgt aus dem Satz über die [[Rangnormalform]].

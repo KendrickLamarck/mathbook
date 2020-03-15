@@ -1,0 +1,7 @@
+created: 20200308211113738
+modified: 20200308211242117
+tags: Topologie
+title: Regular topological space
+type: text/vnd.tiddlywiki
+
+A topological space $$X$$ is called //regular,// if for every closed nonempty $$A\subseteq X$$ and every point $$x\in X\setminus A$$ there exist disjoint neighborhoods of $$A$$ and $$x.$$

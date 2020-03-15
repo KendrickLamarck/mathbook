@@ -1,6 +1,6 @@
 created: 20180430171946458
 creator: Leander
-modified: 20200229165834242
+modified: 20200302211358260
 modifier: Leander
 tags: [[Metrischer Raum]] Numerik
 title: Banach'scher Fixpunktsatz
@@ -16,3 +16,5 @@ $$
 \|x^*-x_n\|\le\frac{\alpha^n}{1-\alpha}\|x_1-x_0\|,\quad
 \|x^*-x_n\|\le\frac{\alpha}{1-\alpha}\|x_n-x_{n-1}\|.
 $$</div>
+
+* Ist $$f\colon\R^n\supset D\to D$$ differenzierbar mit Fixpunkt $$x^*$$ und ist $$\|f'(x^*)\|<1$$ für eine Matrixnorm, so ist $$x^*$$ ein anziehender Fixpunkt, d.h. in einer Umgebung ist $$f$$ eine Kontraktion.

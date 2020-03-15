@@ -1,11 +1,9 @@
 created: 20191229231206114
-modified: 20191229231330420
+modified: 20200308211829691
 tags: Topologie
 title: Paracompact space
 type: text/vnd.tiddlywiki
 
-{{Locally finite collection}}
-
-{{Refinement}}
+{{Locally finite collection}} {{Refinement}}
 
 A topological space $$X$$ is called //paracompact// if every open cover has a locally finite refinement.

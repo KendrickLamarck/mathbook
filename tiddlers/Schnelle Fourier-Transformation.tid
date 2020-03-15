@@ -1,5 +1,5 @@
 created: 20200222004916702
-modified: 20200301014536443
+modified: 20200301211350875
 tags: [[Diskrete Fourier-Transformation]]
 title: Schnelle Fourier-Transformation
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ Die //Schnelle Fourier Transformation// ist ein Algorithmus, um die Koeffiziente
 
 $$
 \tilde c_k = \frac 1 n \sum_{l=0}^{n-1} f_l e^{-\i\frac{2\pi kl}{n}}
-\eqqcolon\operatorname{FFT}_n(f_0,\dots,f_{n-1}).
+\eqqcolon\operatorname{FFT}_n(f_0,\dots,f_{n-1})_k.
 $$
 
 in der [[Diskreten Fourier-Transformation|Diskrete Fourier-Transformation]] für $$f_0,\dots,f_{n-1}$$ zu berechnen. Wir setzen voraus, dass $$n=2^p$$ eine Zweierpotenz ist und definieren $$\omega_n\coloneqq e^{-\i\frac{2\pi}{n}}.$$
@@ -21,7 +21,7 @@ $$
 n\cdot\tilde c_{2q}=
 \sum_{l=0}^{n-1} f_l \omega_n^{2ql} =
 \sum_{l=0}^{M-1} z_l \omega_M^{ql} =
-\operatorname{FFT}_M(z_0,\dots,z_{M-1}).
+\operatorname{FFT}_M(z_0,\dots,z_{M-1})_q.
 $$
 
 Für ungerade indizes $$k=2q+1$$ setzen wir $$z_{M+l}=(f_l-f_{M+l})\omega_n^l$$ für $$l=0,\dots,M-1$$ und erhalten
@@ -30,7 +30,7 @@ $$
 n\cdot\tilde c_{2q+1} =
 \sum_{l=0}^{n-1} f_l \omega_n^{(2q+1)l} =
 \sum_{l=0}^{M-1} z_{M+l} \omega_M^{ql} =
-\operatorname{FFT}_M(z_M,\dots,z_{n-1}).
+\operatorname{FFT}_M(z_M,\dots,z_{n-1})_q.
 $$
 
 Dies wiederholen wir bis wir auf den Fall $$n=1$$ treffen und $$\tilde c_0=f_0$$ setzen. Der Algorithmus läuft in Zeit $$\mathcal O(n\log n).$$

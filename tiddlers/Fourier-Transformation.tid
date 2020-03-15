@@ -1,17 +1,17 @@
 created: 20200109184244455
-modified: 20200109192139600
-tags: Analysis
+modified: 20200311003736404
+tags: Fourier-Reihe
 title: Fourier-Transformation
 type: text/vnd.tiddlywiki
 
-Sei $$f\in L^1(\R^n)$$ eine integrierbare Funktion. Die //(kontinuierliche) Fourier-Transformierte// von $$f$$ ist definiert durch
+Sei $$f\in L^1(\R^n\to\C)$$ eine integrierbare Funktion. Die //(kontinuierliche) Fourier-Transformierte// von $$f$$ ist definiert durch
 
 $$
 \hat f(y)=\mathcal F f(y)\coloneqq
 \int_{\R^n} f(x) e^{-\i \langle y,x\rangle}\,\d x.
 $$
 
-Ist $$\hat f\in L^1(\R^n),$$ so ist die Rücktransformation gegeben durch
+Ist $$\hat f\in L^1(\R^n\to\C),$$ so ist die Rücktransformation gegeben durch
 
 $$
 f(x)=\frac 1 {(2\pi)^n} \int_{\R^n} \hat f(y) e^{\i\langle y,x\rangle}\,\d y.

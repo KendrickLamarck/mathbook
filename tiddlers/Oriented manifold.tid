@@ -1,6 +1,6 @@
 caption: Orientation and volume forms
 created: 20191201215246830
-modified: 20200213222543686
+modified: 20200313202839253
 tags: [[Differential form]]
 title: Oriented manifold
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ Suppose $$M^m$$ is a [[manifold with boundary|Manifold with boundary]]. For $$p\
 
 An orientation on $$M$$ induces an orientation on $$\partial M$$ as follows: Suppose $$(v,v_1,\dots,v_{m-1})$$ is an oriented basis for $$\T_p M,$$ where $$v$$ is outward-pointing and $$v_i\in\T_p\partial M.$$ Then $$(v_1,\dots,v_{m-1})$$ is an oriented basis of $$\T_p\partial M.$$
 
-Equivalently, suppose the orientation on $$M$$ is given by a volume form $$\varOmega$$ and we pick a vector field $$X\in\mathcal X(M)$$ which is outward-pointing along $$\partial M.$$ Then the restricted [[contraction|Contraction (differential forms)]] $$\iota_X(\varOmega)|_{\partial M}$$ is a volume form on $$\partial M.$$
+Equivalently, suppose the orientation on $$M$$ is given by a volume form $$\varOmega$$ and we pick a vector field $$X\in\mathfrak X(M)$$ which is outward-pointing along $$\partial M.$$ Then the restricted [[contraction|Contraction (differential forms)]] $$\iota_X(\varOmega)|_{\partial M}$$ is a volume form on $$\partial M.$$
 
 !! Riemannian manifolds
 

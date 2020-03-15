@@ -1,5 +1,5 @@
 created: 20191112213934852
-modified: 20200215172826578
+modified: 20200313202740282
 tags: Differentialgeometrie
 title: Vektorfeld
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ fX\colon M &\to\T M,&p &\mapsto f(p) X_p, \\
 Xf\colon M &\to\R,&p &\mapsto X_p f.
 \end{aligned}$$
 
-Der Raum der Vektorfelder $$\mathcal X(M)$$ ist damit ein [[Modul]] über dem Ring $$\mathcal C^\infty(M)$$ der glatten Funktionen.
+Der Raum der Vektorfelder $$\mathfrak X(M)$$ ist damit ein [[Modul]] über dem Ring $$\mathcal C^\infty(M)$$ der glatten Funktionen.
 
 !! Verknüpfte Vektorfelder
 {{Verknüpfte Vektorfelder}}

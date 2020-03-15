@@ -1,6 +1,6 @@
 created: 20191112232513190
 list: [[Pullback of Riemannian metrics]] [[Pullback of one-forms]] [[Pullback of differential forms]]
-modified: 20200215172826852
+modified: 20200311212732364
 tags: Differentialgeometrie
 title: Pullback
 type: text/vnd.tiddlywiki
@@ -14,7 +14,10 @@ f^*\colon\mathcal C^\infty(q)\to\mathcal C^\infty(p),\quad
 f^*(g)\coloneqq g\circ f,
 $$
 
-and similarly for $$\mathcal C^\infty(N)\to\mathcal C^\infty(M).$$ This is a linear map. If $$f=h\circ g,$$ then $$f^*=g^*\circ h^*.$$
+and similarly for $$\mathcal C^\infty(N)\to\mathcal C^\infty(M).$$
+
+* The pullback is a linear map.
+* If $$f=h\circ g,$$ then $$f^*=g^*\circ h^*.$$
 
 !! Riemannian metrics
 

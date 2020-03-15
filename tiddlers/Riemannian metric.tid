@@ -1,10 +1,17 @@
 created: 20190216191811545
-modified: 20200215172826787
+modified: 20200311223214796
 tags: Differentialgeometrie
 title: Riemannian metric
 type: text/vnd.tiddlywiki
 
-A //Riemannian metric// on a [[smooth manifold|Smooth manifold]] $$M^m$$ is a positive definite [[section|Section]] $$g\in\Gamma(\mathrm Q(\T M)),$$ where $$\mathrm Q(\T M)$$ is the [[vector bundle|Vector bundle]] of [[quadratic forms|Quadratische Form]] on $$\T_p M.$$ It consists of an [[inner product|Skalarprodukt]] $$\langle X_p,Y_p\rangle=g_p(X_p,Y_p)$$ on every tangent space $$\T_p M.$$
+A //Riemannian metric// on a [[smooth manifold|Smooth manifold]] $$M^m$$ is a positive definite [[section|Section]] $$g\in\Gamma(\mathrm Q(\T M)),$$ where $$\mathrm Q(\T M)$$ is the [[vector bundle|Vector bundle]] of [[quadratic forms|Quadratische Form]] on $$\T_p M.$$ It consists of an [[inner product|Skalarprodukt]] $$\langle X_p,Y_p\rangle=g_p(X_p,Y_p)$$ on every tangent space $$\T_p M.$$ In coordinates, this is given by components $$g_{ij}=g(\partial_i,\partial_j) \in \mathcal C^\infty(U)$$ so that
+
+$$
+g\Bigl(\sum\alpha_i\partial_i, \sum\beta_j\partial_j\Bigr)=
+\sum_{ij} g_{ij}\alpha_i\beta_j.
+$$
+
+At every $$p\in U,$$ $$(g_{ij})$$ is a symmetric positive definite matrix.
 
 Every manifold admits a Riemannian metric. A manifold together with a Riemannian metric is called a //Riemannian manifold.//
 

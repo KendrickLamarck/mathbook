@@ -1,10 +1,10 @@
 created: 20191206182740988
-modified: 20200123185203300
+modified: 20200311212430999
 tags: Flow no-toc
 title: Local flow
 type: text/vnd.tiddlywiki
 
-A //local flow// around $$p\in M$$ is a map $$\theta\colon \left]-\epsilon,\epsilon\right[\times V\to U$$ for some $$\epsilon>0$$ and some open $$V\ni p$$ such that $$\theta_0(q)=q$$ for all $$q\in V,$$ and
+A //local flow// around $$p\in M$$ is a map $$\theta\colon {]{-\epsilon,\epsilon}[}\times V\to U$$ for some $$\epsilon>0$$ and some open $$V\ni p$$ such that $$\theta_0(q)=q$$ for all $$q\in V,$$ and
 
 $$
 \theta_t(\theta_s(q))=\theta_{t+s}(q)
@@ -13,4 +13,7 @@ $$
 whenever both sides are defined.
 
 * The //flow lines// are the curves $$\gamma_q(t)\coloneqq\theta_t(q)$$
-* The //infinitesimal generator// is the vector field $$X_q=\gamma_q'(0)$$ tangent to the flow lines. Any vector field $$X$$ on a manifold $$M$$ has a local flow around any point $$p\in M.$$
+* The //infinitesimal generator// is the vector field $$X_q=\gamma_q'(0)$$ tangent to the flow lines.
+
+''Theorem.''
+Any vector field $$X$$ on a manifold $$M$$ has a local flow around any point $$p\in M.$$

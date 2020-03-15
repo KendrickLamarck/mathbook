@@ -1,14 +1,15 @@
 created: 20180417165019752
 creator: Leander
-modified: 20191011213949926
+modified: 20200308210738277
 modifier: Leander
-revision: 0
 tags: Topologie
 title: Umgebung
 type: text/vnd.tiddlywiki
 
-Sei $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]]. Ein beliebiges $$U\subset X$$ heißt //Umgebung// von $$x\in X$$, falls es eine offene Menge $$V\in\mathcal T$$ gibt, so dass
+Sei $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]]. Ein beliebiges $$U\subseteq X$$ heißt //Umgebung// von $$x\in X$$, falls es eine offene Menge $$V\in\mathcal T$$ gibt, so dass
 
 $$
-x\in V\subset U.
+x\in V\subseteq U.
 $$
+
+Eine Menge $$U\subseteq X$$ heißt Umgebung einer Menge $$W\subseteq X,$$ wenn es eine offene Menge $$V\in\mathcal T$$ gibt, so dass $$W\subseteq V\subseteq U.$$

@@ -1,9 +1,8 @@
 created: 20180330123144120
 creator: Leander
 list: Transformationsmatrix [[Darstellende Matrizen und Koordinatensysteme]] [[Transformationsformel (Bilinearformen)]] [[Transformationsformel (lineare Abbildungen)]] [[Transformationsformel (Sesquilinearformen)]]
-modified: 20180728130035632
+modified: 20200327174242001
 modifier: Leander
-revision: 0
 tags: [[Lineare Algebra]]
 title: Koordinatensystem
 type: text/vnd.tiddlywiki
@@ -23,7 +22,10 @@ $$
 Man nennt $$\Phi_\mathcal B$$ das durch $$\mathcal B$$ bestimmte //Koordinatensystem// und
 
 $$
-x=(x_1,\ldots,x_n)=\Phi_\mathcal B^{-1}(v)\in K^n
+x=(x_1,\ldots,x_n) =
+\Phi_\mathcal B^{-1}(v) \eqqcolon
+[v]_\mathcal B
+\in K^n
 $$
 
 die //Koordinaten// von $$v=x_1v_1+\dots+x_nv_n$$.

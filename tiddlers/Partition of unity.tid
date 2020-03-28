@@ -1,11 +1,13 @@
 created: 20191229225658673
 creator: Leander
 list: [[Untergeordnete Teilung der Eins]] [[Topological basis of manifolds]] [[Compact exhaustion of manifolds]]
-modified: 20200215172826878
+modified: 20200316012020202
 modifier: Leander
 tags: Differentialgeometrie
 title: Partition of unity
 type: text/vnd.tiddlywiki
+
+{{Locally finite collection}}
 
 A (smooth) //partition of unity// on a manifold $$M$$ is a collection of functions $$\psi_\alpha\colon M \to\R$$ such that
 

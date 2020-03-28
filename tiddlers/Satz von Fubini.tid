@@ -1,6 +1,6 @@
 created: 20190128155524902
 creator: Leander
-modified: 20200127221059278
+modified: 20200316004758017
 modifier: Leander
 tags: Lebesgue-Integral
 title: Satz von Fubini
@@ -17,5 +17,7 @@ f_1(\omega_1)\coloneqq\begin{cases}
 und $$f_2(\omega_2)$$ analog, so gilt
 
 $$
-\int f\,\d(\mu_1\otimes\mu_2)=\int f_1(\omega_1)\,\mu_1(\d\omega_1)=\int f_2(\omega_2)\,\mu_2(\d\omega_2).
+\int f\,\d(\mu_1\otimes\mu_2)=
+\int f_1(\omega_1)\,\mu_1(\d\omega_1)=
+\int f_2(\omega_2)\,\mu_2(\d\omega_2).
 $$

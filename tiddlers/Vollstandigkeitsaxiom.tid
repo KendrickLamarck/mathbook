@@ -1,11 +1,10 @@
 created: 20171122211006995
 creator: Leander
 list: 
-modified: 20191011212905048
+modified: 20200326012137158
 modifier: Leander
-revision: 0
 tags: Vollständigkeit Folge no-toc
 title: Vollständigkeitsaxiom
 type: text/vnd.tiddlywiki
 
-Jede [[monotone|Monotonie]] und [[beschränkte|Beschränktheit (Funktionen)]] [[Folge]] ist [[konvergent|Konvergenz]].
+Ein metrischer Raum ist genau dann vollständig, wenn jede [[monotone|Monotonie]] und [[beschränkte|Beschränktheit (Funktionen)]] [[Folge]] [[konvergent|Konvergenz]] ist.

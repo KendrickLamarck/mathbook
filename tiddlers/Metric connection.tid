@@ -1,12 +1,14 @@
 created: 20191220221059724
-modified: 20191228152921709
+modified: 20200324000208423
 tags: Connection no-toc
 title: Metric connection
 type: text/vnd.tiddlywiki
 
-Let $$\nabla$$ be a [[connection|Connection]] on the tangent bundle $$\T M$$ to a Riemannian manifold. We call the connection //metric// if for all $$X,Y$$ and $$Z$$ it satisfies
+Let $$\nabla$$ be a [[connection|Connection]] on the tangent bundle $$\T M$$ to a Riemannian manifold $$(M,g).$$ We call the connection //metric// if for all $$X,Y$$ and $$Z$$ it satisfies
 
 $$
 X\langle Y,Z\rangle =
 \langle \nabla_X Y,Z\rangle + \langle Y, \nabla_X Z\rangle.
 $$
+
+This means that $$g$$ is parallel with respect to $$\nabla$$ vor every $$X,$$ i.e. $$\nabla_X g=0$$ with the [[induced connection|Connections on tensor bundles]].

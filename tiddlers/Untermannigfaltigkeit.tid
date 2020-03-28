@@ -1,7 +1,7 @@
 created: 20180708183242867
 creator: Leander
 list: [[Mannigfaltigkeit als lokale Nullstellenmenge]] [[Mannigfaltigkeiten als Graphen]] [[Mannigfaltigkeit als Bild eines Homöomorphismus]] [[Parameterdarstellung von Mannigfaltigkeiten]] Atlas [[Transition function]] [[Gleichungsdefinierte Mannigfaltigkeiten]] Tangentialvektor [[Tangentialraum von Untermannigfaltigkeiten]] Normalenvektor [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Integrale über Untermannigfaltigkeiten des Rn]] [[Kompaktum mit glattem Rand]] [[Extrema auf Mannigfaltigkeiten]]
-modified: 20200310005716654
+modified: 20200327185821735
 modifier: Leander
 tags: Differentialgeometrie
 title: Untermannigfaltigkeit
@@ -23,6 +23,6 @@ $$
 
 The tangent space $$\T_p M$$ of $$M\subset N$$ can be viewed naturally as a vector subspace of $$\T_p N$$ using the injective differential $$\D_p i$$ of the inclusion map $$i\colon M\hookrightarrow N.$$
 
-* If $$M$$ is given locally as the image of an immersion $$f\colon\R^m\to N,$$ then $$\T_p M$$ is the image of $$\D_{f^{-1}(p)}f.$$
+* If $$M$$ is given locally as the image of an immersion $$f\colon\R^m\to N,$$ then $$\T_p M = \D_{f^{-1}(p)}f(\R^m).$$
 
 * If $$M$$ is given locally as the zero set of a submersion $$f\colon N\to\R^{n-m},$$ then $$\T_p M=\ker \D_p f.$$

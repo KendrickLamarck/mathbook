@@ -1,7 +1,8 @@
 created: 20191214195429483
-modified: 20191216213443068
+modified: 20200316231341268
 tags: [[Integrals over manifolds]] no-toc
 title: Volume integral
+type: text/vnd.tiddlywiki
 
 On a manifold with a specified [[volume form|Volume form]] $$\varOmega$$ (in particular: a Riemannian manifold), we define the volume integral of a function $$f\in\mathcal C^\infty_\mathrm c M$$ as
 
@@ -9,4 +10,6 @@ $$
 \int_M f \,\d\vol \coloneqq \int_M f\varOmega = \int_M \star f.
 $$
 
-This integral is independent of orientation: $$\int_{-M} f \,\d\vol = \int_M f \,\d\vol.$$ {{Volume of manifolds}}
+This integral is independent of orientation if we keep the Riemannian: $$\int_{-M} f \,\d\vol = \int_M f \,\d\vol.$$
+
+{{Volume of manifolds}}

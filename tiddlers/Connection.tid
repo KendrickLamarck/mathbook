@@ -1,6 +1,6 @@
 created: 20191220195817702
 list: [[Metric connection]] Torsion [[Levi-Civita connection]] [[Christoffel symbols]] [[Covariant derivative]] Holonomy [[Parallel transport]]
-modified: 20200215172826327
+modified: 20200321224546933
 tags: Differentialgeometrie
 title: Connection
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 Given a [[vector bundle|Vector bundle]] $$E \to M,$$ a connection on $$E$$ is a bilinear map 
 
 $$
-\nabla\colon\mathcal X(M)\times\Gamma(E)\to \Gamma(E),\quad
+\nabla\colon\mathfrak X(M)\times\Gamma(E)\to \Gamma(E),\quad
 (X,\sigma)\mapsto\nabla_X\sigma,
 $$
 
@@ -19,7 +19,9 @@ $$
 \nabla_X(f\sigma) = (Xf)\sigma + f \nabla_X \sigma.
 $$
 
-We call $$\nabla_X \sigma$$ the //covariant derivative// of $$\sigma.$$
+* The dependence on $$X$$ is pointwise, so we write $$(\nabla_X \sigma)_p = \nabla_{X_p}\sigma.$$
+* This pointwise dependence also means that we can view a connection as a map $$\nabla\colon \Gamma(E) \to \Gamma(E \otimes \T^* M).$$
+* If $$\sigma$$ and $$\tau$$ agree locally along a curve with $$\gamma'(0) = X_p,$$ then $$\nabla_{X_p}\sigma = \nabla_{X_p}\tau.$$
 
 !! Torsion
 {{Torsion}}
@@ -31,12 +33,4 @@ We call $$\nabla_X \sigma$$ the //covariant derivative// of $$\sigma.$$
 {{Levi-Civita connection}}
 
 !! In Coordinates
-
-Let $$U$$ be a coordinate neighborhood for $$M^m$$ and a trivializing neighborhood for $$E$$ and let $$\partial_i,\ i=1,\dots,m$$ be a frame for $$\T M$$ and $$e_a,\ a=1,\dots,\rank E.$$ Then for $$X=\sum v^i \partial_i$$ and $$\sigma=\sum \sigma^a e_a$$ we have
-
-$$
-\nabla_X \sigma = \sum_{i,b} v^i \Bigl(
-\partial_i\sigma^b+\sum_a \varGamma_{ia}^{\,b} \sigma^a \Bigr) e_b
-$$
-
-and any collection of smooth functions $$\varGamma_{ia}^{\,b}$$ describes a connection in this neighborhood.
+{{Christoffel symbols}}

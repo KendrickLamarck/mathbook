@@ -1,10 +1,10 @@
 created: 20191116225728237
-modified: 20200311213825808
+modified: 20200321224047835
 tags: Differentialgeometrie
 title: Vector bundle
 type: text/vnd.tiddlywiki
 
-A bundle over a //base space// $$M$$ consists of a //total space// $$E$$ with a projection map $$\pi\colon E\to M$$ and we often simply refer to $$E$$ as the bundle.
+A bundle over a //base space// $$M$$ consists of a //total space// $$E$$ with a projection map $$\pi\colon E\to M.$$ We often simply refer to $$E$$ as the bundle.
 
 * The //fiber// over $$p\in M$$ is the preimage $$\pi^{-1}\{p\}\eqqcolon E_p.$$
 * If $$S \subset M,$$ we write $$E_S$$ for the restriction $$\pi_S \colon \pi^{-1}\{S\} = E_S \to S.$$

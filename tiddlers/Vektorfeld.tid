@@ -1,5 +1,5 @@
 created: 20191112213934852
-modified: 20200313202740282
+modified: 20200325225811117
 tags: Differentialgeometrie
 title: Vektorfeld
 type: text/vnd.tiddlywiki
@@ -17,5 +17,5 @@ Der Raum der Vektorfelder $$\mathfrak X(M)$$ ist damit ein [[Modul]] über dem R
 
 !! Verknüpfte Vektorfelder
 {{Verknüpfte Vektorfelder}}
-!! Lie algebra
+!! Lie-algebra
 {{Lie-Algebra der Vektorfelder}}

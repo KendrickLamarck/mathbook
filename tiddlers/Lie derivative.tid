@@ -1,5 +1,5 @@
 created: 20191213213736739
-modified: 20200315003837130
+modified: 20200327200638298
 tags: Differentialgeometrie
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -12,7 +12,9 @@ If $$X,Y\in\mathfrak X(M)$$ and $$\theta_t$$ is the [[local flow|Local flow]] of
 
 $$
 (\L_X Y)_p \coloneqq
-\fracderiv{}{t}\Bigr|_{t=0} \theta_{-t*}\left(Y_{\theta_t(p)}\right) \in \T_p M.
+\fracderiv{}{t}\Bigr|_{t=0}
+  \theta_{-t*}{\left(Y_{\theta_t(p)}\right)}
+\in \T_p M.
 $$
 
 !!! Properties
@@ -21,30 +23,33 @@ $$
 
 * Suppose $$f\colon M^m \to N^n$$ is a smooth map and $$Y\in\mathfrak X(N)$$ is $$f$$-[[related|Verknüpfte Vektorfelder]] to $$X\in\mathfrak X(M)$$ while $$Y'$$ is $$f$$-related to $$X'.$$ Then $$[Y,Y']$$ is $$f$$-related to $$[X,X'].$$
 
+* {{Lie bracket and commuting flows}}
+
 !! Differential forms
 
 Let $$\omega\in\Omega^k(M),$$ $$X\in\mathfrak X(M)$$ and let $$\theta_t$$ be the local flow of $$X$$ around $$p.$$ We define
 
 $$
 (\L_X \omega)_p \coloneqq
-\fracderiv{}{t}\Bigr|_{t=0} \theta_t^* \omega_{\theta_t(p)} = 
-\fracderiv{}{t}\Bigr|_{t=0} (\theta_t^* \omega)_p \in \Lambda^k \T_p M.
+\fracderiv{}{t}\Bigr|_{t=0}
+  (\theta_t^* \omega)_p \in \Lambda^k \T_p M.
 $$
 
 !!! Properties
 
 * <div>The Lie derivative is a derivation on $$\Omega^* M,$$ i.e. an $$\R$$-linear map satisfying
 $$
-\L_X(\omega\wedge\eta)=(\L_X\omega)\wedge\eta + \omega\wedge(\L_X\eta).
+\L_X(\omega\wedge\eta)=
+  (\L_X\omega)\wedge\eta + \omega\wedge(\L_X\eta).
 $$</div>
 
 * It commutes with the exterior derivative, i.e. $$\L_X(\d\omega)=\d(\L_X\omega).$$
 
 * <div>It satisfies the following product formula: for a $$k$$-form $$\omega$$ applied to $$k$$ vector fields $$Y_i\in\mathfrak X(M),$$ we have
 $$\begin{aligned}
-&\phantom{=} \L_X(\omega(Y_1,\dots,Y_k)) \\[-10mu]
-&=(\L_X \omega)(Y_1,\dots,Y_k)+
-\sum_{i=1}^k \omega(Y_1,\dots,\L_X Y_i,\dots,Y_k).
+  &\phantom{=} (\L_X\omega)(Y_1,\dots,Y_k) \\[-10mu]
+  &=X(\omega(Y_1,\dots,Y_k))-
+    \sum_{i=1}^k \omega(Y_1,\dots,[X,Y_i],\dots,Y_k).
 \end{aligned}$$</div>
 
 * For any vector field $$X$$ we have $$\L_X = \d \iota_X + \iota_X \d$$ (Cartan's magic formula).

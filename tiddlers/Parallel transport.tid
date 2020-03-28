@@ -1,10 +1,10 @@
 created: 20200213232354416
-modified: 20200214000714832
+modified: 20200325204258755
 tags: Connection
 title: Parallel transport
 type: text/vnd.tiddlywiki
 
-We say a section $$\sigma$$ of a [[vector bundle|Vector bundle]] $$E\to M$$ is //parallel// along a curve $$\gamma\colon I\to M$$ from $$p$$ to $$q$$ (with respect to $$\nabla$$) if the covariant derivative vanishes:
+We say a section $$\sigma$$ of a [[vector bundle|Vector bundle]] $$E\to M$$ is //parallel// along a curve $$\gamma\colon I\to M$$ from $$p$$ to $$q$$ (with respect to $$\nabla$$) if the [[covariant derivative|Covariant derivative]] vanishes:
 
 $$
 \frac{\D}{\d t}\sigma=\nabla_{\dot\gamma}\sigma=0.
@@ -18,7 +18,7 @@ $$
 
 * The parallel transport map is an invertible linear map.
 * It suffices for $$\gamma$$ to be piecewise smooth, since we can compose the parallel transport maps along each smooth piece.
-* If $$\nabla$$ is a metric connection on $$\T M$$, the parallel transport map is orthogonal. If $$M$$ is orientable, it is also orientation-preserving.
+* $$\nabla$$ is a metric connection on $$\T M,$$ if and only if for all parallel vector fields $$X$$ and $$Y$$ the inner product $$\langle X,Y \rangle$$ is constant, i.e. the parallel transport map is orthogonal. If $$M$$ is orientable, it is also orientation-preserving.
 * If $$\nabla$$ and $$\tilde\nabla$$ are two metric connections, their parallel transport maps along $$\gamma$$ differ only by a rotation. The torsion-free Levi-Civita connection is in some sense the connection for which parallel fields rotate the least.
 
 !! Holonomy

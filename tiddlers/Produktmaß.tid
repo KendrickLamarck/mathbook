@@ -1,8 +1,7 @@
 created: 20190128151819159
 creator: Leander
-modified: 20190505113446274
+modified: 20200316005021616
 modifier: Leander
-revision: 0
 tags: Maß
 title: Produktmaß
 type: text/vnd.tiddlywiki
@@ -27,5 +26,5 @@ und $$A_{\omega_1}^{(1)}$$ analog, so gilt
 
 $$
 \mu(A)=\int_{\Omega_2}
-\mu_1\left( A_{\omega_2}^{(2)} \right)\,\mu_2(\mathrm d\omega_2).
+\mu_1{\left( A_{\omega_2}^{(2)} \right)}\,\mu_2(\mathrm d\omega_2).
 $$

@@ -1,6 +1,6 @@
 created: 20191114195905882
 list: [[Tangent bundle]] [[Cotangent space]]
-modified: 20200215172826721
+modified: 20200317213936713
 tags: Differentialgeometrie
 title: Tangent space
 type: text/vnd.tiddlywiki
@@ -23,7 +23,7 @@ is an isomorphism. The $$\fracpartial{}{x_i}$$ are a [[basis|Basis]] of $$\T_p\R
 
 $$
 \partial_i=\partial_{i,p}\coloneqq
-\varphi^{-1}_*\left(\fracpartial{}{x_i}\right).
+\varphi^{-1}_*{\left(\fracpartial{}{x_i}\right)}.
 $$
 
 Suppose a function $$f\in\mathcal C^\infty(U)$$ has coordinate expression
@@ -32,8 +32,8 @@ then at $$p\in U$$ we get
 
 $$
 \partial_i f=
-\varphi^{-1}_*\left(\fracpartial{}{x_i}\right)(f)=
-\fracpartial{}{x_i}\left(f\circ\varphi^{-1}\right).
+\varphi^{-1}_*{\left(\fracpartial{}{x_i}\right)}(f)=
+\fracpartial{}{x_i}{\left(f\circ\varphi^{-1}\right)}.
 $$
 
 For the real-valued functions $$x_i=\pi_i\circ\varphi$$ in particular we find

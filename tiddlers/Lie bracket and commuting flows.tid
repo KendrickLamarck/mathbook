@@ -1,0 +1,7 @@
+created: 20200327200242994
+modified: 20200327200615980
+tags: Flow
+title: Lie bracket and commuting flows
+type: text/vnd.tiddlywiki
+
+Let $$X,Y \in \mathfrak X(M)$$ with local flows $$\theta$$ and $$\varphi$$ respectively. Then $$[X,Y]=0$$ if and only if $$\theta_t \circ \varphi_s = \varphi_s \circ \theta_t$$ for some sufficiently small $$s$$ and $$t.$$

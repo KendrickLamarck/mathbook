@@ -1,6 +1,6 @@
 created: 20191112232513190
 list: [[Pullback of Riemannian metrics]] [[Pullback of one-forms]] [[Pullback of differential forms]]
-modified: 20200311212732364
+modified: 20200323200039141
 tags: Differentialgeometrie
 title: Pullback
 type: text/vnd.tiddlywiki
@@ -26,3 +26,7 @@ and similarly for $$\mathcal C^\infty(N)\to\mathcal C^\infty(M).$$
 !! Differential forms
 
 {{Pullback of differential forms}}
+
+!! Connections
+
+{{Pullback of the Levi-Civita connection}}

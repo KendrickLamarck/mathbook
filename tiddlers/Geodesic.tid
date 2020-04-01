@@ -1,5 +1,5 @@
 created: 20200326004008380
-modified: 20200327163244499
+modified: 20200330014515684
 tags: Differentialgeometrie
 title: Geodesic
 type: text/vnd.tiddlywiki
@@ -23,7 +23,7 @@ $$
 If $$x_i(t)$$ denote the components of $$\varphi(\gamma(t))$$ in a chart $$(U,\varphi),$$ the geodesic equations are given explicitly by
 
 $$
-\ddot x_k + \sum_{i,j} \varGamma_{ij}^{\,k}(x) \dot x_i \dot x_j = 0.
+\ddot x_k + \sum_{i,j} {\varGamma^{\,k}}_{ij}(x) \dot x_i \dot x_j = 0.
 $$
 
 !! Geodesic completeness

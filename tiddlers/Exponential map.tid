@@ -1,5 +1,5 @@
 created: 20200326012606051
-modified: 20200327183847086
+modified: 20200330014544319
 tags: Geodesic
 title: Exponential map
 type: text/vnd.tiddlywiki
@@ -23,6 +23,6 @@ The dependencies on $$X_p$$ and $$p$$ are smooth, so the maps are smooth and fit
 Identifying $$\T_p M$$ with $$\R^m$$ by picking an orthonormal basis $$\{e_i\}$$ makes $$\exp_p^{-1}$$ a coordinate chart on $$V.$$ They are called (Riemannian, geodesic) //normal coordinates.//
 
 * Any geodesic through $$p$$ is represented by a line through the origin.
-* All christoffel symbols $$\varGamma_{ij}^{\,k}$$ vanish at $$p.$$
+* All christoffel symbols $${\varGamma^{\,k}}_{ij}$$ vanish at $$p.$$
 * For the metric tensor, we get $$g_{ij}=\delta_{ij}$$ at $$p.$$
 * All partial derivatives of $$g_{ij}$$ vanish at $$p.$$

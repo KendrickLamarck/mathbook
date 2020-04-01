@@ -1,0 +1,11 @@
+created: 20200331035148790
+modified: 20200401044239890
+tags: [[Riemannian curvature]] no-toc
+title: Bianchi identity
+type: text/vnd.tiddlywiki
+
+Consider the [[covariant derivative|Connections on tensor bundles]] $$(\nabla_X R)(Y,Z)W$$ of the [[Riemannian curvature]] operator $$R$$ viewed as a section of the tensor bundle $$(\T^* M)^{\otimes 3} \otimes \T M.$$ The //(second// or //differential) Bianchi identity// states that
+
+$$
+(\nabla_X R)(Y,Z) + (\nabla_Y R)(Z,X) + (\nabla_Z R)(X,Y) = 0.
+$$

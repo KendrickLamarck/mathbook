@@ -1,5 +1,6 @@
 created: 20200116215220084
-modified: 20200215172826810
+list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]]
+modified: 20200401050715466
 tags: Differentialgeometrie
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
@@ -25,7 +26,7 @@ This can be defined in the same way for any connection $$\nabla$$ on a [[vector 
 
 *# $$R(X,Y) = -R(Y,X),$$
 *# $$\langle R(X,Y)Z, W\rangle= \langle R(X,Y)W, Z\rangle,$$
-*# $$R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0,$$
+*# $$R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0,$$ @@float:right;(first Bianchi identity)@@
 *# $$\langle R(X,Y)Z, W\rangle= \langle R(Z,W)X, Y\rangle.$$
 
 * <div>Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\char"22c0_2 \T_p M$$
@@ -35,3 +36,26 @@ S(X\wedge Y,Z\wedge W)\coloneqq -\langle R(X,Y)Z,W\rangle
 $$
 
 extended by bilinearity to non-simple 2-vectors.</div>
+
+* {{Bianchi identity}}
+
+!! In coordinates
+
+In coordinates $$(U, \varphi)$$ with respect to the coordinate frame $$\{\partial_i\},$$ the curvature operator and curvature tensor have components given by
+
+$$\begin{aligned}
+R(\partial_k, \partial_l) \partial_i &\eqqcolon 
+\sum {{R_i}^j}_{kl} \partial_j, \\
+\langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &\eqqcolon
+R_{ijkl} = \sum_m g_{jm} {{R_i}^m}_{kl},
+\end{aligned}$$
+
+where
+
+$$
+{{R_i}^j}_{kl} =
+\partial_k {\varGamma^{\,j}}_{il} - \partial_l {\varGamma^{\,j}}_{ik}
++ \sum_m \left(
+{\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -
+{\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml} \right)
+$$

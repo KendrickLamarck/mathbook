@@ -1,5 +1,5 @@
 created: 20200127225524137
-modified: 20200213232318729
+modified: 20200401050704947
 tags: [[Riemannian curvature]]
 title: Sectional curvature
 type: text/vnd.tiddlywiki
@@ -18,6 +18,4 @@ K(\varPi) = \frac
 { \lang X \wedge Y, X \wedge Y \rang }.
 $$
 
-!! Isotropic manifolds
-
-{{Isotropic manifold}}
+The sectional curvatures of the two-planes in $$\T_p M$$ completely determine the [[Riemannian curvature]] operator/tensor at $$p\in M.$$

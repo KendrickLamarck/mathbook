@@ -1,0 +1,13 @@
+created: 20200401050137278
+modified: 20200401050652555
+tags: [[Riemannian curvature]]
+title: Manifolds of constant curvature
+type: text/vnd.tiddlywiki
+
+We say a Riemannian manifold $$M^m$$ has //constant curvature// if the sectional curvature $$K(\varPi)$$ is a constant $$K$$ for all planes $$\varPi$$ in all tangent spaces $$\T_p M.$$
+
+''Theorem.''
+Any two $$m$$-manifolds of the same constant curvature are locally isometric.
+
+''Theorem.''
+Any complete, connected $$m$$-manifold of constant curvature is, up to rescaling, isometric to the quotient of $$S^m$$ or $$\R^m$$ or $$H^m$$ by some discrete, fixed-point free group of isometries.

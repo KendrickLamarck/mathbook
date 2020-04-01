@@ -1,5 +1,5 @@
 created: 20191220220450471
-modified: 20200323191645461
+modified: 20200330014502628
 tags: Connection no-toc
 title: Torsion
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ $$
 
 * This expression is $$\mathcal C^\infty M$$-linear in both arguments.
 * We call $$\nabla$$ //torsion-free// or //symmetric// if $$T(X,Y)=0$$ For all $$X$$ and $$Y.$$
-* In terms of the [[Christoffel symbols]], a connection is torsion-free if and only if $$\varGamma_{ij}^{\,k}=\varGamma_{ji}^{\,k}.$$
+* In terms of the [[Christoffel symbols]], a connection is torsion-free if and only if $${\varGamma^{\,k}}_{ij}={\varGamma^{\,k}}_{ji}.$$

@@ -1,5 +1,5 @@
 created: 20191016204949012
-modified: 20200217131407941
+modified: 20200402071629420
 tags: 
 title: Aktuelles
 type: text/vnd.tiddlywiki
@@ -12,4 +12,6 @@ type: text/vnd.tiddlywiki
 * and for god's sake, don't forget to delete the ``customMacros`` function argument and variable from [[$:/plugins/tiddlywiki/katex/wrapper.js]] before updating and add it back in after. We need something better for that.
 
 * Use ``\substack`` in [[Lagrange-Interpolation]] and [[Explizites Einschrittverfahren]].
+
+* Use ``\operatorname*{ave}`` in [[Ricci curvature]].
 @@

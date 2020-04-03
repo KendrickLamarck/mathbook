@@ -1,6 +1,6 @@
 created: 20200116215220084
-list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]]
-modified: 20200401050715466
+list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]] [[Ricci curvature]] [[Scalar curvature]]
+modified: 20200403060411051
 tags: Differentialgeometrie
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
@@ -45,15 +45,15 @@ In coordinates $$(U, \varphi)$$ with respect to the coordinate frame $$\{\partia
 
 $$\begin{aligned}
 R(\partial_k, \partial_l) \partial_i &\eqqcolon 
-\sum {{R_i}^j}_{kl} \partial_j, \\
+\sum {R^j}_{ikl} \partial_j, \\
 \langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &\eqqcolon
-R_{ijkl} = \sum_m g_{jm} {{R_i}^m}_{kl},
+R_{ijkl} = \sum_m g_{jm} {R^m}_{ikl},
 \end{aligned}$$
 
 where
 
 $$
-{{R_i}^j}_{kl} =
+{R^j}_{ikl} =
 \partial_k {\varGamma^{\,j}}_{il} - \partial_l {\varGamma^{\,j}}_{ik}
 + \sum_m \left(
 {\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -

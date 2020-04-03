@@ -1,6 +1,6 @@
 created: 20200121205426144
-modified: 20200330014445730
-tags: Connection
+modified: 20200402052859753
+tags: Connection no-toc
 title: Christoffel symbols
 type: text/vnd.tiddlywiki
 
@@ -21,14 +21,13 @@ and any collection of smooth functions $${\varGamma^{\,b}}_{ia}$$ describes a co
 
 For the [[Levi-Civita connection]]:
 
-$$
-\varGamma_{ijk}\coloneqq g(\nabla_{\partial_i}\partial_j,\partial_k)
-$$
-
-$$
-{\varGamma^{\,k}}_{ij}=\sum_l \frac {g^{kl}} 2 \left(
+$$\begin{gathered}
+\varGamma_{ijk}\coloneqq g(\nabla_{\partial_i}\partial_j,\partial_k),
+\\
+{\varGamma^{\,k}}_{ij} = \sum_l g^{kl} \varGamma_{ijl} =
+\sum_l \frac {g^{kl}} 2 \left(
 \partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}
-\right)
-$$
+\right),
+\end{gathered}$$
 
 where $$g_{ij}=g(\partial_i,\partial_j)$$ are the entries of the gramian matrix $$G$$ and $$g^{ij}$$ are the entries of $$G^{-1}.$$

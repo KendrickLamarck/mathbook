@@ -1,0 +1,17 @@
+created: 20200402065854301
+modified: 20200403060506669
+tags: [[Riemannian curvature]]
+title: Ricci curvature
+type: text/vnd.tiddlywiki
+
+We define the //Ricci tensor// of a Riemannian manifold $$M^m$$ as the symmetric bilinear form
+
+$$
+\Ric(X,Y) \coloneqq \tr(Z\mapsto R(Z,X)Y).
+$$
+
+The //Ricci curvature// is the associated quadratic form.
+
+* In coordinates, we have the components $$\Ric_{ij}=\sum_k {R^k}_{ikj}.$$
+* $$\Ric(X,X)=(m-1) \operatorname{ave}_{\varPi\ni X} K(\varPi).$$
+* For $$m=3,$$ the Ricci curvature determines all sectional curvatures at $$p.$$

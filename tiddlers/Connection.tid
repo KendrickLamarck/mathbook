@@ -1,6 +1,6 @@
 created: 20191220195817702
 list: [[Metric connection]] Torsion [[Levi-Civita connection]] [[Christoffel symbols]] [[Covariant derivative]] Holonomy [[Parallel transport]]
-modified: 20200321224546933
+modified: 20200402052949364
 tags: Differentialgeometrie
 title: Connection
 type: text/vnd.tiddlywiki
@@ -20,7 +20,12 @@ $$
 $$
 
 * The dependence on $$X$$ is pointwise, so we write $$(\nabla_X \sigma)_p = \nabla_{X_p}\sigma.$$
-* This pointwise dependence also means that we can view a connection as a map $$\nabla\colon \Gamma(E) \to \Gamma(E \otimes \T^* M).$$
+
+* <div>This pointwise dependence also means that we can view a connection as a map
+$$
+\nabla\colon \Gamma(E) \to \Gamma(E \otimes \T^* M).
+$$</div>
+
 * If $$\sigma$$ and $$\tau$$ agree locally along a curve with $$\gamma'(0) = X_p,$$ then $$\nabla_{X_p}\sigma = \nabla_{X_p}\tau.$$
 
 !! Torsion

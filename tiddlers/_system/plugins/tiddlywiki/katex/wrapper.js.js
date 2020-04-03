@@ -119,5 +119,7 @@ var customMacros = {
     "\\eps": "\\operatorname{eps}",
     "\\gl": "\\operatorname{gl}",
     "\\rd": "\\operatorname{rd}",
+    "\\tr": "\\operatorname{tr}",
+    "\\Ric": "\\operatorname{Ric}",
     "\\grad": "\\operatorname{grad}"
 };

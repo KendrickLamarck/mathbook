@@ -1,5 +1,5 @@
 created: 20200213232741256
-modified: 20200321211927949
+modified: 20200402184516406
 tags: Connection
 title: Covariant derivative
 type: text/vnd.tiddlywiki
@@ -18,7 +18,7 @@ If $$X$$ is any vector field, we also call $$\nabla_X \sigma$$ the covariant der
 
 Let $$M^m$$ be a smooth submanifold of $$\R^n$$. Let $$X$$ be a vector field on $$\R^n$$ restricted to $$M.$$ At every point $$p \in M$$ there is a decomposition $$\T_p \R^n = \T_p M \oplus \mathrm N_p M$$ into the tangent and normal parts and we write the projections to these parts as $$X_p=\pi^\parallel X_p+\pi^\perp X_p.$$
 
-Now consider a curve $$\gamma$$ in $$M.$$ Then we can take the derivative (conflating $$X$$ and $$X\circ\gamma$$) $$\d X / \d t$$ of $$X$$ along $$\gamma$$ and we define the //covariant derivative// of $$X$$ along $$\gamma$$ as the vector field
+Now consider a curve $$\gamma$$ in $$M.$$ Then we can take the derivative $$\d X / \d t$$ (conflating $$X$$ and $$X\circ\gamma$$) of $$X$$ along $$\gamma$$ and we define the //covariant derivative// of $$X$$ along $$\gamma$$ as the vector field
 
 $$
 \frac{\D X}{\d t} \coloneqq \pi^\parallel {\left( \frac{\d X}{\d t} \right)}.

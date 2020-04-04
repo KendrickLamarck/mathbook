@@ -1,6 +1,6 @@
 created: 20180724220500508
 creator: Leander
-modified: 20200327183129992
+modified: 20200404055745283
 modifier: Leander
 tags: Dualraum no-toc
 title: Duale Basis
@@ -30,7 +30,5 @@ $$</div>
 Wenn $$V$$ ein [[euklidischer Vektorraum|Euklidischer Vektorraum]] ist und $$\mathcal B=(v_1,\dots,v_n)$$ eine [[Orthonormalbasis]], dann ist $$v_i^*=\langle v_i,\cdot\rangle.$$ In diesem Fall gibt es einen kanonischen Isomorphismus
 
 $$
-\Psi\colon V\to V^*,\quad v\mapsto \langle v,\cdot\rangle,
+\Psi\colon V\to V^*,\quad v\mapsto \langle v,\cdot\rangle.
 $$
-
-da er durch das Skalarprodukt bestimmt ist.

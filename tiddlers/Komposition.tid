@@ -1,12 +1,11 @@
 created: 20171122193308620
 list: 
-modified: 20191216202104944
-revision: 0
+modified: 20200404051014917
 tags: Abbildung
 title: Komposition
 type: text/vnd.tiddlywiki
 
-Seien $$f\colon X \to U$$ und $$g:Y \to V$$ [[Abbildungen|Abbildung]]. Dann ist die Komposition von f mit g die Abbildung
+Seien $$f\colon X \to U$$ und $$g:Y \to V$$ [[Abbildungen|Abbildung]]. Dann ist die //Komposition// von $$f$$ mit $$g$$ die Abbildung
 $$
 g \circ f \colon f^{-1}(Y) \to V, \quad x \mapsto g(f(x)).
 $$

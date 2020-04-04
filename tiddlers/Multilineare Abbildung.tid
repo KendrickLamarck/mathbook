@@ -1,6 +1,6 @@
 created: 20180725193657212
 creator: Leander
-modified: 20200120215322312
+modified: 20200404053304163
 modifier: Leander
 tags: [[Lineare Algebra]]
 title: Multilineare Abbildung
@@ -12,9 +12,7 @@ $$
 V_k\to W,\quad v\mapsto F(v_1,\dots,v_{k-1},v,v_{k+1},\dots,v_p)
 $$
 
-[[linear|Lineare Abbildung]] ist.
-
-Die Menge der multilinearen Abbildungen $$V_1\times\dots\times V_p\to W$$ bildet zusammen mit den offensichtlichen Verknüpfungen einen $$K$$-Vektorraum, den wir mit
+[[linear|Lineare Abbildung]] ist. Die Menge der multilinearen Abbildungen $$V_1\times\dots\times V_p\to W$$ bildet zusammen mit den offensichtlichen Verknüpfungen einen $$K$$-Vektorraum, den wir mit
 
 $$
 \hom_p(V_1,\dots,V_p;W)

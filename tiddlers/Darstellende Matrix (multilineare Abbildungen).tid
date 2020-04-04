@@ -1,9 +1,8 @@
 caption: Darstellende Matrix
 created: 20180725194542422
 creator: Leander
-modified: 20191121224353865
+modified: 20200404053451133
 modifier: Leander
-revision: 0
 tags: [[Multilineare Abbildung]] no-toc
 title: Darstellende Matrix (multilineare Abbildungen)
 type: text/vnd.tiddlywiki
@@ -13,20 +12,14 @@ Sei $$F\colon V_1\times\dots\times V_p\to W$$ eine [[multilineare Abbildung|Mult
 $$
 \mathcal A_k=\left(v_1^{(k)},\dots,v_{d_k}^{(k)}\right),\quad\mathcal B=(w_1,\dots,w_{d'})$$
 
-[[Basen|Basis]] der [[Vektorräume|Vektorraum]] $$V_k$$ und $$W$$. Dann ist
-
-$$
-M_\mathcal B^{\mathcal A_1,\dots,\mathcal A_p}(F)\in K^{d_1\times\dots\times d_p\times d'}
-$$
-
-definiert durch
+[[Basen|Basis]] der [[Vektorräume|Vektorraum]] $$V_k$$ und $$W$$. Dann ist die darstellende Matrix $$M_\mathcal B^{\mathcal A_1,\dots,\mathcal A_p}(F)\in K^{d_1\times\dots\times d_p\times d'}$$ definiert durch
 
 $$
 F\left(v_{i_1}^{(1)},v_{i_2}^{(2)},\dots,v_{i_p}^{(p)}\right)=
-\sum_{j=1}^{d'} a_{i_1,i_2,\dots,i_p j} w_j.
+\sum_{j=1}^{d'} a_{i_1,i_2,\dots,i_p j} w_j
 $$
 
-Die Abbildung
+und die Abbildung
 
 $$
 M_\mathcal B^{\mathcal A_1,\dots,\mathcal A_p}\colon\hom_p(V_1,\dots,V_p;W)\to K^{d_1\times\dots\times d_p\times d'}

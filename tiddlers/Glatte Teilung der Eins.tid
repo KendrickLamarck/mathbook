@@ -1,14 +1,13 @@
 created: 20190104214316091
 creator: Leander
-modified: 20191011221030196
+modified: 20200405064705482
 modifier: Leander
-revision: 0
 tags: [[Haar'sches Maß]]
 title: Glatte Teilung der Eins
 type: text/vnd.tiddlywiki
 
 # Definiere $$g\colon\Bbb R\to\Bbb R,$$ $$
-g(t)=
+g(t)\coloneqq
 \begin{cases}
 \exp\left(\frac 1{t^2-1}\right) &\text{falls } |t|<1, \\
 0 &\text{sonst.}
@@ -16,22 +15,14 @@ g(t)=
 # Definiere $$G(t)\coloneqq\sum_{k\in\Bbb Z} \theta_k g(t).$$
 # Definiere $$h(t)\coloneqq g(t)/G(t).$$
 
-Dann ist $$h\in\mathcal C_\mathrm c^\infty(\Bbb R)$$ und es gilt
-
-$$
-\sum_{k\in \Bbb Z}\theta_k h=1.
-$$
+Dann ist $$h\in\mathcal C_\mathrm c^\infty(\Bbb R)$$ und es gilt$$\sum_{k\in \Bbb Z}\theta_k h=1.$$
 
 Für $$\Bbb R^d$$ definiere noch für $$k\in\Bbb Z^d$$
 
 $$
 \alpha_{k,\epsilon}\coloneqq
-\prod_{i=1}^d h\left(\frac{x_i}\epsilon-k_i\epsilon\right)=
-\bigotimes_{i=1}^d(\theta_{k_i\epsilon}h)\left(\frac x \epsilon\right).
+\prod_{i=1}^d h{\left(\frac{x_i}\epsilon-k_i\epsilon\right)} =
+\bigotimes_{i=1}^d(\theta_{k_i\epsilon}h){\left(\frac x \epsilon\right)}.
 $$
 
-Dann ist $$\alpha_{k,\epsilon}\in\mathcal C_\mathrm c^\infty(\Bbb R^d)$$ und
-
-$$
-\sum_{k\in\Bbb Z^d}\alpha_{k,\epsilon}=1.
-$$
+Dann ist $$\alpha_{k,\epsilon}\in\mathcal C_\mathrm c^\infty(\Bbb R^d)$$ und $$\sum_{k\in\Bbb Z^d}\alpha_{k,\epsilon}=1.$$

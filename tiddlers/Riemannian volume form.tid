@@ -1,21 +1,21 @@
 created: 20191201221207733
-modified: 20200319180204936
+modified: 20200407051208573
 tags: [[Differential form]] no-toc
 title: Riemannian volume form
 type: text/vnd.tiddlywiki
 
 For each $$p$$ in an oriented [[Riemannian manifold|Riemannian metric]] $$M^m$$ there is a unique $$\varOmega_p\in\Lambda^m\T_p M$$ such that $$\varOmega_p(e_1,\dots,e_m)=+1$$ for any oriented orthonormal basis $$(e_1,\dots,e_m)$$ for $$\T_p M.$$ Together they give the //Riemannian// [[volume form|Volume form]] $$\varOmega\in\Omega^m M,$$ which we can also write as $$\varOmega=\star 1.$$
 
-Let $$(\partial_1,\dots,\partial_m)$$ be the coordinate basis at $$p$$ induced by a chart $$(U,\varphi)$$ and $$G=(\langle \partial_i,\partial_j\rangle)$$ the gramian matrix. If $$A=(a_{ik})$$ is the matrix defined by $$\partial_i=\sum_k a_{ik}e_k,$$ we have $$G=A^\T A$$ and
+Let $$(\partial_1,\dots,\partial_m)$$ be the coordinate basis at $$p$$ induced by a chart $$(U,\varphi)$$ and $$g=(g_{ij})=(\langle \partial_i,\partial_j\rangle)$$ the gramian matrix. If $$A=(a_{ik})$$ is the matrix defined by $$\partial_i=\sum_k a_{ik}e_k,$$ we have $$g=A^\T A$$ and
 
 $$
-\varOmega_p(\partial_1,\dots,\partial_m) = \det A = \sqrt{\det G}
+\varOmega_p(\partial_1,\dots,\partial_m) = \det A = \sqrt{\det g}
 $$
 
 or equivalently the coordinate expression
 
 $$
-\varOmega = \sqrt{\det G} \,\d x_1 \wedge\dots\wedge \d x_m.
+\varOmega = \sqrt{\det g} \,\d x_1 \wedge\dots\wedge \d x_m.
 $$
 
 On an oriented Riemannian manifold $$(M^m,g)$$ any $$m$$-form $$\omega$$ is a multiple $$\omega=f\varOmega=\star f$$ of the volume form $$\varOmega,$$ where $$f\in\mathcal C^\infty M.$$

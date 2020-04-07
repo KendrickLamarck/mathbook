@@ -1,10 +1,10 @@
 created: 20190115154619841
 creator: Leander
-modified: 20191129162109903
+modified: 20200405065201968
 modifier: Leander
-revision: 0
 tags: Maß
 title: Bildmaß
+type: text/vnd.tiddlywiki
 
 Sei $$(\varOmega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]] und $$(\varOmega',\mathcal F')$$ ein weiterer [[messbarer Raum|Sigma-Algebra]]. Ferner sei $$f\colon\varOmega\to\varOmega'$$ eine [[messbare Funktion|Messbare Funktion]]. Wir definieren das //Bildmaß// $$\mu\circ f^{-1}\colon\mathcal F'\to[0,\infty]$$ auf $$(\varOmega',\mathcal F')$$ durch
 
@@ -21,4 +21,4 @@ und schreiben dafür auch $$\mu f^{-1}$$ oder $$f(\mu).$$ Es gilt:
 
 * Für jede messbare Funktion $$\phi\colon\varOmega'\to\Bbb R$$ gilt $$
 \phi\in\mathcal L^1(\varOmega',\mathcal F',\mu\circ f^{-1})\iff
-\phi\circ f \in\mathcal F^1(\varOmega,\mathcal F,\mu).$$
+\phi\circ f \in\mathcal L^1(\varOmega,\mathcal F,\mu).$$

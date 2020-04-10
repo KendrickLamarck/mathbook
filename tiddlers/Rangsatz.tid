@@ -1,6 +1,6 @@
 created: 20180708181124878
 creator: Leander
-modified: 20200309021741742
+modified: 20200409165659876
 modifier: Leander
 tags: [[Stetige Differenzierbarkeit]]
 title: Rangsatz
@@ -13,13 +13,7 @@ $$\begin{gathered}
 \Psi\colon W\supset U_2\to \tilde U_2\subset\mathbb R^m,
 \end{gathered}$$
 
-offener [[Umgebungen|Umgebung]] von $$p$$ bzw. $$f(p)$$ auf offene Umgebungen von $$0=\Phi(p)$$ in $$\mathbb R^n$$ bzw. von $$0=\Psi(f(p))\in\mathbb R^m,$$ so dass
-
-$$
-f(U_1)\subset U_2
-$$
-
-und für alle $$x\in \tilde U_1$$
+offener [[Umgebungen|Umgebung]] von $$p$$ bzw. $$f(p)$$ auf offene Umgebungen von $$0=\Phi(p)$$ in $$\mathbb R^n$$ bzw. von $$0=\Psi(f(p))\in\mathbb R^m,$$ so dass $$f(U_1)\subset U_2$$ und für alle $$x\in \tilde U_1$$
 
 $$
 \Psi\circ f\circ\Phi^{-1}(x_1,\dots,x_n)=(x_1,\dots,x_r,0,\dots,0).

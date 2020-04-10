@@ -1,5 +1,5 @@
 created: 20200213232354416
-modified: 20200325204258755
+modified: 20200408154634097
 tags: Connection
 title: Parallel transport
 type: text/vnd.tiddlywiki
@@ -23,3 +23,14 @@ $$
 
 !! Holonomy
 {{Holonomy}}
+
+!! Relation of connection and parallel transport
+
+Let $$T_t$$ be the parallel transport map coming from the Levi-Civita connection from $$\gamma(0)$$ to $$\gamma(t).$$ Then for a vector field $$Y,$$ we have
+
+$$
+\frac{\D Y}{\d t}\biggr|_{t=0} = \lim_{t \to 0}
+\frac{T_t^{-1}(Y_{\gamma(t)})-Y_{\gamma(0)}}
+     {t}
+= \frac{\d}{\d t} T_t^{-1}(Y_{\gamma(t)}).
+$$

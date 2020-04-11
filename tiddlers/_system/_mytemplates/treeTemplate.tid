@@ -1,10 +1,9 @@
 created: 20190103171210000
 creator: Leander
-modified: 20191201182535817
+modified: 20200411160853872
 modifier: Leander
-revision: 0
-tags: Templates
-title: Table of contents template
+title: $:/_mytemplates/treeTemplate
+type: text/vnd.tiddlywiki
 
 <div class="tc-table-of-contents">
 <$macrocall $name=toc tag={{!!title}} sort=!tag[no-toc]/>

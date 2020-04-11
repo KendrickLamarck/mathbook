@@ -1,0 +1,10 @@
+created: 20200411151711026
+modified: 20200411161515096
+tags: $:/tags/Macro
+title: $:/_mymacros/displaystyle
+type: text/vnd.tiddlywiki
+
+\define displaystyle(field)
+{{KaTeX macros}}
+<$latex text={{!!$field$}} displayMode="true"/>
+\end

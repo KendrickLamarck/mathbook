@@ -1,10 +1,10 @@
 created: 20180315143251840
 creator: Leander
 list: [[Topologischer Raum]] Spurtopologie Offenheit Abgeschlossenheit Umgebung [[Innerer Punkt]] [[Abgeschlossene Hülle]] Randpunkt [[Häufungspunkt (Mengen)]] [[Abgeschloffene Menge]] [[Hausdorff'scher Raum]] [[Regular topological space]] [[Normal topological space]] [[Stetigkeit und offene Urbilder]] Kompaktheit Zusammenhang Umgebungsfilter Embedding [[Product topology]] Second-countable [[Topological base]] [[Locally finite collection]] Refinement [[Paracompact space]] [[Locally compact space]]
-modified: 20200308211246811
+modified: 20200411160757413
 modifier: Leander
 tags: Mathematics
 title: Topologie
 type: text/vnd.tiddlywiki
 
-{{||Table of contents template}}
+{{||$:/_mytemplates/treeTemplate}}

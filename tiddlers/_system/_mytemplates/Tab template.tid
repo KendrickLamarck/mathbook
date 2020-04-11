@@ -1,8 +1,6 @@
 created: 20170825210538281
-modified: 20180410191954084
-revision: 0
-tags: Templates
-title: Tab template
+modified: 20200411160441693
+title: $:/_mytemplates/Tab template
 type: text/vnd.tiddlywiki
 
 <$list filter="[<currentTab>tags[]!title<currentTiddler>]">

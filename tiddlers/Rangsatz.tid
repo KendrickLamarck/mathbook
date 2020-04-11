@@ -1,6 +1,6 @@
 created: 20180708181124878
 creator: Leander
-modified: 20200409165659876
+modified: 20200410143411566
 modifier: Leander
 tags: [[Stetige Differenzierbarkeit]]
 title: Rangsatz
@@ -9,14 +9,14 @@ type: text/vnd.tiddlywiki
 Seien $$V,W$$ [[Banachräume|Banachraum]] der [[Dimensionen|Dimension]] $$n,m,\ G\subset V$$ [[offen|Offenheit]] und $$f\colon V\supset G\to W$$ $$k$$-mal [[stetig differenzierbar|Stetige Differenzierbarkeit]], $$1\le k\le +\infty.$$ $$f$$ sei von [[konstantem Rang|Konstanter Rang]] $$r.$$ Dann gibt es zu jedem $$p\in G$$ $$\mathcal C^k$$-[[Diffeomorphismen|Diffeomorphismus]]
 
 $$\begin{gathered}
-\Phi\colon V\supset U_1\to \tilde U_1\subset\mathbb R^n, \\
-\Psi\colon W\supset U_2\to \tilde U_2\subset\mathbb R^m,
+\varPhi\colon V\supset U_1\to \tilde U_1\subset\mathbb R^n, \\
+\varPsi\colon W\supset U_2\to \tilde U_2\subset\mathbb R^m
 \end{gathered}$$
 
-offener [[Umgebungen|Umgebung]] von $$p$$ bzw. $$f(p)$$ auf offene Umgebungen von $$0=\Phi(p)$$ in $$\mathbb R^n$$ bzw. von $$0=\Psi(f(p))\in\mathbb R^m,$$ so dass $$f(U_1)\subset U_2$$ und für alle $$x\in \tilde U_1$$
+offener [[Umgebungen|Umgebung]] von $$p$$ bzw. $$f(p)$$ auf offene Umgebungen von $$0=\varPhi(p)$$ in $$\mathbb R^n$$ bzw. von $$0=\varPsi(f(p))\in\mathbb R^m,$$ so dass $$f(U_1)\subset U_2$$ und für alle $$x\in \tilde U_1$$
 
 $$
-\Psi\circ f\circ\Phi^{-1}(x_1,\dots,x_n)=(x_1,\dots,x_r,0,\dots,0).
+\varPsi\circ f\circ\varPhi^{-1}(x_1,\dots,x_n)=(x_1,\dots,x_r,0,\dots,0).
 $$
 
 !! Manifolds

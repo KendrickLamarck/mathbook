@@ -1,11 +1,10 @@
 created: 20180315152240411
 creator: Leander
 list: [[Euclidean geometry]] [[Spherical geometry]] [[Hyperbolic geometry]] [[Projective geometry]] [[Möbius geometry]] [[Lie geometry]] [[Laguerre geometry]] [[Similarity geometry]] [[Affine geometry]] [[Elliptic geometry]] Volumen Subgeometry [[Hilbert metric]] [[Cayley-Klein metric]]
-modified: 20191109133805168
+modified: 20200411160823266
 modifier: Leander
-revision: 0
 tags: Mathematics
 title: Geometrie
 type: text/vnd.tiddlywiki
 
-{{||Table of contents template}}
+{{||$:/_mytemplates/treeTemplate}}

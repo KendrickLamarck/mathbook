@@ -1,8 +1,0 @@
-color: #0069ff
-created: 20170825231454404
-modified: 20180420154212613
-revision: 0
-title: Templates
-type: text/vnd.tiddlywiki
-
-<<list-links "[tag{!!title}]">>

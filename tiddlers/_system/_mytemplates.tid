@@ -1,0 +1,5 @@
+created: 20200411160434617
+list: $:/_mytemplates/treeTemplate $:/_mytemplates/transcludeSelfTemplate [[$:/_mytemplates/List titles contents template]] [[$:/_mytemplates/Tab template]]
+modified: 20200411160727690
+title: $:/_mytemplates
+type: text/vnd.tiddlywiki

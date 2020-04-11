@@ -1,8 +1,6 @@
 created: 20171009160757094
-modified: 20180410191952000
-revision: 0
-tags: Templates
-title: Checklist template
+modified: 20200411155959371
+title: $:/_mytemplates/checklistTemplate
 type: text/vnd.tiddlywiki
 
 <$list filter="[tag{!!title}!tag[Done]]">

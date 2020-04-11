@@ -1,7 +1,7 @@
 created: 20191112194812168
 creator: Leander
 list: [[Topologische Mannigfaltigkeit]] [[Manifold with boundary]] [[Closed manifold]] [[Transition function]] Atlas [[Smooth manifold]] [[Tangent space]] Pullback Pushforward Untermannigfaltigkeit Vektorfeld Flow [[Lie derivative]] [[Vector bundle]] Section [[Partition of unity]] [[Riemannian metric]] [[Graded algebra]] [[Exterior algebra]] [[Differential form]] [[Integrals over manifolds]] Connection Geodesic [[Riemannian curvature]] [[Untermannigfaltigkeiten des Rn]]
-modified: 20200326010926466
+modified: 20200411160827979
 modifier: Leander
 tags: Mathematics
 title: Differentialgeometrie
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 We usually only consider smooth, i.e. $$\mathcal C^\infty$$-[[manifolds|Smooth manifold]], but most things work for arbitrary classes $$\mathcal C^r$$ as well.
 
-{{||Table of contents template}}
+{{||$:/_mytemplates/treeTemplate}}

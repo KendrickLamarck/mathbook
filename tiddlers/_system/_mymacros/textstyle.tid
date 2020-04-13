@@ -1,9 +1,11 @@
 created: 20200411155210779
-modified: 20200411161436497
+modified: 20200413182255614
 tags: $:/tags/Macro
 title: $:/_mymacros/textstyle
 type: text/vnd.tiddlywiki
 
-\define textstyle(field)
-<$latex text={{!!$field$}} displayMode="false"/>
+\define displaystyle(tiddler:<<currentTiddler>> field:text)
+<$set name=latext tiddler=$tiddler$ field=$field$>
+<$latex text=<<latext>> displayMode="false"/>
+</$set>
 \end

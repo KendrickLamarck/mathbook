@@ -1,5 +1,6 @@
 created: 20191213213736739
-modified: 20200407104826544
+lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
+modified: 20200413182347645
 tags: Differentialgeometrie
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -24,6 +25,14 @@ $$
 * Suppose $$f\colon M^m \to N^n$$ is a smooth map and $$Y\in\mathfrak X(N)$$ is $$f$$-[[related|Verknüpfte Vektorfelder]] to $$X\in\mathfrak X(M)$$ while $$Y'$$ is $$f$$-related to $$X'.$$ Then $$[Y,Y']$$ is $$f$$-related to $$[X,X'].$$
 
 * {{Lie bracket and commuting flows}}
+
+* <div>If $$X$$ and $$Y$$ are given in coordiantes as $$\sum\alpha^i \partial_i$$ and $$\sum \beta^i \partial_i$$ respectively, the Lie bracket can be computed as
+
+$$
+\sum_{i,j}
+(\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i)
+\partial_i.
+$$</div>
 
 !! Differential forms
 

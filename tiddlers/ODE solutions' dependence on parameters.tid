@@ -1,20 +1,20 @@
 created: 20200411145645568
-modified: 20200411150333609
+modified: 20200413185556750
 tags: [[Gewöhnliche Differentialgleichung]]
 title: ODE solutions' dependence on parameters
 type: text/vnd.tiddlywiki
 
 {{KaTeX macros}}
 
-Suppose $$U \subset \R^m$$ is open and $$f\colon U \to \R^m$$ is a smooth function (weaker conditions are possible). For any point $$p\in U$$ there exists $$\varepsilon > 0,$$ a neighborhood $$V \subset U$$ of $$p,$$ and a smooth map $$x\colon \openI{-\varepsilon}{\varepsilon} \times V \to U$$ satisfying
+Suppose $$U \subset \R^m$$ is open and $$f\colon U \to \R^m$$ is a smooth function (weaker conditions are possible). For any point $$p\in U$$ there exists $$\varepsilon > 0,$$ a neighborhood $$V \subset U$$ of $$p,$$ and a smooth map $$x\colon \openI{-\varepsilon,\varepsilon} \times V \to U$$ satisfying
 
 $$
 \fracpartial{x}{t}(t,q)=f(x(t,q)), \quad x(0,q)=q
 $$
 
-for all $$t \in \openI{-\varepsilon}{\varepsilon}$$ and $$q \in V.$$
+for all $$t \in \openI{-\varepsilon,\varepsilon}$$ and $$q \in V.$$
 
-Let $$\tilde x\colon t \mapsto x(t+s,q)$$ for some $$s \in \openI{-\varepsilon}{\varepsilon}.$$ Then
+Let $$\tilde x\colon t \mapsto x(t+s,q)$$ for some $$s \in \openI{-\varepsilon,\varepsilon}.$$ Then
 
 $$
 \fracpartial{\tilde x}{t}(t,q)=f(\tilde x(t,q)) \quad \tilde x(0,q)=x(s,q),

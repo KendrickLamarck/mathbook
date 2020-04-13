@@ -1,5 +1,5 @@
 created: 20191114222446065
-modified: 20200411161251081
+modified: 20200413185530011
 title: KaTeX macros
 type: text/vnd.tiddlywiki
 
@@ -23,7 +23,7 @@ $$
 % \gdef\span{\operatorname{span}}
 \gdef\fracpartial#1#2{\frac{\partial #1}{\partial #2}} % New stuff
 \gdef\fracderiv#1#2{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
-\gdef\openI#1#2{{]{#1,#2}[}}
-\gdef\lopenI#1#2{{]{#1,#2}]}}
-\gdef\ropenI#1#2{{[{#1,#2}[}}
+\gdef\openI#1{{]{#1}[}}
+\gdef\lopenI#1{{]{#1}]}}
+\gdef\ropenI#1{{[{#1}[}}
 $$

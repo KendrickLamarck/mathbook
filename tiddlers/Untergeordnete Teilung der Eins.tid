@@ -1,17 +1,15 @@
 created: 20190205155532624
 creator: Leander
-modified: 20191229231634406
+modified: 20200414164710277
 modifier: Leander
-tags: [[Partition of unity]]
+tags: [[Partition of unity]] no-toc
 title: Untergeordnete Teilung der Eins
 type: text/vnd.tiddlywiki
 
-!! Elementar
-
+''Elementar.''
 Sei $$M$$ eine [[Mannigfaltigkeit|Untermannigfaltigkeit]]. Falls endlich viele [[lokale Parametrisierungen|Parameterdarstellung von Mannigfaltigkeiten]] $$\varphi_i\colon T_i\to V_i,\ i=1,\dots,m$$ existieren mit $$\bigcup_{i=1}^m V_i=M,$$ so nennen wir $$(\alpha_i\colon M\to[0,1])_{i=1,\dots,m}$$ eine der Überdeckung $$(V_i)_{i=1,\dots,m}$$ //untergeordnete Teilung der Eins,// falls $$\{\alpha_i\ne0\}\subseteq V_i,$$ $$\sum_{i=1}^m\alpha_i=1$$ auf $$M$$ und $$\alpha_i\circ\varphi_i$$ über jede kompakte Teilmenge von $$T_i$$ integrierbar ist.
 
-!! General
-
+''General.''
 Given any open cover $$\{U_\alpha\},$$ a partition of unity $$\{\psi_\beta\}$$ is //subordinate// to the cover $$\{U_\alpha\}$$ if for each $$\beta$$ there exists $$\alpha$$ such that $$\supp\psi_\beta\subseteq U_\alpha.$$
 
 ''Proposition.'' Given any open cover $$\{U_\alpha\}$$ of a manifold $$M^m,$$ there exists a partition of unity subordinate to this cover.

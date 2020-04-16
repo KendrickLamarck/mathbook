@@ -1,7 +1,7 @@
 created: 20191229225658673
 creator: Leander
-list: [[Untergeordnete Teilung der Eins]] [[Topological basis of manifolds]] [[Compact exhaustion of manifolds]]
-modified: 20200316012020202
+list: [[Untergeordnete Teilung der Eins]] [[Topological base of manifolds]] [[Compact exhaustion of manifolds]]
+modified: 20200414164954394
 modifier: Leander
 tags: Differentialgeometrie
 title: Partition of unity
@@ -14,3 +14,7 @@ A (smooth) //partition of unity// on a manifold $$M$$ is a collection of functio
 * $$\psi_\alpha\ge 0,$$
 * $$\{\supp\psi_\alpha\}$$ is [[locally finite|Locally finite collection]],
 * $$\sum\psi_\alpha=1.$$
+
+!! Subordinate partitions of unity
+
+{{Untergeordnete Teilung der Eins}}

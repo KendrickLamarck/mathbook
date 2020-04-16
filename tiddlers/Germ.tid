@@ -1,8 +1,8 @@
 created: 20191113194032904
-modified: 20191214191236388
-revision: 0
-tags: [[Smooth manifold]]
+modified: 20200414164002167
+tags: Manifold
 title: Germ
+type: text/vnd.tiddlywiki
 
 Let $$p$$ be a point in a [[smooth manifold|Smooth manifold]] $$M^m$$ and consider the class
 

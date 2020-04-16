@@ -1,5 +1,5 @@
 created: 20190216191811545
-modified: 20200311223214796
+modified: 20200414170556989
 tags: Differentialgeometrie
 title: Riemannian metric
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ A //Riemannian metric// on a [[smooth manifold|Smooth manifold]] $$M^m$$ is a po
 
 $$
 g\Bigl(\sum\alpha_i\partial_i, \sum\beta_j\partial_j\Bigr)=
-\sum_{ij} g_{ij}\alpha_i\beta_j.
+\sum_{i,j} g_{ij}\alpha_i\beta_j.
 $$
 
 At every $$p\in U,$$ $$(g_{ij})$$ is a symmetric positive definite matrix.

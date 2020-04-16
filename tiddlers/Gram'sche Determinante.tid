@@ -1,10 +1,10 @@
 created: 20180608220212175
 creator: Leander
-modified: 20180728122704069
+modified: 20200416201352198
 modifier: Leander
-revision: 0
 tags: Determinante
 title: Gram'sche Determinante
+type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[euklidischer|Euklidischer Vektorraum]] bzw. [[unitärer|Unitärer Vektorraum]] [[Vektorraum]] und $$v_1,\dots,v_m\in V.$$ Dann nennt man
 
@@ -12,6 +12,11 @@ $$
 G(v_1,\dots,v_m)\coloneqq\det(\langle v_i,v_j\rangle)_{i,j=1,\dots,m}
 $$
 
-die //Gram'sche// [[Determinante]] von $$v_1,\dots,v_m.$$
+die //Gram'sche// [[Determinante]] von $$v_1,\dots,v_m.$$ Es gilt:
 
-Es gilt $$G(v_1,\dots,v_m)\ge 0$$ und $$G(v_1,\dots,v_m)>0\iff(v_1,\dots,v_m)$$ [[linear unabhängig|Lineare Unabhängigkeit]].
+* $$G(v_1,\dots,v_m)\ge 0,$$
+* $$G(v_1,\dots,v_m)>0\iff(v_1,\dots,v_m)$$ [[linear unabhängig|Lineare Unabhängigkeit]].
+
+!! Volumen eines Spats
+
+{{Volumen eines Spats}}

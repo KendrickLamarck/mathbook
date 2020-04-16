@@ -1,0 +1,7 @@
+created: 20191229232334275
+modified: 20200414165152916
+tags: [[Partition of unity]] no-toc
+title: Topological base of manifolds
+type: text/vnd.tiddlywiki
+
+Every manifold $$M$$ has a countable [[base|Topological base]] consisting of coordinate neighborhoods with compact closure.

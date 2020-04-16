@@ -1,10 +1,10 @@
 created: 20181119224646574
 creator: Leander
-modified: 20191028152038482
+modified: 20200414150255023
 modifier: Leander
-revision: 0
 tags: Category no-toc
 title: Functor
+type: text/vnd.tiddlywiki
 
 A //(covariant) functor// $$F$$ from a [[category|Category]] $$\mathcal C$$ to a category $$\mathcal D$$, written as $$F\colon \mathcal C\to\mathcal D,$$ consists of:
 
@@ -16,4 +16,4 @@ A //(covariant) functor// $$F$$ from a [[category|Category]] $$\mathcal C$$ to a
 
 #* For all morphisms $$f\colon x\to y$$ and $$g\colon y\to z,\ F(g\circ f)=F(g)\circ F(f).$$
 
-A //contravariant functor// has the properties above, except that it reverses the direction of the morphisms, that is every morphism $$f\colon x\to y$$ in $$\mathcal C$$ must be assigned to a morphism $$F(f)\colon F(y)\to F(x)$$ in $$\mathcal D.$$
+A //contravariant functor// or //cofunctor// has the properties above, except that it reverses the direction of the morphisms, that is every morphism $$f\colon x\to y$$ in $$\mathcal C$$ must be assigned to a morphism $$F(f)\colon F(y)\to F(x)$$ in $$\mathcal D$$ such that $$F(g \circ f) = F(f) \circ F(g)$$ for $$f\colon x \to y$$ and $$g\colon y \to z.$$

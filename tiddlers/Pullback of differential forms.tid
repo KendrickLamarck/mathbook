@@ -1,5 +1,5 @@
 created: 20191129163342945
-modified: 20200311212601090
+modified: 20200414161928165
 tags: [[Differential form]] no-toc Pullback
 title: Pullback of differential forms
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ If $$f\colon M^m\to N^n$$ is a smooth map and $$\omega\in\Omega^k N$$ is a $$k$$
 
 $$
 (f^*\omega)_p(X_1,\dots,X_k)\coloneqq
-\omega_{f(p)}(\D_p f(X_1),\dots,\D_p f(X_k)).
+\omega_{f(p)}(f_* X_1,\dots,f_* X_k).
 $$
 
 It commutes with the wedge product, i.e. for $$f\colon M\to N,$$ and $$\omega,\eta\in\Omega^*N$$ we have

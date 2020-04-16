@@ -1,12 +1,13 @@
 created: 20191112195156861
-modified: 20200403053609699
-tags: [[Smooth manifold]]
+modified: 20200414164907004
+tags: Manifold no-toc
 title: Topologische Mannigfaltigkeit
 type: text/vnd.tiddlywiki
 
 A //topological $$m$$-manifold// is a [[second countable|Second-countable]] [[Hausdorff space|Hausdorff'scher Raum]] $$M=M^m$$ that is locally [[homeomorphic|Homöomorphismus]] to $$\R^m,$$ i.e. for all $$p\in M$$ there exists an open neighborhood $$U\ni p$$ and a homeomorphism $$\varphi\colon U\to\varphi(U)\subseteq\R^m.$$ The pair $$(U,\varphi)$$ is called a //(coordinate) chart// for $$M.$$
 
-A topological manifold $$M$$ is [[locally connected|Locally connected space]], [[locally compact|Locally compact space]], [[normal|Normal topological space]] and [[paracompact|Paracompact space]].
+* {{Topological properties of manifolds}}
 
-''Remark.''
-We sometimes replace "second countable" with "paracompact" in the definition, which is equivalent, except for allowing uncountably many components.
+* We sometimes replace "second countable" with "paracompact" in the definition, which is equivalent, except for allowing uncountably many components.
+
+* {{Closed manifold}}

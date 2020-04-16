@@ -1,6 +1,14 @@
 created: 20191121225031366
-modified: 20191121225031366
+modified: 20200416135142583
 tags: Tensorprodukt
 title: Duale Tensorprodukte
+type: text/vnd.tiddlywiki
 
-Der [[Dualraum]] des Tensorprodukts ist das Tensorprodukt der Dualräume: $$(V\otimes W)^*=V^*\otimes W^*.$$ Insbesondere ist $$(V^*)^{\otimes k}=\left(V^{\otimes k}\right)^*$$ und letzteres ist die Menge der linearen Abbildungen $$\hom(V^{\otimes k},K),$$ was wiederum die Menge $$\hom_k(V^k;K)$$ ist.
+Der [[Dualraum]] des Tensorprodukts ist das Tensorprodukt der Dualräume: $$(V\otimes W)^* \cong V^*\otimes W^*.$$ Der natürliche Isomorphismus ist gegeben durch
+
+$$
+\phi\colon V^* \otimes W^* \to (V\otimes W)^*,\quad
+\phi(f \otimes g)(v \otimes w)\coloneqq f(v)g(w).
+$$
+
+Insbesondere ist $$(V^*)^{\otimes k} \cong \left(V^{\otimes k}\right)^* = \hom(V^{\otimes k},K), \cong \hom_k(V^k;K).$$

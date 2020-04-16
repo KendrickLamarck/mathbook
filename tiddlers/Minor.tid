@@ -1,0 +1,25 @@
+created: 20200416195658048
+modified: 20200416200255827
+tags: Determinante
+title: Minor
+type: text/vnd.tiddlywiki
+
+Sei $$A \in K^{m \times n}.$$ Eine quadratische Matrix $$A'\in K^{k \times k}$$ heißt eine //$$k$$-reihige Teilmatrix// von $$A,$$ wenn $$A$$ durch Zeilen-und Spaltenvertauschungen in die Form
+
+$$\begin{pmatrix}
+A' & * \\
+*  & *
+\end{pmatrix}$$
+
+gebracht werden kann, was insbesondere der Fall ist, wenn $$A'$$ durch Löschung von Zeilen oder Spalten entstanden ist. $$\det A'$$ heißt ein //$$k$$-reihiger Minor.//
+
+''Satz.''
+Für $$0 < r \le \min\{m,n\}$$ sind äquivalent:
+
+* $$r=\Rang A,$$
+* Es gibt einen $$r$$-reihigen Minor $$\ne 0$$ und für $$k>r$$ ist jeder $$k$$-reihige Minor gleich $$0.$$
+
+Ebenso sind die beiden folgenden Bedingungen gleichwertig:
+
+* $$\Rang A \ge r,$$
+* Es gibt eine $$k$$-reihige Teilmatrix $$A'$$ von $$A$$ mit $$\det A' \ne 0.$$

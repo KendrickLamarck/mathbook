@@ -1,7 +1,8 @@
 created: 20191122221305032
-modified: 20191122224357889
+modified: 20200416212640550
 tags: [[Exterior algebra]] no-toc
 title: Hodge star
+type: text/vnd.tiddlywiki
 
 If $$V$$ is an $$m$$-dimensional [[euclidean vector space|Euklidischer Vektorraum]], then any $$k$$-plane has a unique orthogonal $$(m-k)$$-plane. This induces an isomorphism between $$\G_k V$$ and $$\G_{m-k} V.$$ It extends to a linear, norm-preserving isomorphism
 
@@ -9,12 +10,27 @@ $$
 \star\colon\Lambda_k V\to\Lambda_{m-k} V
 $$
 
-called the //Hodge star operator.// In particular, if $$(e_i)$$ is an [[oriented|Orientierung]] [[orthonormal basis|Orthonormalbasis]] for $$V,$$ then
+called the //Hodge star operator.//
+
+* <div>If $$(e_i)$$ is an [[oriented|Orientierung]] [[orthonormal basis|Orthonormalbasis]] for $$V,$$ then requiring that
 
 $$
-\star(e_1\wedge\dots\wedge e_k)=e_{k+1}\wedge\dots\wedge e_m.
+\star(e_{\sigma(1)} \wedge\dots\wedge e_{\sigma(k)}) =
+e_{\sigma(k+1)} \wedge\dots\wedge e_{\sigma(m)}.
 $$
 
+for every even permutation $$\sigma \in S_m$$ uniquely defines the Hodge star.</div>
+
+* <div>In the special cases $$k=0$$ or $$k=m$$ we define
+
+$$
+\star 1 \coloneqq e_1 \wedge\dots\wedge e_m,\quad
+\star (e_1 \wedge\dots\wedge e_m) \coloneqq 1.
+$$</div>
+
+* Applying the same construction to the dual basis $$(\omega^i)$$ gives a similar map between $$\Lambda^k V$$ and $$\Lambda^{m-k} V.$$
+
+''Examples.''
 In $$\R^3,$$ we have
 
 $$

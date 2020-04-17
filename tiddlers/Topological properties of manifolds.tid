@@ -1,5 +1,5 @@
 created: 20200414164904177
-modified: 20200415115443223
+modified: 20200417120238710
 tags: Differentialgeometrie
 title: Topological properties of manifolds
 type: text/vnd.tiddlywiki
@@ -10,7 +10,7 @@ A topological manifold $$M$$ is
 * [[locally compact|Locally compact space]],
 * [[normal|Normal topological space]] and
 * [[paracompact|Paracompact space]] and
-* a connected manifold is automatically path-connected.
+* every connected component is automatically path-connected.
 
 !! Base
 

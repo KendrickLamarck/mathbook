@@ -1,15 +1,13 @@
 created: 20191016204949012
-modified: 20200402071629420
+modified: 20200417115725243
 tags: 
 title: Aktuelles
 type: text/vnd.tiddlywiki
 
 @@color:red;
-!!! When updating to 5.1.22 
+!!! Whenever $$\KaTeX$$ is updated
 
-* delete [[$:/core/macros/toc]]
-
-* and for god's sake, don't forget to delete the ``customMacros`` function argument and variable from [[$:/plugins/tiddlywiki/katex/wrapper.js]] before updating and add it back in after. We need something better for that.
+* Delete the ``customMacros`` function argument and variable from [[$:/plugins/tiddlywiki/katex/wrapper.js]] before updating and add it back in after. We need something better for that.
 
 * Use ``\substack`` in [[Lagrange-Interpolation]] and [[Explizites Einschrittverfahren]].
 

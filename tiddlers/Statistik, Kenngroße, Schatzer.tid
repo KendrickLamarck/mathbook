@@ -1,0 +1,35 @@
+created: 20200421162141560
+modified: 20200421214308757
+tags: Statistik
+title: Statistik, Kenngröße, Schätzer
+type: text/vnd.tiddlywiki
+
+Sei $$(\mathcal X, \mathcal F, (\Bbb P_\vartheta)_{\vartheta\in\varTheta})$$ ein statistisches Modell und $$(\varSigma,\mathcal S)$$ ein weiterer messbarer Raum.
+
+* Eine messbare Abbildung $$S\colon (\mathcal X,\mathcal F) \to (\varSigma,\mathcal S)$$ heißt //Statistik.//
+* Eine Abbildung $$\tau\colon \varTheta \to \varSigma$$ heißt //Kenngröße.//
+* Eine Statistik $$T\colon \mathcal X \to \varSigma$$ heißt ein //Schätzer// für $$\tau.$$
+
+!! Erwartungstreue
+
+Ein Schätzer heißt //erwartungstreu,// falls
+
+$$
+\Bbb E_\vartheta[T] \coloneqq
+\int_\mathcal X T(x) \,\d\Bbb P_\vartheta(x) = \tau(\vartheta).
+$$
+
+!! Konsistenz
+
+Sei $$M^n=(\mathcal X^n, \mathcal F^n, (\Bbb P^n_\vartheta)_{\vartheta \in \varTheta})$$ eine Folge von statistischen Modellen, $$\tau\colon \varTheta \to \varSigma$$ eine Kenngröße und $$T_n\colon \mathcal X^n \to \varSigma$$ eine Folge von Schätzern. Dann heißt die Folge $$(T_n)$$ eine //konsistente Schätzfolge,// falls $$T_n \to \tau(\vartheta)$$ in $$\Bbb P_\vartheta$$-[[Wahrscheinlichkeit|Stochastische Konvergenz]] für $$\vartheta \in \varTheta.$$
+
+''Satz.''
+Für alle $$\vartheta \in \varTheta$$ gelte
+
+$$
+\Bbb E_{\Bbb P_\vartheta^n}[T_n(x)]
+\xrightarrow{n\to\infty} \tau(\vartheta) ,\quad
+V_{\Bbb P_\vartheta^n}(T_n(x))
+\xrightarrow{n\to\infty} 0.$$
+
+Dann ist $$(T_n)$$ eine konsistente Schätzfolge.

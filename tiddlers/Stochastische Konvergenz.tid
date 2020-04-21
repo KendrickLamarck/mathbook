@@ -1,10 +1,10 @@
 created: 20190607001940019
-modified: 20190616005200683
-revision: 0
+modified: 20200421221154312
 tags: Stochastik
 title: Stochastische Konvergenz
+type: text/vnd.tiddlywiki
 
-Seien $$X,X_1,X_2,\dots$$ [[Zufallsvariablen|Zufallsvariable]]. Wir sagen, die [[Folge]] $$(X_n)$$ //konvergiert in Wahrscheinlichkeit// oder //konvergiert stochastisch// gegen $$X,$$ falls gilt:
+Seien $$X,X_1,X_2,\dots$$ reellwertige [[Zufallsvariablen|Zufallsvariable]]. Wir sagen, die [[Folge]] $$(X_n)$$ //konvergiert in Wahrscheinlichkeit// oder //konvergiert stochastisch// gegen $$X,$$ falls gilt:
 
 $$
 \lim_{n\to\infty}\Bbb P(|X_n-X|>\epsilon)=0\qquad\forall\epsilon>0.

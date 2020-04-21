@@ -1,0 +1,12 @@
+created: 20200421201837119
+modified: 20200421211926614
+tags: Geometrie
+title: Simplicial complex
+type: text/vnd.tiddlywiki
+
+A //simplicial complex// is a finite set $$P$$ together with a set $$\mathcal S$$ of subsets $$S \subseteq P$$ with the following properties:
+
+* For every $$i \in P,$$ we have $$\{i\} \in \mathcal S.$$
+* If $$S \in \mathcal S$$ and $$T \subseteq S,\ T \ne 0,$$ then $$T \in \mathcal S.$$
+
+An element $$S \in \mathcal S$$ is called a //simplex// of $$\mathcal S$$ of dimension $$k$$ if the number of its elements is $$k+1.$$ The set of all $$k$$-dimensional simplices in $$\mathcal S$$ is called the //$$k$$-skeleton// $$\mathcal S^k$$ of $$\mathcal S.$$

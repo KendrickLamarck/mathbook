@@ -94,6 +94,7 @@ exports.katex = KaTeXWidget;
 var customMacros = {
     "\\RP": "\\R\\mathrm{P}",
     "\\C": "\\mathbb{C}",
+    "\\P": "\\mathbb{P}",
     "\\D": "\\mathrm{D}",
     "\\d": "\\mathrm{d}",
     "\\i": "\\mathrm{i}",

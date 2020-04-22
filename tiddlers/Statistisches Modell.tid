@@ -1,14 +1,16 @@
 created: 20200421160857082
-modified: 20200421163020869
+modified: 20200422222043319
 tags: Statistik
 title: Statistisches Modell
 type: text/vnd.tiddlywiki
 
-Ein //statistisches Modell// ist ein Tripel $$(\mathcal X,\mathcal F,\Bbb (\Bbb P_\vartheta)_{\vartheta\in\varTheta})$$ bestehend aus:
+Ein //statistisches Modell// ist ein Tripel $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ bestehend aus:
 
 * Einem Stichprobenraum $$\mathcal X,$$
 * Einer $$\sigma$$-Algebra $$\mathcal F$$ auf $$\mathcal X$$ als Algebra der Beobachtungen,
-* Einer Klasse $$\{\Bbb P_\vartheta\colon\vartheta\in\varTheta\}$$ von Wahrscheinlichkeitsmaßen auf $$(\mathcal X,\mathcal F),$$
+* Einer Klasse $$\{\P_\vartheta\colon\vartheta\in\varTheta\}$$ von Wahrscheinlichkeitsmaßen auf $$(\mathcal X,\mathcal F),$$
 * Einem Parameterraum $$\varTheta$$ mit mindestens zwei Elementen (typischerweise $$\varTheta\subseteq\R^d$$).
+
+!! Produktmodell
 
 {{Produktmodell}}

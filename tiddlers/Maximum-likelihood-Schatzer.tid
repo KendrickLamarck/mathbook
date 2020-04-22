@@ -1,0 +1,19 @@
+created: 20200422201831523
+modified: 20200422223229287
+tags: Statistik
+title: Maximum-likelihood-Schätzer
+type: text/vnd.tiddlywiki
+
+{{Standardmodell}}
+
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ ein Standardmodell mit Dichte $$\rho$$ wie in der Definition.
+
+* Die Funktion $$L_x\colon \varTheta \to \R_+$$ gegeben durch $$L_x(\vartheta)\coloneqq \rho(\vartheta,x)$$ heißt //Likelihoodfunktion// zum Beobachtungswert $$x \in \mathcal X.$$
+
+* <div>Ein Schätzer $$T\colon \mathcal X \to \varTheta$$ für die Kenngröße $$\tau$$ heißt //Maximum-Likelihood-Schätzer,// falls
+
+$$
+L_x(T(x)) = \max_{\vartheta \in \varTheta} L_x(\vartheta).
+$$</div>
+
+* Die Funktion $$l_x(\vartheta)\coloneqq \log L_x(\vartheta)$$ heißt //Log-Likelihoodfunktion.//

@@ -1,5 +1,5 @@
 created: 20200421161752016
-modified: 20200421163305747
+modified: 20200422114008126
 tags: Statistik
 title: Produktmodell
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ Sei $$(E,\mathcal E,(Q_\vartheta)_{\vartheta\in\varTheta})$$ ein statistisches M
 
 $$
 (\mathcal X,\mathcal F,
-(\Bbb P_\vartheta)_{\vartheta\in\varTheta}) \coloneqq
+(\P_\vartheta)_{\vartheta\in\varTheta}) \coloneqq
 (E^{\otimes n},\mathcal E^{\otimes n},
 (Q_\vartheta^{\otimes n})_{\vartheta\in\varTheta})
 $$

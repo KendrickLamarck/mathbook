@@ -1,6 +1,5 @@
 created: 20181211152143869
-modified: 20190509195403851
-revision: 0
+modified: 20200422122528354
 tags: Borel-sigma-Algebra
 title: Verteilungsfunktion
 type: text/vnd.tiddlywiki
@@ -11,9 +10,7 @@ $$
 F(t)-F(s)=\mu(]s,t])
 $$
 
-für alle $$s,t\in\mathbb R$$ mit $$s<t.$$
-
-Umgekehrt ist für jedes Maß $$\mu$$ auf $$(\Bbb R,\mathcal B)$$ mit $$\mu(]s,t])<\infty$$ für alle $$s<t$$ die Abbildung $$t\mapsto\mu(]s,t])$$ monoton steigend und rechtsseitig stetig.
+für alle $$s,t\in\mathbb R$$ mit $$s<t.$$ Umgekehrt ist für jedes Maß $$\mu$$ auf $$(\Bbb R,\mathcal B)$$ mit $$\mu(]s,t])<\infty$$ für alle $$s<t$$ die Abbildung $$t\mapsto\mu(]s,t])$$ monoton steigend und rechtsseitig stetig.
 
 Im Spezialfall $$F(\infty)-F(-\infty)=1,$$ also wenn $$\mu$$ ein [[Wahrscheinlichkeitsmaß]] ist, kann man o.E. voraussetzen, dass $$F(-\infty)=0$$ ist und man nennt $$F$$ die //Verteilungsfunktion// von $$\mu.$$
 

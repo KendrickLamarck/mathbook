@@ -1,8 +1,8 @@
 created: 20190705142851388
-modified: 20190705143103236
-revision: 0
-tags: Normalverteilung
+modified: 20200423124652838
+tags: Normalverteilung no-toc
 title: Dichte mehrdimensionaler Normalverteilungen
+type: text/vnd.tiddlywiki
 
 Ist $$\Sigma^2\in\R^{n\times n}$$ [[positiv definit|Positiv definite Matrix]], so besitzt die [[Normalverteilung|Mehrdimensionale Normalverteilung]] $$N(m,\Sigma^2)$$ die $$n$$-dimensionale [[Dichte]]
 

@@ -1,5 +1,5 @@
 created: 20200422201831523
-modified: 20200422223229287
+modified: 20200423123508584
 tags: Statistik
 title: Maximum-likelihood-Schätzer
 type: text/vnd.tiddlywiki
@@ -16,4 +16,4 @@ $$
 L_x(T(x)) = \max_{\vartheta \in \varTheta} L_x(\vartheta).
 $$</div>
 
-* Die Funktion $$l_x(\vartheta)\coloneqq \log L_x(\vartheta)$$ heißt //Log-Likelihoodfunktion.//
+* Die Funktion $$l_x(\vartheta)\coloneqq \log L_x(\vartheta)$$ heißt //Log-Likelihoodfunktion// und ist oft leichter abzuleiten als $$L_x$$ um das maximum zu finden.

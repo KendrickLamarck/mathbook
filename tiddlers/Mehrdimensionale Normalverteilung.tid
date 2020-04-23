@@ -1,8 +1,8 @@
 created: 20190705142923306
-modified: 20190705143637949
-revision: 0
+modified: 20200423124643799
 tags: Normalverteilung
 title: Mehrdimensionale Normalverteilung
+type: text/vnd.tiddlywiki
 
 Ein $$n$$-dimensionaler Zufallsvektor $$\Bbb X$$ heißt //standardnormalverteilt//, falls seine Komponenten $$X_1,\dots,X_n$$ [[unabhängig|Stochastische Unabhängigkeit]] $$N(0,1)$$-verteilt sind.
 
@@ -24,3 +24,11 @@ i\langle\lambda,m\rangle-
 \frac 1 2 \left\langle \lambda,\Sigma^2\lambda\right\rangle
 \right).
 $$</div>
+
+!! Dichte
+
+{{Dichte mehrdimensionaler Normalverteilungen}}
+
+!! Transformierte Normalverteilungen
+
+{{Transformierte mehrdimensionale Normalverteilungen}}

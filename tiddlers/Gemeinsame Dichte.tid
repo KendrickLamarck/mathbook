@@ -1,8 +1,8 @@
 created: 20190708232345343
-modified: 20191112212738529
-revision: 0
+modified: 20200423161323741
 tags: [[Gemeinsame Verteilung]]
 title: Gemeinsame Dichte
+type: text/vnd.tiddlywiki
 
 Eine [[gemeinsame Verteilungsfunktion|Gemeinsame Verteilungsfunktion]] heißt //absolutstetig,// wenn es eine gemeinsame [[Dichte]] $$f_\Bbb X\colon\R^n\to[0,\infty[$$ gibt, so dass
 
@@ -27,7 +27,7 @@ Besitzen $$X_1,\dots,X_n$$ die gemeinsame Dichte $$f_\Bbb X,$$ so besitzen alle 
 $$
 f_{X_i}(x)=\underbrace{\int_\R\cdots\int_\R}_{n-1}
 f_\Bbb X(y_1,\dots,y_{i-1},x,y_{i+1},\dots,y_n)
-\,\mathrm dy_n\cdots\mathrm dy_{i+1}\mathrm dy_{i-1}\cdots\mathrm dy_1.
+\,\mathrm dy_n\cdots\widehat{dy_{i}}\cdots\mathrm dy_1.
 $$
 
 !! Von einzelnen Dichten zur gemeinsamen

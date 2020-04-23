@@ -1,5 +1,5 @@
 created: 20200421160857082
-modified: 20200422222043319
+modified: 20200423114917499
 tags: Statistik
 title: Statistisches Modell
 type: text/vnd.tiddlywiki
@@ -14,3 +14,7 @@ Ein //statistisches Modell// ist ein Tripel $$(\mathcal X,\mathcal F,(\P_\varthe
 !! Produktmodell
 
 {{Produktmodell}}
+
+!! Standardmodell
+
+{{Standardmodell}}

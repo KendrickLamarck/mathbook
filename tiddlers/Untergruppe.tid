@@ -1,10 +1,9 @@
 created: 20171225224018887
 creator: Leander
-modified: 20191105225737735
+modified: 20200424210031418
 modifier: Leander
-revision: 0
 tags: Gruppe no-toc
 title: Untergruppe
 type: text/vnd.tiddlywiki
 
-Sei $$(G,\cdot)$$ eine [[Gruppe]] und $$G' \subset G$$ eine nichtleere Teilmenge. $$G'$$ heißt Untergruppe, wenn für $$a,b \in G'$$ auch $$a \cdot b \in G'$$ und $$a^{-1} \in G'$$. $$G'$$ mit der sogenannten induzierten Verknüpfung $$\cdot$$ ist dann wieder eine Gruppe.
+Sei $$(G,\cdot)$$ eine [[Gruppe]] und $$G' \subset G$$ eine nichtleere Teilmenge. $$G'$$ heißt Untergruppe, wenn für $$a,b \in G'$$ auch $$a \cdot b \in G'$$ und $$a^{-1} \in G'$$ sind. $$G'$$ mit der sogenannten induzierten Verknüpfung $$\cdot$$ ist dann wieder eine Gruppe. Wir schreiben $$G' < G.$$

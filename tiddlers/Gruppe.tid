@@ -1,7 +1,6 @@
 created: 20171225175847529
-list: Untergruppe [[Symmetrische Gruppe]] [[Orthogonale Gruppen]]
-modified: 20191105225741631
-revision: 0
+list: Untergruppe [[Group action]] Gruppenhomomorphismus Conjugation [[Symmetrische Gruppe]]
+modified: 20200425214218077
 tags: Algebra
 title: Gruppe
 type: text/vnd.tiddlywiki
@@ -13,18 +12,10 @@ Eine Menge $$G$$ zusammen mit einer [[Verknüpfung]] $$*$$ heißt Gruppe, wenn f
 #* $$e*a=a$$ für alle $$a \in G$$.
 #* Zu jedem $$a \in G$$ gibt es ein $$a' \in G$$ (inverses Element von $$a$$ genannt) mit $$a'*a=e$$.
 
-Die Gruppe heißt //abelsch// oder //kommutativ//, falls außerdem $$a*b = b*a$$ für alle $$a,b \in G$$.
+Die Gruppe heißt //abelsch// oder //kommutativ//, falls außerdem $$a*b = b*a$$ für alle $$a,b \in G.$$
 
-Das zweite Axiom kann man auch anders formulieren. Wir betrachten die Abbildungen
-
-$$
-\begin{aligned}
-\tau_a&\colon G\to G,\quad x \mapsto x\cdot a,\\
-_a\tau&\colon G\to G,\quad x \mapsto a\cdot x,
-\end{aligned}
-$$
-
-genannt Rechtstranslation und Linkstranslation. Ist $$(G,\cdot)$$ eine Gruppe, so sind für jedes $$a\in G$$ die Abbildungen $$\tau_a$$ und $$_a\tau$$ [[bijektiv|Bijektivität]]. Ist umgekehrt $$G$$ eine Menge mit einer assoziativen Verknüpfung, so folgt das zweite Axiom aus der [[Surjektivität]] von $$\tau_a$$ und $$_a\tau$$ für alle $$a\in G$$.
+* Eine endliche Gruppe $$G$$ mit $$n$$ Elementen hat //Ordnung// $$n.$$
+* Das //direkte Produkt// $$G \times H$$ von zwei Gruppen ist das kartesische Produkt mit komponentenweisen Gruppenverknüpfungen $$(g,h)(g',h')=(gg',hh').$$
 
 !! Untergruppe
 

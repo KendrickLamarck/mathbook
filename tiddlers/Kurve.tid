@@ -1,13 +1,14 @@
 created: 20180529172904078
 creator: Leander
-modified: 20191102213538172
+modified: 20200424181042312
 modifier: Leander
-revision: 0
 tags: [[Wichtige Funktionen]]
 title: Kurve
 type: text/vnd.tiddlywiki
 
-Eine [[stetige|Stetigkeit]] Abbildung $$f\colon\mathbb R\supseteq {]a,b[}\to W$$ nennt man //Kurve//.
+A //parametrized curve// in $$\R^n$$ is a smooth map $$\gamma\colon [a,b] \to \R^n.$$ The vector $$\gamma'(t) \in \R^n$$ is called the //velocity vector// of $$\gamma$$ at time $$t.$$
+
+An oriented //curve// in $$\R^n$$ is an equivalence class of parametrized curves under orientation-preserving [[reparametrization|Reparametrization]].
 
 !! Regular curve
 

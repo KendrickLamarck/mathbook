@@ -1,23 +1,12 @@
 created: 20171225224253553
 creator: Leander
-modified: 20180728192624652
+modified: 20200424212108762
 modifier: Leander
-revision: 0
 tags: Algebra
 title: Homomorphismus
 type: text/vnd.tiddlywiki
 
-Sind $$G$$ und $$H$$ [[Gruppen|Gruppe]] mit [[Verknüpfungen|Verknüpfung]] $$\cdot$$ und $$\odot$$, so heißt eine [[Abbildung]] $$\varphi\colon G \to H$$ Homomorphismus (von Gruppen), wenn für alle $$a,b \in G$$
-
-$$
-\varphi(a \cdot b) = \varphi(a) \odot \varphi(b).
-$$
-
-Es gilt:
-
-* $$\varphi(e_G) = e_H$$, wobei $$e_G$$ und $$e_H$$ die neutralen Elemente bezeichnen.
-* $$\varphi(a^{-1}) = \varphi(a)^{-1}$$ für alle $$a \in G$$.
-* Ist $$\varphi$$ [[Isomorphismus]], so ist auch die [[Umkehrabbildung]] $$\varphi^{-1}\colon H \to G$$ ein Homomorphismus.
+{{Gruppenhomomorphismus}}
 
 Für [[Ringe|Ring]] $$(R,+,\cdot)$$ und $$(S,\oplus,\odot)$$ muss zusätzlich gelten
 

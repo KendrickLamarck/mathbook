@@ -1,0 +1,26 @@
+caption: Homomorphismus
+created: 20200424212010043
+modified: 20200425205216480
+tags: Gruppe
+title: Gruppenhomomorphismus
+type: text/vnd.tiddlywiki
+
+Sind $$G$$ und $$H$$ [[Gruppen|Gruppe]] mit [[Verknüpfungen|Verknüpfung]] $$\cdot$$ und $$\odot$$, so heißt eine [[Abbildung]] $$\varphi\colon G \to H$$ Homomorphismus (von Gruppen), wenn für alle $$a,b \in G$$
+
+$$
+\varphi(a \cdot b) = \varphi(a) \odot \varphi(b).
+$$
+
+Es gilt:
+
+* $$\varphi(e_G) = e_H$$, wobei $$e_G$$ und $$e_H$$ die neutralen Elemente bezeichnen.
+* $$\varphi(a^{-1}) = \varphi(a)^{-1}$$ für alle $$a \in G$$.
+* <div>Der //Kern// von $$\varphi$$ ist
+
+$$
+\ker\varphi\coloneqq \{g \in G : \varphi(g) = e_H\} < G
+$$
+
+und das Bild ist $$\varphi(G) < H.$$</div>
+* $$\ker\varphi \lhd H$$ is a [[normal subgroup|Conjugation]].
+* $$\varphi$$ ist injektiv genau dann wenn $$\ker\varphi = e_G.$$ In diesem Fall ist auch $$\varphi^{-1}$$ ein Homomorphismus und $$\varphi\colon G \to \varphi(G)$$ ein Isomorphismus.

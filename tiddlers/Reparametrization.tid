@@ -1,0 +1,9 @@
+created: 20200424181046289
+modified: 20200424183206287
+tags: Kurve
+title: Reparametrization
+type: text/vnd.tiddlywiki
+
+A parametrized curve $$\gamma\colon [a,b] \to \R^n$$ is a //reparametrization// of another curve $$\tilde\gamma\colon [\alpha,\beta] \to \R^n,$$ if there is a smooth bijection $$\varphi\colon [a,b] \to [\alpha,\beta]$$ with $$\varphi' \ne 0$$ such that $$\gamma = \tilde\gamma \circ \varphi.$$ A reparametrization is called //orientation-preserving,// if $$\varphi'>0.$$
+
+Reparametrization, as well as orientation-preserving reparametrization, defines an [[equivalence relation|Äquivalenzrelation]] on the set of parametrized curves.

@@ -1,0 +1,18 @@
+created: 20200425210401980
+modified: 20200425222508789
+tags: Gruppe
+title: Linkstranslation
+type: text/vnd.tiddlywiki
+
+Betrachte die Gruppenaktionen
+
+$$
+\begin{aligned}
+L_g&\colon G \to G,\quad h \mapsto gh,\\
+R_g&\colon G \to G,\quad h \mapsto hg,
+\end{aligned}
+$$
+
+genannt //Linkstranslation// und //Rechtstranslation.// Die Aktionen sind transitiv.
+
+{{Coset}}

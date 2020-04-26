@@ -1,0 +1,12 @@
+created: 20200425144709624
+modified: 20200425205935209
+tags: Gruppe
+title: Conjugation
+type: text/vnd.tiddlywiki
+
+The [[action|Group action]] of a group $$G$$ on itself defined by $$g \cdot h \coloneqq ghg^{-1}$$ is called //conjugation.// $$h \mapsto ghg^{-1}$$ is a group automorphism for every $$h,$$ so this is an action $$G \to \Aut(G)$$ by group automorphisms.
+
+* The orbits are called //conjugacy classes.//
+* If $$H<G$$ is a subgroup, then its image $$gHg^{-1}$$ under conjugation by $$g$$ is a //conjugate subgroup.//
+* If $$x$$ and $$y=g \cdot x$$ are in the same orbit of a $$G$$-action on $$X,$$ their stabilizers are conjugate subgroups, i.e. $$G^y = g G^x g^{-1}.$$
+* If a subgroup $$H<G$$ is conjugate only to itself, i.e. $$gHg^{-1}=H$$ for all $$g \in G,$$ then $$H$$ is called a //normal subgroup// and we write $$H \lhd G.$$

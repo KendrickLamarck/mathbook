@@ -1,0 +1,144 @@
+base03:  #002b36
+base02:  #073642
+base01:  #586e75
+base00:  #657b83
+base0:   #839496
+base1:   #93a1a1
+base2:   #eee8d5
+base3:   #fdf6e3
+yellow:  #b58900
+orange:  #cb4b16
+red:     #dc322f
+magenta: #d33682
+violet:  #6c71c4
+blue:    #268bd2
+cyan:    #2aa198
+green:   #859900
+
+: the following darks and lights are swapped
+
+dark-background: <<colour base03>>
+dark-highlight-background: <<colour base02>>
+dark-foreground: <<colour base0>>
+dark-muted-foreground: <<colour base01>>
+dark-emphasised-foreground: <<colour base1>>
+
+light-background: <<colour base3>>
+light-highlight-background: <<colour base2>>
+light-foreground: <<colour base00>>
+light-muted-foreground: <<colour base1>>
+light-emphasised-foreground: <<colour base01>>
+
+alert-background: <<colour light-highlight-background>>
+alert-border: <<colour dark-light-highlight-background>>
+alert-highlight: <<colour orange>>
+alert-muted-foreground: <<colour light-emphasised-foreground>>
+    background: <<colour light-background>>
+blockquote-bar: <<colour muted-foreground>>
+button-background: <<colour orange>>
+button-foreground: <<colour background>>
+button-border: transparent
+code-background: <<colour light-highlight-background>>
+code-border: <<colour muted-foreground>>
+code-foreground: <<colour magenta>>
+diff-delete-background:
+diff-delete-foreground: <<colour red>>
+diff-equal-background: 
+diff-equal-foreground: <<colour muted-foreground>>
+diff-insert-background:
+diff-insert-foreground: <<colour green>>
+diff-invisible-background: 
+diff-invisible-foreground: <<colour muted-foreground>>
+dirty-indicator: #D08770
+download-background: <<colour green>>
+download-foreground: <<colour background>>
+dragger-background: <<colour foreground>>
+dragger-foreground: <<colour background>>
+dropdown-background: <<colour background>>
+dropdown-border: <<colour background>>
+dropdown-tab-background-selected: <<colour background>>
+dropdown-tab-background: <<colour muted-foreground>>
+dropzone-background: <<colour green>>
+external-link-background-hover: inherit
+external-link-background-visited: inherit
+external-link-background: inherit
+external-link-foreground-hover: <<colour magenta>>
+external-link-foreground-visited: <<colour yellow>>
+external-link-foreground: <<colour orange>>
+    foreground: <<colour light-foreground>>
+message-background: <<colour dark-background>>
+message-border: <<colour dark-light-highlight-background>>
+message-foreground: <<colour dark-foreground>>
+modal-backdrop: <<colour foreground>>
+modal-background: <<colour background>>
+modal-border: <<colour light-highlight-background>>
+modal-footer-background: <<colour light-highlight-background>>
+modal-footer-border: <<colour light-highlight-background>>
+modal-header-border: <<colour light-highlight-background>>
+    muted-foreground: <<colour light-muted-foreground>>
+notification-background: #EBCB8B
+notification-border: #D08770
+    page-background: <<colour light-highlight-background>>
+pre-background: <<colour light-highlight-background>>
+pre-border: <<colour muted-foreground>>
+    primary: <<colour cyan>>
+select-tag-background: <<colour light-highlight-background>>
+select-tag-foreground: <<colour foreground>>
+sidebar-button-foreground: <<colour light-highlight-background>>
+sidebar-controls-foreground-hover: <<colour blue>>
+sidebar-controls-foreground: <<colour light-emphasised-foreground>>
+sidebar-foreground-shadow: transparent
+sidebar-foreground: <<colour foreground>>
+sidebar-muted-foreground-hover: <<colour foreground>>
+sidebar-muted-foreground: <<colour muted-foreground>>
+sidebar-tab-background-selected: <<colour page-background>>
+sidebar-tab-background: <<colour tab-background>>
+sidebar-tab-border-selected: <<colour tab-border-selected>>
+sidebar-tab-border: <<colour dark-foreground>>
+sidebar-tab-divider: <<colour page-background>>
+sidebar-tab-foreground-selected: <<colour dark-foreground>>
+sidebar-tab-foreground: <<colour tab-foreground>>
+sidebar-tiddler-link-foreground-hover: <<colour green>>
+sidebar-tiddler-link-foreground: <<colour blue>>
+site-title-foreground: <<colour tiddler-title-foreground>>
+static-alert-foreground: <<colour red>>
+tab-background-selected: <<colour background>>
+    tab-background: <<colour dark-foreground>>
+    tab-border-selected: <<colour muted-foreground>>
+tab-border: <<colour muted-foreground>>
+tab-divider: <<colour background>>
+tab-foreground-selected: <<colour muted-foreground>>
+    tab-foreground: <<colour light-highlight-background>>
+table-border: <<colour muted-foreground>>
+table-footer-background: <<colour foreground>>
+table-header-background: <<colour muted-foreground>>
+tag-background: <<colour violet>>
+tag-foreground: <<colour light-highlight-background>>
+tiddler-background: <<colour background>>
+tiddler-border: <<colour background>>
+tiddler-controls-foreground-hover: <<colour yellow>>
+tiddler-controls-foreground-selected: <<colour yellow>>
+tiddler-controls-foreground: <<colour light-emphasised-foreground>>
+tiddler-editor-background: <<colour light-highlight-background>>
+tiddler-editor-border-image: <<colour light-highlight-background>>
+tiddler-editor-border: <<colour light-highlight-background>>
+tiddler-editor-fields-even: <<colour light-highlight-background>>
+tiddler-editor-fields-odd: <<colour background>>
+tiddler-info-background: <<colour light-highlight-background>>
+tiddler-info-border: <<colour light-highlight-background>>
+tiddler-info-tab-background: <<colour light-highlight-background>>
+tiddler-link-background: <<colour background>>
+tiddler-link-foreground: <<colour primary>>
+tiddler-subtitle-foreground: <<colour light-emphasised-foreground>>
+tiddler-title-foreground: <<colour light-emphasised-foreground>>
+toolbar-new-button: 
+toolbar-options-button: 
+toolbar-save-button: 
+toolbar-info-button: 
+toolbar-edit-button: 
+toolbar-close-button: 
+toolbar-delete-button: 
+toolbar-cancel-button: 
+toolbar-done-button: 
+untagged-background: <<colour dark-foreground>>
+very-muted-foreground: <<colour muted-foreground>>

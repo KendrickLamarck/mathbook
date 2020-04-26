@@ -1,0 +1,7 @@
+created: 20200426134615557
+modified: 20200426134856051
+tags: Gruppe
+title: Fundamental theorem of finite abelian groups
+type: text/vnd.tiddlywiki
+
+Any finite abelian group can be written as a direct product of [[cyclic groups|Cyclic group]] of prime power order.

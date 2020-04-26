@@ -1,0 +1,22 @@
+created: 20200426155954489
+modified: 20200426162440321
+tags: [[Euclidean geometry]]
+title: Euclidean group
+type: text/vnd.tiddlywiki
+
+Let $$\tau_a$$ be the translation action on $$\Bbb E^n \coloneqq (\R^n,\lang\cdot,\cdot\rang)$$ and let $$\O_n$$ be the orthogonal group.
+
+''Proposition.''
+Every distance-preserving map $$\varphi\colon \Bbb E^n \to \Bbb E^n$$ can be written uniquely as the product of a translation and an origin-preserving isometry $$Q \in \O_n.$$ It then also follows that $$\varphi$$ is surjective, i.e. an isometry.
+
+We call the isometry group of euclidean space $$\Bbb E^n$$ the //euclidean group// $$\mathrm E_n.$$
+
+* The translation subgroup $$\R^n$$ is a normal subgroup: The conjugate of $$\tau_a$$ under $$\tau_b \circ Q$$ is the translation $$\tau_{Qa}.$$ In other words, the action by conjugation of the complementary subgroup $$\O_n$$ on the translation group $$\R^n$$ is just its action as a map on the vector space $$\R^n.$$
+
+* The orthogonal group is the stabilizer of the origin $${\mathrm E_n}^0.$$  If $$\varphi \in \mathrm E_n$$ is any euclidean motion and $$q=f(p),$$ then the stabilizer of $$q$$ is the conjugate of the stabilizer of $$p$$ by $$\varphi$$: $${\mathrm E_n}^q = \varphi {\mathrm E_n}^p \varphi^{-1}.$$ In particular, the stabilizer of any point $$q$$ is $${\mathrm E_n}^q = \tau_q \O_n \tau_{-q}.$$
+
+* <div>Finally, the euclidean group is the semidirect product $$\mathrm E_n = \R^n \rtimes \O_n$$ with the twisted product rule
+
+$$
+(\tau_a Q)(\tau_b R) = \tau_a \tau_{Qb} QR.
+$$

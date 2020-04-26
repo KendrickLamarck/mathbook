@@ -1,0 +1,10 @@
+created: 20200426134910525
+modified: 20200426135925233
+tags: Gruppe
+title: Cyclic group
+type: text/vnd.tiddlywiki
+
+The infinite cyclic group is the abelian group $$(\Z,+).$$ its subgroups are $$n\Z$$ for $$n \in \Z_{\ge 0}$$ and the quotient group $$C_n \coloneqq \Z/n\Z$$ is called the //cyclic group// of order $$n.$$
+
+* For prime $$p,$$ the only group of order $$p$$ is $$C_p.$$
+* If $$m$$ and $$n$$ are relatively prime, then $$C_{mn} \cong C_m \times C_n.$$

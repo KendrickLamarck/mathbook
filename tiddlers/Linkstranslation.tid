@@ -1,5 +1,5 @@
 created: 20200425210401980
-modified: 20200425222508789
+modified: 20200426131947248
 tags: Gruppe
 title: Linkstranslation
 type: text/vnd.tiddlywiki
@@ -14,5 +14,7 @@ R_g&\colon G \to G,\quad h \mapsto hg,
 $$
 
 genannt //Linkstranslation// und //Rechtstranslation.// Die Aktionen sind transitiv.
+
+!! Cosets
 
 {{Coset}}

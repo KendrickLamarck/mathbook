@@ -1,0 +1,15 @@
+created: 20200426143103948
+modified: 20200426144451861
+tags: Gruppe
+title: Dihedral group
+type: text/vnd.tiddlywiki
+
+For any abelian group $$G,$$ the map $$g \mapsto g^{-1}$$ is an automorphism, so we have an action of $$C_2$$ on $$G$$ by automorphisms. There is therefore a natural semidirect product $$G \rtimes C_2$$ with elements $$(g,\pm 1),$$ where
+
+$$
+(g,\pm 1)(h,s) = (gh^{\pm 1},\pm s).
+$$
+
+Every element has order two.
+
+The //dihedral group// of order $$2n$$ is defined as $$D_n \coloneqq C_n \rtimes C_2$$ (sometimes denoted by $$D_{2n}$$ instead).

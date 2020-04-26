@@ -1,0 +1,21 @@
+created: 20200426134127352
+modified: 20200426155747835
+tags: Gruppe
+title: Semidirect product
+type: text/vnd.tiddlywiki
+
+We say $$G$$ is a //split extension// if a [[quotient group|Quotient group]] $$Q/N$$ can be viewed as a subgroup of $$G$$ in the sense that there is a map $$s\colon Q \to G$$ with $$\pi \circ s = \id_Q.$$ Equivalently in this case we also call $$G \coloneqq N \rtimes Q$$ a //semidirect product.// of $$N$$ and $$Q.$$
+
+* While $$N$$ is normal in $$G,$$ $$s(Q)$$ isn't necessarily.
+* In a semidirect product, every element of $$G$$ has a unique representation as $$nq$$ with $$n \in N$$ and $$q \in Q.$$
+
+We can think of $$G$$ as the set $$N \times Q$$ with a "twisted" product rule
+
+$$
+(nq)(n'q')=(n\varphi_q(n'))qq',
+$$
+
+i.e. the semidirect product is determined by a homomorphism $$\varphi\colon Q \to \Aut(N).$$
+
+* If $$\varphi_q = \id_N$$ for all $$Q,$$ this is simply the direct product.
+* In terms of the splitting map $$s,$$ the automorphism $$\varphi_q$$ is given by $$n \mapsto s(q)ns(q^{-1}).$$

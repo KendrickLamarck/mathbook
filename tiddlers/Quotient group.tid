@@ -1,10 +1,10 @@
 created: 20200425222228768
-modified: 20200425223207474
+modified: 20200426134143563
 tags: Gruppe
 title: Quotient group
 type: text/vnd.tiddlywiki
 
 If $$N \lhd G$$ is a [[normal subgroup|Conjugation]], we can define the //quotient group// $$Q = G/N.$$ Its elements are the [[cosets|Coset]] of $$N$$ and the group operation is $$(Ng)(Ng') \coloneqq N(gg').$$
 
-* The //quotient map// $$\pi\colon G \to G/N,\ g \mapsto Ng$$ has kernel $$N.$$
+* The //quotient map// $$\pi\colon G \to Q,\ g \mapsto Ng$$ has kernel $$N.$$
 * We say $$G$$ is an //extension// of $$Q$$ by $$N.$$

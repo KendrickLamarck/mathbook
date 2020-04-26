@@ -1,5 +1,5 @@
 created: 20191123223003774
-modified: 20200425221856103
+modified: 20200426144816483
 tags: Gruppe
 title: Group action
 type: text/vnd.tiddlywiki
@@ -12,19 +12,18 @@ $$
 
 Such that $$\theta_e=\id_X$$ and $$\theta_{gh}=\theta_g \circ \theta_h.$$
 
-* <div>The action $$\theta$$ partitions $$X$$ into //orbits//
+The action $$\theta$$ partitions $$X$$ into //orbits//
 
 $$
 G\cdot x\coloneqq \{\, g\cdot x\mid g\in G \,\},
 $$
 
-which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot x.$$</div>
-
-* <div>The //stabilizer// of $$x$$ is the subgroup
+which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot x.$$
+The //stabilizer// of $$x$$ is the subgroup
 
 $$
 G^x \coloneqq \{g\in G \mid g\cdot x = x\} < G.
-$$</div>
+$$
 
 * An action is called //faithful// if the homomorphism $$g \mapsto \theta_g$$ is injective.
 * An action is called //transitive// if there is a single orbit, i.e. for any $$x,y$$ there exists $$g$$ with $$g\cdot x=y.$$

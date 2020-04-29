@@ -1,0 +1,39 @@
+created: 20200428133525472
+modified: 20200428195747961
+tags: Statistik
+title: Fehlermaße
+type: text/vnd.tiddlywiki
+
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R$$ eine Kenngröße und $$T\colon \mathcal X \to \R$$ ein Schätzer für $$\tau.$$ Dann heißt
+
+$$
+\Bbb B_\vartheta[T] \coloneqq \Bbb E_\vartheta[T]-\tau(\vartheta)
+$$
+
+//Bias// oder //systematischer Fehler// und
+
+$$
+\Bbb F_\vartheta[T] = \MSE(T,\vartheta) \coloneqq
+\Bbb E_\vartheta {\left[(T-\tau(\vartheta))^2\right]}
+$$
+
+heißt //mittlerer quadratischer Fehler.// Auch die [[Varianz]] $$\Bbb V[T]$$ ist ein Fehlermaß.
+
+''Bemerkung.''
+Man kann auch andere Fehlermaße der Form
+
+$$
+\Bbb F_\vartheta^\psi[T] \coloneqq \Bbb E_\vartheta[\psi(T-\tau(\vartheta))]
+$$
+
+mit Fehlerfunktionen $$\psi\colon \R \to \R_+$$ betrachten.
+
+* <div>Mit der Chebyshev-Ungleichung folgt
+
+$$\P_\vartheta(|T(x)-\tau(\vartheta)|>\varepsilon) \le
+\frac 1 {\varepsilon^2} \Bbb F_\vartheta[T].
+$$</div>
+
+* $$T$$ erwartungstreu $$\iff \Bbb B_\vartheta[T] = 0$$ für alle $$\vartheta \iff \Bbb F_\vartheta[T] = \Bbb V_\vartheta[T]$$ für alle $$\vartheta.$$
+
+* $$\Bbb F_\vartheta[T] = \Bbb V_\vartheta[T] + \Bbb B_\vartheta[T]^2

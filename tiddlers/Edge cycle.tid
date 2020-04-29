@@ -1,0 +1,7 @@
+created: 20200429183942234
+modified: 20200429184332245
+tags: [[Cell complex]]
+title: Edge cycle
+type: text/vnd.tiddlywiki
+
+An //edge loop// in a one-dimensional cell complex $$G$$ is a finite sequence $$(e_1,\dots,e_n)$$ of oriented edges in $$G$$ such that for $$1 \le j \le n$$ we have $$d(e_j) = s(e_{j+1})$$ and $$d(s_n) = s(e_1).$$ An //oriented edge cycle// in $$G$$ is an equivalence class of edge loops where loops are considered equivalent if they differ only by a cyclic permutation of the edges. We obtain an //(unoriented) edge cycle// if we also allow reversing the order of the edges.

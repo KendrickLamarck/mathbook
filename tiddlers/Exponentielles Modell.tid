@@ -1,0 +1,22 @@
+created: 20200428192408459
+modified: 20200428194622107
+tags: Statistik
+title: Exponentielles Modell
+type: text/vnd.tiddlywiki
+
+Sei $$M=(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ ein einparametriges Standardmodell, wobei $$\varTheta \subseteq \R$$ ein offenes Intervall ist. $$M$$ wird //exponentielles Modell// und $$(\P_\vartheta)_{\vartheta\in\varTheta}$$ //exponentielle Familie// bzgl. der Statistik $$T\colon \mathcal X \to \R$$ genannt, wenn die Dichte die Form
+
+$$
+\rho(\vartheta,x) = \exp(a(\vartheta)T(x)-b(\vartheta))h(x)
+$$
+
+hat, wobei $$a\colon \varTheta \to \R$$ stetig differenzierbar mit $$a' \ne 0$$ und $$h\colon \mathcal X \to {]0,\infty[}$$ messbar ist.
+
+* Die Normierungsfunktion $$b$$ ist auf $$\varTheta$$ stetig differenzierbar mit $$b'(\vartheta) = a'(\vartheta)\Bbb E_\vartheta[T].$$
+
+* Jede Statistik $$S\colon \mathcal X \to \R$$ mit existierendem Erwartungswert ist regulär. Insbesondere sind $$M$$ und $$T$$ regulär und $$\tau(\vartheta) \coloneqq \Bbb E_\vartheta[T]$$ ist stetig differenzierbar mit Ableitung $$\tau'(\vartheta) = a'(\vartheta)\Bbb V_\vartheta[T] \ne 0.$$
+
+* Für die [[Fisher-Information]] gilt $$I(\vartheta) = a'(\vartheta)/\tau'(\vartheta).$$
+
+''Korollar.''
+Fur jedes exponentielle Modell ist die zugrunde liegende Statistik $$T$$ ein [[bester Schätzer|Varianzminimierender Schätzer]] für $$\tau(\vartheta) = \Bbb E_\vartheta[T] = b'(\vartheta) / a'(\vartheta).$$ In diesem Fall gilt auch $$I(\vartheta) = a'(\vartheta) \tau'(\vartheta)$$ und $$\Bbb V_\vartheta[T] = \tau'(\vartheta) / a'(\vartheta).$$

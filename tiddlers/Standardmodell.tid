@@ -1,11 +1,15 @@
 created: 20200422221958658
-modified: 20200423114923327
+modified: 20200428152109457
 tags: [[Statistisches Modell]] no-toc
 title: Standardmodell
 type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
 
 Ein statistisches Modell $$(\mathcal X, \mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ heißt //Standardmodell,// falls ein $$\sigma$$-endliches Maß $$\mu$$ auf $$(\mathcal X, \mathcal F)$$ existiert, so dass $$\P_\vartheta \ll \mu$$ für alle $$\vartheta \in \varTheta.$$ Für ein Standardmodell existiert nach dem [[Satz von Radon-Nikodym]] ein $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ mit
 
 $$
 \P_\vartheta(\d x) = \rho(\vartheta,x)\,\mu(\d x).
 $$
+
+{{Reguläres Modell}}

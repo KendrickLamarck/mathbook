@@ -1,20 +1,18 @@
 caption: Gauß-Produktmodell
 created: 20200423134002786
-modified: 20200423162502576
+modified: 20200428140708758
 tags: Maximum-likelihood-Schätzer
 title: Maximum-likelihood-Schätzer für das Gauß-Produktmodell
 type: text/vnd.tiddlywiki
 
-Im $$n$$-fachen Gauß-Produktmodell $$(\R^n, \mathcal B(\R^n), (\P_{m,v}^{\otimes n})_{m\in\R,\ v\ge 0})$$ wobei
+Im $$n$$-fachen Gauß-Produktmodell $$(\R^n, \mathcal B(\R^n), ({\P_{m,v}}^{\otimes n})_{m\in\R,\ v\ge 0}),$$ wobei
 
 $$
 \P_{m,v}(\d x) = \frac{1}{\sqrt{2 \pi v}}
-                 \exp\left( -\frac{(x-m)^2}{2v} \right) \d x
+                 \exp\left( -\frac{(x-m)^2}{2v} \right) \d x,
 $$
 
-ist $$\hat m(x) \coloneqq \frac 1 n \sum_{i=1}^n x_i = \bar x$$ ein ML-Schätzer für $$m$$ und $$\hat v(x) \coloneqq \frac 1 n \sum_{i=1}^n (x_i-\bar x)^2$$ für $$v.$$
-
-Der Schätzer $$\hat m$$ für $$m$$ ist erwartungstreu, $$\hat v$$ jedoch nicht, denn
+ist $$\hat m(x) \coloneqq \frac 1 n \sum_{i=1}^n x_i = \bar x$$ ein ML-Schätzer für $$m$$ und $$\hat v(x) \coloneqq \frac 1 n \sum_{i=1}^n (x_i-\bar x)^2$$ für $$v.$$ Der Schätzer $$\hat m$$ für $$m$$ ist erwartungstreu, $$\hat v$$ jedoch nicht, denn
 
 $$
 \Bbb E_{m,v}[\hat v] = \frac{n-1}{n} v.

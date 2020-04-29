@@ -1,0 +1,24 @@
+created: 20200428152107068
+modified: 20200428152521447
+tags: Statistik
+title: Reguläres Modell
+type: text/vnd.tiddlywiki
+
+Ein [[Standardmodell]] heißt //regulär,// wenn folgende Eigenschaften erfüllt sind:
+
+* $$\varTheta \subseteq \R$$ ist ein offenes Intervall.
+* <div>Die Funktion $$\rho$$ ist positiv und stetig differenzierbar in $$\vartheta.$$ Insbesondere existiert die //Score-Funktion//
+
+$$
+U_\vartheta(x) \coloneqq \fracderiv{}{\vartheta} \log \rho(\vartheta,x)=
+\frac{\fracderiv{}{\vartheta} \rho(\vartheta,x)}{\rho(\vartheta,x)}.
+$$</div>
+
+* <div>Es gilt die Vertauschungsrelation
+
+$$
+\int_\mathcal X \fracderiv{}{\vartheta} \rho(\vartheta,x) \,\mu(\d x) =
+\fracderiv{}{\vartheta} \int_\mathcal X \rho(\vartheta,x) \,\mu(\d x).
+$$</div>
+
+* Für jedes $$\vartheta$$ existiert die Varianz $$I(\vartheta) \coloneqq \Bbb V_\vartheta[U_\vartheta]$$ und ist ungleich 0.

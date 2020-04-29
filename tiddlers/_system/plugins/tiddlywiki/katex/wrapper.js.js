@@ -124,5 +124,6 @@ var customMacros = {
     "\\rd":         "\\operatorname{rd}",
     "\\tr":         "\\operatorname{tr}",
     "\\Ric":        "\\operatorname{Ric}",
+    "\\MSE":        "\\operatorname{MSE}",
     "\\grad":       "\\operatorname{grad}"
 };

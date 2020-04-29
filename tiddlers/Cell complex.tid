@@ -1,0 +1,30 @@
+created: 20200429180352245
+modified: 20200429190041501
+tags: [[Combinatorial topology]]
+title: Cell complex
+type: text/vnd.tiddlywiki
+
+A one-dimensional //cell complex// $$M$$ (which is the same as a finite multigraph) is given by:
+
+* A finite set $$V$$ of "vertices",
+* a finite set $$E$$ of "oriented edges",
+* maps $$s,d\colon E \to V$$ assigning to each oriented edge its "source vertex" $$s(e)$$ and its "destination vertex" $$d(e),$$
+* A map $$\rho\colon E \to E$$ that implements "orientation reversal". $$\rho$$ must satisfy
+** $$\rho(e) \ne e,$$
+** $$\rho \circ \rho(e) = e,$$
+** $$s \circ \rho = d,$$
+** $$d \circ \rho = s.$$
+
+A two-element subset $$\hat e \subseteq E$$ of the form $$\{e, \rho(e)\}$$ is called an unoriented edge of $$M.$$
+
+A two-dimensional //combinatorial cell complex// is a one-dimensional cell complex $$G$$ together with a set $$F$$ of "faces", where to each face $$\varphi$$ there is assigned a corresponding [[edge cycle|Edge cycle]].
+
+* $$G$$ is called the //1-skeleton// of the two-dimensional cell complex.
+* Different faces can have the same edge-cycle.
+
+A two-dimensional combinatorial cell complex $$M$$ can be viewed as a description of a certain topological space $$\hat M$$ called a two-dimensional //cell complex://
+
+* An $$n$$-dimensional cell is the unit ball $$B^n \subset \R^n$$ considered as a topological space.
+* The vertices $$i \in V$$ represent 0-cells, which are just isolated points. They form the //topological 0-skeleton// $$\hat M_0$$ of the cell complex $$\hat M.$$
+* Each edge $$e \in E$$ corresponds to a copy of the interval $$[-1,1] = B^1.$$ The end points of these 1-cells are identified with the end points of $$e$$ prescribed by the combinatorics. <br> The topological space $$\hat M^1$$ that results from this gluing corresponding to the 1-skeleton is called the //topological 1-skeleton// of $$M.$$
+* Each face $$\varphi \in F$$ corresponds to a 2-cell $$c_\varphi,$$ i.e. a copy of the unit disk $$B^2.$$ Up to topological equivalence there is a unique map of $$\partial c_\varphi \cong S^1$$ to the topological 1-skeleton that fits the edge cycle of $$\varphi.$$ <br> The space obtained from gluing the boundaries of all 2-cells to the topological 1-skeleton in this way is the //two-dimensional topological cell complex $$\hat M$$ that corresponds to the combinatorial cell complex $$M.$$

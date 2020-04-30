@@ -113,6 +113,7 @@ var customMacros = {
     "\\rank":       "\\operatorname{rank}",
     "\\Rang":       "\\operatorname{Rang}",
     "\\Eig":        "\\operatorname{Eig}",
+    "\\span":        "\\operatorname{span}",
     "\\sign":       "\\operatorname{sign}",
     "\\supp":       "\\operatorname{supp}",
     "\\id":         "\\operatorname{id}",

@@ -1,0 +1,31 @@
+created: 20200430184000030
+modified: 20200430190522990
+tags: Curve
+title: Closed curve
+type: text/vnd.tiddlywiki
+
+A //closed parametrized curve// in $$\R^n$$ is a pair $$(\gamma,\tau)$$ of a $$\tau$$-periodic function $$\gamma\colon \R \to \R^n$$ and its period $$\tau > 0,$$ i.e. $$\gamma(t+\tau) = \gamma(t)$$ for all $$t.$$
+
+A //closed curve// is an equivalence class of closed parametrized curves, where $$(\gamma, \tau) \sim (\bar\gamma, \bar\tau)$$ if and only if there is a bijective mapping $$\varphi\colon \R \to \R$$ with $$\varphi' > 0$$ such that
+
+* $$\bar\gamma = \gamma \circ \varphi,$$
+* $$\varphi(t+\bar\tau) = \varphi(t) + \tau.$$
+
+We have the following invariants under reparametrization and euclidean motion:
+
+* <div>The length
+$$
+L(\gamma) \coloneqq \int_0^\tau \|\gamma'(t)\|\,\d t,
+$$</div>
+
+* <div>the //total curvature//
+$$
+F(\gamma) \coloneqq \int_0^\tau \kappa(t)\,\d s,
+$$</div>
+
+* <div> the //bending energy//
+$$
+E(\gamma) \coloneqq \int_0^\tau \kappa(s)^2\,\d s,
+$$</div>
+
+where $$\d s = v \,\d t$$ implies arc length parametrization.

@@ -1,0 +1,16 @@
+created: 20200430170716530
+modified: 20200430184006287
+tags: Curve
+title: Unit normal field
+type: text/vnd.tiddlywiki
+
+Let $$\gamma$$ be a regular plane curve. We let
+
+$$
+T(t)\coloneqq\frac 1 {|\gamma'(t)|} \gamma'(t),
+\qquad N(t)\coloneqq-\begin{pmatrix} 0 &-1 \\ 1 &0\end{pmatrix} T(t)
+$$
+
+denote the unit tangent vector field and unit normal vector field of $$\gamma.$$ We also denote the above matrix by $$J.$$
+
+''Remark.'' Whether $$J$$ or $$-J$$ is mutltiplied with $$T$$ is a matter of convention and inconsistent.

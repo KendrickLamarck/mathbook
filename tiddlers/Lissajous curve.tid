@@ -1,0 +1,14 @@
+created: 20200430184539252
+modified: 20200430184813369
+tags: Curve
+title: Lissajous curve
+type: text/vnd.tiddlywiki
+
+A //Lissajous curve// is a curve of the form
+
+$$\begin{pmatrix}
+A \cos(at+a_0) \\
+B \sin(bt+b_0)
+\end{pmatrix}$$
+
+with constants $$A,B,a,b,a_0,b_0.$$ It is [[closed|Closed curve]] if and only if $$a/b$$ is rational.

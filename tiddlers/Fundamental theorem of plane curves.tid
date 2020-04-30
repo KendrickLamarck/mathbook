@@ -1,0 +1,9 @@
+created: 20200430172231887
+modified: 20200430184006345
+tags: Curve
+title: Fundamental theorem of plane curves
+type: text/vnd.tiddlywiki
+
+Let $$\kappa\colon [0,L] \to \R$$ be an arbitrary $$\mathcal C^\infty$$-function. Then there is an arc length parametrized curve $$\gamma\colon [0,L] \to \R^2$$ with curvature $$\kappa.$$
+
+The curve is unique up to rigid motion: If $$\gamma, \bar\gamma\colon [0,L] \to \R^2$$ are two arc length parametrized curves with the same curvature, then there are $$A \in \SO(2)$$ and $$b \in \R^2,$$ so that $$\bar\gamma(s) = A \gamma(s) + b.$$

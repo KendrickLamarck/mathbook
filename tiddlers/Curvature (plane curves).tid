@@ -1,0 +1,31 @@
+created: 20200430171229075
+modified: 20200430184006321
+tags: Curve
+title: Curvature (plane curves)
+type: text/vnd.tiddlywiki
+
+Let $$\gamma\colon [0,L] \to \R^2$$ be an arc-length parametrized curve. Then there are unique maps $$T,N\colon [0,L] \to S^1$$ (the unit tangent and normal fields) and a function $$\kappa\colon [0,L] \to \R$$ with the following properties:
+
+* For every $$s,\ (N(s),T(s))$$ is a positively oriented orthonormal basis of $$\R^2.$$
+* <div>The following equations hold:
+
+$$\begin{aligned}
+\gamma'&=T, \\ T'&=-\kappa N, \\ N'&=\kappa T.
+\end{aligned}$$</div>
+
+The function $$\kappa$$ is called the //curvature// of the curve. The property $$N'=\kappa T$$ can be used to define $$\kappa$$ using the fact that $$N'$$ is orthogonal to $$N.$$
+
+If $$\gamma$$ is not arc length parametrized but still regular, the same holds, but with the rescaled equations
+
+$$\begin{aligned}
+\gamma' &= \|\gamma'\| T, \\
+T'      &= -\|\gamma'\| \kappa N, \\
+N'      &= \|\gamma'\|\kappa T.
+\end{aligned}$$
+
+''Theorem.''
+The curvature of a regular plane curve is given by
+
+$$
+\kappa = \frac{\det(\gamma',\gamma'')}{\|\gamma'\|^3}.
+$$

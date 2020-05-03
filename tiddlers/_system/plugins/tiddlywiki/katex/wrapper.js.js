@@ -95,6 +95,7 @@ var customMacros = {
     "\\RP":         "\\R\\mathrm{P}",
     "\\C":          "\\mathbb{C}",
     "\\P":          "\\mathbb{P}",
+    "\\E":          "\\mathbb{E}",
     "\\D":          "\\mathrm{D}",
     "\\d":          "\\mathrm{d}",
     "\\i":          "\\mathrm{i}",

@@ -1,5 +1,5 @@
 created: 20200430184000030
-modified: 20200430190522990
+modified: 20200501173355706
 tags: Curve
 title: Closed curve
 type: text/vnd.tiddlywiki
@@ -20,7 +20,7 @@ $$</div>
 
 * <div>the //total curvature//
 $$
-F(\gamma) \coloneqq \int_0^\tau \kappa(t)\,\d s,
+F(\gamma) \coloneqq \int_0^\tau \kappa(s)\,\d s,
 $$</div>
 
 * <div> the //bending energy//

@@ -1,5 +1,5 @@
 created: 20200430185359251
-modified: 20200430185711272
+modified: 20200501194534553
 tags: Curve
 title: Winding number
 type: text/vnd.tiddlywiki
@@ -10,4 +10,4 @@ $$
 \int_0^\tau \kappa \,\d s = 2\pi n.
 $$
 
-The number $$n$$ is called the //winding number// of the planar closed curve $$(\gamma',\tau)$$
+The number $$n$$ is called the //winding number// of the planar closed curve $$(\gamma,\tau).$$

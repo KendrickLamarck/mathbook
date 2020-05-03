@@ -1,12 +1,10 @@
 created: 20200422201831523
-modified: 20200423123508584
-tags: Statistik
+modified: 20200502233558510
+tags: [[Statistik, Kenngröße, Schätzer]]
 title: Maximum-likelihood-Schätzer
 type: text/vnd.tiddlywiki
 
-{{Standardmodell}}
-
-Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ ein Standardmodell mit Dichte $$\rho$$ wie in der Definition.
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ ein [[Standardmodell]] mit Dichte $$\rho$$ wie in der Definition.
 
 * Die Funktion $$L_x\colon \varTheta \to \R_+$$ gegeben durch $$L_x(\vartheta)\coloneqq \rho(\vartheta,x)$$ heißt //Likelihoodfunktion// zum Beobachtungswert $$x \in \mathcal X.$$
 

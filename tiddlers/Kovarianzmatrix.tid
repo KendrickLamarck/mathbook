@@ -1,8 +1,8 @@
 created: 20190621150235273
-modified: 20190621150645076
-revision: 0
-tags: Stochastik
+modified: 20200502125625859
+tags: Stochastik no-toc
 title: Kovarianzmatrix
+type: text/vnd.tiddlywiki
 
 Ist $$\Bbb X=(X_1,\dots,X_n)$$ ein [[Zufallsvektor|Zufallsvariable]], so definieren wir die //Kovarianzmatrix// als
 

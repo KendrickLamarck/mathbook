@@ -1,6 +1,5 @@
 created: 20190426113920709
-modified: 20190708230311470
-revision: 0
+modified: 20200502140850751
 tags: Stochastik
 title: Bedingte Wahrscheinlichkeit
 type: text/vnd.tiddlywiki
@@ -13,7 +12,20 @@ $$
 
 die //bedingte Wahrscheinlichkeit von $$A$$ unter der Bedingung $$B.$$// Im Fall $$\Bbb P(B)=0$$ setzen wir $$\Bbb P(A\mid B)\coloneqq 0.$$
 
----
-
 * Für $$\Bbb P(B)>0$$ und $$A\supseteq B$$ gilt $$\Bbb P(A\mid B)=1.$$
 * Für $$\Bbb P(B)>0$$ ist $$\Bbb P(\cdot\mid B)$$ ein Wahrscheinlichkeitsmaß auf $$(\Omega,\mathcal A).$$
+
+!! Erweiterung
+
+Als Erweiterung definieren wir für $$\mathcal F \subseteq \mathcal A,\ A \in \mathcal A$$ und eine Zufallsvariable $$Y$$
+
+$$
+\P(A \mid \mathcal F) \coloneqq \Bbb E[\mathbf 1_A \mid \mathcal F],\quad
+\P(A \mid Y=y) \coloneqq \E[\mathbf 1_A \mid Y = y].
+$$
+
+Dies ist aber nicht notwendigerweise ein Wahrscheinlichkeitsmaß.
+
+!! Reguläre bedingte Verteilung
+
+{{Reguläre bedingte Verteilung}}

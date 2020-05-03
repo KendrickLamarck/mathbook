@@ -1,6 +1,6 @@
 created: 20181218161741985
 list: Erwartungswertvektor Moment [[Schwaches Gesetz der großen Zahlen]] [[Starkes Gesetz der großen Zahlen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]]
-modified: 20200421221449710
+modified: 20200502221228966
 modifier: Leander
 tags: Stochastik
 title: Erwartungswert
@@ -24,8 +24,4 @@ $$
 \Bbb E(X)=\int_\Bbb R x f(x)\,\mathrm dx,
 $$
 
-falls
-
-$$
-|\Bbb E(X)|=\int_\Bbb R |x| f(x)\,\mathrm dx<\infty.
-$$
+falls $$\int_\Bbb R |x| f(x)\,\mathrm dx<\infty.$$

@@ -1,8 +1,8 @@
 created: 20190523221448161
-modified: 20190705145958742
-revision: 0
+modified: 20200502125621402
 tags: Stochastik
 title: Kovarianz
+type: text/vnd.tiddlywiki
 
 Seien $$X$$ und $$Y$$ [[Zufallsvariablen|Zufallsvariable]] mit $$\Bbb E(X^2)<\infty$$ und $$\Bbb E(Y^2)<\infty.$$ Dann heißt der [[Erwartungswert]]
 
@@ -13,10 +13,6 @@ $$
 
 die //Kovarianz// von $$X$$ und $$Y.$$ Gilt $$\operatorname{Cov}(X,Y)=0,$$ so heißen $$X$$ und $$Y$$ //unkorelliert.//
 
----
-
-!! Eigenschaften
-
 * Die Kovarianz ist eine [[positiv semidefinite|Definitheit]] [[symmetrische|Symmetrische Form]] [[Bilinearform]].
 
 * $$\operatorname{Cov}(aX+b,cY+d)=ac\operatorname{Cov}(X,Y)$$ für alle $$a,b,c,d\in\Bbb R.$$
@@ -24,3 +20,7 @@ die //Kovarianz// von $$X$$ und $$Y.$$ Gilt $$\operatorname{Cov}(X,Y)=0,$$ so he
 * $$\operatorname{Cov}(X,Y)=\Bbb E(XY)-\Bbb E(X)\Bbb E(Y)$$ (Verschiebungssatz).
 
 * Sind $$X$$ und $$Y$$ [[unabhängig|Stochastische Unabhängigkeit]], so sind sie auch unkorelliert, andersherum gilt dies jedoch nicht.
+
+!! Kovarianzmatrix
+
+{{Kovarianzmatrix}}

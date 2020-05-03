@@ -1,0 +1,54 @@
+created: 20200502120046486
+modified: 20200502140043122
+tags: Erwartungswert
+title: Bedingte Erwartung
+type: text/vnd.tiddlywiki
+
+Sei $$X$$ eine Zufallsvariable auf $$(\varOmega, \mathcal A,\P).$$ Für $$A \in \mathcal A$$ definieren wir den //bedingten Erwartungswert// $$\Bbb E(X \mid A) \coloneqq \Bbb E(\mathbf 1_A X)/\P(A).$$
+
+Eine Zufallsvariable $$Y$$ auf $$(\varOmega,\mathcal A,\P)$$ heißt //bedingte Erwartung// von $$X$$ gegeben $$\mathcal F \subseteq \mathcal A,$$ falls
+
+# $$Y$$ $$\mathcal F$$-messbar ist und
+# $$\Bbb E[X \mathbf 1_A] = \Bbb E[Y \mathbf 1_A]$$ für alle $$A \in \mathcal F.$$
+
+Wir schreiben $$Y = \Bbb E[X \mid \mathcal F].$$ Für $$X \in \mathcal L^1$$ und eine Zufallsvariable $$Y$$ definieren wir
+$$
+\Bbb E[X \mid Z] \coloneqq \Bbb E[X \mid \sigma(Z)].
+$$
+
+Nach dem [[Faktorisierungslemma]] gibt es eine Funktion $$\varphi\colon \R \to \R,$$ so dass $$\E[X \mid Y] = \varphi(Y)$$ ist. Wir definieren
+
+$$
+\Bbb E[X \mid Y = y] \coloneqq \varphi(y).
+$$
+
+
+
+!! Eigenschaften
+
+Ist $$\mathcal G \subseteq \mathcal F \subseteq \mathcal A$$ und $$Y \in \mathcal L^1(\P),$$ so gilt:
+
+* $$\Bbb E[\lambda X+Y \mid \mathcal F] = \lambda\Bbb E[ X\mid \mathcal F] + \Bbb E[ Y\mid \mathcal F].$$
+
+* $$X \ge Y$$ fast sicher $$\implies \Bbb E[ X\mid \mathcal F] \ge \Bbb E[ Y\mid \mathcal F]$$ fast sicher.
+
+* Wenn $$\Bbb E[|XY|] < \infty$$ und $$Y\ \mathcal F$$-messbar ist, dann ist $$\Bbb E[XY \mid \mathcal F] = Y \Bbb E[X \mid \mathcal F].$$
+
+* $$\E[\E[X \mid \mathcal F] \mid \mathcal G] = \E[\E[X \mid \mathcal G] \mid \mathcal F] = \E[X \mid \mathcal G].$$
+
+* Wenn $$\sigma(X)$$ unabhängig von $$\mathcal F$$ ist, dahh ist $$\E[X \mid \mathcal F] = \E[X].$$
+
+Ist $$Z$$ eine Zufallsvariable mit Werten in $$\{x_1,\dots,x_n\},$$ so ist
+
+$$
+\Bbb E[X\mid Z](z) = \sum_{i=1}^n \mathbf 1_{\{x_i\}}(z) \Bbb E[X \mid Z=x_i].
+$$
+
+''Satz.''
+Sei $$\mathcal F \subseteq A$$ und $$X \in \mathcal L^2(\P).$$ Dann gilt
+
+$$
+\E[(X-Y)^2] \ge \E[(X-\E[X \mid \mathcal F])^2]
+$$
+
+für alle $$\mathcal F$$-messbaren $$Y \in \mathcal L^2(\P),$$ d.h. der bedingte Erwartungswert ist die beste $$\mathcal L^2$$-Approximation unter allen $$\mathcal F$$-messbaren Funktionen.

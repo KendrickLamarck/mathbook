@@ -1,0 +1,7 @@
+created: 20200502134341564
+modified: 20200502134758429
+tags: Maßtheorie
+title: Faktorisierungslemma
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon \varOmega_1 \to \varOmega_2$$ eine Abbildung und $$\mathcal A_2$$ eine $$\sigma$$-Algebra auf $$\varOmega_2.$$ Eine Funktion $$g\colon \varOmega_1 \to \overline\R$$ genau dann $$\sigma(f)-\mathcal B(\overline\R)$$-messbar, wenn eine Funktion $$\varphi$$ existiert, so dass $$\varphi\colon (\varOmega_2,\mathcal A_2) \to (\overline R,\mathcal B(\overline\R))$$ messbar ist und $$g = \varphi \circ f$$ gilt.

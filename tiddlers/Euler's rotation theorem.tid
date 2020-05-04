@@ -1,0 +1,7 @@
+created: 20200503190631924
+modified: 20200503190942021
+tags: [[Euclidean geometry]]
+title: Euler's rotation theorem
+type: text/vnd.tiddlywiki
+
+In three dimensions, all rotations are simple. That is, any $$\varphi \in \SO_3$$ is the product of two reflections (across hyperplanes through the origin) and can be specified by axis and angle.

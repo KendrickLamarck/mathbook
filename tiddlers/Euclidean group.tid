@@ -1,5 +1,5 @@
 created: 20200426155954489
-modified: 20200426162440321
+modified: 20200503212705326
 tags: [[Euclidean geometry]]
 title: Euclidean group
 type: text/vnd.tiddlywiki
@@ -11,6 +11,8 @@ Every distance-preserving map $$\varphi\colon \Bbb E^n \to \Bbb E^n$$ can be wri
 
 We call the isometry group of euclidean space $$\Bbb E^n$$ the //euclidean group// $$\mathrm E_n.$$
 
+!! The Euclidean group as a semidirect product
+
 * The translation subgroup $$\R^n$$ is a normal subgroup: The conjugate of $$\tau_a$$ under $$\tau_b \circ Q$$ is the translation $$\tau_{Qa}.$$ In other words, the action by conjugation of the complementary subgroup $$\O_n$$ on the translation group $$\R^n$$ is just its action as a map on the vector space $$\R^n.$$
 
 * The orthogonal group is the stabilizer of the origin $${\mathrm E_n}^0.$$  If $$\varphi \in \mathrm E_n$$ is any euclidean motion and $$q=f(p),$$ then the stabilizer of $$q$$ is the conjugate of the stabilizer of $$p$$ by $$\varphi$$: $${\mathrm E_n}^q = \varphi {\mathrm E_n}^p \varphi^{-1}.$$ In particular, the stabilizer of any point $$q$$ is $${\mathrm E_n}^q = \tau_q \O_n \tau_{-q}.$$
@@ -19,4 +21,12 @@ We call the isometry group of euclidean space $$\Bbb E^n$$ the //euclidean group
 
 $$
 (\tau_a Q)(\tau_b R) = \tau_a \tau_{Qb} QR.
-$$
+$$</div>
+
+!! Euclidean motions as products of reflections
+
+''Theorem.''
+Any Euclidean motion $$\varphi \in E_n$$ is the product of at most $$k$$ reflections, where $$k = n-\dim\operatorname{Fix}(\varphi)$$ is the codimension of the fixed point set (where we set $$\dim\varnothing \coloneqq  -1$$).
+
+''Corollary.''
+Any $$\varphi \in \O_n$$ can be written as the product of at most $$n$$ reflections.

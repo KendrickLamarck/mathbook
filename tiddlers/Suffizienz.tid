@@ -1,0 +1,22 @@
+created: 20200504194323416
+modified: 20200504203003179
+tags: Statistik
+title: Suffizienz
+type: text/vnd.tiddlywiki
+
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell und $$S\colon \mathcal X \to \varSigma$$ eine Statistik. Dann heißt $$S$$ //suffizient,// falls für alle $$A \in \mathcal F$$ der Ausdruck
+
+$$
+\P_\vartheta(X \in A \mid \sigma(S))
+$$
+
+nicht von $$\vartheta$$ abhängt, also wenn die Verteilung der Stichprobe $$X$$ bedingt auf $$S(X)$$ nicht vom Parameter $$\vartheta$$ abhängt.
+
+''Bemerkung.''
+Im diskreten Fall reicht es, dass für alle $$x \in \mathcal X$$ und $$s \in \varSigma$$ der Ausdruck
+
+$$
+\P_\vartheta( X = x \mid S(X) = s)
+$$
+
+nicht von $$\vartheta$$ abhängt.

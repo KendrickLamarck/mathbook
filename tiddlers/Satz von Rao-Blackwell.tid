@@ -1,0 +1,27 @@
+created: 20200504200430281
+modified: 20200504202549415
+tags: Statistik
+title: Satz von Rao-Blackwell
+type: text/vnd.tiddlywiki
+
+Seien $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R^d$$ eine Kenngröße, $$S\colon \mathcal X \to \varSigma$$ eine [[suffiziente|Suffizienz]] Statistik und $$T\colon \mathcal X \to \R^d$$ ein Schätzer für $$\tau,$$ dessen Erwartungswert existiert. Setze
+
+$$
+T'\colon \mathcal X \to \R^d,\quad T' \coloneqq \E_\vartheta [T \mid \sigma(S)],
+$$
+
+wobei anzumerken ist, dass $$T'$$ aufgrund der Suffizienz nicht von $$\vartheta$$ abhängt. Dann ist
+
+$$
+\E_\vartheta[\|T'-\tau(\vartheta)\|^2] \le
+\E_\vartheta[\|T-\tau(\vartheta)\|^2]
+$$
+
+für alle $$\vartheta.$$ Insbesondere ist für erwartungstreue Schätzer $$T$$ auch $$T'$$ erwartungstreu und $$V_\vartheta(T') \le V_\vartheta(T).$$
+
+* <p>Im diskreten Spezialfall kann man $$T'$$ auch schreiben als
+
+$$
+T'(x) = \E_\vartheta[T(X) \mid S(X) = S(x)].
+$$</p>
+* Der Satz von Rao-Blackwell liefert ein konstruktives Verfahren zur Verbesserung von Schätzern durch Integration entlang der Hilfsbeobachtungen $$S.$$

@@ -1,8 +1,7 @@
 created: 20190210221038641
 creator: Leander
-modified: 20191107161220760
+modified: 20200504161136396
 modifier: Leander
-revision: 0
 tags: [[Spherical geometry]]
 title: Stereographic projection
 type: text/vnd.tiddlywiki
@@ -19,6 +18,8 @@ $$\begin{gathered}
 \end{gathered}$$
 
 Stereographic projection maps circles in $$S^2$$ which contain $$e_3$$ to lines in $$\Bbb R^2$$ and all other circles in $$S^2$$ to circles in $$\Bbb R^2.$$ All circles and lines in $$\Bbb R^2$$ are images of circles in $$S^2.$$
+
+The map can also be obtained as [[inversion|Inversion in a hypersphere]] in the sphere with center $$e_3$$ and radius $$\sqrt 2$$ restricted to the plane $$e_3 = 0$$ for $$\sigma^{-1}$$ or the unit sphere for $$\sigma.$$
 
 !! Projective
 

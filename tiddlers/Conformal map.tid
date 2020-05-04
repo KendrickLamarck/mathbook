@@ -1,0 +1,11 @@
+created: 20200504143916992
+modified: 20200504145357206
+tags: [[Riemannian metric]]
+title: Conformal map
+type: text/vnd.tiddlywiki
+
+{{Conformal equivalence}}
+
+A diffeomorphism $$f \colon M \to N$$ between Riemannian manifolds $$(M,g)$$ and $$(N,h)$$ is called //conformal// if $$f^*h$$ is conformally equivalent to $$g.$$
+
+In elementary terms, this means that intersection angles between curves are preserved by $$f.$$

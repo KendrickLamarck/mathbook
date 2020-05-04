@@ -1,0 +1,7 @@
+created: 20191123204654588
+modified: 20200504145110190
+tags: [[Riemannian metric]] no-toc
+title: Conformal equivalence
+type: text/vnd.tiddlywiki
+
+Two Riemannian metrics $$g$$ and $$h$$ on a manifold $$M$$ are called //conformally equivalent// if there exists a function $$u\colon M \to \R$$ such that $$g = e^{2u} h.$$ The function $$e^u$$ is called the //conformal factor.//

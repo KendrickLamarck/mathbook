@@ -1,12 +1,12 @@
 created: 20190115154619841
 creator: Leander
-modified: 20200405065201968
+modified: 20200505152808132
 modifier: Leander
 tags: Maß
 title: Bildmaß
 type: text/vnd.tiddlywiki
 
-Sei $$(\varOmega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]] und $$(\varOmega',\mathcal F')$$ ein weiterer [[messbarer Raum|Sigma-Algebra]]. Ferner sei $$f\colon\varOmega\to\varOmega'$$ eine [[messbare Funktion|Messbare Funktion]]. Wir definieren das //Bildmaß// $$\mu\circ f^{-1}\colon\mathcal F'\to[0,\infty]$$ auf $$(\varOmega',\mathcal F')$$ durch
+Sei $$(\varOmega,\mathcal F,\mu)$$ ein [[Maßraum|Maß]] und $$(\varOmega\,',\mathcal F')$$ ein weiterer [[messbarer Raum|Sigma-Algebra]]. Ferner sei $$f\colon\varOmega\to\varOmega\,'$$ eine [[messbare Funktion|Messbare Funktion]]. Wir definieren das //Bildmaß// $$\mu\circ f^{-1}\colon\mathcal F'\to[0,\infty]$$ auf $$(\varOmega\,',\mathcal F')$$ durch
 
 $$
 \mu\circ f^{-1}(A)=\mu(f^{-1}(A)),\qquad A\in\mathcal F'.
@@ -16,9 +16,16 @@ und schreiben dafür auch $$\mu f^{-1}$$ oder $$f(\mu).$$ Es gilt:
 
 * $$\mu\circ f^{-1}$$ ist ein Maß. Falls $$\mu$$ ein [[Wahrscheinlichkeitsmaß]] ist, so auch $$\mu\circ f^{-1}.$$
 
-* Für jede nichtnegative messbare numerische Funktion $$\phi\colon\varOmega'\to [0,\infty]$$ gilt $$
-\int_{\varOmega'} \phi\,\d(\mu\circ f^{-1})=\int_\varOmega (\phi\circ f)\,\d\mu.$$
+* <div>Für jede nichtnegative messbare numerische Funktion $$\phi\colon\varOmega\,'\to [0,\infty]$$ gilt
 
-* Für jede messbare Funktion $$\phi\colon\varOmega'\to\Bbb R$$ gilt $$
-\phi\in\mathcal L^1(\varOmega',\mathcal F',\mu\circ f^{-1})\iff
-\phi\circ f \in\mathcal L^1(\varOmega,\mathcal F,\mu).$$
+$$
+\int_{\varOmega\,'} \phi\,\d(\mu\circ f^{-1})=
+\int_\varOmega (\phi\circ f)\,\d\mu.
+$$</div>
+
+* <div>Für jede messbare Funktion $$\phi\colon\varOmega\,'\to\R$$ gilt
+
+$$
+\phi\in\mathcal L^1(\varOmega\,',\mathcal F',\mu\circ f^{-1})\iff
+\phi\circ f \in\mathcal L^1(\varOmega,\mathcal F,\mu).
+$$</div>

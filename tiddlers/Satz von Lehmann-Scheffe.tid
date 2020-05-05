@@ -1,0 +1,18 @@
+created: 20200505140246580
+modified: 20200505144940918
+tags: [[Vollständige Statistik]] no-toc
+title: Satz von Lehmann-Scheffé
+type: text/vnd.tiddlywiki
+
+Seien $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R^d$$ eine Kenngröße, $$S\colon \mathcal X \to \varSigma$$ eine [[suffiziente|Suffiziente Statistik]] und [[vollständige|Vollständige Statistik]] Statistik und $$T\colon \mathcal X \to \R^d$$ ein erwartungstreuer Schätzer für $$\tau.$$ Dann ist
+
+$$
+T' = \E_\vartheta[T \mid \sigma(S)]
+$$
+
+der eindeutige varianzminimierende erwartungstreue Schätzer.
+
+Es kann Schätzer geben, die nicht erwartungstreu sind und geringeren mittleren quadratischen Fehler haben.
+
+''Korollar.''
+Ein erwartungstreuer Schätzer der Form $$T(x) = t(S(x))$$ mit vollständiger und suffizienter Statistik $$S$$ ist varianzminimierend.

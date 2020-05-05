@@ -1,8 +1,8 @@
 caption: Gauß-Produktmodell
 created: 20200423134002786
-modified: 20200502141110313
+modified: 20200505154012473
 tags: [[Statistik, Kenngröße, Schätzer]]
-title: Maximum-likelihood-Schätzer für das Gauß-Produktmodell
+title: Schätzer für das Gauß-Produktmodell
 type: text/vnd.tiddlywiki
 
 Im $$n$$-fachen Gauß-Produktmodell $$(\R^n, \mathcal B(\R^n), ({\P_{m,v}}^{\otimes n})_{m\in\R,\ v\ge 0}),$$ wobei
@@ -17,3 +17,18 @@ ist $$\hat m(x) \coloneqq \frac 1 n \sum_{i=1}^n x_i = \bar x$$ ein ML-Schätzer
 $$
 \Bbb E_{m,v}[\hat v] = \frac{n-1}{n} v.
 $$
+
+!! Eine vollständige und suffiziente Statistik
+
+$$
+S(x_1,\dots,x_n) \coloneqq \Bigl( \sum x_i,\sum x_i^2 \Bigr)
+$$
+
+ist vollständig und suffizient. Daher ist $$\hat m$$ der erwartungstreue varianzminimierende Schätzer für $$m$$ und
+
+$$
+T_v(X) \coloneqq \frac 1 {n-1} \left(S_2(X) - \frac 1 n S_1(X)^2\right) =
+\frac 1 {n-1} \sum (X_i-\bar X)^2
+$$
+
+für $$v.$$

@@ -1,7 +1,7 @@
 created: 20200504194323416
-modified: 20200504203003179
+modified: 20200505134705676
 tags: Statistik
-title: Suffizienz
+title: Suffiziente Statistik
 type: text/vnd.tiddlywiki
 
 Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell und $$S\colon \mathcal X \to \varSigma$$ eine Statistik. Dann heißt $$S$$ //suffizient,// falls für alle $$A \in \mathcal F$$ der Ausdruck
@@ -20,3 +20,11 @@ $$
 $$
 
 nicht von $$\vartheta$$ abhängt.
+
+!! Neyman-Fisher-Faktorisierungslemma
+
+{{Neyman-Fisher-Faktorisierungslemma}}
+
+!! Satz von Rao-Blackwell
+
+{{Satz von Rao-Blackwell}}

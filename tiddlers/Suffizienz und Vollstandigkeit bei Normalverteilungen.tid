@@ -1,0 +1,14 @@
+created: 20200505150401838
+modified: 20200505151528153
+tags: Statistik
+title: Suffizienz und Vollständigkeit bei Normalverteilungen
+type: text/vnd.tiddlywiki
+
+Seien $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell und $$S\colon \mathcal X \to \varSigma$$ eine Statistik, wobei $$\P_\vartheta$$ von der Form
+
+$$
+\P_\vartheta(\d x) =
+b(\vartheta) \exp(\lang A(\vartheta),S(x)\rang)\,\mu(\d x)
+$$
+
+ist für Funktionen $$b\colon \varTheta \to \R_+$$ und $$A\colon \varTheta \to \R^d,$$ so dass $$A(\varTheta)$$ mindestens einen inneren Punkt hat. Dann ist $$S$$ [[suffizient|Suffiziente Statistik]] und [[vollständig|Vollständige Statistik]].

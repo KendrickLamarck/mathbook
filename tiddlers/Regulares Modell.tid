@@ -1,8 +1,10 @@
 created: 20200428152107068
-modified: 20200428152521447
+modified: 20200505132235493
 tags: Statistik
 title: Reguläres Modell
 type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
 
 Ein [[Standardmodell]] heißt //regulär,// wenn folgende Eigenschaften erfüllt sind:
 

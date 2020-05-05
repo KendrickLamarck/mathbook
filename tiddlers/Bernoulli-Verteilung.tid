@@ -1,5 +1,5 @@
 created: 20190407192213728
-modified: 20200504203956389
+modified: 20200505152659398
 tags: Verteilung
 title: Bernoulli-Verteilung
 type: text/vnd.tiddlywiki
@@ -12,10 +12,10 @@ $$
 
 definierte [[Wahrscheinlichkeitsmaß]] auf $$\{0,1\}$$ heißt //Bernoulli-Verteilung zu $$p.$$//
 
-* <p>Ist $$X$$ Bernoulli-verteilt mit Parameter $$p,$$ so gilt für die [[charakteristische Funktion|Charakteristische Funktion]]
+* <div>Ist $$X$$ Bernoulli-verteilt mit Parameter $$p,$$ so gilt für die [[charakteristische Funktion|Charakteristische Funktion]]
 
 $$
 \chi_X(t)=pe^{it}+(1-p).
-$$</p>
+$$</div>
 
 * $$\E(X) = p,\ V(X) = p(1-p).$$

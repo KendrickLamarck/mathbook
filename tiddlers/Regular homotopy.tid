@@ -1,0 +1,19 @@
+created: 20200505170342857
+modified: 20200505174317587
+tags: [[Closed curve]]
+title: Regular homotopy
+type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
+
+A //regular homotopy// between two closed curves $$(\gamma,\tau)$$ and $$(\bar\gamma,\tau)$$ is a smooth map $$h\colon \R \times [0,1] \to \R^n$$ with the following properties:
+
+# The curves $$\gamma_u\colon \R \to \R^n,\ t \mapsto h(t,u)$$ are all closed, more precisely: there is a continuous map $$u \mapsto \tau_u$$ such that $$h(t+\tau_u,u) = h(t,u)$$ for all $$t \in \R,\ u \in [0,1].$$
+
+# These curves are all regular, i.e. $$\gamma_u'(t) = \fracpartial{h}{t}(t,u) \ne 0$$ for all $$t,u.$$
+
+# $$\gamma_0 = \gamma,\ \gamma_1 = \bar\gamma.$$
+
+Two closed curves with the same period are called //regularly homotopic// if there exists a regular homotopy between them. Regular homotopy is an equivalence relation.
+
+''Theorem (Whitney-Graustein).'' {{Whitney-Graustein theorem}}

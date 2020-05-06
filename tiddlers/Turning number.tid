@@ -1,7 +1,7 @@
 created: 20200430185359251
-modified: 20200501194534553
-tags: Curve
-title: Winding number
+modified: 20200505172947046
+tags: [[Closed curve]]
+title: Turning number
 type: text/vnd.tiddlywiki
 
 For every planar closed curve $$(\gamma,\tau)$$ there is $$n\in\Z$$ with

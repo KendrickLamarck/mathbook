@@ -1,5 +1,5 @@
 created: 20200502120046486
-modified: 20200502140043122
+modified: 20200506123750619
 tags: Erwartungswert
 title: Bedingte Erwartung
 type: text/vnd.tiddlywiki
@@ -45,7 +45,7 @@ $$
 $$
 
 ''Satz.''
-Sei $$\mathcal F \subseteq A$$ und $$X \in \mathcal L^2(\P).$$ Dann gilt
+Sei $$\mathcal F \subseteq \mathcal A$$ und $$X \in \mathcal L^2(\P).$$ Dann gilt
 
 $$
 \E[(X-Y)^2] \ge \E[(X-\E[X \mid \mathcal F])^2]

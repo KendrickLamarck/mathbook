@@ -1,5 +1,5 @@
 created: 20200504194323416
-modified: 20200505134705676
+modified: 20200506133014112
 tags: Statistik
 title: Suffiziente Statistik
 type: text/vnd.tiddlywiki
@@ -12,14 +12,18 @@ $$
 
 nicht von $$\vartheta$$ abhängt, also wenn die Verteilung der Stichprobe $$X$$ bedingt auf $$S(X)$$ nicht vom Parameter $$\vartheta$$ abhängt.
 
-''Bemerkung.''
-Im diskreten Fall reicht es, dass für alle $$x \in \mathcal X$$ und $$s \in \varSigma$$ der Ausdruck
+* <div>Im diskreten Fall reicht es, dass für alle $$x \in \mathcal X$$ und $$s \in \varSigma$$ der Ausdruck
 
 $$
 \P_\vartheta( X = x \mid S(X) = s)
 $$
 
-nicht von $$\vartheta$$ abhängt.
+nicht von $$\vartheta$$ abhängt.</div>
+
+* Das Bildmaß $$\P_\gamma \circ S^{-1}$$ einer suffizienten Statistik $$S$$ unter $$\P_\gamma$$ legt $$\P_\gamma$$ eindeutig fest.
+
+''Interpretation.''
+Eine suffiziente Statistik kann als informationserhaltende Hilfsbeobachtung angesehen werden, d.h. $$S(X)$$ zu beobachten gibt uns ebenso viele Informationen wie $$X$$ selbst zu beobachten, was z.B. Datenreduktion ermöglicht. Eine suffiziente Statistik kann im Bezug auf Datenreduktion nicht weiter verbessert werden, wenn keine nicht konstante Funktion $$f$$ existiert, so dass $$f(S)$$ [[verteilungsfrei|Verteilungsfreie Statistik]] ist. Formal: Wenn $$\E_\vartheta[f(S(X))] = c\ \P_\vartheta$$ - fast sicher für alle $$\vartheta,$$ dann ist $$f=c\ \P_\vartheta$$ - fast sicher für alle $$\vartheta.$$ Dies führt zur Definition der [[Vollständigkeit|Vollständigkeit]].
 
 !! Neyman-Fisher-Faktorisierungslemma
 

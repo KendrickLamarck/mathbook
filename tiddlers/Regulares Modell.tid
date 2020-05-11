@@ -1,12 +1,12 @@
 created: 20200428152107068
-modified: 20200505132235493
+modified: 20200511200431251
 tags: Statistik
 title: Reguläres Modell
 type: text/vnd.tiddlywiki
 
 {{KaTeX macros}}
 
-Ein [[Standardmodell]] heißt //regulär,// wenn folgende Eigenschaften erfüllt sind:
+Ein [[Standardmodell]] mit dichte $$\rho$$ heißt //regulär,// wenn folgende Eigenschaften erfüllt sind:
 
 * $$\varTheta \subseteq \R$$ ist ein offenes Intervall.
 * <div>Die Funktion $$\rho$$ ist positiv und stetig differenzierbar in $$\vartheta.$$ Insbesondere existiert die //Score-Funktion//

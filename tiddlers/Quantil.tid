@@ -1,0 +1,19 @@
+created: 20200511202436030
+modified: 20200511203510986
+tags: Statistik
+title: Quantil
+type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
+
+Sei $$Q$$ ein Wahrscheinlichkeitsmaß auf $$(\R,\mathcal B(\R))$$ und $$\alpha \in {]0,1[}.$$ Dann heißt jede Zahl $$q \in \R$$ mit
+
+$$
+Q(\,\lopenI{-\infty,q}\,) \le \alpha, \qquad
+Q(\,[q,\infty[\,) \ge 1-\alpha
+$$
+
+ein $$\alpha$$-Quantil von $$Q.$$
+
+* Ein $$1/2$$-Quantil von $$Q$$ ist ein //Median.//
+* Ein $$(1-\alpha)$$-Quantil heißt //$$\alpha$$-Fraktil// von $$Q.$$

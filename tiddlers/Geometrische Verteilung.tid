@@ -1,8 +1,7 @@
 created: 20190103020052588
 creator: Leander
-modified: 20191011175001338
+modified: 20200507122910983
 modifier: Leander
-revision: 0
 tags: Verteilung
 title: Geometrische Verteilung
 type: text/vnd.tiddlywiki
@@ -15,5 +14,4 @@ k\mapsto(1-p)^{k-1}p
 $$
 
 definierte [[Wahrscheinlichkeitsmaß]] auf $$\Bbb N$$ heißt //geometrische Verteilung zu $$p$$// und wird mit $$\operatorname{Geom}(p)$$ bezeichnet. 
-
 Sie ist die Verteilung der [[Wartezeit]].

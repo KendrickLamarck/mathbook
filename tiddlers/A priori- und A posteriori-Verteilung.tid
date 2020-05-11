@@ -1,0 +1,25 @@
+created: 20200511113712023
+modified: 20200511200212768
+tags: [[Statistik, Kenngröße, Schätzer]]
+title: A priori- und A posteriori-Verteilung
+type: text/vnd.tiddlywiki
+
+Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit messbarer Dichtefunktion $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und $$\varTheta \subseteq \R^d.$$ Dann heißt ein Wahrscheinlichkeitsmaß $$\alpha$$ auf $$(\varTheta,\mathcal B(\varTheta))$$ eine //A-priori-Verteilung// für den Parameter $$\vartheta.$$
+
+Zu $$x \in \mathcal X$$ heißt
+
+$$
+\nu_x(\d\vartheta) \coloneqq
+  \frac{\rho(\vartheta,x)}
+    {\int_\varTheta \rho(p,x)\,\alpha(\d p)}
+  \alpha(\d \vartheta)
+$$
+
+die //A-posteriori-Verteilung// für $$\vartheta.$$
+
+* Durch zufällige Wahl aus der Menge $$\P_\vartheta$$ gemäß der Verteilung $$\alpha$$ ergibt sich das Wahrscheinlichkeitsmaß $$\P(\d x \,\d \vartheta) = \P_\vartheta(\d x)\,\alpha(\d \vartheta)$$ auf $$\mathcal X \times \varTheta.$$ Es gilt auch $$\P(\d x\,\d\vartheta) = \nu_x(\d\vartheta)\,\P_\alpha(\d x)$$ mit der Randverteilung $$\P_\alpha(\d x) = \int_\varTheta \P_p(\d x)\,\alpha(\d p).$$
+
+* Bedingte Verteilung von $$x$$ gegeben $$\vartheta$$: $$\P_\vartheta(\d x) = \P(\d x \mid \vartheta),$$
+
+* bedingte Verteilung von $$\vartheta$$ gegeben $$x$$: $$\nu_x(\d \vartheta) = \P(\d \vartheta \mid x).$$
+

@@ -1,0 +1,23 @@
+created: 20200511200714005
+modified: 20200511203804780
+tags: Statistik
+title: Konfidenzbereich
+type: text/vnd.tiddlywiki
+
+Sei <<mathtext "Statistisches Modell">> ein statistisches Modell,
+$$\tau\colon \varTheta \to \varSigma$$
+eine Kenngröße und
+$$\alpha \in {]0,1[}.$$
+Dann heißt eine Abbildung
+$$C\colon \mathcal X \to \mathcal P(\varSigma\,)$$
+//Konfidenzbereich// für $$\tau$$ zum Niveau $$\alpha,$$ falls
+
+$$
+\P_\vartheta(C(X) \ni \tau(\vartheta)) \ge 1-\alpha\quad \forall\vartheta.
+$$
+
+Jeder Konfidenzbereich kann eindeutig durch seinen Graphen
+$$C \subseteq \mathcal X \times \varTheta$$
+dargestellt werden. Für $$x \in \mathcal X$$ ist $$C(x)$$ die vertikale Schnittmenge und
+$$C_\vartheta \coloneqq \{C=\vartheta\} \in \mathcal F$$
+(dies fordern wir) die horizontale Schnittmenge.

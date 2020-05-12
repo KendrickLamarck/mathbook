@@ -1,5 +1,5 @@
 created: 20200326004008380
-modified: 20200330014515684
+modified: 20200512220229628
 tags: Differentialgeometrie
 title: Geodesic
 type: text/vnd.tiddlywiki
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 Let $$\nabla$$ be the [[Levi-Civita connection]] on a Riemannian manifold $$(M,g).$$ A curve $$\gamma\colon I \to M$$ is called a //geodesic,// if its velocity $$\dot\gamma$$ is parallel along $$\gamma,$$ i.e.
 
 $$
-\frac{\D}{\d t}\gamma\dot = \nabla_{\dot\gamma} \dot\gamma = 0.
+\frac{\D}{\d t}\dot\gamma = \nabla_{\dot\gamma} \dot\gamma = 0.
 $$
 
 * Every geodesic is parametrized with constant speed.
@@ -23,7 +23,7 @@ $$
 If $$x_i(t)$$ denote the components of $$\varphi(\gamma(t))$$ in a chart $$(U,\varphi),$$ the geodesic equations are given explicitly by
 
 $$
-\ddot x_k + \sum_{i,j} {\varGamma^{\,k}}_{ij}(x) \dot x_i \dot x_j = 0.
+\ddot x_k + \sum_{i,j} {\varGamma\,^{k}}_{ij}(x) \dot x_i \dot x_j = 0.
 $$
 
 !! Geodesic completeness

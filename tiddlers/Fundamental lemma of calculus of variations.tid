@@ -1,0 +1,30 @@
+created: 20200512210316659
+modified: 20200512221019963
+tags: Variation
+title: Fundamental lemma of calculus of variations
+type: text/vnd.tiddlywiki
+
+We define
+
+$$\begin{aligned}
+\smooth_0^\infty([a,b],\R^n) &\coloneqq
+  \left\{\,
+    Y \in \smooth^\infty([a,b],\R^n) \Bigm| \exists\delta > 0\colon
+    Y\bigr|_{[a,a+\delta] \cup [b-\delta,b]} \equiv 0\,
+  \right\}, \\
+\smooth_0^\infty[a,b] &\coloneqq \smooth_0^\infty([a,b],\R).
+\end{aligned}$$
+
+In particular, all variational vector fields of variations of plane curves with compact support are contained in $$\smooth_0^\infty([a,b],\R^2).$$
+
+''Lemma.''
+For all vector fields
+$$Y \in \smooth_0^\infty([0,L],\R^2)$$
+and every parametrized curve there is a variation $$\gamma$$ such that $$\dot\gamma = Y.$$
+
+''Lemma (fundamental lemma of calculus of variations).''
+On the vector space $$\smooth^\infty[a,b]$$ equipped with the $$L^2$$-[[inner product|Lp-Räume]] we have
+
+$$
+(\smooth_0^\infty[a,b])^\perp = \{0\}.
+$$

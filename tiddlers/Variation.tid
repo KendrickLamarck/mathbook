@@ -1,0 +1,24 @@
+created: 20200512204246638
+modified: 20200512212309290
+tags: Curve
+title: Variation
+type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
+
+A //variation// of a curve $$\gamma$$ is a smooth map $$\varphi\colon [a,b] \times \openI{-\varepsilon,\varepsilon}$$ such that, considering $$\varphi$$ as a 1-parameter family of curves via $$\gamma_s(t) \coloneqq \varphi(t,s),$$ we have $$\gamma_0 = \gamma.$$
+
+* <div>The vector field
+
+$$
+\dot\gamma(t) \coloneqq \fracpartial{\varphi}{t}(t,0)
+$$
+
+along $$\gamma$$ is called //variational vector field// of $$\gamma.$$</div>
+
+* For closed curves, we also demand that the period is the same for every $$s.$$
+
+* <div>A variation is said to have compact support if there is $$\delta > 0$$ such that $$\varphi(t,s) = \varphi(t,0)$$ for all
+$$x \in [0,\delta] \cup [L-\delta,L]$$ and $$s \in \openI{-\varepsilon,\varepsilon}.$$</div>
+
+* We sometimes call the curve as well as its varation $$\gamma.$$

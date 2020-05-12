@@ -1,14 +1,18 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200503202629694
+modified: 20200512220407988
 modifier: Leander
 tags: 
 title: TODO
 type: text/vnd.tiddlywiki
 
-* The landing page is shit
-* Cooperation
-** Webserver
-*** Proxy
-* Consider an alias mechanism
-* Review the {{$:/core/ui/UntaggedTemplate}} tiddlers
+* The landing page could be nicer
+* Hosting a node wiki on the web would be great
+* Consider an alias mechanism (so links don't have to be the exact title)
+* replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
+* Migrate this TODO to the github issues
+* Style guide
+** How many subchapters warrant the creation of a tag?
+** cursive (greek!), roman, cal, etc. when?
+*** Variables cursive
+*** Operators roman

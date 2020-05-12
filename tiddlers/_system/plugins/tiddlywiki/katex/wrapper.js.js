@@ -95,7 +95,9 @@ var customMacros = {
     "\\RP":         "\\R\\mathrm{P}",
     "\\C":          "\\mathbb{C}",
     "\\P":          "\\mathbb{P}",
+    "\\prob":       "\\mathbb{P}",
     "\\E":          "\\mathbb{E}",
+    "\\expect":     "\\mathbb{E}",
     "\\D":          "\\mathrm{D}",
     "\\d":          "\\mathrm{d}",
     "\\i":          "\\mathrm{i}",
@@ -127,5 +129,7 @@ var customMacros = {
     "\\tr":         "\\operatorname{tr}",
     "\\Ric":        "\\operatorname{Ric}",
     "\\MSE":        "\\operatorname{MSE}",
-    "\\grad":       "\\operatorname{grad}"
+    "\\grad":       "\\operatorname{grad}",
+    "\\smooth":     "\\mathcal{C}",
+    "\\smoothcs":   "\\mathcal{C}_{\\mathrm{c}}"
 };

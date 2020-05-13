@@ -1,18 +1,37 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200512220407988
+modified: 20200513171837340
 modifier: Leander
 tags: 
 title: TODO
 type: text/vnd.tiddlywiki
 
-* The landing page could be nicer
-* Hosting a node wiki on the web would be great
-* Consider an alias mechanism (so links don't have to be the exact title)
-* replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
+!! Issues
+
 * Migrate this TODO to the github issues
-* Style guide
+* Refactor the table of contents
+** Distinguish intrinsic ([[Untermannigfaltigkeiten des Rn]]) and extrinsic [[Differentialgeometrie]] and [[Curve]]
+* The SolarizedLight palette (or theme?) needs work
+** Menu selection, e.g. in the search field, is hard to read.
+** The x to delete tags is a bad color
+* The SolarizedDark palette is bad
+* We don't want to commit changes where only the //modified// field has changed.
+
+!! Ideas
+
+* Make a Style guide
 ** How many subchapters warrant the creation of a tag?
-** cursive (greek!), roman, cal, etc. when?
+*** 3
+** cursive (greek! e.g. $$\varOmega\,$$), roman, cal, etc. when?
 *** Variables cursive
 *** Operators roman
+** Lists vs paragraphs when?
+** Which headers when?
+** Styling of definitions, theorems, etc.
+** What should be its own tiddler and what shouldn't?
+* More line breaks so it's easier to see what was changed in a commit
+* Hosting a node wiki on the web would be great
+* replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
+* Consider an alias mechanism (so links don't have to be the exact title)
+* Translate everything to English to improve accessibility?
+* An actual favicon: nice to have.

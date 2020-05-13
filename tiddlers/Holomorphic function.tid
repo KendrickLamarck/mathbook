@@ -1,0 +1,18 @@
+created: 20200513193536303
+modified: 20200513194303485
+tags: [[Minimal surface]]
+title: Holomorphic function
+type: text/vnd.tiddlywiki
+
+{{KaTeX macros}}
+
+For a domain $$M \subseteq \R^2,$$ a map $$f\colon M \to \R^2$$ is called //holomorphic,// if
+
+$$
+\partial_v f = J \partial_u f.
+$$
+
+where $$J$$ is the counterclockwise rotation by $$\pi/2.$$
+
+''Theorem.''
+A holomorphic map is always [[harmonic|Minimal surface]].

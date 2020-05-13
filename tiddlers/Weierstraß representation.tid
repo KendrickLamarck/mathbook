@@ -1,0 +1,45 @@
+created: 20200513200250466
+modified: 20200513203143837
+tags: [[Minimal surface]]
+title: Weierstraß representation
+type: text/vnd.tiddlywiki
+
+* consider $$\R^6$$ as the pairs $$(\mathbf u,\mathbf v) \in \R^3 \times \R^3 \cong \R^6.$$
+
+* Define a matrix $$J$$ via $$J(\mathbf u,\mathbf v) = (-\mathbf v,\mathbf u).$$
+
+* Identify $$\R^6$$ with $$\C^3$$ such that $$J(\mathbf u,\mathbf v)=\i(\mathbf u,\mathbf v)$$ and $$\mathbf u = \Re(\mathbf u,\mathbf v).$$ This can be done via $$(\mathbf u, \mathbf v) \leftrightarrow (\mathbf u + \i\mathbf v).$$
+
+* <div>Extend the euclidean scalar product on $$\R^3$$ to a complex-valued bilinear product $$\lang\cdot,\cdot\rang_\C$$ on $$\R^6=\C^3$$ by defining
+
+$$
+\left\lang
+  \begin{pmatrix} \mathbf u \\ \mathbf v \end{pmatrix} \!,
+  \begin{pmatrix} \mathbf u \\ \mathbf v \end{pmatrix}
+\right\rang_\C \coloneqq
+\lang \mathbf u,\mathbf u \rang - \lang \mathbf v, \mathbf v \rang
++ 2\i \lang \mathbf u, \mathbf v\rang.
+$$</div>
+
+A map $$F\colon \R^2 \supset M \to \R^6$$ is then called //holomorphic,// if
+
+$$
+F_v = J F_u.
+$$
+
+Holomorphicity implies that $$F=(f,g)$$ is [[harmonic|Minimal surface]], so $$f=\Re F$$ is a conformally parametrized minimal surface if and only if $$F$$ is a //holomorphic null immersion,// i.e. $$F_u \ne 0$$ and $$\lang F_u,F_u\rang_\C = 0.$$
+
+''Theorem.''
+Let $$M \subseteq \R^2$$ be a domain and $$F \colon M \to \C^3$$ a holomorphic map such that
+
+$$
+F_u = \begin{pmatrix}
+\psi^2 - \phi ^2    \\
+\i(\psi^2 - \phi^2) \\
+2 \psi \phi         \\
+\end{pmatrix},
+$$
+
+where $$\psi,\phi \colon M \to \C$$ are holomorphic functions without zeros. Then $$F$$ is a holomorphic null-immersion and therefore its real part $$f \colon M \to \R^3$$ is a conformally parametrized minimal surface.
+
+Locally, every conformally parametrized minimal surface can be obtained in this way with a suitable choice of $$\psi$$ and $$\phi.$$

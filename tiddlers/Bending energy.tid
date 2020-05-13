@@ -1,0 +1,17 @@
+created: 20200513145459356
+creator: Leander
+modified: 20200513151523800
+modifier: Leander
+tags: Variation
+title: Bending energy
+type: text/vnd.tiddlywiki
+
+The //bending energy// of a parametrized curve $$\gamma\colon [0,L] \to \R^2$$ is given by
+
+$$
+E(\gamma) \coloneqq \int_0^L \kappa^2 \,\d s,
+$$
+
+where $$\d s = v \,\d x.$$
+
+{{Free elastic curve}}

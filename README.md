@@ -9,3 +9,5 @@ A mathematics knowledge base powered by [TiddlyWiki](https://tiddlywiki.com) To 
 1. Server starten: `tiddlywiki /pfad/zum/ordner/ --listen` und dann im Browser http://127.0.0.1:8080 öffnen.
 
 jetzt kann das Wiki bearbeitet werden, Änderungen werden automatisch in die Ordnerstruktur geschrieben und gewöhnliche pull-requests können angefertigt werden.
+
+Die Antworten auf die meisten technischen Fragen können höchstwahrscheinlich auf https://tiddlywiki.com oder durch Inspizieren der schon vorhandenen Einträge gefunden werden.

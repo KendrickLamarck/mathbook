@@ -8,4 +8,4 @@ A mathematics knowledge base powered by [TiddlyWiki](https://tiddlywiki.com) To 
 1. Das github-repo in einen Ordner klonen.
 1. Server starten: `tiddlywiki /pfad/zum/ordner/ --listen` und dann im Browser http://127.0.0.1:8080 öffnen.
 
-jetzt kann das Wiki bearbeitet werden und Änderungen werden automatisch in die Ordnerstruktur geschrieben.
+jetzt kann das Wiki bearbeitet werden, Änderungen werden automatisch in die Ordnerstruktur geschrieben und gewöhnliche pull-requests können angefertigt werden.

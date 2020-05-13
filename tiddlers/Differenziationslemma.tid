@@ -1,10 +1,10 @@
 created: 20190108162643613
 creator: Leander
-modified: 20190108163104597
+modified: 20200513151348978
 modifier: Leander
-revision: 0
 tags: Lebesgue-Integral
 title: Differenziationslemma
+type: text/vnd.tiddlywiki
 
 Es sei $$I\subseteq\Bbb R$$ ein nichttriviales Intervall und $$f\colon\Omega\times I\to\Bbb R$$ eine Abbildung, so dass gelten
 
@@ -12,4 +12,4 @@ Es sei $$I\subseteq\Bbb R$$ ein nichttriviales Intervall und $$f\colon\Omega\tim
 # für fast alle $$\omega\in\Omega$$ ist $$f(\omega,\cdot)$$ [[differenzierbar|Ableitung in R]]
 # die Abbildung $$\sup_{x\in I}|f'(\cdot,x)|$$ liegt in $$\mathcal L^1(\mu).$$
 
-Dann liegt $$f'(\cdot,x)$$ für jedes $$x\in I$$ in $$\mathcal L^1(\mu)$$ und die Funktion $$F(x)=\int f(\omega,x)\,\mu(\mathrm d\omega)$$ ist differenzierbar mit $$F'(x)=\int f'(\omega,x)\mu(\mathrm d\omega)$$
+Dann liegt $$f'(\cdot,x)$$ für jedes $$x\in I$$ in $$\mathcal L^1(\mu)$$ und die Funktion $$F(x)=\int f(\omega,x)\,\mu(\mathrm d\omega)$$ ist differenzierbar mit $$F'(x)=\int f'(\omega,x)\,\mu(\mathrm d\omega)$$

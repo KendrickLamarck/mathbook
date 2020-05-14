@@ -2,17 +2,16 @@ caption: Conic
 created: 20190130092036993
 creator: Leander
 list: [[Existence and uniqueness of projective conics]] [[Lines in conics]] [[Pencil of conics]] [[Pencil of conics containing four points]] [[Pole-polar relationship]] [[Dual conic]] [[Pascal's theorem]] [[Brianchon's theorem]] [[Complete quadrilateral and a polar triangle]] [[Steiner's generation of conics]]
-modified: 20191109133501359
+modified: 20200514120524816
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]]
 title: Projective conic
 type: text/vnd.tiddlywiki
 
-A subset $$Q\subseteq\Bbb R\mathrm P^2$$ is called a //conic// if there is a [[quadratic form|Quadratische Form]] $$q\ne 0$$ in $$\Bbb R^3$$ such that
+A subset $$Q \subseteq \RP^2$$ is called a //conic// if there is a [[quadratic form|Quadratische Form]] $$q \ne 0$$ in $$\R^3$$ such that
 
 $$
-Q=\{\,[x]\in\Bbb R\mathrm P^2: q(x)=0\,\}.
+Q=\{\,[x]\in\RP^2: q(x)=0\,\}.
 $$
 
 !! Existence and uniqueness

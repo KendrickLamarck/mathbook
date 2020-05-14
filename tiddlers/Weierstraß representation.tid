@@ -1,5 +1,5 @@
 created: 20200513200250466
-modified: 20200513203143837
+modified: 20200514185547399
 tags: [[Minimal surface]]
 title: Weierstraß representation
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ $$
 \left\lang
   \begin{pmatrix} \mathbf u \\ \mathbf v \end{pmatrix} \!,
   \begin{pmatrix} \mathbf u \\ \mathbf v \end{pmatrix}
-\right\rang_\C \coloneqq
+\right\rang_{\mkern{-5mu}\C} \coloneqq
 \lang \mathbf u,\mathbf u \rang - \lang \mathbf v, \mathbf v \rang
 + 2\i \lang \mathbf u, \mathbf v\rang.
 $$</div>
@@ -40,6 +40,6 @@ F_u = \begin{pmatrix}
 \end{pmatrix},
 $$
 
-where $$\psi,\phi \colon M \to \C$$ are holomorphic functions without zeros. Then $$F$$ is a holomorphic null-immersion and therefore its real part $$f \colon M \to \R^3$$ is a conformally parametrized minimal surface.
+where $$\psi,\phi \colon M \to \C$$ are holomorphic functions without zeros called the //Weierstraß data.// Then $$F$$ is a holomorphic null-immersion and therefore its real part $$\Re F = f \colon M \to \R^3$$ is a conformally parametrized minimal surface.
 
 Locally, every conformally parametrized minimal surface can be obtained in this way with a suitable choice of $$\psi$$ and $$\phi.$$

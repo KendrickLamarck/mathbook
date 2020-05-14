@@ -1,0 +1,7 @@
+created: 20200514185616208
+modified: 20200514185724997
+tags: [[Minimal surface]]
+title: Enneper surface
+type: text/vnd.tiddlywiki
+
+The minimal surfaces whose [[Weierstraß data|Weierstraß representation]] are the functions $$\psi(z) = z^k,\ \phi(z) = z^l$$ for some $$k,l \in \Z$$ are called //Enneper surfaces.//

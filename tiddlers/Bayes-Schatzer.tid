@@ -1,8 +1,14 @@
 created: 20200511122132930
-modified: 20200511195945959
+modified: 20200514140232684
 tags: [[Statistik, Kenngröße, Schätzer]]
 title: Bayes-Schätzer
 type: text/vnd.tiddlywiki
+
+!! A priori- und A posteriori-Verteilung
+
+{{A priori- und A posteriori-Verteilung}}
+
+!! Bayes-Schätzer
 
 Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit messbarer Dichtefunktion $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und $$\varTheta \subseteq \R^d.$$ Sei $$\tau\colon \varTheta \to \R$$ eine messbare Kenngröße mit $$\E_\alpha[\tau^2]<\infty.$$ Ein Schätzer $$T\colon \mathcal X \to \R$$ für $$\tau$$ heißt //Bayes-Schätzer,// falls
 
@@ -13,13 +19,10 @@ $$
   \,\P_\vartheta(\d x) \,\alpha(\d \vartheta)
 $$
 
-minimal unter allen Schätzern für $$\tau$$ ist.
-
-''Satz.''
-Unter diesen Voraussetzungen ist
+minimal unter allen Schätzern für $$\tau$$ ist. Unter diesen Voraussetzungen ist
 
 $$
-T(x) \coloneqq \E_{\nu_x}[\tau(\vartheta)] =
+T(x) \coloneqq \E_{\nu_x}[\tau] =
   \int_\varTheta \tau(\vartheta)\, \nu_x(\d \vartheta)
 $$
 

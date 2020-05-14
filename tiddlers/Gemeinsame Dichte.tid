@@ -1,5 +1,5 @@
 created: 20190708232345343
-modified: 20200423161323741
+modified: 20200514131112969
 tags: [[Gemeinsame Verteilung]]
 title: Gemeinsame Dichte
 type: text/vnd.tiddlywiki
@@ -22,13 +22,7 @@ $$
 
 !! Von der gemeinsamen Dichte zu den einzelnen
 
-Besitzen $$X_1,\dots,X_n$$ die gemeinsame Dichte $$f_\Bbb X,$$ so besitzen alle $$X_i$$ ebenfalls eine Dichte $$f_{X_i}$$ und es gilt
-
-$$
-f_{X_i}(x)=\underbrace{\int_\R\cdots\int_\R}_{n-1}
-f_\Bbb X(y_1,\dots,y_{i-1},x,y_{i+1},\dots,y_n)
-\,\mathrm dy_n\cdots\widehat{dy_{i}}\cdots\mathrm dy_1.
-$$
+{{Randdichte}}
 
 !! Von einzelnen Dichten zur gemeinsamen
 

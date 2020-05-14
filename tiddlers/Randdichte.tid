@@ -1,0 +1,13 @@
+created: 20200514131112477
+modified: 20200514131128627
+tags: [[Gemeinsame Dichte]] no-toc
+title: Randdichte
+type: text/vnd.tiddlywiki
+
+Besitzen $$X_1,\dots,X_n$$ die gemeinsame Dichte $$f_\Bbb X,$$ so besitzen alle $$X_i$$ ebenfalls eine sog. //Randdichte// $$f_{X_i}$$ und es gilt
+
+$$
+f_{X_i}(x)=\underbrace{\int_\R\cdots\int_\R}_{n-1}
+f_\Bbb X(y_1,\dots,y_{i-1},x,y_{i+1},\dots,y_n)
+\,\mathrm dy_n\cdots\widehat{dy_{i}}\cdots\mathrm dy_1.
+$$

@@ -1,11 +1,10 @@
 created: 20190426115251748
-modified: 20190714205547533
-revision: 0
+modified: 20200514130353801
 tags: Stochastik
 title: Formel von Bayes
 type: text/vnd.tiddlywiki
 
-Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]] und $$A\in\mathcal A$$ mit $$\Bbb P(A)>0.$$ Weiter sei $$(B_n)_{n\in\Bbb N}$$ eine (endliche oder unendliche) [[Folge]] paarweise disjunkter Ereignisse in $$\mathcal A$$ mit $$A\subseteq\bigcup_n B_n.$$ Dann gilt
+Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]] und $$A\in\mathcal A$$ mit $$\Bbb P(A)>0.$$ Weiter sei $$(B_n)$$ eine (endliche oder unendliche) [[Folge]] paarweise disjunkter Ereignisse in $$\mathcal A$$ mit $$A\subseteq\bigcup_n B_n.$$ Dann gilt
 
 $$
 \Bbb P(B_n\mid A)=\frac

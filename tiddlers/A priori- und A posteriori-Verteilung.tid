@@ -1,10 +1,12 @@
 created: 20200511113712023
-modified: 20200511200212768
-tags: [[Statistik, Kenngröße, Schätzer]]
+modified: 20200514135047644
+tags: [[Statistik, Kenngröße, Schätzer]] no-toc
 title: A priori- und A posteriori-Verteilung
 type: text/vnd.tiddlywiki
 
 Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit messbarer Dichtefunktion $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und $$\varTheta \subseteq \R^d.$$ Dann heißt ein Wahrscheinlichkeitsmaß $$\alpha$$ auf $$(\varTheta,\mathcal B(\varTheta))$$ eine //A-priori-Verteilung// für den Parameter $$\vartheta.$$
+
+
 
 Zu $$x \in \mathcal X$$ heißt
 
@@ -17,9 +19,18 @@ $$
 
 die //A-posteriori-Verteilung// für $$\vartheta.$$
 
-* Durch zufällige Wahl aus der Menge $$\P_\vartheta$$ gemäß der Verteilung $$\alpha$$ ergibt sich das Wahrscheinlichkeitsmaß $$\P(\d x \,\d \vartheta) = \P_\vartheta(\d x)\,\alpha(\d \vartheta)$$ auf $$\mathcal X \times \varTheta.$$ Es gilt auch $$\P(\d x\,\d\vartheta) = \nu_x(\d\vartheta)\,\P_\alpha(\d x)$$ mit der Randverteilung $$\P_\alpha(\d x) = \int_\varTheta \P_p(\d x)\,\alpha(\d p).$$
+''Bemerkung.''
+Ist die Abbildung $$\vartheta \mapsto \P_\vartheta(A)$$ messbar für alle $$A \in \mathcal F,$$ dann ist $$\kappa\colon (\vartheta,A) \mapsto \P_\vartheta(A)$$ ein [[stochastischer Kern|Übergangskern]] von $$\varTheta$$ nach $$\mathcal X.$$ Wir schreiben $$\P = \alpha \otimes \kappa.$$ Sind $$X$$ und $$\varGamma$$ die Projektionen auf $$\varTheta \times \mathcal X,$$ so können wir die A posteriori-Verteilung auch als die [[reguläre bedingte Verteilung|Reguläre bedingte Verteilung]]
 
-* Bedingte Verteilung von $$x$$ gegeben $$\vartheta$$: $$\P_\vartheta(\d x) = \P(\d x \mid \vartheta),$$
+$$
+\nu_x(A) = \P(\varGamma \in A \mid X=x)
+$$
+
+auffassen. Die Existenz dieser Verteilungen ist zunächst nicht klar, kann hier aber als gegeben angenommen werden.
+
+* Durch zufällige Wahl aus der Menge $$\P_\vartheta$$ gemäß der Verteilung $$\alpha$$ ergibt sich das Wahrscheinlichkeitsmaß $$\P(\d x \,\d \vartheta) = \P_\vartheta(\d x)\,\alpha(\d \vartheta)$$ auf $$\mathcal X \times \varTheta.$$ Es gilt auch $$\P(\d x\,\d\vartheta) = \nu_x(\d\vartheta)\,\P_\alpha(\d x)$$ mit der [[Randverteilung]] $$\P_\alpha(\d x) = \int_\varTheta \P_p(\d x)\,\alpha(\d p).$$
+
+* [[Bedingte Verteilung]] von $$x$$ gegeben $$\vartheta$$: $$\P_\vartheta(\d x) = \P(\d x \mid \vartheta),$$
 
 * bedingte Verteilung von $$\vartheta$$ gegeben $$x$$: $$\nu_x(\d \vartheta) = \P(\d \vartheta \mid x).$$
 

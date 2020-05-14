@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200513171837340
+modified: 20200514131228994
 modifier: Leander
 tags: 
 title: TODO
@@ -12,8 +12,9 @@ type: text/vnd.tiddlywiki
 * Refactor the table of contents
 ** Distinguish intrinsic ([[Untermannigfaltigkeiten des Rn]]) and extrinsic [[Differentialgeometrie]] and [[Curve]]
 * The SolarizedLight palette (or theme?) needs work
-** Menu selection, e.g. in the search field, is hard to read.
-** The x to delete tags is a bad color
+** Menu selection, e.g. in the search field
+** The x to delete tags
+** excise button
 * The SolarizedDark palette is bad
 * We don't want to commit changes where only the //modified// field has changed.
 

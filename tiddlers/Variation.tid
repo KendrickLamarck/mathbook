@@ -1,24 +1,33 @@
 created: 20200512204246638
-modified: 20200512212309290
+modified: 20200515202853491
 tags: Curve
 title: Variation
 type: text/vnd.tiddlywiki
 
 {{KaTeX macros}}
 
-A //variation// of a curve $$\gamma$$ is a smooth map $$\varphi\colon [a,b] \times \openI{-\varepsilon,\varepsilon}$$ such that, considering $$\varphi$$ as a 1-parameter family of curves via $$\gamma_s(t) \coloneqq \varphi(t,s),$$ we have $$\gamma_0 = \gamma.$$
-
-* <div>The vector field
+A //variation// of a curve $$\gamma_0$$ is a smooth map $$\varphi\colon [a,b] \times \openI{-\varepsilon,\varepsilon} \to \R^2$$ such that $$\gamma_0(x) = \varphi(x,0).$$ The vector field
 
 $$
-\dot\gamma(t) \coloneqq \fracpartial{\varphi}{t}(t,0)
+\dot\gamma(x) \coloneqq \fracpartial{\varphi}{t}(x,0)
 $$
 
-along $$\gamma$$ is called //variational vector field// of $$\gamma.$$</div>
+along $$\gamma_0$$ is called //variational vector field// of $$\varphi.$$
 
-* For closed curves, we also demand that the period is the same for every $$s.$$
+* For closed curves, we also demand that the period is the same for every $$t.$$
 
-* <div>A variation is said to have compact support if there is $$\delta > 0$$ such that $$\varphi(t,s) = \varphi(t,0)$$ for all
-$$x \in [0,\delta] \cup [L-\delta,L]$$ and $$s \in \openI{-\varepsilon,\varepsilon}.$$</div>
+* We define $$\gamma_t(x) \coloneqq \varphi(x,t).$$
 
-* We sometimes call the curve as well as its varation $$\gamma.$$
+* <div>A variation is said to have compact support if there is $$\delta > 0$$ such that
+$$\varphi(x,t) = \varphi(x,0)$$ for all
+$$x \in [a,a+\delta] \cup [b-\delta,b]$$ and
+$$t \in \openI{-\varepsilon,\varepsilon}.$$</div>
+
+''Theorem.''
+If $$\gamma_0\colon [0,L] \to \R^2$$ is arc length parametrized and $$\gamma$$ is a variation of $$\gamma_0,$$ then
+
+$$
+\fracderiv{}{t}\biggr|_{t=0} L(\gamma_t) =
+  \lang \dot\gamma,T \rang\bigr|_0^L +
+  \int_0^L \kappa \lang \dot\gamma,N \rang \,\d s.
+$$

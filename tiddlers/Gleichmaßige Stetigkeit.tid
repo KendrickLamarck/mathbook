@@ -1,9 +1,8 @@
 created: 20171225170626501
 creator: Leander
 list: 
-modified: 20191003220314966
+modified: 20200515203610537
 modifier: Leander
-revision: 0
 tags: Stetigkeit
 title: Gleichmäßige Stetigkeit
 type: text/vnd.tiddlywiki
@@ -16,12 +15,8 @@ $$
 
 $$f$$ ist genau dann gleichmäßig stetig auf der Teilmenge $$G\subset X$$ in diesem Sinne, wenn sie auf $$(G,d_G)$$ gleichmäßig stetig ist.
 
-Gleichmäßig stetige Funktionen sind [[stetig|Stetigkeit]].
+* Gleichmäßig stetige Funktionen sind [[stetig|Stetigkeit]].
 
-!! Satz von Heine
+* {{Satz von Heine}} (Satz von Heine).
 
-{{Satz von Heine}}
-
-!! Zusammenhang mit dem Grenzwert
-
-{{Gleichmäßige Stetigkeit und Grenzwerte}}
+* {{Gleichmäßige Stetigkeit und Grenzwerte}}

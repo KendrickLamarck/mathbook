@@ -1,0 +1,17 @@
+created: 20200515185814188
+modified: 20200515191009840
+tags: [[Wichtige Funktionen]]
+title: Betafunktion
+type: text/vnd.tiddlywiki
+
+Für $$z,w \in \C$$ mit positivem Realteil definiere
+
+$$
+B(z,w) \coloneqq \int_0^1 t^{z-1}(1-t)^{w-1}\,\d t.
+$$
+
+Es gilt
+
+$$
+B(z,w) = \frac{\varGamma\,(z)\varGamma\,(w)}{\varGamma\,(z+w)}.
+$$

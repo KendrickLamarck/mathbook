@@ -1,8 +1,8 @@
 created: 20191201182627477
 list: [[Explizites Einschrittverfahren]] [[Implizites Euler-Verfahren]] Fehleranalyse Polynominterpolation [[Eindimensionale Randwertprobleme]] [[Zweidimensionale Randwertprobleme]] Spline Newton-Cotes-Formeln [[Diskrete Fourier-Transformation]] LR-Zerlegung [[Banach'scher Fixpunktsatz]] Newton-Verfahren
-modified: 20200411160801830
+modified: 20200516134316830
 tags: Mathematics
 title: Numerik
 type: text/vnd.tiddlywiki
 
-{{||$:/_mytemplates/treeTemplate}}
+{{||$:/_templates/treeTemplate}}

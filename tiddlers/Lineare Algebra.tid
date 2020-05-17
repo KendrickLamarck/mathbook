@@ -1,10 +1,10 @@
 created: 20170209193534957
 creator: Leander
 list: Vektorraum [[Lineare Abbildung]] [[Lineares Gleichungssystem]] Matrix Determinante Koordinatensystem Bilinearform Skalarprodukt [[Multilineare Abbildung]]
-modified: 20200411160814909
+modified: 20200516134304392
 modifier: Leander
 tags: Mathematics
 title: Lineare Algebra
 type: text/vnd.tiddlywiki
 
-{{||$:/_mytemplates/treeTemplate}}
+{{||$:/_templates/treeTemplate}}

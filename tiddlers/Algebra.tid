@@ -1,10 +1,10 @@
 created: 20171225180906415
 creator: Leander
 list: Halbgruppe Gruppe Ring Körper Schiefkörper Polynom Homomorphismus Isomorphismus [[Natürliche Zahlen]] [[Induktive Menge]] [[Vollständige Induktion]] [[Algebraische Abgeschlossenheit]] Category
-modified: 20200424212108729
+modified: 20200516134226089
 modifier: Leander
 tags: Mathematics
 title: Algebra
 type: text/vnd.tiddlywiki
 
-{{||$:/_mytemplates/treeTemplate}}
+{{||$:/_templates/treeTemplate}}

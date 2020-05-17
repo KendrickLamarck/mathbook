@@ -1,0 +1,9 @@
+created: 20180901215848155
+modified: 20200516134156571
+title: $:/_templates/transcludeSelfTemplate
+type: text/vnd.tiddlywiki
+
+<h1>
+<$view field="title"/>
+</h1>
+<$transclude mode="block"/>

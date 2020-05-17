@@ -1,10 +1,10 @@
 created: 20181229161000125
 creator: Leander
 list: Sigma-Algebra Maß [[Algebra (Mengensystem)]] [[Äußeres Maß]] Dynkin-System [[Messbare Funktion]] [[Numerische Funktion]]
-modified: 20200411160810823
+modified: 20200516134308725
 modifier: Leander
 tags: Mathematics
 title: Maßtheorie
 type: text/vnd.tiddlywiki
 
-{{||$:/_mytemplates/treeTemplate}}
+{{||$:/_templates/treeTemplate}}

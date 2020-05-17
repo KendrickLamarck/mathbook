@@ -1,0 +1,10 @@
+created: 20190103171210000
+creator: Leander
+modified: 20200516134201807
+modifier: Leander
+title: $:/_templates/treeTemplate
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+<$macrocall $name=toc tag={{!!title}} sort=!tag[no-toc]/>
+</div>

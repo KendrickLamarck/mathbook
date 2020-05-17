@@ -1,7 +1,7 @@
 created: 20170209193936601
 creator: Leander
 list: Abbildung Folge Reihe [[Grenzwert von Funktionen]] Stetigkeit Ableitung Integration [[Gewöhnliche Differentialgleichung]] Fourier-Reihe [[Metrischer Raum]] [[Normierter Vektorraum]] [[Wichtige Funktionen]] [[Dirichlet energy]]
-modified: 20200411160834365
+modified: 20200516134232117
 modifier: Leander
 tags: Mathematics
 title: Analysis
@@ -12,4 +12,4 @@ type: text/vnd.tiddlywiki
 * $$\mathbb{K} \in \{\, \mathbb{R}, \mathbb{C} \,\}$$
 * Die [[natürlichen Zahlen|Natürliche Zahlen]] enthalten meistens die 0.
 
-{{||$:/_mytemplates/treeTemplate}}
+{{||$:/_templates/treeTemplate}}

@@ -1,8 +1,8 @@
 created: 20180315152314445
 list: Exponentialfunktion Gammafunktion Identität Indikatorfunktion Kronecker-Delta Curve [[Trigonometrische Funktionen]] [[Dirichlet energy]]
-modified: 20200515185833360
+modified: 20200516134333824
 tags: Analysis
 title: Wichtige Funktionen
 type: text/vnd.tiddlywiki
 
-{{||$:/_mytemplates/treeTemplate}}
+{{||$:/_templates/treeTemplate}}

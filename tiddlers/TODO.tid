@@ -1,8 +1,8 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200514131228994
+modified: 20200516143925632
 modifier: Leander
-tags: 
+tags: meta
 title: TODO
 type: text/vnd.tiddlywiki
 
@@ -17,6 +17,8 @@ type: text/vnd.tiddlywiki
 ** excise button
 * The SolarizedDark palette is bad
 * We don't want to commit changes where only the //modified// field has changed.
+* Improve the folder structure
+** Folder for <<tag no-toc>>? There are {{{[tag[no-toc]count[]]}}} tiddlers tagged with no-toc
 
 !! Ideas
 
@@ -26,6 +28,7 @@ type: text/vnd.tiddlywiki
 ** cursive (greek! e.g. $$\varOmega\,$$), roman, cal, etc. when?
 *** Variables cursive
 *** Operators roman
+*** constants ????
 ** Lists vs paragraphs when?
 ** Which headers when?
 ** Styling of definitions, theorems, etc.
@@ -36,3 +39,4 @@ type: text/vnd.tiddlywiki
 * Consider an alias mechanism (so links don't have to be the exact title)
 * Translate everything to English to improve accessibility?
 * An actual favicon: nice to have.
+* Add sources (as embedded PDFs?)

@@ -1,11 +1,10 @@
 created: 20200411151711026
-modified: 20200516133921542
+modified: 20200517123254902
 tags: $:/tags/Macro
 title: $:/_macros/mathdisplay
-type: text/vnd.tiddlywiki
+type: text/plain
 
 \define mathdisplay(tiddler:<<currentTiddler>> field:formula)
-{{KaTeX macros}}
 <$set name=latext tiddler="$tiddler$" field="$field$">
 <$latex text=<<latext>> displayMode="true"/>
 </$set>

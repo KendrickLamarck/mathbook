@@ -1,5 +1,5 @@
 created: 20191229214758724
-modified: 20200308210030516
+modified: 20200518125132053
 tags: Topologie
 title: Topologischer Raum
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ Sei $$X$$ eine Menge und $$\mathcal T\subset\mathcal P(X)$$ eine Teilmenge der [
 # Für $$n\in\mathbb N$$ und $$U_1,\ldots,U_n\in\mathcal T$$ ist $$
 \bigcap_{i=1}^n U_i\in\mathcal T.$$
 
-Man nennt dann $$(X,\mathcal T)$$ einen //topologischen Raum// und die mengen in $$\mathcal T$$ //offen//.
+Man nennt dann $$(X,\mathcal T)$$ einen //topologischen Raum// und die mengen in $$\mathcal T$$ //offen//. Komplemente offener Mengen heißen //abgeschlossen.//

@@ -1,20 +1,16 @@
 created: 20200513150714510
 creator: Leander
-modified: 20200513151456308
+modified: 20200519010702449
 modifier: Leander
-tags: Variation no-toc
+tags: Variation
 title: Free elastic curve
 type: text/vnd.tiddlywiki
 
-A parametrized curve is said to be //freely elastic,// if for all variations with compact support it satisfies
-
-$$
-\dot E = 0.
-$$
+{{Bending energy}} A parametrized curve is said to be //freely elastic,// if for all variations with compact support it satisfies $$\dot E = 0.$$
 
 ''Theorem.''
 An arc length parametrized curve is freely elastic if and only if
-
 $$
 \kappa'' + \frac 1 2 \kappa^3 = 0.
 $$
+This uniquely defines the freely elastic curve in the plane up to similarity.

@@ -1,8 +1,8 @@
 created: 20200513145459356
 creator: Leander
-modified: 20200513151523800
+modified: 20200519005919281
 modifier: Leander
-tags: Variation
+tags: Variation no-toc
 title: Bending energy
 type: text/vnd.tiddlywiki
 
@@ -13,5 +13,3 @@ E(\gamma) \coloneqq \int_0^L \kappa^2 \,\d s,
 $$
 
 where $$\d s = v \,\d x.$$
-
-{{Free elastic curve}}

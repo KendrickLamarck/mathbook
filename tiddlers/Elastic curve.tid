@@ -1,0 +1,19 @@
+created: 20200519005926367
+creator: Leander
+modified: 20200519010953272
+modifier: Leander
+tags: Variation
+title: Elastic curve
+type: text/vnd.tiddlywiki
+
+A parametrized curve $$\gamma$$ is said to be //elastic,// if all variations with compact support that also satisfy
+$$
+\dot L = 0 \iff \int_0^L \kappa\lang\dot\gamma,N\rang\,\d s=0
+$$
+satisfy $$\dot E=0.$$
+
+''Theorem.''
+An arc length parametrized curve is elastic if and only if there is an $$a \in \R$$ such that
+$$
+\kappa'' + \frac 1 2 \kappa^3 + a\kappa = 0.
+$$

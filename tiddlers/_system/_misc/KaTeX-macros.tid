@@ -1,5 +1,7 @@
 created: 20200516133333572
-modified: 20200517121109455
+creator: Leander
+modified: 20200518191731821
+modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
 type: text/vnd.tiddlywiki
@@ -27,4 +29,7 @@ $$
 \gdef\openI#1{\left]#1\right[}
 \gdef\lopenI#1{\left]#1\right]}
 \gdef\ropenI#1{\left[#1\right[}
+\gdef\Borel{\mathcal B}
+\gdef\transp{{}^\mathrm{T}}
+\gdef\Cov{\operatorname{Cov}}
 $$

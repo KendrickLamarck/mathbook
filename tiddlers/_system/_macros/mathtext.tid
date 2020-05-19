@@ -1,8 +1,8 @@
 created: 20200411155210779
-modified: 20200517123241630
+modified: 20200518175014559
 tags: $:/tags/Macro
 title: $:/_macros/mathtext
-type: text/plain
+type: text/vnd.tiddlywiki
 
 \define mathtext(tiddler:<<currentTiddler>> field:formula)
 <$set name=latext tiddler="$tiddler$" field="$field$">

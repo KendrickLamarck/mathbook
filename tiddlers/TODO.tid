@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200518152716577
+modified: 20200518185013499
 modifier: Leander
 tags: meta
 title: TODO
@@ -20,7 +20,11 @@ type: text/vnd.tiddlywiki
 * Improve the folder structure
 ** Folder for <<tag no-toc>>? There are {{{[tag[no-toc]count[]]}}} tiddlers tagged with no-toc
 
-!! Ideas
+!! Content ideas
+
+* Examples, in particular statistics
+
+!! Tech ideas
 
 * Make a Style guide
 ** How many subchapters warrant the creation of a tag?
@@ -36,7 +40,10 @@ type: text/vnd.tiddlywiki
 * More line breaks so it's easier to see what was changed in a commit
 * Hosting a node wiki on the web would be great
 * replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
+** `\differential{f}{p}` to toggle between $$\D_p f$$ and $$\D f(p).$$
+** avoid single letters
 * Consider an alias mechanism (so links don't have to be the exact title)
 * Translate everything to English to improve accessibility?
 * An actual favicon: nice to have.
 * Add sources (as embedded PDFs?)
+* Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty?

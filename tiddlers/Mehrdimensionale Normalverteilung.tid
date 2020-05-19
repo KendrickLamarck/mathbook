@@ -1,12 +1,12 @@
 created: 20190705142923306
-modified: 20200423124643799
+creator: Leander
+modified: 20200518192405472
+modifier: Leander
 tags: Normalverteilung
 title: Mehrdimensionale Normalverteilung
 type: text/vnd.tiddlywiki
 
-Ein $$n$$-dimensionaler Zufallsvektor $$\Bbb X$$ heißt //standardnormalverteilt//, falls seine Komponenten $$X_1,\dots,X_n$$ [[unabhängig|Stochastische Unabhängigkeit]] $$N(0,1)$$-verteilt sind.
-
-Ein solcher Zufallsvektor $$\Bbb X$$ heißt //normalverteilt,// falls er dargestellt werden kann in der Form
+Ein $$n$$-dimensionaler Zufallsvektor $$\Bbb X$$ heißt //standardnormalverteilt//, falls seine Komponenten $$X_1,\dots,X_n$$ [[unabhängig|Stochastische Unabhängigkeit]] $$N(0,1)$$-verteilt sind. Ein Zufallsvektor $$\Bbb X$$ heißt //normalverteilt,// falls er dargestellt werden kann in der Form
 
 $$
 \Bbb X=A\Bbb Y+m
@@ -14,21 +14,23 @@ $$
 
 für $$A\in\R^{n\times k},$$ einen standardnormalverteilten Zufallsvektor $$\Bbb Y$$ und $$m\in\R^n.$$ In diesem Fall gilt
 
-* $$\Bbb E(X)=m,$$
-* $$\operatorname{Cov}(\Bbb X,\Bbb X)=AA^\mathrm T\eqqcolon\Sigma^2.$$
+* $$\Bbb E(X)=m$$ und $$\Cov(\Bbb X,\Bbb X)=AA^\mathrm T\eqqcolon\Sigma^2.$$
+
+* Wir schreiben $$\Bbb X \sim N^n(m,\Sigma^2).$$
+
+* $$N^n(0,E) = N(0,1)^{\otimes n}.$$
+
+* {{Transformierte mehrdimensionale Normalverteilungen}}
+
 * <div>Für die [[charakteristische Funktion|Charakteristische Funktion]] gilt
 $$
-\chi_\Bbb X(\lambda)=
-\exp\left(
-i\langle\lambda,m\rangle-
-\frac 1 2 \left\langle \lambda,\Sigma^2\lambda\right\rangle
+\chi_\Bbb X(\lambda) = \exp\left(
+  i\langle\lambda,m\rangle - \frac 1 2 \left\langle
+    \lambda,\Sigma^2\lambda
+  \right\rangle
 \right).
 $$</div>
 
 !! Dichte
 
 {{Dichte mehrdimensionaler Normalverteilungen}}
-
-!! Transformierte Normalverteilungen
-
-{{Transformierte mehrdimensionale Normalverteilungen}}

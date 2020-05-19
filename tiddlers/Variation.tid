@@ -1,5 +1,8 @@
 created: 20200512204246638
-modified: 20200516122509053
+creator: Leander
+list: [[Fundamental lemma of calculus of variations]] [[Bending energy]] [[Free elastic curve]] [[Elastic curve]]
+modified: 20200519013209628
+modifier: Leander
 tags: Curve
 title: Variation
 type: text/vnd.tiddlywiki
@@ -25,6 +28,7 @@ $$t \in \openI{-\varepsilon,\varepsilon}.$$</div>
 If $$\gamma_0\colon [0,L] \to \R^2$$ is arc length parametrized and $$\gamma$$ is a variation of $$\gamma_0,$$ then
 
 $$
+\dot L \coloneqq
 \fracderiv{}{t}\biggr|_{t=0} L(\gamma_t) =
   \lang \dot\gamma,T \rang\bigr|_0^L +
   \int_0^L \kappa \lang \dot\gamma,N \rang \,\d s.

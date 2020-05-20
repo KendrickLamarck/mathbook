@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200518185013499
+modified: 20200519112107531
 modifier: Leander
 tags: meta
 title: TODO
@@ -47,3 +47,5 @@ type: text/vnd.tiddlywiki
 * An actual favicon: nice to have.
 * Add sources (as embedded PDFs?)
 * Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty?
+
+{{Reminder}}

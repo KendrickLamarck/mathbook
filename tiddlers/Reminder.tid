@@ -1,13 +1,13 @@
 created: 20191016204949012
 creator: Leander
-modified: 20200518125554914
+modified: 20200519112112992
 modifier: Leander
 tags: meta
 title: Reminder
 type: text/vnd.tiddlywiki
 
 @@color:#dc322f;
-!!! Whenever $$\KaTeX$$ is updated
+!! Whenever $$\KaTeX$$ is updated
 
 * Delete the ``customMacros`` function argument and variable from [[$:/plugins/tiddlywiki/katex/wrapper.js]] before updating and add it back in after. We need something better for that.
 

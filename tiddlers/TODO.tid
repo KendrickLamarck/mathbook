@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200519112107531
+modified: 20200520132309528
 modifier: Leander
 tags: meta
 title: TODO
@@ -19,10 +19,11 @@ type: text/vnd.tiddlywiki
 * We don't want to commit changes where only the //modified// field has changed.
 * Improve the folder structure
 ** Folder for <<tag no-toc>>? There are {{{[tag[no-toc]count[]]}}} tiddlers tagged with no-toc
+* Move all KaTeX macros from [[$:/plugins/tiddlywiki/katex/wrapper.js]] to [[$:/_misc/KaTeX-macros]]
 
 !! Content ideas
 
-* Examples, in particular statistics
+* Examples, in particular statistics, particular distributions, estimators and so on
 
 !! Tech ideas
 

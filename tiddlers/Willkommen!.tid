@@ -1,6 +1,6 @@
 created: 20200513131251192
 creator: Leander
-modified: 20200518152716540
+modified: 20200520191954109
 modifier: Leander
 tags: meta
 title: Willkommen!
@@ -13,3 +13,7 @@ Dieses [[TiddlyWiki|https://tiddlywiki.com]] enthält mathematische Notizen auf 
 # Es soll dabei helfen, Informationen zu strukturieren um das große Ganze besser verstehen zu können, als wenn alles nur in linearer Form in einem Buch, Skript o. Ä. vorliegt.
 
 Für potentielle MitarbeiterInnen ist das [[github-repository|https://github.com/KendrickLamarck/mathbook]] der zentrale Anlaufpunkt. Unter [[TODO]] findet sich schon einiges, was besser sein könnte.
+
+!! Inhaltsverzeichnis (aufklappbar)
+
+{{Table of contents}}

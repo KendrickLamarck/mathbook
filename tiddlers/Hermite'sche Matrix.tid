@@ -1,13 +1,13 @@
 created: 20180626180210098
 creator: Leander
-modified: 20190705144222213
+modified: 20200519122403327
 modifier: Leander
-revision: 0
 tags: Matrix
 title: Hermite'sche Matrix
+type: text/vnd.tiddlywiki
 
 Eine [[Matrix]] $$A\in\mathbb C^{n\times n}$$ heißt //Hermite'sch//, wenn
 
 $$
-A^*=A^H\coloneqq \bar A^\mathrm T=A.
+A^*=A^\Hermite\coloneqq \bar A^\mathrm T=A.
 $$

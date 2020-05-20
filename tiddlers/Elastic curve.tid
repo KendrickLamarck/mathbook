@@ -1,6 +1,7 @@
 created: 20200519005926367
 creator: Leander
-modified: 20200519010953272
+formula: b=-\kappa' N + (\tfrac 1 2 \kappa^2 + a) T
+modified: 20200519203350635
 modifier: Leander
 tags: Variation
 title: Elastic curve
@@ -15,5 +16,17 @@ satisfy $$\dot E=0.$$
 ''Theorem.''
 An arc length parametrized curve is elastic if and only if there is an $$a \in \R$$ such that
 $$
-\kappa'' + \frac 1 2 \kappa^3 + a\kappa = 0.
+\kappa'' + \tfrac 1 2 \kappa^3 + a\kappa = 0.
 $$
+
+Another necessary and suffient condition under the same conditions is that there is an $$a \in \R$$ such that 
+$$
+b=-\kappa' N + (\tfrac 1 2 \kappa^2 + a) T
+$$
+is constant. If $$\gamma$$ is an arc length parametrized curve and $$Y$$ is a constant vector field, then $$b$$ is given by
+$$
+0 = \lang Y,\kappa'N-\tfrac 1 2 \kappa^2T\rang\bigr|_0^L -
+  a\lang Y,T \rang\bigr|_0^L
+\eqqcolon -\lang Y,b \rang\bigr|_0^L.
+$$
+If $$b=0,$$ then $$\gamma$$ is a circle of radius $$(-2a)^{-1/2}$$ or a straight line.

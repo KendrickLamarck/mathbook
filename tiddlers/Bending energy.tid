@@ -1,15 +1,19 @@
 created: 20200513145459356
 creator: Leander
-modified: 20200519005919281
+modified: 20200519141312038
 modifier: Leander
 tags: Variation no-toc
 title: Bending energy
 type: text/vnd.tiddlywiki
 
 The //bending energy// of a parametrized curve $$\gamma\colon [0,L] \to \R^2$$ is given by
-
 $$
 E(\gamma) \coloneqq \int_0^L \kappa^2 \,\d s,
 $$
-
-where $$\d s = v \,\d x.$$
+where $$\d s = v \,\d x.$$ If $$\gamma_0\colon [0,L]$$ is arc length parametrized and $$\gamma$$ is a varation, then
+$$
+\dot E =
+-2\kappa \lang \dot\gamma',N \rang \big|_0^L +
+\lang \dot\gamma, 2\kappa'N-\kappa^2T \rang \big|_0^L -
+\int_0^L (2\kappa''+ \kappa^3)\lang \dot\gamma,N \rang \,\d s.
+$$

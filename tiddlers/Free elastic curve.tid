@@ -1,6 +1,6 @@
 created: 20200513150714510
 creator: Leander
-modified: 20200519010702449
+modified: 20200519205457486
 modifier: Leander
 tags: Variation
 title: Free elastic curve
@@ -8,9 +8,12 @@ type: text/vnd.tiddlywiki
 
 {{Bending energy}} A parametrized curve is said to be //freely elastic,// if for all variations with compact support it satisfies $$\dot E = 0.$$
 
-''Theorem.''
-An arc length parametrized curve is freely elastic if and only if
+* <div>An arc length parametrized curve is freely elastic if and only if
 $$
-\kappa'' + \frac 1 2 \kappa^3 = 0.
+\kappa'' + \tfrac 1 2 \kappa^3 = 0.
 $$
-This uniquely defines the freely elastic curve in the plane up to similarity.
+This uniquely defines the freely elastic curve in the plane up to similarity.</div>
+
+* Use $$b$$ from the more general condition for [[elastic curves|Elastic curve]]. Then the inflection points of a freely elastic curve $$\gamma$$ lie on the line $$g$$ through $$b$$ and $$\gamma$$ intersects $$g$$ perpendicularly in those points.
+
+* If $$\gamma(t_0)$$ is a [[vertex|Vertex (curve)]], then $$g$$ is tangent to the osculating circle at $$\gamma(t_0).$$

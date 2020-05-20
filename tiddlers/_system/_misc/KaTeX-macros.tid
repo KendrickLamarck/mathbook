@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200518191731821
+modified: 20200519133350074
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -30,6 +30,9 @@ $$
 \gdef\lopenI#1{\left]#1\right]}
 \gdef\ropenI#1{\left[#1\right[}
 \gdef\Borel{\mathcal B}
-\gdef\transp{{}^\mathrm{T}}
+\gdef\transp{\mathrm{T}}
 \gdef\Cov{\operatorname{Cov}}
+\gdef\ad{\mathrm{ad}}
+\gdef\Hermite{\mathrm{H}}
+\gdef\pot{\mathrm{pot}}
 $$

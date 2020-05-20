@@ -1,10 +1,10 @@
 created: 20200512210316659
-modified: 20200515130823781
+modified: 20200520183744606
 tags: Variation
 title: Fundamental lemma of calculus of variations
 type: text/vnd.tiddlywiki
 
-We 
+We set
 
 $$\begin{aligned}
 \smooth_0^\infty([a,b],\R^n) &\coloneqq

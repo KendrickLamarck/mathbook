@@ -1,8 +1,10 @@
 created: 20190523220042362
-modified: 20190708230000432
-revision: 0
+modified: 20200521143713771
 tags: Verteilung Stochastik
 title: Faltung von Dichten
+type: text/vnd.tiddlywiki
+
+{{Faltung}}
 
 Seien $$f_1$$ und $$f_2$$ zwei [[Wahrscheinlichkeitsdichten|Dichte]] auf $$\Bbb R.$$ Dann ist auch die [[Faltung]] $$f_1*f_2$$ eine Dichte auf $$\Bbb R.$$
 

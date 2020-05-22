@@ -1,6 +1,5 @@
 created: 20190406221349327
-modified: 20190715220555117
-revision: 0
+modified: 20200521143344955
 tags: Verteilung
 title: Exponentialverteilung
 type: text/vnd.tiddlywiki
@@ -12,11 +11,10 @@ f_\lambda(x)=
 \lambda e^{-\lambda x}\mathbf 1_{[0,\infty[}(x).
 $$
 
-Sie wird mit $$\operatorname{Exp}(\lambda)$$ bezeichnet.
-
-* <div>Ihre [[Verteilungsfunktion]] ist
+Sie wird mit $$\operatorname{Exp}(\lambda)$$ bezeichnet. Die [[Verteilungsfunktion]] ist
 $$
 F(x)=(1-e^{-\lambda x})\mathbf 1_{[0,\infty[}(x).
-$$</div>
+$$
+und es gilt $$\Bbb E(X)=1/\lambda$$ und $$V(X)=1/\lambda^2.$$
 
-* Es gilt $$\Bbb E(X)=1/\lambda$$ und $$V(X)=1/\lambda^2.$$
+{{Beziehung von Exponential- und Gammaverteilung}}

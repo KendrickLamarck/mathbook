@@ -91,6 +91,9 @@ exports.katex = KaTeXWidget;
 
 })();
 
+var customMacros = {};
+
+/*
 var customMacros = {
     "\\RP":         "\\R\\mathrm{P}",
     "\\C":          "\\mathbb{C}",
@@ -133,3 +136,4 @@ var customMacros = {
     "\\smooth":     "\\mathcal{C}",
     "\\smoothcs":   "\\mathcal{C}_{\\mathrm{c}}"
 };
+*/

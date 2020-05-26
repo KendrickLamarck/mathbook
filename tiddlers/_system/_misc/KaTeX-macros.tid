@@ -1,38 +1,81 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200519133350074
+modified: 20200526223950621
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
 type: text/vnd.tiddlywiki
 
 $$
-% I think I figured out the issues, see github
-% The following are duplicates from $:/plugin/tiddlywiki/katex/wrapper.js
-% \gdef\RP{\R\mathrm{P}}
-% \gdef\C{\mathbb{C}}
-% \gdef\O{\operatorname{O}}
-% \gdef\SO{\operatorname{SO}}
-% \gdef\U{\operatorname{U}}
-% \gdef\GL{\operatorname{GL}}
-% \gdef\PO{\operatorname{PO}}
-% \gdef\PGL{\operatorname{PGL}}
-% \gdef\cr{\operatorname{cr}}
-% \gdef\rank{\operatorname{rank}}
-% \gdef\Rang{\operatorname{Rang}}
-% \gdef\Eig{\operatorname{Eig}}
-% \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
-% \gdef\sd{\mathbin\triangle}
-% \gdef\span{\operatorname{span}}
-\gdef\fracpartial#1#2{\frac{\partial #1}{\partial #2}} % New stuff
+% derivative operators
+\gdef\fracpartial#1#2{\frac{\partial #1}{\partial #2}}
 \gdef\fracderiv#1#2{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
+\gdef\Deriv#1#2#3{\mathrm{D}_#2 #1(#3)}
+
+% brackets
 \gdef\openI#1{\left]#1\right[}
 \gdef\lopenI#1{\left]#1\right]}
 \gdef\ropenI#1{\left[#1\right[}
-\gdef\Borel{\mathcal B}
-\gdef\transp{\mathrm{T}}
+\gdef\llangle{\langle\!\langle}
+\gdef\rrangle{\rangle\!\rangle}
+\gdef\llang{\llangle}
+\gdef\rrang{\rrangle}
+
+% symbols and shorthands
+\gdef\RP{\R\mathrm{P}}
+\gdef\C{\mathbb{C}}
+
+\gdef\O{\operatorname{O}}
+\gdef\SO{\operatorname{SO}}
+\gdef\U{\operatorname{U}}
+\gdef\GL{\operatorname{GL}}
+\gdef\PO{\operatorname{PO}}
+\gdef\PGL{\operatorname{PGL}}
+
+\gdef\crossratio{\operatorname{cr}} % \cr is in use
+\gdef\rank{\operatorname{rank}}
+\gdef\Rang{\operatorname{Rang}}
+\gdef\Eig{\operatorname{Eig}}
+\gdef\span{\operatorname{span}}
+\gdef\Aut{\operatorname{Aut}}
+\gdef\Sym{\operatorname{Sym}}
+\gdef\tr{\operatorname{tr}}
+\gdef\sign{\operatorname{sign}}
+\gdef\sgn{\operatorname{sgn}}
+\gdef\supp{\operatorname{supp}}
+\gdef\id{\operatorname{id}}
+\gdef\vol{\operatorname{vol}}
+\gdef\grad{\operatorname{grad}}
+\gdef\eps{\operatorname{eps}}
+\gdef\gl{\operatorname{gl}}
+\gdef\rd{\operatorname{rd}}
+\gdef\Ric{\operatorname{Ric}}
+
+\gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
+\gdef\sd{\mathbin\triangle}
+
+\gdef\prob{\mathbb{P}}
+\gdef\P{\prob}
+\gdef\expect{\mathbb{E}}
+\gdef\E{\expect}
 \gdef\Cov{\operatorname{Cov}}
+\gdef\Var{\operatorname{Var}}
+\gdef\MSE{\operatorname{MSE}}
+
 \gdef\ad{\mathrm{ad}}
+\gdef\transp{\mathrm{T}}
 \gdef\Hermite{\mathrm{H}}
 \gdef\pot{\mathrm{pot}}
+
+\gdef\D{\mathrm{D}} % derivative
+\gdef\d{\mathrm{d}} % derivative
+\gdef\i{\mathrm{i}} % imaginary unit
+\gdef\e{\mathrm{e}}
+\gdef\T{\mathrm{T}} % tangent space / transpose
+\gdef\G{\mathrm{G}} % no idea
+\gdef\L{\mathrm{L}} % Lie derivative
+
+\gdef\Borel{\mathcal B}
+\gdef\smooth{\mathcal{C}}
+\gdef\smoothcs{\mathcal{C}_{\mathrm{c}}}
 $$

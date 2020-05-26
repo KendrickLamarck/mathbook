@@ -1,12 +1,12 @@
 created: 20200513150714510
 creator: Leander
-modified: 20200519205457486
+modified: 20200526091731598
 modifier: Leander
 tags: Variation
 title: Free elastic curve
 type: text/vnd.tiddlywiki
 
-{{Bending energy}} A parametrized curve is said to be //freely elastic,// if for all variations with compact support it satisfies $$\dot E = 0.$$
+A parametrized curve is said to be //freely elastic,// if for all variations with compact support it satisfies $$\dot E = 0.$$
 
 * <div>An arc length parametrized curve is freely elastic if and only if
 $$

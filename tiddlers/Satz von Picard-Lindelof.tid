@@ -1,8 +1,7 @@
 created: 20180509195822332
 creator: Leander
-modified: 20190401201040799
+modified: 20200526211052161
 modifier: Leander
-revision: 0
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Satz von Picard-Lindelöf
 type: text/vnd.tiddlywiki
@@ -19,4 +18,6 @@ $$
 M\coloneqq\max_{x\in I,y\in J} |f(x,y)|,\quad\alpha\coloneqq\min\left\{a,\frac{b}{M}\right\}.
 $$
 
-Ist $$\alpha<\frac{1}{L}$$, dann gibt es genau eine Lösung des Anfangswertproblems auf $$\tilde I=[x_0-\alpha,x_0+\alpha].$$
+Ist $$\alpha<\frac{1}{L}$$, dann gibt es genau eine Lösung des Anfangswertproblems
+$$y'=f(x,y(x))$$
+auf $$\tilde I=[x_0-\alpha,x_0+\alpha].$$

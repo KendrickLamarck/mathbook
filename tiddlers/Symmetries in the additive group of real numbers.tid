@@ -1,7 +1,7 @@
 created: 20200503215903203
-modified: 20200503220236246
+modified: 20200526201935372
 tags: [[Symmetry group]]
 title: Symmetries in the additive group of real numbers
 type: text/vnd.tiddlywiki
 
-Up to conjugacy in the affine group $$\operatorname{Aff}(\Bbb E^1),$$ there are two discrete subgroups of $$E_1$$: the infinite cyclic group $$\Z$$ of integer translations and the infinite dihedral group $$\Z \rtimes \{\pm 1\}$$ also including reflections of half integers. We call these groups $$\infty\bullet$$ and $$*\infty\bullet,$$ respectively.
+Up to conjugacy in the affine group $$\operatorname{Aff}(\Bbb E^1),$$ there are two discrete subgroups of $$E_1$$: the infinite cyclic group $$\Z$$ of integer translations and the infinite dihedral group $$D_\infty=\Z \rtimes \{\pm 1\}$$ also including reflections across half integers. We call these groups $$\infty\bullet$$ and $$*\infty\bullet,$$ respectively.

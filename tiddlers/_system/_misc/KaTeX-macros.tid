@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200526223950621
+modified: 20200528182539038
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -23,6 +23,7 @@ $$
 
 % symbols and shorthands
 \gdef\RP{\R\mathrm{P}}
+\gdef\Proj{\mathrm{P}}
 \gdef\C{\mathbb{C}}
 
 \gdef\O{\operatorname{O}}
@@ -52,7 +53,7 @@ $$
 \gdef\Ric{\operatorname{Ric}}
 
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
-\gdef\sd{\mathbin\triangle}
+\gdef\sd{\mathbin{\triangle}} % symmetric difference
 
 \gdef\prob{\mathbb{P}}
 \gdef\P{\prob}
@@ -67,7 +68,7 @@ $$
 \gdef\Hermite{\mathrm{H}}
 \gdef\pot{\mathrm{pot}}
 
-\gdef\D{\mathrm{D}} % derivative
+\gdef\D{\mathrm{D}} % Derivative
 \gdef\d{\mathrm{d}} % derivative
 \gdef\i{\mathrm{i}} % imaginary unit
 \gdef\e{\mathrm{e}}
@@ -75,7 +76,10 @@ $$
 \gdef\G{\mathrm{G}} % no idea
 \gdef\L{\mathrm{L}} % Lie derivative
 
-\gdef\Borel{\mathcal B}
+\gdef\Borel{\mathcal{B}}
 \gdef\smooth{\mathcal{C}}
 \gdef\smoothcs{\mathcal{C}_{\mathrm{c}}}
+\gdef\totaltorsion{\mathcal{T}}
+
+\gdef\half{\char"00BD}
 $$

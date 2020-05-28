@@ -1,8 +1,7 @@
 caption: Triangles
 created: 20190215230157161
 list: [[Existence of hyperbolic triangles]] [[Area of hyperbolic triangles]]
-modified: 20191010175149883
-revision: 0
+modified: 20200528110055808
 tags: [[Hyperbolic geometry]]
 title: Hyperbolic triangle
 type: text/vnd.tiddlywiki
@@ -27,18 +26,14 @@ $$
 -\cos\gamma=\langle A',B'\rangle.
 $$
 
-!! Area
-
 {{Area of hyperbolic triangles}}
 
 !! Existence
 
 {{Existence of hyperbolic triangles}}
 
-!! Cosine theorems
+!! Cosine and sine theorems
 
 {{Hyperbolic cosine theorems}}
-
-!! Sine theorem
 
 {{Hyperbolic sine theorem}}

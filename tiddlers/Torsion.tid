@@ -1,15 +1,14 @@
 created: 20191220220450471
-modified: 20200330014502628
+modified: 20200528135118941
 tags: Connection no-toc
 title: Torsion
 type: text/vnd.tiddlywiki
 
 Let $$\nabla$$ be a [[connection|Connection]] on the tangent bundle $$\T M$$ to a manifold $$M.$$ We define the //torsion// of the connection to be
-
 $$
 T(X,Y)\coloneqq \nabla_X Y - \nabla_Y X - [X,Y].
 $$
 
-* This expression is $$\mathcal C^\infty M$$-linear in both arguments.
+* This expression is $$\smooth^\infty M$$-linear in both arguments.
 * We call $$\nabla$$ //torsion-free// or //symmetric// if $$T(X,Y)=0$$ For all $$X$$ and $$Y.$$
 * In terms of the [[Christoffel symbols]], a connection is torsion-free if and only if $${\varGamma^{\,k}}_{ij}={\varGamma^{\,k}}_{ji}.$$

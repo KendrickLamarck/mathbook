@@ -1,9 +1,8 @@
 created: 20171016185430452
 creator: Leander
-modified: 20180604180501612
+modified: 20200528194830672
 modifier: Leander
-revision: 0
-tags: [[Math notation]]
+tags: [[Math notation]] no-toc
 title: Das griechische Alphabet
 type: text/vnd.tiddlywiki
 
@@ -21,8 +20,8 @@ type: text/vnd.tiddlywiki
 |$$\mu$$|$$M$$|My, Mu|
 |$$\nu$$|$$N$$|Ny, Nu|
 |$$\xi$$|$$\Xi,\varXi$$|Xi|
-|$$\omicron$$|$$O$$|Omicron|
-|$$\pi,\varpi$$|$$\Pi,\varPi$$|Pi|
+|$$\omicron$$    |$$O$$|Omicron|
+|$$\pi,\varpi$$  |$$\Pi,\varPi$$|Pi|
 |$$\rho,\varrho$$|$$P$$|Rho|
 |$$\sigma,\varsigma$$|$$\Sigma\varSigma$$|Sigma|
 |$$\tau$$|$$T$$|Tau|

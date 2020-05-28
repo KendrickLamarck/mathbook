@@ -1,6 +1,6 @@
 created: 20181106162450155
 creator: Leander
-modified: 20200316005723273
+modified: 20200527111647098
 modifier: Leander
 tags: Lebesgue-Integral [[Haar'sches Maß]]
 title: Transformationssatz
@@ -11,21 +11,21 @@ type: text/vnd.tiddlywiki
 Seien $$U$$ und $$V$$ offene Teilmengen des $$\R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-[[invertierbare|Diffeomorphismus]] Abbildung. Dann gilt für jede stetige Funktion $$f\colon V\to\R,$$ so dass $$f_+$$ und $$f_-$$ [[integrierbar|Integral monoton approximierbarer Funktionen]] sind:
 
 $$
-\int_U f(\varphi(x)){\left|\det\D_x\varphi\right|}\,\d x=
+\int_U f(\varphi(x))|{\det\D_x\varphi}|\,\d x=
 \int_V f(y)\,\d y.
 $$
 
-Symbolisch kann man schreiben: $$\d(\varphi(x))={\left|\det\D_x\varphi\right|}\,\d x.$$
+Symbolisch kann man schreiben: $$\d\varphi=|{\det\D\varphi}|\,\d x.$$
 
 Man beachte insbesondere die Sonderfälle, dass $$\D_x\varphi \in \GL(d;\R)$$ oder sogar [[orthogonal|Orthogonaler/unitärer Endomorphismus]] ist.
 
 !! Lebesgue
 
-Seien $$U$$ und $$V$$ zwei offene Mengen im $$\R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-invertierbare Abbildung. Dann ist eine Funktion $$f\colon V\to\overline\R$$ genau dann [[Lebesgue-integrierbar|Lebesgue-Integral]] über $$V,$$ wenn die Abbildung $$(f\circ \varphi)\left|\det\D\varphi\right|$$ über $$U$$ integrierbar ist, und dann gilt
+Seien $$U$$ und $$V$$ zwei offene Mengen im $$\R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-invertierbare Abbildung. Dann ist eine Funktion $$f\colon V\to\overline\R$$ genau dann [[Lebesgue-integrierbar|Lebesgue-Integral]] über $$V,$$ wenn die Abbildung $$(f\circ \varphi)|{\det\D\varphi}|$$ über $$U$$ integrierbar ist, und dann gilt
 
 $$
-\int_U f(\varphi(x)){\left|\det\D_x\varphi\right|}\,\lambda(\d x)=
+\int_U f(\varphi(x))|{\det\D_x\varphi}|\,\lambda(\d x)=
 \int_V f(y)\,\lambda(\d y).
 $$
 
-Das [[Bildmaß]] der Abbildung $$\varphi^{-1}$$ unter $$\lambda$$ (also das [[Maß]] $$A\mapsto \lambda(\varphi(A))$$) ist gegeben durch $$\left|\det\D_x\varphi\right|\,\lambda(\d x),$$ d.h. als das Maß mit Lebesgue-[[Dichte]] $$x\mapsto\left|\det\D_x\varphi\right|.$$
+Das [[Bildmaß]] der Abbildung $$\varphi^{-1}$$ unter $$\lambda$$ (also das [[Maß]] $$A\mapsto \lambda(\varphi(A))$$) ist gegeben durch $$|{\det\D_x\varphi}|\,\lambda(\d x),$$ d.h. als das Maß mit Lebesgue-[[Dichte]] $$x\mapsto|{\det\D_x\varphi}|.$$

@@ -1,19 +1,15 @@
 created: 20200213234535422
-modified: 20200313222540453
+modified: 20200527165214848
 tags: Connection no-toc
 title: Holonomy
 type: text/vnd.tiddlywiki
 
 If $$\gamma$$ is a loop based at $$p,$$ the parallel transport $$T_\gamma\colon E_p\to E_p$$ is an endomorphism in $$\GL(E_p)$$ and is called the //holonomy// of $$\nabla$$ along $$\gamma.$$
 
-* The inverse loop has the inverse holonomy.
-
-* <div>The holonomy along concatenated loops is the composition of the holonomies, so 
-
+The inverse loop has the inverse holonomy and the holonomy along concatenated loops is the composition of the holonomies, so 
 $$
 \operatorname{Hol}_p(\nabla)\coloneqq
 \{T_\gamma\colon \gamma\text{ is a loop based at $p$}\}<\GL(E_p)
 $$
-
-is a subgroup of $$\GL(E_p)$$ called the //holonomy group// of $$\nabla$$ at $$p.$$</div>
+is a subgroup of $$\GL(E_p)$$ called the //holonomy group// of $$\nabla$$ at $$p.$$
 

@@ -1,5 +1,5 @@
 created: 20190510071003657
-modified: 20200521143402270
+modified: 20200527112949155
 tags: Verteilung
 title: Gamma-Verteilung
 type: text/vnd.tiddlywiki
@@ -8,9 +8,13 @@ Eine [[Zufallsvariable]] $$T$$ heißt //Gamma-verteilt// zu $$q,\lambda>0,$$ fal
 
 $$
 f_{\lambda,q}(x)=
-\frac{\lambda^q}{\Gamma(q)} x^{q-1}e^{-\lambda x}\mathbf 1_{]0,\infty[}.
+\frac{\lambda^q}{\Gamma(q)} x^{q-1}e^{-\lambda x}\mathbf 1_{]0,\infty[}
 $$
 
-Wir schreiben $$T\sim\Gamma_{q,\lambda}.$$
+(siehe auch [[Gamma-Funktion]]). Wir schreiben $$T\sim\Gamma_{q,\lambda}.$$
 
-{{Beziehung von Exponential- und Gammaverteilung}}
+!! Beziehung zu anderen Verteilungen
+
+* {{Beziehung von Exponential- und Gammaverteilung}}
+* {{Beziehung von Gamma- und Beta-Verteilung}}
+* {{Beziehung von Normal- und Gamma-Verteilung}}

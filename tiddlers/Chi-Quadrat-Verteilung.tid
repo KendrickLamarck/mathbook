@@ -1,0 +1,7 @@
+created: 20200527120059672
+modified: 20200527120327265
+tags: Verteilung
+title: Chi-Quadrat-Verteilung
+type: text/vnd.tiddlywiki
+
+Für $$n \in \Z_{>0}$$ heißt die $$\Gamma_{1/2,\ n/2}$$-Verteilung auch //Chi-Quadrat-Verteilung// mit $$n$$ Freiheitsgraden, auch bezeichnet mit $$\chi_n^2.$$

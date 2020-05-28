@@ -1,8 +1,8 @@
 created: 20190705142923306
 creator: Leander
-modified: 20200518192405472
+modified: 20200528185047846
 modifier: Leander
-tags: Normalverteilung
+tags: Normalverteilung no-toc
 title: Mehrdimensionale Normalverteilung
 type: text/vnd.tiddlywiki
 
@@ -18,14 +18,14 @@ für $$A\in\R^{n\times k},$$ einen standardnormalverteilten Zufallsvektor $$\Bbb
 
 * Wir schreiben $$\Bbb X \sim N^n(m,\Sigma^2).$$
 
-* $$N^n(0,E) = N(0,1)^{\otimes n}.$$
+* $$N^n(0,I) = N(0,1)^{\otimes n}.$$
 
 * {{Transformierte mehrdimensionale Normalverteilungen}}
 
 * <div>Für die [[charakteristische Funktion|Charakteristische Funktion]] gilt
 $$
 \chi_\Bbb X(\lambda) = \exp\left(
-  i\langle\lambda,m\rangle - \frac 1 2 \left\langle
+  i\langle\lambda,m\rangle - \tfrac 1 2 \left\langle
     \lambda,\Sigma^2\lambda
   \right\rangle
 \right).

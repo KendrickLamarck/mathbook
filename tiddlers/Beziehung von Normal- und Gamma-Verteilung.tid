@@ -1,0 +1,8 @@
+created: 20200527112144577
+modified: 20200527121245494
+tags: Normalverteilung Gamma-Verteilung no-toc
+title: Beziehung von Normal- und Gamma-Verteilung
+type: text/vnd.tiddlywiki
+
+Wenn $$X$$ standardnormalverteilt ist, dann ist $$X^2$$ $$\Gamma_{\half,\half}$$-verteilt. Wenn $$X_1,\dots,X_n$$ unabhängig standardnormalverteilt sind, ist die Summe $$\sum X_i{}^2$$ $$\Gamma_{1/2,\,n/2}$$-verteilt.
+{{Chi-Quadrat-Verteilung}}

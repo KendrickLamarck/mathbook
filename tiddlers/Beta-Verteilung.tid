@@ -1,0 +1,15 @@
+created: 20200527103211759
+modified: 20200527113228864
+tags: Verteilung
+title: Beta-Verteilung
+type: text/vnd.tiddlywiki
+
+Eine Zufallsvariable $$T$$ heißt //Beta-verteilt// zu $$a,b > 0,$$ wenn ihre Dichte die Form
+
+$$
+f_{a,b}(x) = \frac{1}{\Beta(a,b)} x^{a-1}(1-x)^{b-1}\mathbf{1}_{\openI{0,1}}
+$$
+
+hat (siehe auch [[Beta-Funktion]]). Wir schreiben $$T \sim \Beta_{a,b}.$$
+
+{{Beziehung von Gamma- und Beta-Verteilung}}

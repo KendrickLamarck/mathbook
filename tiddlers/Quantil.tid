@@ -1,5 +1,5 @@
 created: 20200511202436030
-modified: 20200511203510986
+modified: 20200528182219587
 tags: Statistik
 title: Quantil
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ Q(\,\lopenI{-\infty,q}\,) \le \alpha, \qquad
 Q(\,[q,\infty[\,) \ge 1-\alpha
 $$
 
-ein $$\alpha$$-Quantil von $$Q.$$
+ein //$$\alpha$$-Quantil// von $$Q.$$
 
-* Ein $$1/2$$-Quantil von $$Q$$ ist ein //Median.//
+* Ein $$\half$$-Quantil von $$Q$$ ist ein //Median.//
 * Ein $$(1-\alpha)$$-Quantil heißt //$$\alpha$$-Fraktil// von $$Q.$$

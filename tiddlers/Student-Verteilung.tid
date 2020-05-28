@@ -1,0 +1,20 @@
+created: 20200527123448505
+modified: 20200527125743317
+tags: Verteilung
+title: Student-Verteilung
+type: text/vnd.tiddlywiki
+
+Seien $$X,Y_1,\dots,Y_n$$ unabhängig standardnormalverteilt. Dann hat
+$$
+T \coloneqq
+  \frac{X}
+    {\sqrt{\frac{1}{n} \sum Y_i{}^2}}
+$$
+die Dichte
+$$
+\tau_n(x) =
+  \frac{1}
+    {\Beta(\frac{1}{2},\frac{n}{2})\sqrt{n}}
+  \left(1+\frac{x^2}{n}\right)^{-(n+1)/2}
+$$
+und heißt //Student-verteilt// mit $$n$$ Freiheitsgraden oder kurz $$t_n$$-Verteilung.

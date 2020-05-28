@@ -1,6 +1,6 @@
 caption: Gauß-Produktmodell
 created: 20200423134002786
-modified: 20200505154012473
+modified: 20200527154213263
 tags: [[Statistik, Kenngröße, Schätzer]]
 title: Schätzer für das Gauß-Produktmodell
 type: text/vnd.tiddlywiki
@@ -32,3 +32,4 @@ T_v(X) \coloneqq \frac 1 {n-1} \left(S_2(X) - \frac 1 n S_1(X)^2\right) =
 $$
 
 für $$v.$$
+

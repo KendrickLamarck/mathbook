@@ -1,0 +1,15 @@
+created: 20181111224920513
+creator: Leander
+modified: 20200527103309353
+modifier: Leander
+tags: [[Wichtige Funktionen]]
+title: Gamma-Funktion
+type: text/vnd.tiddlywiki
+
+Für $$z \in \C$$ mit $$\Re(z) > 0$$ sei
+
+$$
+\Gamma\,(z)\coloneqq \int_0^\infty t^{z-1} e^{-t} \,\d t.
+$$
+
+Für $$n \in \N$$ gilt $$\Gamma\,(n+1)=n!.$$ Die Gammafunktion erfüllt die Funktionalgleichung $$z \Gamma\,(z) = \Gamma\,(z+1)$$ für alle $$z$$ im Definitionsbereich.

@@ -1,8 +1,8 @@
 caption: Curves
 created: 20180529172904078
 creator: Leander
-list: Reparametrization [[Curvature (plane curves)]] [[Unit normal field]] Evolute [[Osculating circle]] [[Projective curve]] [[Regular curve]] [[Closed curve]] [[Fundamental theorem of plane curves]] [[Lissajous curve]]
-modified: 20200505170953431
+list: [[Projective curve]] Reparametrization [[Unit normal field in the plane]] [[Curvature (plane curves)]] [[Vertex (curve)]] [[Fundamental theorem of plane curves]] [[Osculating circle]] Evolute [[Regular curve]] [[Closed curve]] [[Lissajous curve]] Variation [[Frame field (space curves)]] [[Parallel frame]] [[Curvature (space curves)]] [[Frenét frame]] [[Torsion (space curves)]] [[Parametrized tube]]
+modified: 20200528201326838
 modifier: Leander
 tags: Geometrie
 title: Curve

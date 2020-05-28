@@ -1,13 +1,11 @@
 created: 20200430185359251
-modified: 20200505172947046
-tags: [[Closed curve]]
+modified: 20200528104008423
+tags: [[Closed curve]] no-toc
 title: Turning number
 type: text/vnd.tiddlywiki
 
 For every planar closed curve $$(\gamma,\tau)$$ there is $$n\in\Z$$ with
-
 $$
 \int_0^\tau \kappa \,\d s = 2\pi n.
 $$
-
-The number $$n$$ is called the //winding number// of the planar closed curve $$(\gamma,\tau).$$
+The number $$n$$ is called the //turning number// of the planar closed curve $$(\gamma,\tau)$$ and is the number of times the tangent vector turns (clockwise or counterclockwise) when traveling the curve once.

@@ -1,0 +1,40 @@
+created: 20200528142222028
+modified: 20200528200501331
+tags: Curve
+title: Frenét frame
+type: text/vnd.tiddlywiki
+
+A [[frame|Frame field (space curves)]] is called a //Frénét frame// if $$\kappa_2$$ vanishes. The equations then obtained from the moving frame equations by setting the //curvature// $$\kappa \coloneqq \kappa_1$$ are called the //Frénét-Serre formulas://
+$$\begin{aligned}
+T' &=  \kappa N \\
+N' &= -\kappa T + \tau B,\\
+B' &= -\tau N.
+\end{aligned}$$
+
+* For a general (not necessarily arc length parametrized) curve with $$\gamma'$$ and $$\gamma''$$ linearly independent we have $$N \in \span\{\gamma',\gamma''\}.$$ if $$\gamma$$ is arc length parametrized, this boils down to $$\gamma'' = \kappa N.$$
+* $$N$$ lies in the plane of the osculating circle.
+* If $$T,N,B$$ is the Frénét frame of a curve $$\gamma$$ such that $$\tau \equiv 0,$$ then $$\gamma$$ lies in a plane.
+
+!! Existence, uniqueness and computation
+
+If $$\gamma$$ is real-analytic and regular, then it has a Frénét frame.
+
+A regular curve $$\gamma$$ is said to be a //Frénét curve// if for its arc length parametrization $$\gamma''$$ does not vanish. Every Frénét curve has a uniquely determined Frénét frame with positive curvature.
+
+To find a Frénét frame, compute $$B = \frac{\gamma' \times \gamma''}{|\gamma' \times \gamma''|}$$ and then $$N = B \times T.$$
+
+!! Relating parallel and Frénét frames
+
+Let $$T,N,B$$ be a Frénét frame (with $$\kappa$$ and $$\tau$$) and $$\tilde T,\tilde N,\tilde B$$ be a parallel frame (with $$\kappa_1$$ and $$\kappa_2$$) of $$\gamma.$$ Then
+$$
+\kappa = \sqrt{\kappa_1{}^2 + \kappa_2{}^2}, \qquad
+\tau = \alpha' =
+  \frac{\kappa_1 \kappa_2{}' - \kappa_2 \kappa_1{}'}
+    {\kappa_1{}^2 + \kappa_2{}^2},
+$$
+where $$\alpha$$ is chosen such that
+$$
+\begin{pmatrix} \kappa_1 \\ -\kappa_2 \end{pmatrix} = 
+\kappa \begin{pmatrix} \cos\alpha \\ \sin\alpha \end{pmatrix}.
+$$
+Conversely, we can obtain $$\kappa_1$$ and $$\kappa_2$$ by the same formula with $$\alpha(s) \coloneqq \int_0^s \tau(t)\,\d t.$$

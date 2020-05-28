@@ -1,0 +1,31 @@
+caption: Torsion
+created: 20200528130129734
+modified: 20200528151416906
+tags: Curve
+title: Torsion (space curves)
+type: text/vnd.tiddlywiki
+
+The //torsion// $$\tau\colon[0,L] \to \R$$ of a unit normal field along an arc length parametrized curve $$\gamma\colon [0,L] \to \R^3$$ is defined as
+$$
+\tau = \det(T,N,N').
+$$
+A unit normal field is parallel if and only if the torsion vanishes.
+
+!! Total torsion
+
+Consider a closed space curve $$\gamma$$ with a periodic unit normal field $$N$$ The angle
+$$
+\totaltorsion(\gamma) \coloneqq \int_0^L \tau\,\d s \mod 2\pi
+$$
+is independent of the choice of normal field $$N.$$ It is called the //total torsion// of $$\gamma.$$
+
+* <div>Every closed curve admits a parallel normal field $$N,$$ however it is in general not periodic, but satisfies
+$$
+N(s+L) =
+  \cos(\totaltorsion(\gamma)) N(s) -
+  \sin(\totaltorsion(\gamma))\, T(s) \times N(s).
+$$</div>
+
+* A regular closed curve in $$\R^3$$ admits a periodic parallel unit normal field $$N$$ if and only if its total torsion vanishes.
+
+* If the image of a closed curve in $$\R^3$$ lies in a sphere, then its total torsion vanishes.

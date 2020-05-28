@@ -1,0 +1,31 @@
+caption: Frame fields
+created: 20200528131744235
+modified: 20200528204209292
+tags: Curve
+title: Frame field (space curves)
+type: text/vnd.tiddlywiki
+
+In general, any triple of smooth maps such that
+$$
+(T,N,B) \colon [0,L] \to \SO(3)
+$$
+where $$T = \gamma'$$ ($$\gamma\colon [0,L] \to \R^3$$ is arc length parametrized) is a //frame// of $$\gamma.$$ $$N$$ is called the //normal// and $$B$$ the //binormal//. We can derive the following //moving frame equations://
+$$\begin{aligned}
+T' &=  \kappa_1 N + \kappa_2 B,\\
+N' &= -\kappa_1 T + \tau B,\\
+B' &= -\kappa_2 T - \tau N.
+\end{aligned}$$
+If $$\gamma$$ is not arc length parametrized, multiply the right sides by $$v.$$
+
+!! Adapted frame field
+
+Given any normal unit vector field $$N$$ along an arc length parametrized curve $$\gamma\colon [0,L] \to \R^3,$$ for each $$s \in [0,L]$$ the three vectors
+$$
+T(s),\quad N(s),\quad B(s) = T(s)\times N(s)
+$$
+form a positively oriented orthonormal basis of $$\R^3.$$ Such a triple $$T,N,B$$ is called an //adapted frame field// along $$\gamma.$$ Given one such frame field, all other frame fields are of the form $$T,\tilde N,\tilde B$$ with
+$$
+\tilde N =  \cos(\alpha) N + \sin(\alpha) B,\quad
+\tilde B = -\sin(\alpha) N + \cos(\alpha) B
+$$
+for some smooth function $$\alpha\colon [0,L] \to \R.$$

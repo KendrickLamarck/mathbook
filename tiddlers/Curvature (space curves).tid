@@ -1,0 +1,17 @@
+caption: Curvature of space curves
+created: 20200528122639366
+modified: 20200528201028539
+tags: Curve no-toc
+title: Curvature (space curves)
+type: text/vnd.tiddlywiki
+
+Given a parallel normal field $$N\colon [0,L] \to \R^3$$ along an arc length parametrized curve $$\gamma\colon [0,L] \to \R^3,$$ also $$B \coloneqq T \times N$$ is a parallel normal field, so there are smooth functions $$\kappa_1,\kappa_2\colon [0,L] \to \R$$ such that $$N'=\kappa_1 T$$ and $$B'= \kappa_2 T.$$ From this, we obtain
+$$
+T'= -\kappa_1 N - \kappa_2 B.
+$$
+The function $$\psi \coloneqq (\kappa_1,\kappa_2)$$ is called the //curvature function// of $$\gamma$$ with respect to $$N.$$ However, for a different parallel normal vector field the curvature function only differs by a rotation.
+
+* $$\gamma$$ parametrizes a line segment if and only if $$\psi$$ vanishes.
+* $$\gamma$$ parametrizes a piece of a circle if and only if $$\psi$$ is constant and nonzero.
+* The image of $$\gamma$$ is contained in a plane if and only if the image of $$\psi$$ is contained in a line through the origin.
+* The image of $$\gamma$$ is contained in a sphere if and only if the image of $$\psi$$ is contained in a line that does not pass through the origin.

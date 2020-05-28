@@ -1,7 +1,7 @@
 created: 20200519005926367
 creator: Leander
 formula: b=-\kappa' N + (\tfrac 1 2 \kappa^2 + a) T
-modified: 20200519203350635
+modified: 20200527105633004
 modifier: Leander
 tags: Variation
 title: Elastic curve
@@ -29,4 +29,4 @@ $$
   a\lang Y,T \rang\bigr|_0^L
 \eqqcolon -\lang Y,b \rang\bigr|_0^L.
 $$
-If $$b=0,$$ then $$\gamma$$ is a circle of radius $$(-2a)^{-1/2}$$ or a straight line.
+If $$b=0,$$ then $$\gamma$$ is a circle of radius $$(-2a)^{\half}$$ or a straight line.

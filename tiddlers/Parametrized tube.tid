@@ -1,0 +1,14 @@
+created: 20200528132459878
+modified: 20200528135234989
+tags: Curve
+title: Parametrized tube
+type: text/vnd.tiddlywiki
+
+The //parametrized tube// around a space curve $$\gamma$$ of radius $$r>0$$ corresponding to an adapted frame field $$T,N,B$$ is given by
+
+$$\begin{gathered}
+f\colon [0,L] \times [0,2\pi] \to \R^3,\\
+f(t,\phi) \coloneqq \gamma(t) + r\cos(\phi)N + r\sin(\phi)B.
+\end{gathered}$$
+
+If the normal field is parallel, the coordinate lines are orthogonal.

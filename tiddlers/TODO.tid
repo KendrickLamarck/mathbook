@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200520132309528
+modified: 20200527170254091
 modifier: Leander
 tags: meta
 title: TODO
@@ -9,17 +9,24 @@ type: text/vnd.tiddlywiki
 !! Issues
 
 * Migrate this TODO to the github issues
-* Refactor the table of contents
+* Structure changes
 ** Distinguish intrinsic ([[Untermannigfaltigkeiten des Rn]]) and extrinsic [[Differentialgeometrie]] and [[Curve]]
-* The SolarizedLight palette (or theme?) needs work
+** Organize plane curves (distinct from space curves?)
+
+* Palette issues
 ** Menu selection, e.g. in the search field
 ** The x to delete tags
 ** excise button
-* The SolarizedDark palette is bad
+** The SolarizedDark palette is just bad
+
 * We don't want to commit changes where only the //modified// field has changed.
+
 * Improve the folder structure
 ** Folder for <<tag no-toc>>? There are {{{[tag[no-toc]count[]]}}} tiddlers tagged with no-toc
-* Move all KaTeX macros from [[$:/plugins/tiddlywiki/katex/wrapper.js]] to [[$:/_misc/KaTeX-macros]]
+** Stuff that definitely belongs together, like most things in <<tag Verteilung>>
+** Do it with a special field? Really annoying to add to every tiddler
+
+* ~~Move all KaTeX macros from [[$:/plugins/tiddlywiki/katex/wrapper.js]] to [[$:/_misc/KaTeX-macros]]~~
 
 !! Content ideas
 
@@ -30,6 +37,7 @@ type: text/vnd.tiddlywiki
 * Make a Style guide
 ** How many subchapters warrant the creation of a tag?
 *** 3
+*** Also at least 3 items for all lists
 ** cursive (greek! e.g. $$\varOmega\,$$), roman, cal, etc. when?
 *** Variables cursive
 *** Operators roman
@@ -38,6 +46,8 @@ type: text/vnd.tiddlywiki
 ** Which headers when?
 ** Styling of definitions, theorems, etc.
 ** What should be its own tiddler and what shouldn't?
+** All and only added system tiddlers have the prefix `$:/_`.
+
 * More line breaks so it's easier to see what was changed in a commit
 * Hosting a node wiki on the web would be great
 * replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
@@ -47,6 +57,7 @@ type: text/vnd.tiddlywiki
 * Translate everything to English to improve accessibility?
 * An actual favicon: nice to have.
 * Add sources (as embedded PDFs?)
+** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
 * Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty?
 
 {{Reminder}}

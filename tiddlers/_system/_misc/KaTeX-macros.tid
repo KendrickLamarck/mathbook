@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200528182539038
+modified: 20200529133858795
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -25,6 +25,7 @@ $$
 \gdef\RP{\R\mathrm{P}}
 \gdef\Proj{\mathrm{P}}
 \gdef\C{\mathbb{C}}
+\gdef\sphere{\mathrm{S}}
 
 \gdef\O{\operatorname{O}}
 \gdef\SO{\operatorname{SO}}

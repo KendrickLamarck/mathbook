@@ -2,10 +2,10 @@ caption: Metrische Räume
 created: 20180416181103871
 creator: Leander
 list: Metrik Spurmetrik [[Offenheit (metrische Räume)]] Epsilon-Kugel Offenheit Abgeschlossenheit Vollständigkeit [[Beschränktheit (metrische Räume)]] [[Induzierte Topologien verschiedener Metriken]] Schachtelungsprinzip Isometrie [[Isomorphe metrische Räume]] Kontraktion
-modified: 20200516134312866
+modified: 20200530153402270
 modifier: Leander
-tags: Analysis
+tags: Mathematics
 title: Metrischer Raum
 type: text/vnd.tiddlywiki
 
-{{||$:/_templates/treeTemplate}}
+{{||$:/_templates/tree}}

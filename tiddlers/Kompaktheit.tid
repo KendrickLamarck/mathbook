@@ -1,7 +1,7 @@
 created: 20171225165829992
 creator: Leander
 list: [[Offene Überdeckung]] [[Teilmengen kompakter Mengen]] [[Kompaktheit in metrischen Räumen]] Folgenkompaktheit [[Kompakte Teilmengen metrischer Räume]] [[Kompaktheit in R]] [[Kompaktheit von Quadern]] [[Satz von Heine-Borel]] [[Kompaktheit und Vollständigkeit]] [[Lebesgue'sche Zahl]] [[Satz von Bolzano-Weierstraß]] [[Stetige Funktionen und Kompaktheit]]
-modified: 20200518124407411
+modified: 20200530145945129
 modifier: Leander
 tags: Topologie
 title: Kompaktheit
@@ -13,6 +13,12 @@ $$
 A\subset \bigcup_{i\in K} U_i.
 $$
 
+''Satz.'' {{Teilmengen kompakter Mengen}}
+
 ! In metrischen Räumen
 
 {{Kompaktheit in metrischen Räumen}}
+
+! Im euklidischen Raum
+
+{{Kompaktheit in R}}

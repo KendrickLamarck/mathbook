@@ -1,0 +1,22 @@
+created: 20200530143713896
+modified: 20200530145006389
+tags: Topologie
+title: Separation axioms
+type: text/vnd.tiddlywiki
+
+The separation axioms in topological spaces are
+
+# Kolmogorov
+# Fréchet
+# Hausdorff
+# Urysohn
+# completely Hausdorff
+# regular Hausdorff
+# Tychonoff
+# normal Hausdorff
+# completely normal Hausdorff
+# perfectly normal Hausdorff
+
+Here are some examples:
+
+{{||$:/_templates/listTitlesContents}}

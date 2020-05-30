@@ -1,19 +1,19 @@
 caption: In metrischen Räumen
 created: 20191011225416277
-modified: 20200518124404493
+modified: 20200530150442752
 tags: Kompaktheit no-toc
 title: Kompaktheit in metrischen Räumen
 type: text/vnd.tiddlywiki
-
-!! Folgenkompaktheit
-
-{{Folgenkompaktheit}}
 
 * {{Kompakte Teilmengen metrischer Räume}}
 
 * {{Kompaktheit und Vollständigkeit}}
 
 * {{Stetige Funktionen und Kompaktheit}}
+
+!! Folgenkompaktheit
+
+{{Folgenkompaktheit}}
 
 !! Lebesgue'sche Zahl
 

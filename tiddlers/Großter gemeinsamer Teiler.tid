@@ -1,12 +1,12 @@
 created: 20180517201627645
 creator: Leander
-modified: 20180707124046943
+modified: 20200530154854687
 modifier: Leander
-revision: 0
 tags: Zahlentheorie
 title: Größter gemeinsamer Teiler
+type: text/vnd.tiddlywiki
 
-Seien $$a,b\in\mathbb Z\setminus\{0\}.$$ Eine positive ganze Zahl $$m$$ heißt //größter gemeinsamer Teiler (ggT)// von $$a$$ und $$b$$, wenn gilt:
+Seien $$a,b\in\mathbb Z\setminus\{0\}.$$ Eine positive ganze Zahl $$m$$ heißt //größter gemeinsamer Teiler// $$\ggT(a,b)$$ oder $$\gcd(a,b)$$ von $$a$$ und $$b$$, wenn gilt:
 
 # $$m$$ teilt $$a$$ und $$b$$
 # Jede Zahl $$\tilde m\in\mathbb Z\setminus\{0\}$$ die $$a$$ und $$b$$ teilt, teilt auch $$m$$.

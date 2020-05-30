@@ -1,7 +1,9 @@
 created: 20180517201617486
 creator: Leander
-modified: 20180517201626863
+modified: 20200530154604009
 modifier: Leander
-revision: 0
 tags: Mathematics
 title: Zahlentheorie
+type: text/vnd.tiddlywiki
+
+{{||$:/_templates/tree}}

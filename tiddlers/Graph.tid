@@ -2,10 +2,9 @@ caption: Graphentheorie
 created: 20180101203625187
 creator: Leander
 list: Knotengrad Teilgraph Kantenzug [[Zusammenhängender Graph]] Baum [[Datenstrukturen für Graphen]] Graphenisomorphismus [[Graphisches Matroid]] [[Topologische Sortierung (Graphen)]] Graphendurchmusterung [[Kruskals Algorithmus]] [[Prims Algorithmus]] [[Zulässiges Potential]]
-modified: 20191011181359284
+modified: 20200530153159092
 modifier: Leander
-revision: 0
-tags: Mathematics
+tags: Kombinatorik
 title: Graph
 type: text/vnd.tiddlywiki
 

@@ -1,10 +1,10 @@
 created: 20171225174823691
 creator: Leander
-list: Abzählbarkeit Äquivalenzrelation Äquivalenzklasse [[De Morgan'sche Gesetze]] Intervall [[Kartesisches Produkt]] [[Limes superior/inferior (Mengen)]] Mengenlehre-Notation Potenzmenge Relation Verknüpfung
-modified: 20200512213213018
+list: Abbildung Abzählbarkeit Äquivalenzrelation Äquivalenzklasse [[De Morgan'sche Gesetze]] Intervall [[Kartesisches Produkt]] [[Limes superior/inferior (Mengen)]] Mengenlehre-Notation Potenzmenge Relation Verknüpfung
+modified: 20200530153953604
 modifier: Leander
 tags: Mathematics
 title: Mengenlehre
 type: text/vnd.tiddlywiki
 
-<<list-links "[!has[draft.of]tag{!!title}]">>
+{{||$:/_templates/tree}}

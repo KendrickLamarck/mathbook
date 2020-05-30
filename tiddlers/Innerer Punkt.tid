@@ -1,9 +1,8 @@
 created: 20171225132736189
 creator: Leander
-modified: 20180725163205986
+modified: 20200530150849931
 modifier: Leander
-revision: 0
-tags: Topologie
+tags: [[Topologischer Raum]]
 title: Innerer Punkt
 type: text/vnd.tiddlywiki
 
@@ -18,5 +17,3 @@ Die Menge ist offen und ihre Punkte heißen //innere Punkte//. Sie ist die grö�
 $$
 \mathring Y=\bigcup_{i\in I} U_i.
 $$
-
-In einem [[metrischen Raum|Metrischer Raum]] ersetze man in der obigen Definition $$U\in\mathcal T$$ durch eine [[epsilon-Umgebung|Epsilon-Kugel]]. Ein Punkt $$p \in D \subset \mathbb{K}$$ heißt //innerer Punkt// von $$D$$, wenn es ein $$\epsilon > 0$$ gibt, so dass $$U_\epsilon(p) \subset D$$.

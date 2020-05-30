@@ -1,18 +1,14 @@
 created: 20200511202436030
-modified: 20200528182219587
+modified: 20200528222241560
 tags: Statistik
 title: Quantil
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Sei $$Q$$ ein Wahrscheinlichkeitsmaß auf $$(\R,\mathcal B(\R))$$ und $$\alpha \in {]0,1[}.$$ Dann heißt jede Zahl $$q \in \R$$ mit
-
 $$
 Q(\,\lopenI{-\infty,q}\,) \le \alpha, \qquad
 Q(\,[q,\infty[\,) \ge 1-\alpha
 $$
-
 ein //$$\alpha$$-Quantil// von $$Q.$$
 
 * Ein $$\half$$-Quantil von $$Q$$ ist ein //Median.//

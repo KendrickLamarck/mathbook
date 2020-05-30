@@ -2,9 +2,8 @@ caption: Spherical geometry
 created: 20180124194541350
 creator: Leander
 list: [[Great circle]] [[Spherical metric]] Hemisphere [[Spherical Digon]] [[Angles on the sphere]] [[Spherical triangle]] [[Stereographic projection]]
-modified: 20191105225626079
+modified: 20200529133918969
 modifier: Leander
-revision: 0
 tags: [[Spherical geometry]] no-toc
 title: Einheitssphäre
 type: text/vnd.tiddlywiki
@@ -12,7 +11,7 @@ type: text/vnd.tiddlywiki
 Wir bezeichnen mit
 
 $$
-S^n\coloneqq\{\,x\in\mathbb R^{n+1}:\|x\|=1\,\}
+\sphere^n\coloneqq\{\,x\in\mathbb R^{n+1}:\|x\|=1\,\}
 $$
 
 die //$$n$$-dimensionale Einheitssphäre// im $$\mathbb R^{n+1}.$$

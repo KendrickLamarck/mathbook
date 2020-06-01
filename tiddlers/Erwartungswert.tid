@@ -1,6 +1,6 @@
 created: 20181218161741985
 list: [[Schwaches Gesetz der großen Zahlen]] [[Starkes Gesetz der großen Zahlen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]] [[Bedingte Erwartung]] Erwartungswertvektor Moment
-modified: 20200527130313873
+modified: 20200601181041435
 modifier: Leander
 tags: Stochastik
 title: Erwartungswert
@@ -14,7 +14,7 @@ $$
 \Bbb E(X)=\sum_n x_n \Bbb P(X=x_n).
 $$</div>
 
-* <div>Ist $$X$$ eine [[absolutstetig verteilte|Absolutstetige Verteilungsfunktion]] Zufallsvariable mit integrierbarer [[Dichte]] $$f,$$ so existiert $$\Bbb E(X)\in\Bbb R$$ und es gilt
+* <div>Ist $$X$$ eine Zufallsvariable mit integrierbarer [[Dichte]] $$f,$$ so existiert $$\Bbb E(X)\in\Bbb R$$ und es gilt
 
 $$
 \Bbb E(X)=\int_\Bbb R x f(x)\,\mathrm dx,

@@ -1,8 +1,8 @@
 created: 20190708211439791
-modified: 20191112212541515
-revision: 0
-tags: Binomialverteilung [[Hypergeometrische Verteilung]] no-toc
+modified: 20200601182445676
+tags: no-toc Verteilung
 title: Binomialapproximation
+type: text/vnd.tiddlywiki
 
 Für $$N,K_N\to\infty$$ mit $$p_N\coloneqq\frac{K_N}{N}\xrightarrow{N\to\infty} p$$ gilt (mit $$K=K_N$$)
 

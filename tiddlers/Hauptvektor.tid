@@ -1,10 +1,10 @@
 created: 20180504164335088
 creator: Leander
-modified: 20191121232659541
+modified: 20200601185607540
 modifier: Leander
-revision: 0
-tags: [[Jordan'sche Normalform]]
+tags: Endomorphismus
 title: Hauptvektor
+type: text/vnd.tiddlywiki
 
 # Ein Vektor $$v\in V$$ heißt //verallgemeinerter Eigenvektor// oder //Hauptvektor// von $$F\in\operatorname{End}(V)$$ zu einem [[Eigenwert]] $$\lambda$$ von $$F$$, wenn $$v$$ ein Hauptvektor der Stufe $$k$$ von $$F$$ zum Eigenwert $$\lambda$$ ist für ein $$k\in\mathbb Z_{>0}$$.
 # Die Hauptvektoren der Stufe $$1$$ sind die Eigenvektoren. Für $$k\in\mathbb Z_{\ge 2}$$ heißt ein Hauptvektor der Stufe $$k$$ von $$F$$ zum Eigenwert $$\lambda$$, wenn$$

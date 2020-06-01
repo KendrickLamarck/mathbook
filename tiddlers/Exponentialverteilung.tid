@@ -1,5 +1,5 @@
 created: 20190406221349327
-modified: 20200521143344955
+modified: 20200601181920418
 tags: Verteilung
 title: Exponentialverteilung
 type: text/vnd.tiddlywiki
@@ -18,3 +18,15 @@ $$
 und es gilt $$\Bbb E(X)=1/\lambda$$ und $$V(X)=1/\lambda^2.$$
 
 {{Beziehung von Exponential- und Gammaverteilung}}
+
+!! Gedächtnislosigkeit
+
+Sei $$T$$ [[exponentialverteilt|Exponentialverteilung]]. Dann gilt für $$s>0$$
+
+$$
+\Bbb P(T>s+t\mid T>t)=\Bbb P(T>s)\qquad\forall t>0.
+$$
+
+Ist umgekehrt $$T$$ eine nichtnegative [[Zufallsvariable]] mit dieser Eigenschaft und gilt $$\Bbb P(T>0)>0,$$ so ist $$T$$ exponentialverteilt.
+
+Siehe auch [[Geometrische Verteilung]].

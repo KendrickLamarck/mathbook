@@ -1,6 +1,6 @@
 created: 20190505115739901
-list: [[Gemeinsame Verteilung]] [[Absolutstetige Verteilungsfunktion]] [[Faltung von Dichten]] Bernoulli-Verteilung Binomialverteilung Poisson-Verteilung [[Geometrische Verteilung]] [[Negative Binomialverteilung]] [[Hypergeometrische Verteilung]] Gleichverteilung Exponentialverteilung Normalverteilung Gamma-Verteilung Beta-Verteilung Chi-Quadrat-Verteilung Fisher-Verteilung Cauchy-Verteilung
-modified: 20200527121130291
+list: Bernoulli-Verteilung Binomialverteilung Poisson-Verteilung [[Geometrische Verteilung]] [[Negative Binomialverteilung]] [[Hypergeometrische Verteilung]] Gleichverteilung Exponentialverteilung Normalverteilung Gamma-Verteilung Beta-Verteilung Chi-Quadrat-Verteilung Fisher-Verteilung Student-Verteilung Cauchy-Verteilung Wartezeit [[Beziehung von Exponential- und Gammaverteilung]] [[Beziehung von Normal- und Gamma-Verteilung]] [[Beziehung von Gamma- und Beta-Verteilung]] Binomialapproximation [[Poissonscher Grenzwertsatz]]
+modified: 20200601183151622
 tags: Stochastik
 title: Verteilung
 type: text/vnd.tiddlywiki

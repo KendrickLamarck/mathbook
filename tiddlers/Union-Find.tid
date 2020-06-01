@@ -1,10 +1,10 @@
 created: 20180626200058381
 creator: Leander
-modified: 20180701224130440
+modified: 20200601185030038
 modifier: Leander
-revision: 0
-tags: Datenstrukturen
+tags: misc
 title: Union-Find
+type: text/vnd.tiddlywiki
 
 Mit dieser Datenstruktur kann man schnell überprüfen, ob zwei Elemente in der selben Menge enthalten sind, insbesondere um [[Kruskals Algorithmus]] effizient zu implementieren. Dazu gibt es zu jeder Menge einen Repräsentanten, welcher auf Anfrage zurückgegeben wird. Die Operationen sind
 

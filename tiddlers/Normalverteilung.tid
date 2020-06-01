@@ -1,6 +1,6 @@
 created: 20190406221109732
 list: [[Mehrdimensionale Normalverteilung]] [[Dichte mehrdimensionaler Normalverteilungen]] [[Transformierte mehrdimensionale Normalverteilungen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]]
-modified: 20200528185532386
+modified: 20200530213038111
 tags: Verteilung
 title: Normalverteilung
 type: text/vnd.tiddlywiki
@@ -26,7 +26,10 @@ $$
 \chi_X=e^{-\frac {t^2} 2}.
 $$</div>
 
-* Wenn $$X \sim N(\mu_X,\sigma^2_X)$$ und $$Y \sim N(\mu_Y,\sigma^2_Y),$$ dann ist $$X+Y \sim N(\mu_X+\mu_Y,\sigma^2_X+\sigma^2_Y).$$
+* <div>Wenn $$X \sim N(\mu_X,\sigma^2_X)$$ und $$Y \sim N(\mu_Y,\sigma^2_Y),$$ dann ist
+$$
+X+Y \sim N(\mu_X+\mu_Y,\sigma^2_X+\sigma^2_Y).
+$$</div>
 
 * {{Beziehung von Normal- und Gamma-Verteilung}}
 

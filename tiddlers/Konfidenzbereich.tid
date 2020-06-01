@@ -1,5 +1,5 @@
 created: 20200511200714005
-modified: 20200528220533845
+modified: 20200531115334113
 tags: Statistik
 title: Konfidenzbereich
 type: text/vnd.tiddlywiki
@@ -29,3 +29,7 @@ Eine Folge $$C_n\colon (\mathcal X_n,\mathcal F_n,(\P_\vartheta{}^n)_{\vartheta 
 $$
 \liminf_{n\to\infty} \P_\vartheta^n(\vartheta \in C_n) \ge 1-\alpha.
 $$
+
+!! Bestimmung mit Pivotstatistiken
+
+{{Pivotstatistik}}

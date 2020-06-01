@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200527170254091
+modified: 20200601190722629
 modifier: Leander
 tags: meta
 title: TODO
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 * Migrate this TODO to the github issues
 * Structure changes
-** Distinguish intrinsic ([[Untermannigfaltigkeiten des Rn]]) and extrinsic [[Differentialgeometrie]] and [[Curve]]
+** ~~Distinguish intrinsic ([[Extrinsic differential geometry]]) and extrinsic [[Intrinsic differential geometry]] and [[Curve]]~~
 ** Organize plane curves (distinct from space curves?)
 
 * Palette issues

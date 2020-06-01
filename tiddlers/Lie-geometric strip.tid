@@ -1,6 +1,6 @@
 caption: Strips
 created: 20191020200709771
-modified: 20200527172231993
+modified: 20200601164351377
 tags: [[Lie geometry]]
 title: Lie-geometric strip
 type: text/vnd.tiddlywiki
@@ -15,4 +15,4 @@ If in addition $$S_1,S_2,S_1',S_2'$$ are linearly dependent, then the strip is c
 
 !! Curvature strip of curves
 
-Consider a curve $$\gamma\colon I\to\R^3$$ which is parametrized by arclength, i.e. $$\|\gamma'\|=1$$ and $$\gamma''(t)\ne 0.$$ Define the unit tangent vector $$T(t)\coloneqq\gamma'(t)$$ and the unit Frénet normal vector $$N(t)\coloneqq\gamma''(t)/\|\gamma''(t)\|,$$ then $$N$$ is orthogonal to $$T.$$ The strip $$(\gamma,N)$$ is a curvature strip. The enveloped curve in $$\mathscr L$$ represents the spheres with center $$c=\gamma+\frac 1 \kappa N$$ and radius $$r=\frac 1 \kappa,$$ where $$\kappa=\|\gamma''\|.$$
+Consider a curve $$\gamma\colon I\to\R^3$$ which is parametrized by arclength, i.e. $$\|\gamma'\|=1$$ and $$\gamma''(t)\ne 0.$$ Define the unit tangent vector $$T(t)\coloneqq\gamma'(t)$$ and the unit Frenet normal vector $$N(t)\coloneqq\gamma''(t)/\|\gamma''(t)\|,$$ then $$N$$ is orthogonal to $$T.$$ The strip $$(\gamma,N)$$ is a curvature strip. The enveloped curve in $$\mathscr L$$ represents the spheres with center $$c=\gamma+\frac 1 \kappa N$$ and radius $$r=\frac 1 \kappa,$$ where $$\kappa=\|\gamma''\|.$$

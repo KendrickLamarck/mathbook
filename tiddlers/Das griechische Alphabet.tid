@@ -1,34 +1,33 @@
 created: 20171016185430452
 creator: Leander
-modified: 20200528194830672
+modified: 20200601180346504
 modifier: Leander
-tags: [[Math notation]] no-toc
+tags: no-toc misc
 title: Das griechische Alphabet
 type: text/vnd.tiddlywiki
 
-|$$\alpha$$|$$A$$|Alpha|
-|$$\beta$$|$$B$$|Beta|
+|$$\alpha$$|$$\Alpha$$|Alpha|
+|$$\beta$$|$$\Beta$$|Beta|
 |$$\gamma$$|$$\Gamma,\varGamma$$|Gamma|
 |$$\delta$$|$$\Delta,\varDelta$$|Delta|
 |$$\epsilon,\varepsilon$$|$$E$$|Epsilon|
-|$$\zeta$$|$$Z$$|Zeta|
-|$$\eta$$|$$H$$|Eta|
+|$$\zeta$$|$$\Zeta$$|Zeta|
+|$$\eta$$|$$\Eta$$|Eta|
 |$$\theta,\vartheta$$|$$\Theta\varTheta$$|Theta|
-|$$\iota$$|$$I$$|Iota|
-|$$\kappa,\varkappa$$|$$K$$|Kappa|
+|$$\iota$$|$$\Iota$$|Iota|
+|$$\kappa,\varkappa$$|$$\Kappa$$|Kappa|
 |$$\lambda$$|$$\Lambda,\varLambda$$|Lambda|
-|$$\mu$$|$$M$$|My, Mu|
-|$$\nu$$|$$N$$|Ny, Nu|
+|$$\mu$$|$$\Mu$$|My, Mu|
+|$$\nu$$|$$\Nu$$|Ny, Nu|
 |$$\xi$$|$$\Xi,\varXi$$|Xi|
-|$$\omicron$$    |$$O$$|Omicron|
+|$$\omicron$$    |$$\Omicron$$|Omicron|
 |$$\pi,\varpi$$  |$$\Pi,\varPi$$|Pi|
-|$$\rho,\varrho$$|$$P$$|Rho|
+|$$\rho,\varrho$$|$$\Rho$$|Rho|
 |$$\sigma,\varsigma$$|$$\Sigma\varSigma$$|Sigma|
 |$$\tau$$|$$T$$|Tau|
 |$$\upsilon$$|$$\Upsilon,\varUpsilon$$|Upsilon|
-|$$v$$|$$Y$$|Ypsilon|
 |$$\phi,\varphi$$|$$\Phi,\varPhi$$|Phi|
-|$$\chi$$|$$X$$|Chi|
+|$$\chi$$|$$\Chi$$|Chi|
 |$$\psi$$|$$\Psi,\varPsi$$|Psi|
 |$$\omega$$|$$\Omega,\varOmega$$|Omega|
 ||$$\digamma$$|Digamma|

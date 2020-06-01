@@ -1,0 +1,12 @@
+created: 20191112194812168
+creator: Leander
+list: Manifold [[Tangent space]] Pullback Pushforward Untermannigfaltigkeit Embedding Flow [[Lie derivative]] [[Vector bundle]] Section [[Topological properties of manifolds]] [[Partition of unity]] [[Riemannian metric]] [[Conformal map]] [[Graded algebra]] [[Exterior algebra]] [[Differential form]] [[Integrals over manifolds]] [[Stokes'scher Integralsatz]] Connection Geodesic [[Exponential map]] [[Riemannian curvature]] [[Extrinsic differential geometry]]
+modified: 20200601190136627
+modifier: Leander
+tags: Mathematics
+title: Intrinsic differential geometry
+type: text/vnd.tiddlywiki
+
+We usually only consider smooth, i.e. $$\mathcal C^\infty$$-[[manifolds|Smooth manifold]], but most things work for arbitrary classes $$\mathcal C^r$$ as well.
+
+{{||$:/_templates/tree}}

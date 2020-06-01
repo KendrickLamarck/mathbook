@@ -1,0 +1,14 @@
+created: 20170811204942612
+list: [[Bernoulli'sche Ungleichung]] Binomialsatz Dreiecksungleichung Factoring [[Formel von Stirling]] [[Logarithm change of base]] Orthogonalitätsrelationen Potential [[Größter gemeinsamer Teiler]] [[Lemma von Bezout]] Heap Union-Find [[Math notation]] Logik-Notation [[Das griechische Alphabet]]
+modified: 20200601185103067
+tags: Mathematics
+title: misc
+type: text/vnd.tiddlywiki
+
+$$
+\frac{1}{n}\cdot\frac{1}{n+1}=\frac{1}{n}-\frac{1}{n+1}
+$$
+
+* In a right triangle, a perpendicular coming from the right angle cuts the triangle into two similar triangles.
+
+{{||$:/_templates/tree}}

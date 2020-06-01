@@ -1,5 +1,5 @@
 created: 20190216195554333
-modified: 20191010174458129
+modified: 20200601174634003
 tags: [[Hyperbolic geometry]]
 title: Poincaré half-plane model
 type: text/vnd.tiddlywiki
@@ -28,6 +28,10 @@ z\mapsto\frac{a\bar z+b}{c\bar z+d},\ ad-bc<0
 $$
 
 with $$a,b,c,d\in\Bbb R,$$ which is the group $$\mathrm{PSL}(2,\Bbb R).$$
+
+!! Map from the Poincaré disk model
+
+{{Mapping the Poincaré disk to the half-plane model}}
 
 !! Map to Klein model
 

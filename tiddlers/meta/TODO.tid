@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200601190722629
+modified: 20200601192547776
 modifier: Leander
 tags: meta
 title: TODO
@@ -23,7 +23,7 @@ type: text/vnd.tiddlywiki
 
 * Improve the folder structure
 ** Folder for <<tag no-toc>>? There are {{{[tag[no-toc]count[]]}}} tiddlers tagged with no-toc
-** Stuff that definitely belongs together, like most things in <<tag Verteilung>>
+** Stuff that definitely belongs together, like ~~most things in~~ <<tag Verteilung>>
 ** Do it with a special field? Really annoying to add to every tiddler
 
 * ~~Move all KaTeX macros from [[$:/plugins/tiddlywiki/katex/wrapper.js]] to [[$:/_misc/KaTeX-macros]]~~

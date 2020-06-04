@@ -1,9 +1,9 @@
 created: 20191206181814179
-modified: 20200310174532709
+modified: 20200603153337940
 tags: Flow
 title: Integral curve
 type: text/vnd.tiddlywiki
 
-Given a [[vector field|Vektorfeld]] $$X$$ on a manifold $$M,$$ a curve $$\gamma\colon J\to M$$ (where $$J\subseteq\R$$ is some open interval) is called an //integral curve// of $$X$$ if $$\gamma'(t)=X_{\gamma(t)}$$ for all $$t\in J.$$
+Given a [[vector field|Vector field]] $$X$$ on a manifold $$M,$$ a curve $$\gamma\colon J\to M$$ (where $$J\subseteq\R$$ is some open interval) is called an //integral curve// of $$X$$ if $$\gamma'(t)=X_{\gamma(t)}$$ for all $$t\in J.$$
 
 Since any $$\R$$-action $$\theta$$ has an infinitesimal generator $$X,$$ each orbit $$\gamma_p(t)=\theta_t(p)$$ is an integral curve of $$X,$$ defined on $$J=\R.$$

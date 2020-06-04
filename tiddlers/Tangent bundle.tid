@@ -1,5 +1,5 @@
 created: 20191114222954987
-modified: 20200325204509501
+modified: 20200603194501700
 tags: [[Tangent space]]
 title: Tangent bundle
 type: text/vnd.tiddlywiki
@@ -12,3 +12,5 @@ $$
 $$
 
 We define the topology on $$\T M$$ by specifying that these maps $$\D\varphi$$ are [[homeomorphisms|Homöomorphismus]]; they then form an atlas and define a [[smooth structure|Smooth structure]].
+
+A section of this [[vector bundle|Vector bundle]] is a [[vector field|Vector field]]. {{Endomorphism field}}

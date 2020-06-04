@@ -1,13 +1,13 @@
 caption: Divergenz
 created: 20190408225036837
-modified: 20200314174030526
+modified: 20200603153337846
 tags: [[Linearer Differentialoperator]]
 title: Divergenz (Differentialoperator)
 type: text/vnd.tiddlywiki
 
 {{KaTeX macros}}
 
-Sei $$F=(F_1,\dots,F_d)\colon U\to\Bbb R^d$$ mit $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir die //Divergenz// als
+Sei $$F=(F_1,\dots,F_d)\colon U\to\Bbb R^d$$ mit $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] ein $$\mathcal C^1$$-[[Vector field]]. Dann definieren wir die //Divergenz// als
 
 $$
 

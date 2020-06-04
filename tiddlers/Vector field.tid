@@ -1,7 +1,7 @@
 created: 20191112213934852
-modified: 20200403052100034
+modified: 20200603153338208
 tags: [[Tangent space]]
-title: Vektorfeld
+title: Vector field
 type: text/vnd.tiddlywiki
 
 Ein //(glattes) Vektorfeld// $$X\colon M\to\T M$$ auf einer [[differenzierbaren Mannigfaltigkeit|Smooth manifold]] $$M$$ ist ein (glatter) [[Schnitt|Section]] im [[Tangentialbündel|Tangent bundle]] $$\T M,$$ d.h. eine Abbildung die jedem $$p\in M$$ einen Vektor $$X_p\in\T_p M$$ zuordnet.

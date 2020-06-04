@@ -1,10 +1,10 @@
 created: 20200528142222028
-modified: 20200601164340700
+modified: 20200601220847078
 tags: Curve
 title: Frenet frame
 type: text/vnd.tiddlywiki
 
-A [[frame|Frame field (space curves)]] is called a //Frénét frame// if $$\kappa_2$$ vanishes. The equations then obtained from the moving frame equations by setting the //curvature// $$\kappa \coloneqq \kappa_1$$ are called the //Frénét-Serre formulas://
+A [[frame|Frame field (space curves)]] is called a //Frenet frame// if $$\kappa_2$$ vanishes. The equations then obtained from the moving frame equations by setting the //curvature// $$\kappa \coloneqq \kappa_1$$ are called the //Frénét-Serre formulas://
 $$\begin{aligned}
 T' &=  \kappa N \\
 N' &= -\kappa T + \tau B,\\

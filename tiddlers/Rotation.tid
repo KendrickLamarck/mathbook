@@ -1,12 +1,12 @@
 created: 20190408230946576
-modified: 20191227215528827
+modified: 20200603153338040
 tags: [[Linearer Differentialoperator]]
 title: Rotation
 type: text/vnd.tiddlywiki
 
 {{KaTeX macros}}
 
-Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir die //Rotation (engl. curl)// von $$a$$ als
+Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vector field]]. Dann definieren wir die //Rotation (engl. curl)// von $$a$$ als
 
 $$
 \operatorname{rot}a\coloneqq

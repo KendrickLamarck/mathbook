@@ -1,0 +1,23 @@
+caption: Surfaces
+created: 20200603134649845
+modified: 20200603195831385
+tags: [[Extrinsic differential geometry]]
+title: Surface
+type: text/vnd.tiddlywiki
+
+Let $$M \subset \R^2$$ be a compact, connected subset with smooth boundary. An [[immersion|Immersion und Submersion]] $$f\colon M \to \R^n$$ is called a //parametrized surface.//
+
+If $$f\colon M \to \R^n$$ and $$\tilde f\colon \tilde M \to \R^n$$ are two parametrized surfaces, then $$\tilde f$$ is called an (orientation-preserving) //reparametrization// of $$f$$ if there is an (orientation-preserving) diffeomorphism $$\varphi\colon \tilde M \to M$$ such that $$\tilde f = f \circ \varphi.$$ An equivalence class of parametrized surfaces under (orientation-preserving) reparametrization is called an (oriented) //surface patch// in $$\R^n.$$
+
+* We call the coordinates $$u$$ and $$v$$ and denote the partial derivatives of maps from $$M$$ as $$f_u$$ and $$f_v.$$
+* For all $$p \in M$$ we identify (define) $$\T_p M \cong \{p\} \times \R^2$$ and $$\T M \cong M \times \R^2.$$
+* We say $$X = (p,\hat X),\ Y = (p,\hat Y)$$ is a positively oriented basis of $$\T_p M$$ if $$\hat X, \hat Y$$ is a positively oriented basis of $$\R^2.$$
+* <div>For a smooth map $$f\colon M \to \R^n$$ we define the derivative map
+$$
+\d f \colon \T M \to \R^n,\quad
+X = (p,\hat X) \mapsto \d f(X) \coloneqq \D_p f(\hat X)
+$$
+and we write $$\d_X f \coloneqq \d f(X),$$ analogous to the directional derivative.</div>
+
+''Remark.''
+Some [[advanced terminology|Intrinsic differential geometry]] is used in this section.

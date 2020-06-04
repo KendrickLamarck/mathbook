@@ -1,5 +1,5 @@
 created: 20190408230643462
-modified: 20200601190136466
+modified: 20200603153338074
 tags: [[Intrinsic differential geometry]]
 title: Stokes'scher Integralsatz
 type: text/vnd.tiddlywiki
@@ -27,7 +27,7 @@ $$
 
 Sei $$\varOmega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und
 $$a\in\mathcal C^1(\varOmega\to\R^3)$$
-ein $$\mathcal C^1$$-[[Vektorfeld]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und
+ein $$\mathcal C^1$$-[[Vector field]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und
 $$\nu\colon\partial A\to S^1$$
 das [[äußere Einheits-Normalenfeld|Normalenvektor]]. Außerdem sei
 $$\varphi=(\varphi_1,\varphi_2,\varphi_3)\in\mathcal C^2(A\to\varOmega)$$

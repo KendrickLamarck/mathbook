@@ -1,0 +1,15 @@
+created: 20200603200435778
+modified: 20200603201904430
+tags: Surface no-toc
+title: Area form
+type: text/vnd.tiddlywiki
+
+On every Riemannian domain $$M,$$ there is a unique [[endomorphism field|Endomorphism field]] $$J$$ such that
+
+* $$J^* = J,$$
+* $$J^2 = -I,$$
+* $$(X,JX)$$ is positively oriented for all $$0 \ne X \in \T_p M.$$
+
+$$J$$ is the positive 90&deg;-rotation.
+
+The [[two-form|Differential form]] $$\det(X,Y) = \lang JX,Y \rang$$ is called the //area form// of a Riemannian domain $$M.$$

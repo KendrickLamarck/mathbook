@@ -1,10 +1,10 @@
 created: 20191114011328888
-modified: 20200403045726633
-tags: Vektorfeld no-toc
+modified: 20200603153338156
+tags: [[Vector field]] no-toc
 title: Verknüpfte Vektorfelder
 type: text/vnd.tiddlywiki
 
-Sei $$f\colon M\to N$$ [[glatt|Differenzierbarkeit auf Mannigfaltigkeiten]] und seien $$X$$ und $$Y$$ zwei [[Vektorfelder|Vektorfeld]] auf $$M$$ bzw. $$N.$$ Wir sagen,  //$$Y$$ ist $$f$$-verknüpft mit ($$f$$-related to) $$X$$,// wenn
+Sei $$f\colon M\to N$$ [[glatt|Differenzierbarkeit auf Mannigfaltigkeiten]] und seien $$X$$ und $$Y$$ zwei [[Vektorfelder|Vector field]] auf $$M$$ bzw. $$N.$$ Wir sagen,  //$$Y$$ ist $$f$$-verknüpft mit ($$f$$-related to) $$X$$,// wenn
 
 $$
 \D_p f(X_p)=Y_{f(p)}.

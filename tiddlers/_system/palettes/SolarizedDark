@@ -15,19 +15,17 @@ blue:    #268bd2
 cyan:    #2aa198
 green:   #859900
 
-: the following darks and lights are swapped
+light-background: <<colour base03>>
+light-highlight-background: <<colour base02>>
+light-foreground: <<colour base0>>
+light-muted-foreground: <<colour base01>>
+light-emphasised-foreground: <<colour base1>>
 
-dark-background: <<colour base03>>
-dark-highlight-background: <<colour base02>>
-dark-foreground: <<colour base0>>
-dark-muted-foreground: <<colour base01>>
-dark-emphasised-foreground: <<colour base1>>
-
-light-background: <<colour base3>>
-light-highlight-background: <<colour base2>>
-light-foreground: <<colour base00>>
-light-muted-foreground: <<colour base1>>
-light-emphasised-foreground: <<colour base01>>
+dark-background: <<colour base3>>
+dark-highlight-background: <<colour base2>>
+dark-foreground: <<colour base00>>
+dark-muted-foreground: <<colour base1>>
+dark-emphasised-foreground: <<colour base01>>
 
 alert-background: <<colour light-highlight-background>>
 alert-border: <<colour dark-light-highlight-background>>
@@ -65,7 +63,7 @@ external-link-background: inherit
 external-link-foreground-hover: <<colour magenta>>
 external-link-foreground-visited: <<colour yellow>>
 external-link-foreground: <<colour orange>>
-    foreground: <<colour light-foreground>>
+    foreground:  <<colour light-foreground>>
 message-background: <<colour dark-background>>
 message-border: <<colour dark-light-highlight-background>>
 message-foreground: <<colour dark-foreground>>
@@ -113,7 +111,7 @@ table-border: <<colour muted-foreground>>
 table-footer-background: <<colour foreground>>
 table-header-background: <<colour muted-foreground>>
 tag-background: <<colour violet>>
-tag-foreground: <<colour light-highlight-background>>
+tag-foreground: <<colour background>>
 tiddler-background: <<colour background>>
 tiddler-border: <<colour background>>
 tiddler-controls-foreground-hover: <<colour yellow>>
@@ -131,7 +129,7 @@ tiddler-link-background: <<colour background>>
 tiddler-link-foreground: <<colour primary>>
 tiddler-subtitle-foreground: <<colour light-emphasised-foreground>>
 tiddler-title-foreground: <<colour light-emphasised-foreground>>
-toolbar-new-button: 
+toolbar-new-button:
 toolbar-options-button: 
 toolbar-save-button: 
 toolbar-info-button: 

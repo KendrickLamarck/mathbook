@@ -15,17 +15,19 @@ blue:    #268bd2
 cyan:    #2aa198
 green:   #859900
 
-light-background: <<colour base03>>
-light-highlight-background: <<colour base02>>
-light-foreground: <<colour base0>>
-light-muted-foreground: <<colour base01>>
-light-emphasised-foreground: <<colour base1>>
+: the following darks and lights are swapped
 
-dark-background: <<colour base3>>
-dark-highlight-background: <<colour base2>>
-dark-foreground: <<colour base00>>
-dark-muted-foreground: <<colour base1>>
-dark-emphasised-foreground: <<colour base01>>
+dark-background: <<colour base03>>
+dark-highlight-background: <<colour base02>>
+dark-foreground: <<colour base0>>
+dark-muted-foreground: <<colour base01>>
+dark-emphasised-foreground: <<colour base1>>
+
+light-background: <<colour base3>>
+light-highlight-background: <<colour base2>>
+light-foreground: <<colour base00>>
+light-muted-foreground: <<colour base1>>
+light-emphasised-foreground: <<colour base01>>
 
 alert-background: <<colour light-highlight-background>>
 alert-border: <<colour dark-light-highlight-background>>
@@ -61,7 +63,7 @@ external-link-background-hover: inherit
 external-link-background-visited: inherit
 external-link-background: inherit
 external-link-foreground-hover: <<colour magenta>>
-external-link-foreground-visited: <<colour yellow>>
+external-link-foreground-visited: <<colour red>>
 external-link-foreground: <<colour orange>>
     foreground: <<colour light-foreground>>
 message-background: <<colour dark-background>>

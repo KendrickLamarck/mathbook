@@ -1,8 +1,8 @@
-created: 20200425184304698
+created: 20200425154722169
 description: Precision colors for machines and people
 license: MIT, Ethan Schoonover, https://github.com/altercation/solarized/blob/master/LICENSE
-modified: 20200425190331536
-name: SolarizedLight
+modified: 20200603193533517
+name: SolarizedDark
 tags: $:/tags/Palette
 title: $:/palettes/SolarizedDark
 type: application/x-tiddler-dictionary

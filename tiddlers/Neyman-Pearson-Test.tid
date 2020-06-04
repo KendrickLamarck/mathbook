@@ -1,0 +1,35 @@
+created: 20200602190919926
+modified: 20200602194648523
+tags: Test
+title: Neyman-Pearson-Test
+type: text/vnd.tiddlywiki
+
+Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit $$\varTheta = \{0,1\}$$ (Nullhypothese und Alternative) und Dichtefunktionen $$\rho_0$$ und $$\rho_1$$ bzgl. $$\mu,$$ d.h.
+$$
+\prob_0(\d x) = \rho_0\,\mu(\d x), \quad
+\prob_1(\d x) = \rho_1\,\mu(\d x).
+$$
+Der Grad der Dominanz von $$\rho_1$$ über $$\rho_0$$ wird beschrieben durch den //Likelihood-Quotienten//
+$$
+R(x) \coloneqq \frac{\rho_1(x)}{\rho_0(x)}
+$$
+sofern $$\rho_0(x) \ne 0,$$ sonst setzen wir $$R(x) = \infty.$$
+
+Ein Test der Form $$\varphi$$ heißt //Neyman-Pearson-Test,// falls
+$$\varphi|_{\{R(x) > c\}} \equiv 1$$
+und
+$$\varphi|_{\{R(x) < c\}} \equiv 0.$$
+Für $$\alpha \in \openI{0,1}$$ gilt:
+
+* <div>Es existiert ein Neyman-Pearson-Test mit
+$$\expect_0[\varphi]=\alpha.$$
+Wenn $$\P_0(R=c)=0$$ ist, setzen wir
+$$\varphi \coloneqq \mathbf{1}_{\{R > c\}}$$
+und sonst
+$$
+\varphi\bigr|_{\{R(x) = c\}} \equiv
+  \frac{\alpha-\prob_0(R>c)}
+    {\prob_0(R=c)}.
+$$</div>
+* Jeder Neyman-Pearson-Test mit $$\expect_0[\varphi]=\alpha$$ ist ein gleichmäßig bester Test.
+* Für jeden anderen gleichmäßig besten Test $$\psi$$ zum Niveau $$\alpha$$ gilt $$\varphi=\psi$$ $$\mu$$-f.s. in $$\{R\ \ne c\}.$$ Jeder gleichmäßig beste Test ist also f.s. ein Neyman-Pearson-Test.

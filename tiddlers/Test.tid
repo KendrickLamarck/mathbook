@@ -1,0 +1,26 @@
+created: 20200602180136824
+modified: 20200602185705415
+tags: Statistik
+title: Test
+type: text/vnd.tiddlywiki
+
+Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\varTheta = \varTheta_0 \sqcup \varTheta_1$$ eine Zerlegung von $$\varTheta$$ in //Nullhypothese// und //Alternative.//
+
+* Eine Statistik $$\varphi\colon \mathcal X \to [0,1]$$ heißt //Test// von $$\varTheta_0$$ gegen $$\varTheta_1.$$
+* Ein Test heißt //nicht randomisiert,// falls $$\varphi \in \{0,1\}.$$
+
+Die Entscheidung für $$\varTheta_1,$$ obwohl $$\varTheta_0$$ richtig ist, nennt man //Fehler 1. Art// oder //peinlichen Fehler,// den gegenteiligen Fehler //Fehler 2. Art// oder //verzeihlichen Fehler.//
+
+Ein Test $$\varphi$$ heißt //zulässig// zum Irrtumsniveau $$\alpha \in [0,1],$$ falls
+$$
+\sup_{\vartheta\in\varTheta_0} \expect_\vartheta[\varphi] \le \alpha.
+$$
+Das heißt, dass ein peinlicher Fehler mit maximaler Wahrscheinlichkeit $$\alpha$$ produziert wird. Wir interessieren uns außerdem nur für Tests, die mit minimaler Wahrscheinlichkeit verzeihliche Fehler produzieren, d.h. wenn
+$$
+\expect_\vartheta[\varphi] \ge \expect_\vartheta[\psi]
+$$
+für alle $$\vartheta \in \varTheta_1$$ und alle zulässigen Tests $$\psi.$$ Ein solcher Test heißt //gleichmäßig bester Test.// Die Funktion
+$$
+G_\varphi\colon \varTheta \to [0,1],\quad G_\varphi(\vartheta) \coloneqq \expect_\vartheta(\varphi)
+$$
+heißt //Gütefunktion.// Wir möchten also $$G\bigr|_{\varTheta_0}$$ klein und $$G\bigr|_{\varTheta_1}$$ groß haben.

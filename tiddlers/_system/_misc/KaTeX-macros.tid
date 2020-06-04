@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200530154838702
+modified: 20200603194000654
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -39,6 +39,7 @@ $$
 \gdef\Rang{\operatorname{Rang}}
 \gdef\Eig{\operatorname{Eig}}
 \gdef\span{\operatorname{span}}
+\gdef\End{\operatorname{End}}
 \gdef\Aut{\operatorname{Aut}}
 \gdef\Sym{\operatorname{Sym}}
 \gdef\tr{\operatorname{tr}}
@@ -81,6 +82,8 @@ $$
 \gdef\Borel{\mathcal{B}}
 \gdef\smooth{\mathcal{C}}
 \gdef\smoothcs{\mathcal{C}_{\mathrm{c}}}
+\gdef\sections{\Gamma}
+\gdef\vecfields{\mathfrak{X}}
 \gdef\totaltorsion{\mathcal{T}}
 
 \gdef\half{\char"00BD}

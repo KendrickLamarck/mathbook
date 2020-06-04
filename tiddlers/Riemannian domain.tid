@@ -1,12 +1,15 @@
 created: 20200603153840917
-modified: 20200603202649277
+modified: 20200604150520123
 tags: Surface
 title: Riemannian domain
 type: text/vnd.tiddlywiki
 
 A domain $$M$$ (as defined higher up) together with a [[Riemannian metric]] is called a //Riemannian domain.//
 
-For a smooth map $$f\colon M \to \R^n,$$ we define the induced Riemannian metric $$\lang\cdot,\cdot\rang_f$$ on $$M$$ as the [[pullback|Pullback of Riemannian metrics]] $$f^*\lang\cdot,\cdot\rang$$ of the standard Riemannian metric on $$\R^n.$$
+For a smooth map $$f\colon M \to \R^n,$$ we define the induced Riemannian metric $$\lang\cdot,\cdot\rang_f$$ on $$M$$ as the [[pullback|Pullback of Riemannian metrics]] $$f^*\lang\cdot,\cdot\rang$$ of the standard Riemannian metric on $$\R^n,$$ i.e. for $$X,Y \in \T_p M$$
+$$
+\lang X,Y \rang_f = \lang \d f(X), \d f(Y) \rang.
+$$
 
 Two parametrized surfaces $$f,\tilde f\colon M \to \R^n$$ are called //isometric// if they induce the same Riemannian metric on $$M.$$ This is the case if and only if
 $$

@@ -2,7 +2,7 @@ caption: Differentiation
 created: 20180528201328382
 creator: Leander
 list: [[Ableitung in R]] [[Komponentenweise Differentiation]] Richtungsableitung Jacobi-Matrix Kettenregel Produktregel [[Höhere Ableitungen]] [[Notwendiges Extremwertkriterium]] Extremwerte [[Stetige Differenzierbarkeit]] [[Konstanter Rang]] [[Linearer Differentialoperator]]
-modified: 20200424182359087
+modified: 20200604151840707
 modifier: Leander
 tags: Analysis
 title: Ableitung
@@ -20,6 +20,9 @@ $$
 \lim_{x\to p}\frac{R(x)}{\|x-p\|}=0.
 $$
 
-$$F$$ ist dann eindeutig bestimmt und wir nennen es die //Ableitung// oder das //Differential// von $$f$$ in $$p$$. Man schreibt auch $$F=\mathrm D_p f.$$ $$f$$ heißt //differenzierbar// (auf $$G$$), falls $$f$$ in allen $$p\in G$$ differenzierbar ist.
+$$F$$ ist dann eindeutig bestimmt und wir nennen es die //Ableitung// oder das //Differential// von $$f$$ in $$p$$. $$f$$ heißt //differenzierbar// (auf $$G$$), falls $$f$$ in allen $$p\in G$$ differenzierbar ist.
 
-Differenzierbare Funktionen sind [[stetig|Stetigkeit]].
+* Differenzierbare Funktionen sind [[stetig|Stetigkeit]].
+* Man schreibt $$F=\mathrm D_p f.$$ Andere Schreibweisen sind z.B. $$\d f_p,\ \d_p f,$$ und $$\D f(p).$$
+* Man nennt $$\D_p f$$ auch das //totale Differential// zur Abgrenzung von den [[partiellen Ableitungen|Partielle Ableitung]].
+* Der [[Pushforward]] verallgemeinert die Ableitung.

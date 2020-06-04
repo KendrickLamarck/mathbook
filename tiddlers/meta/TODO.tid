@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200602180349477
+modified: 20200604182416438
 modifier: Leander
 tags: meta
 title: TODO
@@ -18,8 +18,8 @@ type: text/vnd.tiddlywiki
 ** The x to delete tags
 ** excise button
 ** The SolarizedDark palette is just bad
-*** toolbar buttons, e.g. excise
-*** Button color?
+*** ~~toolbar buttons, e.g. excise~~
+*** ~~Button color?~~
 
 * We don't want to commit changes where only the //modified// field has changed.
 

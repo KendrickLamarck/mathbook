@@ -1,5 +1,5 @@
 created: 20200602180136824
-modified: 20200602185705415
+modified: 20200604185121346
 tags: Statistik
 title: Test
 type: text/vnd.tiddlywiki
@@ -21,6 +21,6 @@ $$
 $$
 für alle $$\vartheta \in \varTheta_1$$ und alle zulässigen Tests $$\psi.$$ Ein solcher Test heißt //gleichmäßig bester Test.// Die Funktion
 $$
-G_\varphi\colon \varTheta \to [0,1],\quad G_\varphi(\vartheta) \coloneqq \expect_\vartheta(\varphi)
+G_\varphi\colon \varTheta \to [0,1],\quad G_\varphi(\vartheta) \coloneqq \expect_\vartheta[\varphi]
 $$
-heißt //Gütefunktion.// Wir möchten also $$G\bigr|_{\varTheta_0}$$ klein und $$G\bigr|_{\varTheta_1}$$ groß haben.
+heißt //Gütefunktion.// Wir möchten also $$G|_{\varTheta_0}$$ klein und $$G|_{\varTheta_1}$$ groß haben.

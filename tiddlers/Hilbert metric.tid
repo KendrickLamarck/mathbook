@@ -1,6 +1,5 @@
 created: 20191008233649333
-modified: 20191116145632939
-revision: 0
+modified: 20200604145428445
 tags: Geometrie
 title: Hilbert metric
 type: text/vnd.tiddlywiki
@@ -8,7 +7,7 @@ type: text/vnd.tiddlywiki
 Let $$K$$ be a compact convex subset of $$\R^n$$ and assume that the interior $$\mathring K$$ of $$K$$ is not empty. For two points $$A,B\in\mathring K,$$ let $$X,Y$$ be the points where the line $$AB$$ intersects $$K,$$ labelled such that $$A$$ is closer to $$X$$ and $$B$$ is closer to $$Y.$$ Then
 
 $$
-d(A,B)\coloneqq\frac 1 2 \log\crossratio(B,X,A,Y)
+d(A,B)\coloneqq \tfrac 1 2 \log\crossratio(B,X,A,Y)
 $$
 
 defines a metric on $$\mathring K$$ called the //Hilbert metric// on $$\mathring K.$$

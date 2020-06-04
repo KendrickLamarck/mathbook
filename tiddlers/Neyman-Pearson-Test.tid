@@ -1,5 +1,5 @@
 created: 20200602190919926
-modified: 20200602194648523
+modified: 20200604184920063
 tags: Test
 title: Neyman-Pearson-Test
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ R(x) \coloneqq \frac{\rho_1(x)}{\rho_0(x)}
 $$
 sofern $$\rho_0(x) \ne 0,$$ sonst setzen wir $$R(x) = \infty.$$
 
-Ein Test der Form $$\varphi$$ heißt //Neyman-Pearson-Test,// falls
+Ein [[Test]] $$\varphi$$ heißt //Neyman-Pearson-Test,// falls
 $$\varphi|_{\{R(x) > c\}} \equiv 1$$
 und
 $$\varphi|_{\{R(x) < c\}} \equiv 0.$$

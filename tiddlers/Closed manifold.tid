@@ -1,7 +1,7 @@
 created: 20191116155447806
-modified: 20200414164106774
+modified: 20200604135038538
 tags: Manifold no-toc
 title: Closed manifold
 type: text/vnd.tiddlywiki
 
-A //closed manifold// is a compact [[manifold without boundary|Topologische Mannigfaltigkeit]].
+A //closed manifold// is a compact [[manifold without boundary|Topologische Mannigfaltigkeit]]. "Closed" here should not be taken to mean that the set is closed in the topological sense, but that the manifold "closes up".

@@ -1,7 +1,6 @@
 caption: Projective model
 created: 20190426105555535
-modified: 20191116145638404
-revision: 0
+modified: 20200604212148496
 tags: [[Hyperbolic geometry]]
 title: Projective model of hyperbolic geometry
 type: text/vnd.tiddlywiki
@@ -31,7 +30,7 @@ This model implies that $$n$$-dimensional Möbius geometry can be seen as the ge
 For two points $$A,B\in H^n_\mathrm{proj},$$ let $$X,Y$$ be the points where the line $$AB$$ intersects the quadric $$Q,$$ labelled such that $$X,B$$ [[separates|Separation on the real projective line]] $$A,Y.$$ Then
 
 $$
-d_\mathrm{proj}(A,B)=\frac 1 2\log\crossratio(B,X,A,Y).
+d_\mathrm{proj}(A,B)=\tfrac 1 2\log\crossratio(B,X,A,Y).
 $$
 
 !! The other one

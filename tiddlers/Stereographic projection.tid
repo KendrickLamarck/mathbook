@@ -1,6 +1,6 @@
 created: 20190210221038641
 creator: Leander
-modified: 20200504161136396
+modified: 20200604215242450
 modifier: Leander
 tags: [[Spherical geometry]]
 title: Stereographic projection
@@ -12,19 +12,29 @@ type: text/vnd.tiddlywiki
 
 $$\begin{gathered}
 \sigma \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} =
-\frac 1 {1-x_3} \begin{pmatrix} x_1 \\ x_2 \end{pmatrix},\\
+  \frac{1}{1-x_3}
+  \begin{pmatrix} x_1 \\ x_2 \end{pmatrix}, \\
 \sigma^{-1}\begin{pmatrix} u_1 \\ u_2 \end{pmatrix} =
-\frac 1 {\|u\|^2+1} \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
+  \frac{1}{\|u\|^2+1}
+  \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
 \end{gathered}$$
 
 Stereographic projection maps circles in $$S^2$$ which contain $$e_3$$ to lines in $$\Bbb R^2$$ and all other circles in $$S^2$$ to circles in $$\Bbb R^2.$$ All circles and lines in $$\Bbb R^2$$ are images of circles in $$S^2.$$
 
-The map can also be obtained as [[inversion|Inversion in a hypersphere]] in the sphere with center $$e_3$$ and radius $$\sqrt 2$$ restricted to the plane $$e_3 = 0$$ for $$\sigma^{-1}$$ or the unit sphere for $$\sigma.$$
+The map can also be obtained as [[inversion|Inversion in a hypersphere]] in the sphere with center $$e_n$$ and radius $$\sqrt 2$$ restricted to the plane $$e_n = 0$$ for $$\sigma^{-1}$$ or the unit sphere for $$\sigma.$$ From this we obtain the general versions of the formulas above:
+$$
+\sigma^{-1}(x) =
+  \frac{2x+\left(\|x\|^2-1\right)e_n}
+    {\|x\|^2+1}, \qquad
+\sigma(x) =
+  \frac{x-\lang e_n,x \rang e_n}
+    {1-\lang e_n,x \rang}.
+$$
+An advantage of these is that we can obtain a hyperbolic version of sterographic projection by using Lorentz scalar products and $$-e_n$$ instead of $$e_n,$$ see also [[Poincaré disk model]].
 
 !! Projective
 
-$$S^n=\{[x]\in\R\mathrm P^n\mid \langle x,x\rangle_{3,1}=0\}\subset\R\mathrm P^{n+1}$$ can be mapped to $$\widehat\Bbb R^n$$ bijectively via stereographic projection:
-
+$$S^n=\{[x]\in\R\mathrm P^n\mid \langle x,x\rangle_{n,1}=0\}\subset\R\mathrm P^{n+1}$$ can be mapped to $$\widehat\Bbb R^n$$ bijectively via stereographic projection:
 $$
 \begin{bmatrix}
   x_1     \\
@@ -39,13 +49,11 @@ $$
   x_n    \\
 \end{pmatrix}.
 $$
-
 For the direction
 $$\widehat\R^n\to S^n$$
 we get
-
 $$
-\Bbb R^n\ni u\mapsto
+\Bbb R^n \ni u\mapsto
 \begin{bmatrix}
   2u        \\
   \|u\|^2-1 \\

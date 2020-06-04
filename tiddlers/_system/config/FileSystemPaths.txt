@@ -1,3 +1,4 @@
 [is[system]removeprefix[$:/]addprefix[_system/]]
 [tag[meta]addprefix[meta/]]
 [tag[formula]addprefix[formulae/]]
+[tag[Verteilung]addprefix[verteilungen/]

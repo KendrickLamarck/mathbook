@@ -28,7 +28,7 @@ dark-muted-foreground: <<colour base1>>
 dark-emphasised-foreground: <<colour base01>>
 
 alert-background: <<colour light-highlight-background>>
-alert-border: <<colour dark-light-highlight-background>>
+alert-border: <<colour dark-highlight-background>>
 alert-highlight: <<colour orange>>
 alert-muted-foreground: <<colour light-emphasised-foreground>>
     background: <<colour light-background>>
@@ -63,9 +63,9 @@ external-link-background: inherit
 external-link-foreground-hover: <<colour magenta>>
 external-link-foreground-visited: <<colour yellow>>
 external-link-foreground: <<colour orange>>
-    foreground:  <<colour light-foreground>>
+    foreground: <<colour light-foreground>>
 message-background: <<colour dark-background>>
-message-border: <<colour dark-light-highlight-background>>
+message-border: <<colour dark-highlight-background>>
 message-foreground: <<colour dark-foreground>>
 modal-backdrop: <<colour foreground>>
 modal-background: <<colour background>>
@@ -86,11 +86,11 @@ sidebar-button-foreground: <<colour light-highlight-background>>
 sidebar-controls-foreground-hover: <<colour blue>>
 sidebar-controls-foreground: <<colour light-emphasised-foreground>>
 sidebar-foreground-shadow: transparent
-sidebar-foreground: <<colour foreground>>
+sidebar-foreground: <<colour light-emphasised-foreground>>
 sidebar-muted-foreground-hover: <<colour foreground>>
 sidebar-muted-foreground: <<colour muted-foreground>>
 
-sidebar-tab-background-selected: <<colour page-background>>
+sidebar-tab-background-selected: #ff000000
 sidebar-tab-background: <<colour light-emphasised-foreground>>
 sidebar-tab-border-selected: <<colour muted-foreground>>
 sidebar-tab-border: <<colour tab-border>>
@@ -103,12 +103,12 @@ sidebar-tiddler-link-foreground: <<colour blue>>
 site-title-foreground: <<colour tiddler-title-foreground>>
 static-alert-foreground: <<colour red>>
 
-tab-background-selected: <<colour background>>
+tab-background-selected: transparent
     tab-background: <<colour dark-highlight-background>>
     tab-border-selected: <<colour tab-foreground-selected>>
-tab-border: #000000ff
-tab-divider: <<colour background>>
-tab-foreground-selected: <<colour light-emphasised-foreground>>
+tab-border: transparent
+tab-divider: transparent
+tab-foreground-selected: <<colour foreground>>
     tab-foreground: <<colour dark-emphasised-foreground>>
 
 table-border: <<colour muted-foreground>>

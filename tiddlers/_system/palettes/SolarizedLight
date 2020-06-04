@@ -30,7 +30,7 @@ light-muted-foreground: <<colour base1>>
 light-emphasised-foreground: <<colour base01>>
 
 alert-background: <<colour light-highlight-background>>
-alert-border: <<colour dark-light-highlight-background>>
+alert-border: <<colour dark-highlight-background>>
 alert-highlight: <<colour orange>>
 alert-muted-foreground: <<colour light-emphasised-foreground>>
     background: <<colour light-background>>
@@ -67,7 +67,7 @@ external-link-foreground-visited: <<colour red>>
 external-link-foreground: <<colour orange>>
     foreground: <<colour light-foreground>>
 message-background: <<colour dark-background>>
-message-border: <<colour dark-light-highlight-background>>
+message-border: <<colour dark-highlight-background>>
 message-foreground: <<colour dark-foreground>>
 modal-backdrop: <<colour foreground>>
 modal-background: <<colour background>>

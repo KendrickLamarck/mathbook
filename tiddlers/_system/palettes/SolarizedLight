@@ -116,9 +116,9 @@ tag-background: <<colour violet>>
 tag-foreground: <<colour light-highlight-background>>
 tiddler-background: <<colour background>>
 tiddler-border: <<colour background>>
-tiddler-controls-foreground-hover: <<colour yellow>>
+tiddler-controls-foreground-hover: <<colour orange>>
 tiddler-controls-foreground-selected: <<colour yellow>>
-tiddler-controls-foreground: <<colour light-emphasised-foreground>>
+tiddler-controls-foreground: <<colour dark-highlight-background>>
 tiddler-editor-background: <<colour light-highlight-background>>
 tiddler-editor-border-image: <<colour light-highlight-background>>
 tiddler-editor-border: <<colour light-highlight-background>>

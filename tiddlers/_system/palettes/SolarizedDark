@@ -33,8 +33,8 @@ alert-highlight: <<colour orange>>
 alert-muted-foreground: <<colour light-emphasised-foreground>>
     background: <<colour light-background>>
 blockquote-bar: <<colour muted-foreground>>
-button-background: <<colour orange>>
-button-foreground: <<colour background>>
+button-background: <<colour dark-highlight-background>>
+button-foreground: <<colour dark-foreground>>
 button-border: transparent
 code-background: <<colour light-highlight-background>>
 code-border: <<colour muted-foreground>>
@@ -89,24 +89,28 @@ sidebar-foreground-shadow: transparent
 sidebar-foreground: <<colour foreground>>
 sidebar-muted-foreground-hover: <<colour foreground>>
 sidebar-muted-foreground: <<colour muted-foreground>>
+
 sidebar-tab-background-selected: <<colour page-background>>
-sidebar-tab-background: <<colour tab-background>>
-sidebar-tab-border-selected: <<colour tab-border-selected>>
-sidebar-tab-border: <<colour dark-foreground>>
+sidebar-tab-background: <<colour light-emphasised-foreground>>
+sidebar-tab-border-selected: <<colour muted-foreground>>
+sidebar-tab-border: <<colour tab-border>>
 sidebar-tab-divider: <<colour page-background>>
-sidebar-tab-foreground-selected: <<colour dark-foreground>>
-sidebar-tab-foreground: <<colour tab-foreground>>
-sidebar-tiddler-link-foreground-hover: <<colour green>>
+sidebar-tab-foreground-selected: <<colour light-emphasised-foreground>>
+sidebar-tab-foreground: <<colour background>>
+
+sidebar-tiddler-link-foreground-hover: <<colour dark-background>>
 sidebar-tiddler-link-foreground: <<colour blue>>
 site-title-foreground: <<colour tiddler-title-foreground>>
 static-alert-foreground: <<colour red>>
+
 tab-background-selected: <<colour background>>
-    tab-background: <<colour dark-foreground>>
-    tab-border-selected: <<colour muted-foreground>>
-tab-border: <<colour muted-foreground>>
+    tab-background: <<colour dark-highlight-background>>
+    tab-border-selected: <<colour tab-foreground-selected>>
+tab-border: #000000ff
 tab-divider: <<colour background>>
-tab-foreground-selected: <<colour muted-foreground>>
-    tab-foreground: <<colour light-highlight-background>>
+tab-foreground-selected: <<colour light-emphasised-foreground>>
+    tab-foreground: <<colour dark-emphasised-foreground>>
+
 table-border: <<colour muted-foreground>>
 table-footer-background: <<colour foreground>>
 table-header-background: <<colour muted-foreground>>
@@ -114,9 +118,11 @@ tag-background: <<colour violet>>
 tag-foreground: <<colour background>>
 tiddler-background: <<colour background>>
 tiddler-border: <<colour background>>
+
 tiddler-controls-foreground-hover: <<colour yellow>>
-tiddler-controls-foreground-selected: <<colour yellow>>
-tiddler-controls-foreground: <<colour light-emphasised-foreground>>
+tiddler-controls-foreground-selected: <<colour magenta>>
+tiddler-controls-foreground: <<colour dark-highlight-background>>
+
 tiddler-editor-background: <<colour light-highlight-background>>
 tiddler-editor-border-image: <<colour light-highlight-background>>
 tiddler-editor-border: <<colour light-highlight-background>>
@@ -139,4 +145,4 @@ toolbar-delete-button:
 toolbar-cancel-button: 
 toolbar-done-button: 
 untagged-background: <<colour dark-foreground>>
-very-muted-foreground: <<colour muted-foreground>>
+very-muted-foreground: <<colour muted-background>>

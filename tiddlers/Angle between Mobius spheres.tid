@@ -1,10 +1,10 @@
 created: 20190605214757699
-modified: 20191014215920790
-revision: 0
+modified: 20200605133850584
 tags: [[Möbius geometry]] no-toc
 title: Angle between Möbius spheres
+type: text/vnd.tiddlywiki
 
-The hyperspheres corresponding to two points $$[s_1],[s_2]$$ outside $$S^2$$ intersect at an angle $$\theta$$ determined by
+The hyperspheres corresponding to two points $$[s_1],[s_2]$$ outside $$\sphere^2$$ intersect at an angle $$\theta$$ determined by
 
 $$
 \cos\theta=

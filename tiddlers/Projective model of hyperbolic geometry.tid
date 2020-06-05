@@ -1,6 +1,6 @@
 caption: Projective model
 created: 20190426105555535
-modified: 20200604212148496
+modified: 20200605012625572
 tags: [[Hyperbolic geometry]]
 title: Projective model of hyperbolic geometry
 type: text/vnd.tiddlywiki
@@ -23,7 +23,7 @@ $$
 
 is [[bijective|Bijektivität]] and an [[isometry|Isometrie]]. The projective model is the same as the [[Klein model]] if we look at the quadric as the unit sphere.
 
-This model implies that $$n$$-dimensional Möbius geometry can be seen as the geometry of the ideal points of $$(n+1)$$-dimensional hyperbolic geometry.
+This model shows that $$n$$-dimensional Möbius geometry can be seen as the geometry of the ideal points of $$(n+1)$$-dimensional hyperbolic geometry.
 
 !! Cayley-Klein metric
 

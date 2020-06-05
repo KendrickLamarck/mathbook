@@ -73,7 +73,7 @@ modal-border: <<colour light-highlight-background>>
 modal-footer-background: <<colour light-highlight-background>>
 modal-footer-border: <<colour light-highlight-background>>
 modal-header-border: <<colour light-highlight-background>>
-    muted-foreground: <<colour light-muted-foreground>>
+    muted-foreground: <<colour light-foreground>>
 notification-background: #EBCB8B
 notification-border: #D08770
     page-background: <<colour light-highlight-background>>
@@ -145,4 +145,4 @@ toolbar-delete-button:
 toolbar-cancel-button: 
 toolbar-done-button: 
 untagged-background: <<colour dark-foreground>>
-very-muted-foreground: <<colour muted-background>>
+very-muted-foreground: <<colour light-muted-foreground>>

@@ -1,6 +1,6 @@
 created: 20190210221038641
 creator: Leander
-modified: 20200605140941729
+modified: 20200607123732413
 modifier: Leander
 tags: [[Spherical geometry]]
 title: Stereographic projection
@@ -31,6 +31,14 @@ $$
     {1-\lang e_n,x \rang}.
 $$
 An advantage of these is that we can obtain a hyperbolic version of sterographic projection by using Lorentz scalar products and $$-e_n$$ instead of $$e_n,$$ see also [[Poincaré disk model]].
+
+!! Riemannian metric
+
+Stereographic projection induces the Riemannian metric
+$$
+g_p(v,w) = \frac 4 {\left(1+\|p\|^2\right)^2} \lang v,w \rang
+$$
+on $$\R^2.$$ From this, we can see that stereographic projection is conformal.
 
 !! Projective
 

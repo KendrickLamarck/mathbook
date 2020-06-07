@@ -1,5 +1,5 @@
 created: 20190216195554333
-modified: 20200601174634003
+modified: 20200607124208284
 tags: [[Hyperbolic geometry]]
 title: Poincaré half-plane model
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ Hyperbolic lines are represented in $$H^2_+$$ by half-circles meeting the $$u_1$
 Hyperbolic lengths and angles can be measured with the [[Riemannian metric]]
 
 $$
-g_p(v,w)=\frac 1 {u_2^2} \langle v,w\rangle_{\Bbb R^2}.
+g_u(v,w)=\frac 1 {u_2{}^2} \langle v,w\rangle_{\Bbb R^2}.
 $$
 
 !! Isometries
@@ -27,7 +27,7 @@ z\mapsto\frac{az+b}{cz+d},\ ad-bc>0,\quad
 z\mapsto\frac{a\bar z+b}{c\bar z+d},\ ad-bc<0
 $$
 
-with $$a,b,c,d\in\Bbb R,$$ which is the group $$\mathrm{PSL}(2,\Bbb R).$$
+with $$a,b,c,d\in\Bbb R,$$ which is the group $$\PSL(2,\Bbb R).$$
 
 !! Map from the Poincaré disk model
 

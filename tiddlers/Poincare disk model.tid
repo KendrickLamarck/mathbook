@@ -1,5 +1,5 @@
 created: 20190216185217976
-modified: 20200605213223100
+modified: 20200607122731233
 tags: [[Hyperbolic geometry]]
 title: Poincaré disk model
 type: text/vnd.tiddlywiki
@@ -22,7 +22,8 @@ Consider two curves $$\hat\gamma,\hat\eta\colon\openI{-\varepsilon,\varepsilon}\
 
 $$
 \langle\hat v,\hat w\rangle_{\Bbb R^{2,1}}=
-\frac 4 {(1-p_1{}^2-p_2{}^2)^2}\langle v,w\rangle_{\Bbb R^2}.
+  \frac 4 {\left(1-p_1{}^2-p_2{}^2\right)^2}
+\langle v,w\rangle_{\Bbb R^2}.
 $$
 
 !! Isometries

@@ -112,8 +112,9 @@ tab-foreground-selected: <<colour foreground>>
     tab-foreground: <<colour dark-emphasised-foreground>>
 
 table-border: <<colour muted-foreground>>
-table-footer-background: <<colour foreground>>
-table-header-background: <<colour muted-foreground>>
+table-footer-background: <<colour light-highlight-background>>
+table-header-background: <<colour light-highlight-background>>
+
 tag-background: <<colour violet>>
 tag-foreground: <<colour background>>
 tiddler-background: <<colour background>>

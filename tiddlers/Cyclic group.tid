@@ -1,5 +1,5 @@
 created: 20200426134910525
-modified: 20200426135925233
+modified: 20200606183002540
 tags: Gruppe
 title: Cyclic group
 type: text/vnd.tiddlywiki
@@ -8,3 +8,5 @@ The infinite cyclic group is the abelian group $$(\Z,+).$$ its subgroups are $$n
 
 * For prime $$p,$$ the only group of order $$p$$ is $$C_p.$$
 * If $$m$$ and $$n$$ are relatively prime, then $$C_{mn} \cong C_m \times C_n.$$
+
+''Theorem (Fundamental theorem of finite abelian groups).'' {{Fundamental theorem of finite abelian groups}}

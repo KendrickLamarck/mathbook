@@ -1,10 +1,10 @@
 created: 20200503210432987
-modified: 20200528105953221
+modified: 20200606194604047
 tags: [[Euclidean group]]
 title: Finite subgroups of O(2)
 type: text/vnd.tiddlywiki
 
-The finite subgroups of $$\O_2$$ -- the two-dimensional point groups -- are the rotation groups $$1\bullet,2\bullet,\dots$$ and the reflection groups $$*1\bullet,*2\bullet,...,$$ the latter being defined only up to conjugacy. We usually write $$1\bullet = \bullet$$ and $$*1\bullet = *\bullet,$$ since these are the trivial cases of rotation by $$2\pi$$ and a single axis of mirror symmetry, respectively. The groups are defined as follows:
+The finite subgroups of $$\O(2)$$ -- the two-dimensional point groups -- are the rotation groups $$1\bullet,2\bullet,\dots$$ and the reflection groups $$*1\bullet,*2\bullet,...,$$ the latter being defined only up to conjugacy. We usually write $$1\bullet = \bullet$$ and $$*1\bullet = *\bullet,$$ since these are the trivial cases of rotation by $$2\pi$$ and a single axis of mirror symmetry, respectively. The groups are defined as follows:
 
 !! Gyrational symmetry
 

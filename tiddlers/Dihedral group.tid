@@ -1,5 +1,5 @@
 created: 20200426143103948
-modified: 20200426144451861
+modified: 20200606192841389
 tags: Gruppe
 title: Dihedral group
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ $$
 
 Every element has order two.
 
-The //dihedral group// of order $$2n$$ is defined as $$D_n \coloneqq C_n \rtimes C_2$$ (sometimes denoted by $$D_{2n}$$ instead).
+The //dihedral group// of order $$2n$$ is defined as $$D_n \coloneqq C_n \rtimes C_2$$ (sometimes denoted by $$D_{2n}$$ instead) and analogously for $$D_\infty.$$

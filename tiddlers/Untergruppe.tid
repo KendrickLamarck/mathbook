@@ -1,9 +1,18 @@
 created: 20171225224018887
 creator: Leander
-modified: 20200424210031418
+modified: 20200606190331417
 modifier: Leander
 tags: Gruppe no-toc
 title: Untergruppe
 type: text/vnd.tiddlywiki
 
 Sei $$(G,\cdot)$$ eine [[Gruppe]] und $$G' \subset G$$ eine nichtleere Teilmenge. $$G'$$ heißt Untergruppe, wenn für $$a,b \in G'$$ auch $$a \cdot b \in G'$$ und $$a^{-1} \in G'$$ sind. $$G'$$ mit der sogenannten induzierten Verknüpfung $$\cdot$$ ist dann wieder eine Gruppe. Wir schreiben $$G' < G.$$
+
+Die von einer Teilmenge $$S \subseteq G$$ erzeugte Untergruppe $$\lang S \rang$$ ist die kleinste Untergruppe, die $$S$$ enthält, also
+$$
+\lang S \rang \coloneqq \bigcap_{S \subseteq H < G} H.
+$$
+
+Genau so kann man die von $$S$$ erzeugte normale Untergruppe $$\llang S \rrang$$ definieren. $$\llang S \rrang$$ ist auch die von elementen $$s \in S$$ und deren konjugierten $$gsg^{-1}$$ mit beliebigen $$g \in G$$ erzeugte Untergruppe.
+
+Die von einem einzigen Element erzeugte Untergruppe $$\lang g \rang$$ ist immer eine zyklische Gruppe mit Ordnung gleich derer von $$g$$ (siehe [[Coset]]).

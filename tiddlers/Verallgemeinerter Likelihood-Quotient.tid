@@ -1,0 +1,12 @@
+created: 20200609154003916
+modified: 20200609154956495
+tags: Test no-toc
+title: Verallgemeinerter Likelihood-Quotient
+type: text/vnd.tiddlywiki
+
+Sei <<mathtext "Statistisches Modell">> ein Standardmodell, $$\varTheta_0,\varTheta_1 \subseteq \varTheta$$ disjunkt. Dann heißt $$R\colon \mathcal X \to [0,\infty]$$ mit
+$$
+R(x) = \frac{\sup_{\vartheta \in \varTheta_1} \rho(\vartheta,x)}
+  {\sup_{\vartheta \in \varTheta_0} \rho(\vartheta,x)}
+$$
+//verallgemeinerter Likelihood-Quotient.// Ein Test der Form $$\mathbf{1}_{\{R \ge c\}}$$ heißt //verallgemeinerter Likelihood-Quotiententest// von $$\varTheta_0$$ gegen $$\varTheta_1.$$

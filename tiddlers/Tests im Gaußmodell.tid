@@ -1,0 +1,16 @@
+created: 20200609164131386
+modified: 20200609172542371
+tags: Statistik
+title: Tests im Gaußmodell
+type: text/vnd.tiddlywiki
+
+Im $$n$$-fachen Gaußmodell $$(\R^n,\Borel(\R^n),(\mathcal N_{m,v}{}^{\otimes n})_{m\in\R,\, v>0})$$ mit unbekannten $$\openI{m,v} \in \R \times \openI{0,\infty}$$ ist der Test
+$$
+\varphi(x) = \begin{cases}
+  1, &\text{ falls }\sum(x_i-\bar x)^2 \ge v_0 \chi_{n-1,1-\alpha}^2, \\
+  0  &\text{ sonst}
+\end{cases}
+$$
+ein gleichmäßig bester Test für $$H_0\colon v \le v_0$$ gegen $$H_1\colon v > v_0$$ zum Niveau $$\alpha,$$ wobei $$\chi^2_{n-1,1-\alpha}$$ das $$\alpha$$-Fraktil der $$\chi^2_{n-1}$$-Verteilung ist.
+
+Das können wir diesmal nicht auf den rechtsseitigen Fall übertragen werden, in diesem Fall existiert nicht einmal ein gleichmäßig bester Test.

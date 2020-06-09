@@ -1,5 +1,5 @@
 created: 20200602190919926
-modified: 20200604184920063
+modified: 20200609133732953
 tags: Test
 title: Neyman-Pearson-Test
 type: text/vnd.tiddlywiki
@@ -16,9 +16,10 @@ $$
 sofern $$\rho_0(x) \ne 0,$$ sonst setzen wir $$R(x) = \infty.$$
 
 Ein [[Test]] $$\varphi$$ heißt //Neyman-Pearson-Test,// falls
-$$\varphi|_{\{R(x) > c\}} \equiv 1$$
+$$\varphi|_{\{R > c\}} \equiv 1$$
 und
-$$\varphi|_{\{R(x) < c\}} \equiv 0.$$
+$$\varphi|_{\{R < c\}} \equiv 0$$
+für irgendein $$c.$$
 Für $$\alpha \in \openI{0,1}$$ gilt:
 
 * <div>Es existiert ein Neyman-Pearson-Test mit

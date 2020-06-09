@@ -1,0 +1,32 @@
+created: 20200609124745574
+modified: 20200609170354598
+tags: Test
+title: Likelihood-Quotiententest
+type: text/vnd.tiddlywiki
+
+{{Wachsender Likelihood-Quotient}}
+
+''Satz.''
+Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit $$\varTheta \subseteq \R,$$ strikt positiver Dichte $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und wachsendem Likelihood-Quotienten. Für $$\vartheta_0 \in \varTheta$$ sei
+$$
+\varTheta_0 \coloneqq \{\,
+  \vartheta \in \varTheta \mid \vartheta \le \vartheta_0
+\,\}, \quad
+\varTheta_1 \coloneqq \{\,
+  \vartheta \in \varTheta \mid \vartheta \ge \vartheta_0
+\,\}.
+$$
+Für $$\vartheta_1 \in \varTheta_1$$ seien
+$$
+R(x) \coloneqq \frac{\rho(\vartheta_1,x)}{\rho(\vartheta_0,x)},\qquad
+\varphi \coloneqq \mathbf{1}_{\{R \ge c\}},\ c \in \R.
+$$
+Dann ist $$\varphi$$ ein gleichmäßig bester Test von $$\varTheta_0$$ gegen $$\varTheta_1$$ zum Niveau $$\alpha = \expect_{\vartheta_0}[\varphi].$$
+Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
+
+* Das funktioniert genau so für rechtsseitige Hypothesen, verwende dafür $$-\vartheta$$ und $$-T.$$
+* Sei $$\vartheta_0 < \vartheta_2.$$ Dann ist $$\varphi$$ auch ein gleichmäßig bester Test von $$\{\vartheta \mid \vartheta \le \vartheta_0\}$$ gegen $$\{\vartheta \mid \vartheta \ge \vartheta_2\}.$$
+
+!! Verallgemeinerung
+
+{{Verallgemeinerter Likelihood-Quotient}}

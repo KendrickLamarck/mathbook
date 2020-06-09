@@ -1,6 +1,6 @@
 created: 20200428133525472
-modified: 20200511200144521
-tags: [[Statistik, Kenngröße, Schätzer]]
+modified: 20200609140245534
+tags: Schätzer
 title: Fehlermaße
 type: text/vnd.tiddlywiki
 
@@ -17,7 +17,7 @@ $$
 \Bbb E_\vartheta {\left[(T-\tau(\vartheta))^2\right]}
 $$
 
-heißt //mittlerer quadratischer Fehler.// Auch die [[Varianz]] $$\Bbb V[T]$$ ist ein Fehlermaß.
+heißt //mittlerer quadratischer Fehler.// Auch die [[Varianz]] $$\Var[T]$$ ist ein Fehlermaß.
 
 ''Bemerkung.''
 Man kann auch andere Fehlermaße der Form
@@ -34,6 +34,6 @@ $$\P_\vartheta(|T(x)-\tau(\vartheta)|>\varepsilon) \le
 \frac 1 {\varepsilon^2} \Bbb F_\vartheta[T].
 $$</div>
 
-* $$T$$ erwartungstreu $$\iff \Bbb B_\vartheta[T] = 0$$ für alle $$\vartheta \iff \Bbb F_\vartheta[T] = \Bbb V_\vartheta[T]$$ für alle $$\vartheta.$$
+* $$T$$ erwartungstreu $$\iff \Bbb B_\vartheta[T] = 0$$ für alle $$\vartheta \iff \Bbb F_\vartheta[T] = \Var_\vartheta[T]$$ für alle $$\vartheta.$$
 
-* $$\Bbb F_\vartheta[T] = \Bbb V_\vartheta[T] + \Bbb B_\vartheta[T]^2
+* $$\Bbb F_\vartheta[T] = \Var_\vartheta[T] + \Bbb B_\vartheta[T]^2

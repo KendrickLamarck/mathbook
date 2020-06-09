@@ -1,5 +1,5 @@
 created: 20200428152107068
-modified: 20200511200431251
+modified: 20200609140029063
 tags: Statistik
 title: Reguläres Modell
 type: text/vnd.tiddlywiki
@@ -23,4 +23,4 @@ $$
 \fracderiv{}{\vartheta} \int_\mathcal X \rho(\vartheta,x) \,\mu(\d x).
 $$</div>
 
-* Für jedes $$\vartheta$$ existiert die Varianz $$I(\vartheta) \coloneqq \Bbb V_\vartheta[U_\vartheta]$$ und ist ungleich 0.
+* Für jedes $$\vartheta$$ existiert die Varianz $$I(\vartheta) \coloneqq \Var_\vartheta[U_\vartheta]$$ und ist ungleich 0.

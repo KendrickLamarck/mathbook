@@ -1,8 +1,8 @@
 created: 20200421162141560
 list: Fehlermaße Maximum-likelihood-Schätzer [[Varianzminimierender Schätzer]] [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Exponentielles Modell]] [[Schätzer für das Gauß-Produktmodell]] [[Suffizienz und Vollständigkeit bei Normalverteilungen]]
-modified: 20200601183104792
+modified: 20200609130505637
 tags: Statistik
-title: Statistik, Kenngröße, Schätzer
+title: Schätzer
 type: text/vnd.tiddlywiki
 
 Sei $$(\mathcal X, \mathcal F, (\P_\vartheta)_{\vartheta\in\varTheta})$$ ein statistisches Modell und $$(\varSigma,\mathcal S)$$ ein weiterer messbarer Raum.
@@ -11,7 +11,7 @@ Sei $$(\mathcal X, \mathcal F, (\P_\vartheta)_{\vartheta\in\varTheta})$$ ein sta
 * Eine Abbildung $$\tau\colon \varTheta \to \varSigma$$ heißt //Kenngröße.//
 * Eine Statistik $$T\colon \mathcal X \to \varSigma$$ heißt ein //Schätzer// für $$\tau.$$
 
-!! Erwartungstreue
+!! Erwartungstreue und Konsistenz
 
 Ein Schätzer heißt //erwartungstreu,// falls
 
@@ -20,14 +20,12 @@ $$
 \int_\mathcal X T(x) \,\d\P_\vartheta(x) = \tau(\vartheta).
 $$
 
-!! Konsistenz
-
 Sei $$M^n=(\mathcal X^n, \mathcal F^n, (\P^n_\vartheta)_{\vartheta \in \varTheta})$$ eine Folge von statistischen Modellen, $$\tau\colon \varTheta \to \varSigma$$ eine Kenngröße und $$T_n\colon \mathcal X^n \to \varSigma$$ eine Folge von Schätzern. Dann heißt die Folge $$(T_n)$$ eine //konsistente Schätzfolge,// falls $$T_n \to \tau(\vartheta)$$ in $$\P_\vartheta$$-[[Wahrscheinlichkeit|Stochastische Konvergenz]] für $$\vartheta \in \varTheta.$$
 
 ''Satz.''
 Für alle $$\vartheta \in \varTheta$$ gelte
 
 * $$\Bbb E_{\P_\vartheta^n}[T_n(x)] \xrightarrow{n\to\infty} \tau(\vartheta)$$ @@float:right; (asymptotisch erwartungstreu),@@
-* $$V_{\P_\vartheta^n}(T_n(x)) \xrightarrow{n\to\infty} 0.$$
+* $$\Var_{\P_\vartheta^n}(T_n(x)) \xrightarrow{n\to\infty} 0.$$
 
 Dann ist $$(T_n)$$ eine konsistente Schätzfolge.

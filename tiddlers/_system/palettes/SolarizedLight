@@ -15,8 +15,6 @@ blue:    #268bd2
 cyan:    #2aa198
 green:   #859900
 
-: the following darks and lights are swapped
-
 dark-background: <<colour base03>>
 dark-highlight-background: <<colour base02>>
 dark-foreground: <<colour base0>>
@@ -35,8 +33,8 @@ alert-highlight: <<colour orange>>
 alert-muted-foreground: <<colour light-emphasised-foreground>>
     background: <<colour light-background>>
 blockquote-bar: <<colour muted-foreground>>
-button-background: <<colour orange>>
-button-foreground: <<colour background>>
+button-background: <<colour dark-background>>
+button-foreground: <<colour dark-foreground>>
 button-border: transparent
 code-background: <<colour light-highlight-background>>
 code-border: <<colour muted-foreground>>
@@ -116,7 +114,7 @@ tag-background: <<colour violet>>
 tag-foreground: <<colour background>>
 tiddler-background: <<colour background>>
 tiddler-border: <<colour background>>
-tiddler-controls-foreground-hover: <<colour orange>>
+tiddler-controls-foreground-hover: <<colour yellow>>
 tiddler-controls-foreground-selected: <<colour yellow>>
 tiddler-controls-foreground: <<colour dark-highlight-background>>
 tiddler-editor-background: <<colour light-highlight-background>>

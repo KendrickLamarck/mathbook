@@ -15,6 +15,8 @@ blue:    #268bd2
 cyan:    #2aa198
 green:   #859900
 
+: light is dark and dark is light
+
 light-background: <<colour base03>>
 light-highlight-background: <<colour base02>>
 light-foreground: <<colour base0>>

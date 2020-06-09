@@ -1,0 +1,19 @@
+created: 20200609182323161
+modified: 20200609183633076
+tags: [[Combinatorial topology]]
+title: Combinatorial manifold
+type: text/vnd.tiddlywiki
+
+Let $$M$$ be a 1-dimensional [[simplicial complex|Simplicial complex]] or [[cell complex|Cell complex]].
+
+* $$M$$ is called a //1-dimensional manifold// if exactly two unoriented edges come together at each vertex.
+* $$M$$ is called a //1-dimensional manifold with boundary// if at each vertex either one or two unoriented edges come together. The vertices with only one adjacent edge are called //boundary vertices.//
+* $$M$$ is called //connected,// if any two vertices can be joint by a sequence of edges where consecutive edges have a vertex in common.
+
+The only cases are discrete intervals, discrete circles and unions of such objects.
+
+Now let $$M$$ be a 2-dimensional simplicial complex or cell complex. We define the //vertex link// of a vertex $$i$$ as the (multi)graph whose vertices are the edges that come together at $$i$$ connected with an edge if they are part of the same face.
+
+* $$M$$ is called a //2-dimensional manifold// or //discrete closed surface// if every vertex link is a discrete circle.
+* $$M$$ is called a //2-dimensional manifold with boundary// or //discrete surface// if every vertex link is a discrete circle or a discrete interval. This divides vertices into //interior// and //boundary// vertices.
+* $$M$$ is called //connected// if its 1-skeleton is connected.

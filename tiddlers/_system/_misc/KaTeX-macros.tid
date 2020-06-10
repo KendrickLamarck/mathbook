@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200607124205607
+modified: 20200610155205523
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -55,6 +55,7 @@ $$
 \gdef\rd{\operatorname{rd}}
 \gdef\Ric{\operatorname{Ric}}
 \gdef\ggT{\operatorname{ggT}}
+\gdef\Conv{\operatorname{Conv}}
 
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
 \gdef\sd{\mathbin{\triangle}} % symmetric difference

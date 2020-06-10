@@ -1,0 +1,12 @@
+created: 20200610175902225
+modified: 20200610181040759
+tags: [[Spherical triangle]] no-toc
+title: Oriented spherical triangle
+type: text/vnd.tiddlywiki
+
+A spherical triangle $$\triangle$$ contained in an open hemisphere $$\{s \in \sphere^2 \mid \lang s,\nu\rang > 0\}$$ (where $$\nu \in \sphere^2$$) has a canonical orientation: If $$s_1,s_2,s_3$$ are its vertices, then $$\triangle$$ is called //positively oriented,// if
+$$
+\det(\nu,s_j-s_i,s_k-s_i) > 0
+$$
+and //negatively oriented// otherwise.
+This is the case if and only if the orthogonal projection of the vertices onto $$\nu^\perp \cong \R^2$$ is positively oriented in the [[simplicial complex sense|Triangulated disk]].

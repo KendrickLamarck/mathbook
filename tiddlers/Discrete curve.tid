@@ -1,5 +1,6 @@
 created: 20200609181424206
-modified: 20200609181904267
+list: [[Tangent field (discrete curves)]] [[Normal field (discrete curves)]] [[Discrete ribbon]] [[Parallel transport (discrete curves)]] [[Tube (discrete curves)]]
+modified: 20200610190100275
 tags: [[Discrete differential geometry]]
 title: Discrete curve
 type: text/vnd.tiddlywiki
@@ -7,3 +8,9 @@ type: text/vnd.tiddlywiki
 An //open discrete curve// is a finite sequence $$\gamma\colon \{0,\dots,n-1\} \to \R^3.$$ A //closed discrete curve// (with $$n$$ vertices) is a map $$\gamma\colon \Z/n\Z \to \R^3,$$ i.e. an $$n$$-periodic map from $$\Z$$ to $$\R^3.$$
 
 We denote the vertices of the curve by $$\gamma_i$$ and define the //edge vectors// $$\mathbf e_i \coloneqq \gamma_{i+1}-\gamma_i$$ of //edge length// $$\ell_i \coloneqq \|\mathbf e_i\|.$$ How many edge vectors there are depends on if the curve is open or closed.
+
+$$\gamma$$ can then also be viewed as a map from a connected 1-dimensional [[combinatorial manifold|Combinatorial manifold]] $$M$$ that maps its vertices to points in $$\R^3$$ and its (unoriented) edges to (oriented) edge vectors, which can then be indexed by vertices.
+
+!! Tangent and normal field
+
+{{Tangent field (discrete curves)}}

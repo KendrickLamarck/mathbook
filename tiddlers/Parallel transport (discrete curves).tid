@@ -1,0 +1,16 @@
+caption: Parallel transport
+created: 20200610132510999
+modified: 20200610190033260
+tags: [[Discrete curve]]
+title: Parallel transport (discrete curves)
+type: text/vnd.tiddlywiki
+
+The //parallel transport// $$\rho_i\colon \perp_{i-1}\gamma \to \perp_i\gamma$$ is defined as the restriction of $$P_i \in \SO(3),$$ where
+
+* <div>For $$T_{i-1} \times T_i \ne 0,\ P_i$$ denotes the unique rotation such that
+$$
+P_i(T_{i-1} \times T_i) = T_{i-1} \times T_i, P_i(T_{i-1}) = T_i
+$$</div>
+* and for $$T_{i-1} \times T_i = 0,\ {P_i = \id}.$$
+
+A normal vector field $$N$$ along $$\gamma$$ is //parallel,// if $$\rho_i(N_{i-1}) = N_i$$ for all $$i.$$ Every open regular discrete curve has a non-trivial parallel normal vector field unique up to multiplication by a non-zero complex constant: For any normal vector $$N_0,$$ we can recursively define $$N_i \coloneqq \rho_i(N_{i-1}).$$

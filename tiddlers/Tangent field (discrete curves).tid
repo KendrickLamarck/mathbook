@@ -1,0 +1,24 @@
+caption: Tangent field
+created: 20200610123252772
+modified: 20200610190046724
+tags: [[Discrete curve]]
+title: Tangent field (discrete curves)
+type: text/vnd.tiddlywiki
+
+We can define tangent vectors $$T_i$$ via $$\mathbf e_i = \ell_i T_i.$$ Then the //unit tangent vector field// $$T$$ can be viewed as a map that assigns edges of $$M$$ a unit vector $$T_i$$ tangent to the edges of $$\gamma,$$ i.e.
+$$
+\|T_i\| = 1, \qquad T_i \in \span\{\mathbf e_i\}.
+$$
+A discrete curve is //regular,// if $$\ell_i \ne 0$$ and $$T_{i+1} \ne -T_i.$$  If $$\ell_i = 1$$ for all $$i,$$ then $$\gamma$$ is called //parametrized by arclength.//
+
+!! Tangent curve
+
+The //unit tangent curve// of a closed discrete curve is the closed discrete curve $$T$$ in $$\sphere^2.$$ Regularity ensures that any two consecutive points can be joined by a shortest geodesic arc, making $$T$$ a spherical polygon.
+
+''Proposition.''
+A closed spherical polygon $$T = (T_0,\dots,T_{n-1})$$ is the unit tangent curve of a closed regular curve $$\gamma$$ if and only if
+$$
+0 \in \Conv\{T_0,\dots,T_{n-1}\} = \Bigl\{
+  \sum \lambda_i T_i \Bigm| \sum \lambda_i = 1,\ \lambda_i \ge 0
+\Bigr\}.
+$$

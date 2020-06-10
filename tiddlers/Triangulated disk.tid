@@ -1,0 +1,11 @@
+created: 20200610174150680
+modified: 20200610174912410
+tags: [[Combinatorial topology]]
+title: Triangulated disk
+type: text/vnd.tiddlywiki
+
+A //triangulated disk// $$D = (V,E,F)$$ is a 2D simplicial complex with a map $$p\colon V \to \R^2$$ such that the associated affine map $$C(D)$$ is a bijection to a disk in $$\R^2.$$ We denote the realizations of the edges $$\{i,j\} = ij \in E$$ by $$p_{ij} \coloneqq \Conv\{p_i,p_j\}$$ and those of the faces (triangles) $$\{i,j,k\} = ijk \in F$$ by $$p_{ijk} \coloneqq \Conv\{p_i,p_j,p_k\}.$$
+
+The faces inherit an orientation from $$D$$: A triangle $$ijk \in F$$ is said to be //positively oriented,// if $$\det(p_j-p_i,p_k-p_i)>0,$$ i.e. if the vertices are labeled counterclockwise. We denote the set of positively oriented triangles by $$F_+.$$
+
+The boundary $$\partial D$$ of $$D$$ is a discrete circle whose vertex set we denote by $$V_\partial.$$

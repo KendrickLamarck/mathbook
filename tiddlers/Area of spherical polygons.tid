@@ -1,0 +1,19 @@
+created: 20200610171020873
+modified: 20200610190143214
+tags: [[Discrete curve]] [[Spherical geometry]]
+title: Area of spherical polygons
+type: text/vnd.tiddlywiki
+
+Let $$T$$ be a spherical polygon and $$D$$ be a [[triangulated disk|Triangulated disk]]. Let $$f\colon C(D) \to \sphere^2$$ be a piecewise smooth map such that $$f|_{V_\partial} = T$$ and the edges of $$D$$ are mapped to great circle arcs. Given $$f,$$ the signed area of $$T$$ is then given by
+$$
+A_T = A_f =
+\int_{C(D)} \det(f,f_x,f_y)\,\d x\,\d y =
+\sum_{ijk \in F_+} \int_{p_{ijk}} \det(f,f_x,f_y)\,\d x\,\d y.
+$$
+
+''Theorem.''
+Let $$H$$ be an open hemisphere. If $$p_{ijk} \subset \R^2$$ is a positively oriented triangle and $$f\colon p_{ijk} \to H$$ is a piecewise smooth map which maps the vertices $$p_i,p_j,p_k$$ to the points $$s_i,s_j,s_k \in H$$ and the edges $$p_{ij},p_{jk},p_{ki}$$ to great circle arcs, then
+$$
+A_f = \pm (\alpha_i + \alpha_j + \alpha_k - \pi),
+$$
+with the sign determined by the [[orientation|Oriented spherical triangle]] of the triangle $$(s_i,s_j,s_k)$$.

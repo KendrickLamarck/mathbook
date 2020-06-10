@@ -1,6 +1,5 @@
 created: 20191010174541700
-modified: 20191104160500444
-revision: 0
+modified: 20200610190415403
 tags: [[Hyperbolic geometry]] no-toc
 title: Hyperboloid model
 type: text/vnd.tiddlywiki
@@ -14,5 +13,7 @@ H^n=\{\,x\in\mathbb R^{n,1}\mid \langle x,x\rangle=-1,\ x_{n+1}>0\,\}.
 Lengths of curves and angles are defined as usual, but using the [[Lorentz scalar product|Lorentz vector space]] instead of the [[euclidean scalar product|Standardskalarprodukt in R]].
 
 $$H^1$$ is the upper branch of a hyperbola. $$H^2$$ is the upper sheet of a two-sheeted hyperboloid. In the context of other models (which can also be used as definitions), this is also known as the //hyperboloid model.//
+
+!! Metric
 
 {{Hyperbolic metric}}

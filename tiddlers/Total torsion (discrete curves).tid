@@ -1,0 +1,22 @@
+caption: Total torsion
+created: 20200610185923132
+modified: 20200610190018154
+tags: [[Discrete curve]]
+title: Total torsion (discrete curves)
+type: text/vnd.tiddlywiki
+
+If $$\gamma = (\gamma_0,\dots,\gamma_{n-1})$$ is a closed discrete curve, there is $$\mathfrak m_\gamma \in \sphere^1 \subset \C$$ such that
+$$
+\rho_{n-1} \circ\dots\circ \rho_0(\xi) = \mathfrak m_\gamma \xi.
+$$
+The map is called //monodromy// and $$\mathfrak m_\gamma$$ is called the //total torsion// of $$\gamma.$$
+
+* Since $$\mathfrak m_\gamma = \tr(\rho_{n-1} \circ\dots\circ \rho_0),$$ this does not depend on where we start $$\gamma.$$
+* If $$\gamma$$ has reflectional symmetry, i.e. there is a reflection $$R$$ and $$k \in \Z$$ such that $$R\gamma_i = \gamma_{i+k}$$ for all $$i,$$ then $$\mathfrak m_\gamma = 1.$$
+* The last point is true in particular for plane curves.
+
+''Theorem.''
+The total torsion $$\mathfrak m_\gamma$$ and the [[signed area|Area of spherical polygons]] $$A_T$$ of the tangent curve $$T$$ satisfy the relation
+$$
+\mathfrak m_\gamma = e^{\i A_T}.
+$$

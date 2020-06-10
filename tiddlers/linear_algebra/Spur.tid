@@ -1,0 +1,16 @@
+created: 20200610151703628
+modified: 20200610153248786
+tags: Endomorphismus
+title: Spur
+type: text/vnd.tiddlywiki
+
+Die //Spur (engl. trace)// $$\tr A$$ einer Matrix $$A = (a_{ij}) \in K^{n \times n}$$ ist die Summe der Diagonaleinträge $$\sum a_{ii}.$$ Die Spur ist identisch für Ähnliche Matrizen, sie ist also eine Eigenschaft des dargestellten Endomorphismus.
+
+* Die Spur ist die Summe der Eigenwerte (mit algebraischer Vielfachheit).
+* Die Spur ist linear.
+* $$\tr A = \tr (A^\transp).$$
+* Die Spur ist invariant unter zyklischen Permutationen, insbesondere ist $$\tr(AB) = \tr(BA)$$ und $$\tr(ABC) = \tr(CAB) = \tr(BCA).$$
+
+!! Koordinatenfreie Definition
+
+Abstrakter kann man die Spur folgendermaßen definieren: Identifiziere $$\End(V) \cong V \otimes V^*$$ via $$(v \otimes \alpha)(w) = \alpha(w)v.$$ Die Spur ist dann die lineare Abbildung $$\tr\colon V \otimes V^* \to K,$$ die von der natürlichen Paarung $$V \times V^* \to K$$ induziert wird.

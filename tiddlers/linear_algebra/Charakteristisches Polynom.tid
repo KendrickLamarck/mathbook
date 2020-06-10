@@ -1,7 +1,7 @@
 created: 20180423211827083
 creator: Leander
 list: [[Ähnliche Matrizen und charakteristische Polynome]] [[Satz von Cayley-Hamilton]] [[Minimalpolynom und charakteristisches Polynom]]
-modified: 20200601185511288
+modified: 20200610151733386
 modifier: Leander
 tags: Endomorphismus
 title: Charakteristisches Polynom
@@ -22,10 +22,10 @@ $$
 wobei
 
 * $$a_n=(-1)^n,$$
-* $$a_{n-1}=(-1)^{n-1}(a_{11}+\dots+a_{nn}),$$
+* $$a_{n-1}=(-1)^{n-1}\tr A,$$
 * $$a_0=\det A.$$
 
-Man nennt $$a_{11}+\dots+a_{nn}$$ auch die //Spur// von $$A$$. [[Ähnliche Matrizen|Äquivalente und ähnliche Matrizen]] haben das gleiche charakteristische Polynom.
+[[Ähnliche Matrizen|Äquivalente und ähnliche Matrizen]] haben das gleiche charakteristische Polynom.
 
 !! Satz von Cayley-Hamilton
 

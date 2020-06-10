@@ -1,24 +1,20 @@
 created: 20180327201024056
 creator: Leander
-modified: 20180725180330694
+modified: 20200610133116408
 modifier: Leander
-revision: 0
 tags: [[Darstellende Matrix (lineare Abbildungen)]]
 title: Einheitsmatrix
 type: text/vnd.tiddlywiki
 
-Die //Einheitsmatrix// $$E_n\in K^{n\times n}$$ ist definiert als
+Die //Einheitsmatrix// $$E_n = I_n \in K^{n\times n}$$ ist definiert als
 
 $$
-E_n \coloneqq (\delta_{ij})_{i,j\in\{1,\ldots,n\}}=
-\begin{pmatrix}
-1 && 0 \\
-&\ddots & \\
-0 && 1
-\end{pmatrix}$$
-
-Sie ist die [[darstellende Matrix|Darstellende Matrix (lineare Abbildungen)]] der [[Identität]] $$\operatorname{id}_V\colon V\to V$$ eines [[Vektorraums|Vektorraum]] $$V$$ mit [[Basis]] $$\mathcal B=(v_1,\ldots,v_n)$$, in Zeichen
-
+E_n \coloneqq (\delta_{ij}) =
+  \begin{pmatrix}
+    1 &       & 0 \\
+      &\ddots &   \\
+    0 &       & 1
+  \end{pmatrix}.
 $$
-M_\mathcal B(\operatorname{id}_V)=E_n.
-$$
+
+Sie ist die [[darstellende Matrix|Darstellende Matrix (lineare Abbildungen)]] der [[Identität]] $$\operatorname{id}_V\colon V\to V$$ eines [[Vektorraums|Vektorraum]] $$V$$ mit [[Basis]] $$\mathcal B=(v_1,\ldots,v_n)$$, in Zeichen $$M_\mathcal B(\operatorname{id}_V)=E_n.$$

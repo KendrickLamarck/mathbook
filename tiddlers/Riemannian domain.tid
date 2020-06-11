@@ -1,10 +1,12 @@
 created: 20200603153840917
-modified: 20200604150520123
+modified: 20200611182218203
 tags: Surface
 title: Riemannian domain
 type: text/vnd.tiddlywiki
 
 A domain $$M$$ (as defined higher up) together with a [[Riemannian metric]] is called a //Riemannian domain.//
+
+!! Induced metric
 
 For a smooth map $$f\colon M \to \R^n,$$ we define the induced Riemannian metric $$\lang\cdot,\cdot\rang_f$$ on $$M$$ as the [[pullback|Pullback of Riemannian metrics]] $$f^*\lang\cdot,\cdot\rang$$ of the standard Riemannian metric on $$\R^n,$$ i.e. for $$X,Y \in \T_p M$$
 $$
@@ -18,6 +20,16 @@ $$
 \lang f_u,f_v\rang = \lang \tilde f_u,\tilde f_v\rang.
 $$
 
-!! Area form
+!! Isometric domains
 
-{{Area form}}
+A diffeomorphism $$\varphi$$ between Riemannian domains $$(M,\lang\cdot,\cdot\rang_M)$$ and $$(N,\lang\cdot,\cdot\rang_N)$$ is called an //isometry// if
+$$
+\lang \d\varphi(X),\d\varphi(Y)\rang_N = \lang X,Y \rang_M.
+$$
+
+''Theorem.''
+If $$\det_M$$ and $$\det_N$$ are the two area forms defined via endomorphism fields $$J_M$$ and $$J_N$$ as above, then, if $$\varphi\colon M \to N$$ is an orientation-preserving isometry, we have
+$$\begin{gathered}
+\d\varphi(J_M X) = J_N \d\varphi(X), \\
+{\det}_N(\d\varphi(X),\d\varphi(Y)) = {\det}_M(X,Y).
+\end{gathered}$$

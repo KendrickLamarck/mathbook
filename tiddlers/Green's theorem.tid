@@ -1,0 +1,11 @@
+created: 20200611220627795
+modified: 20200611221534105
+tags: [[Integrale über Untermannigfaltigkeiten des Rn]]
+title: Green's theorem
+type: text/vnd.tiddlywiki
+
+Let $$\gamma$$ be a positively oriented (i.e. counterclockwise), smooth, non-self-intersecting closed planar curve and let $$D$$ be the region bounded by $$\gamma.$$ If $$L$$ and $$M$$ are functions on an open set containing $$D$$ having continuous partial derivatives, then
+$$
+\int_\gamma L \,\d x + M \,\d y =
+\iint_D \fracpartial{M}{x} - \fracpartial{L}{y} \,\d x \,\d y.
+$$

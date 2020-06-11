@@ -1,7 +1,7 @@
 caption: Surfaces
 created: 20200603134649845
-list: [[Area form]] [[Riemannian domain]] [[Minimal surface]]
-modified: 20200604145544341
+list: [[Riemannian domain]] [[Integral of a 2-form]] [[Area form]] [[Minimal surface]]
+modified: 20200611182410376
 tags: [[Extrinsic differential geometry]]
 title: Surface
 type: text/vnd.tiddlywiki
@@ -19,6 +19,12 @@ $$
 X = (p,\hat X) \mapsto \d f(X) \coloneqq \D_p f(\hat X)
 $$
 and we write $$\d_X f \coloneqq \d f(X),$$ analogous to the directional derivative.</div>
+* <div>Similarly, if $$\varphi\colon M \to N$$ is a smooth map, we define
+$$
+\d\varphi\colon \T M \to \T N,\quad
+\d\varphi(X) \coloneqq \left(\varphi(p),\varphi'(p)\hat X\right)
+$$
+for $$X = (p,\hat X).$$ For the previous definition, we simply identified $$\T_q \R^n \cong \R^n.$$</div>
 
 ''Remark.''
 Some [[advanced terminology|Intrinsic differential geometry]] is used in this section.

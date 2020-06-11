@@ -1,8 +1,8 @@
 caption: Integrals
 created: 20191213211747477
-modified: 20200601190255779
+modified: 20200611185231582
 tags: [[Intrinsic differential geometry]]
-title: Integrals over manifolds
+title: Integrals of differential forms
 type: text/vnd.tiddlywiki
 
 If $$\omega \in \Omega^m_\mathrm c U$$ is an $$m$$-form with compact support in $$U\subset\R^m$$ then we can write uniquely $$\omega=f\, \d x_1\wedge\dots\wedge\d x_m.$$ We define
@@ -12,6 +12,15 @@ $$
 \int_U f\,\d x_1\wedge\dots\wedge\d x_m \coloneqq
 \int_U f\,\d x_1 \cdots \d x_m.
 $$
+
+''Lemma.''
+If $$\varphi\colon U \to V$$ is a diffeomorphism of connected open sets in $$\R^m$$ and $$\omega$$ an $$m$$-form with compact support in $$V,$$ then
+$$
+\int_U \varphi^*\omega = \pm \int_V \omega.
+$$
+The sign depends on if $$\varphi$$ preserves or reverses orientation.
+
+!! On manifolds
 
 Now suppose $$M^m$$ is an [[oriented|Oriented manifold]] manifold and consider a single (oriented) chart $$(U,\varphi)$$ and assume $$\omega \in \Omega^m_\mathrm c U.$$ Then we define
 

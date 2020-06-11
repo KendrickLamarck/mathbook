@@ -1,8 +1,12 @@
 created: 20200603200435778
-modified: 20200604145646030
-tags: Surface no-toc
+modified: 20200611182901665
+tags: Surface
 title: Area form
 type: text/vnd.tiddlywiki
+
+{{Integral of a 2-form}}
+
+!! The area form
 
 On every Riemannian domain $$M,$$ there is a unique [[endomorphism field|Endomorphism field]] $$J$$ such that
 
@@ -13,3 +17,11 @@ On every Riemannian domain $$M,$$ there is a unique [[endomorphism field|Endomor
 $$J$$ is the positive 90&deg;-rotation.
 
 The [[two-form|Differential form]] $$\det(X,Y) \coloneqq \lang JX,Y \rang$$ is called the //area form// of a Riemannian domain $$M.$$
+
+!! Area and integrals
+
+The area of a Riemannian domain is then defined as
+$$
+\int_M \det
+$$
+and we can define the integral of an arbitrary $$g \in \smooth^\infty M$$ as $$\int_M g\det,$$ both of which are now invariant under isometry, in contrast to $$\int_M g.$$

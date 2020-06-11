@@ -1,5 +1,5 @@
 created: 20191112232507929
-modified: 20200603153338016
+modified: 20200611175614965
 tags: [[Intrinsic differential geometry]]
 title: Pushforward
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ f_*\colon\T_p M\to \T_q M,\quad
 f_*(X_p)\coloneqq X_p\circ f^*,
 $$
 
-i.e. the [[dual map|Duale Abbildung]] of the [[pullback|Pullback]]. This is a generalization of the [[differential|Ableitung]], so we also write this map as $$\D_p f.$$
+i.e. the [[dual map|Duale Abbildung]] of the [[pullback|Pullback]]. This is a generalization of the [[differential|Ableitung]], so we also write this map as $$\D_p f$$ or $$\d f.$$
 
 !!! Properties
 

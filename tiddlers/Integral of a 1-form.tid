@@ -1,0 +1,17 @@
+created: 20200611184719891
+modified: 20200611185758424
+tags: Curve
+title: Integral of a 1-form
+type: text/vnd.tiddlywiki
+
+If $$\omega \in \Omega^1 [a,b],$$ we define
+$$
+\int_{[a,b]} \omega \coloneqq \int_a^b \omega(X),
+$$
+where $$X(p) = (p,1)$$ is the standard coordinate vector field on $$\T[a,b].$$
+
+Let $$\omega \in \Omega^1 M$$ where $$M$$ is some planar domain with smooth boundary and $$\gamma\colon [a,b] \to M$$ be a parametrized curve. Then we define
+$$
+\int_{[\gamma]} \omega \coloneqq \int_{[a,b]} \gamma^*\omega.
+$$
+This is invariant under reparametrization of $$\gamma.$$

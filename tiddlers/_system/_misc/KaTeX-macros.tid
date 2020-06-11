@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200610155205523
+modified: 20200611131252034
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -25,6 +25,7 @@ $$
 \gdef\RP{\R\mathrm{P}}
 \gdef\Proj{\mathrm{P}}
 \gdef\C{\mathbb{C}}
+\gdef\quat{\mathbb{H}}
 \gdef\sphere{\mathrm{S}}
 
 \gdef\O{\operatorname{O}}
@@ -75,7 +76,9 @@ $$
 
 \gdef\D{\mathrm{D}} % Derivative
 \gdef\d{\mathrm{d}} % derivative
-\gdef\i{\mathrm{i}} % imaginary unit
+\gdef\i{\mathrm{i}} % imaginary unit / quaternion basis
+\gdef\j{\mathrm{j}}
+\gdef\k{\mathrm{k}}
 \gdef\e{\mathrm{e}}
 \gdef\T{\mathrm{T}} % tangent space / transpose
 \gdef\G{\mathrm{G}} % no idea

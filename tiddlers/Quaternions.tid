@@ -1,0 +1,56 @@
+created: 20200611131141619
+modified: 20200611142517404
+tags: Algebra
+title: Quaternions
+type: text/vnd.tiddlywiki
+
+The set of quaternions $$\quat$$ is $$\R^4$$ with a multiplication operation. If we call the basis elements $$\{1,\i,\j,\k\},$$ we define multiplication rules by
+$$\begin{gathered}
+\i^2 = \j^2 = \k^2 = -1, \\
+\i\j = -\j\i = \k, \qquad
+\j\k = -\k\j = \i, \qquad
+\k\i = -\i\k = \j
+\end{gathered}$$
+and obtain for one operation expressed in coordinates:
+$$
+\begin{pmatrix} x_0 \\ x_1 \\ x_2 \\ x_3 \end{pmatrix}
+\begin{pmatrix} y_0 \\ y_1 \\ y_2 \\ y_3 \end{pmatrix} =
+\begin{pmatrix}
+  x_0 y_0 - x_1 y_1 - x_2 y_2 - x_3 y_3 \\
+  x_0 y_1 + x_1 y_0 + x_2 y_3 - x_3 y_2 \\
+  x_0 y_2 - x_1 y_3 + x_2 y_0 + x_3 y_1 \\
+  x_0 y_3 + x_1 y_2 - x_2 y_1 + x_3 y_0 \\
+\end{pmatrix}.
+$$
+If we decompose $$\quat = \Re\quat \oplus \Im\quat = \span\{1\} \oplus \span\{\i,\j,\k\}$$ and write $$\quat \ni x = \alpha + v$$ with $$\alpha \in \R$$ and $$v \in \R^3,$$ we get the additional expression
+$$
+pq = (\alpha + v)(\beta + w) = \alpha\beta - \lang v,w \rang + \alpha w + \beta v + v \times w.
+$$
+We define the //conjugate// as in the complex case as $$\overline{\alpha+v} = \alpha - v.$$
+
+* The multiplication is associative, but not commutative.
+* $$\overline{pq} = \bar q \bar p.$$
+* For the inherited norm from $$\R^4$$ holds $$|p|^2 = p \bar p = \bar p p$$ and $$|pq| = |p| |q|.$$
+* $$q^{-1} = \frac {\bar q}{|q|^2},$$ in particular, $$q^{-1} = \bar q$$ for unit quaternions.
+
+!! Encoding rotations
+
+Let $$v \in \sphere^2 \subset \R^3,\ \alpha \in \R$$ and $$q = \cos\frac\alpha 2 + \sin\frac\alpha 2 v.$$
+
+* For all $$w \in \R^3,\ qw\bar q \in \Im\quat = \R^3.$$
+* The map $$F\colon \R^3 \to \R^3,\ y \mapsto qy\bar q$$ is a rotation around $$v$$ by the angle $$\alpha.$$
+
+Quaternion multiplication corresponds to composition of rotations, i.e. If $$F$$ and $$G$$ are the rotations corresponding to unit quaternions $$q$$ and $$p,$$ then $$F \circ G$$ corresponds to $$qp.$$
+
+For every $$q \in \quat \setminus\{0\}$$ the map $$F \colon \R^3 \to \R^3,\ y \mapsto qyq^{-1}$$ is a rotation.
+
+!! Isomorphism
+
+The basis $$\{1,\i,\j,\k\},$$ of the quaternions can be identified with the matrices
+$$
+I = \begin{pmatrix} 1  & 0 \\ 0  & 1 \end{pmatrix},\quad
+X = \begin{pmatrix} \i & 0 \\ 0 & -\i \end{pmatrix},\quad
+Y = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix},\quad
+Z = \begin{pmatrix} 0 & -\i \\ -\i & 0 \end{pmatrix}\quad
+$$
+in $$\C^{2 \times 2},$$ inducing an algebra isomorphism to $$\span\{I,X,Y,Z\}.$$

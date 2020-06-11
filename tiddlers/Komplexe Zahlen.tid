@@ -1,6 +1,6 @@
 created: 20171110211150363
 creator: Leander
-modified: 20191224154336085
+modified: 20200611134026105
 modifier: Leander
 tags: Körper
 title: Komplexe Zahlen
@@ -35,4 +35,13 @@ Aus der [[Euler'schen Formel|Euler'sche Formel]] und dem [[Betrag]] ergeben sich
 $$
 |z|e^{i\theta} = |z|(\cos\theta+i \sin\theta)
 $$
-wobei der von der positiven reellen Achse gegen den Urzeigersinn (im positiven mathematischen Drehsinn) gemessene Winkel $$\theta$$ auch $$\arg(z)$$ oder das Argument von $$z$$ heißt. Addition zweier komplexer Zahlen funktioniert geometrisch wie Vektoraddition. Die Multiplikation hingegen addiert die Winkel und Skaliert, bzw. multipliziert einen Betrag mit dem jeweils anderen.
+wobei der von der positiven reellen Achse gegen den Urzeigersinn (im positiven mathematischen Drehsinn) gemessene Winkel $$\theta$$ auch $$\arg(z)$$ oder das Argument von $$z$$ heißt. Addition zweier komplexer Zahlen funktioniert geometrisch wie Vektoraddition. Die Multiplikation hingegen addiert die Winkel und multipliziert die Beträge.
+
+!! Isomorphismus
+
+Die Komplexen Zahlen sind (Algebra-)isomorph zum von den Matrizen
+$$
+I = \begin{pmatrix} 1 & 0  \\ 0 & 1 \end{pmatrix},\quad
+J = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
+$$
+aufgespannten Unterraum von $$\R^{2 \times 2}$$ durch $$a + ib \leftrightarrow aI + bJ.$$

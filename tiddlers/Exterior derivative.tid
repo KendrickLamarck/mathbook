@@ -1,5 +1,5 @@
 created: 20191129163954910
-modified: 20200601182225103
+modified: 20200612142156608
 tags: [[Differential form]]
 title: Exterior derivative
 type: text/vnd.tiddlywiki
@@ -26,10 +26,10 @@ $$</div>
 Suppose $$\omega\in\Omega^k(M^m)$$ is a $$k$$-form and $$X_0,\dots,X_k$$ are $$k+1$$ vector fields. Then
 
 $$\begin{aligned}
-&(\d\omega)(X_0,\dots,X_k) \\ =
-\phantom{+}&\kern{8mu}\sum_{0 \le i \le k} (-1)^i
-  X_i(\omega(X_0,\dots,\widehat X_i,\dots,X_k) \\ \phantom{=}+
-&\sum_{0 \le i<j \le k} (-1)^{i+j}
+&(\d\omega)(X_0,\dots,X_k) \\
+=&\mkern{27mu}\sum_{0 \le i \le k} (-1)^i
+  X_i(\omega(X_0,\dots,\widehat X_i,\dots,X_k) \\
+& +\sum_{0 \le i<j \le k} (-1)^{i+j}
   \omega([X_i,X_j],X_0,\dots,\widehat X_i,\dots,\widehat X_j,\dots,X_k).
 \end{aligned}$$
 

@@ -1,8 +1,7 @@
 created: 20190103020151301
 creator: Leander
-modified: 20191011174946055
+modified: 20200612213318444
 modifier: Leander
-revision: 0
 tags: Verteilung
 title: Poisson-Verteilung
 type: text/vnd.tiddlywiki
@@ -16,8 +15,6 @@ $$
 definierte [[Wahrscheinlichkeitsmaß]] auf $$\Bbb N_0$$ heißt //Poissonverteilung zu $$\lambda$$// und wird mit $$\operatorname{Poiss}(\lambda)$$ bezeichnet.
 
 Ist $$X$$ poisson-verteilt zum Parameter $$\lambda,$$ so gilt $$\Bbb E[X]=\operatorname{Var}(X)=\lambda.$$
-
----
 
 !! Poissonscher Grenzwertsatz
 

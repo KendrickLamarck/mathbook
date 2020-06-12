@@ -1,5 +1,5 @@
 created: 20200609124745574
-modified: 20200609170354598
+modified: 20200612213023070
 tags: Test
 title: Likelihood-Quotiententest
 type: text/vnd.tiddlywiki
@@ -24,7 +24,16 @@ $$
 Dann ist $$\varphi$$ ein gleichmäßig bester Test von $$\varTheta_0$$ gegen $$\varTheta_1$$ zum Niveau $$\alpha = \expect_{\vartheta_0}[\varphi].$$
 Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
 
+* <div>Ein gleichmäßig bester Test zum Niveau
+$$\alpha = \prob_{\vartheta_0}(T > \kappa) + \gamma \prob_{\vartheta_0}(T = \kappa)$$
+ist gegeben durch
+$$
+\gamma\mathbf 1_{\{T = \kappa\}} + \mathbf 1_{\{T > \kappa\}}.
+$$
+Für die Wahl von $$\gamma$$ siehe auch [[Neyman-Pearson-Test]].</div>
+
 * Das funktioniert genau so für rechtsseitige Hypothesen, verwende dafür $$-\vartheta$$ und $$-T.$$
+
 * Sei $$\vartheta_0 < \vartheta_2.$$ Dann ist $$\varphi$$ auch ein gleichmäßig bester Test von $$\{\vartheta \mid \vartheta \le \vartheta_0\}$$ gegen $$\{\vartheta \mid \vartheta \ge \vartheta_2\}.$$
 
 !! Verallgemeinerung

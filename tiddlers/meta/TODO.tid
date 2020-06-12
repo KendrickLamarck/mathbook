@@ -1,65 +1,44 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200604182416438
+modified: 20200612211209584
 modifier: Leander
 tags: meta
 title: TODO
 type: text/vnd.tiddlywiki
 
+{{Reminder}}
+
 !! Issues
 
 * Migrate this TODO to the github issues
 * Structure changes
-** ~~Distinguish intrinsic ([[Extrinsic differential geometry]]) and extrinsic [[Intrinsic differential geometry]] and [[Curve]]~~
 ** Organize plane curves (distinct from space curves?)
-
-* Palette issues
-** Menu selection, e.g. in the search field
-** The x to delete tags
-** excise button
-** The SolarizedDark palette is just bad
-*** ~~toolbar buttons, e.g. excise~~
-*** ~~Button color?~~
 
 * We don't want to commit changes where only the //modified// field has changed.
 
 * Improve the folder structure
-** Folder for <<tag no-toc>>? There are {{{[tag[no-toc]count[]]}}} tiddlers tagged with no-toc
 ** Stuff that definitely belongs together, like ~~most things in~~ <<tag Verteilung>>
-** Do it with a special field? Really annoying to add to every tiddler
-
-* ~~Move all KaTeX macros from [[$:/plugins/tiddlywiki/katex/wrapper.js]] to [[$:/_misc/KaTeX-macros]]~~
+** Somewhat prevented by technical issues. Do it with a special field? Really annoying to add to every tiddler
 
 !! Content ideas
 
 * Examples, in particular statistics, particular distributions, estimators and so on
+* Wofür sind die [[Verteilungen|Verteilung]] gut?
+* Add sources (as embedded PDFs?)
+** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
 
 !! Tech ideas
 
-* Make a Style guide
-** How many subchapters warrant the creation of a tag?
-*** 3
-*** Also at least 3 items for all lists
-** cursive (greek! e.g. $$\varOmega\,$$), roman, cal, etc. when?
-*** Variables cursive
-*** Operators roman
-*** constants ????
-** Lists vs paragraphs when?
-** Which headers when?
-** Styling of definitions, theorems, etc.
-** What should be its own tiddler and what shouldn't?
-** All and only added system tiddlers have the prefix `$:/_`.
-
-* More line breaks so it's easier to see what was changed in a commit
 * Hosting a node wiki on the web would be great
+* Styling definitions, theorems, etc. with classes
 * replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
 ** `\differential{f}{p}` to toggle between $$\D_p f$$ and $$\D f(p).$$
 ** avoid single letters
 * Consider an alias mechanism (so links don't have to be the exact title)
-* Translate everything to English to improve accessibility?
 * An actual favicon: nice to have.
-* Add sources (as embedded PDFs?)
-** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
-* Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty?
 
-{{Reminder}}
+!! (Future) collaboration
+
+* More line breaks so it's easier to see what was changed in a commit
+* Translate everything to English to improve accessibility?
+* Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty?

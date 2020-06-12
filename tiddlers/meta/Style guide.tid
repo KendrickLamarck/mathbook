@@ -1,0 +1,21 @@
+created: 20200612205857336
+modified: 20200612210623366
+tags: meta
+title: Style guide
+type: text/vnd.tiddlywiki
+
+!! Structure/naming
+
+* All and only added system tiddlers have the prefix `$:/_`.
+* There should be at least 3 subitems when creating a tag or list. 2 is OK sometimes, 1 is always bad.
+
+!! $$\KaTeX$$
+
+* Variables cursive, e.g. $$\sigma \in \varSigma, x \in X.$$
+* Operators roman, e.g. $$\D_p f,\ \d\varphi.$$
+* constants as is customary/needed: $$e^x$$ cursive, $$\i$$ roman if e.g. an index $$i$$ is present...
+
+!! Open/unanswerable questions
+
+* Which headers when?
+* What should be its own tiddler and what shouldn't?

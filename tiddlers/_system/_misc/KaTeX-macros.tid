@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200611131252034
+modified: 20200616191950593
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -61,9 +61,10 @@ $$
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
 \gdef\sd{\mathbin{\triangle}} % symmetric difference
 
-\gdef\prob{\mathbb{P}}
+\gdef\Poiss{\operatorname{Poiss}}
+\gdef\prob{\mathrm{P}}
 \gdef\P{\prob}
-\gdef\expect{\mathbb{E}}
+\gdef\expect{\mathrm{E}}
 \gdef\E{\expect}
 \gdef\Cov{\operatorname{Cov}}
 \gdef\Var{\operatorname{Var}}

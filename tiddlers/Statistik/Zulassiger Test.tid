@@ -1,0 +1,11 @@
+created: 20200616172550405
+modified: 20200616172932538
+tags: Test no-toc
+title: Zulässiger Test
+type: text/vnd.tiddlywiki
+
+Ein Test $$\varphi$$ heißt ''zulässig'' zum Irrtumsniveau $$\alpha \in [0,1],$$ falls
+$$
+\sup_{\vartheta\in\varTheta_0} \expect_\vartheta[\varphi] \le \alpha.
+$$
+Das heißt, dass ein peinlicher Fehler mit maximaler Wahrscheinlichkeit $$\alpha$$ produziert wird.

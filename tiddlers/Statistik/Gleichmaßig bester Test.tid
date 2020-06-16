@@ -1,0 +1,15 @@
+created: 20200616172620099
+modified: 20200616172937403
+tags: Test no-toc
+title: Gleichmäßig bester Test
+type: text/vnd.tiddlywiki
+
+Ein zulässiger Test heißt ''gleichmäßig bester Test,'' wenn
+$$
+\expect_\vartheta[\varphi] \ge \expect_\vartheta[\psi]
+$$
+für alle $$\vartheta \in \varTheta_1$$ und alle zulässigen Tests $$\psi.$$ Das heißt, dass verzeihliche Fehler mit minimaler Wahrscheinlichkeit produziert werden. Die Funktion
+$$
+G_\varphi\colon \varTheta \to [0,1],\quad G_\varphi(\vartheta) \coloneqq \expect_\vartheta[\varphi]
+$$
+heißt //Gütefunktion.// Wir möchten also $$G|_{\varTheta_0}$$ klein und $$G|_{\varTheta_1}$$ groß haben.

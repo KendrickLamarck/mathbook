@@ -1,0 +1,15 @@
+created: 20200616172138576
+modified: 20200616175734449
+tags: Test no-toc
+title: Unverfälschter Test
+type: text/vnd.tiddlywiki
+
+Ein Test heißt ''unverfälscht'' zum Niveau $$\alpha,$$ wenn
+$$
+\expect_{\vartheta_0}[\varphi] \le \alpha \le \expect_{\vartheta_1}[\varphi]
+$$
+für alle
+$$\vartheta_0 \in \varTheta_0$$ und
+$$\vartheta_1 \in \varTheta_1.$$
+
+Da der Erwartungswert angibt, mit welcher Wahrscheinlichkeit wir uns für die Alternative entscheiden, heißt das, dass wir uns mit Wahrscheinlichkeit $$\ge\alpha$$ für die Alternative entscheiden, wenn wir einen Parameter aus $$\varTheta_1$$ haben und umgekehrt, wenn nicht.

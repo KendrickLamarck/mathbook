@@ -1,6 +1,6 @@
 created: 20200602180136824
 list: Neyman-Pearson-Test [[Wachsender Likelihood-Quotient]] Likelihood-Quotiententest
-modified: 20200609153820182
+modified: 20200616172807946
 tags: Statistik
 title: Test
 type: text/vnd.tiddlywiki
@@ -12,16 +12,10 @@ Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\varTheta
 
 Die Entscheidung für $$\varTheta_1,$$ obwohl $$\varTheta_0$$ richtig ist, nennt man //Fehler 1. Art// oder //peinlichen Fehler,// den gegenteiligen Fehler //Fehler 2. Art// oder //verzeihlichen Fehler.//
 
-Ein Test $$\varphi$$ heißt //zulässig// zum Irrtumsniveau $$\alpha \in [0,1],$$ falls
-$$
-\sup_{\vartheta\in\varTheta_0} \expect_\vartheta[\varphi] \le \alpha.
-$$
-Das heißt, dass ein peinlicher Fehler mit maximaler Wahrscheinlichkeit $$\alpha$$ produziert wird. Wir interessieren uns außerdem nur für Tests, die mit minimaler Wahrscheinlichkeit verzeihliche Fehler produzieren, d.h. wenn
-$$
-\expect_\vartheta[\varphi] \ge \expect_\vartheta[\psi]
-$$
-für alle $$\vartheta \in \varTheta_1$$ und alle zulässigen Tests $$\psi.$$ Ein solcher Test heißt //gleichmäßig bester Test.// Die Funktion
-$$
-G_\varphi\colon \varTheta \to [0,1],\quad G_\varphi(\vartheta) \coloneqq \expect_\vartheta[\varphi]
-$$
-heißt //Gütefunktion.// Wir möchten also $$G|_{\varTheta_0}$$ klein und $$G|_{\varTheta_1}$$ groß haben.
+!! Arten von Tests
+
+{{Zulässiger Test}}
+
+{{Gleichmäßig bester Test}}
+
+{{Unverfälschter Test}}

@@ -1,0 +1,24 @@
+created: 20200616184712300
+modified: 20200616190057823
+tags: Kombinatorik
+title: Multinomialkoeffizient
+type: text/vnd.tiddlywiki
+
+Für Zahlen $$a_1,\dots,a_r \in \Z_{\ge 0}$$ mit $$a_1 + \dots + a_r = n$$ ist der Multinomialkoeffizient definiert als
+$$
+\binom{n}{a_1, \dots, a_n} \coloneqq \frac{n!}{a_1! \cdots a_r!}.
+$$
+
+Kombinatorisch gibt der Multinomialkoeffizient die Anzahl Möglichkeiten an, $$n$$ Objekte in $$r$$ Kisten aufzuteilen, mit $$a_1$$ in der ersten Kiste usw.
+
+''Satz (Multinomialsatz).'' Es gilt
+$$
+(x_1 + \dots + x_r)^n =
+  \sum_{a_1 + \dots + a_r = n}
+  \binom{n}{a_1, \dots, a_r}
+  x_1{}^{a_1} \cdots x_1{}^{a_r}.
+$$
+Insbesondere ist
+$$
+r^n = \sum_{a_1 + \dots + a_r = n} \binom{n}{a_1, \dots, a_r}.
+$$

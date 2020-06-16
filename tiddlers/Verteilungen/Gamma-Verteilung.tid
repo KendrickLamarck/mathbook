@@ -1,5 +1,5 @@
 created: 20190510071003657
-modified: 20200527112949155
+modified: 20200615182253172
 tags: Verteilung
 title: Gamma-Verteilung
 type: text/vnd.tiddlywiki
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 Eine [[Zufallsvariable]] $$T$$ heißt //Gamma-verteilt// zu $$q,\lambda>0,$$ falls ihre [[Dichte]] folgende Form hat:
 
 $$
-f_{\lambda,q}(x)=
+f_{q,\lambda}(x)=
 \frac{\lambda^q}{\Gamma(q)} x^{q-1}e^{-\lambda x}\mathbf 1_{]0,\infty[}
 $$
 

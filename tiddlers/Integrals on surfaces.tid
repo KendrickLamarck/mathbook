@@ -1,7 +1,7 @@
 created: 20200603200435778
-modified: 20200611182901665
+modified: 20200613135327837
 tags: Surface
-title: Area form
+title: Integrals on surfaces
 type: text/vnd.tiddlywiki
 
 {{Integral of a 2-form}}
@@ -24,4 +24,4 @@ The area of a Riemannian domain is then defined as
 $$
 \int_M \det
 $$
-and we can define the integral of an arbitrary $$g \in \smooth^\infty M$$ as $$\int_M g\det,$$ both of which are now invariant under isometry, in contrast to $$\int_M g.$$
+and we can define the integral of an arbitrary $$g \in \smooth^\infty M$$ as $$\int_M g\det,$$ both of which are invariant under isometry, in contrast to $$\int_M g.$$

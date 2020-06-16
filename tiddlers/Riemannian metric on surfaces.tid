@@ -1,0 +1,25 @@
+caption: Induced metric
+created: 20200613135045459
+modified: 20200613135427561
+tags: Surface
+title: Riemannian metric on surfaces
+type: text/vnd.tiddlywiki
+
+For a smooth map $$f\colon M \to \R^n,$$ we define the induced Riemannian metric $$\lang\cdot,\cdot\rang_f$$ on $$M$$ as the [[pullback|Pullback of Riemannian metrics]] $$f^*\lang\cdot,\cdot\rang$$ of the standard Riemannian metric on $$\R^n,$$ i.e. for $$X,Y \in \T_p M$$
+$$
+\lang X,Y \rang_f = \lang \d f(X), \d f(Y) \rang.
+$$
+
+Two parametrized surfaces $$f,\tilde f\colon M \to \R^n$$ are called //isometric// if they induce the same Riemannian metric on $$M.$$ This is the case if and only if
+$$
+\lang f_u,f_u\rang = \lang \tilde f_u,\tilde f_u\rang, \quad
+\lang f_v,f_v\rang = \lang \tilde f_v,\tilde f_v\rang, \quad
+\lang f_u,f_v\rang = \lang \tilde f_u,\tilde f_v\rang.
+$$
+
+If $$U$$ and $$V$$ are the standard coordinate vector fields on $$M,$$ we can write the [[area form|Integrals on surfaces]] as it is relevant to integration as
+$$
+\det(U,V) =
+\sqrt{\|f_u\|^2\|f_v\|^2 - \lang f_u,f_v \rang^2} =
+\|f_u \times f_v\|.
+$$

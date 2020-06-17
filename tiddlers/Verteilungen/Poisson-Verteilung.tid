@@ -1,6 +1,6 @@
 created: 20190103020151301
 creator: Leander
-modified: 20200616225023909
+modified: 20200617123311214
 modifier: Leander
 tags: Verteilung
 title: Poisson-Verteilung
@@ -12,9 +12,10 @@ $$
 \pi_\lambda\colon\Bbb N_0\to[0,1],\quad k\mapsto e^{-\lambda}\frac{\lambda^k}{k!}
 $$
 
-definierte [[Wahrscheinlichkeitsmaß]] auf $$\Bbb N_0$$ heißt //Poissonverteilung zu $$\lambda$$// und wird mit $$\operatorname{Poiss}(\lambda)$$ bezeichnet.
+definierte [[Wahrscheinlichkeitsmaß]] auf $$\Bbb N_0$$ heißt //Poissonverteilung zu $$\lambda$$// und wird mit $$\Poiss(\lambda)$$ bezeichnet.
 
-Ist $$X$$ poisson-verteilt zum Parameter $$\lambda,$$ so gilt $$\expect[X]=\operatorname{Var}(X)=\lambda.$$
+* Ist $$X$$ poisson-verteilt zum Parameter $$\lambda,$$ so gilt $$\expect[X]=\operatorname{Var}(X)=\lambda.$$
+* Für $$X \sim \Poiss(\lambda_1)$$ und $$Y \sim \Poiss(\lambda_2)$$ gilt $$X + Y \sim \Poiss(\lambda_1 + \lambda_2).$$
 
 !! Poissonscher Grenzwertsatz
 

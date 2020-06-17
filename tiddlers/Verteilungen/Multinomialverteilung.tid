@@ -1,11 +1,41 @@
 created: 20200616184153529
-modified: 20200616224857622
+modified: 20200617122758734
 tags: Verteilung
 title: Multinomialverteilung
 type: text/vnd.tiddlywiki
 
-Sei $$\varOmega = \left\{(k_a) \in \Z_{>0}{}^E : \sum k_a = n\right\},$$ $$E$$ endlich. Ein Wahrscheinlichkeitsmaß $$M_{n,p}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
+Sei $$\varOmega = {\left\{(k_a) \in \Z_{>0}{}^E : \sum k_a = n\right\}},$$ $$E$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,p}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
 $$
 M_{n,p}\{k\} = \binom{n}{k} \prod_{a \in E} \rho(a)^{k_a},\quad k = (k_a)_{a \in E}
 $$
-(Siehe auch [[Multinomialkoeffizient]]) heißt //Multinomialverteilung// für $$n$$ Stichproben mit Erfolgswahrscheinlichkeiten $$\rho(a),\ a \in E.$$
+(Siehe auch [[Multinomialkoeffizient]]) heißt //Multinomialverteilung// für $$n$$ Stichproben mit Erfolgswahrscheinlichkeiten $$\rho(a).$$
+
+!! Ein Approximationsproblem
+
+
+Sei $$E = \{1,\dots,s\}$$ eine endliche Menge, $$\rho$$ eine Zähldichte auf $$E$$ und $$X_1,X_2,\dots$$ eine Folge von unabhängigen $$E$$-wertigen Zufallsvariablen mit Verteilungsdichte $$\rho,$$ d.h. $$\prob(X_k = i) = \rho(i).$$
+
+Betrachte nun die absoluten Häufigkeiten
+$$
+h_n(i) = \#\{1 \le k \le n : X_k = i\}.
+$$
+Der Zufallsvektor $$h_n = (h_n(i))_{i \in E}$$ hat dann die [[Multinomialverteilung]] $$M_{n,\rho}$$ auf $$\Z_{>0}^s.$$
+
+!! Poisson-Darstellung von Multinomialverteilungen
+
+Seien
+$$(Z_k(i))_{k \ge 1,\,1 \le i \le s}$$
+unabhängige Zufallsvariablen mit
+$$Z_k(i) \sim \Poiss(\rho(i)).$$
+Seien ferner
+$$
+S_n(i) = \sum_{k=1}^n Z_k(i), \quad
+S_n = (S_n(i))_{1 \le i \le s}, \quad
+N_n = \sum_{i=1}^s S_n(i).
+$$
+Dann gilt für alle $$m,n \ge 1$$ und
+$$l = (l(i))_{1 \le i \le s} \in \Z_{>0}^s$$ mit
+$$\sum_{i=1}^s l(i) = m$$
+$$
+\prob(S_n = l \mid N_n = m) = M_{m,\rho}\{l\}.
+$$

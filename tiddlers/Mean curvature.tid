@@ -1,0 +1,27 @@
+created: 20200617145334904
+modified: 20200617151021110
+tags: Surface
+title: Mean curvature
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surface with [[shape operator|Shape operator]] $$A$$ and [[principal directions|Principal curvature]] $$X_1,X_2.$$ We then parametrize the unit circle in $$\T_p M$$ by
+$$
+X(\theta) = \cos\theta X_1 + \sin\theta X_2
+$$
+and set
+$$\begin{aligned}
+\kappa(\theta)
+\coloneqq &\;
+  \lang A(\cos\theta X_1 + \sin\theta X_2),
+  \cos\theta X_1 + \sin\theta X_2\rang               \\[7mu]
+= &\;
+  \frac{\kappa_1(p) + \kappa_2(p)}{2} +
+  \frac{\kappa_1(p) + \kappa_2(p)}{2}\cos(2\theta).
+\end{aligned}$$
+
+The //mean curvature// of $$f$$ at $$p$$ is defined as the mean value
+$$
+H(p) \coloneqq \frac{1}{2\pi} \int_0^{2\pi} \kappa(\theta)\,\d\theta =
+\frac{\kappa_1(p) + \kappa_2(p)}{2} = \tfrac 1 2 \tr(A_p).
+$$
+The function $$H\colon M \to \R$$ is smooth.

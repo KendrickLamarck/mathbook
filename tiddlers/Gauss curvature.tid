@@ -1,0 +1,11 @@
+created: 20200617150858360
+modified: 20200617151103060
+tags: Surface
+title: Gauss curvature
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surface with [[shape operator|Shape operator]] $$A$$ and [[principal curvatures|Principal curvature]] $$\kappa_1,\kappa_2.$$ The smooth function
+$$
+K\colon M \to \R,\quad K(p) \coloneqq \det A_p = \kappa_1(p) \kappa_2(p)
+$$
+is called the //Gaussian curvature// of $$f.$$

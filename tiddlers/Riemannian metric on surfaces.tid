@@ -1,6 +1,6 @@
-caption: Induced metric
+caption: Induced metric from a surface
 created: 20200613135045459
-modified: 20200613135427561
+modified: 20200617135733653
 tags: Surface
 title: Riemannian metric on surfaces
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ $$
 \lang f_u,f_v\rang = \lang \tilde f_u,\tilde f_v\rang.
 $$
 
-If $$U$$ and $$V$$ are the standard coordinate vector fields on $$M,$$ we can write the [[area form|Integrals on surfaces]] as it is relevant to integration as
+If $$U$$ and $$V$$ are the standard coordinate vector fields on $$M,$$ we can write the [[area form|Integrals on Riemannian domains]] as it is relevant to integration as
 $$
 \det(U,V) =
 \sqrt{\|f_u\|^2\|f_v\|^2 - \lang f_u,f_v \rang^2} =

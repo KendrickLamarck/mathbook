@@ -1,0 +1,19 @@
+created: 20200603200435778
+modified: 20200617140157235
+tags: Surface
+title: Integrals on Riemannian domains
+type: text/vnd.tiddlywiki
+
+{{Integral of a 2-form}}
+
+!! The area form
+
+{{Area form}}
+
+!! Area and integrals
+
+The area of a Riemannian domain is then defined as
+$$
+\int_M \det
+$$
+and we can define the integral of an arbitrary $$g \in \smooth^\infty M$$ as $$\int_M g\det,$$ both of which are invariant under isometry, in contrast to $$\int_M g.$$

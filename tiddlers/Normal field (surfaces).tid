@@ -1,0 +1,30 @@
+caption: Normal field
+created: 20200617134801609
+modified: 20200617140133087
+tags: Surface
+title: Normal field (surfaces)
+type: text/vnd.tiddlywiki
+
+Let $$M \subset \R^3$$ be a domain with smooth boundary and $$f\colon M \to \R^3$$ a regular parametrized surface. Then there is a unique map $$N\colon M \to \sphere^2,$$ such that
+
+# <div>For all $$p \in M$$ and $$X \in \T_p M$$ we have
+$$
+\lang N(p),\d f(X)\rang = 0,
+$$</div>
+# <div>For all $$p$$ and every positively oriented basis $$X,Y$$ of $$\T_p M$$ we have
+$$
+\det(N(p),\d f(X),\d f(Y)) > 0.
+$$</div>
+
+$$N$$ is called the //unit normal// of $$f.$$ It can be expressed in coordinates as
+$$
+N = \frac{f_u \times f_v}{\|f_u \times f_v\|}.
+$$
+
+''Theorem.''
+For all $$p \in M$$ and all $$X,Y \in \T_p M$$ we have
+$$\begin{gathered}
+\d f (JX) = N(p) \times \d f(X), \\
+{\det}_f(X,Y) = \det(N(p),\d f(X),\d f(Y)),
+\end{gathered}$$
+see also [[Area form]].

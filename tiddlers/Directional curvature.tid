@@ -1,0 +1,10 @@
+created: 20200617144110669
+modified: 20200617152617671
+tags: Surface
+title: Directional curvature
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surface with [[shape operator|Shape operator]] $$A$$ and $$X \in \T M$$ with $$\lang X,X \rang = 1.$$ We define the //directional curvature// in direction $$X$$ as
+$$
+\kappa(X) \coloneqq \lang AX,X \rang = \lang \d N(X), \d f (X)\rang_{\R^3}.
+$$

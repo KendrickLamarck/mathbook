@@ -1,0 +1,17 @@
+created: 20200617141013886
+modified: 20200617143654004
+tags: Surface
+title: Shape operator
+type: text/vnd.tiddlywiki
+
+Let $$M\subset \R^2$$ be a connected domain with smooth boundary and $$f\colon M \to \R^3$$ be a parametrized surface with normal field $$N.$$ If $$X \in \Gamma(\T M)$$ is a vector field, then $$\d N(X)$$ lies in $$\d f(\T_p M),$$ so there exists an endomorphism field $$A$$ such that
+$$
+\d N(X) = \d f(AX)
+$$
+called the //shape operator// of $$f.$$
+
+* <div>The shape operator is [[self-adjoint|Selbstadjungierter Endomorphismus]] with respect to the induced metric, i.e. for all $$X,Y \in \Gamma(\T M)$$ we have
+$$
+\lang AX,Y \rang = \lang X,AY \rang.
+$$</div>
+* $$A$$ vanishes if and only if there is a plane $$E$$ with $$f(M) \subset E.$$

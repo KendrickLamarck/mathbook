@@ -1,0 +1,11 @@
+created: 20200617144702865
+modified: 20200617145402410
+tags: Surface
+title: Principal curvature
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surface with [[shape operator|Shape operator]] $$A.$$ Since every $$A_p \in \End(\T_p M)$$ is self-adjoint, there is an orthonormal basis $$X_1,X_2$$ of $$\T_p M$$ of Eigenvectors of $$A_p,$$ i.e.
+$$
+AX_1 = \kappa_1(p)X_1, \quad AX_2 = \kappa_2(p)X_2.
+$$
+W.l.o.g. we can assume $$\kappa_1 \ge \kappa_2$$ and obtain well-defined, continuous (not necessarily smooth) functions $$\kappa_1,\kappa_2\colon M \to \R.$$ These functions are called the //principal curvatures// of $$f$$ at $$p.$$ A unit Eigenvector to the Eigenvalue $$\kappa_i$$ is called a //principal direction.//

@@ -1,0 +1,16 @@
+created: 20200617151518401
+modified: 20200617151809050
+tags: Surface
+title: Umbilic point
+type: text/vnd.tiddlywiki
+
+A point $$p \in M$$ is called an //umbilic point// of the parametrized surface $$f\colon M \to \R^3$$ if at $$p$$ the surface has the same curvature in all directions, i.e. for all unit vectors $$X \in \T_p M$$ we have
+$$
+\kappa(X) = H(p).
+$$
+
+''Theorem (Umbilic point theorem).''
+Let $$M \subset \R^2$$ be a connected domain with smooth boundary and $$f\colon M \to \R^3$$ a regular surface. Then the following are equivalent:
+
+# All points $$p \in M$$ are umbilic points.
+# $$f(M)$$ is contained either in a plane or a sphere.

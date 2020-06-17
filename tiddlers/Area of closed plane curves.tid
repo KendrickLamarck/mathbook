@@ -1,17 +1,13 @@
 created: 20200612153022167
-modified: 20200612155415507
+modified: 20200617194631543
 tags: Curve
 title: Area of closed plane curves
 type: text/vnd.tiddlywiki
 
-Let $$[\gamma,\tau]$$ be an oriented closed curve in $$\R^2.$$ Then the enclosed area of $$[\gamma,\tau]$$ is defined as
+Let $$\gamma\colon \R \to \R^2$$ be a $$2\pi$$-periodic smooth map and $$D \subset \R^2 \cong \C$$ the closed unit disk. Then there is a smooth map $$g\colon D \to \R^2$$ such that $$\gamma = g(e^{\i t}).$$ For such a $$g,$$ the [[area covered|Covered area form]] by $$g$$ can be computed as
 $$
-\frac 1 2 \int_0^\tau {\det}_{\R^2}(\gamma,\gamma').
+\int_D \sigma_g = \frac 1 2 \int_0^{2\pi} \det(\gamma,\gamma'),
 $$
+so it only depends on the closed curve $$g|_{\partial D}.$$
 
-Let $$\varphi\colon D \to M$$ be a smooth map from the unit disk to a region in $$\R^2$$ such that $$(\gamma,2\pi)$$ can be considered as a map defined on the unit circle $$\partial D.$$ Then
-$$
-\int_0^\tau{\det}_{\R^2}(\gamma,\gamma') =
-\int_D \varphi^*{\det}.
-$$
-The areas where $$\varphi$$ is orientation-reversing are counted with a minus sign.
+This area is the sum of the areas of the images of the various subdomains of $$D,$$ where areas where $$g$$ is orientation-reversing are counted negative.

@@ -1,0 +1,19 @@
+created: 20200617181113161
+modified: 20200617195356316
+tags: Surface
+title: Covered area form
+type: text/vnd.tiddlywiki
+
+Consider the plane $$E^2 = \{x_3 = 0\} \subset \R^3$$ and the sphere $$\sphere^2 \subset \R^3.$$ Let $$M\subset \R^2$$ be a domain with smooth boundary and $$g$$ a smooth map from $$M$$ to either $$E^2$$ or $$\sphere^2.$$ Then we define the //covered area form// $$\sigma_g \in \Omega^2(M)$$ on $$\T_p M$$ as follows:
+
+# <div>For $$E^2,$$ we define
+$$
+\sigma_g(X,Y) \coloneqq \det(e_3,\d g(X),\d g(Y)) = \det(\d g(X),\d g(Y)),
+$$
+where for the last equality, we identified $$E^2 \cong \R^2.$$</div>
+# <div>For $$\sphere^2,$$ we define
+$$
+\sigma_g(X,Y) \coloneqq \det(g(p),\d g(X),\d g(Y)).
+$$</div>
+
+We can then define the //area covered// by $$g$$ as $$\int_M \sigma_g.$$

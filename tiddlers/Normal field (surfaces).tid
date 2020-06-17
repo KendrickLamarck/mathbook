@@ -1,6 +1,6 @@
 caption: Normal field
 created: 20200617134801609
-modified: 20200617140133087
+modified: 20200617195516225
 tags: Surface
 title: Normal field (surfaces)
 type: text/vnd.tiddlywiki
@@ -28,3 +28,7 @@ $$\begin{gathered}
 {\det}_f(X,Y) = \det(N(p),\d f(X),\d f(Y)),
 \end{gathered}$$
 see also [[Area form]].
+
+!! Covered area form
+
+{{Covered area form of the normal field}}

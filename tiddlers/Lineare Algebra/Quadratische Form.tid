@@ -1,8 +1,7 @@
 created: 20180601211145916
 creator: Leander
-modified: 20191123202800038
+modified: 20200617161431174
 modifier: Leander
-revision: 0
 tags: [[Symmetrische Form]]
 title: Quadratische Form
 type: text/vnd.tiddlywiki
@@ -22,8 +21,6 @@ $$
 und in der Summendarstellung sieht man, dass dies ein homogenes quadratisches [[Polynom]] ist. Mit $$\mathrm Q(V)$$ bezeichnen wir den Vektorraum der quadratischen Formen auf $$V.$$
 
 Das kann man ähnlich für [[Hermite'sche Sesquilinearformen|Hermite'sche Form]] definieren.
-
----
 
 !! Normalform
 

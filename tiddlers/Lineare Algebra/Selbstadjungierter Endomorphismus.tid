@@ -1,8 +1,7 @@
 created: 20180626175536410
 creator: Leander
-modified: 20191004194911360
+modified: 20200617142338212
 modifier: Leander
-revision: 0
 tags: [[Adjungierte Abbildung]]
 title: Selbstadjungierter Endomorphismus
 type: text/vnd.tiddlywiki
@@ -21,6 +20,6 @@ $$
 
 {{Eigenwerte selbstadjungierter Endomorphismen}}
 
-!! Diagonalisierbarkeit
+!! Diagonalisierung
 
 {{Diagonalisierbarkeit selbstadjungierter Endomorphismen}}

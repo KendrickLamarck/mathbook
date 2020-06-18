@@ -96,7 +96,7 @@ sidebar-tab-border: <<colour dark-foreground>>
 sidebar-tab-divider: <<colour page-background>>
 sidebar-tab-foreground-selected: <<colour dark-foreground>>
 sidebar-tab-foreground: <<colour tab-foreground>>
-sidebar-tiddler-link-foreground-hover: <<colour green>>
+sidebar-tiddler-link-foreground-hover: <<colour dark-background>>
 sidebar-tiddler-link-foreground: <<colour blue>>
 site-title-foreground: <<colour tiddler-title-foreground>>
 static-alert-foreground: <<colour red>>

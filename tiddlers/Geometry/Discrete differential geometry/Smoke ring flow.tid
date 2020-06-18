@@ -1,0 +1,25 @@
+created: 20200618190503602
+modified: 20200618193336899
+tags: [[Discrete curve]]
+title: Smoke ring flow
+type: text/vnd.tiddlywiki
+
+the smooth //smoke ring flow// is given by $$\dot\gamma = T \times T',$$ where $$'$$ denotes the derivative with respect to arc length. If $$\gamma$$ is a circle, then $$T \times T'$$ is a positive multiple of the positively oriented normal of the circle plane, so the smoke ring flow acts on circles by translation.
+
+Now for the discrete case: There is a unique $$Z \in \Gamma(\T \mathcal M_n)$$ such that
+
+# For all $$i$$ the $$i$$-th component $$Z_i(\gamma)$$ depends only on $$\gamma_{i-1},\gamma_i$$ and $$\gamma_{i+1}.$$
+# If $$\gamma$$ is an embedded discrete circle of radius $$r,$$ then $$Z_i(\gamma) = \frac{1}{r}\nu,$$ where $$\nu \in \sphere^2$$ is the positively oriented normal of the circle plane.
+
+$$Z$$ is given by
+$$
+Z_i(\gamma) = \frac{
+  \mathbf e_{i-1} \times \mathbf e_i
+}{
+  2|\mathbf e_{i-1}||\mathbf e_i||\mathbf e_{i-1} + \mathbf e_i|
+}
+$$
+and the //discrete smoke ring flow// is given by the equation $$\dot\gamma = Z(\gamma).$$
+
+* The flow preserves edge lengths and therefore the length of a curve.
+* The discrete smoke ring flow of an arc length parametrized discrete curve preserves the [[discrete bending energy|Discrete bending energy]].

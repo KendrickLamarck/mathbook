@@ -1,0 +1,36 @@
+created: 20200618144216844
+modified: 20200618193456345
+tags: [[Discrete curve]]
+title: Tangent flow
+type: text/vnd.tiddlywiki
+
+There is a unique vector field $$Y \in \Gamma(\T \mathcal M_n)$$ such that
+
+# For all $$i$$ the $$i$$-th component $$Y_i(\gamma)$$ depends only on $$\gamma_{i-1},\gamma_i$$ and $$\gamma_{i+1}.$$
+# <div>$$Y$$ is Möbius-invariant, i.e. if $$M$$ is a [[Möbius transformation|Möbius transformation]], then for all $$i$$
+$$
+Y_i(M \gamma) = \d_{\gamma_i}M(Y_i(\gamma)).
+$$</div>
+# $$Y_i(\gamma) = \mathbf e_i = \gamma_{i+1} - \gamma_i,$$ whenever $$\mathbf e_{i-1} = \mathbf e_i.$$
+
+This unique Möbius invariant tangent field is given by
+$$
+Y_i(\gamma) = 2
+\frac{
+  |\mathbf e_i|^2 \mathbf e_{i-1} +
+  |\mathbf e_{i-1}|^2 \mathbf e_i
+}{
+  |\mathbf e_{i-1}|^2
+  |\mathbf e_{i+1}|^2
+  |\mathbf e_{i-1} + \mathbf e_i|^2
+}.
+$$
+
+The //discrete tangent flow// is given by the equation $$\dot\gamma = Y(\gamma).$$
+
+* This flow is also Möbius-invariant, i.e. if $$\alpha$$ is a solution and $$\tilde\alpha = M\alpha,$$ then $$\dot{\tilde\alpha} = Y(\tilde\alpha).$$
+* The discrete tangent flow preserves spherical curves, i.e. if the points of a discrete curve lie on a sphere, they remain on the sphere under the flow. Since circles are intersections of two spheres, it also preserves discrete circles.
+* The discrete tangent flow preserves arc length parametrization. In particular, it preserves the length of arc length parametrized curves.
+* The discrete tangent flow of an arc length parametrized discrete curve preserves the [[discrete bending energy|Discrete bending energy]].
+
+In the smooth case, the tangent flow would just act by reparametrization.

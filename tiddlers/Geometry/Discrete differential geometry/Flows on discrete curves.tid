@@ -1,0 +1,29 @@
+created: 20200618142331345
+modified: 20200618144044978
+tags: [[Discrete curve]]
+title: Flows on discrete curves
+type: text/vnd.tiddlywiki
+
+We denote the space of all regular closed discrete curves with $$n$$ points by
+$$
+\mathcal M_n \coloneqq \left\{
+  \gamma\colon \Z/n\Z \to \R^3 \mid \gamma\text{ regular}
+\right\}
+\subset \left(\R^3\right)^{\Z/n\Z} \cong \R^{3n},
+$$
+which is an open subset.
+A smooth //vector field// is then a smooth map
+$$
+X\colon \mathcal M_n \to \left(\R^3\right)^{\Z/n\Z}, \qquad
+\gamma \mapsto {\left[
+  X(\gamma)\colon \Z/n\Z \to \R^3
+\right]}.$$
+We denote the space of vector fields by $$\Gamma(\T \mathcal M_n).$$
+
+An //integral curve// of $$X$$ is a solution
+$$\alpha\colon \R \supseteq I \to \mathcal M_n$$
+of the equation
+$$\dot\gamma = X(\gamma).$$
+By [[Picard-Lindelöf|Satz von Picard-Lindelöf]] there exists for each $$\gamma$$ a unique maximal integral curve
+$$\alpha_\gamma$$ of $$X$$ such that $$\alpha_\gamma(0) = \gamma.$$
+The map $$(t,\gamma) \mapsto \alpha_\gamma(t)$$ is called the //flow// of $$X.$$ It is defined on an open subset of $$\R \times \mathcal M_n.$$

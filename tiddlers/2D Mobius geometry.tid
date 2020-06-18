@@ -1,25 +1,22 @@
 created: 20190505151036416
-modified: 20191116145651243
-revision: 0
+modified: 20200618153309040
 tags: [[Möbius geometry]]
 title: 2D Möbius geometry
+type: text/vnd.tiddlywiki
 
 $$\Bbb R^2\cup\{\infty\}$$ can be identified with $$\widehat\Bbb C=\Bbb C\mathrm P^1.$$ The orentation preserving/reversing [[Möbius transformations|Möbius transformation]] of $$\widehat\Bbb C$$ are precisely the maps of the form
-
 $$
-z\mapsto\frac{az+b}{cz+d},\quad
+z\mapsto\frac{az+b}{cz+d},\qquad
 z\mapsto\frac{a\bar z+b}{c\bar z+d}
 $$
 
 with $$ad-bc\ne 0.$$ So $$\operatorname{SMöb}(2)=\PGL(2,\Bbb C).$$
 
-* <div>
-The orientation preserving Möbius transformations of the plane preserve the complex [[cross ratio|Cross-ratio]]. If $$f$$ is an orientation reversing Möbius transformation, then
+* <div>The orientation preserving Möbius transformations of the plane preserve the complex [[cross ratio|Cross-ratio]]. If $$f$$ is an orientation reversing Möbius transformation, then
 $$
 \crossratio(f(z_1),f(z_2),f(z_3),f(z_4))=
 \overline{\crossratio(z_1,z_2,z_3,z_4)}.
-$$
-</div>
+$$</div>
 
 * For any three points $$z_1,z_2,z_3$$ and any three points $$w_1,w_2,w_3$$ there is a unique orientation preserving Möbius transformation $$f\in\operatorname{PGL}(2,\Bbb C)$$ with $$f(z_i)=w_i$$ and a unique orientation reversing one with $$f(z_i)=w_i.$$
 

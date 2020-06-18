@@ -1,10 +1,10 @@
 created: 20191014224850504
-modified: 20191014224902381
-revision: 0
+modified: 20200618210207607
 tags: [[Euclidean geometry]] no-toc
 title: Euclidean metric in Möbius space
+type: text/vnd.tiddlywiki
 
-$$Q\setminus\{[p]\}$$ with the metric given by
+[[Möbius space|Projective model of Möbius geometry]] $$Q\setminus\{[p]\}$$ with the metric given by
 
 $$
 d_\mathrm{eucl}([x],[y])^2=

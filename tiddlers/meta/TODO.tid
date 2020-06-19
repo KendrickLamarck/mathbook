@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200612211209584
+modified: 20200619125428709
 modifier: Leander
 tags: meta
 title: TODO
@@ -11,8 +11,11 @@ type: text/vnd.tiddlywiki
 !! Issues
 
 * Migrate this TODO to the github issues
+
 * Structure changes
 ** Organize plane curves (distinct from space curves?)
+** Exterior algebra: Linear algebar, Algebra or differential geometry?
+** Distinguish the different types of normal fields / normal vectors etc. better
 
 * We don't want to commit changes where only the //modified// field has changed.
 
@@ -24,6 +27,7 @@ type: text/vnd.tiddlywiki
 
 * Examples, in particular statistics, particular distributions, estimators and so on
 * Wofür sind die [[Verteilungen|Verteilung]] gut?
+
 * Add sources (as embedded PDFs?)
 ** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
 
@@ -31,9 +35,11 @@ type: text/vnd.tiddlywiki
 
 * Hosting a node wiki on the web would be great
 * Styling definitions, theorems, etc. with classes
+
 * replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
 ** `\differential{f}{p}` to toggle between $$\D_p f$$ and $$\D f(p).$$
 ** avoid single letters
+
 * Consider an alias mechanism (so links don't have to be the exact title)
 * An actual favicon: nice to have.
 

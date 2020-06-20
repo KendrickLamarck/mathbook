@@ -1,17 +1,16 @@
 created: 20200616184153529
-modified: 20200617122758734
+modified: 20200619225118890
 tags: Verteilung
 title: Multinomialverteilung
 type: text/vnd.tiddlywiki
 
-Sei $$\varOmega = {\left\{(k_a) \in \Z_{>0}{}^E : \sum k_a = n\right\}},$$ $$E$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,p}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
+Sei $$\varOmega = {\left\{(k_a) \in \Z_{>0}^E : \sum k_a = n\right\}},$$ $$E$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,p}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
 $$
 M_{n,p}\{k\} = \binom{n}{k} \prod_{a \in E} \rho(a)^{k_a},\quad k = (k_a)_{a \in E}
 $$
 (Siehe auch [[Multinomialkoeffizient]]) heißt //Multinomialverteilung// für $$n$$ Stichproben mit Erfolgswahrscheinlichkeiten $$\rho(a).$$
 
-!! Ein Approximationsproblem
-
+!! Eine Anwendung
 
 Sei $$E = \{1,\dots,s\}$$ eine endliche Menge, $$\rho$$ eine Zähldichte auf $$E$$ und $$X_1,X_2,\dots$$ eine Folge von unabhängigen $$E$$-wertigen Zufallsvariablen mit Verteilungsdichte $$\rho,$$ d.h. $$\prob(X_k = i) = \rho(i).$$
 

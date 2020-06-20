@@ -1,8 +1,8 @@
 created: 20190604222345968
-modified: 20190704230807338
-revision: 0
+modified: 20200619223312818
 tags: Stochastik
 title: Charakteristische Funktion
+type: text/vnd.tiddlywiki
 
 Sei $$X$$ eine reellwertige [[Zufallsvariable]]. Dann heißt die Funktion $$\Bbb R\to \Bbb C$$
 
@@ -12,9 +12,7 @@ $$
 =\Bbb E[\cos(tX)]+i\Bbb E[\sin(tX)]
 $$
 
-//charakteristische Funktion// oder //Fourier-Transformation// der Zufallsvariablen $$X.$$
-
----
+//charakteristische Funktion// oder [[Fourier-Transformation]] der Zufallsvariablen $$X.$$
 
 * <div>Ist $$X$$ diskret verteilt mit Werten $$x_n,$$ so ist
 $$
@@ -46,6 +44,6 @@ $$
 \chi_{S_n}(t)=\chi_{X_1}(t)\cdots\chi_{X_n}(t).
 $$</div>
 
-* Es gilt folgender Konvergenzsatz: Seien $$X,X_1,X_2,\dots$$ Zufallsvariablen. Dann sind Äquivalent:
+* Es gilt folgender Konvergenzsatz (Stetigkeitssatz von Lévy): Seien $$X,X_1,X_2,\dots$$ Zufallsvariablen. Dann sind Äquivalent:
 ** $$\lim_{n\to\infty} F_{X_n}(x)=F_X(x)$$ für alle Stetigkeitspunkte von $$F.$$
 ** $$\lim_{n\to\infty} \chi_{X_n}(t)=\chi_X(t)$$ für alle $$t\in\R.$$

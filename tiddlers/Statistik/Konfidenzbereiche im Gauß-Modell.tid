@@ -1,5 +1,5 @@
 created: 20200527153534180
-modified: 20200602172453924
+modified: 20200621154413040
 tags: Statistik
 title: Konfidenzbereiche im Gauß-Modell
 type: text/vnd.tiddlywiki
@@ -37,8 +37,8 @@ ein Konfidenzbereich für $$v$$ zum Niveau $$\alpha.$$ Hier ist $$t_{\alpha/2}$$
 Im $$n$$-fachen Gaußmodell mit bekanntem Erwartungswert und unbekannter Varianz können wir die Pivotstatistik $$S_n{}^2 = \frac 1 n \sum(X_i-m)^2 \sim \chi_n^2$$ benutzen. Man erhält den Konfidenzbereich von $$v$$ zum Niveau $$\alpha$$
 $$
 C(x) = \openI{
-  \frac{n S_n^2}{s_{1-\alpha/2}},
-  \frac{n S_n^2}{s_{\alpha/2}}
+  \frac{n S_n{}^2}{s_{1-\alpha/2}},
+  \frac{n S_n{}^2}{s_{\alpha/2}}
 },
 $$
 wobei $$s_{\alpha/2}$$ das $$\alpha/2$$-Quantil der $$\chi_n^2$$-Verteilung ist usw.

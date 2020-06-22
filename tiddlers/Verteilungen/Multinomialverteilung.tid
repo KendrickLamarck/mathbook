@@ -1,5 +1,5 @@
 created: 20200616184153529
-modified: 20200619225118890
+modified: 20200622144942888
 tags: Verteilung
 title: Multinomialverteilung
 type: text/vnd.tiddlywiki
@@ -38,3 +38,7 @@ $$\sum_{i=1}^s l(i) = m$$
 $$
 \prob(S_n = l \mid N_n = m) = M_{m,\rho}\{l\}.
 $$
+
+!! Normalapproximation
+
+{{Normalapproximation der Multinomialverteilung}}

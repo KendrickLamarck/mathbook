@@ -1,13 +1,11 @@
 created: 20200609164131386
-modified: 20200616175058739
+modified: 20200621155321779
 tags: Statistik
 title: Tests im Gaußmodell
 type: text/vnd.tiddlywiki
 
-!! Varianz
-
 Sei
-$$(\R^n,\Borel(\R^n),(\mathcal N_{m,v}{}^{\otimes n})_{m\in\R,\, v>0})$$
+$$(\R^n,\Borel(\R^n),(\mathcal N_{m,v}^{\otimes n})_{m\in\R,\, v>0})$$
 das  $$n$$-fache Gaußmodell mit unbekannten
 $$(m,v) \in \R \times \openI{0,\infty}$$.
 

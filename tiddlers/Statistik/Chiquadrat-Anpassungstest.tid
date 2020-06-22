@@ -1,0 +1,63 @@
+created: 20200622131843622
+modified: 20200622225502098
+tags: Test
+title: Chiquadrat-Anpassungstest
+type: text/vnd.tiddlywiki
+
+Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes n},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
+
+* $$E = \{1,\dots,s\},$$
+* $$\varTheta = \{\vartheta = (\vartheta(i)) \in \openI{0,1}^s : \sum_{i=1}^s \vartheta(i) = 1\},$$
+* $$\prob_\vartheta(X_k = i) = \vartheta(i)$$ für $$k \in \N$$ und $$i \in E.$$
+
+Wir definieren für $$i \in E$$ die absoluten Häufigkeiten
+$$
+h_n(i) = \#\{1 \le k \le n : X_k = i\}
+$$
+sowie die relativen Häufigkeiten $$l_n(i) = h_n(i)/n.$$
+
+Wir wollen jetzt die Nullhypothese $$H_0\colon \vartheta = \rho \in \varTheta$$ gegen $$H_1\colon \vartheta \ne \rho$$ testen.
+
+''Ansatz 1.''
+Der verallgemeinerte Likelihood-Quotient: Sei
+$$
+R_n = \frac{
+  \sup_{\vartheta \in \varTheta_1}
+  \prod_{i=1}^s \vartheta(i)^{h_n(i)}
+}{
+  \prod_{i=1}^s \rho(i)^{h_n(i)}
+} =
+\prod_{i=1}^s \left(\frac{l_n(i)}{\rho(i)}\right)^{h_n(i)}
+$$
+und
+$$
+\log R_n = n \sum_{i=1}^s l_n(i) \log\left(\frac{l_n(i)}{\rho(i)}\right).
+$$
+Der verallgemeinerte Likelihood-Quotiententest hat dann die Form $$\varphi_n = \mathbf 1_{\{\log R_n > c\}}.$$
+
+''Ansatz 2.''
+Der sogenannte //Chiquadrat-Anpassungstest:// Sei
+$$\begin{aligned}
+D_{n,\rho} &\coloneqq
+\sum_{i=1}^s \frac{(h_n(i) - n\rho(i))^2}{n\rho(i)} \\ &=
+n \sum_{i=1}^s \rho(i) \left( \frac{l_n(i)}{\rho(i)} -1 \right)^2 \\ &=
+n \sum_{i=1}^s \frac{l_n(i)^2}{\rho(i)} - n.
+\end{aligned}$$
+(die letzte Form eignet sich gut zur Berechnung). Es gilt $$D_{n,\rho} = \|h_{n,\rho}^*\|,$$ siehe [[Normalapproximation der Multinomialverteilung]]. $$\varphi_n = \mathbf 1_{\{D_{n,\rho} > c\}}$$ ist dann der //Chiquadrat-Anpassungstest// für $$c>0$$ nach $$n$$ Beobachtungen.
+
+* <div>Auf der Nullhypothese stimmen die Tests asymptotisch überein:
+$$
+\log R_n - \tfrac 1 2 D_{n,\rho} \xrightarrow[n\to\infty]{\prob_\rho} 0.
+$$</div>
+
+* <div>Satz von Pearson: Unter der Nullhypothese $$\prob_\rho$$ gilt
+$$
+D_{n,\rho} \xrightarrow{d} \chi_{s-1}^2.
+$$</div>
+
+* <div> Aus den Sätzen folgt ebenfalls, dass unter $$\prob_\rho$$
+$$
+2\log R_n \xrightarrow{d} \chi^2_{s-1}.
+$$</div>
+
+* Nach dem Satz von Pearson können wir das $$c$$ im $$\chi^2$$-Anpassungstest so wählen, dass ein Niveau $$\alpha$$ zumindest approximativ für große $$n$$ eingehalten wird. Setze dazu $$c \coloneqq \chi^2_{s-1,1-\alpha},$$ das $$\alpha$$-Fraktil der $$\chi^2_{s-1}$$-Verteilung.

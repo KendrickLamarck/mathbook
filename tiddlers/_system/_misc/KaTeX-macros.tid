@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200616191950593
+modified: 20200622144014626
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -62,6 +62,7 @@ $$
 \gdef\sd{\mathbin{\triangle}} % symmetric difference
 
 \gdef\Poiss{\operatorname{Poiss}}
+\gdef\normaldist{\mathcal{N}}
 \gdef\prob{\mathrm{P}}
 \gdef\P{\prob}
 \gdef\expect{\mathrm{E}}

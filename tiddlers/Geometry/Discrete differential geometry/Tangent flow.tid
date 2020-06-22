@@ -1,5 +1,5 @@
 created: 20200618144216844
-modified: 20200618193456345
+modified: 20200622124146178
 tags: [[Discrete curve]]
 title: Tangent flow
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ Y_i(\gamma) = 2
   |\mathbf e_{i-1}|^2 \mathbf e_i
 }{
   |\mathbf e_{i-1}|^2
-  |\mathbf e_{i+1}|^2
+  |\mathbf e_i|^2
   |\mathbf e_{i-1} + \mathbf e_i|^2
 }.
 $$

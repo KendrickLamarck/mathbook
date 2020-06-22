@@ -1,11 +1,10 @@
 created: 20190509221117631
-modified: 20191011174949219
-revision: 0
+modified: 20200621150038916
 tags: Verteilung
 title: Hypergeometrische Verteilung
 type: text/vnd.tiddlywiki
 
-Sei $$K\le N,\ n\le N.$$ Das durch die Zähldichte
+Seien $$K,n\le N.$$ Das durch die Zähldichte
 
 $$
 H(\cdot;n,N,K)\colon\{0,\dots,n\}\to[0,1],\quad

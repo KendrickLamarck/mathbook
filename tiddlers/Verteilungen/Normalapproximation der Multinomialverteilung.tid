@@ -1,0 +1,13 @@
+created: 20200622144943324
+modified: 20200622145426636
+tags: Verteilung no-toc
+title: Normalapproximation der Multinomialverteilung
+type: text/vnd.tiddlywiki
+
+Seien $$(X_i)$$ unabhängige $$E$$-wertige Zufallsvariablen mit identischer Verteilungsdichte $$\rho$$ (siehe [[Multinomialverteilung]]) und
+$$
+h_{n,\rho}^* = \left(\frac{h_n(i) - n \rho(i)}{\sqrt{n\rho(i)}}\right)_{i \in E.}
+$$
+Dann gilt $$h_{n,\rho}^* \xrightarrow{d} \normaldist_\rho.$$
+
+Hierbei sei $$\normaldist_\rho$$ die Standardnormalverteilung auf der Hyperebene $$H_\rho = \{x \in \R^s : \sum \sqrt{\rho(i)}x_i = 0\}$$: Sei $$P_\rho$$ die orthogonale Projektion auf $$H_\rho.$$ Dann ist $$\normaldist_\rho \coloneqq \normaldist^s(0,P_\rho) = \normaldist^s(0,I) \circ P_\rho{}^{-1}.$$ Sie geht alternativ aus $$\normaldist_{0,1}{}^{\otimes n} \otimes \delta_0$$ hervor, indem man die Hyperebene $$x_s = 0$$ auf $$H_\rho$$ dreht.

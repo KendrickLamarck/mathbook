@@ -1,9 +1,8 @@
 created: 20181127154740993
 creator: Leander
 list: [[Stetigkeit von Maßen]] [[Satz von Carathéodory]] [[Eindeutigkeit von Maßen]] Approximationssatz Nullmenge [[Fast überall]] [[Vollständiger Maßraum]] Bildmaß [[Absolutstetigkeit (Maße)]] Dichte [[Diskretes Maß]] Produktmaß Lebesgue-Borel-Maß Wahrscheinlichkeitsmaß
-modified: 20191011180626462
+modified: 20200622195143944
 modifier: Leander
-revision: 0
 tags: Maßtheorie
 title: Maß
 type: text/vnd.tiddlywiki
@@ -22,8 +21,6 @@ $$
 </div>
 
 In diesem Fall heißt das Tripel $$(\Omega,\mathcal F,\mu)$$ ein //Maßraum.//
-
-!! Terminologie
 
 * $$\mu$$ heißt //$$\sigma$$-endlich,// falls eine aufsteigende Folge $$(\Omega_n)_{n\in\mathbb N}$$ von messbaren Teilmengen von $$\Omega$$ existiert mit $$\Omega=\bigcup_{n\in\mathbb N}\Omega_n$$ und $$\mu(\Omega_n)<\infty$$ für jedes $$n\in\mathbb N.$$
 

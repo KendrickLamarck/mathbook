@@ -1,0 +1,10 @@
+created: 20200623233858515
+modified: 20200623234132873
+tags: Surface
+title: Codazzi equation
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a regular parametrized surface with [[Levi-Civita connection |Levi-Civita connection (surfaces)]]$$\nabla$$ and [[shape operator|Shape operator]] $$A.$$ Then
+$$
+(\nabla_X A)Y = (\nabla_Y A)X.
+$$

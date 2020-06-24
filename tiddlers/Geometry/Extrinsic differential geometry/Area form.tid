@@ -1,5 +1,5 @@
 created: 20200617140156562
-modified: 20200617140254249
+modified: 20200624000422715
 tags: Surface no-toc
 title: Area form
 type: text/vnd.tiddlywiki
@@ -10,6 +10,17 @@ On every Riemannian domain $$M,$$ there is a unique [[endomorphism field|Endomor
 * $$J^2 = -I,$$
 * $$(X,JX)$$ is positively oriented for all $$0 \ne X \in \T_p M.$$
 
-$$J$$ is the positive 90&deg;-rotation.
-
 The [[two-form|Differential form]] $$\det(X,Y) \coloneqq \lang JX,Y \rang$$ is called the //area form// of a Riemannian domain $$M.$$
+
+* $$J$$ is the positive 90&deg;-rotation.
+* <div>In terms of the coordinate vector fields, $$J$$ is given by
+$$
+JZ = \frac{
+  \lang U,Z\rang V - \lang V,Z\rang U
+}{
+  \sqrt{\lang U,U\rang \lang V,V\rang - \lang U,V\rang^2}
+}.
+$$</div>
+
+* $$\det$$ is the unique two-form such that $$\det(X,Y) = 1$$ for every positively oriented orthonormal basis $$(X,Y)$$ of any $$\T_p M.$$
+* $$\lang X,Z \rang Y - \lang Y,Z \rang X = \det(X,Y) JZ.$$

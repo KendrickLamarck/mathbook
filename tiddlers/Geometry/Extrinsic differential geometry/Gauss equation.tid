@@ -1,0 +1,11 @@
+created: 20200623234954396
+modified: 20200623235152137
+tags: Surface
+title: Gauss equation
+type: text/vnd.tiddlywiki
+
+For any vector field $$Z \in \Gamma(\T M)$$ on a regular parametrized surface $$f\colon M \to \R^3$$ the //Gauss equation// holds:
+$$
+\nabla_U \nabla_V Z - \nabla_V \nabla_U Z = K \det(U,V)JZ,
+$$
+where $$K = \det A$$ is the [[Gauss curvature]] of $$f.$$

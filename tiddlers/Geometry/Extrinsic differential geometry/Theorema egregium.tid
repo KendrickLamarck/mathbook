@@ -1,0 +1,7 @@
+created: 20200624000546270
+modified: 20200624001827798
+tags: Surface
+title: Theorema egregium
+type: text/vnd.tiddlywiki
+
+Suppose that the parametrized surfaces $$f,\tilde f\colon M \to \R^3$$ induce the same Riemannian metric on $$M.$$ Then $$f$$ and $$\tilde f$$ have the same [[Gauss curvature]] $$K\colon M \to \R.$$

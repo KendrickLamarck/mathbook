@@ -1,0 +1,30 @@
+caption: Levi-Civita connection
+created: 20200623222304657
+modified: 20200624002302419
+tags: Surface
+title: Levi-Civita connection (surfaces)
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M\to \R^3$$ be a regular parametrized surface, $$Y \in \Gamma(\T M)$$ and $$X \in \T_p M.$$ Then $$\d_X \d f(Y)$$ (the ordinary [[directional derivative|Richtungsableitung]]) can be decomposed in a tangent and normal part: The normal part is $$-\lang AX,Y\rang N$$ and the tangent part is of the form $$\d f(Z)$$ for some $$Z \in \T_p M,$$ which we write as $$Z = (\nabla Y)(X) = \nabla_X Y.$$ The linear map
+$$
+\nabla\colon \Gamma(\T M) \to \Gamma(\End \T M),\quad Y \mapsto \nabla Y$$
+is called the [[Levi-Civita connection]] of $$f.$$
+
+The Levi-Civita connection only depends on the Riemannian metric induced by $$f$$: If $$f,\tilde f\colon M \to \R^3$$ are isometric, their Levi-Civita connections are identical.
+
+* For $$X,Y,Z \in \Gamma(\T M)$$ and $$\lambda \in \smooth^\infty(M)$$ we have
+*# $$\nabla_X (\lambda Y) = \lambda \nabla_X Y + (\d_X\lambda) Y,$$
+*# $$\d_X \lang Y,Z \rang = \lang \nabla_X Y,Z \rang + \lang Y,\nabla_X Z\rang,$$
+*# $$\nabla_X (JY) = J \nabla_X Y,$$
+*# $$\d_X \det(Y,Z) = \det(\nabla_X Y,Z) + \det(Y,\nabla_X Z).$$
+* For the coordinate vector fields we have $$\nabla_U V = \nabla_V U.$$
+
+!! For endomorphism fields
+
+If $$B$$ is an endomorphism field on $$M$$ and $$X \in \Gamma(\T M)$$ is a vector field, then there is a unique endomorphism field $$\nabla_X B$$ on $$M$$ such that for all $$Y \in \Gamma(\T M)$$ the following Leibniz rule holds:
+$$
+\nabla_X(BY) = (\nabla_X B)Y + B(\nabla_X Y).
+$$
+In fact, we can rearrange this to find $$\nabla_X B.$$
+
+Using this, the third property above is equivalent to $$\nabla J = 0,$$ meaning $$J$$ is a so-called //parallel// endomorphism field.

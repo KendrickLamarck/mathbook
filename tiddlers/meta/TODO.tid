@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200619125428709
+modified: 20200624125824249
 modifier: Leander
 tags: meta
 title: TODO
@@ -16,6 +16,7 @@ type: text/vnd.tiddlywiki
 ** Organize plane curves (distinct from space curves?)
 ** Exterior algebra: Linear algebar, Algebra or differential geometry?
 ** Distinguish the different types of normal fields / normal vectors etc. better
+** Change some names (with parentheses) maybe, now that it's possible with relink
 
 * We don't want to commit changes where only the //modified// field has changed.
 

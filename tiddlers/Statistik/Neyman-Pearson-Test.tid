@@ -1,5 +1,5 @@
 created: 20200602190919926
-modified: 20200614204725872
+modified: 20200624224903021
 tags: Test
 title: Neyman-Pearson-Test
 type: text/vnd.tiddlywiki
@@ -30,7 +30,8 @@ und sonst
 $$
 \varphi\bigr|_{\{R = c\}} \equiv
   \frac{\alpha-\prob_0(R>c)}
-    {\prob_0(R=c)}.
-$$</div>
+    {\prob_0(R=c)}
+$$
+mit $$c = \inf\{t \in \R\mid \prob_0(R \ge t)<\alpha\}.$$</div>
 * Jeder Neyman-Pearson-Test mit $$\expect_0[\varphi]=\alpha$$ ist ein gleichmäßig bester Test zum Niveau $$\alpha.$$
-* Für jeden anderen gleichmäßig besten Test $$\psi$$ zum Niveau $$\alpha$$ gilt $$\varphi=\psi$$ $$\mu$$-f.s. in $$\{R\ \ne c\}.$$ Jeder gleichmäßig beste Test ist also f.s. ein Neyman-Pearson-Test.
+* Für jeden anderen gleichmäßig besten Test $$\psi$$ zum Niveau $$\alpha$$ gilt $$\varphi=\psi$$ $$\mu$$-f.s. in $$\{R\ \ne c\}.$$ Jeder gleichmäßig beste Test ist auf dieser Menge also f.s. ein Neyman-Pearson-Test.

@@ -1,12 +1,12 @@
 created: 20200511202436030
-modified: 20200528222241560
+modified: 20200624224216141
 tags: Statistik
 title: Quantil
 type: text/vnd.tiddlywiki
 
 Sei $$Q$$ ein Wahrscheinlichkeitsmaß auf $$(\R,\mathcal B(\R))$$ und $$\alpha \in {]0,1[}.$$ Dann heißt jede Zahl $$q \in \R$$ mit
 $$
-Q(\,\lopenI{-\infty,q}\,) \le \alpha, \qquad
+Q(\,\lopenI{-\infty,q}\,) \ge \alpha, \qquad
 Q(\,[q,\infty[\,) \ge 1-\alpha
 $$
 ein //$$\alpha$$-Quantil// von $$Q.$$

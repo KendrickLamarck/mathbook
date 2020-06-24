@@ -1,10 +1,10 @@
 created: 20200512204246638
 creator: Leander
 list: [[Fundamental lemma of calculus of variations]] [[Geodesics and variations]] [[Bending energy]] [[Free elastic curve]] [[Elastic curve]] [[Dirichlet energy]]
-modified: 20200530152802666
+modified: 20200624162000227
 modifier: Leander
 tags: Curve
-title: Variation
+title: Variation (curve)
 type: text/vnd.tiddlywiki
 
 A //variation// of a curve $$\gamma_0$$ is a smooth map $$\varphi\colon [a,b] \times \openI{-\varepsilon,\varepsilon} \to \R^2$$ such that $$\gamma_0(x) = \varphi(x,0).$$ The vector field

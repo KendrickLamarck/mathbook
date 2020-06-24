@@ -1,0 +1,25 @@
+created: 20200624162304791
+modified: 20200624172516200
+tags: [[Discrete differential geometry]]
+title: Discrete harmonic function
+type: text/vnd.tiddlywiki
+
+A discrete function $$f \in \R^V$$ is called //harmonic,// if
+$$
+\left.\fracderiv{}{t}\right|_{t=0} E_\D(f_t) =(Lf)(X) = 0
+$$
+for all compactly supported [[variations|Variation (discrete function)]] $$t \mapsto f_t$$ of $$f.$$
+
+''Theorem.''
+$$f$$ is harmonic if and only if
+$$
+f_i = \sum_{j\colon \{i,j\} \in E} \frac{
+  \omega_{ij}
+}{
+  \sum_{k\colon \{i,k\} \in E} \omega_{ik}
+} f_j
+$$
+for all $$i \in \mathring V = V \setminus V_\partial.$$ Because the weights can be negative, the right hand side is not necessarily a convex combination.
+
+* If $$\partial M = \varnothing,$$ then $$f$$ is harmonic if and only if $$f$$ is constant.
+* For each $$g \in \R^{V_\partial}$$ there is a unique harmonic $$f \in \R^V$$ such that $$f|_{V_\partial} = g.$$

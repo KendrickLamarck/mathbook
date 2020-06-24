@@ -1,5 +1,5 @@
 created: 20200421201837119
-modified: 20200429193457978
+modified: 20200624140610419
 tags: [[Combinatorial topology]]
 title: Simplicial complex
 type: text/vnd.tiddlywiki
@@ -15,11 +15,13 @@ An element $$S \in \mathcal S$$ is called a //simplex// of $$\mathcal S$$ of dim
 * One-dimensional simplices are called //edges,// two-dimensional ones are called //triangles// and three-dimensional ones are called //tetrahedra.//
 * one- and two-dimensional simplicial complices are special one- and two-dimensional [[cell complices|Cell complex]].
 
-A simplicial complex comes with a canonical piecewise affine structure: Let $$\mathcal S$$ be a simplicial complex with vertex set $$V.$$ Define the piecewise affine space $$C(\mathcal S)$$ as the set of all functions $$f\colon V \to [0,\infty[$$ such that
+A simplicial complex comes with a canonical piecewise affine structure: Let $$\mathcal S$$ be a simplicial complex with vertex set $$V.$$ Define the piecewise affine space $$C(\mathcal S)$$ as
 
-$$
-\sum_{i \in V} f(i) = 1 \text{ and }
-\{i \in V \mid f(i) \ne 0\} \in \mathcal S.
+$$\Bigl\{
+  f\colon V \to \ropenI{0,\infty} \Bigm|
+  \sum_{i \in V} f(i) = 1 \text{ and }
+  \{i \in V \mid f(i) \ne 0\} \in \mathcal S
+\Bigr\}.
 $$
 
 For each simplex $$S \in \mathcal S$$ we define an affine space
@@ -34,7 +36,7 @@ $$
 The corresponding vector space is
 
 $$
-V_S \coloneqq \Bigl\{
+\mathcal V_S \coloneqq \Bigl\{
   g\colon V \to \R \Bigm|\sum_{i \in V} g(i) = 0, \text{ and }
   i \notin S \implies g(i) = 0
 \Bigr\}
@@ -50,7 +52,7 @@ $$
 
 * The whole space $$C(\mathcal S)$$ is the disjoint union of all the interiors of the simplices $$\varSigma$$ for $$S \in \mathcal S.$$
 * If $$S \in \mathcal S$$ and $$T \subseteq S,$$ then $$\mathcal A_T$$ is an affine subspace of $$\mathcal A_S$$ and $$\varSigma_T \subseteq \varSigma_S.$$
-* Each point $$i \in V$$ corresponds to a particular element $$\delta_i \in C(\mathcal S)$$ defined by $$\delta_i(j) = \delta_{ij}.$$ We have $$\mathcal A_{\{p\}} = \varSigma_{\{i\}} = \{\delta_i\}.$$
+* Each point $$i \in V$$ corresponds to a particular element $$\delta_i \in C(\mathcal S)$$ defined by $$\delta_i(j) = \delta_{ij}.$$ We have $$\mathcal A_{\{p\}} = \varSigma_{\{i\}} = \{\delta_i\}.$$ The $$\delta_i$$ are a basis of $$\R^V.$$
 
 ''Theorem.''
 Let $$\mathcal S$$ be a simplicial complex with point set $$V$$ and let $$f\colon V \to W$$ be a map into any vector space $$W.$$ then there is a unique map $$\hat f\colon C(\mathcal S) \to W$$ whose restriction to each simplex $$\varSigma_S$$ is affine and which extends $$f$$ in the sense that for all $$i \in V$$ we have

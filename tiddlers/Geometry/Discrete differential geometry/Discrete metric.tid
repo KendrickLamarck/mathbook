@@ -1,0 +1,11 @@
+created: 20200624140725272
+modified: 20200624150004137
+tags: [[Combinatorial topology]] [[Discrete differential geometry]]
+title: Discrete metric
+type: text/vnd.tiddlywiki
+
+A //discrete metric// on a simplicial surface $$M$$ is a map $$\ell$$ which assigns to each edge $$ij$$ an edge length $$\ell_{ij} = \ell_{ji} > 0$$ such that all triangle inequalities are satisfied:
+$$
+\ell_{ij} + \ell_{jk} + \ell_{ki} > 0\qquad \forall\, ijk \in F.
+$$
+This defines an inner product on every $$\mathcal V_F,$$ which allows us to define gradients of functions on the faces and to integrate by summing integrals over faces.

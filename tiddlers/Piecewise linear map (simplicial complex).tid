@@ -1,0 +1,14 @@
+created: 20200624135947742
+modified: 20200624161552885
+tags: [[Combinatorial topology]]
+title: Piecewise linear map (simplicial complex)
+type: text/vnd.tiddlywiki
+
+Let $$M$$ be a [[simplicial complex|Simplicial complex]]. The space of piecewise linear maps $$W_\mathrm{PL}$$ is the space of functions $$g\colon C(M) \to \R$$ such that $$g|_{\mathcal A_S}$$ is linear for every simplex $$S \in M.$$
+
+* <div>We can identify $$\R^V \cong W_\mathrm{PL}$$ by
+$$
+\R^V \ni f \mapsto \hat f = \sum_{i \in V} f_i x_i \in W_\mathrm{PL},
+$$
+where the $$x_i$$ are the [[hat functions|Hat function]].</div>
+* For the [[Dirichlet energy|Discrete Dirichlet energy]] holds $$E_\D(f) = E_\D(\hat f).$$

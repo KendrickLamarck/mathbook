@@ -1,0 +1,7 @@
+created: 20200624134922282
+modified: 20200624150852924
+tags: [[Combinatorial topology]]
+title: Hat function
+type: text/vnd.tiddlywiki
+
+Let $$M=(V,E,F)$$ be a [[simplicial surface|Simplicial complex]]. Let $$\{\delta_i\} \subset C(M)$$ be the "standard" basis of $$\R^V$$ with corresponding dual basis $$\{\delta_i^*\}.$$ Then each element $$\delta_i^*$$ restricts to a [[piecewise linear|Piecewise linear map (simplicial complex)]] function $$x_i\colon C(M) \to \R,$$ such that $$x_i(\delta_j) = \delta_i^*(\delta_j) = \delta_{ij}.$$ Call this the //hat function// of the vertex $$i.$$

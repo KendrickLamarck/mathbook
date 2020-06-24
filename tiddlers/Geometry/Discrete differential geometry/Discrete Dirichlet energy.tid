@@ -1,0 +1,22 @@
+created: 20200624152319961
+modified: 20200624170922396
+tags: [[Discrete differential geometry]]
+title: Discrete Dirichlet energy
+type: text/vnd.tiddlywiki
+
+Let $$\triangle \subset\R^2$$ be a Euclidean triangle with vertex positions $$p_1,p_2,p_3$$ and let $$\theta_{ij} \in \openI{0,2\pi}$$ denote the interior angle at vertex $$p_k$$ opposite edge $$ij.$$ Then the Dirichlet energy of an affine function $$g\colon\triangle \to \R$$ with $$g(p_i) = g_i$$ is given by
+$$
+E_\D(f) = \frac 1 4 \sum_{i<j} \cot\theta_{ij}(g_i-g_j)^2.
+$$
+Now let $$M = (V,E,F)$$ be a whole simplicial surface with metric $$\ell.$$ Define for each triangle $$\{i,j,k\} \in F$$ the interior angle $$\theta_{ij}^k$$ of $$\{i,j,k\}$$ at vertex $$k.$$ The //discrete Dirichlet energy// of $$f \in \R^V$$ is then defined by
+$$
+E_\D(f) = \frac 1 2 \sum_{\{i,j\} \in E} \omega_{ij}(f_i-f_j)^2,\quad
+\omega_{ij} = \frac 1 2 \sum_{\{i,j,k\} \in F} \cot\theta_{ij}^k.
+$$
+The $$\omega_{ij}$$ are called the //cotangent weights// of the edge $$\{i,j\}.$$
+
+The discrete Dirichlet energy is a quadratic form on $$\R^V,$$ so there [[exists a unique symmetric linear map|Bilinearformen und duale Abbildungen]] $$L\colon \R^V \to \left(\R^V\right)^*$$ which satisfies $$E_\D(f) = \frac 1 2 (Lf)(f).$$ If $$f = \sum f_i\delta_i,$$ then $$Lf = \sum (Lf)_i\delta_i^*,$$ where
+$$
+(Lf)_i = \sum_{j\colon \{i,j\} \in E} \omega_{ij}(f_i - f_j).
+$$
+$$L$$ is positive semidefinite with $$\ker L$$ being the constant functions, or in other words, $$E_\D(f) \ge 0$$ and $$E_\D(f) = 0$$ if and only if $$f$$ is constant.

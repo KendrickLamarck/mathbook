@@ -1,0 +1,11 @@
+created: 20200624170553176
+modified: 20200624170912695
+tags: [[Discrete differential geometry]]
+title: Cotangent weights
+type: text/vnd.tiddlywiki
+
+Let $$M = (V,E,F)$$ be a simplicial surface with metric $$\ell.$$ Define for each triangle $$\{i,j,k\} \in F$$ the interior angle $$\theta_{ij}^k$$ of $$\{i,j,k\}$$ at vertex $$k.$$ The //cotangent weights// of an edge $$\{i,j\} \in E$$ is given by
+$$
+\omega_{ij} = \frac 1 2 \sum_{\{i,j,k\} \in F} \cot\theta_{ij}^k.
+$$
+$$\omega_{ij}\ell_{ij}$$ is the signed distance between the circumcenters of the faces adjacent to $$ij.$$ If $$\omega_{ij} > 0$$ for all edges $$ij,$$ then the simplicial surface is called //Delaunay.//

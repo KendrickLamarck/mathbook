@@ -1,17 +1,20 @@
 created: 20180725181904424
 creator: Leander
-modified: 20180725190549247
+modified: 20200624163618568
 modifier: Leander
-revision: 0
 tags: Dualraum Bilinearform
 title: Bilinearformen und duale Abbildungen
+type: text/vnd.tiddlywiki
 
-* Sei $$\langle\cdot,\cdot\rangle\colon V\times V\to K$$ eine [[nicht ausgeartete|Ausartungsraum]] [[symmetrische|Symmetrische Form]] [[Bilinearform]]. Dann ist die Abbildung $$
+Sei $$\langle\cdot,\cdot\rangle\colon V\times V\to K$$ eine [[nicht ausgeartete|Ausartungsraum]] [[symmetrische|Symmetrische Form]] [[Bilinearform]]. Dann ist die Abbildung
+$$
 \Psi\colon V\to V^*,\quad v\mapsto\Psi(v)\coloneqq\langle v,\cdot\rangle
-$$ ein [[Isomorphismus]].
+$$
+ein [[Isomorphismus]]. Die //adjungierte Abbildung// $$\Psi^*\colon V^{**}=V\to V^*$$ erfüllt $$\Psi^*=\Psi.$$
 
-* Die //adjungierte Abbildung// $$\Psi^*\colon V^{**}=V\to V^*$$ erfüllt $$\Psi^*=\Psi.$$
-
-* Ist umgekehrt $$\Psi\colon V\to V^*$$ irgendein Isomorphismus mit $$\Psi^*=\Psi,$$ dann definiert $$
-\langle\cdot,\cdot\rangle_\Psi\colon V\times V\to K,\quad (v,w)\mapsto \Psi(v)(w)
-$$ eine nicht entartete symmetrische Bilinearform.
+Ist umgekehrt $$\Psi\colon V\to V^*$$ irgendein Isomorphismus mit $$\Psi^*=\Psi,$$ dann definiert
+$$
+\langle\cdot,\cdot\rangle_\Psi\colon V\times V\to K,\quad
+(v,w)\mapsto \Psi(v)(w)
+$$
+eine nicht entartete symmetrische Bilinearform. Ist $$\langle\cdot,\cdot\rangle_\Psi$$ symmetrisch, so nennen wir auch $$\Psi$$ symmetrisch.

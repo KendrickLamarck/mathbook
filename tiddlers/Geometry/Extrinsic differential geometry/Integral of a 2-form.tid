@@ -1,10 +1,10 @@
 created: 20200611180311869
-modified: 20200611185625681
+modified: 20200625165536035
 tags: Surface no-toc
 title: Integral of a 2-form
 type: text/vnd.tiddlywiki
 
-The integral of a [[2-form|Differential form]] $$\sigma$$ on a compact connected domain with smooth boundary $$M \subset \R^2$$ is defined as
+The integral of a [[2-form|Differential form]] $$\sigma$$ on a compact, connected domain $$M \subset \R^2$$ with smooth boundary is defined as
 $$
 \int_M \sigma \coloneqq \int_M \sigma(U,V),
 $$

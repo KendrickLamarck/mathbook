@@ -1,7 +1,7 @@
 caption: Surfaces
 created: 20200603134649845
-list: [[Riemannian domain]] [[Area form]] [[Integral of a 2-form]] [[Integrals on Riemannian domains]] [[Covered area form]] [[Riemannian metric on surfaces]] [[Normal field (surfaces)]] [[Covered area form of the normal field]] [[Shape operator]] [[Directional curvature]] [[Principal curvature]] [[Mean curvature]] [[Gauss curvature]] [[Umbilic point]] [[Minimal surface]]
-modified: 20200617195527482
+list: [[Riemannian domain]] [[Area form]] [[Integral of a 2-form]] [[Integrals on Riemannian domains]] [[Covered area form]] [[Riemannian metric on surfaces]] [[Normal field (surfaces)]] [[Covered area form of the normal field]] [[Curvature (surfaces)]] [[Levi-Civita connection (surfaces)]] [[Codazzi equation]] [[Gauss equation]] [[Minimal surface]]
+modified: 20200625171513452
 tags: [[Extrinsic differential geometry]]
 title: Surface
 type: text/vnd.tiddlywiki

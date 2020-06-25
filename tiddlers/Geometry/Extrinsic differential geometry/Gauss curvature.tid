@@ -1,6 +1,6 @@
 created: 20200617150858360
-modified: 20200617151103060
-tags: Surface
+modified: 20200625171405469
+tags: [[Curvature (surfaces)]]
 title: Gauss curvature
 type: text/vnd.tiddlywiki
 
@@ -9,3 +9,6 @@ $$
 K\colon M \to \R,\quad K(p) \coloneqq \det A_p = \kappa_1(p) \kappa_2(p)
 $$
 is called the //Gaussian curvature// of $$f.$$
+
+''Theorem (Theorema egregium).''
+{{Theorema egregium}}

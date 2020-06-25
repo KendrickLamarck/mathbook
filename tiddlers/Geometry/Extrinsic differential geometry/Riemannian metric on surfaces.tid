@@ -1,11 +1,11 @@
 caption: Induced metric from a surface
 created: 20200613135045459
-modified: 20200617135733653
+modified: 20200625160523801
 tags: Surface
 title: Riemannian metric on surfaces
 type: text/vnd.tiddlywiki
 
-For a smooth map $$f\colon M \to \R^n,$$ we define the induced Riemannian metric $$\lang\cdot,\cdot\rang_f$$ on $$M$$ as the [[pullback|Pullback of Riemannian metrics]] $$f^*\lang\cdot,\cdot\rang$$ of the standard Riemannian metric on $$\R^n,$$ i.e. for $$X,Y \in \T_p M$$
+For a regular parametrized surface $$f\colon M \to \R^n,$$ we define the induced Riemannian metric $$\lang\cdot,\cdot\rang_f$$ on $$M$$ as the [[pullback|Pullback of Riemannian metrics]] $$f^*\lang\cdot,\cdot\rang$$ of the standard Riemannian metric on $$\R^n,$$ i.e. for $$X,Y \in \T_p M$$
 $$
 \lang X,Y \rang_f = \lang \d f(X), \d f(Y) \rang.
 $$

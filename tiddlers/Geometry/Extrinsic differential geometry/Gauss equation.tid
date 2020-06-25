@@ -1,11 +1,14 @@
 created: 20200623234954396
-modified: 20200623235152137
-tags: Surface
+modified: 20200625171030418
+tags: Surface no-toc
 title: Gauss equation
 type: text/vnd.tiddlywiki
 
 For any vector field $$Z \in \Gamma(\T M)$$ on a regular parametrized surface $$f\colon M \to \R^3$$ the //Gauss equation// holds:
 $$
-\nabla_U \nabla_V Z - \nabla_V \nabla_U Z = K \det(U,V)JZ,
+\nabla_U \nabla_V Z - \nabla_V \nabla_U Z = -K \det(U,V)JZ,
 $$
-where $$K = \det A$$ is the [[Gauss curvature]] of $$f.$$
+where $$K = \det A$$ is the [[Gauss curvature]] of $$f$$ and $$\nabla$$ is the Levi-Civita connection. For arbitrary vector fields $$X,Y,Z$$:
+$$
+(\nabla_X(\nabla Z))(Y) - (\nabla_Y(\nabla Z))(X) = -K \det(X,Y) JZ.
+$$

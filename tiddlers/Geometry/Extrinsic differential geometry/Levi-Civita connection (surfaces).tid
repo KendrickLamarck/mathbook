@@ -1,6 +1,6 @@
 caption: Levi-Civita connection
 created: 20200623222304657
-modified: 20200624002302419
+modified: 20200625162948887
 tags: Surface
 title: Levi-Civita connection (surfaces)
 type: text/vnd.tiddlywiki
@@ -10,21 +10,46 @@ $$
 \nabla\colon \Gamma(\T M) \to \Gamma(\End \T M),\quad Y \mapsto \nabla Y$$
 is called the [[Levi-Civita connection]] of $$f.$$
 
-The Levi-Civita connection only depends on the Riemannian metric induced by $$f$$: If $$f,\tilde f\colon M \to \R^3$$ are isometric, their Levi-Civita connections are identical.
-
 * For $$X,Y,Z \in \Gamma(\T M)$$ and $$\lambda \in \smooth^\infty(M)$$ we have
 *# $$\nabla_X (\lambda Y) = \lambda \nabla_X Y + (\d_X\lambda) Y,$$
 *# $$\d_X \lang Y,Z \rang = \lang \nabla_X Y,Z \rang + \lang Y,\nabla_X Z\rang,$$
 *# $$\nabla_X (JY) = J \nabla_X Y,$$
-*# $$\d_X \det(Y,Z) = \det(\nabla_X Y,Z) + \det(Y,\nabla_X Z).$$
+*# $$\d_X {\det(Y,Z)} = \det(\nabla_X Y,Z) + \det(Y,\nabla_X Z).$$
 * For the coordinate vector fields we have $$\nabla_U V = \nabla_V U.$$
+
+The Levi-Civita connection only depends on the Riemannian metric induced by $$f$$: If $$f,\tilde f\colon M \to \R^3$$ are [[isometric|Riemannian metric on surfaces]], their Levi-Civita connections are identical.
+
+The Levi-Civita connection can be computed using the formulas
+$$\begin{aligned}
+\lang \nabla_U U,U \rang
+  &= \tfrac 1 2 \d_U \lang U,U \rang \\
+\lang \nabla_U U,V \rang
+  &= \d_U \lang U,V \rang - \tfrac 1 2 \d_V \lang U,U \rang \\
+\lang \nabla_U V,U \rang = \lang \nabla_V U,U \rang
+  &= \tfrac 1 2 \d_V \lang U,U \rang \\
+\lang \nabla_U V,V \rang = \lang \nabla_V U,V \rang
+  &= \tfrac 1 2 \d_U\lang V,V\rang,
+\end{aligned}$$
+where $$\nabla_V V$$ can be computed similarly to $$\nabla_U U.$$
 
 !! For endomorphism fields
 
-If $$B$$ is an endomorphism field on $$M$$ and $$X \in \Gamma(\T M)$$ is a vector field, then there is a unique endomorphism field $$\nabla_X B$$ on $$M$$ such that for all $$Y \in \Gamma(\T M)$$ the following Leibniz rule holds:
+If $$B$$ is an endomorphism field on a surface $$M$$ with Levi-Civita connection $$\nabla$$ and $$X \in \Gamma(\T M)$$ is a vector field, then there is a unique endomorphism field $$\nabla_X B$$ on $$M$$ such that for all $$Y \in \Gamma(\T M)$$ the following Leibniz rule holds:
 $$
 \nabla_X(BY) = (\nabla_X B)Y + B(\nabla_X Y).
 $$
-In fact, we can rearrange this to find $$\nabla_X B.$$
+In fact, we can rearrange this to find $$\nabla_X B$$ (see [[Connections on tensor bundles]] for the general version).
 
 Using this, the third property above is equivalent to $$\nabla J = 0,$$ meaning $$J$$ is a so-called //parallel// endomorphism field.
+
+''Theorem (Codazzi equation).''
+{{Codazzi equation}}
+
+!! Relation to the Gauss curvature
+
+{{Gauss equation}}
+
+From the fact that the Levi-Civita connection only depends on the metric together with the Gauss equation follows the following most excellent theorem:
+
+''Theorem (Theorema egregium).''
+{{Theorema egregium}}

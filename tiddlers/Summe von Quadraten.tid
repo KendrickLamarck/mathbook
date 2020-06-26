@@ -1,0 +1,9 @@
+created: 20200626151613374
+modified: 20200626151736879
+tags: misc
+title: Summe von Quadraten
+type: text/vnd.tiddlywiki
+
+$$
+\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6}
+$$

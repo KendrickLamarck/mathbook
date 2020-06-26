@@ -1,8 +1,8 @@
 created: 20190609152159018
-modified: 20191112212647051
-revision: 0
+modified: 20200626132809358
 tags: Varianz no-toc
 title: Identität von Bienaymé
+type: text/vnd.tiddlywiki
 
 Sind quadratintegrierbare [[Zufallsvariablen|Zufallsvariable]] $$X_1,\dots,X_n$$ gegeben, so gilt
 
@@ -11,7 +11,7 @@ $$
 \sum\operatorname{Var}(X_i)+\sum_{i\ne j}\operatorname{Cov}(X_i,X_j).
 $$
 
-Sind $$X_1,\dots,X_n$$ insbesondere paarweise [[unkorelliert|Kovarianz]], so gilt
+Sind $$X_1,\dots,X_n$$ insbesondere paarweise [[unkorelliert|Kovarianz]] (oder unabhängig), so gilt
 
 $$
 \operatorname{Var}(X_1+\dots+X_n)=

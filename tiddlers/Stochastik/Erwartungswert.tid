@@ -1,25 +1,23 @@
 created: 20181218161741985
 list: [[Schwaches Gesetz der großen Zahlen]] [[Starkes Gesetz der großen Zahlen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]] [[Bedingte Erwartung]] Erwartungswertvektor Moment
-modified: 20200601181041435
+modified: 20200626133040520
 modifier: Leander
 tags: Stochastik
 title: Erwartungswert
 type: text/vnd.tiddlywiki
 
-Ist $$\Bbb P$$ ein [[Wahrscheinlichkeitsmaß]], so schreiben wir auch $$\Bbb E(X)$$ oder $$\Bbb E_\Bbb P(X)$$ statt $$\int X\,\mathrm d\Bbb P$$ und nennen $$\Bbb E(X)$$ den //Erwartungswert// der reellen [[Zufallsgröße|Zufallsvariable]] $$X.$$
+Ist $$\prob$$ ein [[Wahrscheinlichkeitsmaß]], so schreiben wir auch $$\expect(X)$$ oder $$\expect_\prob(X)$$ statt $$\int X\,\d\prob$$ und nennen $$\expect(X)$$ den //Erwartungswert// der reellen [[Zufallsgröße|Zufallsvariable]] $$X.$$
 
 * <div>Ist $$X$$ diskret mit Werten $$x_n,$$ so gilt insbesondere
-
 $$
-\Bbb E(X)=\sum_n x_n \Bbb P(X=x_n).
-$$</div>
-
-* <div>Ist $$X$$ eine Zufallsvariable mit integrierbarer [[Dichte]] $$f,$$ so existiert $$\Bbb E(X)\in\Bbb R$$ und es gilt
-
+\expect(X)=\sum_n x_n \prob(X=x_n).
 $$
-\Bbb E(X)=\int_\Bbb R x f(x)\,\mathrm dx,
+Es handelt sich also um den nach Wahrscheinlichkeit gewichteten Mittelwert.</div>
+
+* <div>Ist $$X$$ eine Zufallsvariable mit integrierbarer [[Dichte]] $$f,$$ so existiert $$\expect(X)\in\R$$ und es gilt
 $$
+\expect(X)=\int_\R x f(x)\,\d x,
+$$
+falls $$\int_\R |x| f(x)\,\d x<\infty.$$</div>
 
-falls $$\int_\Bbb R |x| f(x)\,\mathrm dx<\infty.$$</div>
-
-* Falls $$X$$ und $$Y$$ unabhängig sind, so gilt $$\E(XY)=\E(X)\E(Y).$$
+* Falls $$X$$ und $$Y$$ unabhängig sind, so gilt $$\expect(XY)=\E(X)\expect(Y).$$

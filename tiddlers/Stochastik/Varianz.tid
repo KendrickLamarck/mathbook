@@ -1,5 +1,5 @@
 created: 20190523220803270
-modified: 20200507120433847
+modified: 20200626132443367
 tags: Stochastik
 title: Varianz
 type: text/vnd.tiddlywiki
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 Sei $$X$$ eine reellwertige [[Zufallsvariable]] mit endlichem [[Erwartungswert]] $$|\Bbb E(X)|<\infty.$$ Dann heißt die mittlere quadratische Abweichung von $$X$$ um ihren Erwartungswert
 
 $$
-V(X) = \Bbb V[X] \coloneqq\Bbb E\left((X-\Bbb E(X))^2\right)\in [0,\infty]
+V(X) = \Bbb V[X] = \Var[X] \coloneqq\Bbb E\left((X-\Bbb E(X))^2\right)\in [0,\infty]
 $$
 
 die //Varianz// der Zufallsvariablen $$X.$$

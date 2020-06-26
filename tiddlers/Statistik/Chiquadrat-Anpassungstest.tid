@@ -1,5 +1,5 @@
 created: 20200622131843622
-modified: 20200622225502098
+modified: 20200625205119255
 tags: Test
 title: Chiquadrat-Anpassungstest
 type: text/vnd.tiddlywiki
@@ -43,7 +43,7 @@ D_{n,\rho} &\coloneqq
 n \sum_{i=1}^s \rho(i) \left( \frac{l_n(i)}{\rho(i)} -1 \right)^2 \\ &=
 n \sum_{i=1}^s \frac{l_n(i)^2}{\rho(i)} - n.
 \end{aligned}$$
-(die letzte Form eignet sich gut zur Berechnung). Es gilt $$D_{n,\rho} = \|h_{n,\rho}^*\|,$$ siehe [[Normalapproximation der Multinomialverteilung]]. $$\varphi_n = \mathbf 1_{\{D_{n,\rho} > c\}}$$ ist dann der //Chiquadrat-Anpassungstest// für $$c>0$$ nach $$n$$ Beobachtungen.
+Die letzte Form eignet sich gut zur Berechnung. Es gilt $$D_{n,\rho} = \|h_{n,\rho}^*\|,$$ siehe [[Normalapproximation der Multinomialverteilung]]. $$\varphi_n = \mathbf 1_{\{D_{n,\rho} > c\}}$$ ist dann der //Chiquadrat-Anpassungstest// für $$c>0$$ nach $$n$$ Beobachtungen.
 
 * <div>Auf der Nullhypothese stimmen die Tests asymptotisch überein:
 $$

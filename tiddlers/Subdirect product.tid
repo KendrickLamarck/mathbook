@@ -1,0 +1,20 @@
+created: 20200606181814334
+modified: 20200628203259311
+tags: Gruppe
+title: Subdirect product
+type: text/vnd.tiddlywiki
+
+Consider two Groups $$G_1$$ and $$G_2$$ and their direct product $$G_1 \times G_2.$$ A subgroup $$K < G_1 \times G_2$$ is called a //subdirect product// if for both projection maps are surjective.
+
+A Generalization of this is the //fiber product:// Let $$N_i \lhd G_i$$ be normal subgroups such that there exists an isomorphism $$\varphi\colon G_1/N_1 \to G_2/N_2.$$ Then
+$$
+K_\varphi \coloneqq \{\,
+  (g_1,g_2) : \varphi(g_1 N_1) = g_2 N_2
+\,\}
+$$
+is a subdirect product.
+
+''Lemma (Goursat).''
+Suppose $$K < G_1 \times G_2$$ is a subdirect product, then consider $$K_i \coloneqq \ker \pi_j = K \cap G_i$$ (for $$i \ne j$$). We have $$K_i \lhd G_i$$ and there exists an isomorphism $$\varphi\colon G_1/K_1 \to G_2/K_2.$$ such that $$K$$ is the fiber product $$K_\varphi.$$
+
+If $$K_i = G_i$$ then $$K_j = G_j$$ and $$K = G_1 \times G_2.$$

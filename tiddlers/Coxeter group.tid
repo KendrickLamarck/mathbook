@@ -1,0 +1,9 @@
+created: 20200606193641352
+modified: 20200628203259289
+tags: Gruppe
+title: Coxeter group
+type: text/vnd.tiddlywiki
+
+The //Coxeter group// is the finitely presented group $$\lang S \mid R\rang,$$ where the relators are the elements $$s_i{}^2$$ and $$(s_i s_j)^{m_{ij}}$$ when $$m_{ij} < \infty$$ (we can also set $$m_{ij} = \infty.$$)
+
+The Coxeter groups of rank two (i.e. with two generators) are exactly the dihedral groups $$D_m$$ and $$D_\infty.$$

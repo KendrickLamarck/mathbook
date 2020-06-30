@@ -1,0 +1,11 @@
+created: 20200630220558559
+modified: 20200630221133956
+tags: Analysis
+title: Variation (smooth function)
+type: text/vnd.tiddlywiki
+
+A //variation// of a smooth map $$\varphi\colon \R^3 \to \R$$ is a smooth function $$\openI{-\varepsilon,\varepsilon} \times \R^3 \to \R,\ (t,x) \mapsto \varphi_t(x)$$ such that $$\varphi_0 = \varphi.$$ For a variation $$\varphi_t$$ we define $$\dot\varphi\colon \R^3 \to \R^3$$ by
+$$
+\dot\varphi(x) = \left.\fracderiv{}{t}\right|_{t=0} \varphi_t(x).
+$$
+We say the variation $$\varphi_t$$ has compact support, if $$\dot\varphi$$ has compact support. For each function $$g$$ there is a variation such that $$\dot\varphi = g.$$

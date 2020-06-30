@@ -1,12 +1,12 @@
 created: 20200616184153529
-modified: 20200622144942888
+modified: 20200629163227142
 tags: Verteilung
 title: Multinomialverteilung
 type: text/vnd.tiddlywiki
 
-Sei $$\varOmega = {\left\{(k_a) \in \Z_{>0}^E : \sum k_a = n\right\}},$$ $$E$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,p}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
+Sei $$\varOmega = {\left\{(k_a) \in \Z_{>0}^E : \sum k_a = n\right\}},$$ $$E$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,\rho}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
 $$
-M_{n,p}\{k\} = \binom{n}{k} \prod_{a \in E} \rho(a)^{k_a},\quad k = (k_a)_{a \in E}
+M_{n,\rho}\{k\} = \binom{n}{k} \prod_{a \in E} \rho(a)^{k_a},\quad k = (k_a)_{a \in E}
 $$
 (Siehe auch [[Multinomialkoeffizient]]) heißt //Multinomialverteilung// für $$n$$ Stichproben mit Erfolgswahrscheinlichkeiten $$\rho(a).$$
 

@@ -1,10 +1,12 @@
 created: 20200622220847032
-modified: 20200622225424824
+creator: Leander
+modified: 20200629183754543
+modifier: Leander
 tags: Test
-title: Test auf Unabhängigkeit
+title: Chiquadrat-Test auf Unabhängigkeit
 type: text/vnd.tiddlywiki
 
-Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes n},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
+Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes \N},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
 
 * $$E = A \times B,$$ wobei $$A = \{1,\dots,a\},\ B = \{1,\dots,b\}.$$
 * $$\varTheta = \{\vartheta = (\vartheta(ij)) \in \openI{0,1}^E : \sum \vartheta(ij) = 1\},$$
@@ -32,7 +34,7 @@ und $$l_n^B,h_n^A,h_n^B$$ analog.
 ''Ansatz 1.''
 Der verallgemeinerte Likelihood-Quotient
 $$
-R_n = \frac{
+R_n \coloneqq \frac{
   \sup_{\vartheta \in \varTheta_1}
   \prod_{ij \in E} \vartheta(ij)^{h_n(ij)}
 }{
@@ -60,6 +62,20 @@ n\sum_{ij \in E} l_n^A(i) l_n^B(j)
 \left(\frac{l_n(ij)}{l_n^A(i) l_n^B(j)}-1\right)^2 \\ &=
 n\sum_{ij \in E}\frac{l_n(ij)^2}{l_n^A(i)l_n^B(j)} - n
 \end{aligned}$$
-(die letzte Form eignet sich gut zur Berechnung). Ein Test $$\varphi_n = \mathbf 1_{\{D_n > c\}}$$ heißt dann ein //Chiquadrat-Test auf Unabhängigkeit// nach $$n$$ Beobachtungen.
+(die letzte Form eignet sich gut zur Berechnung). Definieren wir
+$$
+\tilde h_n = \left(
+  \frac{h_n(ij) - n\, l_n^A(i) l_n^B(j)}{\sqrt{n\, l_n^A(i) l_n^B(j)}}
+\right)_{ij \in E,}
+$$
+so gilt $$D_n = \|\tilde h_n\|^2.$$
+Ein Test $$\varphi_n = \mathbf 1_{\{D_n > c\}}$$ heißt dann ein //Chiquadrat-Test auf Unabhängigkeit// nach $$n$$ Beobachtungen.
 
 * Wie beim [[Chiquadrat-Anpassungstest]] stimmen $$D_n$$ und $$R_n$$ auf der Nullhypothese approximativ überein.
+
+* <div>Verallgemeinerter Satz von Pearson: Unter $$\P_\rho$$ für $$\rho = \alpha \otimes \beta \in \varTheta_0$$ gilt
+$$
+D_n \xrightarrow[n\to\infty]{d} \chi^2_{(a-1)(b-1)}.
+$$</div>
+
+* Wieder können wir bei großen $$n$$ das $$c$$ als $$\alpha$$-Fraktil der $$\chi^2_{(a-1)(b-1)}$$-Verteilung wählen, damit der Test ungefähr das Niveau $$\alpha$$ erreicht.

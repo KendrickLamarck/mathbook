@@ -1,10 +1,10 @@
 created: 20200622131843622
-modified: 20200625205119255
+modified: 20200629173047239
 tags: Test
 title: Chiquadrat-Anpassungstest
 type: text/vnd.tiddlywiki
 
-Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes n},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
+Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes \N},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
 
 * $$E = \{1,\dots,s\},$$
 * $$\varTheta = \{\vartheta = (\vartheta(i)) \in \openI{0,1}^s : \sum_{i=1}^s \vartheta(i) = 1\},$$
@@ -15,7 +15,6 @@ $$
 h_n(i) = \#\{1 \le k \le n : X_k = i\}
 $$
 sowie die relativen Häufigkeiten $$l_n(i) = h_n(i)/n.$$
-
 Wir wollen jetzt die Nullhypothese $$H_0\colon \vartheta = \rho \in \varTheta$$ gegen $$H_1\colon \vartheta \ne \rho$$ testen.
 
 ''Ansatz 1.''
@@ -43,7 +42,7 @@ D_{n,\rho} &\coloneqq
 n \sum_{i=1}^s \rho(i) \left( \frac{l_n(i)}{\rho(i)} -1 \right)^2 \\ &=
 n \sum_{i=1}^s \frac{l_n(i)^2}{\rho(i)} - n.
 \end{aligned}$$
-Die letzte Form eignet sich gut zur Berechnung. Es gilt $$D_{n,\rho} = \|h_{n,\rho}^*\|,$$ siehe [[Normalapproximation der Multinomialverteilung]]. $$\varphi_n = \mathbf 1_{\{D_{n,\rho} > c\}}$$ ist dann der //Chiquadrat-Anpassungstest// für $$c>0$$ nach $$n$$ Beobachtungen.
+Die letzte Form eignet sich gut zur Berechnung. Es gilt $$D_{n,\rho} = \|h_{n,\rho}^*\|^2,$$ siehe [[Normalapproximation der Multinomialverteilung]]. $$\varphi_n = \mathbf 1_{\{D_{n,\rho} > c\}}$$ ist dann der //Chiquadrat-Anpassungstest// für $$c>0$$ nach $$n$$ Beobachtungen.
 
 * <div>Auf der Nullhypothese stimmen die Tests asymptotisch überein:
 $$

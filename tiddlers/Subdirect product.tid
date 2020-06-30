@@ -1,10 +1,10 @@
 created: 20200606181814334
-modified: 20200628203259311
+modified: 20200628210219619
 tags: Gruppe
 title: Subdirect product
 type: text/vnd.tiddlywiki
 
-Consider two Groups $$G_1$$ and $$G_2$$ and their direct product $$G_1 \times G_2.$$ A subgroup $$K < G_1 \times G_2$$ is called a //subdirect product// if for both projection maps are surjective.
+Consider two Groups $$G_1$$ and $$G_2$$ and their direct product $$G_1 \times G_2.$$ A subgroup $$K < G_1 \times G_2$$ is called a //subdirect product// if both projection maps are surjective.
 
 A Generalization of this is the //fiber product:// Let $$N_i \lhd G_i$$ be normal subgroups such that there exists an isomorphism $$\varphi\colon G_1/N_1 \to G_2/N_2.$$ Then
 $$

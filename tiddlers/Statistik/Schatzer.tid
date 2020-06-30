@@ -1,6 +1,6 @@
 created: 20200421162141560
 list: Fehlermaße Maximum-likelihood-Schätzer [[Varianzminimierender Schätzer]] [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Exponentielles Modell]] [[Schätzer für das Gauß-Produktmodell]] [[Suffizienz und Vollständigkeit bei Normalverteilungen]]
-modified: 20200609130505637
+modified: 20200630135720438
 tags: Statistik
 title: Schätzer
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ Sei $$(\mathcal X, \mathcal F, (\P_\vartheta)_{\vartheta\in\varTheta})$$ ein sta
 Ein Schätzer heißt //erwartungstreu,// falls
 
 $$
-\Bbb E_\vartheta[T] \coloneqq
+\expect_\vartheta[T] \coloneqq
 \int_\mathcal X T(x) \,\d\P_\vartheta(x) = \tau(\vartheta).
 $$
 
@@ -25,7 +25,7 @@ Sei $$M^n=(\mathcal X^n, \mathcal F^n, (\P^n_\vartheta)_{\vartheta \in \varTheta
 ''Satz.''
 Für alle $$\vartheta \in \varTheta$$ gelte
 
-* $$\Bbb E_{\P_\vartheta^n}[T_n(x)] \xrightarrow{n\to\infty} \tau(\vartheta)$$ @@float:right; (asymptotisch erwartungstreu),@@
+* $$\expect_{\P_\vartheta^n}[T_n(x)] \xrightarrow{n\to\infty} \tau(\vartheta)$$ @@float:right; (asymptotisch erwartungstreu),@@
 * $$\Var_{\P_\vartheta^n}(T_n(x)) \xrightarrow{n\to\infty} 0.$$
 
 Dann ist $$(T_n)$$ eine konsistente Schätzfolge.

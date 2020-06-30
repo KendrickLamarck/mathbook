@@ -1,0 +1,39 @@
+created: 20200630131243543
+modified: 20200630135057190
+tags: Statistik
+title: Lineare Regression
+type: text/vnd.tiddlywiki
+
+Angenommen, wir haben Messwerte $$X = (X_1,\dots,X_n)$$ bei Eingangsgrößen (Zeit, Temperatur,...) $$t = (t_1,\dots,t_n).$$ Wir wollen dann eine Darstellung der folgenden Form finden:
+$$
+X_k = \gamma_0 + \gamma_1 t + \sqrt{v} \xi_k,
+$$
+mit
+$$\gamma_0,\gamma_1 \in \R,\ v>0$$
+unbekannt und einer geeigneten Zufallsvariablen
+$$\xi_k$$ mit $$\expect[\xi_k] = 0,\ \Var[\xi_k] = 1$$ für $$1 \le k \le n.$$
+Das statistische Modell ist also
+$$(\R^n,\Borel(\R^n),(\prob_{\gamma,v})_{(\gamma,v) \in \R^2 \times \openI{0,\infty}}).$$
+
+!! Prinzip der kleinsten Quadrate
+
+In Abhängigkeit vom Beobachtungsvektor $$X$$ bestimme man $$\hat\gamma = (\hat{\gamma}_0,\hat{\gamma}_1)^\transp,$$ so dass der mittlere quadratische Fehler
+$$
+F_\gamma \coloneqq
+\frac{1}{n} \sum_{k=1}^n (X_k - (\gamma_0 + \gamma_1 t_k))^2 =
+\frac{1}{n} \| X - \gamma_0 \vec{1} - \gamma_1 t \|^2
+$$
+für $$\gamma = \hat{\gamma}$$ minimal ist. Hier ist $$\vec{1} = (1,\dots,1)^\transp \in \R^n.$$
+
+''Satz.''
+Die eindeutigen kleinste-Quadrate-Schätzer sind gegeben durch die Statistiken
+$$
+\hat\gamma_0 = \bar{X} - \frac{\bar{t}}{\Var(t)} \Cov(t,X),\qquad
+\hat\gamma_1 = \frac{\Cov(t,X)}{\Var(t)},
+$$
+wobei $$\bar{X}$$ und $$\bar{t}$$ die arithemetischen Mittel sind. Für die Varianz und Kovarianz gilt
+$$
+\Var(t) = \frac{1}{n} \sum_{i=1}^n t_i{}^2 - \bar{X}^2,\qquad
+\Cov(t,X) = \frac{1}{n} \sum_{i=1}^n t_i X_i - \bar{t}\bar{X}.
+$$
+Die Schätzer sind außerdem erwartungstreu.

@@ -1,7 +1,7 @@
 created: 20200622131843622
-modified: 20200629173047239
+modified: 20200630130336326
 tags: Test
-title: Chiquadrat-Anpassungstest
+title: Chi-Quadrat-Anpassungstest
 type: text/vnd.tiddlywiki
 
 Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes \N},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
@@ -19,19 +19,16 @@ Wir wollen jetzt die Nullhypothese $$H_0\colon \vartheta = \rho \in \varTheta$$ 
 
 ''Ansatz 1.''
 Der verallgemeinerte Likelihood-Quotient: Sei
-$$
-R_n = \frac{
+$$\begin{aligned}
+R_n &\coloneqq \frac{
   \sup_{\vartheta \in \varTheta_1}
   \prod_{i=1}^s \vartheta(i)^{h_n(i)}
 }{
   \prod_{i=1}^s \rho(i)^{h_n(i)}
 } =
-\prod_{i=1}^s \left(\frac{l_n(i)}{\rho(i)}\right)^{h_n(i)}
-$$
-und
-$$
-\log R_n = n \sum_{i=1}^s l_n(i) \log\left(\frac{l_n(i)}{\rho(i)}\right).
-$$
+\prod_{i=1}^s \left(\frac{l_n(i)}{\rho(i)}\right)^{h_n(i)} \\ \implies
+\log R_n &= n \sum_{i=1}^s l_n(i) \log\left(\frac{l_n(i)}{\rho(i)}\right).
+\end{aligned}$$
 Der verallgemeinerte Likelihood-Quotiententest hat dann die Form $$\varphi_n = \mathbf 1_{\{\log R_n > c\}}.$$
 
 ''Ansatz 2.''

@@ -1,9 +1,9 @@
 created: 20200622220847032
 creator: Leander
-modified: 20200629183754543
+modified: 20200630130352252
 modifier: Leander
 tags: Test
-title: Chiquadrat-Test auf Unabhängigkeit
+title: Chi-Quadrat-Test auf Unabhängigkeit
 type: text/vnd.tiddlywiki
 
 Betrachte das statistische Modell $$(E^\N,\mathcal P(E)^{\otimes \N},(\prob_\vartheta)_{\vartheta \in \varTheta})$$ mit
@@ -26,15 +26,20 @@ $$\varTheta_0 = \{\alpha \otimes \beta : \alpha \in \varTheta_A,\,\beta \in \var
 mit
 $$\varTheta_A = \{\alpha \in \openI{0,1}^A : \sum\alpha(i) = 1\}$$
 und $$\varTheta_B$$ analog.
-Definiere analog zum [[Chiquadrat-Anpassungstest]] die absoluten und relativen Häufigkeiten $$h_n(ij)$$ und $$l_n(ij)$$ sowie die Randverteilungen
+Definiere analog zum [[Chi-Quadrat-Anpassungstest]] die absoluten und relativen Häufigkeiten $$h_n(ij)$$ und $$l_n(ij)$$ sowie die Randverteilungen
 $$(l_n^A(i))_{i \in A}$$ mit
 $$l_n^A(i) = \sum_{j \in B} l_n(ij)$$
-und $$l_n^B,h_n^A,h_n^B$$ analog.
+und $$l_n^B,h_n^A,h_n^B$$ analog.  Zum Beispiel:
+
+|Merkmale  | $$a_1$$      | $$a_2$$      | $$a_3$$      | &sum; |
+| $$b_1$$  | $$h_n(1,1)$$ | $$h_n(1,2)$$ | $$h_n(1,3)$$ | $$h_n^A(1)$$ |
+| $$b_2$$  | $$h_n(2,1)$$ | $$h_n(2,2)$$ | $$h_n(2,3)$$ | $$h_n^A(2)$$ |
+| &sum; | $$h_n^B(1)$$ | $$h_n^B(2)$$ | $$h_n^B(3)$$ | $$n$$ |
 
 ''Ansatz 1.''
-Der verallgemeinerte Likelihood-Quotient
-$$
-R_n \coloneqq \frac{
+Der verallgemeinerte Likelihood-Quotient:
+$$\begin{aligned}
+R_n &\coloneqq \frac{
   \sup_{\vartheta \in \varTheta_1}
   \prod_{ij \in E} \vartheta(ij)^{h_n(ij)}
 }{
@@ -42,13 +47,10 @@ R_n \coloneqq \frac{
   \prod_{ij \in E} (\alpha(i)\beta(j))^{h_n(ij)}
 } 
 = \prod_{ij \in E}
-  \left(\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}\right)^{h_n(ij)}
-$$
-also
-$$
-\log R_n = n\sum_{ij \in E} l_n(ij)\log\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}
-$$
-und der verallgemeinerte Likelihood-Quotiententest hat die Form $$\varphi_n = \mathbf 1_{\{\log R_n > c\}}.$$
+  \left(\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}\right)^{h_n(ij)} \\ \implies
+\log R_n &= n\sum_{ij \in E} l_n(ij)\log\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}.
+\end{aligned}$$
+Der verallgemeinerte Likelihood-Quotiententest hat dann die Form $$\varphi_n = \mathbf 1_{\{\log R_n > c\}}.$$
 
 ''Ansatz 2.''
 Sei
@@ -71,7 +73,7 @@ $$
 so gilt $$D_n = \|\tilde h_n\|^2.$$
 Ein Test $$\varphi_n = \mathbf 1_{\{D_n > c\}}$$ heißt dann ein //Chiquadrat-Test auf Unabhängigkeit// nach $$n$$ Beobachtungen.
 
-* Wie beim [[Chiquadrat-Anpassungstest]] stimmen $$D_n$$ und $$R_n$$ auf der Nullhypothese approximativ überein.
+* Wie beim [[Chi-Quadrat-Anpassungstest]] stimmen $$D_n$$ und $$R_n$$ auf der Nullhypothese approximativ überein.
 
 * <div>Verallgemeinerter Satz von Pearson: Unter $$\P_\rho$$ für $$\rho = \alpha \otimes \beta \in \varTheta_0$$ gilt
 $$

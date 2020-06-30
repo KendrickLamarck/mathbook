@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200622144014626
+modified: 20200630133121515
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -49,6 +49,7 @@ $$
 \gdef\sgn{\operatorname{sgn}}
 \gdef\supp{\operatorname{supp}}
 \gdef\id{\operatorname{id}}
+\gdef\indicator{\mathbf{1}}
 \gdef\vol{\operatorname{vol}}
 \gdef\grad{\operatorname{grad}}
 \gdef\eps{\operatorname{eps}}

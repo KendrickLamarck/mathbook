@@ -1,6 +1,6 @@
 created: 20180725181904424
 creator: Leander
-modified: 20200624163618568
+modified: 20200630233518892
 modifier: Leander
 tags: Dualraum Bilinearform
 title: Bilinearformen und duale Abbildungen
@@ -18,3 +18,5 @@ $$
 (v,w)\mapsto \Psi(v)(w)
 $$
 eine nicht entartete symmetrische Bilinearform. Ist $$\langle\cdot,\cdot\rangle_\Psi$$ symmetrisch, so nennen wir auch $$\Psi$$ symmetrisch.
+
+unter der natürlichen Identifikation $$V = V^{**}$$ gilt: Ist $$\Psi\colon V \to V^*$$ ein symmetrischer operator, so ist $$\ker A = \img A^0.$$

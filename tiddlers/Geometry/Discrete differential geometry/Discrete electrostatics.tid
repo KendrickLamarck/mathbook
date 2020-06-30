@@ -1,0 +1,22 @@
+created: 20200630232118496
+modified: 20200630232152503
+tags: [[Discrete differential geometry]]
+title: Discrete electrostatics
+type: text/vnd.tiddlywiki
+
+Let $$\rho \in \mathscr{M}(M)$$ be a given //charge distribution.// We can then define the //electrostatic energy// of a potential $$\varphi \in \mathscr{C}(M)$$ as in the smooth case by
+$$
+E_\rho(\varphi) = \int_M \varphi \rho.
+$$
+
+Let $$L\colon \mathscr{C}(M) \to \mathscr{M}(M)$$ be the [[symmetric operator|Bilinearformen und duale Abbildungen]] such that
+$$
+E_D(\varphi) = \frac{1}{2} \int_M \varphi(L\varphi),
+$$
+see [[Discrete Dirichlet energy]].
+
+''Theorem.''
+$$\phi$$ is a critical point of $$E = E_D - E_\rho$$ if and only if $$L\phi = \rho.$$
+
+''Theorem.''
+The //Poisson problem// $$L\phi = \rho$$ has a solution if and only if $$\int_M \rho = 0.$$ If there is a solution it is unique up to an added constant.

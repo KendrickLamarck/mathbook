@@ -1,0 +1,14 @@
+created: 20200630224007061
+modified: 20200630231818569
+tags: [[Discrete differential geometry]]
+title: Measure on a discrete surface
+type: text/vnd.tiddlywiki
+
+Let $$M = (V,E,F)$$ be a simplicial surface with metric $$\ell.$$ Define the space of discrete functions $$\mathscr{C}(M) \coloneqq \R^V$$ and $$\mathscr{M}(M) \coloneqq \mathscr{C}(M)^*.$$ We then simply define the integral as the natural dual pairing:
+$$
+\int_M\colon \mathscr{M}(M) \times \mathscr{C}(M) \to \R,\quad
+(\mu,f)\mapsto \int_M f\mu \coloneqq \mu(f).
+$$
+With respect to the standard bases $$(\delta_i)$$ and $$(\delta_i^*),$$ this is given by $$\sum f_i \mu_i.$$
+
+In particular we can integrate the measure itself: $$\int_M \mu \coloneqq \mu(\vec{1}),$$ where $$\vec{1}$$ is the discrete function with $$\vec{1}_i = 1$$ for all $$i \in V.$$

@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200630133121515
+modified: 20200630232742209
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -52,12 +52,16 @@ $$
 \gdef\indicator{\mathbf{1}}
 \gdef\vol{\operatorname{vol}}
 \gdef\grad{\operatorname{grad}}
+\gdef\rot{\operatorname{rot}}
+\gdef\curl{\operatorname{curl}}
+\gdef\divergence{\operatorname{div}}
 \gdef\eps{\operatorname{eps}}
 \gdef\gl{\operatorname{gl}}
 \gdef\rd{\operatorname{rd}}
 \gdef\Ric{\operatorname{Ric}}
 \gdef\ggT{\operatorname{ggT}}
 \gdef\Conv{\operatorname{Conv}}
+\gdef\img{\operatorname{img}}
 
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
 \gdef\sd{\mathbin{\triangle}} % symmetric difference

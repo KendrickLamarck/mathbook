@@ -107,9 +107,11 @@ tab-border: <<colour muted-foreground>>
 tab-divider: <<colour background>>
 tab-foreground-selected: <<colour muted-foreground>>
     tab-foreground: <<colour light-highlight-background>>
+
 table-border: <<colour muted-foreground>>
-table-footer-background: <<colour foreground>>
-table-header-background: <<colour muted-foreground>>
+table-footer-background: <<colour light-highlight-background>>
+table-header-background: <<colour light-highlight-background>>
+
 tag-background: <<colour violet>>
 tag-foreground: <<colour background>>
 tiddler-background: <<colour background>>

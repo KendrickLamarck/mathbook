@@ -1,7 +1,8 @@
 created: 20200527120059672
-modified: 20200527120327265
+modified: 20200630130534496
 tags: Verteilung
 title: Chi-Quadrat-Verteilung
 type: text/vnd.tiddlywiki
 
+Wenn $$X$$ standardnormalverteilt ist, dann ist $$X^2$$ $$\Gamma_{\half,\half}$$-verteilt. Wenn $$X_1,\dots,X_n$$ unabhängig standardnormalverteilt sind, ist die Summe $$\sum X_i{}^2$$ $$\Gamma_{1/2,\,n/2}$$-verteilt.
 Für $$n \in \Z_{>0}$$ heißt die $$\Gamma_{1/2,\ n/2}$$-Verteilung auch //Chi-Quadrat-Verteilung// mit $$n$$ Freiheitsgraden, auch bezeichnet mit $$\chi_n^2.$$

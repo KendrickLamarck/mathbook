@@ -1,6 +1,6 @@
 created: 20200116215220084
 list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]] [[Ricci curvature]] [[Scalar curvature]]
-modified: 20200601190136398
+modified: 20200701144211616
 tags: [[Intrinsic differential geometry]]
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
@@ -22,11 +22,11 @@ This can be defined in the same way for any connection $$\nabla$$ on a [[vector 
 
 !!! Properties
 
-* On a Riemannian manifold, the curvature operator $$R(X,Y)Z$$ is tensorial, i.e. its value at $$p$$ depends only on $$X_p,Y_p$$ and $$Z_p.$$ In particular, $$R(X_p,Y_p)$$ is a linear operator on $$\T_p M.$$
+* The curvature operator $$R(X,Y)Z$$ is tensorial, i.e. its value at $$p$$ depends only on $$X_p,Y_p$$ and $$Z_p.$$ In particular, $$R(X_p,Y_p)$$ is a linear operator on $$\T_p M.$$
 * The Riemannian curvature satisfies the following symmetries:
 
 *# $$R(X,Y) = -R(Y,X),$$
-*# $$\langle R(X,Y)Z, W\rangle= \langle R(X,Y)W, Z\rangle,$$
+*# $$\langle R(X,Y)Z, W\rangle= -\langle R(X,Y)W, Z\rangle,$$
 *# $$R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0,$$ @@float:right;(first Bianchi identity)@@
 *# $$\langle R(X,Y)Z, W\rangle= \langle R(Z,W)X, Y\rangle.$$
 

@@ -1,0 +1,21 @@
+created: 20200701185058522
+modified: 20200701193512994
+tags: Surface
+title: Closed surface
+type: text/vnd.tiddlywiki
+
+Let $$M \subset \R^2$$ be a compact domain with smooth boundary and $$f\colon M \to \R^3$$ a parametrized surface with unit normal $$N.$$ Let $$L_1,\dots,L_n$$ denote the lengths of the $$n$$ boundary components of $$M$$ with respect to the metric induced by $$f.$$ We parametrize the $$j$$_th boundary by an $$L_j$$-periodic smooth map $$\gamma_j\colon \R \to \partial M$$ such that
+$$\tilde\gamma_j \coloneqq f \circ \gamma_j$$
+is parametrized by arclength. The boundary ribbons of $$f$$ equip the closed curves $$\tilde\gamma_j$$ with unit normal fields $$\tilde{N}_j \coloneqq N \circ \gamma_j.$$ Let
+$$a = (a_1,\dots,a_n)$$
+be a collection of real numbers and $$\rho \in S_n$$ a permutation with $$\rho^2 = \id.$$
+
+Then the triple $$(f,\rho,a)$$ is called a //closed surface// if there are signs $$\epsilon_1,\dots,\epsilon_n \in \{-1,1\}$$ such that for all $$1 \le j \le n$$ we have
+
+# $$\epsilon_j = 1$$ if $$\rho(j) = j,$$
+# $$\tilde\gamma_{\rho(j)}(x-a_j) = \tilde\gamma_j(\epsilon_j x),$$
+# $$\tilde{N}_{\rho(j)}(x-a_j) = -\epsilon_j \tilde{N}_j(\epsilon_j x).$$
+
+The $$\epsilon_1,\dots,\epsilon_j$$ are uniquely determined by $$f$$ and $$\rho.$$ We say that a closed surface is //oriented// if $$\epsilon_j = -1$$ for all $$j \in \{1,\dots,n\}.$$
+
+We say a parametrized surface $$f\colon M \to \R^3$$ //closes up// if there are $$\rho$$ and $$a$$ such that $$(f,\rho,a)$$ is a closed surface.

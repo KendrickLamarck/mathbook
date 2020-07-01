@@ -1,0 +1,28 @@
+created: 20200701194653306
+modified: 20200701200025175
+tags: Surface
+title: Orientation cover
+type: text/vnd.tiddlywiki
+
+Let $$(f,\rho,a)$$ with $$f\colon M_{-1} \to \R^3$$ be a closed surface. Use an orientation-reversing isometry $$g\colon \R^2 \to \R^2$$ to place a copy $$M_1$$ of $$M_{-1}$$ in the plane such that the two are disjoint. Then define $$\tilde{M} \coloneqq M_{-1} \cup M_1$$ and
+$$
+\tilde{f}\colon \tilde M \to \R^3,\qquad
+\tilde{f}(p) \coloneqq \begin{cases}
+  f(p) &\text{ if } p \in M_{-1}, \\
+  (f \circ g)(p) &\text{ if } p \in M_1.
+\end{cases}
+$$
+Label the boundary components of $$\tilde{M}$$ by the elements of $$\{-1,1\} \times \{1,\dots,n\}$$ and parametrize them by maps
+$$
+\gamma_{i,j}\colon \R \to \partial\tilde{M},\qquad
+\gamma_{i,j} \coloneqq \begin{cases}
+  \gamma_j &\text{ if } i = -1, \\
+  g \circ \gamma_j &\text{ if } i = 1.
+\end{cases}
+$$
+For all $$i,j$$ we define $$\epsilon_{i,j} = -1,\ a_{i,j} = a_j.$$ Finally, we define
+$$
+\tilde\rho\colon
+  \{-1,1\} \times \{1,\dots,n\} \to \{-1,1\} \times \{1,\dots,n\}, \quad \tilde\rho(i,j) \coloneqq (-i,\epsilon_j i).
+$$
+Altogether, $$(\tilde{f},\tilde\rho,\tilde{a})$$ is a closed surface called an //orientation cover// of $$f.$$

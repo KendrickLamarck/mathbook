@@ -1,0 +1,18 @@
+created: 20200701200531159
+modified: 20200701201733707
+tags: Surface
+title: Genus
+type: text/vnd.tiddlywiki
+
+Let $$M \subset \R^2$$ be a domain with $$k$$ components and $$n$$ smooth boundary components. Let $$c\colon \{1,\dots,n\} \to \{1,\dots,k\}$$ be the map that assigns to a boundary component the component of $$M$$ to which it belongs. Let $$G$$ be the graph with vertex set $$\{1,\dots,k\}$$ where two verticles $$\ell \ne \tilde\ell$$ are connected with an edge if and only if the components are glued together, i.e. if there is $$j \in \{1,\dots,n\}$$ for which $$c(j) = \ell$$ and $$c(\rho(j)) = \tilde\ell.$$
+
+If $$\{\ell_1,\dots,\ell_l\}$$ is a connected component of $$G,$$ then
+$$
+\tilde{f} = f\bigr|_{M_{\ell_1} \cup\dots\cup M_{\ell_l}}
+$$
+closes up with boundary gluing $$\tilde\rho$$ and parameter shifts $$\tilde{a}$$ read off from $$(f,\rho,a).$$ We call the resulting close surface a //component// of $$(f,\rho,a)$$ and we call $$(f,\rho,a)$$ //connected// if it has only one component.
+
+If $$(f,\rho,a)$$ has $$m$$ connected components, we define its //genus// as
+$$
+g \coloneqq \frac{n}{2} - k + m.
+$$

@@ -1,5 +1,5 @@
 created: 20200701142834969
-modified: 20200701143100273
+modified: 20200701202049418
 tags: [[Curvature (surfaces)]]
 title: Gauss-Bonnet theorem
 type: text/vnd.tiddlywiki
@@ -8,3 +8,11 @@ Let $$M \subset \R^2$$ be a compact domain with smooth boundary having $$k$$ con
 $$
 \int_M K \det = 2\pi(2k-n) - \int_{\partial M} \kappa_b \,\d s.
 $$
+
+If $$(f,\rho,a)$$ is a closed surface $$m$$ connected components and genus $$g,$$ we get
+$$
+\int_M K \det = 4\pi(m-g).
+$$
+
+''Theorem (Boy).''
+{{Boy's theorem}}

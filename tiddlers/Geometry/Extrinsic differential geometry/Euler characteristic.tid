@@ -1,0 +1,11 @@
+created: 20200701193550364
+modified: 20200701200105116
+tags: Surface
+title: Euler characteristic
+type: text/vnd.tiddlywiki
+
+Let $$M \subset \R^2$$ be a compact domain with smooth boundary having $$k$$ connected components and $$n$$ boundary components. Then
+$$
+\chi(M) \coloneqq 2k-n
+$$
+is called the //Euler characteristic// of $$M.$$

@@ -1,0 +1,10 @@
+created: 20200701142834969
+modified: 20200701143100273
+tags: [[Curvature (surfaces)]]
+title: Gauss-Bonnet theorem
+type: text/vnd.tiddlywiki
+
+Let $$M \subset \R^2$$ be a compact domain with smooth boundary having $$k$$ connected components. Assume that the boundary $$\partial M$$ has $$n$$ components. Let $$f\colon M \to \R^3$$ be a parametrized surface, $$K\colon M \to \R$$ its [[Gauss curvature]] and $$\det$$ its area form. Then
+$$
+\int_M K \det = 2\pi(2k-n) - \int_{\partial M} \kappa_b \,\d s.
+$$

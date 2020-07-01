@@ -1,6 +1,6 @@
 caption: Frame fields
 created: 20200528131744235
-modified: 20200528204209292
+modified: 20200701142057025
 tags: Curve
 title: Frame field (space curves)
 type: text/vnd.tiddlywiki
@@ -19,7 +19,7 @@ If $$\gamma$$ is not arc length parametrized, multiply the right sides by $$v.$$
 
 !! Adapted frame field
 
-Given any normal unit vector field $$N$$ along an arc length parametrized curve $$\gamma\colon [0,L] \to \R^3,$$ for each $$s \in [0,L]$$ the three vectors
+A regular (for now ALP) curve $$\gamma\colon [0,L] \to \R^3$$ together with a unit normal field $$N$$ is called a //ribbon.// Given one, for each $$s \in [0,L]$$ the three vectors
 $$
 T(s),\quad N(s),\quad B(s) = T(s)\times N(s)
 $$

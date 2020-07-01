@@ -1,0 +1,22 @@
+created: 20200701132717591
+modified: 20200701133856714
+tags: Curve
+title: Normal and binormal curvature
+type: text/vnd.tiddlywiki
+
+Let $$N$$ be a unit normal field for a regular space curve $$\gamma\colon [a,b] \to \R^3$$ with speed $$v = \|\gamma'\|,$$ unit tangent field $$T$$ and binormal $$B \coloneqq T \times N.$$ We define smooth functions $$\kappa_n,\kappa_b,\tau\colon [a,b] \to \R$$ by the equations
+$$\begin{aligned}
+v\kappa_n &= \lang N',T \rang, \\
+v\kappa_b &= \lang B',T \rang, \\
+v\tau &= \lang N',B \rang.
+\end{aligned}$$
+$$\kappa_n$$ is called the //normal curvature,// $$\kappa_b$$ the //binormal curvature// and $$\tau$$ is the [[torsion|Torsion]].
+
+We can also obtain the derivatives from these functions:
+$$\begin{aligned}
+\frac{1}{v} T' &= -\kappa_n N - \kappa_b B, \\
+\frac{1}{v} N' &= \kappa_n T + \tau B, \\
+\frac{1}{v} B' &= \kappa_b T - \tau N.
+\end{aligned}$$
+
+A frame with $$\tau = 0$$ is a [[parallel frame|Parallel frame]] and one with $$\kappa_b = 0$$ is a [[Frenet frame]]. For existence and uniqueness, see the respective pages.

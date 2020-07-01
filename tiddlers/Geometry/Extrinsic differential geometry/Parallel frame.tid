@@ -1,5 +1,5 @@
 created: 20200527170259981
-modified: 20200528201038898
+modified: 20200701132631512
 tags: Curve
 title: Parallel frame
 type: text/vnd.tiddlywiki
@@ -14,4 +14,4 @@ for some angle $$\alpha \in \R.$$
 
 !! Curvature
 
-{{Curvature (space curves)}}
+{{Curvature function (space curves)}}

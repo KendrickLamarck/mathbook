@@ -1,8 +1,8 @@
 caption: Curvature of space curves
 created: 20200528122639366
-modified: 20200528201028539
+modified: 20200701132631534
 tags: Curve no-toc
-title: Curvature (space curves)
+title: Curvature function (space curves)
 type: text/vnd.tiddlywiki
 
 Given a parallel normal field $$N\colon [0,L] \to \R^3$$ along an arc length parametrized curve $$\gamma\colon [0,L] \to \R^3,$$ also $$B \coloneqq T \times N$$ is a parallel normal field, so there are smooth functions $$\kappa_1,\kappa_2\colon [0,L] \to \R$$ such that $$N'=\kappa_1 T$$ and $$B'= \kappa_2 T.$$ From this, we obtain

@@ -1,12 +1,12 @@
 created: 20200617140156562
-modified: 20200624000422715
+modified: 20200701153513202
 tags: Surface no-toc
 title: Area form
 type: text/vnd.tiddlywiki
 
 On every Riemannian domain $$M,$$ there is a unique [[endomorphism field|Endomorphism field]] $$J$$ such that
 
-* $$J^* = J,$$
+* $$J^* = -J,$$
 * $$J^2 = -I,$$
 * $$(X,JX)$$ is positively oriented for all $$0 \ne X \in \T_p M.$$
 

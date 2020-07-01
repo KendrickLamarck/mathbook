@@ -1,12 +1,12 @@
 caption: Surfaces
 created: 20200603134649845
 list: [[Riemannian domain]] [[Area form]] [[Integral of a 2-form]] [[Integrals on Riemannian domains]] [[Covered area form]] [[Riemannian metric on surfaces]] [[Normal field (surfaces)]] [[Covered area form of the normal field]] [[Curvature (surfaces)]] [[Levi-Civita connection (surfaces)]] [[Codazzi equation]] [[Gauss equation]] [[Minimal surface]]
-modified: 20200625171513452
+modified: 20200701172239717
 tags: [[Extrinsic differential geometry]]
 title: Surface
 type: text/vnd.tiddlywiki
 
-Let $$M \subset \R^2$$ be a compact, connected subset with smooth boundary. An [[immersion|Immersion und Submersion]] $$f\colon M \to \R^n$$ is called a //parametrized surface.//
+Let $$M \subset \R^2$$ be a compact, connected subset with smooth boundary, i.e. $$M = M_0 \setminus \{\mathring{M}_1,\dots,\mathring{M}_k\},$$ where the $$M_1,\dots,M_k$$ are disjoint diffeomorphic images of closed unit disks contained in $$M_0.$$ An [[immersion|Immersion und Submersion]] $$f\colon M \to \R^n$$ is called a //parametrized surface.//
 
 If $$f\colon M \to \R^n$$ and $$\tilde f\colon \tilde M \to \R^n$$ are two parametrized surfaces, then $$\tilde f$$ is called an (orientation-preserving) //reparametrization// of $$f$$ if there is an (orientation-preserving) diffeomorphism $$\varphi\colon \tilde M \to M$$ such that $$\tilde f = f \circ \varphi.$$ An equivalence class of parametrized surfaces under (orientation-preserving) reparametrization is called an (oriented) //surface patch// in $$\R^n.$$
 

@@ -1,5 +1,5 @@
 created: 20200701140734245
-modified: 20200701143300259
+modified: 20200702135314594
 tags: [[Curvature (surfaces)]]
 title: Boundary curvature
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ Let $$M \subset \R^2$$ be a compact domain with smooth boundary. Let $$f\colon M
 
 Let $$\gamma\colon \R \to \partial M$$ be an arc length parametrization of one of the boundary components, then also $$\tilde\gamma \coloneqq f \circ \gamma\colon \R \to \R^3$$ is arc length parametrized and has the same period $$L.$$ Furthermore, $$\tilde{N} \coloneqq N \circ \gamma$$ is a unit-normal field for $$\tilde\gamma.$$ Write $$T = \gamma'$$ and denote by $$B(s)$$ the outward pointing unit normal to the boundary $$\partial M$$ at the point $$\gamma(s),$$ so $$JB = T$$ (?). The binormal field of the ribbon $$(\tilde\gamma,\tilde{N})$$ then is $$\tilde{B} \coloneqq \d f \circ B.$$
 
-The integral $$\int_0^L \kappa_b$$ of the [[binormal curvature|Normal and binormal curvature]] of the ribbon $$(\tilde\gamma,\tilde{N})$$ is called the //total binormal curvature// of the parametrized boundary component. The //total binormal curvture// of the whole boundary $$\partial M$$ is defined as the sum of the total curvatures of the components. It is denoted by
+The integral $$\int_0^L \kappa_b$$ of the [[binormal curvature|Normal and binormal curvature]] of the ribbon $$(\tilde\gamma,\tilde{N})$$ is called the //total binormal curvature// (or //geodesic curvature//) of the parametrized boundary component. The //total binormal curvture// of the whole boundary $$\partial M$$ is defined as the sum of the total curvatures of the components. It is denoted by
 $$
 \int_{\partial M} \kappa_b \,\d s.
 $$

@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200630232742209
+modified: 20200702213928424
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -67,6 +67,7 @@ $$
 \gdef\sd{\mathbin{\triangle}} % symmetric difference
 
 \gdef\Poiss{\operatorname{Poiss}}
+\gdef\Hyp{\operatorname{Hyp}}
 \gdef\normaldist{\mathcal{N}}
 \gdef\prob{\mathrm{P}}
 \gdef\P{\prob}
@@ -78,6 +79,7 @@ $$
 
 \gdef\ad{\mathrm{ad}}
 \gdef\transp{\mathrm{T}}
+\gdef\comp{\mathrm{C}}
 \gdef\Hermite{\mathrm{H}}
 \gdef\pot{\mathrm{pot}}
 

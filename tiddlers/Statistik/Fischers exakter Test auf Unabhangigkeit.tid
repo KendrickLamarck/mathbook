@@ -1,0 +1,17 @@
+created: 20200702205428511
+modified: 20200702214026522
+tags: Test
+title: Fischers exakter Test auf Unabhängigkeit
+type: text/vnd.tiddlywiki
+
+Wir betrachten das Modell aus dem [[Chi-Quadrat-Test auf Unabhängigkeit]] mit $$A = B = \{1,2\}.$$ Wir sehen zuerst, dass $$\vartheta = \vartheta^A \otimes \vartheta^B$$ genau dann gilt, wenn $$\vartheta(1,1) = \vartheta^A(1)\vartheta^B(1).$$ Weiter sehen wir, dass unter der Nullhypothese  gilt:
+$$ \begin{aligned}
+\prob_{\vartheta_0}(h_n(1,1) = k \mid h_n^A(1) = n_A,\ h_n^B(1) = n_B) &=
+\Hyp(n_A,n_B,n-n_A)\{k\} \\ &=
+\Hyp(n_B,n_A,n-n_B)\{k\}
+\end{aligned}$$
+für alle $$n \in \Z_{\ge 0}$$ und $$k,n_A,n_B \in \Z_{>0}.$$ Zu einem vorgegebenen Niveau $$\alpha$$ wählt man nun $$c_-,c_+ \in \N$$ in Abhängigkeit von $$n_A$$ und $$n_B,$$ so dass
+$$
+\Hyp(n_A,n_B,n-n_A)\{c_-,\dots,c_+\} \ge 1-\alpha
+$$
+und wählt dann als Test $$\varphi(h_n(1,1)) \coloneqq \indicator_{[c_-,c_+]^\comp}(h_n(1,1)).$$

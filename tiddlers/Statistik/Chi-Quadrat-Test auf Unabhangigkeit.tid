@@ -1,6 +1,6 @@
 created: 20200622220847032
 creator: Leander
-modified: 20200630130352252
+modified: 20200702202037629
 modifier: Leander
 tags: Test
 title: Chi-Quadrat-Test auf Unabhängigkeit
@@ -48,7 +48,8 @@ R_n &\coloneqq \frac{
 } 
 = \prod_{ij \in E}
   \left(\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}\right)^{h_n(ij)} \\ \implies
-\log R_n &= n\sum_{ij \in E} l_n(ij)\log\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}.
+\log R_n &= n\sum_{ij \in E} l_n(ij)\log\frac{l_n(ij)}{l_n^A(i)l_n^B(j)}
+= n \Eta(l_n \mid l_n^A \otimes l_n^B).
 \end{aligned}$$
 Der verallgemeinerte Likelihood-Quotiententest hat dann die Form $$\varphi_n = \mathbf 1_{\{\log R_n > c\}}.$$
 

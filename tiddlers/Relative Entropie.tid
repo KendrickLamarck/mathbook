@@ -1,0 +1,15 @@
+created: 20200702195420281
+modified: 20200702202947493
+tags: Stochastik
+title: Relative Entropie
+type: text/vnd.tiddlywiki
+
+Seien $$\prob$$ und $$\mathrm{Q}$$ Wahrscheinlichkeitsmaße. Dann ist die //relative Entropie// oder //Kullback-Leibler-Divergenz// definiert als
+$$
+\Eta(\prob\mid\mathrm{Q}) \coloneqq
+\expect_\prob\left[ \log\fracderiv{\prob}{\mathrm{Q}} \right]
+$$
+falls die [[Radon-Nikodym-Ableitung|Dichte]] existiert. Besitzen $$\prob$$ und $$\mathrm{Q}$$ die Lebesgue-Dichten $$\rho$$ und $$\sigma$$, so können wir das auch schreiben als
+$$
+\int_\R \rho(x) \log\frac{\rho(x)}{\sigma(x)}\,\d x.
+$$

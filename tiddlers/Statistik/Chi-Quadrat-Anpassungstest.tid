@@ -1,5 +1,5 @@
 created: 20200622131843622
-modified: 20200630130336326
+modified: 20200702202010545
 tags: Test
 title: Chi-Quadrat-Anpassungstest
 type: text/vnd.tiddlywiki
@@ -27,7 +27,8 @@ R_n &\coloneqq \frac{
   \prod_{i=1}^s \rho(i)^{h_n(i)}
 } =
 \prod_{i=1}^s \left(\frac{l_n(i)}{\rho(i)}\right)^{h_n(i)} \\ \implies
-\log R_n &= n \sum_{i=1}^s l_n(i) \log\left(\frac{l_n(i)}{\rho(i)}\right).
+\log R_n &= n \sum_{i=1}^s l_n(i) \log\left(\frac{l_n(i)}{\rho(i)}\right)
+= n \Eta(l_n\mid\rho).
 \end{aligned}$$
 Der verallgemeinerte Likelihood-Quotiententest hat dann die Form $$\varphi_n = \mathbf 1_{\{\log R_n > c\}}.$$
 

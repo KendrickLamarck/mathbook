@@ -1,0 +1,16 @@
+created: 20200702211034677
+modified: 20200702211839899
+tags: Test
+title: Test gegen fallenden Trend
+type: text/vnd.tiddlywiki
+
+Wir betrachten das Modell aus den [[Chi-Quadrat-Anpassungstest]]. Sei $$\rho$$ die Gleichverteilung auf $$E,$$ $$\varTheta_0 = \{\rho\}$$ und $$\varTheta_1 = \{\vartheta \mid \vartheta(1) > \dots > \vartheta(s)\}.$$
+Gut ist dann die Verwendung der Teststatistik
+$$
+T_n = \frac{ \sum_{i \in E} i h_n(i) - n(s+1)/2 }{ \sqrt{n(s^2-1)/12} }.
+$$
+Unter der Nullypothese gilt:
+$$
+\expect_\rho[T_n] = 0,\quad \Var_\rho[T_n] = 1,\quad 
+T_n \xrightarrow{d} \normaldist_{0,1}.
+$$

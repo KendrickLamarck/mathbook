@@ -1,11 +1,11 @@
 created: 20200624151908070
-modified: 20200624152121163
+modified: 20200703170101832
 tags: [[Discrete differential geometry]]
 title: Gradient of an affine function
 type: text/vnd.tiddlywiki
 
 Let $$\triangle \subset\R^2$$ be a Euclidean triangle with vertex positions $$p_1,p_2,p_3$$ and let $$e_i = p_{i+2} - p_{i+1}.$$ Then the gradient of an affine function $$g\colon \triangle \to \R$$ with $$g(p_i) = g_i$$ is given by
 $$
-\grad g = \frac{1}{2A}J \sum_i g_i e_i,
+\grad g = \frac{1}{2A}J (g_1e_1 + g_2e_2 + g_3e_3),
 $$
 where $$A$$ is the area of $$\triangle$$ and $$J$$ is the positive 90&deg;-rotation.

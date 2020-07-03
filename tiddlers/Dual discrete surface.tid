@@ -1,0 +1,17 @@
+created: 20200703142337989
+modified: 20200703143202196
+tags: [[Combinatorial topology]]
+title: Dual discrete surface
+type: text/vnd.tiddlywiki
+
+The //dual surface// $$M^*$$ of a simplicial surface (without boundary) $$M$$ is the cell complex defined as follows:
+
+* The dual vertex set $$V^*$$ is formed by the faces $$F$$ of $$M,$$
+* The dual edge set $$E^*$$ coincides with the edge set $$E$$ of $$M,$$
+* THe dual faces $$F^*$$ are in one-to-one correspondence with vertices $$V,$$ where a vertex $$i \in V$$ is associated with its vertex link, i.e. the dual edge cycle formed by the outgoing edges of $$i.$$
+
+If there is a metric given that induces areas $$A_{ijk}$$ for the original triangles of the surface, the dual faces inherit the area
+$$
+A_i = \frac{1}{3} \sum_{ijk \in F} A_{ijk}.
+$$
+This is obtained by choosing the barycenter of each triangle as its dual vertex and connecting these.

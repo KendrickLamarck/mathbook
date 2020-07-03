@@ -1,7 +1,7 @@
 created: 20200702205428511
-modified: 20200702214026522
+modified: 20200702225837047
 tags: Test
-title: Fischers exakter Test auf Unabhängigkeit
+title: Fishers exakter Test auf Unabhängigkeit
 type: text/vnd.tiddlywiki
 
 Wir betrachten das Modell aus dem [[Chi-Quadrat-Test auf Unabhängigkeit]] mit $$A = B = \{1,2\}.$$ Wir sehen zuerst, dass $$\vartheta = \vartheta^A \otimes \vartheta^B$$ genau dann gilt, wenn $$\vartheta(1,1) = \vartheta^A(1)\vartheta^B(1).$$ Weiter sehen wir, dass unter der Nullhypothese  gilt:

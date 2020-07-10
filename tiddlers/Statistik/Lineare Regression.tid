@@ -1,6 +1,7 @@
 created: 20200630131243543
-modified: 20200630135057190
-tags: Statistik
+modified: 20200707181246888
+revision: 0
+tags: [[Lineares Modell]]
 title: Lineare Regression
 type: text/vnd.tiddlywiki
 
@@ -13,7 +14,7 @@ $$\gamma_0,\gamma_1 \in \R,\ v>0$$
 unbekannt und einer geeigneten Zufallsvariablen
 $$\xi_k$$ mit $$\expect[\xi_k] = 0,\ \Var[\xi_k] = 1$$ für $$1 \le k \le n.$$
 Das statistische Modell ist also
-$$(\R^n,\Borel(\R^n),(\prob_{\gamma,v})_{(\gamma,v) \in \R^2 \times \openI{0,\infty}}).$$
+$$(\R^n,\Borel(\R^n),(\prob_{\gamma,v})_{(\gamma,v) \in \R \times \openI{0,\infty}}).$$
 
 !! Prinzip der kleinsten Quadrate
 

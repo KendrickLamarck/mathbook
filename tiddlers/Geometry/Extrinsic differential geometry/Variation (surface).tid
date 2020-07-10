@@ -1,5 +1,5 @@
 created: 20200709223120188
-modified: 20200710001411624
+modified: 20200710162413911
 tags: Surface
 title: Variation (surface)
 type: text/vnd.tiddlywiki
@@ -10,7 +10,7 @@ where $$M \subseteq \R^2$$ is a compact domain with smooth boundary. We call thi
 
 * <div>Given a vector field $$X \in \Gamma(\T M),$$ also $$\d_X g_t$$ is a smooth one-parameter family of maps $$M \to \R^k,$$ as well as
 $$
-\dot{g}(t) \coloneqq \left.\fracderiv{}{\tau}\right|_{\tau=t} g_t(p).
+\dot{g}(t) \coloneqq \left.\fracderiv{}{\tau}\right|_{\tau=t} g_\tau(p).
 $$</div>
 
 * <div>The directional derivative in the direction of a vector field $$X$$ commutes with the time derivative:

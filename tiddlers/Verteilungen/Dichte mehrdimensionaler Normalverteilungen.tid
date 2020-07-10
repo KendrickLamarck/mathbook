@@ -1,7 +1,8 @@
 created: 20190705142851388
 creator: Leander
-modified: 20200630130815649
+modified: 20200704160943953
 modifier: Leander
+revision: 0
 tags: Normalverteilung no-toc
 title: Dichte mehrdimensionaler Normalverteilungen
 type: text/vnd.tiddlywiki
@@ -10,7 +11,7 @@ Ist $$\Sigma^2\in\R^{n\times n}$$ [[positiv definit|Positiv definite Matrix]], s
 
 $$
 f_{m,\Sigma^2}(x)=
-\frac 1 {(2\pi)^\frac n 2\sqrt{\det(\Sigma^2)}} \exp\left(
+\frac 1 {(2\pi)^{n/2}\sqrt{\det(\Sigma^2)}} \exp\left(
   -\frac 1 2 \left\langle
     x-m,\left(\Sigma^2\right)^{-1}(x-m)
   \right\rangle

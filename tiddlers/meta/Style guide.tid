@@ -1,5 +1,5 @@
 created: 20200612205857336
-modified: 20200629174417976
+modified: 20200709195244837
 tags: meta
 title: Style guide
 type: text/vnd.tiddlywiki
@@ -14,7 +14,11 @@ type: text/vnd.tiddlywiki
 * Variables cursive, e.g. $$\sigma \in \varSigma, x \in X.$$
 * Operators roman, e.g. $$\D_p f,\ \d\varphi.$$
 * constants as is customary/needed: $$e^x$$ cursive, $$\i$$ roman if e.g. an index $$i$$ is present...
-* Coding style: Use `\Bbb{P}` and not `\Bbb P` to improve searchability.
+
+!! Markup style
+
+* Use `\Bbb{P}` and not `\Bbb P` to improve searchability.
+* Always explicitly specify a wikilink name, even if it is the same, e.g. `[[Spur|Spur]]` to make renaming with relink fully seamless.
 
 !! Open/unanswerable questions
 

@@ -1,6 +1,7 @@
 created: 20191213213736739
 lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
 modified: 20200624162818342
+revision: 0
 tags: [[Intrinsic differential geometry]]
 title: Lie derivative
 type: text/vnd.tiddlywiki

@@ -1,0 +1,15 @@
+created: 20200707181234581
+modified: 20200707220133392
+tags: Statistik
+title: Lineares Modell
+type: text/vnd.tiddlywiki
+
+Seien $$s,n \in \N$$ mit $$s<n.$$ Ein lineares Modell für $$n$$ reellwertige Beobachtungen mit unbekannten $$s$$-dimensionalen Verschiebungsparametern $$\gamma = (\gamma_1,\dots,\gamma_s)^\transp \in \R^s$$ und unbekanntem Skalenparameter $$v>0$$ besteht aus
+
+# einer Matrix $$A \in \R^{n \times s}$$ vollen Rangs $$s$$ von bekannten Kontrollgrößen (Design-Matrix),
+# einem Zufallsvektor $$\xi = (\xi_1,\dots,\xi_n)^\transp$$ von standardisierten Zufallsvariablen $$\xi_k \in \mathcal{L}^2,$$ also $$\expect[\xi_k]=0,\ \Var[\xi_k]=1.$$
+
+Der $$n$$-dimensionale Beobachtungsvektor $$X = (X_1,\dots,X_n)^\transp$$ ergibt sich durch die lineare Gleichung
+$$
+X = A\gamma + \sqrt{v}\xi.
+$$

@@ -1,6 +1,6 @@
 created: 20191221215957210
-modified: 20200605190740138
+modified: 20200707135713821
 title: $:/themes/tiddlywiki/vanilla/settings/editorfontfamily
 type: text/vnd.tiddlywiki
 
-Monaco, Consolas,  "Lucida Console", "DejaVu Sans Mono", monospace
+"Fira Mono", Monaco, Consolas,  "Lucida Console", "DejaVu Sans Mono", monospace

@@ -1,6 +1,6 @@
 created: 20200512221922884
-modified: 20200605190703357
+modified: 20200707135711314
 title: $:/themes/tiddlywiki/vanilla/settings/fontfamily
 type: text/vnd.tiddlywiki
 
-"Helvetica Neue", "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+"Fira Sans", "Helvetica Neue", "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"

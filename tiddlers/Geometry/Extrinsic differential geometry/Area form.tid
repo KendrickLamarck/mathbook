@@ -1,5 +1,5 @@
 created: 20200617140156562
-modified: 20200701153513202
+modified: 20200709195411860
 tags: Surface no-toc
 title: Area form
 type: text/vnd.tiddlywiki
@@ -24,3 +24,4 @@ $$</div>
 
 * $$\det$$ is the unique two-form such that $$\det(X,Y) = 1$$ for every positively oriented orthonormal basis $$(X,Y)$$ of any $$\T_p M.$$
 * $$\lang X,Z \rang Y - \lang Y,Z \rang X = \det(X,Y) JZ.$$
+* Für $$g \in \smooth^\infty(M)$$ gilt $$\divergence(J\grad g) = 0.$$

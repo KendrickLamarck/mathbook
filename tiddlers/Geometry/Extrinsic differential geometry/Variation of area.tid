@@ -1,0 +1,24 @@
+created: 20200710182254814
+modified: 20200710183413504
+tags: [[Variation (surface)]]
+title: Variation of area
+type: text/vnd.tiddlywiki
+
+Consider the area functional
+$$
+\mathcal{A}(f) \coloneqq \int_M {\det}_f
+$$
+on a parametrized surface $$f\colon M \to \R^3.$$ Suppose the variational vector field of a variation $$f_t$$ is written as
+$$
+\dot{f} = \phi N + \d f(Z)
+$$
+with $$\phi \in \smooth^\infty(M)$$ and $$Z \in \vecfields(M).$$ Then
+$$
+\left. \fracderiv{}{t}\right|_{t=0} \mathcal{A}(f_t) =
+\int_M \phi H + \int_{\partial M} \lang Z,B \rang \,\d s,
+$$
+where $$B$$ is the outward-pointing unit normal field and $$\d s$$ implies arc length parametrization of the boundary.
+
+A critical point of the area functional is called a //minimal surface.//
+
+''Theorem.'' A surface is minimal if and only if its [[mean curvature|Mean curvature]] vanishes.

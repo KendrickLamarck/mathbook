@@ -4,6 +4,7 @@ creator: Leander
 list: Knotengrad Teilgraph Kantenzug [[Zusammenhängender Graph]] Baum [[Datenstrukturen für Graphen]] Graphenisomorphismus [[Graphisches Matroid]] [[Topologische Sortierung (Graphen)]] Graphendurchmusterung [[Kruskals Algorithmus]] [[Prims Algorithmus]] [[Zulässiges Potential]]
 modified: 20200530153159092
 modifier: Leander
+revision: 0
 tags: Kombinatorik
 title: Graph
 type: text/vnd.tiddlywiki

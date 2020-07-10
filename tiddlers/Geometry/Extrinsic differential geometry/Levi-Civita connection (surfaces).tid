@@ -1,11 +1,15 @@
 caption: Levi-Civita connection
 created: 20200623222304657
-modified: 20200625162948887
+modified: 20200709234642071
 tags: Surface
 title: Levi-Civita connection (surfaces)
 type: text/vnd.tiddlywiki
 
-Let $$f\colon M\to \R^3$$ be a regular parametrized surface, $$Y \in \Gamma(\T M)$$ and $$X \in \T_p M.$$ Then $$\d_X \d f(Y)$$ (the ordinary [[directional derivative|Richtungsableitung]]) can be decomposed in a tangent and normal part: The normal part is $$-\lang AX,Y\rang N$$ and the tangent part is of the form $$\d f(Z)$$ for some $$Z \in \T_p M,$$ which we write as $$Z = (\nabla Y)(X) = \nabla_X Y.$$ The linear map
+Let $$f\colon M\to \R^3$$ be a regular parametrized surface, $$Y \in \Gamma(\T M)$$ and $$X \in \T_p M.$$ Then
+$$
+\d_X \d f(Y) = -\lang AX,Y\rang N + \d f(Z)
+$$
+(the ordinary [[directional derivative|Richtungsableitung]]) can be decomposed in a tangent and normal part for some $$Z,$$ which we write as $$Z = (\nabla Y)(X) = \nabla_X Y.$$ The linear map
 $$
 \nabla\colon \Gamma(\T M) \to \Gamma(\End \T M),\quad Y \mapsto \nabla Y$$
 is called the [[Levi-Civita connection]] of $$f.$$
@@ -28,9 +32,9 @@ $$\begin{aligned}
 \lang \nabla_U V,U \rang = \lang \nabla_V U,U \rang
   &= \tfrac 1 2 \d_V \lang U,U \rang \\
 \lang \nabla_U V,V \rang = \lang \nabla_V U,V \rang
-  &= \tfrac 1 2 \d_U\lang V,V\rang,
+  &= \tfrac 1 2 \d_U\lang V,V\rang.
 \end{aligned}$$
-where $$\nabla_V V$$ can be computed similarly to $$\nabla_U U.$$
+The formulas for $$\nabla_V V$$ are analogous to those for $$\nabla_U U.$$
 
 !! For endomorphism fields
 

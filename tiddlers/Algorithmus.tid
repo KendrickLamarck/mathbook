@@ -4,6 +4,7 @@ creator: Leander
 list: Sprache Berechnungsproblem [[Sprachen und Entscheidungsprobleme]] Turingmaschine [[Laufzeit und Speicherplatz von Turingmaschinen]] [[Nichtdeterministische Turingmaschine]] Berechenbarkeit [[Greedy-Algorithmus und Matroide]] Graphendurchmusterung Ford-Algorithmus [[Algorithmus von Dijkstra]] Huffman-Algorithmus [[Optimale statische Suchbäume]] [[Prims Algorithmus]] [[Kruskals Algorithmus]] Insertion-Sort Selection-Sort
 modified: 20200530152217601
 modifier: Leander
+revision: 0
 tags: Mathematics
 title: Algorithmus
 type: text/vnd.tiddlywiki

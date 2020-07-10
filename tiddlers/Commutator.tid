@@ -1,5 +1,5 @@
 created: 20200705203215949
-modified: 20200705203304572
+modified: 20200710162818637
 tags: Gruppe
 title: Commutator
 type: text/vnd.tiddlywiki
@@ -7,4 +7,8 @@ type: text/vnd.tiddlywiki
 The //commutator// of two group elements $$g,h \in G$$ is defined as
 $$
 [g,h] \coloneqq ghg^{-1}h^{-1}.
+$$
+In a ring $$R,$$ the commutator of $$a$$ and $$b$$ is defined as
+$$
+[a,b] \coloneqq ab - ba.
 $$

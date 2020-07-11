@@ -1,8 +1,7 @@
 created: 20180124194541350
 creator: Leander
-modified: 20191011162141885
+modified: 20200711205154996
 modifier: Leander
-revision: 0
 tags: [[Trigonometrische Funktionen]] no-toc
 title: Einheitskreis
 type: text/vnd.tiddlywiki
@@ -10,7 +9,7 @@ type: text/vnd.tiddlywiki
 Wir bezeichnen mit
 
 $$
-S^1\coloneqq\{\,(x,y)\in\R^2\mid x^2+y^2=1\,\}
+\sphere^1\coloneqq\{\,(x,y)\in\R^2\mid x^2+y^2=1\,\}
 $$
 
 den //Einheitskreis//. Der Kreis kann parametrisiert werden: Die Abbildung
@@ -19,4 +18,4 @@ $$
 f\colon t\mapsto(\cos t,\sin t)
 $$
 
-bildet das Intervall $$[0,2\pi[$$ bijektiv mit Geschwindigkeit $$1$$ auf $$S^1$$ ab.
+bildet das Intervall $$[0,2\pi[$$ bijektiv mit Geschwindigkeit $$1$$ auf $$\sphere^1$$ ab.

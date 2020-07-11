@@ -1,6 +1,5 @@
 created: 20200624135947742
-modified: 20200624161552885
-revision: 0
+modified: 20200711210337927
 tags: [[Combinatorial topology]]
 title: Piecewise linear map (simplicial complex)
 type: text/vnd.tiddlywiki
@@ -13,3 +12,5 @@ $$
 $$
 where the $$x_i$$ are the [[hat functions|Hat function]].</div>
 * For the [[Dirichlet energy|Discrete Dirichlet energy]] holds $$E_\D(f) = E_\D(\hat f).$$
+
+If $$W$$ is a Euclidean vector space, we can identify $$W^V$$ with the piecewise linear functions $$M \to W$$ in the same way as above.

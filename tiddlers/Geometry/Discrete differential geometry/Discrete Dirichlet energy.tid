@@ -1,7 +1,6 @@
 caption: Dirichlet energy
 created: 20200624152319961
-modified: 20200624214134199
-revision: 0
+modified: 20200711231255226
 tags: [[Discrete differential geometry]]
 title: Discrete Dirichlet energy
 type: text/vnd.tiddlywiki
@@ -15,10 +14,21 @@ $$
 E_\D(f) = \frac 1 2 \sum_{\{i,j\} \in E} \omega_{ij}(f_i-f_j)^2,\quad
 \omega_{ij} = \frac 1 2 \sum_{\{i,j,k\} \in F} \cot\theta_{ij}^k.
 $$
-The $$\omega_{ij}$$ are called the //cotangent weights// of the edge $$\{i,j\}.$$
+The $$\omega_{ij}$$ are called the [[cotangent weights|Cotangent weights]] of the edge $$\{i,j\}.$$
 
 The discrete Dirichlet energy is a quadratic form on $$\R^V,$$ so there [[exists a unique symmetric linear map|Bilinearformen und duale Abbildungen]] $$L\colon \R^V \to \left(\R^V\right)^*$$ which satisfies $$E_\D(f) = \frac 1 2 (Lf)(f).$$ If $$f = \sum f_i\delta_i,$$ then $$Lf = \sum (Lf)_i\delta_i^*,$$ where
 $$
 (Lf)_i = \sum_{j\colon \{i,j\} \in E} \omega_{ij}(f_i - f_j).
 $$
 $$L$$ is positive semidefinite with $$\ker L$$ being the constant functions, or in other words, $$E_\D(f) \ge 0$$ and $$E_\D(f) = 0$$ if and only if $$f$$ is constant.
+
+!! Vector-valued
+
+Let $$W$$ be a euclidean vector space. Since we can associate maps $$g \in \mathscr{C}(M,W) = W^V$$ with [[piecewise linear maps|Piecewise linear map (simplicial complex)]], we have the natural Dirichlet energy
+$$
+E_\D(f) = \frac{1}{2} \sum_{ij \in E} \omega_{ij} \|g_i - g_j\|^2,
+$$
+where the $$\omega_{ij}$$ are the cotangent weights with respect to the metric induced by $$g.$$ Using the identification $$\mathscr{C}(M,W)^* \cong \mathscr{M}(M) \otimes W,$$ we obtain
+$$
+(Lg)_i = \sum_{ij \in E} \omega_{ij} (g_i - g_j).
+$$

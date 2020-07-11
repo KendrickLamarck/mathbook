@@ -1,8 +1,7 @@
 created: 20180525172145571
 creator: Leander
-modified: 20200618202054932
+modified: 20200711203007719
 modifier: Leander
-revision: 0
 tags: Skalarprodukt Determinante
 title: Kreuzprodukt
 type: text/vnd.tiddlywiki
@@ -45,7 +44,7 @@ $$\begin{aligned}
 
 # $$x\times(y\times z) = \lang x,z\rang y - \lang x,y\rang z$$ @@float:right; (bac-cab-Formel)@@
 
-# $$\lang x \times y,z\rang = \lang y \times z,x\rang$$
+# $$\lang x \times y,z\rang = \lang x, y \times z\rang$$
 
 # $$x\times (y \times z) + y \times (z \times x) + z \times (x \times y) = 0$$ @@float:right; (Jacobi-Identität)@@
 

@@ -1,0 +1,24 @@
+created: 20200710234113913
+modified: 20200710234120372
+tags: [[Variation (surface)]] no-toc
+title: Variations under constraints (surface)
+type: text/vnd.tiddlywiki
+
+For two smooth functionals $$\mathcal{E},\tilde{\mathcal{E}},$$ $$f$$ is called a //critical point// of $$\mathcal{E}$$ under the constraint of fixed $$\tilde{\mathcal{E}},$$ if for every variation $$f_t$$ with compact support in the interior
+$$
+\left.\fracderiv{}{t}\right|_{t=0} \tilde{\mathcal{E}}(f_t) = 0 \implies
+\left.\fracderiv{}{t}\right|_{t=0} \mathcal{E}(f_t) = 0.
+$$
+
+''Theorem.''
+Let $$\mathcal{E}$$ and $$\mathcal{\tilde{E}}$$ be two smooth functionals on the space of parametrized surfaces $$f\colon M \to \R^3.$$ Suppose for every parametrized surface $$f$$ we have two smooth maps $$G_f,\tilde{G}_F\colon M \to \R^3$$ such that for all variations $$f_t$$ with compact support in the interior we have
+$$
+\left.\fracderiv{}{t}\right|_{t=0} \mathcal{E}(f_t) =
+  \int_M \lang \dot{f},G_f \rang\det,\quad
+\left.\fracderiv{}{t}\right|_{t=0} \mathcal{\tilde{E}}(f_t) =
+  \int_M \lang \dot{f},\tilde{G}_f \rang\det.
+$$
+Then $$f$$ is a critical point of $$\mathcal{E}$$ under the constraint of fixed $$\tilde{E}$$ if and only if there is a constant $$\lambda$$ called a //lagrange multiplier// such that
+$$
+G_f = \lambda \tilde{G}_f.
+$$

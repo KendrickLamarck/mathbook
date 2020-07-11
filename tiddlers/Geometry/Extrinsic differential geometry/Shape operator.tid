@@ -1,6 +1,5 @@
 created: 20200617141013886
-modified: 20200625171322281
-revision: 0
+modified: 20200710211633508
 tags: [[Curvature (surfaces)]]
 title: Shape operator
 type: text/vnd.tiddlywiki
@@ -11,8 +10,5 @@ $$
 $$
 called the //shape operator// of $$f.$$
 
-* <div>The shape operator is [[self-adjoint|Selbstadjungierter Endomorphismus]] with respect to the induced metric, i.e. for all $$X,Y \in \Gamma(\T M)$$ we have
-$$
-\lang AX,Y \rang = \lang X,AY \rang.
-$$</div>
+* The shape operator is [[self-adjoint|Selbstadjungierter Endomorphismus]] with respect to the induced metric, i.e. for all $$X,Y \in \Gamma(\T M)$$ we have $$\lang AX,Y \rang = \lang X,AY \rang.$$
 * $$A$$ vanishes if and only if there is a plane $$E$$ with $$f(M) \subset E.$$

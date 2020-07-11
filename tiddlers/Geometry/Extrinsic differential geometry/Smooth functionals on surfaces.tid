@@ -1,0 +1,13 @@
+created: 20200710234223280
+modified: 20200710234230724
+tags: [[Variation (surface)]] no-toc
+title: Smooth functionals on surfaces
+type: text/vnd.tiddlywiki
+
+A functional $$\mathcal{E}$$ that assigns to each parametrized surface a number is called smooth, if the map $$t \mapsto \mathcal{E}(f_t)$$ is smooth. We can also allow more parameters $$t = (t_1,\dots,t_k)$$ here.
+
+A parametrized surface is called a //critical point// of $$\mathcal{E},$$ if for all variations $$f_t$$ with compact support in the interior, we have
+$$
+\dot{\mathcal{E}}(f_t) \coloneqq
+\left. \fracderiv{}{t}\right|_{t=0} \mathcal{E}(f_t) = 0.
+$$

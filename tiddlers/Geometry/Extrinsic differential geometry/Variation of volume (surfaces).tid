@@ -1,0 +1,26 @@
+created: 20200710212751929
+modified: 20200711001105005
+tags: [[Variation (surface)]]
+title: Variation of volume (surfaces)
+type: text/vnd.tiddlywiki
+
+{{Cone volume}}
+
+!! Variation
+
+Let $$f_t$$ be a variation with compact support on the interior of a parametrized surface $$f\colon M \to \R^3$$ and $$v \in \R^3.$$ Then
+$$
+\left.\fracderiv{}{t} \right|_{t=0}\mathcal{V}(f_t+v) =
+\left.\fracderiv{}{t} \right|_{t=0}\mathcal{V}(f_t).
+$$
+
+''Theorem.''
+For every variation $$f_t$$ we have
+$$
+\left.\fracderiv{}{t} \right|_{t=0}\mathcal{V}(f_t) =
+\int_M \lang \dot{f},N\rang\det +
+  \frac{1}{3} \int_{\partial M} \det(f,\dot{f},\d f).
+$$
+
+''Theorem.''
+Let $$M \subset \R^2$$ be a compact domain with smooth boundary. Then a parametrized surface $$f\colon M \to \R$$ is a critical point of the area $$\mathcal{A}$$ under the constraint fixed cone volume $$\mathcal{V}$$ if and only if the mean curvature $$H$$ of $$f$$ is constant.

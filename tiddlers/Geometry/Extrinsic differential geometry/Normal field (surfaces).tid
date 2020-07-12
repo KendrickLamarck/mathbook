@@ -1,7 +1,8 @@
 caption: Normal field
 created: 20200617134801609
-modified: 20200617195516225
-revision: 0
+creator: Leander
+modified: 20200712185317172
+modifier: Leander
 tags: Surface
 title: Normal field (surfaces)
 type: text/vnd.tiddlywiki
@@ -23,12 +24,7 @@ N = \frac{f_u \times f_v}{\|f_u \times f_v\|}.
 $$
 
 ''Theorem.''
-For all $$p \in M$$ and all $$X,Y \in \T_p M$$ we have
-$$\begin{gathered}
-\d f (JX) = N(p) \times \d f(X), \\
-{\det}_f(X,Y) = \det(N(p),\d f(X),\d f(Y)),
-\end{gathered}$$
-see also [[Area form]].
+{{Normal field and area form}}
 
 !! Covered area form
 

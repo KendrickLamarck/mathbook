@@ -1,6 +1,6 @@
 created: 20180525172145571
 creator: Leander
-modified: 20200711203007719
+modified: 20200712190123670
 modifier: Leander
 tags: Skalarprodukt Determinante
 title: Kreuzprodukt
@@ -30,7 +30,7 @@ $$
 
 !! Eigenschaften
 
-# Das Kreuzprodukt ist bilinear und alternierend.
+# Das Kreuzprodukt ist [[bilinear und alternierend|Alternierende multilineare Abbildung]].
 
 # $$\langle x\times y,x\rangle=\langle x\times y,y\rangle=0.$$ Die Vektoren sind also [[senkrecht|Orthogonale Vektoren]].
 

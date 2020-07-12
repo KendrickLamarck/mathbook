@@ -1,0 +1,14 @@
+created: 20200712185315861
+creator: Leander
+modified: 20200712185348567
+modifier: Leander
+tags: Surface no-toc
+title: Normal field and area form
+type: text/vnd.tiddlywiki
+
+For all $$p \in M$$ and all $$X,Y \in \T_p M$$ we have
+$$\begin{gathered}
+\d f (JX) = N(p) \times \d f(X), \\
+{\det}_f(X,Y) = \det(N(p),\d f(X),\d f(Y)),
+\end{gathered}$$
+see also [[Area form]].

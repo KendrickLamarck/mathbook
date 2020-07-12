@@ -1,0 +1,25 @@
+created: 20200712183730012
+creator: Leander
+modified: 20200712184417529
+modifier: Leander
+tags: [[Variation (surface)]]
+title: Variation of mean curvature
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surface and consider the functional
+$$
+\mathcal{F}(f) \coloneqq \int_M {H \det}.
+$$
+If we have a variation $$f_t$$ whose variational vector field is written as
+$$
+\dot{f} = \phi N + \d f(Z)
+$$
+for some $$\phi \in \smooth^\infty(M)$$ and $$Z \in \vecfields(M),$$ then
+$$
+\left.\fracderiv{}{t}\right|_{t=0} \mathcal{F}(f_t) =
+\int_M \phi K + \int_{\partial M} \lang HZ -
+  \tfrac{1}{2} \grad\phi\rang\,\d s,
+$$
+where $$B$$ is the outward-pointing unit normal field and $$\d s$$ implies arc length parametrization of the boundary.
+
+A surface $$f$$ is a critical point of $$\mathcal{F}$$ if and only if the [[Gauss curvature]] vanishes everywhere.

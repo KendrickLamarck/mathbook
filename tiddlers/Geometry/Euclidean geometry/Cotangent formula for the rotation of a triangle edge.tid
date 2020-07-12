@@ -1,0 +1,10 @@
+created: 20200711203652153
+modified: 20200711204005843
+tags: [[Euclidean geometry]]
+title: Cotangent formula for the rotation of a triangle edge
+type: text/vnd.tiddlywiki
+
+Let $$p_0,p_1,p_2$$ be a positively oriented non-degenerate triangle in the plane with edge vectors $$e_i = p_{i+1} - p_i$$ and interior angles $$\alpha_i$$ at $$p_i$$ and let $$J$$ denote the positive 90&deg;-rotation. Then
+$$
+Je_0 = \cot\alpha_1\; e_1 - \cot\alpha_2\; e_2.
+$$

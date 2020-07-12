@@ -1,0 +1,46 @@
+created: 20200711160627068
+modified: 20200711213707748
+tags: [[Discrete differential geometry]]
+title: Discrete minimal surface
+type: text/vnd.tiddlywiki
+
+Let $$M = (V,E,F)$$ be a simplicial surface with boundary $$\partial M = (V_\partial,E_\partial).$$ Let
+$$\mathscr{C}(M,\R^3) \coloneqq \left(\R^3\right)^V$$
+be the space of discrete parametrizations. Any $$f \in \mathscr{C}(M,\R^3)$$ induces a metric
+$$
+\ell_{ij} \coloneqq \|f_i - f_j\|
+$$
+which is a discrete metric if and only if every triangle of $$M$$ is mapped to a non-degenerate triangle in $$\R^3.$$ The space of $$f$$ that do this is called the space of //discrete branched immersions// and is denoted by $$\mathscr{BI}(M,\R^3).$$ It is an open subset of $$\mathscr{C}(M,\R^3).$$
+
+The area functional $$\mathcal{A}\colon \mathscr{BI}(M,\R^3) \to \R$$ is then naturally defined for the piecewise linear extension $$\hat{f}$$ of $$f.$$ In particular, it is simply the sum of the areas of the triangles $$ijk \in F$$:
+$$
+\mathcal{A}(f) = \sum_{ijk \in F} A_{ijk}(f),\quad
+A_{ijk}(f) = \frac{1}{2} \|(f_j - f_i) \times (f_k - f_i)\|.
+$$
+A critical point of $$\mathcal{A}$$ under compactly supported variations is called a //minimal surface.//
+
+The derivative of $$\mathcal{A}$$ at $$f \in \mathscr{BI}(M,\R^3)$$ is a linear map
+$$\d\mathcal{A}_f\colon \mathscr{C}(M,\R^3) \to \R$$
+and as such an element of the dual space
+$$\mathscr{C}(M,\R^3)^* \cong \mathscr{M}(M) \otimes \R^3.$$
+If $$\lang\cdot,\cdot\rang$$ is the scalar product on $$\R^3,$$ then if
+$$\mu = \sum_V \mu_i\delta_i^* \in \mathscr{M}(M) \otimes \R^3$$
+and $$\dot{f} \in \mathscr{C}(M,\R^3),$$ then
+$$
+\mu(\dot{f}) = \sum_{i \in V} \lang \mu_i,\dot{f_i}\rang.
+$$
+
+''Theorem.''
+For $$f \in \mathscr{BI}(M,\R^3),$$ we have
+$$\d\mathcal{A_f} = \sum_V(\d\mathcal{A}_f)_i\delta_i^*$$ with
+$$
+(\d\mathcal{A}_f)_i =
+\frac{1}{2} \sum_{ijk \in F} N_{ijk} \times (f_k - f_j),
+$$
+where $$N_{ijk}$$ denotes the normal of $$ijk$$ given by
+$$N_{ijk} = \frac{(f_j - f_i) \times (f_k - f_i)}{\|(f_j - f_i) \times (f_k - f_i)\|}.$$
+
+* For $$f \in \mathscr{BI}(M,\R^3),$$ we have $$(\d\mathcal{A})_f = -Lf,$$ where $$E_\D = \frac{1}{2}(L\,\cdot)(\cdot)$$ is the [[Dirichlet energy|Discrete Dirichlet energy]] with respect to the metric induced by $$f.$$
+* $$f \in \mathscr{BI}(M,\R^3)$$ is minimal if and only if it is [[harmonic|Discrete harmonic function]] with respect to the metric $$\ell$$ induced by $$f.$$
+* There are no closed minimal surfaces.
+* The so called //plateau problem// is: Given boundary data $$\gamma,$$ find $$f$$ such that $$(Lf)_i = 0$$ for all $$i \in \mathring{V}$$ and $$f|_{\partial M} = \gamma.$$ Note that $$L$$ depends on $$f$$ by the induced metric, making the problem highly non-linear.

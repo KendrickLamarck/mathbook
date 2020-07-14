@@ -1,7 +1,6 @@
 caption: Tangent field
 created: 20200610123252772
-modified: 20200610190046724
-revision: 0
+modified: 20200714152653257
 tags: [[Discrete curve]]
 title: Tangent field (discrete curves)
 type: text/vnd.tiddlywiki
@@ -10,7 +9,7 @@ We can define tangent vectors $$T_i$$ via $$\mathbf e_i = \ell_i T_i.$$ Then the
 $$
 \|T_i\| = 1, \qquad T_i \in \span\{\mathbf e_i\}.
 $$
-A discrete curve is //regular,// if $$\ell_i \ne 0$$ and $$T_{i+1} \ne -T_i.$$  If $$\ell_i = 1$$ for all $$i,$$ then $$\gamma$$ is called //parametrized by arclength.//
+A discrete curve is //regular,// if $$\ell_i \ne 0$$ and $$T_{i+1} \ne -T_i.$$  If $$\ell_i = 1$$ for all $$i,$$ then $$\gamma$$ is called //parametrized by arc length.//
 
 !! Tangent curve
 

@@ -1,8 +1,8 @@
 caption: Curves
 created: 20180529172904078
 creator: Leander
-list: [[Projective curve]] Reparametrization [[Unit normal field in the plane]] [[Curvature (plane curves)]] [[Vertex (plane curves)]] [[Fundamental theorem of plane curves]] [[Osculating circle]] Evolute [[Regular curve]] [[Closed curve]] [[Lissajous curve]] [[Variation (plane curves)]] [[Frame field (space curves)]] [[Normal and binormal curvature]] [[Parallel frame]] [[Curvature function (space curves)]] [[Frenet frame]] [[Torsion (space curves)]] [[Parametrized tube]] [[Integral of a 1-form]] [[Area enclosed by spherical curves]] [[Area of closed plane curves]]
-modified: 20200713161738804
+list: [[Projective curve]] Reparametrization [[Arc length parametrization]] [[Unit normal field in the plane]] [[Curvature (plane curves)]] [[Vertex (plane curves)]] [[Fundamental theorem of plane curves]] [[Osculating circle]] Evolute [[Regular curve]] [[Closed curve]] [[Lissajous curve]] [[Variation (plane curves)]] [[Frame field (space curves)]] [[Normal and binormal curvature]] [[Parallel frame]] [[Curvature function (space curves)]] [[Frenet frame]] [[Torsion (space curves)]] [[Parametrized tube]] [[Integral of a 1-form]] [[Area enclosed by spherical curves]] [[Area of closed plane curves]]
+modified: 20200714154848794
 modifier: Leander
 tags: [[Extrinsic differential geometry]]
 title: Curve
@@ -10,9 +10,17 @@ type: text/vnd.tiddlywiki
 
 A //parametrized curve// in $$\R^n$$ is a smooth map $$\gamma\colon [a,b] \to \R^n.$$ The vector $$\gamma'(t) \in \R^n$$ is called the //velocity vector// of $$\gamma$$ at time $$t.$$
 
+{{Regular curve}}
+
+!! Reparametrization
+
+{{Reparametrization}}
+
 An oriented //curve// in $$\R^n$$ is an equivalence class of parametrized curves under orientation-preserving [[reparametrization|Reparametrization]].
 
-{{Regular curve}}
+!! Arc length parametrization
+
+{{Arc length parametrization}}
 
 !! Projective (regular) curve
 

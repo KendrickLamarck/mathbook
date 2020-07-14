@@ -1,6 +1,6 @@
 caption: Curvature of plane curves
 created: 20200430171229075
-modified: 20200713161731458
+modified: 20200714170958148
 tags: Curve
 title: Curvature (plane curves)
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ $$\begin{aligned}
 \gamma'&=T, \\ T'&=-\kappa N, \\ N'&=\kappa T.
 \end{aligned}$$</div>
 
-The function $$\kappa$$ is called the //curvature// of the curve. The property $$N'=\kappa T$$ can be used to define $$\kappa$$ using the fact that $$N'$$ is orthogonal to $$N.$$
+The function $$\kappa$$ is called the //curvature// of the curve. The property $$N'=\kappa T$$ can be used to define $$\kappa$$ using the fact that $$N'$$ is orthogonal to $$N.$$ If $$T(s) = (\cos\alpha(s),\sin\alpha(s)),$$ then $$\kappa = \alpha'.$$
 
 If $$\gamma$$ is not arc length parametrized but still regular, the same holds, but with the rescaled equations
 

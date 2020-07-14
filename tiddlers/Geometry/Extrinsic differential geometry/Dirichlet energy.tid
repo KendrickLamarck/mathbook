@@ -1,5 +1,5 @@
 created: 20200307011802629
-modified: 20200713161738826
+modified: 20200714154929001
 tags: [[Variation (plane curves)]]
 title: Dirichlet energy
 type: text/vnd.tiddlywiki
@@ -8,4 +8,4 @@ Let $$\varOmega\subseteq\R^n$$ be an open set and $$f\colon\varOmega\to\R$$ diff
 $$
 E_\D[f] \coloneqq \frac 1 2 \int_\varOmega \|{\grad f(x)}\|^2 \,\d x.
 $$
-$$E[f] = 0$$ if and only if $$f$$ is locally constant, so the Dirichlet energy measures how variable/constant a function is.
+$$E[f]$$ vanishes if and only if $$f$$ is locally constant, so the Dirichlet energy measures how variable/constant a function is.

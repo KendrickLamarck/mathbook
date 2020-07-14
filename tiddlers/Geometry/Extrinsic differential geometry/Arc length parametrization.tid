@@ -1,0 +1,20 @@
+created: 20200714152921017
+modified: 20200714155029253
+tags: Curve no-toc
+title: Arc length parametrization
+type: text/vnd.tiddlywiki
+
+Let $$\gamma\colon [a,b] \to \R^n$$ be a regular parametrized curve in $$\R^n$$ (or any Riemannian manifold) of length $$L.$$ It is called //arc length parametrized// if it has unit speed, i.e. $$\|\gamma'\| \eqqcolon v \equiv 1.$$ Any regular curve possesses a reparametrization such that it is arc length parametrized: Define the length function
+$$
+L_\gamma(t) \coloneqq \int_a^t \|\gamma'(\tau)\|\,\d\tau
+$$
+and
+$$s\colon [0,L] \to [a,b],\ s\coloneqq L_\gamma{}^{-1}.$$
+Then
+$$\tilde\gamma \coloneqq \gamma\circ s$$
+is arc length parametrized.
+
+We also use the one-form $$\d s = v\,\d t$$ for integration by arc length so that
+$$
+\int_0^L g(s)\,\d s = \int_a^b g(t)v\,\d t.
+$$

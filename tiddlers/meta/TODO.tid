@@ -1,8 +1,7 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200707174806383
+modified: 20200713145059865
 modifier: Leander
-revision: 0
 tags: meta
 title: TODO
 type: text/vnd.tiddlywiki
@@ -50,4 +49,4 @@ type: text/vnd.tiddlywiki
 
 * More line breaks so it's easier to see what was changed in a commit
 * Translate everything to English to improve accessibility?
-* Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty?
+* Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty? &rarr; reveal widget

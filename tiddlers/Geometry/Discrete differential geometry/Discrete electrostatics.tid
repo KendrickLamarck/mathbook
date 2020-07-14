@@ -1,5 +1,5 @@
 created: 20200630232118496
-modified: 20200711213232472
+modified: 20200713124104819
 tags: [[Discrete differential geometry]]
 title: Discrete electrostatics
 type: text/vnd.tiddlywiki
@@ -17,4 +17,4 @@ see [[Discrete Dirichlet energy]]. Then
 
 * $$\phi$$ is a critical point of $$E = E_D - E_\rho$$ if and only if $$L\phi = \rho.$$
 
-* The //Poisson problem// $$L\phi = \rho$$ has a solution if and only if $$\int_M \rho = 0.$$ If there is a solution it is unique up to an added constant.
+* The //Poisson problem// $$L\phi = \rho$$ has a solution if and only if $$\int_M \rho = 0.$$ If there is a solution, it is unique up to an added constant.

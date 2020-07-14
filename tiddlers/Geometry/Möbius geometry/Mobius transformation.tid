@@ -1,11 +1,10 @@
 created: 20190505145002249
-modified: 20200601183836074
-revision: 0
+modified: 20200713205218457
 tags: [[Möbius geometry]] no-toc
 title: Möbius transformation
 type: text/vnd.tiddlywiki
 
-Consider the following two maps of $$\widehat\Bbb R^n$$:
+Consider the following two maps of $$\widehat\R^n$$:
 
 * {{Reflection in a hyperplane}}
 
@@ -16,7 +15,6 @@ A //Möbius transformation// is a composition of [[reflections in hyperplanes|Re
 There are orientation preserving and orientation reversing Möbius transformations, depending on if there is an even or odd number of reflections. The [[subgroup|Untergruppe]] of [[orientation preserving|Orientierung]] transformations is called the //special Möbius group// and is denoted by $$\operatorname{SMöb}(n)$$ or $$\operatorname{Möb^+}(n).$$
 
 * A Möbius transformation maps any hyperplane or hypersphere to a hyperplane or hypersphere.
-
 * Any bijective map $$\widehat\R^n\to\widehat\R^n$$ that maps hyperspheres to hyperspheres is a Möbius transformation.
-
 * The Möbius transformations are conformal.
+* Liouville's theorem: {{Liouville's theorem}}

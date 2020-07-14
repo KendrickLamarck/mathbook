@@ -1,6 +1,5 @@
 created: 20200504143916992
-modified: 20200619122105144
-revision: 0
+modified: 20200713205044119
 tags: [[Riemannian metric]]
 title: Conformal map
 type: text/vnd.tiddlywiki
@@ -14,3 +13,6 @@ In elementary terms, this means that intersection angles between curves are pres
 $$
 \lang f'(p)X, f'(p)Y\rang = e^{2u(p)}\lang X,Y \rang.
 $$
+
+''Theorem (Liouville).''
+{{Liouville's theorem}}

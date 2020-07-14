@@ -1,6 +1,5 @@
 created: 20200701142834969
-modified: 20200701202049418
-revision: 0
+modified: 20200713153024689
 tags: [[Curvature (surfaces)]]
 title: Gauss-Bonnet theorem
 type: text/vnd.tiddlywiki
@@ -10,10 +9,10 @@ $$
 \int_M K \det = 2\pi(2k-n) - \int_{\partial M} \kappa_b \,\d s.
 $$
 
-If $$(f,\rho,a)$$ is a closed surface $$m$$ connected components and genus $$g,$$ we get
+If $$(f,\rho,a)$$ is a closed surface with $$m$$ connected components and [[genus|Genus]] $$g,$$ we get
 $$
 \int_M K \det = 4\pi(m-g).
 $$
 
-''Theorem (Boy).''
+''Theorem (Boy's theorem).''
 {{Boy's theorem}}

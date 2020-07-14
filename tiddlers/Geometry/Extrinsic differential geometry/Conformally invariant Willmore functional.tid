@@ -1,0 +1,15 @@
+created: 20200713162846191
+modified: 20200713204409011
+tags: Surface no-toc
+title: Conformally invariant Willmore functional
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surface with principal curvatures $$\kappa_1$$ and $$\kappa_2.$$ The //conformally invariant Willmore functional// is defined as
+$$
+\overset{\sim}{\mathcal{W}}(f) \coloneqq
+\frac{1}{4} \int_M (\kappa_1 - \kappa_2)^2\det =
+\int_M (H^2 - K) \det.
+$$
+Critical points of this are surfaces that are "as spherical as possible" while remaining fixed at the boundary. Compare also the [[umbilic point theorem|Umbilic point]].
+
+This functional is Möbius-invariant.

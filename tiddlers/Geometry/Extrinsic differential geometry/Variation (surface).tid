@@ -1,7 +1,8 @@
 caption: Variation
 created: 20200709223120188
 creator: Leander
-modified: 20200712183759920
+list: [[Smooth functionals on surfaces]] [[Variation of area]] [[Variation of mean curvature]] [[Variations under constraints (surface)]] [[Variation of volume (surfaces)]] [[Variation of the Willmore functional]]
+modified: 20200713191704802
 modifier: Leander
 tags: Surface
 title: Variation (surface)
@@ -33,8 +34,9 @@ $$\begin{aligned}
 \dot{N} &= \d f(AZ - \grad\phi),\\
 \dot{\det} &= (2\phi H + \divergence Z)\det,\\
 \dot{A} &= \nabla_Z A - \nabla\grad\phi - \phi A^2 + [A,\nabla Z],\\
-\dot H &= \d_Z H - \tfrac{1}{2} \Delta\phi - \phi(2H^2-K).
+\dot H &= \d_Z H - \tfrac{1}{2} \Delta\phi - \phi(2H^2-K),
 \end{aligned}$$
+where $$[\cdot,\cdot]$$ is the [[commutator|Commutator]] of endomorphism fields.
 
 !! Functionals
 

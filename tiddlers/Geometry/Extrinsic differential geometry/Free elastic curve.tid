@@ -1,9 +1,8 @@
 created: 20200513150714510
 creator: Leander
-modified: 20200624162000153
+modified: 20200713161738845
 modifier: Leander
-revision: 0
-tags: [[Variation (curve)]]
+tags: [[Variation (plane curves)]]
 title: Free elastic curve
 type: text/vnd.tiddlywiki
 
@@ -17,4 +16,4 @@ This uniquely defines the freely elastic curve in the plane up to similarity.</d
 
 * Use $$b$$ from the more general condition for [[elastic curves|Elastic curve]]. Then the inflection points of a freely elastic curve $$\gamma$$ lie on the line $$g$$ through $$b$$ and $$\gamma$$ intersects $$g$$ perpendicularly in those points.
 
-* If $$\gamma(t_0)$$ is a [[vertex|Vertex (curve)]], then $$g$$ is tangent to the osculating circle at $$\gamma(t_0).$$
+* If $$\gamma(t_0)$$ is a [[vertex|Vertex (plane curves)]], then $$g$$ is tangent to the osculating circle at $$\gamma(t_0).$$

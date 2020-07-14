@@ -1,9 +1,0 @@
-caption: Vertex
-created: 20200519204852173
-modified: 20200519205322230
-revision: 0
-tags: Curve no-toc
-title: Vertex (curve)
-type: text/vnd.tiddlywiki
-
-A point on a curve where $$\kappa'=0$$ is called a //vertex.// These are usually maxima or minima of curvature.

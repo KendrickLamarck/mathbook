@@ -1,0 +1,48 @@
+created: 20200713150545338
+modified: 20200713204333126
+tags: Surface
+title: Willmore functional
+type: text/vnd.tiddlywiki
+
+!! Willmore functional
+
+If $$f\colon M \to \R^3$$ is a parametrized surface, the //Willmore functional// of $$f$$ is defined as
+$$
+\mathcal{W}(f) \coloneqq \int_M {H^2 \det}.
+$$
+Critical points of the Willmore functional are "as minimal as possible" while remaining fixed at the boundary. They are called //Willmore surfaces.// A surface is Willmore if and only if
+$$
+\Delta H + 2H(H^2-K) = 0.
+$$
+The Willmore functional is scale-invariant.
+
+!! Bending energy
+
+{{Bending energy (surfaces)}}
+
+!! Conformally invariant Willmore functional
+
+{{Conformally invariant Willmore functional}}
+
+!! How the functionals relate
+
+For the purposes of varations, these notions are mostly equivalent: Let $$f,\tilde{f}$$ be two parametrized surfaces such that $$\tilde{f}(p) = f(p)$$ outside of some compact set contained in the interior of $$M.$$ Then
+$$
+\mathcal{W}(\tilde{f}) - \mathcal{W}(f) =
+\mathcal{E}(\tilde{f}) - \mathcal{E}(f) =
+\overset{\sim}{\mathcal{W}}(\tilde{f}) - \overset{\sim}{\mathcal{W}}(f).
+$$
+
+If $$f$$ is a surface that closes up with genus $$g,$$ then
+$$
+\mathcal{E}(f) = \mathcal{W}(f) + 2\pi(g-1),\qquad
+\overset{\sim}{\mathcal{W}}(f) = \mathcal{W}(f) + 4\pi(g-1).
+$$
+
+!! Lower bounds and examples
+
+We have the following sharp (i.e. realized by some surface) lower bounds:
+
+* If $$f$$ closes up with genus 0, then $$\mathcal{W}(f) \ge 4\pi.$$ The minumum is realized by a round sphere.
+* If $$f$$ closes up with genus 1/2, then $$\mathcal{W}(f) \ge 12\pi.$$ This minimum is attained by the Boy surface.
+* If $$f$$ closes up with genus 1, then $$\mathcal{W}(f) \ge 2\pi^2.$$ The minimum is realized by a Torus with center to center-of-tube-distance $$\sqrt{2}$$ and tube radius $$1.$$

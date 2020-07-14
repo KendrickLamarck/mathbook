@@ -1,10 +1,9 @@
 caption: Curves
 created: 20180529172904078
 creator: Leander
-list: [[Projective curve]] Reparametrization [[Unit normal field in the plane]] [[Curvature (plane curves)]] [[Vertex (curve)]] [[Fundamental theorem of plane curves]] [[Osculating circle]] Evolute [[Regular curve]] [[Closed curve]] [[Lissajous curve]] [[Variation (curve)]] [[Frame field (space curves)]] [[Normal and binormal curvature]] [[Parallel frame]] [[Curvature function (space curves)]] [[Frenet frame]] [[Torsion (space curves)]] [[Parametrized tube]] [[Integral of a 1-form]] [[Area enclosed by spherical curves]] [[Area of closed plane curves]]
-modified: 20200701134059387
+list: [[Projective curve]] Reparametrization [[Unit normal field in the plane]] [[Curvature (plane curves)]] [[Vertex (plane curves)]] [[Fundamental theorem of plane curves]] [[Osculating circle]] Evolute [[Regular curve]] [[Closed curve]] [[Lissajous curve]] [[Variation (plane curves)]] [[Frame field (space curves)]] [[Normal and binormal curvature]] [[Parallel frame]] [[Curvature function (space curves)]] [[Frenet frame]] [[Torsion (space curves)]] [[Parametrized tube]] [[Integral of a 1-form]] [[Area enclosed by spherical curves]] [[Area of closed plane curves]]
+modified: 20200713161738804
 modifier: Leander
-revision: 0
 tags: [[Extrinsic differential geometry]]
 title: Curve
 type: text/vnd.tiddlywiki

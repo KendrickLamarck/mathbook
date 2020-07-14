@@ -1,0 +1,13 @@
+created: 20200713162531442
+modified: 20200713165349962
+tags: Surface no-toc
+title: Bending energy (surfaces)
+type: text/vnd.tiddlywiki
+
+Let $$f\colon M \to \R^3$$ be a parametrized surfaces with principal curvatures $$\kappa_1,\kappa_2.$$ We call
+$$
+\mathcal{E}(f) \coloneqq \frac{1}{4} \int_M (\kappa_1{}^2 + \kappa_2{}^2)\det =
+\int_M \left( H^2- \frac{K}{2} \right)\det
+$$
+the //bending energy// of $$f.$$
+Critical points of the bending energy are surfaces that are "as planar as possible" while remaining fixed at the boundary.

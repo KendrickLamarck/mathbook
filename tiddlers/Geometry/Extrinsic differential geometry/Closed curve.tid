@@ -1,11 +1,11 @@
 created: 20200430184000030
-modified: 20200528104018869
-revision: 0
+modified: 20200714231021177
 tags: Curve
 title: Closed curve
 type: text/vnd.tiddlywiki
 
 A //closed parametrized curve// in $$\R^n$$ is a pair $$(\gamma,\tau)$$ of a $$\tau$$-periodic function $$\gamma\colon \R \to \R^n$$ and its period $$\tau > 0,$$ i.e. $$\gamma(t+\tau) = \gamma(t)$$ for all $$t.$$
+
 A //closed curve// is an equivalence class of closed parametrized curves, where $$(\gamma, \tau) \sim (\bar\gamma, \bar\tau)$$ if and only if there is a bijective mapping $$\varphi\colon \R \to \R$$ with $$\varphi' > 0$$ such that
 
 * $$\bar\gamma = \gamma \circ \varphi,$$
@@ -21,7 +21,9 @@ We have the following invariants under reparametrization and euclidean motion:
 
 * the //bending energy// $$E(\gamma) \coloneqq \int_0^\tau \kappa(s)^2\,\d s,$$
 
-where $$\d s = v \,\d t$$ implies arc length parametrization, as well as the turning number: {{Turning number}}
+where $$\d s = v \,\d t$$ implies arc length parametrization.
+
+We also have the turning number: {{Turning number}}
 
 !! Regular homotopy
 

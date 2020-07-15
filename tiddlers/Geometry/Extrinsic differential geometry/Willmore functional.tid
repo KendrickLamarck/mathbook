@@ -1,5 +1,5 @@
 created: 20200713150545338
-modified: 20200713204333126
+modified: 20200714210239870
 tags: Surface
 title: Willmore functional
 type: text/vnd.tiddlywiki
@@ -45,4 +45,4 @@ We have the following sharp (i.e. realized by some surface) lower bounds:
 
 * If $$f$$ closes up with genus 0, then $$\mathcal{W}(f) \ge 4\pi.$$ The minumum is realized by a round sphere.
 * If $$f$$ closes up with genus 1/2, then $$\mathcal{W}(f) \ge 12\pi.$$ This minimum is attained by the Boy surface.
-* If $$f$$ closes up with genus 1, then $$\mathcal{W}(f) \ge 2\pi^2.$$ The minimum is realized by a Torus with center to center-of-tube-distance $$\sqrt{2}$$ and tube radius $$1.$$
+* If $$f$$ closes up with genus 1, then $$\mathcal{W}(f) \ge 2\pi^2.$$ The minimum is realized by a Torus with center-to-center-of-tube distance $$\sqrt{2}$$ and tube radius $$1.$$

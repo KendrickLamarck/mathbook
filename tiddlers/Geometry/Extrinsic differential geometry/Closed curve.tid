@@ -1,15 +1,15 @@
 created: 20200430184000030
-modified: 20200714231021177
+modified: 20200715181621374
 tags: Curve
 title: Closed curve
 type: text/vnd.tiddlywiki
 
 A //closed parametrized curve// in $$\R^n$$ is a pair $$(\gamma,\tau)$$ of a $$\tau$$-periodic function $$\gamma\colon \R \to \R^n$$ and its period $$\tau > 0,$$ i.e. $$\gamma(t+\tau) = \gamma(t)$$ for all $$t.$$
 
-A //closed curve// is an equivalence class of closed parametrized curves, where $$(\gamma, \tau) \sim (\bar\gamma, \bar\tau)$$ if and only if there is a bijective mapping $$\varphi\colon \R \to \R$$ with $$\varphi' > 0$$ such that
+A //closed curve// is an equivalence class of closed parametrized curves, where $$(\gamma, \tau) \sim (\tilde\gamma, \tilde\tau)$$ if and only if there is a bijective mapping $$\varphi\colon \R \to \R$$ with $$\varphi' > 0$$ such that
 
-* $$\bar\gamma = \gamma \circ \varphi,$$
-* $$\varphi(t+\bar\tau) = \varphi(t) + \tau.$$
+* $$\tilde\gamma = \gamma \circ \varphi,$$
+* $$\varphi(t+\tilde\tau) = \varphi(t) + \tau.$$
 
 !! Invariants
 

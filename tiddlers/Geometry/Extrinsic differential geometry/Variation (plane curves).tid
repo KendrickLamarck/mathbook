@@ -1,7 +1,7 @@
 created: 20200512204246638
 creator: Leander
-list: [[Fundamental lemma of calculus of variations]] [[Geodesics and variations]] [[Bending energy (plane curves)]] [[Free elastic curve]] [[Elastic curve]] [[Dirichlet energy]]
-modified: 20200713161738883
+list: [[Fundamental lemma of calculus of variations]] [[Variation of length]] [[Geodesics and variations]] [[Bending energy (plane curves)]] [[Free elastic curve]] [[Elastic curve]] [[Dirichlet energy]]
+modified: 20200716004501609
 modifier: Leander
 tags: Curve
 title: Variation (plane curves)
@@ -13,23 +13,11 @@ $$
 \dot\gamma(x) \coloneqq \fracpartial{\varphi}{t}(x,0)
 $$
 
-along $$\gamma_0$$ is called //variational vector field// of $$\varphi.$$
+along $$\gamma_0$$ is called //variational vector field// of $$\varphi.$$ In general, the dot denotes the $$t$$-derivative in $$0.$$
 
 * For closed curves, we also demand that the period is the same for every $$t.$$
-
 * We define $$\gamma_t(x) \coloneqq \varphi(x,t).$$
-
 * <div>A variation is said to have compact support if there is $$\delta > 0$$ such that
 $$\varphi(x,t) = \varphi(x,0)$$ for all
 $$x \in [a,a+\delta] \cup [b-\delta,b]$$ and
 $$t \in \openI{-\varepsilon,\varepsilon}.$$</div>
-
-''Theorem.''
-If $$\gamma_0\colon [0,L] \to \R^2$$ is arc length parametrized and $$\gamma$$ is a variation of $$\gamma_0,$$ then
-
-$$
-\dot L \coloneqq
-\fracderiv{}{t}\biggr|_{t=0} L(\gamma_t) =
-  \lang \dot\gamma,T \rang\bigr|_0^L +
-  \int_0^L \kappa \lang \dot\gamma,N \rang \,\d s.
-$$

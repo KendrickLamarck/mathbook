@@ -1,0 +1,15 @@
+created: 20200716004151906
+modified: 20200716004634909
+tags: [[Variation (plane curves)]]
+title: Variation of length
+type: text/vnd.tiddlywiki
+
+If $$\gamma_0\colon [0,L] \to \R^2$$ is arc length parametrized and $$\gamma$$ is a variation of $$\gamma_0,$$ then
+$$
+\dot L \coloneqq
+\fracderiv{}{t}\biggr|_{t=0} L(\gamma_t) =
+  \lang \dot\gamma,T \rang\bigr|_0^L +
+  \int_0^L \kappa \lang \dot\gamma,N \rang \,\d s.
+$$
+
+{{Geodesics and variations}}

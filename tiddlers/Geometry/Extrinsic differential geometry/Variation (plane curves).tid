@@ -1,7 +1,7 @@
 created: 20200512204246638
 creator: Leander
 list: [[Fundamental lemma of calculus of variations]] [[Variation of length]] [[Geodesics and variations]] [[Bending energy (plane curves)]] [[Free elastic curve]] [[Elastic curve]] [[Dirichlet energy]]
-modified: 20200716004501609
+modified: 20200716221954291
 modifier: Leander
 tags: Curve
 title: Variation (plane curves)
@@ -21,3 +21,11 @@ along $$\gamma_0$$ is called //variational vector field// of $$\varphi.$$ In gen
 $$\varphi(x,t) = \varphi(x,0)$$ for all
 $$x \in [a,a+\delta] \cup [b-\delta,b]$$ and
 $$t \in \openI{-\varepsilon,\varepsilon}.$$</div>
+
+!! Variation under constraint
+
+If $$\gamma$$ is a variation of $$\gamma_0\colon [a,b] \to \R^2$$ and there exists a vector field $$G\colon [a,b] \to \R^2$$ such that
+$$
+\dot{F}(\gamma) = \int_0^L \lang \dot\gamma,G\rang
+$$
+for some functional $$F$$ we write $$G \eqqcolon \grad F(\gamma).$$ If $$E$$ is some other functional, we say a variation is a critical point of $$F$$ under constraint of $$E,$$ if $$\dot{E} = 0$$ implies $$\dot{F} = 0.$$ This is the case if and only if there exists $$\lambda$$ such that $$\grad F = \lambda\grad G,$$ in analogy to the one-dimensional [[Lagrange multiplier|Lagrange-Multiplikatoren]] method.

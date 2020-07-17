@@ -1,17 +1,17 @@
 created: 20200519005926367
 creator: Leander
 formula: b=-\kappa' N + (\tfrac 1 2 \kappa^2 + a) T
-modified: 20200713161738833
+modified: 20200716221120083
 modifier: Leander
 tags: [[Variation (plane curves)]]
 title: Elastic curve
 type: text/vnd.tiddlywiki
 
-A parametrized curve $$\gamma$$ is said to be //elastic,// if all variations with compact support that also satisfy
+A parametrized curve $$\gamma$$ is said to be //elastic,// if for all variations with compact support
 $$
 \dot L = 0 \iff \int_0^L \kappa\lang\dot\gamma,N\rang\,\d s=0
 $$
-satisfy $$\dot E=0.$$
+implies $$\dot E=0.$$
 
 ''Theorem.''
 An arc length parametrized curve is elastic if and only if there is an $$a \in \R$$ such that
@@ -29,4 +29,9 @@ $$
   a\lang Y,T \rang\bigr|_0^L
 \eqqcolon -\lang Y,b \rang\bigr|_0^L.
 $$
-If $$b=0,$$ then $$\gamma$$ is a circle of radius $$(-2a)^{\half}$$ or a straight line.
+If $$b=0,$$ then $$\gamma$$ is a circle of radius $$(-2a)^{-\half}$$ or a straight line.
+
+If $$\gamma$$ is a arc length parametrized elastic curve, the angle function $$\alpha$$ of $$T$$ satisfies the pendulum equation
+$$
+\alpha'' = -\|b\|\sin\alpha.
+$$

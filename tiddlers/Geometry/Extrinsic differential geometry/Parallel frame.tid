@@ -1,11 +1,10 @@
 created: 20200527170259981
-modified: 20200701132631512
-revision: 0
+modified: 20200717002027900
 tags: Curve
 title: Parallel frame
 type: text/vnd.tiddlywiki
 
-A smooth map $$N\colon [0,L] \to \R^3$$ is called a //unit normal field// along an arc length parametrized curve $$\gamma\colon [0,L] \to \R^3$$ if $$|N| = 1$$ and $$\lang N,T\rang = 0.$$ A unit normal field is called //parallel// if there is a smooth function $$\kappa\colon [0,L] \to \R$$ such that $$N' = \kappa T.$$
+A unit normal field $$N$$ along a space curve is called //parallel// if there is a smooth function $$\kappa\colon [0,L] \to \R$$ such that $$N' = \kappa T.$$
 
 If we choose a unit vector $$N_0$$ orthogonal to $$T_0,$$ then there is a unique parallel unit normal field $$N\colon [0,L] \to \R^3$$ along $$\gamma$$ such that $$N(0)=N_0.$$ All parallel unit normal fields are of the form
 $$

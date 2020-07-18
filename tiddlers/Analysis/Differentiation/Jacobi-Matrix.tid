@@ -1,20 +1,18 @@
 created: 20180529172034710
 creator: Leander
-modified: 20191120223349440
+modified: 20200717185354966
 modifier: Leander
-revision: 0
 tags: Ableitung
 title: Jacobi-Matrix
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon\R^n\supseteq G\to\R^m$$ [[differenzierbar|Ableitung]] in $$p\in G$$. Die [[lineare Abbildung|Lineare Abbildung]] $$\D_p f$$ kann dann bezüglich der kanonischen Basis durch die sogenannte //Jacobi-Matrix// oder //Funktionalmatrix// [[dargestellt|Darstellende Matrix (lineare Abbildungen)]] werden:
-
 $$
-f'(p)=
+f'(p) \coloneqq
 \begin{pmatrix}
-\partial_1 f_1(p) & \cdots & \partial_n f_1(p) \\
-\vdots            &        &\vdots            \\
-\partial_1 f_m(p) & \cdots & \partial_n f_m(p)
+  \partial_1 f_1(p) & \cdots & \partial_n f_1(p) \\
+  \vdots            &        &\vdots            \\
+  \partial_1 f_m(p) & \cdots & \partial_n f_m(p)
 \end{pmatrix}
 \in\R^{m\times n}.
 $$

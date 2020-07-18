@@ -1,5 +1,5 @@
 created: 20200714152921017
-modified: 20200714155029253
+modified: 20200717215951170
 tags: Curve no-toc
 title: Arc length parametrization
 type: text/vnd.tiddlywiki
@@ -18,3 +18,4 @@ We also use the one-form $$\d s = v\,\d t$$ for integration by arc length so tha
 $$
 \int_0^L g(s)\,\d s = \int_a^b g(t)v\,\d t.
 $$
+The arc length form is to curves what the area form is to surfaces.

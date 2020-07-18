@@ -1,17 +1,10 @@
 created: 20200603200435778
-modified: 20200702142654925
-revision: 0
+modified: 20200717215652876
 tags: Surface
 title: Integrals on Riemannian domains
 type: text/vnd.tiddlywiki
 
-{{Integral of a 2-form}}
-
-!! The area form
-
-{{Area form}}
-
-!! Area and integrals
+{{Integral of a two-form}}
 
 The area of a Riemannian domain is then defined as
 $$

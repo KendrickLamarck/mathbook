@@ -1,6 +1,5 @@
 created: 20200528142222028
-modified: 20200601220847078
-revision: 0
+modified: 20200717172841314
 tags: Curve
 title: Frenet frame
 type: text/vnd.tiddlywiki
@@ -12,7 +11,8 @@ N' &= -\kappa T + \tau B,\\
 B' &= -\tau N.
 \end{aligned}$$
 
-* For a general (not necessarily arc length parametrized) curve with $$\gamma'$$ and $$\gamma''$$ linearly independent we have $$N \in \span\{\gamma',\gamma''\}.$$ if $$\gamma$$ is arc length parametrized, this boils down to $$\gamma'' = \kappa N.$$
+* For a general (not necessarily arc length parametrized) curve, $$\gamma'$$ and $$\gamma''$$ are linearly independent if and only if $$\kappa \ne 0$$ and we have $$N \in \span\{\gamma',\gamma''\}.$$ if $$\gamma$$ is arc length parametrized, this boils down to $$\gamma'' = \kappa N.$$
+* A point where $$\gamma'$$ and $$\gamma''$$ are linearly dependent, i.e. $$\kappa = 0,$$ is called a //point of inflection.//
 * $$N$$ lies in the plane of the osculating circle.
 * If $$T,N,B$$ is the Frénét frame of a curve $$\gamma$$ such that $$\tau \equiv 0,$$ then $$\gamma$$ lies in a plane.
 
@@ -26,7 +26,7 @@ To find a Frénét frame, compute $$B = \frac{\gamma' \times \gamma''}{|\gamma' 
 
 !! Relating parallel and Frénét frames
 
-Let $$T,N,B$$ be a Frénét frame (with $$\kappa$$ and $$\tau$$) and $$\tilde T,\tilde N,\tilde B$$ be a parallel frame (with $$\kappa_1$$ and $$\kappa_2$$) of $$\gamma.$$ Then
+Let $$T,N,B$$ be a Frénét frame (with $$\kappa$$ and $$\tau$$) and $$\tilde T,\tilde N,\tilde B$$ be a parallel frame (with $$\kappa_1$$ and $$\kappa_2$$) of $$\gamma.$$ Then we get $$\kappa$$ and $$\tau$$ from $$\kappa_1$$ and $$\kappa_2$$ via
 $$
 \kappa = \sqrt{\kappa_1{}^2 + \kappa_2{}^2}, \qquad
 \tau = \alpha' =
@@ -38,4 +38,4 @@ $$
 \begin{pmatrix} \kappa_1 \\ -\kappa_2 \end{pmatrix} = 
 \kappa \begin{pmatrix} \cos\alpha \\ \sin\alpha \end{pmatrix}.
 $$
-Conversely, we can obtain $$\kappa_1$$ and $$\kappa_2$$ by the same formula with $$\alpha(s) \coloneqq \int_0^s \tau(t)\,\d t.$$
+Conversely, we can obtain $$\kappa_1$$ and $$\kappa_2$$ from $$\kappa$$ and $$\tau$$ by the same formula as the last with $$\alpha(s) \coloneqq -\int_0^s \tau(t)\,\d t.$$

@@ -1,6 +1,6 @@
 caption: Curvature of plane curves
 created: 20200430171229075
-modified: 20200714170958148
+modified: 20200717162650970
 tags: Curve
 title: Curvature (plane curves)
 type: text/vnd.tiddlywiki
@@ -29,6 +29,7 @@ $$
 \kappa = \frac{\det(\gamma',\gamma'')}{\|\gamma'\|^3}.
 $$</div>
 
+* A point on a curve where $$\kappa = 0$$ is called a //point of inflection.//
 * {{Vertex (plane curves)}}
 
 !! Fundamental theorem of plane curves

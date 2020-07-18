@@ -1,8 +1,7 @@
 created: 20200611184719891
-modified: 20200613135736399
-revision: 0
+modified: 20200717215919176
 tags: Curve
-title: Integral of a 1-form
+title: Integral of a one-form
 type: text/vnd.tiddlywiki
 
 If $$\omega \in \Omega^1 [a,b],$$ we define
@@ -18,3 +17,8 @@ $$
 \int_a^b \omega(\gamma').
 $$
 This is invariant under reparametrization of $$\gamma.$$
+
+If $$\gamma\colon \R \to M$$ is a closed curve, we define
+$$
+\int_{[(\gamma,\tau)]} \omega \coloneqq \int_{[0,\tau]} \gamma^*\omega.
+$$

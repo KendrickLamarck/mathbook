@@ -1,0 +1,15 @@
+created: 20200717204549531
+modified: 20200717204807923
+tags: misc
+title: Pseudosphere
+type: text/vnd.tiddlywiki
+
+Suppose that $$M \subseteq \{(u,v) \in \R^2 \mid v > 1\}$$ and
+$$
+f\colon M \to \R^3, \quad
+f(u,v) \coloneqq \begin{pmatrix}
+  \cos(u)/v \\
+  \sin(u)/v \\
+  \log(\sqrt{v^2-1}+v) - \frac{\sqrt{v^2-1}}{v}
+\end{pmatrix}.
+$$

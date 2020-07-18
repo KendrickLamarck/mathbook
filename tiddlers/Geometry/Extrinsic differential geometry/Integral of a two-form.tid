@@ -1,8 +1,7 @@
 created: 20200611180311869
-modified: 20200625165536035
-revision: 0
+modified: 20200717215652931
 tags: Surface no-toc
-title: Integral of a 2-form
+title: Integral of a two-form
 type: text/vnd.tiddlywiki
 
 The integral of a [[2-form|Differential form]] $$\sigma$$ on a compact, connected domain $$M \subset \R^2$$ with smooth boundary is defined as

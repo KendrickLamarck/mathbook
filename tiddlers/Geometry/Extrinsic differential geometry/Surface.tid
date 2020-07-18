@@ -1,16 +1,18 @@
 caption: Surfaces
 created: 20200603134649845
 creator: Leander
-list: [[Riemannian domain]] [[Area form]] [[Integral of a 2-form]] [[Integrals on Riemannian domains]] [[Covered area form]] [[Riemannian metric on surfaces]] [[Normal field (surfaces)]] [[Normal field and area form]] [[Covered area form of the normal field]] [[Curvature (surfaces)]] [[Levi-Civita connection (surfaces)]] [[Codazzi equation]] [[Gauss equation]] [[Boy's theorem]] [[Closed surface]] [[Euler characteristic]] Genus [[Orientation cover]] [[Variation (surface)]] [[Minimal surface]] [[Cone volume]]
-modified: 20200712185352652
+list: [[Riemannian domain]] [[Area form]] [[Integral of a two-form]] [[Integrals on Riemannian domains]] [[Covered area form]] [[Riemannian metric on surfaces]] [[Normal field (surfaces)]] [[Normal field and area form]] [[Covered area form of the normal field]] [[Curvature (surfaces)]] [[Levi-Civita connection (surfaces)]] [[Codazzi equation]] [[Gauss equation]] [[Boy's theorem]] [[Closed surface]] [[Euler characteristic]] Genus [[Orientation cover]] [[Variation (surface)]] [[Minimal surface]] [[Cone volume]] [[Bending energy (surfaces)]] [[Conformally invariant Willmore functional]] [[Willmore functional]]
+modified: 20200717215652907
 modifier: Leander
 tags: [[Extrinsic differential geometry]]
 title: Surface
 type: text/vnd.tiddlywiki
 
-Let $$M \subset \R^2$$ be a compact, connected subset with smooth boundary, i.e. $$M = M_0 \setminus \{\mathring{M}_1,\dots,\mathring{M}_k\},$$ where the $$M_1,\dots,M_k$$ are disjoint diffeomorphic images of closed unit disks contained in $$M_0.$$ An [[immersion|Immersion und Submersion]] $$f\colon M \to \R^n$$ is called a //parametrized surface.//
+Let $$M \subset \R^2$$ be a compact, connected subset with smooth boundary, i.e.
+$$M = M_0 \setminus \{\mathring{M}_1,\dots,\mathring{M}_k\},$$
+where the $$M_0,\dots,M_k$$ are diffeomorphic images of closed unit disks and $$M_1,\dots,M_k$$ are disjoint and contained in $$M_0.$$ An [[immersion|Immersion und Submersion]] $$f\colon M \to \R^n$$ is called a //parametrized surface.//
 
-If $$f\colon M \to \R^n$$ and $$\tilde f\colon \tilde M \to \R^n$$ are two parametrized surfaces, then $$\tilde f$$ is called an (orientation-preserving) //reparametrization// of $$f$$ if there is an (orientation-preserving) diffeomorphism $$\varphi\colon \tilde M \to M$$ such that $$\tilde f = f \circ \varphi.$$ An equivalence class of parametrized surfaces under (orientation-preserving) reparametrization is called an (oriented) //surface patch// in $$\R^n.$$
+If $$f\colon M \to \R^n$$ and $$\tilde f\colon \tilde M \to \R^n$$ are two parametrized surfaces, then $$\tilde f$$ is called an (orientation-preserving) //reparametrization// of $$f$$ if there is an (orientation-preserving) [[diffeomorphism|Diffeomorphismus]] $$\varphi\colon \tilde M \to M$$ such that $$\tilde f = f \circ \varphi.$$ An equivalence class of parametrized surfaces under (orientation-preserving) reparametrization is called an (oriented) //surface patch// in $$\R^n.$$
 
 * We call the coordinates $$u$$ and $$v$$ and denote the partial derivatives of maps from $$M$$ as $$f_u$$ and $$f_v.$$
 * For all $$p \in M$$ we identify (define) $$\T_p M \cong \{p\} \times \R^2$$ and $$\T M \cong M \times \R^2.$$
@@ -18,15 +20,20 @@ If $$f\colon M \to \R^n$$ and $$\tilde f\colon \tilde M \to \R^n$$ are two param
 * <div>For a smooth map $$f\colon M \to \R^n$$ we define the derivative map
 $$
 \d f \colon \T M \to \R^n,\quad
-X = (p,\hat X) \mapsto \d f(X) \coloneqq \D_p f(\hat X)
+X = (p,\hat X) \mapsto \d f(X) \coloneqq f'(p)\hat{X}
 $$
 and we write $$\d_X f \coloneqq \d f(X),$$ analogous to the directional derivative.</div>
-* <div>Similarly, if $$\varphi\colon M \to N$$ is a smooth map, we define
+* <div>Similarly, if $$\varphi\colon M \to N$$ is a smooth map between domains, we define
 $$
-\d\varphi\colon \T M \to \T N,\quad
-\d\varphi(X) \coloneqq \left(\varphi(p),\varphi'(p)\hat X\right)
+\d \varphi\colon \T M \to \T N,\quad
+\d \varphi(X) \coloneqq \left(\varphi(p),\varphi'(p)\hat X\right)
 $$
 for $$X = (p,\hat X).$$ For the previous definition, we simply identified $$\T_q \R^n \cong \R^n.$$</div>
+* <div>The chain rules for $$f,\varphi,\tilde\varphi$$ defined similarly as above then look like the usual one:
+$$
+\d(f\circ\varphi) = \d f \circ \d\varphi,\qquad
+\d(\varphi\circ\tilde\varphi) = \d \varphi \circ \d\tilde\varphi
+$$</div>
 
 ''Remark.''
 Some [[advanced terminology|Intrinsic differential geometry]] is used in this section.

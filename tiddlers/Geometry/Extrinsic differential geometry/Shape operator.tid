@@ -1,5 +1,5 @@
 created: 20200617141013886
-modified: 20200710211633508
+modified: 20200718212002530
 tags: [[Curvature (surfaces)]]
 title: Shape operator
 type: text/vnd.tiddlywiki
@@ -12,3 +12,22 @@ called the //shape operator// of $$f.$$
 
 * The shape operator is [[self-adjoint|Selbstadjungierter Endomorphismus]] with respect to the induced metric, i.e. for all $$X,Y \in \Gamma(\T M)$$ we have $$\lang AX,Y \rang = \lang X,AY \rang.$$
 * $$A$$ vanishes if and only if there is a plane $$E$$ with $$f(M) \subset E.$$
+
+!! In coordinates
+
+Define the matrices
+$$\begin{aligned}
+\lang \d f,\d f\rang &\coloneqq \begin{pmatrix}
+  \|f_u\|^2 & \lang f_u,f_v \rang \\
+  \lang f_u,f_v \rang & \|f_v\|^2
+\end{pmatrix}, \\[2ex]
+\lang \d N,\d f \rang &\coloneqq \begin{pmatrix}
+  \lang N_u,f_u \rang & \lang N_u,f_v \rang \\
+  \lang N_v,f_u \rang & \lang N_v,f_v \rang
+\end{pmatrix} =
+-\begin{pmatrix}
+  \lang N,f_{uu} \rang & \lang N,f_{vu} \rang \\
+  \lang N,f_{uv} \rang & \lang N,f_{vv} \rang
+\end{pmatrix}.
+\end{aligned}$$
+Then $$A = \lang \d f,\d f \rang^{-1} \lang \d N,\d f \rang.

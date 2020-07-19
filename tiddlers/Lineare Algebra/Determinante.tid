@@ -1,9 +1,8 @@
 created: 20180404220238608
 creator: Leander
 list: Leibnizformel [[Entwicklungssatz von Laplace]] [[Determinante eines Endomorphismus]] [[Determinante und Permutationen]] [[Komplementäre Matrix]] Minor [[Gram'sche Determinante]] Kreuzprodukt [[Ableitung der Determinante]] [[Wedge product and determinant]]
-modified: 20200416200447746
+modified: 20200718160432944
 modifier: Leander
-revision: 0
 tags: [[Lineare Algebra]]
 title: Determinante
 type: text/vnd.tiddlywiki
@@ -65,3 +64,5 @@ $$
 $$</div>
 
 * Es gilt $$\det A^\mathrm T=\det A$$, Spalten sind also den Zeilen in keiner Weise untergeordnet.
+
+* In $$\R^3$$ ist nach Definition des [[Kreuzproduktes|Kreuzprodukt]] $$\det(x,y,u) = \lang x \times y,u\rang.$$

@@ -1,17 +1,17 @@
 created: 20200528142222028
-modified: 20200717172841314
+modified: 20200718232746764
 tags: Curve
 title: Frenet frame
 type: text/vnd.tiddlywiki
 
 A [[frame|Frame field (space curves)]] is called a //Frenet frame// if $$\kappa_2$$ vanishes. The equations then obtained from the moving frame equations by setting the //curvature// $$\kappa \coloneqq \kappa_1$$ are called the //Frénét-Serre formulas://
 $$\begin{aligned}
-T' &=  \kappa N \\
-N' &= -\kappa T + \tau B,\\
+T' &=  -\kappa N \\
+N' &= \kappa T + \tau B,\\
 B' &= -\tau N.
 \end{aligned}$$
 
-* For a general (not necessarily arc length parametrized) curve, $$\gamma'$$ and $$\gamma''$$ are linearly independent if and only if $$\kappa \ne 0$$ and we have $$N \in \span\{\gamma',\gamma''\}.$$ if $$\gamma$$ is arc length parametrized, this boils down to $$\gamma'' = \kappa N.$$
+* For a general (not necessarily arc length parametrized) curve, $$\gamma'$$ and $$\gamma''$$ are linearly independent if and only if $$\kappa \ne 0$$ and we have $$N \in \span\{\gamma',\gamma''\}.$$ if $$\gamma$$ is arc length parametrized, this boils down to $$\gamma'' = -\kappa N.$$
 * A point where $$\gamma'$$ and $$\gamma''$$ are linearly dependent, i.e. $$\kappa = 0,$$ is called a //point of inflection.//
 * $$N$$ lies in the plane of the osculating circle.
 * If $$T,N,B$$ is the Frénét frame of a curve $$\gamma$$ such that $$\tau \equiv 0,$$ then $$\gamma$$ lies in a plane.

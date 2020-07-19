@@ -1,6 +1,5 @@
 created: 20200617144110669
-modified: 20200625171332471
-revision: 0
+modified: 20200718182450142
 tags: [[Curvature (surfaces)]]
 title: Directional curvature
 type: text/vnd.tiddlywiki
@@ -9,3 +8,6 @@ Let $$f\colon M \to \R^3$$ be a parametrized surface with [[shape operator|Shape
 $$
 \kappa(X) \coloneqq \lang AX,X \rang = \lang \d N(X), \d f (X)\rang_{\R^3}.
 $$
+This can be interpreted as the [[normal curvature|Normal and binormal curvature]] in $$0$$ of a ribbon $$(\gamma \circ f, N \circ f),$$ where $$\gamma\colon \openI{-\varepsilon,\varepsilon} \to M$$ is a regular curve with $$\gamma(0) = p$$ and $$\gamma'(0) = X.$$
+
+Another interpretation is that it is the (planar) curvature of the curve obtained by intersecting $$f(M)$$ with the plane through $$p$$ and spanned by $$N(p)$$ and $$\d_p f(X).$$

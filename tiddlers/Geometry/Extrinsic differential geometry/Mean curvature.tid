@@ -1,6 +1,5 @@
 created: 20200617145334904
-modified: 20200625171350159
-revision: 0
+modified: 20200718165351310
 tags: [[Curvature (surfaces)]]
 title: Mean curvature
 type: text/vnd.tiddlywiki
@@ -17,7 +16,7 @@ $$\begin{aligned}
   \cos\theta X_1 + \sin\theta X_2\rang               \\[7mu]
 = &\;
   \frac{\kappa_1(p) + \kappa_2(p)}{2} +
-  \frac{\kappa_1(p) + \kappa_2(p)}{2}\cos(2\theta).
+  \frac{\kappa_1(p) - \kappa_2(p)}{2}\cos(2\theta).
 \end{aligned}$$
 
 The //mean curvature// of $$f$$ at $$p$$ is defined as the (smooth!) function

@@ -1,6 +1,6 @@
 caption: Levi-Civita connection
 created: 20200623222304657
-modified: 20200709234642071
+modified: 20200718230541607
 tags: Surface
 title: Levi-Civita connection (surfaces)
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ Let $$f\colon M\to \R^3$$ be a regular parametrized surface, $$Y \in \Gamma(\T M
 $$
 \d_X \d f(Y) = -\lang AX,Y\rang N + \d f(Z)
 $$
-(the ordinary [[directional derivative|Richtungsableitung]]) can be decomposed in a tangent and normal part for some $$Z,$$ which we write as $$Z = (\nabla Y)(X) = \nabla_X Y.$$ The linear map
+(where $$\d f(Y) = \d f \circ Y\colon M \to \R^3$$) can be decomposed in a tangent and normal part for some $$Z,$$ which we write as $$Z = (\nabla Y)(X) = \nabla_X Y.$$ The linear map
 $$
 \nabla\colon \Gamma(\T M) \to \Gamma(\End \T M),\quad Y \mapsto \nabla Y$$
 is called the [[Levi-Civita connection]] of $$f.$$

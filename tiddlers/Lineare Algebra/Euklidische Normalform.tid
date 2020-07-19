@@ -1,8 +1,7 @@
 created: 20180624213549433
 creator: Leander
-modified: 20191010153617528
+modified: 20200718213116402
 modifier: Leander
-revision: 0
 tags: Orthogonalität no-toc
 title: Euklidische Normalform
 type: text/vnd.tiddlywiki
@@ -32,4 +31,4 @@ A_j=\begin{pmatrix}
 \end{pmatrix}\in \mathrm{SO}(2)
 $$
 
-mit $$\vartheta_j\in{[0,2\pi[},$$ aber $$\vartheta_j\ne 0,\pi.$$
+mit $$\vartheta_j\in\openI{0,2\pi} \setminus \{\pi\}.$$

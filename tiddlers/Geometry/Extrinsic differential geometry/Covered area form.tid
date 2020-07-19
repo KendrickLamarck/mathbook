@@ -1,6 +1,5 @@
 created: 20200617181113161
-modified: 20200617195356316
-revision: 0
+modified: 20200718182150400
 tags: Surface
 title: Covered area form
 type: text/vnd.tiddlywiki
@@ -18,3 +17,7 @@ $$
 $$</div>
 
 We can then define the //area covered// by $$g$$ as $$\int_M \sigma_g.$$
+
+!! Normal field
+
+{{Covered area form of the normal field}}

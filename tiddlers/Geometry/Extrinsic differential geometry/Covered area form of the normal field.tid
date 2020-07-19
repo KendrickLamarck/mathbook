@@ -1,8 +1,7 @@
 created: 20200617194859854
-modified: 20200617195523068
-revision: 0
+modified: 20200718181931372
 tags: Surface no-toc
 title: Covered area form of the normal field
 type: text/vnd.tiddlywiki
 
-Let $$f\colon M \to \R^3$$ be a parametrized surface with unit normal $$N$$ and Gaussian curvature $$K.$$ Then the covered area form of $$N$$ is $$K {\det}_f.$$
+Let $$f\colon M \to \R^3$$ be a parametrized surface with unit normal $$N\colon M \to \sphere^2$$ and Gaussian curvature $$K.$$ Then the covered area form of $$N$$ is $$K {\det}_f.$$

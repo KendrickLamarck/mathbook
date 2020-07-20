@@ -1,13 +1,12 @@
 created: 20191116234907420
-modified: 20200603153337994
-revision: 0
+modified: 20200720221737175
 tags: [[Differential form]]
 title: One-form
 type: text/vnd.tiddlywiki
 
 A (smooth) [[section|Section]] $$\omega$$ of the [[cotangent bundle|Cotangent space]] is called a //covector field// or a //(differential) one-form.// We write $$\Omega^1(M)=\Gamma(\T^*M)$$ for the space of all sections.
 
-A one-form $$\omega\in\Omega^1(M)$$ together with a [[vector field|Vector field]] $$X\in\mathfrak X(M)$$ gives a smooth function $$\omega(X)\in\mathcal C^\infty(M)$$ via $$(\omega X)(p)=\omega_p(X_p)\in\R.$$ In a coordinate chart $$(U,\varphi)$$ we have the basis vector fields $$\partial_i$$; taking the [[dual basis|Duale Basis]] pointwise we get the basis one-forms $$\d x_i$$ satisying $$\d x_i(\partial_j)=\delta_{ij}.$$ Any one-form $$\sigma\in\Omega^1(U)$$ can be written as $$\sigma=\sum\sigma_i\,\d x_i,$$ where the components $$\sigma_i=\sigma(\partial_i)\in\mathcal C^\infty(U)$$ are smooth functions.
+A one-form $$\omega\in\Omega^1(M)$$ together with a [[vector field|Vector field]] $$X\in\mathfrak X(M)$$ gives a smooth function $$\omega(X)\in\mathcal C^\infty(M)$$ via $$(\omega X)(p)=\omega_p(X_p)\in\R.$$ In a coordinate chart $$(U,\varphi)$$ we have the basis vector fields $$\partial_i$$; taking the [[dual basis|Duale Basis]] pointwise we get the basis one-forms $$\d x_i$$ as the differentials of the projection maps, satisying $$\d x_i(\partial_j)=\delta_{ij}.$$ Any one-form $$\sigma\in\Omega^1(U)$$ can be written as $$\sigma=\sum\sigma_i\,\d x_i,$$ where the components $$\sigma_i=\sigma(\partial_i)\in\mathcal C^\infty(U)$$ are smooth functions.
 
 !! Pullback
 

@@ -1,5 +1,5 @@
 created: 20200701194653306
-modified: 20200719204954591
+modified: 20200720180124101
 tags: Surface
 title: Orientation cover
 type: text/vnd.tiddlywiki
@@ -12,7 +12,7 @@ $$
   (f \circ g^{-1})(p) &\text{ if } p \in M_1.
 \end{cases}
 $$
-Label the boundary components of $$\tilde{M}$$ by the elements of $$\{-1,1\} \times \{1,\dots,n\}$$ and parametrize them (in the [[usual way|Boundary curvature]]) by maps
+Label the boundary components of $$\tilde{M}$$ by the elements of $$\{-1,1\} \times \{1,\dots,n\}$$ and parametrize them (in the [[usual way|Boundary of surfaces]]) by maps
 $$
 \gamma_{i,j}\colon \R \to \partial\tilde{M},\qquad
 \gamma_{i,j} \coloneqq \begin{cases}

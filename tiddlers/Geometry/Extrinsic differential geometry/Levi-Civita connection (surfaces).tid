@@ -1,6 +1,6 @@
 caption: Levi-Civita connection
 created: 20200623222304657
-modified: 20200718230541607
+modified: 20200720171716580
 tags: Surface
 title: Levi-Civita connection (surfaces)
 type: text/vnd.tiddlywiki
@@ -44,10 +44,10 @@ $$
 $$
 In fact, we can rearrange this to find $$\nabla_X B$$ (see [[Connections on tensor bundles]] for the general version).
 
-Using this, the third property above is equivalent to $$\nabla J = 0,$$ meaning $$J$$ is a so-called //parallel// endomorphism field.
+* Using this, the third property above is equivalent to $$\nabla J = 0,$$ meaning $$J$$ is a so-called //parallel// endomorphism field.
+* For any endomorphism field $$B,$$ we have $$\tr(\nabla_X B) = \d_X(\tr B).$$
 
-''Theorem (Codazzi equation).''
-{{Codazzi equation}}
+''Theorem (Codazzi equation).'' {{Codazzi equation}}
 
 !! Relation to the Gauss curvature
 

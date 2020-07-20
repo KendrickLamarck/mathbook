@@ -1,5 +1,5 @@
 created: 20200610151703628
-modified: 20200709225457444
+modified: 20200720165322314
 tags: Endomorphismus
 title: Spur
 type: text/vnd.tiddlywiki
@@ -12,7 +12,7 @@ Die //Spur (engl. trace)// $$\tr A$$ einer Matrix $$A = (a_{ij}) \in K^{n \times
 * Die Spur ist invariant unter zyklischen Permutationen, insbesondere ist $$\tr(AB) = \tr(BA)$$ und $$\tr(ABC) = \tr(CAB) = \tr(BCA).$$
 * <div>In einem zweidimensionalen Vektorraum gilt
 $$
-\det(AX,Y) - \det(AY,X) = \tr A \det(X,Y).
+\det(AX,Y) + \det(X,AY) = \tr A \det(X,Y).
 $$</div>
 
 !! Koordinatenfreie Definition

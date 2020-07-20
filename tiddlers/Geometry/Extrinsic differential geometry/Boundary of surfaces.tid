@@ -1,7 +1,7 @@
 created: 20200701140734245
-modified: 20200719202025799
-tags: [[Curvature (surfaces)]]
-title: Boundary curvature
+modified: 20200720180124168
+tags: Surface
+title: Boundary of surfaces
 type: text/vnd.tiddlywiki
 
 Let $$M \subset \R^2$$ be a compact domain with smooth boundary. Let $$f\colon M \to \R^3$$ be a parametrized surface with unit normal $$N$$ and let $$\lang\cdot,\cdot\rang$$ be the induced Riemannian metric.

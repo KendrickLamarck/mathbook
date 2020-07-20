@@ -1,13 +1,12 @@
 created: 20200701185058522
-modified: 20200702142907429
-revision: 0
+modified: 20200719201958077
 tags: Surface
 title: Closed surface
 type: text/vnd.tiddlywiki
 
 Let $$M \subset \R^2$$ be a compact domain with smooth boundary and $$f\colon M \to \R^3$$ a parametrized surface with unit normal $$N.$$ Let $$L_1,\dots,L_n$$ denote the lengths of the $$n$$ boundary components of $$M$$ with respect to the metric induced by $$f.$$ We parametrize the $$j$$-th boundary by an $$L_j$$-periodic smooth map $$\gamma_j\colon \R \to \partial M$$ such that
 $$\tilde\gamma_j \coloneqq f \circ \gamma_j$$
-is parametrized by arc length. The boundary ribbons of $$f$$ equip the closed curves $$\tilde\gamma_j$$ with unit normal fields $$\tilde{N}_j \coloneqq N \circ \gamma_j.$$ Let
+is parametrized by arc length and $$M$$ lies to the left of the curve. The boundary ribbons of $$f$$ equip the closed curves $$\tilde\gamma_j$$ with unit normal fields $$\tilde{N}_j \coloneqq N \circ \gamma_j.$$ Let
 $$a = (a_1,\dots,a_n)$$
 be a collection of real numbers and $$\rho \in S_n$$ a permutation with $$\rho^2 = \id.$$
 

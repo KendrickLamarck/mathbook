@@ -1,6 +1,6 @@
 created: 20200617140156562
 creator: Leander
-modified: 20200717204214567
+modified: 20200719214136066
 modifier: Leander
 tags: Surface
 title: Area form
@@ -25,7 +25,7 @@ JZ = \frac{
 $$
 We can construct an orthonormal frame by $$(U/|U|,JU/|U|).$$</div>
 
-* $$\det$$ is the unique two-form such that $$\det(X,Y) = 1$$ for every positively oriented orthonormal basis $$(X,Y)$$ of any $$\T_p M.$$
+* $$\det$$ is the unique two-form such that $$\det(X,Y) = 1$$ for every positively oriented orthonormal basis $$(X,Y)$$ of any $$\T_p M.$$ Note that the orientation of $$(X,Y)$$ is inherited from $$\R^2$$ and is not dependent on the metric.
 * $$\lang X,Z \rang Y - \lang Y,Z \rang X = \det(X,Y) JZ.$$
 * Für $$g \in \smooth^\infty(M)$$ gilt $$\divergence(J\grad g) = 0.$$
 

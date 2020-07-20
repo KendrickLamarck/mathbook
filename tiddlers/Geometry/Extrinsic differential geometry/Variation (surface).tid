@@ -2,7 +2,7 @@ caption: Variation
 created: 20200709223120188
 creator: Leander
 list: [[Smooth functionals on surfaces]] [[Variation of area]] [[Variation of mean curvature]] [[Variations under constraints (surface)]] [[Variation of volume (surfaces)]] [[Variation of the Willmore functional]]
-modified: 20200713191704802
+modified: 20200720004610892
 modifier: Leander
 tags: Surface
 title: Variation (surface)
@@ -18,7 +18,7 @@ $$
 $$</div>
 * <div>The directional derivative in the direction of a vector field $$X$$ commutes with the time derivative:
 $$
-\dot{\d_X g_t} = \d_X \dot{g}_t.
+(\d_X g_t)\,\dot{} = \d_X \dot{g}_t.
 $$</div>
 
 Such a one-parameter family is called a //variation// of a parametrized surface $$f\colon M \to \R^3$$ if $$t_0 < 0 < t_1$$ and $$f_0 = f.$$ In this case, we also write $$\dot{f}$$ instead of $$\dot{f}_0.$$ A variation of $$f$$ is said to have //compact support// in the interior of $$M,$$ if there is a compact set $$M_0 \subset \mathring{M}$$ such that for $$p \in M \setminus M_0$$ we have $$f_t(p) = f(p)$$ for all $$t \in \openI{-\varepsilon,\varepsilon}.$$

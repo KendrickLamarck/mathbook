@@ -1,5 +1,5 @@
 created: 20200701142834969
-modified: 20200713153024689
+modified: 20200719221543305
 tags: [[Curvature (surfaces)]]
 title: Gauss-Bonnet theorem
 type: text/vnd.tiddlywiki
@@ -7,11 +7,6 @@ type: text/vnd.tiddlywiki
 Let $$M \subset \R^2$$ be a compact domain with smooth boundary having $$k$$ connected components. Assume that the boundary $$\partial M$$ has $$n$$ components. Let $$f\colon M \to \R^3$$ be a parametrized surface, $$K\colon M \to \R$$ its [[Gauss curvature]] and $$\det$$ its area form. Then
 $$
 \int_M K \det = 2\pi(2k-n) - \int_{\partial M} \kappa_b \,\d s.
-$$
-
-If $$(f,\rho,a)$$ is a closed surface with $$m$$ connected components and [[genus|Genus]] $$g,$$ we get
-$$
-\int_M K \det = 4\pi(m-g).
 $$
 
 ''Theorem (Boy's theorem).''

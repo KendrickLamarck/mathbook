@@ -1,9 +1,8 @@
 created: 20180106165648183
 creator: Leander
 list: 
-modified: 20200312212041414
+modified: 20200721145138182
 modifier: Leander
-revision: 0
 tags: [[Ableitung in R]]
 title: Ableitung der Umkehrfunktion
 type: text/vnd.tiddlywiki
@@ -17,5 +16,5 @@ $$
 Durch Umstellen erhält man die hilfreichere Darstellung
 
 $$
-(f^{-1})'(x)=\frac{1}{f'(f^{-1}(x))}.
+(f^{-1})'(x)=\frac{1}{(f' \circ f^{-1})(x)}.
 $$

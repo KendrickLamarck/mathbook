@@ -1,5 +1,5 @@
 created: 20200713185540976
-modified: 20200713194519452
+modified: 20200722204511824
 tags: [[Variation (surface)]]
 title: Variation of the Willmore functional
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ $$
 where $$\phi \in \smooth^\infty(M)$$ and $$Z \in \vecfields(M).$$ Then
 $$\begin{aligned}
 \left.\fracderiv{}{t}\right|_{t=0} \mathcal{W}(f_t) =
-&\phantom{+}\int_M \phi(\Delta H + 2H(H^2-K)) \\ &+
+&\phantom{+}\int_M \phi(\Delta H + 2H(H^2-K))\det \\ &+
 \int_{\partial M} \lang B,H^2 Z-H\grad\phi+\phi\grad H \rang\,\d s,
 \end{aligned}$$
 where $$\d s$$ implies arc length parametrization of the boundary.

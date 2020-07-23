@@ -84,7 +84,8 @@ pre-border: <<colour muted-foreground>>
     primary: <<colour cyan>>
 select-tag-background: <<colour light-highlight-background>>
 select-tag-foreground: <<colour foreground>>
-sidebar-button-foreground: <<colour light-highlight-background>>
+
+sidebar-button-foreground: <<colour foreground>>
 sidebar-controls-foreground-hover: <<colour blue>>
 sidebar-controls-foreground: <<colour light-emphasised-foreground>>
 sidebar-foreground-shadow: transparent

@@ -1,11 +1,10 @@
 created: 20200428143930777
-modified: 20200609130258851
-revision: 0
+modified: 20200730063408351
 tags: Schätzer
 title: Varianzminimierender Schätzer
 type: text/vnd.tiddlywiki
 
-Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R$$ eine Kenngröße und $$T\colon \mathcal X \to \R$$ ein erwartungstreuer Schätzer für $$\tau.$$ Dann heißt $$T$$ //varianzminimierend// oder //(gleichmäßig) bester Schätzer,// wenn $$\Bbb V_\vartheta[T] \le \Bbb V_\vartheta[S]$$ für alle erwartungstreuen Schätzer $$S\colon \mathcal X \to \R$$ und alle $$\vartheta$$ gilt.
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R$$ eine Kenngröße und $$T\colon \mathcal X \to \R$$ ein erwartungstreuer Schätzer für $$\tau.$$ Dann heißt $$T$$ //varianzminimierend// oder //(gleichmäßig) bester Schätzer,// wenn $$\Var_\vartheta[T] \le \Var_\vartheta[S]$$ für alle erwartungstreuen Schätzer $$S\colon \mathcal X \to \R$$ und alle $$\vartheta$$ gilt.
 
 * Bei erwartungstreuen Schätzern ist die Varianz genau dann minimal, wenn der mittlere quadratische Fehler minimal ist.
 * Wir betrachten nur einparametrige Standardmodelle, aber der mehrparametrige Fall funktioniert ähnlich.

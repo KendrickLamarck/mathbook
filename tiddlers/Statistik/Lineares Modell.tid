@@ -1,5 +1,5 @@
 created: 20200707181234581
-modified: 20200707220133392
+modified: 20200730051122397
 tags: Statistik
 title: Lineares Modell
 type: text/vnd.tiddlywiki
@@ -13,3 +13,4 @@ Der $$n$$-dimensionale Beobachtungsvektor $$X = (X_1,\dots,X_n)^\transp$$ ergibt
 $$
 X = A\gamma + \sqrt{v}\xi.
 $$
+Das zugehörige Statistische Modell ist $$(\R^n,\Borel(\R^n),(\prob_{\gamma,v})_{\gamma \in \R^s,v>0}),$$ wobei $$\P_{\gamma,v}$$ die Verteilung von $$X$$ beschreibt. Es gilt $$\expect_{\gamma,v}[X] = A\gamma.$$

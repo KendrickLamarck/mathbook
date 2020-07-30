@@ -1,7 +1,6 @@
 created: 20200421162141560
-list: Fehlermaße Maximum-likelihood-Schätzer [[Varianzminimierender Schätzer]] [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Exponentielles Modell]] [[Schätzer für das Gauß-Produktmodell]] [[Suffizienz und Vollständigkeit bei Normalverteilungen]]
-modified: 20200630135720438
-revision: 0
+list: Fehlermaße [[Varianzminimierender Schätzer]] Maximum-likelihood-Schätzer [[Regulärer Schätzer]] Cramer-Rao-Ungleichung [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Suffizienz und Vollständigkeit bei Normalverteilungen]]
+modified: 20200730070750451
 tags: Statistik
 title: Schätzer
 type: text/vnd.tiddlywiki
@@ -24,9 +23,9 @@ $$
 Sei $$M^n=(\mathcal X^n, \mathcal F^n, (\P^n_\vartheta)_{\vartheta \in \varTheta})$$ eine Folge von statistischen Modellen, $$\tau\colon \varTheta \to \varSigma$$ eine Kenngröße und $$T_n\colon \mathcal X^n \to \varSigma$$ eine Folge von Schätzern. Dann heißt die Folge $$(T_n)$$ eine //konsistente Schätzfolge,// falls $$T_n \to \tau(\vartheta)$$ in $$\P_\vartheta$$-[[Wahrscheinlichkeit|Stochastische Konvergenz]] für $$\vartheta \in \varTheta.$$
 
 ''Satz.''
-Für alle $$\vartheta \in \varTheta$$ gelte
+Für alle $$\vartheta \in \varTheta$$ gelte für $$n \to \infty$$
 
-* $$\expect_{\P_\vartheta^n}[T_n(x)] \xrightarrow{n\to\infty} \tau(\vartheta)$$ @@float:right; (asymptotisch erwartungstreu),@@
-* $$\Var_{\P_\vartheta^n}(T_n(x)) \xrightarrow{n\to\infty} 0.$$
+* $$\expect_\vartheta[T_n(x)] \to \tau(\vartheta)$$ @@float:right; (asymptotisch erwartungstreu),@@
+* $$\Var_\vartheta[T_n(x)] \to 0.$$
 
 Dann ist $$(T_n)$$ eine konsistente Schätzfolge.

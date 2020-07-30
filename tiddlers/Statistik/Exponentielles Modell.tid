@@ -1,6 +1,5 @@
 created: 20200428192408459
-modified: 20200609140002339
-revision: 0
+modified: 20200730065756103
 tags: Statistik
 title: Exponentielles Modell
 type: text/vnd.tiddlywiki
@@ -19,4 +18,4 @@ hat, wobei $$a\colon \varTheta \to \R$$ stetig differenzierbar mit $$a' \ne 0$$ 
 * Jedes (einparametrige) exponentielle Modell hat [[wachsenden Likelihood-Quotienten|Wachsender Likelihood-Quotient]] entweder für die Statistik $$T$$ oder $$-T.$$
 
 ''Korollar.''
-Fur jedes exponentielle Modell ist die zugrunde liegende Statistik $$T$$ ein [[bester Schätzer|Varianzminimierender Schätzer]] für $$\tau(\vartheta) = \Bbb E_\vartheta[T] = b'(\vartheta) / a'(\vartheta).$$ In diesem Fall gilt auch $$I(\vartheta) = a'(\vartheta) \tau'(\vartheta)$$ und $$\Var_\vartheta[T] = \tau'(\vartheta) / a'(\vartheta).$$
+Fur jedes exponentielle Modell ist die zugrunde liegende Statistik $$T$$ ein [[bester Schätzer|Varianzminimierender Schätzer]] für $$\tau(\vartheta) = \expect_\vartheta[T] = b'(\vartheta) / a'(\vartheta).$$ In diesem Fall gilt auch $$I(\vartheta) = a'(\vartheta) \tau'(\vartheta)$$ und $$\Var_\vartheta[T] = \tau'(\vartheta) / a'(\vartheta).$$

@@ -1,11 +1,8 @@
 created: 20200428152107068
-modified: 20200609140029063
-revision: 0
-tags: Statistik
+modified: 20200730070858555
+tags: Statistik no-toc
 title: Reguläres Modell
 type: text/vnd.tiddlywiki
-
-{{KaTeX macros}}
 
 Ein [[Standardmodell]] mit dichte $$\rho$$ heißt //regulär,// wenn folgende Eigenschaften erfüllt sind:
 
@@ -25,3 +22,5 @@ $$
 $$</div>
 
 * Für jedes $$\vartheta$$ existiert die Varianz $$I(\vartheta) \coloneqq \Var_\vartheta[U_\vartheta]$$ und ist ungleich 0.
+
+{{Fisher-Information}}

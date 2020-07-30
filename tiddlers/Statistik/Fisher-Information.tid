@@ -1,11 +1,12 @@
 created: 20200428151712419
-modified: 20200609140141644
-revision: 0
-tags: [[Reguläres Modell]]
+modified: 20200730065622522
+tags: [[Reguläres Modell]] no-toc
 title: Fisher-Information
 type: text/vnd.tiddlywiki
 
-In einem regulären Modell heißt die Funktion $$I\colon \varTheta \to \R_+,\ \vartheta \mapsto \Var_\vartheta[U_\vartheta]$$ //Fisher-Information.// Aus der Vertauschungsrelation folgt, dass $$\Bbb E_\vartheta[U_\vartheta] = 0,$$ die Score-Funktion ist also zentriert. Insbesondere ist $$I(\vartheta) = \Bbb E[U_\vartheta{}^2].$$
+Die Funktion
+$$I\colon \varTheta \to \R_+,\ \vartheta \mapsto \Var_\vartheta[U_\vartheta]$$
+heißt ''Fisher-Information.'' Aus der Vertauschungsrelation folgt, dass $$\expect_\vartheta[U_\vartheta] = 0,$$ die Score-Funktion ist also zentriert. Insbesondere ist $$I(\vartheta) = \expect[U_\vartheta{}^2].$$
 
 * Das Produktmodell $$(\mathcal X^n,\mathcal F^{\otimes n},({\P_\vartheta}^{\otimes n})_{\vartheta \in \varTheta})$$ hat die Fisher-Information $$I^{\otimes n} = nI.$$
 * Die Fisher-Information ist unabhängig von der Wahl des dominierenden Maßes.

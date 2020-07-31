@@ -1,8 +1,7 @@
 created: 20190407190638561
-modified: 20191011175346797
-revision: 0
+modified: 20200730205643212
 tags: Lebesgue-Borel-Maß no-toc
 title: Lebesgue-Borel-Maß auf R
 type: text/vnd.tiddlywiki
 
-Es gibt genau ein [[Maß]] $$\lambda$$ auf $$(\mathbb R,\mathcal B)$$ mit $$\lambda(]s,t])=t-s$$ für alle $$s<t.$$ Es heißt das //Lebesgue-Borel-Maß// auf $$\mathbb R.$$
+Es gibt genau ein [[Maß]] $$\lambda$$ auf $$(\R,\Borel)$$ mit $$\lambda(\,]s,t]\,)=t-s$$ für alle $$s<t.$$ Es heißt das //Lebesgue-Borel-Maß// auf $$\R.$$

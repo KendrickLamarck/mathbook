@@ -1,16 +1,16 @@
 created: 20200511202436030
-modified: 20200624224216141
-revision: 0
+modified: 20200730210313964
 tags: Statistik
 title: Quantil
 type: text/vnd.tiddlywiki
 
-Sei $$Q$$ ein Wahrscheinlichkeitsmaß auf $$(\R,\mathcal B(\R))$$ und $$\alpha \in {]0,1[}.$$ Dann heißt jede Zahl $$q \in \R$$ mit
+Sei $$Q$$ ein Wahrscheinlichkeitsmaß auf $$(\R,\Borel(\R))$$ und $$\alpha \in {]0,1[}.$$ Dann heißt jede Zahl $$q \in \R$$ mit
 $$
 Q(\,\lopenI{-\infty,q}\,) \ge \alpha, \qquad
 Q(\,[q,\infty[\,) \ge 1-\alpha
 $$
 ein //$$\alpha$$-Quantil// von $$Q.$$
+Ein &#189;-Quantil von $$Q$$ ist ein //Median.//
+Ein $$(1-\alpha)$$-Quantil heißt //$$\alpha$$-Fraktil// von $$Q.$$
 
-* Ein $$\half$$-Quantil von $$Q$$ ist ein //Median.//
-* Ein $$(1-\alpha)$$-Quantil heißt //$$\alpha$$-Fraktil// von $$Q.$$
+Wenn die Verteilungsfunktion stetig ist, können wir Gleichheit annehmen. Wenn sie streng monoton steigend ist, sind alle Quantile eindeutig.

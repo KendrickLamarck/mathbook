@@ -1,7 +1,6 @@
 created: 20200602180136824
-list: [[Zulässiger Test]] [[Gleichmäßig bester Test]] [[Unverfälschter Test]] Neyman-Pearson-Test [[Wachsender Likelihood-Quotient]] Likelihood-Quotiententest [[Verallgemeinerter Likelihood-Quotient]] Chi-Quadrat-Anpassungstest [[Chi-Quadrat-Test auf Unabhängigkeit]]
-modified: 20200630130352219
-revision: 0
+list: [[Zulässiger Test]] [[Gleichmäßig bester Test]] [[Unverfälschter Test]] Neyman-Pearson-Test [[Wachsender Likelihood-Quotient]] Likelihood-Quotiententest [[Verallgemeinerter Likelihood-Quotient]] Chi-Quadrat-Anpassungstest [[Chi-Quadrat-Test auf Unabhängigkeit]] [[Fischers exakter Test auf Unabhängigkeit]] [[Test gegen fallenden Trend]] [[Tests im Gaußmodell]]
+modified: 20200801105844604
 tags: Statistik
 title: Test
 type: text/vnd.tiddlywiki

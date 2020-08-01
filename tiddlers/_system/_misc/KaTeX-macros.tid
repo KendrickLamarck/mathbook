@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200702213928424
+modified: 20200801045707942
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -62,6 +62,7 @@ $$
 \gdef\ggT{\operatorname{ggT}}
 \gdef\Conv{\operatorname{Conv}}
 \gdef\img{\operatorname{img}}
+\gdef{\Image}{\operatorname{Im}}
 
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
 \gdef\sd{\mathbin{\triangle}} % symmetric difference

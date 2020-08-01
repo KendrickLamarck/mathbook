@@ -1,10 +1,9 @@
 created: 20190705142825546
 creator: Leander
-modified: 20200630130905613
+modified: 20200801084517409
 modifier: Leander
-revision: 0
 tags: Normalverteilung no-toc
 title: Transformierte mehrdimensionale Normalverteilungen
 type: text/vnd.tiddlywiki
 
-Ist $$\Bbb X$$ $$\normaldist^n(m,\Sigma^2)$$-verteilt, so ist für eine $$l\times n$$-Matrix $$B,\ d\in\R^l$$ auch $$\Bbb W=B\Bbb X+d$$ wieder normalverteilt mit [[Mittelwertvektor|Erwartungswertvektor]] $$Bm+d$$ und [[Kovarianzmatrix]] $$B\Sigma^2 B^\mathrm T.$$
+Ist $$\Bbb X$$ $$\normaldist^n(m,\Sigma^2)$$-verteilt, so ist für eine $$l\times n$$-Matrix $$B,\ d\in\R^l$$ auch $$B\Bbb X+d$$ wieder normalverteilt mit [[Mittelwertvektor|Erwartungswertvektor]] $$Bm+d$$ und [[Kovarianzmatrix]] $$B\Sigma^2 B^\mathrm T.$$

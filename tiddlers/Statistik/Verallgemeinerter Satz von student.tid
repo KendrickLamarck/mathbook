@@ -1,0 +1,18 @@
+created: 20200801060423616
+modified: 20200801062418343
+tags: [[Lineares Modell]] no-toc
+title: Verallgemeinerter Satz von student
+type: text/vnd.tiddlywiki
+
+Im linearen Gauß-Modell gelten für beliebige $$\gamma,v$$ die folgenden Aussagen:
+
+* $$\hat\gamma$$ ist $$\normaldist^s(\gamma,v(A^\transp A)^{-1})$$-verteilt,
+* $$\frac{n-s}{v} V^*$$ ist $$\chi^2_{n-s}$$-verteilt,
+* $$\|A(\hat\gamma-\gamma)\|^2/v = \|\pi(X) - \expect_{\gamma,v}[X]\|^2/v$$ ist $$\chi^2_s$$-verteilt und unabhängig von $$V^*.$$ Somit hat $$\|A(\hat\gamma-\gamma)\|^2/(sV^*)$$ die [[Fisher-Verteilung|Fisher-Verteilung]] $$F_{s,n-s}.$$
+* <div>Ist $$H\subset \Image A$$ ein Untervektorraum mit $$\dim H = r < s$$ und $$A\gamma \in H,$$ so hat $$\|\pi_L(X) - \pi_H(X)\|^2/v$$ die Verteilung $$\chi^2_{s-r}$$ und ist unabhängig von $$V^*.$$ Somit ist die Fisher-Statistik
+$$
+F_{H,L} \coloneqq
+\frac{n-s}{s-r} \frac{\|\pi_L(X) - \pi_H(X)\|^2}{\|X-\pi_L(X)\|^2} =
+\frac{\|A\hat\gamma - \pi_H(X)\|^2}{(s-r)V^*}
+$$
+$$F_{s-r,n-s}$$-verteilt.</div>

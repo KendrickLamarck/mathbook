@@ -1,10 +1,10 @@
 caption: Verteilungsfreiheit
 created: 20200506130932362
-modified: 20200730070506081
+modified: 20200808123814337
 tags: Schätzer
 title: Verteilungsfreie Statistik
 type: text/vnd.tiddlywiki
 
-Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell. Eine Statistik $$S\colon \mathcal X \to \varSigma$$ heißt //verteilungsfrei,// falls $$\P_\vartheta\circ S^{-1}$$ nicht von $$\vartheta$$ abhängt. Sie heißt //verteilungsfrei 1. Ordnung,// falls $$\E_\vartheta[S]$$ nicht von $$\vartheta$$ abhängt.
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell. Eine Statistik $$S\colon \mathcal X \to \varSigma$$ heißt //verteilungsfrei,// falls ihre Verteilung $$\P_\vartheta\circ S^{-1}$$ nicht von $$\vartheta$$ abhängt. Sie heißt //verteilungsfrei 1. Ordnung,// falls $$\E_\vartheta[S]$$ nicht von $$\vartheta$$ abhängt.
 
 Dies ist gewissermaßen das Gegenteil von [[Suffizienz|Suffiziente Statistik]], da $$S$$ keine Informationen über $$\vartheta$$ liefert.

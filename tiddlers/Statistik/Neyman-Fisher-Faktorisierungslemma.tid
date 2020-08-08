@@ -1,14 +1,11 @@
 created: 20200505130716921
-modified: 20200505134705536
-revision: 0
+modified: 20200808143540948
 tags: [[Suffiziente Statistik]] no-toc
 title: Neyman-Fisher-Faktorisierungslemma
 type: text/vnd.tiddlywiki
 
-Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein Standardmodell mit Dichte $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und dominierendem Maß $$\mu.$$ Dann ist eine Statistik $$S\colon \mathcal X \to \varSigma$$ suffizient genau dann, wenn Funktionen $$h\colon \varTheta \times \varSigma \to \R$$ und $$k\colon \mathcal X \to \R$$ existieren, so dass
-
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein Standardmodell mit Dichte $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und dominierendem Maß $$\mu.$$ Dann ist eine Statistik $$S\colon \mathcal X \to \varSigma$$ suffizient genau dann, wenn Funktionen $$h\colon \varTheta \times \varSigma \to \R$$ und $$k\colon \mathcal X \to \R$$ existieren, so dass $$\mu$$ - fast überall
 $$
-\rho(\vartheta,x) = h(\vartheta,S(x))k(x)
+\rho(\vartheta,x) = h(\vartheta,S(x))k(x).
 $$
 
-$$\mu$$ - fast überall.

@@ -1,11 +1,11 @@
 caption: Vollständigkeit und Satz von Lehmann-Scheffé
 created: 20200505134647448
-modified: 20200730071012900
+modified: 20200808144022171
 tags: Schätzer
 title: Vollständige Statistik
 type: text/vnd.tiddlywiki
 
-Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell. Eine Statistik $$S\colon \mathcal X \to \varSigma$$ heißt //vollständig,// falls für alle messbaren Funktionen $$h\colon \varSigma \to \R$$ mit $$\E_\vartheta[h(S(X))] = 0$$ für alle $$\vartheta$$ folgt, dass $$h(S) = 0$$ $$\P_\vartheta$$ - fast sicher für alle $$\vartheta.$$
+Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell. Eine Statistik $$S\colon \mathcal X \to \varSigma$$ heißt //vollständig,// falls für alle messbaren Funktionen $$h\colon \varSigma \to \R$$ mit $$\E_\vartheta[h(S(X))] = 0$$ für alle $$\vartheta$$ folgt, dass $$h(S) = 0$$ $$\P_\vartheta$$-fast sicher für alle $$\vartheta.$$
 
 !! Satz von Lehmann-Scheffé
 

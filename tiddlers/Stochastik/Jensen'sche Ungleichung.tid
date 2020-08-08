@@ -1,14 +1,13 @@
 created: 20190114160553146
 creator: Leander
-modified: 20191011173702013
+modified: 20200807191932220
 modifier: Leander
-revision: 0
 tags: Stochastik
 title: Jensen'sche Ungleichung
 type: text/vnd.tiddlywiki
 
-Sei $$(\Omega,\mathcal F,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]] und sei $$X\colon\Omega\to\Bbb R$$ [[integrierbar|Lebesgue-Integral]]. Ferner sei $$I\subset\Bbb R$$ ein Intervall und $$\varphi\colon I\to\Bbb R$$ eine [[konvexe|Konvexität]] Funktion. Es gelte $$\Bbb P(X\notin I)=0.$$ Dann gilt
+Sei <<mathtext Wahrscheinlichkeitsmaß>> ein [[Wahrscheinlichkeitsraum|Maß]] und sei $$X\colon\Omega\to\R$$ [[integrierbar|Lebesgue-Integral]]. Ferner sei $$I\subset\R$$ ein Intervall und $$\varphi\colon I\to\R$$ eine [[konvexe|Konvexität]] Funktion. Es gelte $$\prob(X\notin I)=0.$$ Dann gilt
 
 $$
-\Bbb E(\varphi\circ X)\ge\varphi(\Bbb E(X)).
+\expect(\varphi\circ X)\ge\varphi(\expect(X)).
 $$

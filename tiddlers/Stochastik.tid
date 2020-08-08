@@ -1,9 +1,8 @@
 created: 20190426112241068
 creator: Leander
-list: Wahrscheinlichkeitsmaß [[Bedingte Wahrscheinlichkeit]] [[Stochastische Unabhängigkeit]] [[Unabhängigkeit in diskreten Produkträumen]] Zufallsvariable Verteilung [[Gemeinsame Verteilung]] [[Faltung von Dichten]] Erwartungswert Varianz Kovarianz Kovarianzmatrix Korrelationskoeffizient [[Erzeugende Funktion]] [[Konvergenzsatz für erzeugende Funktionen]] [[Charakteristische Funktion]] [[Jensen'sche Ungleichung]] [[Markovsche Ungleichung]] [[Chebychev'sche Ungleichung]] Borel-Cantelli-Lemma [[Stochastische Konvergenz]] [[Schnelle stochastische Konvergenz]] [[Konvergenz in Verteilung]] Markov-Kette
-modified: 20200601183526428
+list: Wahrscheinlichkeitsmaß [[Bedingte Wahrscheinlichkeit]] [[Stochastische Unabhängigkeit]] [[Unabhängigkeit in diskreten Produkträumen]] Zufallsvariable Verteilung [[Gemeinsame Verteilung]] [[Faltung von Dichten]] Erwartungswert Varianz Kovarianz Kovarianzmatrix Korrelationskoeffizient [[Erzeugende Funktion]] [[Konvergenzsatz für erzeugende Funktionen]] [[Charakteristische Funktion]] [[Jensen'sche Ungleichung]] [[Markovsche Ungleichung]] [[Chebychev'sche Ungleichung]] Borel-Cantelli-Lemma [[Konvergenz in Wahrscheinlichkeit]] [[Schnelle stochastische Konvergenz]] [[Konvergenz in Verteilung]] Markov-Kette
+modified: 20200805123646738
 modifier: Leander
-revision: 0
 tags: Mathematics
 title: Stochastik
 type: text/vnd.tiddlywiki

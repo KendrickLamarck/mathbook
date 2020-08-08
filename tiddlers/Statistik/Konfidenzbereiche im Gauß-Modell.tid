@@ -1,6 +1,5 @@
 created: 20200527153534180
-modified: 20200621154413040
-revision: 0
+modified: 20200804053553917
 tags: Statistik
 title: Konfidenzbereiche im Gauß-Modell
 type: text/vnd.tiddlywiki
@@ -8,7 +7,7 @@ type: text/vnd.tiddlywiki
 {{Satz von Student}}
 
 ''Fall 1.''
-Im $$n$$-fachen Gauß-Modell mit bekannter Varianz $$v$$ und unbekanntem Erwartungswert $$m$$ ist für $$\alpha \in \openI{0,1}$$
+Im $$n$$-fachen Gaußmodell mit bekannter Varianz $$v$$ und unbekanntem Erwartungswert $$m$$ ist für $$\alpha \in \openI{0,1}$$
 $$
 C(x) = \openI{
   \bar x-\eta_{\alpha/2}\sqrt{\tfrac{v}{n}},\,

@@ -1,14 +1,13 @@
 created: 20200527155538832
-modified: 20200621151717220
-revision: 0
+modified: 20200804053529024
 tags: Konfidenzbereich no-toc
 title: Satz von Student
 type: text/vnd.tiddlywiki
 
-Im $$n$$-fachen Gaußmodell $$(\R^n,\Borel(\R^n),(\P_{m,v}^{\otimes n})_{m\in\R,\,v>0})$$ sind $$\bar X=\frac 1 n \sum X_i$$ und $$V^*=\frac{1}{n-1} \sum(X_i-\bar X)^2$$ unabhängig und
+Im $$n$$-fachen Gaußmodell $$(\R^n,\Borel(\R^n),(\normaldist_{m,v}{}^{\otimes n})_{m\in\R,\,v>0})$$ sind $$\bar X=\frac 1 n \sum X_i$$ und $$V^*=\frac{1}{n-1} \sum(X_i-\bar X)^2$$ unabhängig und
 
 $$
-\bar X \sim N_{m,\,v/n},\qquad
+\bar X \sim \normaldist_{m,\,v/n},\qquad
 \frac{n-1}{v}V^* \sim \chi_{n-1}^2.
 $$
 Weiter gilt

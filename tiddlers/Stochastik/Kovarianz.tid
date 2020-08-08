@@ -1,6 +1,5 @@
 created: 20190523221448161
-modified: 20200502125621402
-revision: 0
+modified: 20200804094637673
 tags: Stochastik
 title: Kovarianz
 type: text/vnd.tiddlywiki
@@ -9,7 +8,7 @@ Seien $$X$$ und $$Y$$ [[Zufallsvariablen|Zufallsvariable]] mit $$\Bbb E(X^2)<\in
 
 $$
 \operatorname{Cov}(X,Y)\coloneqq
-\Bbb E((X-\Bbb E(X))(Y-\Bbb E(Y)))
+\Bbb E[(X-\Bbb E[X])(Y-\Bbb E[Y])]
 $$
 
 die //Kovarianz// von $$X$$ und $$Y.$$ Gilt $$\operatorname{Cov}(X,Y)=0,$$ so heißen $$X$$ und $$Y$$ //unkorelliert.//

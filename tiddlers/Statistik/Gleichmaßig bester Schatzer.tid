@@ -1,7 +1,7 @@
 created: 20200428143930777
-modified: 20200730063408351
+modified: 20200804063836537
 tags: Schätzer
-title: Varianzminimierender Schätzer
+title: Gleichmäßig bester Schätzer
 type: text/vnd.tiddlywiki
 
 Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R$$ eine Kenngröße und $$T\colon \mathcal X \to \R$$ ein erwartungstreuer Schätzer für $$\tau.$$ Dann heißt $$T$$ //varianzminimierend// oder //(gleichmäßig) bester Schätzer,// wenn $$\Var_\vartheta[T] \le \Var_\vartheta[S]$$ für alle erwartungstreuen Schätzer $$S\colon \mathcal X \to \R$$ und alle $$\vartheta$$ gilt.

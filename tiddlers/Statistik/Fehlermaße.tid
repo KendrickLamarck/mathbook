@@ -1,6 +1,5 @@
 created: 20200428133525472
-modified: 20200609140245534
-revision: 0
+modified: 20200804073433489
 tags: Schätzer
 title: Fehlermaße
 type: text/vnd.tiddlywiki
@@ -24,7 +23,7 @@ heißt //mittlerer quadratischer Fehler.// Auch die [[Varianz]] $$\Var[T]$$ ist 
 Man kann auch andere Fehlermaße der Form
 
 $$
-\Bbb F_\vartheta^\psi[T] \coloneqq \Bbb E_\vartheta[\psi(T-\tau(\vartheta))]
+\Bbb F^\psi{}_\vartheta[T] \coloneqq \Bbb E_\vartheta[\psi(T-\tau(\vartheta))]
 $$
 
 mit Fehlerfunktionen $$\psi\colon \R \to \R_+$$ betrachten.

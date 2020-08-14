@@ -1,5 +1,5 @@
 created: 20200511122132930
-modified: 20200804062045059
+modified: 20200814175359490
 tags: Schätzer
 title: Bayes-Schätzer
 type: text/vnd.tiddlywiki
@@ -15,8 +15,8 @@ Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit messbarer Dichtef
 $$
 \Bbb F_\alpha[T] = \E_\alpha[\Bbb F_\vartheta[T]] =
   \int_\varTheta \int_\mathcal X
-    |T(x)-\tau(\vartheta)|^2
-  \,\P_\vartheta(\d x) \,\alpha(\d \vartheta)
+    \bigl(T(x)-\tau(\vartheta)\bigr)^2
+  \,\P_\vartheta(\d x) \alpha(\d \vartheta)
 $$
 
 minimal unter allen Schätzern für $$\tau$$ ist. Unter diesen Voraussetzungen ist

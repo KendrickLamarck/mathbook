@@ -1,7 +1,7 @@
 created: 20200428192408459
-modified: 20200804111402477
+modified: 20200814191646397
 tags: Statistik
-title: Exponentielles Modell
+title: Exponentielle Familie
 type: text/vnd.tiddlywiki
 
 Sei $$M=(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ ein einparametriges Standardmodell, wobei $$\varTheta \subseteq \R$$ ein offenes Intervall ist. $$M$$ wird //exponentielles Modell// und $$(\P_\vartheta)_{\vartheta\in\varTheta}$$ //exponentielle Familie// bzgl. der Statistik $$T\colon \mathcal X \to \R$$ genannt, wenn die Dichte die Form
@@ -17,3 +17,7 @@ hat, wobei $$a\colon \varTheta \to \R$$ stetig differenzierbar mit $$a' \ne 0$$ 
 
 ''Korollar.''
 Fur jedes exponentielle Modell ist die zugrunde liegende Statistik $$T$$ ein [[bester Schätzer|Gleichmäßig bester Schätzer]] für $$\tau(\vartheta) = \expect_\vartheta[T] = b'(\vartheta) / a'(\vartheta).$$ In diesem Fall gilt auch $$I(\vartheta) = a'(\vartheta) \tau'(\vartheta)$$ und $$\Var_\vartheta[T] = \tau'(\vartheta) / a'(\vartheta).$$
+
+!! Mehrdimensional
+
+{{Mehrdimensionale exponentielle Familie}}

@@ -1,12 +1,11 @@
 created: 20200222185408210
-list: Frobenius-Norm [[Konsistente Norm]] [[Komponentenweiser Betrag bei Matrizen]] [[Rundungsfehler bei Matrizen]] [[Kondition von linearen Gleichungssystemen]] Cholesky-Zerlegung [[Nachiteration bei Gleichungssystemen]]
-modified: 20200229230656920
-revision: 0
+list: Frobenius-Norm [[Konsistente Norm]] [[Komponentenweiser Betrag bei Matrizen]] [[Rundungsfehler bei Matrizen]] [[Kondition von linearen Gleichungssystemen]] [[Nachiteration bei Gleichungssystemen]] Cholesky-Zerlegung
+modified: 20200815220617300
 tags: Numerik
 title: LR-Zerlegung
 type: text/vnd.tiddlywiki
 
-Wir wollen das Gleichungssystem $$Ax=b$$ lösen, indem wir $$A=LR$$ in eine untere linke Dreicksmatrix $$L$$ mit Einsen auf der Diagonale und eine obere rechte Dreicksmatrix $$R$$ zerlegen und dann erst $$Ly=b$$ und dann $$Rx=y$$ durch vorwärts- bzw. Rückwärtseinsetzen lösen. Dazu führen wir das Gauss-Verfahren durch und speichern die Koeffizienten in der Matrix $$L.$$
+Wir wollen das Gleichungssystem $$Ax=b$$ lösen, indem wir $$A=LR$$ in eine untere linke Dreiecksmatrix $$L$$ mit Einsen auf der Diagonale und eine obere rechte Dreiecksmatrix $$R$$ zerlegen und dann erst $$Ly=b$$ und dann $$Rx=y$$ durch vorwärts- bzw. Rückwärtseinsetzen lösen. Dazu führen wir das Gauss-Verfahren durch und speichern die Koeffizienten in der Matrix $$L.$$
 
 !! Existenz und Eindeutigkeit
 

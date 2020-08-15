@@ -1,6 +1,5 @@
 created: 20200609124745574
-modified: 20200624230755552
-revision: 0
+modified: 20200815151521681
 tags: Test
 title: Likelihood-Quotiententest
 type: text/vnd.tiddlywiki
@@ -33,7 +32,7 @@ Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
 $$\alpha = \prob_{\vartheta_0}(T > \kappa) + \gamma \prob_{\vartheta_0}(T = \kappa)$$
 ist gegeben durch
 $$
-\gamma\mathbf 1_{\{T = \kappa\}} + \mathbf 1_{\{T > \kappa\}}.
+\gamma\mathbf 1_{T = \kappa} + \mathbf 1_{T > \kappa}.
 $$
 Für die Wahl von $$\gamma$$ und $$\kappa$$ siehe auch [[Neyman-Pearson-Test]].</div>
 

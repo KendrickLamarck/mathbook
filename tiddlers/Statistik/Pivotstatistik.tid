@@ -1,24 +1,21 @@
 created: 20200518174807973
-modified: 20200531115406925
-revision: 0
+modified: 20200815182656738
 tags: Konfidenzbereich no-toc
 title: Pivotstatistik
 type: text/vnd.tiddlywiki
 
-Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\pi\colon \varTheta \times \mathcal X \to \varSigma$$ eine Abbildung. Dann heißt $$\pi$$ eine //Pivotstatistik// bzw. //Pivot,// falls für $$\vartheta \in \varTheta$$ die Verteilung von $$\pi(\vartheta,\cdot)\colon \mathcal X \to \varSigma$$ unter $$\P_\vartheta$$ nicht von $$\vartheta$$ abhängt, d.h. es existiert ein Wahrscheinlichkeitsmaß $$\eta$$ auf $$\varSigma,$$ so dass für alle messbaren Mengen $$A \subseteq \varSigma$$
-
+Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\pi\colon \varTheta \times \mathcal X \to \varSigma$$ eine Abbildung. Dann heißt $$\pi$$ eine //Pivotstatistik// bzw. //Pivot,// falls die Verteilung von
+$$\pi(\vartheta,X)\colon \mathcal X \to \varSigma$$
+unter $$\P_\vartheta$$ nicht von $$\vartheta$$ abhängt, d.h. falls ein Wahrscheinlichkeitsmaß $$\eta$$ auf $$\varSigma$$ existiert, so dass für alle messbaren Mengen $$A \subseteq \varSigma$$
 $$
-\P_\vartheta(\pi(\vartheta,\cdot) \in A) = \eta(A)
+\P_\vartheta(\pi(\vartheta,X) \in A) = \eta(A)
 $$
-
 für alle $$\vartheta.$$ Das Wahrscheinlichkeitsmaß $$\eta$$ heißt //Pivot-Verteilung.//
 
 ''Satz.''
 Sei <<mathtext "Statistisches Modell">> ein statistisches Modell mit Pivotstatistik $$\pi$$ und Pivotverteilung $$\eta.$$ Zu $$\alpha \in \openI{0,1}$$ sei $$A \subseteq \varSigma$$ eine messbare Menge mit $$\eta(A) \ge 1-\alpha.$$ Dann ist die Abbildung
-
 $$
 C\colon \mathcal X \to \varTheta,\quad
 C(x) \coloneqq \{\,\vartheta \in \varTheta \mid \pi(\vartheta,x) \in A\,\}
 $$
-
 ein [[Konfidenzbereich]] für $$\vartheta$$ zum Niveau $$\alpha.$$

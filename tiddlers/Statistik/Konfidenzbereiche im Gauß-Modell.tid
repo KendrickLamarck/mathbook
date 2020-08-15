@@ -1,5 +1,5 @@
 created: 20200527153534180
-modified: 20200804053553917
+modified: 20200815155232035
 tags: Statistik
 title: Konfidenzbereiche im Gauß-Modell
 type: text/vnd.tiddlywiki
@@ -20,15 +20,15 @@ ein Konfidenzbereich für den Parameter $$m$$ zum Niveau $$\alpha,$$ wobei $$\et
 bei unbekannter Varianz $$v$$ und unbekanntem Erwartungswert $$m$$ ist für $$\alpha \in \openI{0,1}$$
 $$
 C_m(x) = \openI{
-  \bar x-t_{\alpha/2}\sqrt{\tfrac{v^*}{n}},\,
-  \bar x+t_{\alpha/2}\sqrt{\tfrac{v^*}{n}}
+  \bar x-t_{\alpha/2}\sqrt{\tfrac{V^*(x)}{n}},\,
+  \bar x+t_{\alpha/2}\sqrt{\tfrac{V^*(x)}{n}}
 }
 $$
 ein Konfidenzbereich für den Parameter $$m$$ zum Niveau $$\alpha$$ und
 $$
 C_v(x) = \openI{
-  \frac{n-1}{s_{1-\alpha/2}}v^*,
-  \frac{n-1}{s_{\alpha/2}}v^*
+  \frac{n-1}{s_{1-\alpha/2}}V^*(x),
+  \frac{n-1}{s_{\alpha/2}}V^*(x)
 }
 $$
 ein Konfidenzbereich für $$v$$ zum Niveau $$\alpha.$$ Hier ist $$t_{\alpha/2}$$ das $$\alpha/2$$-Fraktil der $$t_{n-1}$$-Verteilung, $$s_{\alpha/2}$$ das $$\alpha/2$$-Quantil der $$\chi_{n-1}^2$$-Verteilung usw.
@@ -37,8 +37,8 @@ ein Konfidenzbereich für $$v$$ zum Niveau $$\alpha.$$ Hier ist $$t_{\alpha/2}$$
 Im $$n$$-fachen Gaußmodell mit bekanntem Erwartungswert und unbekannter Varianz können wir die Pivotstatistik $$S_n{}^2 = \frac 1 n \sum(X_i-m)^2 \sim \chi_n^2$$ benutzen. Man erhält den Konfidenzbereich von $$v$$ zum Niveau $$\alpha$$
 $$
 C(x) = \openI{
-  \frac{n S_n{}^2}{s_{1-\alpha/2}},
-  \frac{n S_n{}^2}{s_{\alpha/2}}
+  \frac{n S_n{}^2(x)}{s_{1-\alpha/2}},
+  \frac{n S_n{}^2(x)}{s_{\alpha/2}}
 },
 $$
 wobei $$s_{\alpha/2}$$ das $$\alpha/2$$-Quantil der $$\chi_n^2$$-Verteilung ist usw.

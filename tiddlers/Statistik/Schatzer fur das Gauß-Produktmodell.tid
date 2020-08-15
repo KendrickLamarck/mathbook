@@ -1,5 +1,5 @@
 created: 20200423134002786
-modified: 20200804070235226
+modified: 20200815152116348
 tags: Schätzer
 title: Schätzer für das Gauß-Produktmodell
 type: text/vnd.tiddlywiki
@@ -19,7 +19,7 @@ $$
 Die Statistik
 $$
 S(x) = \begin{pmatrix} S_1(x) \\ S_2(x) \end{pmatrix} \coloneqq
-\sum \begin{pmatrix} x_i \\[5mu] x_i{}^2 \end{pmatrix}
+\sum_i \begin{pmatrix} x_i \\[5mu] x_i{}^2 \end{pmatrix}
 $$
 ist vollständig und suffizient. Daher ist $$\hat m$$ der erwartungstreue varianzminimierende Schätzer für $$m$$ und
 $$

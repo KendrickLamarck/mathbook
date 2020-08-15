@@ -1,5 +1,5 @@
 created: 20200527155538832
-modified: 20200804053529024
+modified: 20200815155620140
 tags: Konfidenzbereich no-toc
 title: Satz von Student
 type: text/vnd.tiddlywiki
@@ -12,9 +12,6 @@ $$
 $$
 Weiter gilt
 $$
-T_m \coloneqq
-  \frac{\sqrt{n}(\bar X-m)}
-    {\sqrt{V^*}}
-\sim t_{n-1}.
+T_m \coloneqq \sqrt{\frac{n}{V^*}}(\bar X-m) \sim t_{n-1}.
 $$
 Insbesondere handelt es sich um [[Pivotstatistiken|Pivotstatistik]].

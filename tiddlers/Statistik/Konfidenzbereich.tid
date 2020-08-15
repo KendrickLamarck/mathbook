@@ -1,5 +1,5 @@
 created: 20200511200714005
-modified: 20200730200405005
+modified: 20200815153121040
 tags: Statistik
 title: Konfidenzbereich
 type: text/vnd.tiddlywiki
@@ -11,22 +11,24 @@ $$\alpha \in {]0,1[}.$$
 Dann heißt eine Abbildung
 $$C\colon \mathcal X \to \mathcal P(\varSigma\,)$$
 //Konfidenzbereich// für $$\tau$$ zum Niveau $$\alpha,$$ falls
-$$C_\vartheta \coloneqq \{C \ni \vartheta\} \in \mathcal F$$ und
-
+$$C_\sigma \coloneqq \{C \ni \sigma\} \in \mathcal F$$ für alle $$\sigma \in \varSigma$$ und
 $$
 \P_\vartheta(C(X) \ni \tau(\vartheta)) \ge 1-\alpha\quad \forall\vartheta.
 $$
-
 Jeder Konfidenzbereich kann eindeutig durch seinen Graphen
-$$C \subseteq \mathcal X \times \varTheta$$
-dargestellt werden. Für $$x \in \mathcal X$$ ist $$C(x)$$ die vertikale Schnittmenge und die $$C_\vartheta$$ sind die horizontalen Schnittmengen.
+$$C \subseteq \mathcal X \times \varSigma$$
+dargestellt werden. Für $$x \in \mathcal X$$ ist $$C(x)$$ die vertikale Schnittmenge und die $$C_\sigma$$ sind die horizontalen Schnittmengen.
+
+''Bemerkungen.''
+In der Definition ist keine Bedingung an die Größe von $$C(x)$$ gestellt, man könnte also immer $$C(x) \coloneqq \varSigma$$ wählen. In der Praxis möchte man natürlich einen möglichst kleinen Konfidenzbereich haben, was allerdings im Konflikt mit dem Irrtumsniveau $$\alpha$$ steht.
+
+Außerdem ist anzumerken, dass die Definition leicht so zu lesen ist, als sei der Parameter $$\vartheta$$ zufällig. Dies ist nicht der Fall, in Wirklichkeit wird der Bereich $$C(x)$$ zufällig gewählt und enthält mit der Vorgegebenen Wahrscheinlichkeit den festen Wert $$\tau(\vartheta).$$
 
 !! Asymptotischer Konfidenzbereich
 
 Eine Folge $$C_n\colon (\mathcal X_n,\mathcal F_n,(\P_\vartheta^n)_{\vartheta \in \varTheta}) \to \mathcal P(\varSigma\,)$$ heißt //asymptotischer Konfidenzbereich,// wenn für alle $$\vartheta$$
-
 $$
-\liminf_{n\to\infty} \P_\vartheta^n(\vartheta \in C_n) \ge 1-\alpha.
+\liminf_{n\to\infty} \P_\vartheta^n(C_n(X) \ni \tau(\vartheta)) \ge 1-\alpha.
 $$
 
 !! Bestimmung mit Pivotstatistiken

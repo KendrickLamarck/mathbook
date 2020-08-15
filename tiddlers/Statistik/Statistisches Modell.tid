@@ -1,7 +1,6 @@
 created: 20200421160857082
 formula: (\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})
-modified: 20200514125851811
-revision: 0
+modified: 20200815151205810
 tags: Statistik
 title: Statistisches Modell
 type: text/vnd.tiddlywiki
@@ -11,7 +10,9 @@ Ein //statistisches Modell// ist ein Tripel $$(\mathcal X,\mathcal F,(\P_\varthe
 * Einem Stichprobenraum $$\mathcal X,$$
 * Einer $$\sigma$$-Algebra $$\mathcal F$$ auf $$\mathcal X$$ als Algebra der Beobachtungen,
 * Einer Klasse $$\{\P_\vartheta\colon\vartheta\in\varTheta\}$$ von Wahrscheinlichkeitsmaßen auf $$(\mathcal X,\mathcal F),$$
-* Einem Parameterraum $$\varTheta$$ mit mindestens zwei Elementen (typischerweise $$\varTheta\subseteq\R^d$$).
+* Einem Parameterraum $$\varTheta$$ mit mindestens zwei Elementen. Wenn $$\varTheta\subseteq\R^d$$ ist sprechen wir von einem //parametrischen Modell.//
+
+Wir schreiben $$X \coloneqq {\id_\mathcal{X}}.$$
 
 !! Produktmodell
 

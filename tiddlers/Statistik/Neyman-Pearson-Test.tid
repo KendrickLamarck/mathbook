@@ -1,12 +1,12 @@
 created: 20200602190919926
-modified: 20200804055810552
+modified: 20200815151754729
 tags: Test
 title: Neyman-Pearson-Test
 type: text/vnd.tiddlywiki
 
 Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit $$\varTheta = \{0,1\}$$ (Nullhypothese und Alternative) und Dichtefunktionen $$\rho_0$$ und $$\rho_1$$ bzgl. $$\mu,$$ d.h.
 $$
-\prob_0(\d x) = \rho_0\,\mu(\d x), \quad
+\prob_0(\d x) = \rho_0\,\mu(\d x), \qquad
 \prob_1(\d x) = \rho_1\,\mu(\d x).
 $$
 Der Grad der Dominanz von $$\rho_1$$ über $$\rho_0$$ wird beschrieben durch den //Likelihood-Quotienten//
@@ -25,7 +25,7 @@ Für $$\alpha \in \openI{0,1}$$ gilt:
 * <div>Es existiert ein Neyman-Pearson-Test mit
 $$\expect_0[\varphi]=\alpha.$$
 Wenn $$\P_0(R=c)=0$$ ist, setzen wir
-$$\varphi \coloneqq \mathbf{1}_{\{R > c\}}$$
+$$\varphi \coloneqq \mathbf{1}_{R > c}$$
 und sonst
 $$
 \varphi\bigr|_{\{R = c\}} \equiv

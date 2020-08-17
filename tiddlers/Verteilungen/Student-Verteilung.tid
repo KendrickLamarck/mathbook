@@ -1,6 +1,5 @@
 created: 20200527123448505
-modified: 20200527125743317
-revision: 0
+modified: 20200816210146906
 tags: Verteilung
 title: Student-Verteilung
 type: text/vnd.tiddlywiki
@@ -16,6 +15,8 @@ $$
 \tau_n(x) =
   \frac{1}
     {\Beta(\frac{1}{2},\frac{n}{2})\sqrt{n}}
-  \left(1+\frac{x^2}{n}\right)^{-(n+1)/2}
+  \left(1+\frac{x^2}{n}\right)^{-\frac{n+1}{2}}
 $$
 und heißt //Student-verteilt// mit $$n$$ Freiheitsgraden oder kurz $$t_n$$-Verteilung.
+
+Für $$n \to \infty$$ streben die $$\tau_n$$ gegen die Dichte $$\phi$$ der Standardnormalverteilung.

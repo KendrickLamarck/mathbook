@@ -1,5 +1,5 @@
 created: 20200609154003916
-modified: 20200815151613958
+modified: 20200817123600074
 tags: Test no-toc
 title: Verallgemeinerter Likelihood-Quotient
 type: text/vnd.tiddlywiki
@@ -10,3 +10,5 @@ R(x) = \frac{\sup_{\vartheta \in \varTheta_1} \rho(\vartheta,x)}
   {\sup_{\vartheta \in \varTheta_0} \rho(\vartheta,x)}
 $$
 //verallgemeinerter Likelihood-Quotient.// Ein Test der Form $$\mathbf{1}_{R \ge c}$$ heißt //verallgemeinerter Likelihood-Quotiententest// von $$\varTheta_0$$ gegen $$\varTheta_1.$$
+
+Dieser Ansatz garantiert keinen guten Test, ist aber oft ein guter Startpunkt.

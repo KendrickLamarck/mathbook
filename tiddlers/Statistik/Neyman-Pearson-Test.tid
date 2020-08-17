@@ -1,5 +1,5 @@
 created: 20200602190919926
-modified: 20200815151754729
+modified: 20200817123731463
 tags: Test
 title: Neyman-Pearson-Test
 type: text/vnd.tiddlywiki
@@ -20,6 +20,7 @@ $$\varphi|_{\{R > c\}} \equiv 1$$
 und
 $$\varphi|_{\{R < c\}} \equiv 0$$
 für irgendein $$c.$$
+
 Für $$\alpha \in \openI{0,1}$$ gilt:
 
 * <div>Es existiert ein Neyman-Pearson-Test mit

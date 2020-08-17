@@ -1,11 +1,11 @@
 created: 20200602180136824
 list: [[Zulässiger Test]] [[Gleichmäßig bester Test]] [[Unverfälschter Test]] Neyman-Pearson-Test [[Wachsender Likelihood-Quotient]] Likelihood-Quotiententest [[Verallgemeinerter Likelihood-Quotient]] Chi-Quadrat-Anpassungstest [[Chi-Quadrat-Test auf Unabhängigkeit]] [[Fischers exakter Test auf Unabhängigkeit]] [[Test gegen fallenden Trend]] [[Tests im Gaußmodell]]
-modified: 20200801105844604
+modified: 20200817121639874
 tags: Statistik
 title: Test
 type: text/vnd.tiddlywiki
 
-Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\varTheta = \varTheta_0 \sqcup \varTheta_1$$ eine Zerlegung von $$\varTheta$$ in //Nullhypothese// und //Alternative.//
+Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\varTheta = \varTheta_0 \sqcup \varTheta_1$$ eine disjunkte Zerlegung von $$\varTheta$$ in //Nullhypothese// und //Alternative.//
 
 * Eine Statistik $$\varphi\colon \mathcal X \to [0,1]$$ heißt //Test// von $$\varTheta_0$$ gegen $$\varTheta_1.$$
 * Ein Test heißt //nicht randomisiert,// falls $$\varphi \in \{0,1\}.$$

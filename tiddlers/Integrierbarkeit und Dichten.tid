@@ -1,6 +1,5 @@
 created: 20190406214330408
-modified: 20191201160003229
-revision: 0
+modified: 20200816153418776
 tags: no-toc Dichte
 title: Integrierbarkeit und Dichten
 type: text/vnd.tiddlywiki
@@ -14,5 +13,7 @@ $$
 Symbolisch:
 
 $$
-\mathrm d\nu=\frac{\mathrm d\nu}{\mathrm d\mu}\,\mathrm d\mu.
+\mathrm d\nu=\frac{\mathrm d\nu}{\mathrm d\mu}\,\mathrm d\mu
+\quad\text{oder}\quad
+\nu(\d x) = \varphi(x)\,\mu(\d x).
 $$

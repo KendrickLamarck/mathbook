@@ -1,12 +1,12 @@
 created: 20200527153534180
-modified: 20200815155232035
+modified: 20200816151513782
 tags: Statistik
 title: Konfidenzbereiche im Gauß-Modell
 type: text/vnd.tiddlywiki
 
 {{Satz von Student}}
 
-''Fall 1.''
+''Fall 1: Bekannte Varianz.''
 Im $$n$$-fachen Gaußmodell mit bekannter Varianz $$v$$ und unbekanntem Erwartungswert $$m$$ ist für $$\alpha \in \openI{0,1}$$
 $$
 C(x) = \openI{
@@ -16,7 +16,17 @@ C(x) = \openI{
 $$
 ein Konfidenzbereich für den Parameter $$m$$ zum Niveau $$\alpha,$$ wobei $$\eta_{\alpha/2}$$ das $$\alpha/2$$-Fraktil der Standardnormalverteilung ist.
 
-''Fall 2.''
+''Fall 2: Bekannter Erwartungswert.''
+Im $$n$$-fachen Gaußmodell mit bekanntem Erwartungswert und unbekannter Varianz können wir die Pivotstatistik $$S_n^2 = \frac 1 n \sum(X_i-m)^2 \sim \chi_n^2$$ benutzen. Man erhält den Konfidenzbereich von $$v$$ zum Niveau $$\alpha$$
+$$
+C(x) = \openI{
+  \frac{n S_n^2(x)}{s_{1-\alpha/2}},
+  \frac{n S_n^2(x)}{s_{\alpha/2}}
+},
+$$
+wobei $$s_{\alpha/2}$$ das $$\alpha/2$$-Quantil der $$\chi_n^2$$-Verteilung ist usw.
+
+''Fall 3: Beide parameter unbekannt.''
 bei unbekannter Varianz $$v$$ und unbekanntem Erwartungswert $$m$$ ist für $$\alpha \in \openI{0,1}$$
 $$
 C_m(x) = \openI{
@@ -33,15 +43,7 @@ C_v(x) = \openI{
 $$
 ein Konfidenzbereich für $$v$$ zum Niveau $$\alpha.$$ Hier ist $$t_{\alpha/2}$$ das $$\alpha/2$$-Fraktil der $$t_{n-1}$$-Verteilung, $$s_{\alpha/2}$$ das $$\alpha/2$$-Quantil der $$\chi_{n-1}^2$$-Verteilung usw.
 
-''Fall 3.''
-Im $$n$$-fachen Gaußmodell mit bekanntem Erwartungswert und unbekannter Varianz können wir die Pivotstatistik $$S_n{}^2 = \frac 1 n \sum(X_i-m)^2 \sim \chi_n^2$$ benutzen. Man erhält den Konfidenzbereich von $$v$$ zum Niveau $$\alpha$$
-$$
-C(x) = \openI{
-  \frac{n S_n{}^2(x)}{s_{1-\alpha/2}},
-  \frac{n S_n{}^2(x)}{s_{\alpha/2}}
-},
-$$
-wobei $$s_{\alpha/2}$$ das $$\alpha/2$$-Quantil der $$\chi_n^2$$-Verteilung ist usw.
+
 
 ''Bemerkung.''
 Wir können diese Konfidenzbereiche verallgemeinern indem wir $$\alpha_1,\alpha_2 > 0$$ mit $$\alpha_1 + \alpha_2 = \alpha$$ wählen und dann das $$\alpha_1$$-Quantil und $$\alpha_2$$-Fraktil wählen.

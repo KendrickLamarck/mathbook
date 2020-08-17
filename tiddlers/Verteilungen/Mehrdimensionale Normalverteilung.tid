@@ -1,28 +1,21 @@
 created: 20190705142923306
 creator: Leander
-modified: 20200630130725971
+modified: 20200816155354075
 modifier: Leander
-revision: 0
 tags: Normalverteilung no-toc
 title: Mehrdimensionale Normalverteilung
 type: text/vnd.tiddlywiki
 
 Ein $$n$$-dimensionaler Zufallsvektor $$\Bbb X$$ heißt //standardnormalverteilt//, falls seine Komponenten $$X_1,\dots,X_n$$ [[unabhängig|Stochastische Unabhängigkeit]] $$\normaldist(0,1)$$-verteilt sind. Ein Zufallsvektor $$\Bbb X$$ heißt //normalverteilt,// falls er dargestellt werden kann in der Form
-
 $$
 \Bbb X=A\Bbb Y+m
 $$
-
 für $$A\in\R^{n\times k},$$ einen standardnormalverteilten Zufallsvektor $$\Bbb Y$$ und $$m\in\R^n.$$ In diesem Fall gilt
 
-* $$\Bbb E(X)=m$$ und $$\Cov(\Bbb X,\Bbb X)=AA^\mathrm T\eqqcolon\Sigma^2.$$
-
+* $$\expect(\Bbb{X})=m$$ und $$\Cov(\Bbb X,\Bbb X)=AA^\mathrm T\eqqcolon\Sigma^2.$$
 * Wir schreiben $$\Bbb X \sim \normaldist^n(m,\Sigma^2).$$
-
 * $$\normaldist^n(0,I) = \normaldist(0,1)^{\otimes n}.$$
-
 * {{Transformierte mehrdimensionale Normalverteilungen}}
-
 * <div>Für die [[charakteristische Funktion|Charakteristische Funktion]] gilt
 $$
 \chi_\Bbb X(\lambda) = \exp\left(
@@ -31,7 +24,5 @@ $$
   \right\rangle
 \right).
 $$</div>
-
-!! Dichte
 
 {{Dichte mehrdimensionaler Normalverteilungen}}

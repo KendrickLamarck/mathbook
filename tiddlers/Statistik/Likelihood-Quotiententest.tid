@@ -1,5 +1,5 @@
 created: 20200609124745574
-modified: 20200815151521681
+modified: 20200817153155195
 tags: Test
 title: Likelihood-Quotiententest
 type: text/vnd.tiddlywiki
@@ -13,13 +13,13 @@ $$
   \vartheta \in \varTheta \mid \vartheta \le \vartheta_0
 \,\}, \quad
 \varTheta_1 \coloneqq \{\,
-  \vartheta \in \varTheta \mid \vartheta \ge \vartheta_0
+  \vartheta \in \varTheta \mid \vartheta > \vartheta_0
 \,\}.
 $$
 Für $$\vartheta_1 \in \varTheta_1$$ seien
 $$
 R(x) \coloneqq \frac{\rho(\vartheta_1,x)}{\rho(\vartheta_0,x)},\qquad
-\varphi \coloneqq \mathbf{1}_{\{R \ge c\}},\ c \in \R.
+\varphi \coloneqq \mathbf{1}_{R \ge c},\ c \in \R.
 $$
 Dann ist $$\varphi$$ ein gleichmäßig bester Test von $$\varTheta_0$$ gegen $$\varTheta_1$$ zum Niveau $$\alpha = \expect_{\vartheta_0}[\varphi].$$
 Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
@@ -29,12 +29,12 @@ Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
 * Sei $$\vartheta_0 < \vartheta_2.$$ Dann ist $$\varphi$$ auch ein gleichmäßig bester Test von $$\{\vartheta \mid \vartheta \le \vartheta_0\}$$ gegen $$\{\vartheta \mid \vartheta \ge \vartheta_2\}.$$
 
 * <div>Ein gleichmäßig bester Test zum Niveau
-$$\alpha = \prob_{\vartheta_0}(T > \kappa) + \gamma \prob_{\vartheta_0}(T = \kappa)$$
+$$\alpha = \prob_{\vartheta_0}(T > c) + \gamma \prob_{\vartheta_0}(T = c)$$
 ist gegeben durch
 $$
-\gamma\mathbf 1_{T = \kappa} + \mathbf 1_{T > \kappa}.
+\gamma\mathbf 1_{T = c} + \mathbf 1_{T > c}.
 $$
-Für die Wahl von $$\gamma$$ und $$\kappa$$ siehe auch [[Neyman-Pearson-Test]].</div>
+Für die Wahl von $$\gamma$$ und $$c$$ siehe auch [[Neyman-Pearson-Test]].</div>
 
 !! Verallgemeinerung
 

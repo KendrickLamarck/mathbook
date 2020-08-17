@@ -1,6 +1,5 @@
 created: 20200616172138576
-modified: 20200616175734449
-revision: 0
+modified: 20200817123252126
 tags: Test no-toc
 title: Unverfälschter Test
 type: text/vnd.tiddlywiki
@@ -11,6 +10,5 @@ $$
 $$
 für alle
 $$\vartheta_0 \in \varTheta_0$$ und
-$$\vartheta_1 \in \varTheta_1.$$
-
-Da der Erwartungswert angibt, mit welcher Wahrscheinlichkeit wir uns für die Alternative entscheiden, heißt das, dass wir uns mit Wahrscheinlichkeit $$\ge\alpha$$ für die Alternative entscheiden, wenn wir einen Parameter aus $$\varTheta_1$$ haben und umgekehrt, wenn nicht.
+$$\vartheta_1 \in \varTheta_1,$$
+d.h. wenn man sich mit größerer Wahrscheinlichkeit für die Alternative entscheidet, wenn sie richtig ist, als wenn sie falsch ist.

@@ -1,5 +1,5 @@
 created: 20200527120411392
-modified: 20200801061119824
+modified: 20200816204143276
 tags: Verteilung
 title: Fisher-Verteilung
 type: text/vnd.tiddlywiki
@@ -19,14 +19,14 @@ f_{m,n}(x) =
     {(n+mx)^{(n+m)/2}}
   \mathbf{1}_{\openI{0,\infty}}.
 $$
-Diese Verteilung heißt //Fisher-Verteilung// mit $$m$$ und $$n$$ Freiheitsgraden oder kurz $$F_{m,n}$$-Verteilung.
+Diese Verteilung heißt //Fisher-Verteilung// mit $$m$$ und $$n$$ Freiheitsgraden oder kurz $$\mathcal{F}_{m,n}$$-Verteilung.
 
 ''Bemerkung.''
 Für $$m,n \in \Z_{>0}$$ gilt
-$$F_{m,n} = \beta_{m/2,\,n/2} \circ T^{-1}$$ mit
+$$\mathcal{F}_{m,n} = \beta_{m/2,\,n/2} \circ T^{-1}$$ mit
 $$T(x) = \frac{n}{m} \frac{x}{1-x},$$ d.h.
 $$
-F_{m,n}(\lopenI{0,c}) =
+\mathcal{F}_{m,n}(\lopenI{0,c}) =
   \beta_{m/2,\,n/2}\left(\left[
     0,\tfrac{mc}{n+mc}
   \right]\right)

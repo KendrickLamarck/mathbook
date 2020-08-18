@@ -1,5 +1,5 @@
 created: 20200609164131386
-modified: 20200817171348525
+modified: 20200818121059071
 tags: Test
 title: Tests im Gaußmodell
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ $$(m,v) \in \R \times \openI{0,\infty}$$.
 Der [[Test]]
 $$
 \varphi(x) = \begin{cases}
-  1, &\text{ falls }\sum(x_i-\bar x)^2 \ge v_0 \chi_{n-1,1-\alpha}^2, \\
+  1, &\text{ falls }\sum(x_i-\bar x)^2 \ge v_0 \, \chi_{n-1,1-\alpha}^2, \\
   0  &\text{ sonst}
 \end{cases}
 $$
@@ -48,8 +48,8 @@ $$
 wobei $$\Phi$$ die Verteilungsfunktion der Standardnormalverteilung ist.
 
 ''Bekannter Erwartungswert / Einseitiger Chi-Quadrat-Test.''
-Wir suchen den besten Test von $$H_0\colon v \ge v_0$$ gegen $$H_1\colon v < v_0.$$ Das Gauß'sche Produktmodell ist eine exponentielle Familie bezüglich der Statistik $$T = \sum(X_i - m)^2,$$ der beste Test hat also den Verwerfungsbereich
+Wir suchen den besten Test von $$H_0\colon v \le v_0$$ gegen $$H_1\colon v > v_0.$$ Das Gauß'sche Produktmodell ist eine exponentielle Familie bezüglich der Statistik $$T = \sum(X_i - m)^2,$$ der beste Test hat also den Verwerfungsbereich
 $$
-\Bigl\{ \sum(X_i - m)^2 < v_0\chi^2_{n;\alpha}\Bigr\},
+\Bigl\{ \sum(X_i - m)^2 > v_0\,\chi^2_{n;1-\alpha}\Bigr\},
 $$
-wobei $$\chi^2_{n;\alpha}$$ das $$\alpha$$-Quantil der $$\chi^2_n$$-Verteilung ist.
+wobei $$\chi^2_{n;\alpha}$$ das $$\alpha$$-Fraktil der $$\chi^2_n$$-Verteilung ist.

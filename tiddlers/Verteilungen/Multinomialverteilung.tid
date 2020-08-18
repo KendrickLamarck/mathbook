@@ -1,25 +1,26 @@
 created: 20200616184153529
-modified: 20200629163227142
-revision: 0
+modified: 20200818170959328
 tags: Verteilung
 title: Multinomialverteilung
 type: text/vnd.tiddlywiki
 
-Sei $$\varOmega = {\left\{(k_a) \in \Z_{>0}^E : \sum k_a = n\right\}},$$ $$E$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,\rho}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
+Sei $$\varOmega = {\left\{k \in \Z_{>0}{}^E : \sum k_e = n\right\}},$$ $$E=\{1,\dots,s\}$$ endlich und $$\rho$$ eine Zähldichte auf $$E.$$ Ein Wahrscheinlichkeitsmaß $$M_{n,\rho}$$ auf $$(\varOmega,\mathcal P(\varOmega\,))$$ mit Zähldichte
 $$
-M_{n,\rho}\{k\} = \binom{n}{k} \prod_{a \in E} \rho(a)^{k_a},\quad k = (k_a)_{a \in E}
+M_{n,\rho}\{k\} = \binom{n}{k_1 ,\dots, k_s} \prod_{e=1}^s \rho(e)^{k_e}
 $$
-(Siehe auch [[Multinomialkoeffizient]]) heißt //Multinomialverteilung// für $$n$$ Stichproben mit Erfolgswahrscheinlichkeiten $$\rho(a).$$
+(Siehe auch [[Multinomialkoeffizient]]) heißt //Multinomialverteilung// für $$n$$ Stichproben mit Erfolgswahrscheinlichkeiten $$\rho(e).$$
+
+Im Fall $$s=2$$ handelt es sich um die [[Binomialverteilung|Binomialverteilung]].
 
 !! Eine Anwendung
 
-Sei $$E = \{1,\dots,s\}$$ eine endliche Menge, $$\rho$$ eine Zähldichte auf $$E$$ und $$X_1,X_2,\dots$$ eine Folge von unabhängigen $$E$$-wertigen Zufallsvariablen mit Verteilungsdichte $$\rho,$$ d.h. $$\prob(X_k = i) = \rho(i).$$
+Sei $$E = \{1,\dots,s\}$$ eine endliche Menge, $$\rho$$ eine Zähldichte auf $$E$$ und $$X_1,X_2,\dots$$ eine Folge von unabhängigen $$E$$-wertigen Zufallsvariablen mit Verteilungsdichte $$\rho,$$ d.h. $$\prob(X_k = e) = \rho(e).$$
 
 Betrachte nun die absoluten Häufigkeiten
 $$
-h_n(i) = \#\{1 \le k \le n : X_k = i\}.
+h_n(e) = \#\{1 \le k \le n : X_k = e\}.
 $$
-Der Zufallsvektor $$h_n = (h_n(i))_{i \in E}$$ hat dann die [[Multinomialverteilung]] $$M_{n,\rho}$$ auf $$\Z_{>0}^s.$$
+Der Zufallsvektor $$h_n = (h_n(e))_{e \in E}$$ hat dann die [[Multinomialverteilung]] $$M_{n,\rho}$$ auf $$\Z_{>0}^s.$$
 
 !! Poisson-Darstellung von Multinomialverteilungen
 

@@ -1,19 +1,18 @@
 created: 20200622144943324
 creator: Leander
-modified: 20200629234635981
+modified: 20200818170106926
 modifier: Leander
-revision: 0
 tags: Verteilung no-toc
 title: Normalapproximation der Multinomialverteilung
 type: text/vnd.tiddlywiki
 
-Seien $$(X_i)$$ unabhängige $$E$$-wertige Zufallsvariablen mit identischer Verteilungsdichte $$\rho$$ (siehe [[Multinomialverteilung]]) und
+Seien $$(X_k)$$ unabhängige $$E$$-wertige Zufallsvariablen mit identischer Verteilungsdichte $$\rho$$ (siehe [[Multinomialverteilung]]) und
 $$
-h_{n,\rho}^* = \left(\frac{h_n(i) - n \rho(i)}{\sqrt{n\rho(i)}}\right)_{i \in E.}
+h_{n,\rho}^* = \left(\frac{h_n(e) - n \rho(e)}{\sqrt{n\rho(e)}}\right)_{e \in E.}
 $$
 Dann gilt $$h_{n,\rho}^* \xrightarrow{d} \normaldist_\rho.$$
 Hierbei sei $$\normaldist_\rho$$ die Standardnormalverteilung auf der Hyperebene
 $$
-H_\rho = \Bigl\{x \in \R^s : \sum \sqrt{\rho(i)}\,x_i = 0\Bigr\}.
+H_\rho = \Bigl\{x \in \R^s : \sum_e \sqrt{\rho(e)}\,x_e = 0\Bigr\}.
 $$
-Sei $$P_\rho$$ die orthogonale Projektion auf $$H_\rho.$$ Dann ist $$\normaldist_\rho \coloneqq \normaldist^s(0,P_\rho) = \normaldist^s(0,I) \circ P_\rho{}^{-1}.$$ Sie geht alternativ aus $$\normaldist_{0,1}^{\otimes (s-1)} \otimes \delta_0$$ hervor, indem man die Hyperebene $$x_s = 0$$ auf $$H_\rho$$ dreht.
+Sei $$P_\rho$$ die orthogonale Projektion auf $$H_\rho.$$ Dann ist $$\normaldist_\rho \coloneqq \normaldist^s(0,P_\rho) = \normaldist^s(0,I) \circ P_\rho{}^{-1}.$$ Sie geht alternativ aus $$\normaldist_{0,1}{}^{\otimes (s-1)} \otimes \delta_0$$ hervor, indem man die Hyperebene $$x_s = 0$$ auf $$H_\rho$$ dreht.

@@ -1,8 +1,7 @@
 created: 20200622220847032
 creator: Leander
-modified: 20200702202037629
+modified: 20200819131108350
 modifier: Leander
-revision: 0
 tags: Test
 title: Chi-Quadrat-Test auf Unabhängigkeit
 type: text/vnd.tiddlywiki
@@ -19,7 +18,6 @@ $$\vartheta^A(i) = \sum_{j \in B} \vartheta(ij)$$
 und $$\vartheta^B$$ analog die Randverteilungen. Die Merkmale sind also unabhängig genau dann wenn
 $$\vartheta(ij) = \vartheta^A(i)\vartheta^B(j)$$
 für alle $$ij \in E.$$
-
 Wir testen die Nullhypothese
 $$H_0\colon \vartheta = \vartheta^A \otimes \vartheta^B$$ gegen
 $$H_1\colon \vartheta \ne \vartheta^A \otimes \vartheta^B,$$ also
@@ -27,6 +25,7 @@ $$\varTheta_0 = \{\alpha \otimes \beta : \alpha \in \varTheta_A,\,\beta \in \var
 mit
 $$\varTheta_A = \{\alpha \in \openI{0,1}^A : \sum\alpha(i) = 1\}$$
 und $$\varTheta_B$$ analog.
+
 Definiere analog zum [[Chi-Quadrat-Anpassungstest]] die absoluten und relativen Häufigkeiten $$h_n(ij)$$ und $$l_n(ij)$$ sowie die Randverteilungen
 $$(l_n^A(i))_{i \in A}$$ mit
 $$l_n^A(i) = \sum_{j \in B} l_n(ij)$$
@@ -64,7 +63,7 @@ D_n &\coloneqq \sum_{ij \in E} \frac{
 } \\ &=
 n\sum_{ij \in E} l_n^A(i) l_n^B(j)
 \left(\frac{l_n(ij)}{l_n^A(i) l_n^B(j)}-1\right)^2 \\ &=
-n\sum_{ij \in E}\frac{l_n(ij)^2}{l_n^A(i)l_n^B(j)} - n
+n\biggl(\sum_{ij \in E}\frac{l_n(ij)^2}{l_n^A(i)l_n^B(j)} - 1\biggr)
 \end{aligned}$$
 (die letzte Form eignet sich gut zur Berechnung). Definieren wir
 $$
@@ -73,7 +72,7 @@ $$
 \right)_{ij \in E,}
 $$
 so gilt $$D_n = \|\tilde h_n\|^2.$$
-Ein Test $$\varphi_n = \mathbf 1_{\{D_n > c\}}$$ heißt dann ein //Chiquadrat-Test auf Unabhängigkeit// nach $$n$$ Beobachtungen.
+Ein Test der Form$$\varphi_n = \mathbf 1_{\{D_n > c\}}$$ heißt dann ein //Chiquadrat-Test auf Unabhängigkeit// nach $$n$$ Beobachtungen.
 
 * Wie beim [[Chi-Quadrat-Anpassungstest]] stimmen $$D_n$$ und $$R_n$$ auf der Nullhypothese approximativ überein.
 

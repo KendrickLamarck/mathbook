@@ -1,11 +1,10 @@
 created: 20200428152336621
-modified: 20200730070722088
-tags: Schätzer
+modified: 20200820211724843
+tags: Schätzer no-toc
 title: Regulärer Schätzer
 type: text/vnd.tiddlywiki
 
 Ein erwartungstreuer Schätzer $$T\colon \mathcal X \to \R$$ für $$\tau\colon \varTheta \to \R$$ in einem regulären Modell heißt //regulär,// falls
-
 $$
 \int_\mathcal X T(x) \fracderiv{}{\vartheta} \rho(\vartheta,x) \,\mu(\d x) =
 \fracderiv{}{\vartheta} \int_\mathcal X T(x) \rho(\vartheta,x) \,\mu(\d x).

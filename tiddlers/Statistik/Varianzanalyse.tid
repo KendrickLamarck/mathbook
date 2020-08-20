@@ -1,5 +1,5 @@
 created: 20200801101123565
-modified: 20200801105304804
+modified: 20200820184951216
 tags: [[Lineares Modell]]
 title: Varianzanalyse
 type: text/vnd.tiddlywiki
@@ -27,33 +27,47 @@ $$
 
 * Die Spalten von $$A$$ sind paarweise orthogonal und spannen den Raum $$L = \{x \in \R^n : x_{ij} = x_{i1}\ \forall ij \in B\}$$ auf.
 * $$A^\transp A = \operatorname{diag}(n_1,\dots,n_s) \in \R^{s \times s}.$$
-* $$A^T X = (n_1 M_1,\dots,n_s M_s)^\transp,$$ wobei $$M_i = \frac{1}{n_i}\sum_k X_{ik}$$ das Beobachtungsmittel innerhalb der Gruppe $$i$$ ist.
-* <div>Der erwartungstreue Schätzer $$\hat\gamma$$ ist gegeben durch $$\hat\gamma = (A^\transp A)^{-1} A^\transp X = (M_1,\dots,M_s)^\transp.$$</div>
+* $$A^T X = (n_1 \bar{X}_1,\dots,n_s \bar{X}_s)^\transp,$$ wobei $$\bar{X}_i \coloneqq \frac{1}{n_i}\sum_k X_{ik}$$ das Beobachtungsmittel innerhalb der Gruppe $$i$$ ist.
 
-* <div>Für den erwartungstreuen Schätzer $$V^*$$ von $$v$$ ergibt sich
+!! Schätzer
+
+Der erwartungstreue Schätzer für $$\gamma$$ ist gegeben durch $$\hat\gamma = (A^\transp A)^{-1} A^\transp X = (\bar{X}_1,\dots,\bar{X}_s)^\transp.$$
+
+Für den erwartungstreuen Schätzer $$V^*$$ von $$v$$ ergibt sich
 $$
 V^* = \frac{1}{n-s}\|X - \pi(X)\|^2 =
-\frac{1}{n-s}\sum_{ik \in B} (X_{ik} - M_i)^2,
+\frac{1}{n-s}\sum_{ik \in B} (X_{ik} - \bar{X}_i)^2,
 $$
-wobei $$\pi$$ die orthogonale Projektion auf $$L$$ ist. $$V_i^*$$ sei der erwartungstreue Varianzschätzer innerhalb der Gruppe $$i,$$ d.h.
+wobei $$\pi$$ die orthogonale Projektion auf $$L$$ ist.
+
+!! Arten der Varianz
+
+$$V_i^*$$ sei der erwartungstreue Varianzschätzer innerhalb der Gruppe $$i,$$ d.h.
 $$
-V_i^* = \frac{1}{n_i-s}\sum_{k=1}^{n_i} (X_{ik} - M_i)^2.
+V_i^* = \frac{1}{n_i-1}\sum_{k=1}^{n_i} (X_{ik} - \bar{X}_i)^2.
 $$
 Dann ist
 $$
 V^* = V_\mathrm{iG}^* = \frac{1}{n-s}\sum_{i \in G}(n_i-1)V_i^*.
 $$
-$$V_\mathrm{iG}^*$$ heißt die mittlere Stichprobenvarianz innerhalb der Gruppen.</div>
+$$V_\mathrm{iG}^*$$ heißt die //mittlere Stichprobenvarianz innerhalb der Gruppen.//
 
-* <div>Die totale emprische Varianz ist
+Die //totale emprische Varianz// ist
 $$
-V_\mathrm{tot}^* \coloneqq \frac{1}{n-1} \sum_{ik \in B} (X_{ik} - M)^2,
+V_\mathrm{tot}^* \coloneqq \frac{1}{n-1} \sum_{ik \in B} (X_{ik} - \bar{X})^2.
 $$
-wobei $$M = \bar{X}$$ das totale empirische Mittel bezeichnet. $$V_\mathrm{tot}^*$$ ist im Allgemeinen kein erwartungstreuer Schätzer für $$v.$$ Es gilt $$\expect_{\gamma,v}[V_\mathrm{tot}^*] = v$$ genau dann wenn alle Gruppenmittel $$m_i$$ übereinstimmen.</div>
+$$V_\mathrm{tot}^*$$ ist im Allgemeinen kein erwartungstreuer Schätzer für $$v.$$ Es gilt $$\expect_{\gamma,v}[V_\mathrm{tot}^*] = v$$ genau dann wenn alle Gruppenmittel $$m_i$$ übereinstimmen.
 
-* <div>Die Stichprobenvarianz zwischen den Gruppen ist
+Die //Stichprobenvarianz zwischen den Gruppen// ist
 $$
-V_\mathrm{zG}^* = \frac{1}{s-1} \sum_{i \in G} n_i(M_i - M)^2.
-$$</div>
+V_\mathrm{zG}^* = \frac{1}{s-1} \sum_{i \in G} n_i(\bar{X}_i - \bar{X})^2.
+$$
 
-* Es gilt die Streuungszerlegung $$(n-1)V_\mathrm{tot}^* = (n-s)V_\mathrm{iG}^* + (s-1)V_\mathrm{zG}^*.$$
+Es gilt die Streuungszerlegung $$(n-1)V_\mathrm{tot}^* = (n-s)V_\mathrm{iG}^* + (s-1)V_\mathrm{zG}^*.$$
+
+Man fasst diese Größen oft in sogenannten //ANOVA-Tafeln// zusammen (Fg steht für "Freiheitsgrade"):
+
+|    |!Fg      |!Quadratsummen                                             |!Quadratmittel                             |!F-Quotient                        |
+|!zG | $$s-1$$ |$$S_\mathrm{zG} = \sum_{i \in G} n_i(\bar{X}_i-\bar{X})^2$$|$$V_\mathrm{zG}^* = S_\mathrm{zG}/(s-1)$$  |$$V_\mathrm{zG}^*/V_\mathrm{iG}^*$$|
+|!iG | $$n-s$$ |$$S_\mathrm{iG} = \sum_{i \in G} (n_i-1)V_i^*$$            |$$V_\mathrm{iG}^* = S_\mathrm{iG}/(n-s)$$  |~|
+|!tot| $$n-1$$ |$$S_\mathrm{tot} = \sum_{ik \in B} (X_{ik}-\bar{X})^2$$    |$$V_\mathrm{tot}^* = S_\mathrm{tot}/(n-1)$$|~|

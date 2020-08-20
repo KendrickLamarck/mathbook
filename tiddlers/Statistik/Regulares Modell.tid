@@ -1,5 +1,5 @@
 created: 20200428152107068
-modified: 20200730070858555
+modified: 20200820211706356
 tags: Statistik no-toc
 title: Reguläres Modell
 type: text/vnd.tiddlywiki
@@ -24,3 +24,5 @@ $$</div>
 * Für jedes $$\vartheta$$ existiert die Varianz $$I(\vartheta) \coloneqq \Var_\vartheta[U_\vartheta]$$ und ist ungleich 0.
 
 {{Fisher-Information}}
+
+{{Regulärer Schätzer}}

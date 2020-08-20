@@ -1,6 +1,6 @@
 created: 20200421162141560
-list: Fehlermaße [[Gleichmäßig bester Schätzer]] Maximum-likelihood-Schätzer [[Regulärer Schätzer]] Cramer-Rao-Ungleichung [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Mehrdimensionale exponentielle Familie]] [[Schätzer für das Gauß-Produktmodell]]
-modified: 20200815150926649
+list: [[Fehlermaße für Schätzer]] [[Gleichmäßig bester Schätzer]] Maximum-likelihood-Schätzer [[Regulärer Schätzer]] Cramer-Rao-Ungleichung [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Mehrdimensionale exponentielle Familie]] [[Schätzer für das Gauß-Produktmodell]]
+modified: 20200820212309325
 tags: Statistik
 title: Schätzer
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ Sei $$(\mathcal X, \mathcal F, (\P_\vartheta)_{\vartheta\in\varTheta})$$ ein sta
 
 !! Erwartungstreue und Konsistenz
 
-Ein Schätzer heißt //erwartungstreu,// falls
+Ein Schätzer für $$\tau$$ heißt //erwartungstreu,// falls
 $$
 \expect_\vartheta(T) = \expect_\vartheta[T(X)]\coloneqq
 \int_\mathcal X T(x) \,\P_\vartheta(\d x) = \tau(\vartheta).
@@ -26,3 +26,11 @@ Für alle $$\vartheta \in \varTheta$$ gelte $$\expect_\vartheta[T_n] \to \tau(\v
 (asymptotisch erwartungstreu) und
 $$\Var_\vartheta[T_n] \to 0$$ für $$n \to \infty.$$
 Dann ist $$(T_n)$$ eine konsistente Schätzfolge.
+
+!! Fehlermaße
+
+{{Fehlermaße für Schätzer}}
+
+!! Gleichmäßig beste Schätzer
+
+{{Gleichmäßig bester Schätzer}}

@@ -1,11 +1,10 @@
 created: 20200422201831523
-modified: 20200609130258722
-revision: 0
+modified: 20200820212641221
 tags: Schätzer
 title: Maximum-likelihood-Schätzer
 type: text/vnd.tiddlywiki
 
-Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta\in\varTheta})$$ ein [[Standardmodell]] mit Dichte $$\rho$$ wie in der Definition.
+Sei <<mathtext "Statistisches Modell">> ein [[Standardmodell]] mit Dichte $$\rho$$ wie in der Definition.
 
 * Die Funktion $$L_x\colon \varTheta \to \R_+$$ gegeben durch $$L_x(\vartheta)\coloneqq \rho(\vartheta,x)$$ heißt //Likelihoodfunktion// zum Beobachtungswert $$x \in \mathcal X.$$
 

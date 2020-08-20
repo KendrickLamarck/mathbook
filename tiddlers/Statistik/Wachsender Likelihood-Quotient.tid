@@ -1,6 +1,5 @@
 created: 20200609124904757
-modified: 20200624225420857
-revision: 0
+modified: 20200820213257303
 tags: Test no-toc
 title: Wachsender Likelihood-Quotient
 type: text/vnd.tiddlywiki
@@ -10,4 +9,4 @@ $$
 \frac{\rho(\vartheta_1,x)}{\rho(\vartheta_2,x)} =
 f_{\vartheta_1,\vartheta_2}(T(x))
 $$
-$$\mu$$-fast überall.
+$$\mu$$ - fast überall.

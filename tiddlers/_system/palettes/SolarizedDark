@@ -58,7 +58,7 @@ dropdown-background: <<colour background>>
 dropdown-border: <<colour background>>
 dropdown-tab-background-selected: <<colour background>>
 dropdown-tab-background: <<colour muted-foreground>>
-dropzone-background: <<colour green>>
+dropzone-background: <<colour dark-background>>
 external-link-background-hover: inherit
 external-link-background-visited: inherit
 external-link-background: inherit

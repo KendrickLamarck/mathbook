@@ -1,5 +1,5 @@
 created: 20190616003927179
-modified: 20200815160332451
+modified: 20200821104543411
 tags: Erwartungswert
 title: Zentraler Grenzwertsatz
 type: text/vnd.tiddlywiki
@@ -11,6 +11,6 @@ $$
     \frac{S_n}{n}-m
   \right) \le x
 \right)} =
-\frac 1 {\sqrt{2\pi}} \int_{-\infty}^x e^{-y^2/2}\,\d y,
+\frac 1 {\sqrt{2\pi}} \int_{-\infty}^x e^{-\half y^2}\,\d y,
 $$
 d.h. $$S_n^*\coloneqq\sqrt{\frac{n}{\sigma^2}}\left(\frac{S_n}{n}-m\right)$$ [[konvergiert in Verteilung|Konvergenz in Verteilung]] gegen die [[Standardnormalverteilung|Normalverteilung]].

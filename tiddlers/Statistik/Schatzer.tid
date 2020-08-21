@@ -1,6 +1,6 @@
 created: 20200421162141560
 list: [[Fehlermaße für Schätzer]] [[Gleichmäßig bester Schätzer]] Maximum-likelihood-Schätzer [[Regulärer Schätzer]] Cramer-Rao-Ungleichung [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Mehrdimensionale exponentielle Familie]] [[Schätzer für das Gauß-Produktmodell]]
-modified: 20200820212309325
+modified: 20200821054301263
 tags: Statistik
 title: Schätzer
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ Sei $$(\mathcal X, \mathcal F, (\P_\vartheta)_{\vartheta\in\varTheta})$$ ein sta
 
 !! Erwartungstreue und Konsistenz
 
-Ein Schätzer für $$\tau$$ heißt //erwartungstreu,// falls
+Ein Schätzer für $$\tau\colon \varTheta \to \R$$ heißt //erwartungstreu,// falls
 $$
 \expect_\vartheta(T) = \expect_\vartheta[T(X)]\coloneqq
 \int_\mathcal X T(x) \,\P_\vartheta(\d x) = \tau(\vartheta).

@@ -1,5 +1,5 @@
 created: 20200511200714005
-modified: 20200815153121040
+modified: 20200821074608227
 tags: Statistik
 title: Konfidenzbereich
 type: text/vnd.tiddlywiki
@@ -13,7 +13,9 @@ $$C\colon \mathcal X \to \mathcal P(\varSigma\,)$$
 //Konfidenzbereich// für $$\tau$$ zum Niveau $$\alpha,$$ falls
 $$C_\sigma \coloneqq \{C \ni \sigma\} \in \mathcal F$$ für alle $$\sigma \in \varSigma$$ und
 $$
-\P_\vartheta(C(X) \ni \tau(\vartheta)) \ge 1-\alpha\quad \forall\vartheta.
+\P_\vartheta(C(X) \ni \tau(\vartheta)) =
+\prob_\vartheta(C_{\tau(\vartheta)})
+\ge 1-\alpha\quad \forall\vartheta.
 $$
 Jeder Konfidenzbereich kann eindeutig durch seinen Graphen
 $$C \subseteq \mathcal X \times \varSigma$$
@@ -24,13 +26,26 @@ In der Definition ist keine Bedingung an die Größe von $$C(x)$$ gestellt, man 
 
 Außerdem ist anzumerken, dass die Definition leicht so zu lesen ist, als sei der Parameter $$\vartheta$$ zufällig. Dies ist nicht der Fall, in Wirklichkeit wird der Bereich $$C(x)$$ zufällig gewählt und enthält mit der Vorgegebenen Wahrscheinlichkeit den festen Wert $$\tau(\vartheta).$$
 
+!! Allgemeine Konstruktion
+
+Zu einem vorgegebenen Niveau $$\alpha$$ definiert man zu jedem $$\vartheta$$ zuerst ein $$C_\vartheta$$ mit $$\prob_\vartheta(C_\vartheta) \ge 1-\alpha.$$ Im Fall eines Standardmodells nimmt man z.B. gerne in Analogie zum Maximum-Likelihood-Ansatz
+$$
+C_\vartheta \coloneqq
+\{\,x \in \mathcal{X} \mid \rho_\vartheta(x) \ge c_\vartheta\,\}
+$$
+mit einem passenden $$c_\vartheta,$$ so dass die Bedingung knapp erfüllt ist. Dazu definiert man sich dann
+$$
+C(x) \coloneqq \{\,\vartheta \in \varTheta \mid C_\vartheta \in x\,\}
+$$
+und dies ist ein Konfidenzbereich zum Niveau $$\alpha.$$
+
+!! Konstruktion mit Pivotstatistiken
+
+{{Pivotstatistik}}
+
 !! Asymptotischer Konfidenzbereich
 
 Eine Folge $$C_n\colon (\mathcal X_n,\mathcal F_n,(\P_\vartheta^n)_{\vartheta \in \varTheta}) \to \mathcal P(\varSigma\,)$$ heißt //asymptotischer Konfidenzbereich,// wenn für alle $$\vartheta$$
 $$
 \liminf_{n\to\infty} \P_\vartheta^n(C_n(X) \ni \tau(\vartheta)) \ge 1-\alpha.
 $$
-
-!! Bestimmung mit Pivotstatistiken
-
-{{Pivotstatistik}}

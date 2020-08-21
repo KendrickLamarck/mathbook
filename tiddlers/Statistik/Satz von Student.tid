@@ -1,5 +1,5 @@
 created: 20200527155538832
-modified: 20200816152036366
+modified: 20200821120739915
 tags: Konfidenzbereich no-toc
 title: Satz von Student
 type: text/vnd.tiddlywiki
@@ -11,7 +11,8 @@ V^*=\frac{1}{n-1} \sum(X_i-\bar X)^2
 $$
 unabhängig und
 $$\begin{gathered}
-\bar X \sim \normaldist_{m,\,v/n}, \\[1ex]
+\bar X \sim \normaldist_{m,\,v/n} \implies
+  \sqrt{\frac{n}{v}}(\bar{X}-m) \sim \normaldist_{0,1}, \\[1ex]
 \frac{n-1}{v}V^* \sim \chi_{n-1}^2. \\[2ex]
 T_m \coloneqq \sqrt{\frac{n}{V^*}}(\bar X-m) \sim t_{n-1}.
 \end{gathered}$$

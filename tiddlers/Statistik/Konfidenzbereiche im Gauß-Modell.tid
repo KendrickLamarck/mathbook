@@ -1,10 +1,10 @@
 created: 20200527153534180
-modified: 20200816151513782
+modified: 20200821100103850
 tags: Statistik
 title: Konfidenzbereiche im Gauß-Modell
 type: text/vnd.tiddlywiki
 
-{{Satz von Student}}
+''Satz (von Student).'' {{Satz von Student}}
 
 ''Fall 1: Bekannte Varianz.''
 Im $$n$$-fachen Gaußmodell mit bekannter Varianz $$v$$ und unbekanntem Erwartungswert $$m$$ ist für $$\alpha \in \openI{0,1}$$

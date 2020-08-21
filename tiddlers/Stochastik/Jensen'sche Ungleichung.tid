@@ -1,6 +1,6 @@
 created: 20190114160553146
 creator: Leander
-modified: 20200807191932220
+modified: 20200821060645255
 modifier: Leander
 tags: Stochastik
 title: Jensen'sche Ungleichung
@@ -9,5 +9,5 @@ type: text/vnd.tiddlywiki
 Sei <<mathtext Wahrscheinlichkeitsmaß>> ein [[Wahrscheinlichkeitsraum|Maß]] und sei $$X\colon\Omega\to\R$$ [[integrierbar|Lebesgue-Integral]]. Ferner sei $$I\subset\R$$ ein Intervall und $$\varphi\colon I\to\R$$ eine [[konvexe|Konvexität]] Funktion. Es gelte $$\prob(X\notin I)=0.$$ Dann gilt
 
 $$
-\expect(\varphi\circ X)\ge\varphi(\expect(X)).
+\expect[\varphi\circ X]\ge\varphi(\expect[X]).
 $$

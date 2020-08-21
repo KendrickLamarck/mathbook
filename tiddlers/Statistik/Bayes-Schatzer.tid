@@ -1,5 +1,5 @@
 created: 20200511122132930
-modified: 20200814175359490
+modified: 20200821060752550
 tags: Schätzer
 title: Bayes-Schätzer
 type: text/vnd.tiddlywiki
@@ -11,19 +11,15 @@ type: text/vnd.tiddlywiki
 !! Bayes-Schätzer
 
 Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit messbarer Dichtefunktion $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und $$\varTheta \subseteq \R^d.$$ Sei $$\tau\colon \varTheta \to \R$$ eine messbare Kenngröße mit $$\E_\alpha[\tau^2]<\infty.$$ Ein Schätzer $$T\colon \mathcal X \to \R$$ für $$\tau$$ heißt //Bayes-Schätzer,// falls
-
 $$
 \Bbb F_\alpha[T] = \E_\alpha[\Bbb F_\vartheta[T]] =
   \int_\varTheta \int_\mathcal X
     \bigl(T(x)-\tau(\vartheta)\bigr)^2
   \,\P_\vartheta(\d x) \alpha(\d \vartheta)
 $$
-
 minimal unter allen Schätzern für $$\tau$$ ist. Unter diesen Voraussetzungen ist
-
 $$
 T(x) \coloneqq \E_{\nu_x}[\tau] =
   \int_\varTheta \tau(\vartheta)\, \nu_x(\d \vartheta)
 $$
-
 der (bis auf Nullmengen) eindeutig bestimmte Bayes-Schätzer für die Kenngröße $$\tau.$$

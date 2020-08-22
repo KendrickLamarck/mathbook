@@ -1,5 +1,5 @@
 created: 20200801060141017
-modified: 20200820162740425
+modified: 20200822183630941
 tags: [[Lineares Modell]]
 title: Lineares Gauß-Modell
 type: text/vnd.tiddlywiki
@@ -23,7 +23,10 @@ ist ein Konfidenzbereich für $$\gamma$$ zum Niveau $$\alpha.$$</div>
 
 * <div>Die zufällige Menge
 $$
-C = \openI{c\hat\gamma-\delta\sqrt{V^*},c\hat\gamma+\delta\sqrt{V^*}}
+C = \openI{
+  c^\transp \hat\gamma - \delta\sqrt{V^*},
+  c^\transp \hat\gamma + \delta\sqrt{V^*}
+}
 $$
 ist ein Konfidenzbereich für $$\tau(\gamma) = c^\transp\gamma$$ zum Niveau $$\alpha,$$ wobei
 $$\delta = t_{n-s;1-\alpha/2}\sqrt{c^\transp (A^\transp A)^{-1}c}.$$</div>
@@ -44,7 +47,7 @@ Für jedes vorgegebene Irrtumsniveau $$\alpha \in \openI{0,1}$$ gilt:
 $$
 \left\{\|c\hat\gamma - m_0\| > t_{n-s;1-\alpha/2}\sqrt{c^\transp(A^\transp A)^{-1} cV^*}\right\}
 $$
-ist ein zulässiger Test zum Niveau $$\alpha$$ für das Testproblem $$H_0\colon c\gamma = m_0$$ gegen $$H_1\colon c\gamma \ne m_0.$$</div>
+ist ein zulässiger Test zum Niveau $$\alpha$$ für das Testproblem $$H_0\colon c^\transp \gamma = m_0$$ gegen $$H_1\colon c^\transp \gamma \ne m_0.$$</div>
 
 * <div>Sei $$H \subset L$$ ein Untervektorraum der Dimension $$r<s$$ und $$F_{H,L}$$ wie oben. Die Indikatorfunktion auf $${\{F_{H,L} > f_{s-r,n-s;1-\alpha}\}}$$ ist ein zulässiger Test zum Niveau $$\alpha$$ für $$H_0\colon A\gamma \in H$$ gegen $$H_1\colon A\gamma \notin H.$$</div>
 

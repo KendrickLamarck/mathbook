@@ -1,5 +1,5 @@
 created: 20200428152549921
-modified: 20200730070839626
+modified: 20200822195109616
 tags: Schätzer
 title: Cramer-Rao-Ungleichung
 type: text/vnd.tiddlywiki
@@ -16,11 +16,9 @@ $$
 * Ein Schätzer bei dem für alle $$\vartheta$$ die Gleicheit gilt heißt //Cramer-Rao-optimal.//
 
 ''Satz.''
-Ein Schätzer ist genau dann optimal, wenn die Dichte $$\rho(\vartheta,x)$$ von $$\P_\vartheta$$ von der Form
-
+Ein Schätzer ist genau dann optimal, wenn unter den selben Voraussetzungen wie oben die Dichte $$\rho(\vartheta,x)$$ von $$\P_\vartheta$$ von der Form
 $$
 \rho(\vartheta,x) = e^{a(\vartheta)T(x)-b(\vartheta)}h(x)
 $$
-
-ist mit gewissen Funktionen $$a,b\colon \varTheta \to \R$$ und messbarer Funktion $$h\colon \mathcal X \to {]0,\infty[}.$$
+mit gewissen Funktionen $$a,b\colon \varTheta \to \R$$ und messbarer Funktion $$h\colon \mathcal X \to {]0,\infty[}.$$
 Mit einem anderen dominierenden Maß können wir immer $$h \equiv 1$$ erreichen, die Fisher-Information ändert sich dadurch nicht.

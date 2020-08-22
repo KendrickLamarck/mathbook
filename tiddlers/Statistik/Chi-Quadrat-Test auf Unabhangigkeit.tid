@@ -1,6 +1,6 @@
 created: 20200622220847032
 creator: Leander
-modified: 20200819131108350
+modified: 20200822130432554
 modifier: Leander
 tags: Test
 title: Chi-Quadrat-Test auf Unabhängigkeit
@@ -57,9 +57,9 @@ Der verallgemeinerte Likelihood-Quotiententest hat dann die Form $$\varphi_n = \
 Sei
 $$\begin{aligned}
 D_n &\coloneqq \sum_{ij \in E} \frac{
-  (h_n(ij) - h_n^A(i)h_n^B(j)/n)^2
+  (h_n(ij) - n\, l_n^A(i) l_n^B(j))^2
 }{
-  h_n^A(i)h_n^B(j)/n
+  n\, l_n^A(i) l_n^B(j)
 } \\ &=
 n\sum_{ij \in E} l_n^A(i) l_n^B(j)
 \left(\frac{l_n(ij)}{l_n^A(i) l_n^B(j)}-1\right)^2 \\ &=
@@ -67,7 +67,7 @@ n\biggl(\sum_{ij \in E}\frac{l_n(ij)^2}{l_n^A(i)l_n^B(j)} - 1\biggr)
 \end{aligned}$$
 (die letzte Form eignet sich gut zur Berechnung). Definieren wir
 $$
-\tilde h_n = \left(
+\tilde{h}_n = \left(
   \frac{h_n(ij) - n\, l_n^A(i) l_n^B(j)}{\sqrt{n\, l_n^A(i) l_n^B(j)}}
 \right)_{ij \in E,}
 $$

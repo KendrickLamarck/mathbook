@@ -1,6 +1,5 @@
 created: 20200622131843622
-modified: 20200702202010545
-revision: 0
+modified: 20200822123311753
 tags: Test
 title: Chi-Quadrat-Anpassungstest
 type: text/vnd.tiddlywiki
@@ -39,7 +38,7 @@ $$\begin{aligned}
 D_{n,\rho} &\coloneqq
 \sum_{i=1}^s \frac{(h_n(i) - n\rho(i))^2}{n\rho(i)} \\ &=
 n \sum_{i=1}^s \rho(i) \left( \frac{l_n(i)}{\rho(i)} -1 \right)^2 \\ &=
-n \sum_{i=1}^s \frac{l_n(i)^2}{\rho(i)} - n.
+n \biggl(\sum_{i=1}^s \frac{l_n(i)^2}{\rho(i)} - 1\biggr).
 \end{aligned}$$
 Die letzte Form eignet sich gut zur Berechnung. Es gilt $$D_{n,\rho} = \|h_{n,\rho}^*\|^2,$$ siehe [[Normalapproximation der Multinomialverteilung]]. $$\varphi_n = \mathbf 1_{\{D_{n,\rho} > c\}}$$ ist dann der //Chiquadrat-Anpassungstest// für $$c>0$$ nach $$n$$ Beobachtungen.
 

@@ -1,5 +1,5 @@
 created: 20200801101123565
-modified: 20200820184951216
+modified: 20200822191322077
 tags: [[Lineares Modell]]
 title: Varianzanalyse
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ Betrachte ein Modell bestehend aus
 
 * einer endlichen Menge $$G$$ von $$s \coloneqq |G|$$ verschiedenen Beobachtungsgruppen,
 * einer Anzahl $$n_i$$ von Beobachtungen für jede Gruppe $$i \in G,$$
-* einer Beobachtungsmenge $$B = \{ik : i \in G,\ 1 \le k \le n_i\}$$ mit Mächtigkeit $$n = |B| = \sum_{i \in G} n_i,$$
+* einer Beobachtungsmenge $$B = \{\,ik \coloneqq (i,k) \mid i \in G,\ 1 \le k \le n_i\,\}$$ mit Mächtigkeit $$n = |B| = \sum_{i \in G} n_i,$$
 * einem unbekannten Vektor $$\gamma = (m_i)_{i \in G}$$ von Beobachtungsmittelwerten $$m_i$$ in Gruppe $$i \in G,$$
 * einem unbekannten Skalenparameter $$v>0,$$
 * paarweise unkorellierten standardisierten Störgrößen $$\xi_{ik},\ ik \in B,$$
@@ -38,7 +38,7 @@ $$
 V^* = \frac{1}{n-s}\|X - \pi(X)\|^2 =
 \frac{1}{n-s}\sum_{ik \in B} (X_{ik} - \bar{X}_i)^2,
 $$
-wobei $$\pi$$ die orthogonale Projektion auf $$L$$ ist.
+wobei $$\pi$$ die orthogonale Projektion auf $$\Image A$$ ist.
 
 !! Arten der Varianz
 
@@ -48,9 +48,9 @@ V_i^* = \frac{1}{n_i-1}\sum_{k=1}^{n_i} (X_{ik} - \bar{X}_i)^2.
 $$
 Dann ist
 $$
-V^* = V_\mathrm{iG}^* = \frac{1}{n-s}\sum_{i \in G}(n_i-1)V_i^*.
+V^* = V_\mathrm{iG}^* \coloneqq \frac{1}{n-s}\sum_{i \in G}(n_i-1)V_i^*.
 $$
-$$V_\mathrm{iG}^*$$ heißt die //mittlere Stichprobenvarianz innerhalb der Gruppen.//
+und $$V_\mathrm{iG}^*$$ heißt die //mittlere Stichprobenvarianz innerhalb der Gruppen.//
 
 Die //totale emprische Varianz// ist
 $$

@@ -1,5 +1,5 @@
 created: 20200428133525472
-modified: 20200820212202729
+modified: 20200822193823205
 tags: Schätzer no-toc
 title: Fehlermaße für Schätzer
 type: text/vnd.tiddlywiki
@@ -30,7 +30,7 @@ mit Fehlerfunktionen $$\psi\colon \R \to \R_+$$ betrachten.
 
 * <div>Mit der Chebyshev-Ungleichung folgt
 
-$$\P_\vartheta(|T(x)-\tau(\vartheta)|>\varepsilon) \le
+$$\P_\vartheta(|T(X)-\tau(\vartheta)|>\varepsilon) \le
 \frac 1 {\varepsilon^2} \Bbb F_\vartheta[T].
 $$</div>
 

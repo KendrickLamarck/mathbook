@@ -1,5 +1,5 @@
 created: 20200511200714005
-modified: 20200821074608227
+modified: 20200823103142219
 tags: Statistik
 title: Konfidenzbereich
 type: text/vnd.tiddlywiki
@@ -35,7 +35,7 @@ C_\vartheta \coloneqq
 $$
 mit einem passenden $$c_\vartheta,$$ so dass die Bedingung knapp erfüllt ist. Dazu definiert man sich dann
 $$
-C(x) \coloneqq \{\,\vartheta \in \varTheta \mid C_\vartheta \in x\,\}
+C(x) \coloneqq \{\,\vartheta \in \varTheta \mid C_\vartheta \ni x\,\}
 $$
 und dies ist ein Konfidenzbereich zum Niveau $$\alpha.$$
 

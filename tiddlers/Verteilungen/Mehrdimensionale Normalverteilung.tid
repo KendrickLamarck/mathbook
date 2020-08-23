@@ -1,6 +1,6 @@
 created: 20190705142923306
 creator: Leander
-modified: 20200816155354075
+modified: 20200823170342512
 modifier: Leander
 tags: Normalverteilung no-toc
 title: Mehrdimensionale Normalverteilung
@@ -13,8 +13,8 @@ $$
 für $$A\in\R^{n\times k},$$ einen standardnormalverteilten Zufallsvektor $$\Bbb Y$$ und $$m\in\R^n.$$ In diesem Fall gilt
 
 * $$\expect(\Bbb{X})=m$$ und $$\Cov(\Bbb X,\Bbb X)=AA^\mathrm T\eqqcolon\Sigma^2.$$
-* Wir schreiben $$\Bbb X \sim \normaldist^n(m,\Sigma^2).$$
-* $$\normaldist^n(0,I) = \normaldist(0,1)^{\otimes n}.$$
+* Wir schreiben $$\Bbb X \sim \normaldist_n(m,\Sigma^2).$$
+* $$\normaldist_n(0,I) = \normaldist(0,1)^{\otimes n}.$$
 * {{Transformierte mehrdimensionale Normalverteilungen}}
 * <div>Für die [[charakteristische Funktion|Charakteristische Funktion]] gilt
 $$

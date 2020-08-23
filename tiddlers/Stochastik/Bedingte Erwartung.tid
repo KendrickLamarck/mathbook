@@ -1,5 +1,7 @@
 created: 20200502120046486
-modified: 20200808140228279
+creator: Leander
+modified: 20200823182541796
+modifier: Leander
 tags: Erwartungswert
 title: Bedingte Erwartung
 type: text/vnd.tiddlywiki
@@ -36,7 +38,7 @@ Ist $$\mathcal G \subseteq \mathcal F \subseteq \mathcal A$$ und $$Y \in \mathca
 
 Ist $$Z$$ eine Zufallsvariable mit Werten in $$\{x_1,\dots,x_n\},$$ so ist
 $$
-\expect[X\mid Z](z) = \sum_{i=1}^n \mathbf 1_{\{x_i\}}(z) \expect[X \mid Z=x_i].
+\expect[X\mid Z](z) = \sum_{i=1}^n \indicator_{\{Z=x_i\}}(z) \expect[X \mid Z=x_i].
 $$
 
 ''Satz.''

@@ -1,5 +1,5 @@
 created: 20200423134002786
-modified: 20200821070243173
+modified: 20200823103814396
 tags: Schätzer
 title: Schätzer für das Gauß-Produktmodell
 type: text/vnd.tiddlywiki
@@ -9,22 +9,25 @@ $$
 \P_{m,v}(\d x) = \frac{1}{\sqrt{2 \pi v}}
                  \exp\left( -\frac{(x-m)^2}{2v} \right) \d x,
 $$
-ist $$\hat m(x) \coloneqq \bar x = \frac 1 n \sum_{i=1}^n x_i$$ ein ML-Schätzer für $$m$$ und $$\hat v(x) \coloneqq \frac 1 n \sum_{i=1}^n (x_i-\bar x)^2$$ für $$v.$$ Der Schätzer $$\hat m$$ für $$m$$ ist erwartungstreu, $$\hat v$$ jedoch nicht, denn
+ist $$\bar{X} = \frac 1 n \sum_{i=1}^n X_i$$ ein ML-Schätzer für $$m$$ und $$V \coloneqq \frac 1 n \sum_{i=1}^n (X_i-\bar X)^2$$ für $$v.$$ Der Schätzer $$\bar{X}$$ für $$m$$ ist erwartungstreu, $$V$$ jedoch nicht, denn
 $$
-\expect_{m,v}[\hat v] = \frac{n-1}{n} v.
+\expect_{m,v}[V] = \frac{n-1}{n} v.
+$$
+Wir könenn also $$V$$ standardisieren und erhalten den Erwartungstreuen Schätzer
+$$
+V^* \coloneqq \frac{n}{n-1} V = \frac{1}{n-1}\sum_{i=1}^n(X_i = \bar{X}).
 $$
 
-!! Eine vollständige und suffiziente Statistik
+!! Optimalität oder Eine vollständige und suffiziente Statistik
 
 Die Statistik
 $$
 S(x) = \begin{pmatrix} S_1(x) \\ S_2(x) \end{pmatrix} \coloneqq
-\sum_i \begin{pmatrix} x_i \\[5mu] x_i{}^2 \end{pmatrix}
+\begin{pmatrix} \sum_i x_i \\[5mu] \sum_i x_i{}^2 \end{pmatrix}
 $$
-ist vollständig und suffizient. Daher ist $$\hat{m}(x) = S_1(x)/n$$ der erwartungstreue varianzminimierende Schätzer für $$m$$ und
+ist vollständig und suffizient. Daher ist $$\bar{X} = S_1(X)/n$$ der erwartungstreue varianzminimierende Schätzer für $$m$$ und
 $$
-T_v(x) \coloneqq \frac 1 {n-1} \left(S_2(x) - \frac 1 n S_1(x)^2\right) =
-\frac{n}{n-1}\hat{v}
+V^* = \frac 1 {n-1} \left(S_2(X) - \frac 1 n S_1(X)^2\right)
 $$
 für $$v.$$
 

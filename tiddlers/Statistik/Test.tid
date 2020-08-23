@@ -1,6 +1,8 @@
 created: 20200602180136824
+creator: Leander
 list: [[Zulässiger Test]] [[Gleichmäßig bester Test]] [[Unverfälschter Test]] Neyman-Pearson-Test [[Wachsender Likelihood-Quotient]] Likelihood-Quotiententest [[Verallgemeinerter Likelihood-Quotient]] [[Tests im Gauß-Modell]] Chi-Quadrat-Anpassungstest [[Chi-Quadrat-Test auf Unabhängigkeit]] [[Fischers exakter Test auf Unabhängigkeit]] [[Test gegen fallenden Trend]]
-modified: 20200822184652687
+modified: 20200823121513907
+modifier: Leander
 tags: Statistik
 title: Test
 type: text/vnd.tiddlywiki
@@ -10,7 +12,7 @@ Sei <<mathtext "Statistisches Modell">> ein statistisches Modell und $$\varTheta
 * Eine Statistik $$\varphi\colon \mathcal X \to [0,1]$$ heißt //Test// von $$\varTheta_0$$ gegen $$\varTheta_1.$$
 * Ein Test heißt //nicht randomisiert,// falls $$\varphi \in \{0,1\}.$$
 
-Die Entscheidung für $$\varTheta_1,$$ obwohl $$\varTheta_0$$ richtig ist, nennt man //Fehler 1. Art// oder //peinlichen Fehler,// den gegenteiligen Fehler //Fehler 2. Art// oder //verzeihlichen Fehler.//
+Die Entscheidung für $$\varTheta_1,$$ obwohl $$\varTheta_0$$ richtig ist, nennt man //Fehler 1. Art, falsch positiv// oder //peinlichen Fehler,// den gegenteiligen Fehler //Fehler 2. Art, falsch negativ// oder //verzeihlichen Fehler.//
 
 !! Arten von Tests
 

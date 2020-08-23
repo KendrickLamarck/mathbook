@@ -1,5 +1,7 @@
 created: 20200609124745574
-modified: 20200817153155195
+creator: Leander
+modified: 20200823125106651
+modifier: Leander
 tags: Test
 title: Likelihood-Quotiententest
 type: text/vnd.tiddlywiki
@@ -21,20 +23,15 @@ $$
 R(x) \coloneqq \frac{\rho(\vartheta_1,x)}{\rho(\vartheta_0,x)},\qquad
 \varphi \coloneqq \mathbf{1}_{R \ge c},\ c \in \R.
 $$
-Dann ist $$\varphi$$ ein gleichmäßig bester Test von $$\varTheta_0$$ gegen $$\varTheta_1$$ zum Niveau $$\alpha = \expect_{\vartheta_0}[\varphi].$$
+Dann ist $$\varphi$$ ein gleichmäßig bester Test von $$\varTheta_0$$ gegen $$\varTheta_1$$ zum Niveau
+$$\alpha \coloneqq \expect_{\vartheta_0}[\varphi].$$
 Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
 
 * Das funktioniert genau so für rechtsseitige Hypothesen, verwende dafür $$-\vartheta$$ und $$-T.$$
 
 * Sei $$\vartheta_0 < \vartheta_2.$$ Dann ist $$\varphi$$ auch ein gleichmäßig bester Test von $$\{\vartheta \mid \vartheta \le \vartheta_0\}$$ gegen $$\{\vartheta \mid \vartheta \ge \vartheta_2\}.$$
 
-* <div>Ein gleichmäßig bester Test zum Niveau
-$$\alpha = \prob_{\vartheta_0}(T > c) + \gamma \prob_{\vartheta_0}(T = c)$$
-ist gegeben durch
-$$
-\gamma\mathbf 1_{T = c} + \mathbf 1_{T > c}.
-$$
-Für die Wahl von $$\gamma$$ und $$c$$ siehe auch [[Neyman-Pearson-Test]].</div>
+* Ein gleichmäßig bester Test zu einem beliebigen vorgegebenen Niveau $$\alpha$$ kann durch $$\indicator_{R > c} + \gamma\indicator_{R = c}$$ konstruiert werden, für die Wahl von $$c$$ und $$\gamma$$ siehe [[Neyman-Pearson-Test]].
 
 !! Verallgemeinerung
 

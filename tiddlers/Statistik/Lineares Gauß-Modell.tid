@@ -1,5 +1,7 @@
 created: 20200801060141017
-modified: 20200822183630941
+creator: Leander
+modified: 20200823173805965
+modifier: Leander
 tags: [[Lineares Modell]]
 title: Lineares Gauß-Modell
 type: text/vnd.tiddlywiki
@@ -33,7 +35,10 @@ $$\delta = t_{n-s;1-\alpha/2}\sqrt{c^\transp (A^\transp A)^{-1}c}.$$</div>
 
 * <div>Die zufällige Menge
 $$
-C = \openI{(n-s)V^*/\chi^2_{n-s;\alpha/2},(n-s)V^*/\chi^2_{n-s;1-\alpha/2}}
+C = \openI{
+  \frac{(n-s)V^*}{\chi^2_{n-s;\alpha/2}},
+  \frac{(n-s)V^*}{\chi^2_{n-s;1-\alpha/2}}
+}
 $$
 Ist ein Konfidenzbereich für $$v$$ zum Niveau $$\alpha.$$</div>
 

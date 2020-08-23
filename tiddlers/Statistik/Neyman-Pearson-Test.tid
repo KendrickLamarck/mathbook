@@ -1,5 +1,7 @@
 created: 20200602190919926
-modified: 20200817123731463
+creator: Leander
+modified: 20200823125223921
+modifier: Leander
 tags: Test
 title: Neyman-Pearson-Test
 type: text/vnd.tiddlywiki
@@ -15,11 +17,9 @@ R(x) \coloneqq \frac{\rho_1(x)}{\rho_0(x)}
 $$
 sofern $$\rho_0(x) \ne 0,$$ sonst setzen wir $$R(x) = \infty.$$
 
-Ein [[Test]] $$\varphi$$ heißt //Neyman-Pearson-Test,// falls
-$$\varphi|_{\{R > c\}} \equiv 1$$
-und
-$$\varphi|_{\{R < c\}} \equiv 0$$
-für irgendein $$c.$$
+Ein [[Test]] $$\varphi$$ der Form
+$$\indicator_{R > c} + \gamma\indicator_{R = c}$$
+für Konstanten $$c$$ und $$\gamma$$ heißt //Neyman-Pearson-Test.//
 
 Für $$\alpha \in \openI{0,1}$$ gilt:
 
@@ -29,10 +29,10 @@ Wenn $$\P_0(R=c)=0$$ ist, setzen wir
 $$\varphi \coloneqq \mathbf{1}_{R > c}$$
 und sonst
 $$
-\varphi\bigr|_{\{R = c\}} \equiv
-  \frac{\alpha-\prob_0(R>c)}
-    {\prob_0(R=c)}
+\gamma \coloneqq \frac{\alpha-\prob_0(R>c)}{\prob_0(R=c)}
 $$
-mit $$c = \inf\{t \in \R\mid \prob_0(R \ge t)<\alpha\}.$$</div>
+mit $$c \coloneqq \inf\{t \in \R\mid \prob_0(R \ge t)<\alpha\}.$$</div>
+
 * Jeder Neyman-Pearson-Test mit $$\expect_0[\varphi]=\alpha$$ ist ein gleichmäßig bester Test zum Niveau $$\alpha.$$
+
 * Für jeden anderen gleichmäßig besten Test $$\psi$$ zum Niveau $$\alpha$$ gilt $$\varphi=\psi$$ $$\mu$$-f.s. in $$\{R\ \ne c\}.$$ Jeder gleichmäßig beste Test ist auf dieser Menge also f.s. ein Neyman-Pearson-Test.

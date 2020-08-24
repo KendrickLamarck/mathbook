@@ -1,12 +1,12 @@
 created: 20200801060141017
 creator: Leander
-modified: 20200823173805965
+modified: 20200824084947094
 modifier: Leander
 tags: [[Lineares Modell]]
 title: Lineares Gauß-Modell
 type: text/vnd.tiddlywiki
 
-Betrachte ein lineares Modell, bei dem die Fehlergröße $$\xi$$ mehrdimensional standardnormalverteilt ist, also $$\prob_{\gamma,v} = \normaldist^n(A\gamma,vI).$$ Insbesondere sind die Beobachtungen $$X_1,\dots,X_n$$ unabhängig unter jedem $$\prob_{\gamma,v}.$$
+Betrachte ein lineares Modell, bei dem die Fehlergröße $$\xi$$ mehrdimensional standardnormalverteilt ist, also $$\prob_{\gamma,v} = \normaldist_n(A\gamma,vI).$$ Insbesondere sind die Beobachtungen $$X_1,\dots,X_n$$ unabhängig unter jedem $$\prob_{\gamma,v}.$$
 
 !! Verallgemeinerter Satz von student
 
@@ -18,8 +18,8 @@ Im linearen Gauß-Modell gilt für jedes vorgegebene Irrtumsniveau $$\alpha \in 
 
 * <div>Die zufällige Menge
 $$
-C = \{\gamma \in \R^s:
-  \|A(\gamma-\hat\gamma)\|^2\le s f_{s,n-s;1-\alpha}V^*\}
+C = \left\{\gamma \in \R^s:
+  \frac{\|A(\gamma-\hat\gamma)\|^2}{sV^*} \le f_{s,n-s;1-\alpha}\right\}
 $$
 ist ein Konfidenzbereich für $$\gamma$$ zum Niveau $$\alpha.$$</div>
 

@@ -1,5 +1,5 @@
 created: 20200511200714005
-modified: 20200823103142219
+modified: 20200824085333954
 tags: Statistik
 title: Konfidenzbereich
 type: text/vnd.tiddlywiki
@@ -28,7 +28,7 @@ Außerdem ist anzumerken, dass die Definition leicht so zu lesen ist, als sei de
 
 !! Allgemeine Konstruktion
 
-Zu einem vorgegebenen Niveau $$\alpha$$ definiert man zu jedem $$\vartheta$$ zuerst ein $$C_\vartheta$$ mit $$\prob_\vartheta(C_\vartheta) \ge 1-\alpha.$$ Im Fall eines Standardmodells nimmt man z.B. gerne in Analogie zum Maximum-Likelihood-Ansatz
+Sei $$\tau = \id_\varTheta.$$ Zu einem vorgegebenen Niveau $$\alpha$$ definiert man zu jedem $$\vartheta$$ zuerst ein $$C_\vartheta$$ mit $$\prob_\vartheta(C_\vartheta) \ge 1-\alpha.$$ Im Fall eines Standardmodells nimmt man z.B. gerne in Analogie zum Maximum-Likelihood-Ansatz
 $$
 C_\vartheta \coloneqq
 \{\,x \in \mathcal{X} \mid \rho_\vartheta(x) \ge c_\vartheta\,\}

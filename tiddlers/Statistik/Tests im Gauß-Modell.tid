@@ -1,5 +1,7 @@
 created: 20200609164131386
-modified: 20200822204319451
+creator: Leander
+modified: 20200824182413149
+modifier: Leander
 tags: Test
 title: Tests im Gauß-Modell
 type: text/vnd.tiddlywiki
@@ -13,7 +15,7 @@ $$(m,v) \in \R \times \openI{0,\infty}$$.
 
 Der [[Test]]
 $$
-\varphi(x) = \begin{cases}
+\varphi(x) \coloneqq \begin{cases}
   1, &\text{ falls }\sum(x_i-\bar x)^2 \ge v_0 \, \chi_{n-1,1-\alpha}^2, \\
   0  &\text{ sonst}
 \end{cases}
@@ -28,7 +30,7 @@ Das können wir diesmal nicht auf den rechtsseitigen Fall übertragen, in diesem
 
 Einen Test für  $$H_0\colon m \le m_0$$ gegen $$H_1\colon m > m_0$$ erhalten wir mit
 $$
-\varphi(x) = \begin{cases}
+\varphi(x) \coloneqq \begin{cases}
   1, &\text{ falls }
     (\bar x - m_0)\sqrt{\frac{n}{V^*(x)}} > t_{n-1,1-\alpha}, \\
   0  &\text{ sonst},

@@ -1,6 +1,6 @@
 created: 20200609124745574
 creator: Leander
-modified: 20200823125106651
+modified: 20200824060302629
 modifier: Leander
 tags: Test
 title: Likelihood-Quotiententest
@@ -29,7 +29,7 @@ Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
 
 * Das funktioniert genau so für rechtsseitige Hypothesen, verwende dafür $$-\vartheta$$ und $$-T.$$
 
-* Sei $$\vartheta_0 < \vartheta_2.$$ Dann ist $$\varphi$$ auch ein gleichmäßig bester Test von $$\{\vartheta \mid \vartheta \le \vartheta_0\}$$ gegen $$\{\vartheta \mid \vartheta \ge \vartheta_2\}.$$
+* Sei $$\vartheta_2 > \vartheta_0.$$ Dann ist $$\varphi$$ auch ein gleichmäßig bester Test von $$\{\vartheta \mid \vartheta \le \vartheta_0\}$$ gegen $$\{\vartheta \mid \vartheta \ge \vartheta_2\}.$$
 
 * Ein gleichmäßig bester Test zu einem beliebigen vorgegebenen Niveau $$\alpha$$ kann durch $$\indicator_{R > c} + \gamma\indicator_{R = c}$$ konstruiert werden, für die Wahl von $$c$$ und $$\gamma$$ siehe [[Neyman-Pearson-Test]].
 

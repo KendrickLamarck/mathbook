@@ -1,5 +1,5 @@
 created: 20200630131243543
-modified: 20200819182450300
+modified: 20200824112914373
 tags: [[Lineares Modell]]
 title: Lineare Regression
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ $$
 X = \gamma_0\vec{1} + \gamma_1 t + \sqrt{v} \xi.
 $$
 Das statistische Modell ist also
-$$(\R^n,\Borel_n,\prob_{\gamma,v}:(\gamma,v) \in \R \times \openI{0,\infty}),$$ wobei $$P_{\gamma,v}$$ die Verteilung von $$X$$ beschreibt.
+$$(\R^n,\Borel_n,\prob_{\gamma,v}:(\gamma,v) \in \R \times \openI{0,\infty}),$$ wobei $$\prob_{\gamma,v}$$ die Verteilung von $$X$$ beschreibt.
 
 !! Prinzip der kleinsten Quadrate
 

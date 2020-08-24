@@ -1,5 +1,7 @@
 created: 20200518174807973
-modified: 20200815182656738
+creator: Leander
+modified: 20200824174433888
+modifier: Leander
 tags: Konfidenzbereich no-toc
 title: Pivotstatistik
 type: text/vnd.tiddlywiki
@@ -15,7 +17,6 @@ für alle $$\vartheta.$$ Das Wahrscheinlichkeitsmaß $$\eta$$ heißt //Pivot-Ver
 ''Satz.''
 Sei <<mathtext "Statistisches Modell">> ein statistisches Modell mit Pivotstatistik $$\pi$$ und Pivotverteilung $$\eta.$$ Zu $$\alpha \in \openI{0,1}$$ sei $$A \subseteq \varSigma$$ eine messbare Menge mit $$\eta(A) \ge 1-\alpha.$$ Dann ist die Abbildung
 $$
-C\colon \mathcal X \to \varTheta,\quad
 C(x) \coloneqq \{\,\vartheta \in \varTheta \mid \pi(\vartheta,x) \in A\,\}
 $$
 ein [[Konfidenzbereich]] für $$\vartheta$$ zum Niveau $$\alpha.$$

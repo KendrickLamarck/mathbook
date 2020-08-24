@@ -1,5 +1,5 @@
 created: 20200423134002786
-modified: 20200823103814396
+modified: 20200824173815378
 tags: Schätzer
 title: Schätzer für das Gauß-Produktmodell
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ ist $$\bar{X} = \frac 1 n \sum_{i=1}^n X_i$$ ein ML-Schätzer für $$m$$ und $$V
 $$
 \expect_{m,v}[V] = \frac{n-1}{n} v.
 $$
-Wir könenn also $$V$$ standardisieren und erhalten den Erwartungstreuen Schätzer
+Wir können also $$V$$ standardisieren und erhalten den Erwartungstreuen Schätzer
 $$
 V^* \coloneqq \frac{n}{n-1} V = \frac{1}{n-1}\sum_{i=1}^n(X_i = \bar{X}).
 $$

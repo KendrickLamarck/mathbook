@@ -1,6 +1,5 @@
 created: 20200218154352407
-modified: 20200301005525793
-revision: 0
+modified: 20200829152447054
 tags: Numerik
 title: Eindimensionale Randwertprobleme
 type: text/vnd.tiddlywiki
@@ -13,9 +12,9 @@ $$
 
 An den beiden Rändern ist eine der folgenden Randbedingungen gegeben:
 
-# $$y(r)=g_D(r)$$ @@float:right; Vorgabe eines Wertes, Dirichlet-Randbedingung,@@
-# $$y'(r)=g_N(r)$$ @@float:right; Vorgabe der Ableitung, Neumann-Randbedingung,@@
-# $$y'(r)+\alpha y(r)=g_C(r)$$ @@float:right; gemischte Randbedingung, Cauchy-Randbedingung.@@
+# $$y(r)=g_D(r)$$ @@float:right; (vorgabe eines Wertes, Dirichlet-Randbedingung),@@
+# $$y'(r)=g_N(r)$$ @@float:right; (vorgabe der Ableitung, Neumann-Randbedingung),@@
+# $$y'(r)+\alpha y(r)=g_C(r)$$ @@float:right; (gemischte Randbedingung, Cauchy-Randbedingung).@@
 
 Zum lösen benutzen wir das //Finite-Differenzen-Verfahren,// bei dem wir die Ableitungen durch einen der folgenden Differenzenquotienten, genannt //Vorwärtsdifferenz, Rückwärtsdifferenz// und //zentrale Differenz,// ersetzen:
 

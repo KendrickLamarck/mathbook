@@ -1,0 +1,30 @@
+.table-padded td {
+  padding: 7px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-vertical tbody th {
+  border-right: solid 1px;
+}
+
+.table-transparent-borders,
+.table-transparent-borders th,
+.table-transparent-borders td {
+  border-color: transparent;
+  background-color: transparent;
+  font-weight: normal;
+  vertical-align: top;
+}
+.table-transparent-borders thead td {
+  border-bottom: solid 1px;
+}
+.table-transparent-borders tfoot td {
+  padding-top: 7px;
+}
+.table-transparent-borders caption {
+  padding-top: 7px;
+}

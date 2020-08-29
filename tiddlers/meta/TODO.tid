@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200713145059865
+modified: 20200824220920938
 modifier: Leander
 tags: meta
 title: TODO
@@ -43,7 +43,8 @@ type: text/vnd.tiddlywiki
 
 * Consider an alias mechanism (so links don't have to be the exact title)
 * An actual favicon: nice to have.
-* Try applying the 5-color subpalettes to the Solarized palettes.
+* Try applying the 5-color subpalettes to the Solarized palettes
+* Table class with transparent borders and padding
 
 !! (Future) collaboration
 

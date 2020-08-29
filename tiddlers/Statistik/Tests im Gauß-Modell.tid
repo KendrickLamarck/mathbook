@@ -1,6 +1,6 @@
 created: 20200609164131386
 creator: Leander
-modified: 20200824182413149
+modified: 20200825091335904
 modifier: Leander
 tags: Test
 title: Tests im Gauß-Modell
@@ -54,4 +54,4 @@ Wir suchen den besten Test von $$H_0\colon v \le v_0$$ gegen $$H_1\colon v > v_0
 $$
 \Bigl\{ \sum(X_i - m)^2 > v_0\,\chi^2_{n;1-\alpha}\Bigr\},
 $$
-wobei $$\chi^2_{n;\alpha}$$ das $$\alpha$$-Fraktil der $$\chi^2_n$$-Verteilung ist.
+wobei $$\chi^2_{n;1-\alpha}$$ das $$\alpha$$-Fraktil der $$\chi^2_n$$-Verteilung ist.

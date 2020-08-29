@@ -1,18 +1,18 @@
 created: 20200606221040390
-modified: 20200629172240166
-revision: 0
+modified: 20200829152936702
 tags: [[Euclidean group]]
 title: Frieze groups
 type: text/vnd.tiddlywiki
 
 The //Frieze groups// are the possible symmetries of patterns in an infinite strip in Euclidean space, e.g. $$\Bbb E^1 \times [-1,1].$$
 
-| The seven Frieze groups |c
-|Construction                                   |Example |Stabilizers              |Names                          |h
-| $${\infty\bullet} \times \{+1\}$$             |PPPPPP  |                         |$$\infty\infty$$, hop, p1      |
-| $${\infty\bullet} \times \{\pm 1\}$$          |BBBBBB  |$$*\bullet$$             |$$\infty*$$, jump, p11m        |
-| $${\infty\bullet} \times_\varphi \{\pm 1\}$$  |bpbpbp  |                         |$$\infty{\times}$$, step, p11g |
-| $${*\infty\bullet} \times \{+1\}$$            |AAAAAA  |$$*\bullet$$             |$$*\infty\infty$$, sidle, p1m1 |
-| $${*\infty\bullet} \times \{\pm 1\}$$         |XXXXXX  |$$*2\bullet,\ *\bullet$$ |$$*22\infty$$, dijump, p2mm    |
-| $${*\infty\bullet} \times_\varphi \{\pm 1\}$$ |SSSSSS  |$$2\bullet$$             |$$22\infty$$, dihop, p2        |
-| $${*\infty\bullet} \times_\varphi \{\pm 1\}$$ |dbqpdb  |$$2\bullet,\ *\bullet$$  |$$2{*}\infty$$, disidle, p2mg  |
+|table-transparent-borders center|k
+|Construction                                  |Example |Stabilizers              |Names                          |h
+|$${\infty\bullet} \times \{+1\}$$             |PPPPPP  |                         |$$\infty\infty$$, hop, p1      |
+|$${\infty\bullet} \times \{\pm 1\}$$          |BBBBBB  |$$*\bullet$$             |$$\infty*$$, jump, p11m        |
+|$${\infty\bullet} \times_\varphi \{\pm 1\}$$  |bpbpbp  |                         |$$\infty{\times}$$, step, p11g |
+|$${*\infty\bullet} \times \{+1\}$$            |AAAAAA  |$$*\bullet$$             |$$*\infty\infty$$, sidle, p1m1 |
+|$${*\infty\bullet} \times \{\pm 1\}$$         |XXXXXX  |$$*2\bullet,\ *\bullet$$ |$$*22\infty$$, dijump, p2mm    |
+|$${*\infty\bullet} \times_\varphi \{\pm 1\}$$ |SSSSSS  |$$2\bullet$$             |$$22\infty$$, dihop, p2        |
+|$${*\infty\bullet} \times_\varphi \{\pm 1\}$$ |dbqpdb  |$$2\bullet,\ *\bullet$$  |$$2{*}\infty$$, disidle, p2mg  |
+|The seven Frieze groups.|c

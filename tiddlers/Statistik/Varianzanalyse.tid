@@ -1,5 +1,5 @@
 created: 20200801101123565
-modified: 20200822191322077
+modified: 20200829140225760
 tags: [[Lineares Modell]]
 title: Varianzanalyse
 type: text/vnd.tiddlywiki
@@ -67,6 +67,7 @@ Es gilt die Streuungszerlegung $$(n-1)V_\mathrm{tot}^* = (n-s)V_\mathrm{iG}^* + 
 
 Man fasst diese Größen oft in sogenannten //ANOVA-Tafeln// zusammen (Fg steht für "Freiheitsgrade"):
 
+|table-padded|k
 |    |!Fg      |!Quadratsummen                                             |!Quadratmittel                             |!F-Quotient                        |
 |!zG | $$s-1$$ |$$S_\mathrm{zG} = \sum_{i \in G} n_i(\bar{X}_i-\bar{X})^2$$|$$V_\mathrm{zG}^* = S_\mathrm{zG}/(s-1)$$  |$$V_\mathrm{zG}^*/V_\mathrm{iG}^*$$|
 |!iG | $$n-s$$ |$$S_\mathrm{iG} = \sum_{i \in G} (n_i-1)V_i^*$$            |$$V_\mathrm{iG}^* = S_\mathrm{iG}/(n-s)$$  |~|

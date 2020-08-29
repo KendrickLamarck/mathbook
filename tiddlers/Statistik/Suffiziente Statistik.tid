@@ -1,6 +1,6 @@
 caption: Suffizienz und Satz von Rao-Blackwell
 created: 20200504194323416
-modified: 20200824171942158
+modified: 20200825081046301
 tags: Schätzer
 title: Suffiziente Statistik
 type: text/vnd.tiddlywiki
@@ -24,7 +24,7 @@ nicht von $$\vartheta$$ abhängt.</div>
 * Das Bildmaß $$\P_\vartheta\circ S^{-1}$$ einer suffizienten Statistik $$S$$ unter $$\P_\vartheta$$ legt $$\P_\vartheta$$ eindeutig fest.
 
 ''Interpretation.''
-Eine suffiziente Statistik kann als informationserhaltende Hilfsbeobachtung angesehen werden: Wir machen eine datenreduzierende Hilfsbeobachtung, so dass der verbleibende Restzufall nicht mehr von $$\vartheta$$ abhängt.
+Eine suffiziente Statistik kann als informationserhaltende Hilfsbeobachtung angesehen werden: Wir nehmen eine datenreduktion vor, so dass der verbleibende Restzufall nicht mehr von $$\vartheta$$ abhängt.
 
 !! Neyman-Fisher-Faktorisierungslemma
 

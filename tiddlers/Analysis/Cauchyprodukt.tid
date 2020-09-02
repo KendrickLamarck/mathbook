@@ -1,9 +1,8 @@
 created: 20180226123005429
 creator: Leander
 list: 
-modified: 20191011212213804
+modified: 20200829224040664
 modifier: Leander
-revision: 0
 tags: Reihe
 title: Cauchyprodukt
 type: text/vnd.tiddlywiki
@@ -17,5 +16,5 @@ $$
 Dann ist die Reihe $$\sum_{m=0}^\infty c_m$$ konvergent und für die Summen gilt
 
 $$
-\left(\sum_{k=0}^\infty a_k\right) \left(\sum_{l=0}^\infty b_l\right) = \sum_{m=0}^\infty c_m.
+\biggl(\sum_{k=0}^\infty a_k\biggr) \biggl(\sum_{l=0}^\infty b_l\biggr) = \sum_{m=0}^\infty c_m.
 $$

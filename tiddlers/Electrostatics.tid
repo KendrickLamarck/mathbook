@@ -1,6 +1,5 @@
 created: 20200630212439407
-modified: 20200630232132303
-revision: 0
+modified: 20200901075741190
 tags: misc
 title: Electrostatics
 type: text/vnd.tiddlywiki
@@ -18,7 +17,7 @@ The //kinetic energy// is given by
 $$
 E_\mathrm{kin}(\mathbf{E}) =
 \frac{1}{2} \int_{\R^3} \|\mathbf{E}\|^2 =
-E_D(\phi).
+E_\D(\phi).
 $$
 
 The //electrostatic energy// $$E_\rho$$ with respect to a given charge distribution $$\rho$$ is defined as
@@ -27,7 +26,7 @@ E_\rho(\phi) = \int_{\R^3} \rho \phi.
 $$
 
 ''Theorem.''
-For a charge distribution $$\rho$$ the critical point $$\phi$$ of $$E = E_D - E_\rho$$ under compactly supported [[variations|Variation (smooth function)]] is an electric potential of $$\rho,$$ i.e.
+For a charge distribution $$\rho$$ the critical point $$\phi$$ of $$E = E_\D - E_\rho$$ under compactly supported [[variations|Variation (smooth function)]] is an electric potential of $$\rho,$$ i.e.
 $$
 \rho = -\divergence\grad\phi = -\Delta\phi.
 $$

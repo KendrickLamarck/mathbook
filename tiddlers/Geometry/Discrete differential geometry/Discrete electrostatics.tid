@@ -1,5 +1,5 @@
 created: 20200630232118496
-modified: 20200713124104819
+modified: 20200901075756752
 tags: [[Discrete differential geometry]]
 title: Discrete electrostatics
 type: text/vnd.tiddlywiki
@@ -11,10 +11,10 @@ $$
 
 Let $$L\colon \mathscr{C}(M) \to \mathscr{M}(M)$$ be the [[symmetric operator|Bilinearformen und duale Abbildungen]] such that
 $$
-E_D(\varphi) = \frac{1}{2} \int_M \varphi(L\varphi),
+E_\D(\varphi) = \frac{1}{2} \int_M \varphi(L\varphi),
 $$
 see [[Discrete Dirichlet energy]]. Then
 
-* $$\phi$$ is a critical point of $$E = E_D - E_\rho$$ if and only if $$L\phi = \rho.$$
+* $$\phi$$ is a critical point of $$E = E_\D - E_\rho$$ if and only if $$L\phi = \rho.$$
 
 * The //Poisson problem// $$L\phi = \rho$$ has a solution if and only if $$\int_M \rho = 0.$$ If there is a solution, it is unique up to an added constant.

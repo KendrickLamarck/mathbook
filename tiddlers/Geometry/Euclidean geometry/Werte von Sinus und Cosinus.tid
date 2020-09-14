@@ -1,10 +1,10 @@
 created: 20180301175431588
-modified: 20200829223652072
+modified: 20200911104522142
 tags: [[Trigonometrische Funktionen]] no-toc
 title: Werte von Sinus und Cosinus
 type: text/vnd.tiddlywiki
 
-|table-transparent-borders table-vertical|k
+|table-transparent-borders table-vertical table-padded|k
 |!         |          $$0$$|      $$\pi/6$$|      $$\pi/4$$|      $$\pi/3$$|      $$\pi/2$$|h
 |!$$\cos$$ | $$\sqrt{4}/2$$| $$\sqrt{3}/2$$| $$\sqrt{2}/2$$| $$\sqrt{1}/2$$| $$\sqrt{0}/2$$|
 |!$$\sin$$ | $$\sqrt{0}/2$$| $$\sqrt{1}/2$$| $$\sqrt{2}/2$$| $$\sqrt{3}/2$$| $$\sqrt{4}/2$$|

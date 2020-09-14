@@ -1,4 +1,5 @@
-.table-padded td {
+.table-padded td,
+.table-padded th {
   padding: 7px;
 }
 

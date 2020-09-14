@@ -1,0 +1,9 @@
+/* select lists that don't have a different class. If you want to add classes later, replace [class] with .toc-item and .tc-toc to specifically exclude the table of contents elements. */
+
+.tc-tiddler-body li:not([class]) {
+  padding-bottom: 7px;
+}
+
+.tc-tiddler-body ol:not([class]) {
+  list-style-type: lower-roman;
+}

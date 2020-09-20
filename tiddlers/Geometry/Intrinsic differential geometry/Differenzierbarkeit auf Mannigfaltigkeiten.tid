@@ -1,17 +1,14 @@
 created: 20181008184702549
 creator: Leander
-modified: 20200414163954643
+modified: 20200920213729276
 modifier: Leander
-revision: 0
 tags: Manifold
 title: Differenzierbarkeit auf Mannigfaltigkeiten
 type: text/vnd.tiddlywiki
 
 Let $$f\colon M^m\to N^n$$ be a map between two [[smooth manifolds|Smooth manifold]]. We call this map smooth, if for every $$p\in M,$$ we can find charts $$(U,\varphi)$$ around $$p$$ and $$(V,\psi)$$ around $$f(p)$$ such that the expression of $$f$$ in these coordinates
-
 $$
 \psi\circ f\circ\varphi^{-1}\colon
 \R^m\supseteq\varphi\left(U\cap f^{-1}(V)\right)\to\R^n
 $$
-
 is [[smooth|Höhere Ableitungen]]. If this is the case, it is true in any coordinate charts. We write $$\mathcal C^\infty(M,N)$$ for the smooth maps from $$M$$ to $$N$$ and we define $$\mathcal C^\infty(M)\coloneqq\mathcal C^\infty(M,\R).$$

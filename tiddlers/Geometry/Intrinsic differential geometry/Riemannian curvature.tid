@@ -1,19 +1,15 @@
 created: 20200116215220084
 list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]] [[Ricci curvature]] [[Scalar curvature]]
-modified: 20200708221143161
-revision: 0
+modified: 20200920212305985
 tags: [[Intrinsic differential geometry]]
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
 
 On a [[Riemannian manifold|Riemannian metric]] with [[Levi-Civita connection]] $$\nabla,$$ we define the  //Riemannian curvature operator// by
-
 $$
 R(X,Y)Z\coloneqq \nabla_X(\nabla_Y Z)-\nabla_Y(\nabla_X Z)-\nabla_{[X,Y]}Z.
 $$
-
 We further define the //Riemannian curvature tensor// by
-
 $$
 R(X,Y,Z,W)\coloneqq \langle R(X,Y)Z,W\rangle.
 $$
@@ -44,20 +40,17 @@ extended by bilinearity to non-simple 2-vectors.</div>
 !! In coordinates
 
 In coordinates $$(U, \varphi)$$ with respect to the coordinate frame $$\{\partial_i\},$$ the curvature operator and curvature tensor have components given by
-
 $$\begin{aligned}
 R(\partial_k, \partial_l) \partial_i &\eqqcolon 
 \sum {R^j}_{ikl} \partial_j, \\
 \langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &\eqqcolon
 R_{ijkl} = \sum g_{jm} {R^m}_{ikl},
 \end{aligned}$$
-
 where
-
 $$
 {R^j}_{ikl} =
 \partial_k {\varGamma^{\,j}}_{il} - \partial_l {\varGamma^{\,j}}_{ik}
-+ \sum_m \left(
-{\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -
-{\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml} \right)
++ \sum_m {\left(
+  {\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -
+  {\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml} \right)}.
 $$

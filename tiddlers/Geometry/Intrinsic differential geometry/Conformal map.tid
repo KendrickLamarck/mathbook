@@ -1,18 +1,17 @@
 created: 20200504143916992
-modified: 20200713205044119
+modified: 20200920213232699
 tags: [[Riemannian metric]]
 title: Conformal map
 type: text/vnd.tiddlywiki
 
-{{Conformal equivalence}}
-
-A diffeomorphism $$f \colon M \to N$$ between Riemannian manifolds $$(M,g)$$ and $$(N,h)$$ is called //conformal// if $$f^*h$$ is conformally equivalent to $$g.$$
+{{Conformal equivalence}} A diffeomorphism $$f \colon M \to N$$ between Riemannian manifolds $$(M,g)$$ and $$(N,h)$$ is called //conformal// if $$f^*h$$ is conformally equivalent to $$g.$$
 
 In elementary terms, this means that intersection angles between curves are preserved. Furthermore, a map $$f\colon \R^n \to \R^n$$ whose derivative $$f'(p)$$ has rank $$n$$ is conformal if and only if there is a smooth function $$u\colon \R^n \to \R$$ such that for all $$p \in \R^n$$ and all vectors $$X,Y \in \R^n$$ we have
-
 $$
 \lang f'(p)X, f'(p)Y\rang = e^{2u(p)}\lang X,Y \rang.
 $$
 
+@@.theorem
 ''Theorem (Liouville).''
 {{Liouville's theorem}}
+@@

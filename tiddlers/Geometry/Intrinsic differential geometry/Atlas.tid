@@ -1,12 +1,9 @@
 created: 20181008182537519
 creator: Leander
-modified: 20200414163920972
+modified: 20200920213807586
 modifier: Leander
-revision: 0
 tags: Manifold
 title: Atlas
 type: text/vnd.tiddlywiki
 
-An //atlas// for a [[topological manifold|Topologische Mannigfaltigkeit]] $$M$$ is a collection of charts $$\{(U_\alpha,\varphi_\alpha)\}$$ that covers $$M,$$ i.e. $$\bigcup U_\alpha=M.$$
-
-{{Smooth atlas}}
+An //atlas// for a [[topological manifold|Topologische Mannigfaltigkeit]] $$M$$ is a collection of charts $$\{(U_\alpha,\varphi_\alpha)\}$$ that covers $$M,$$ i.e. $$\bigcup U_\alpha=M.$$ {{Smooth atlas}}

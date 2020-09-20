@@ -1,8 +1,7 @@
 created: 20190210221038641
 creator: Leander
-modified: 20200607123732413
+modified: 20200920214424128
 modifier: Leander
-revision: 0
 tags: [[Spherical geometry]]
 title: Stereographic projection
 type: text/vnd.tiddlywiki
@@ -10,7 +9,6 @@ type: text/vnd.tiddlywiki
 !! Euclidean
 
 //stereographic projection// $$\sigma\colon \sphere^2\setminus \{e_3\}\to\R^2$$ maps a point on the [[unit sphere|Einheitssphäre]] along the ray from the north pole to the plane $$x_3=0.$$ The equations are
-
 $$\begin{gathered}
 \sigma \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} =
   \frac{1}{1-x_3}
@@ -43,7 +41,7 @@ on $$\R^2.$$ From this, we can see that stereographic projection is conformal.
 
 !! Projective
 
-$$\sphere^n=\{[x]\in\RP^n\mid \langle x,x\rangle_{n,1}=0\}\subset\R\mathrm P^{n+1}$$ can be mapped to $$\widehat\Bbb R^n$$ bijectively via stereographic projection:
+$$\sphere^n=\{\, [x]\in\RP^n\mid \langle x,x\rangle_{n,1}=0 \,\}\subset\R\mathrm P^{n+1}$$ can be mapped to $$\widehat\Bbb R^n$$ bijectively via stereographic projection:
 $$
 \begin{bmatrix}
   x_1     \\
@@ -69,6 +67,4 @@ $$
   \|u\|^2+1
 \end{bmatrix}.
 $$
-
-
 $$\infty$$ is mapped to the north pole $$[e_\infty]=[e_{n+1}+e_{n+2}]$$ and vice versa.

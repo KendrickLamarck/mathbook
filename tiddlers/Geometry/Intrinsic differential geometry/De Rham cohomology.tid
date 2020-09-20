@@ -1,6 +1,5 @@
 created: 20191214233343931
-modified: 20200630211152638
-revision: 0
+modified: 20200920212618397
 tags: [[Differential form]]
 title: De Rham cohomology
 type: text/vnd.tiddlywiki
@@ -9,8 +8,12 @@ We say a $$k$$-form $$\omega$$ on $$M^m$$ is //closed// if $$\d\omega = 0.$$ We 
 
 We define the //de Rham cohomology// to be the quotient vector space $$H^k(M) \coloneqq Z^k / B^k$$ and $$Z,B,H$$ to be the corresponding direct sums. The //cohomology ring// $$H$$ is an algebra under the wedge product.
 
+@@.theorem
 ''Theorem.''
 If $$M^m$$ is an orientable closed manifold with $$n$$ components, then $$H^0(M)\cong\R^n$$ and $$H^m\cong\R^n.$$
+@@
 
+@@.theorem
 ''Lemma (Poincaré).''
 Any closed $$k$$-form defined on an open ball in $$\R^n$$ is exact. More generally, any closed form on a contractible domain is exact.
+@@

@@ -1,5 +1,5 @@
 created: 20200428152549921
-modified: 20200825080730110
+modified: 20200920213841276
 tags: Schätzer
 title: Cramer-Rao-Ungleichung
 type: text/vnd.tiddlywiki
@@ -15,6 +15,7 @@ $$
 * Im $$n$$-fachen Produktmodell ist die Varianz eines regulären Schätzers mindestens von der Größenordnung $$1/n.$$
 * Ein Schätzer bei dem für alle $$\vartheta$$ die Gleicheit gilt heißt //Cramer-Rao-optimal.//
 
+@@.theorem
 ''Satz.''
 Ein Schätzer ist genau dann Cramer-Rao-optimal, wenn unter den selben Voraussetzungen wie oben die Dichte $$\rho(\vartheta,x)$$ von $$\P_\vartheta$$ von der Form
 $$
@@ -22,3 +23,4 @@ $$
 $$
 mit gewissen Funktionen $$a,b\colon \varTheta \to \R$$ und messbarer Funktion $$h\colon \mathcal X \to {]0,\infty[}.$$
 Mit einem anderen dominierenden Maß können wir immer $$h \equiv 1$$ erreichen, die Fisher-Information ändert sich dadurch nicht.
+@@

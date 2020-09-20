@@ -1,6 +1,5 @@
 created: 20191116220932292
-modified: 20200601190134781
-revision: 0
+modified: 20200920213535254
 tags: Topologie [[Intrinsic differential geometry]]
 title: Embedding
 type: text/vnd.tiddlywiki
@@ -9,7 +8,10 @@ type: text/vnd.tiddlywiki
 
 A [[continuous|Stetigkeit]] [[injection|Injektiv, surjektiv, bijektiv]] $$f\colon X\to Y$$ of topological spaces is a topological //embedding// if it is a [[homeomorphism|Homöomorphismus]] onto its image $$f(X).$$
 
+@@.theorem
+''Theorem.''
 If $$X$$ is [[compact|Kompaktheit]] and $$Y$$ is [[Hausdorff|Hausdorff'scher Raum]], then any continuous injection $$f\colon X\to Y$$ is a topological embedding.
+@@
 
 !! Manifolds
 

@@ -1,16 +1,12 @@
 created: 20180605165108462
 creator: Leander
-modified: 20191116170741497
+modified: 20200920210145332
 modifier: Leander
-revision: 0
 tags: no-toc Richtungsableitung
 title: Partielle Ableitung
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Sei $$G\subset \mathbb R^n$$ [[offen|Offenheit]], $$W$$ ein endlichdimensionaler [[Banachraum]], $$f\colon \mathbb R^n\supset G\to W$$ eine Abbildung und $$e_1,\dots,e_n$$ die kanonische Basis des $$\mathbb R^n.$$ Dann heißen die [[Richtungsableitungen|Richtungsableitung]] $$\partial_{e_i}(p)$$ die //partiellen Ableitungen// von $$f$$ in $$p.$$ Man schreibt auch
-
 $$
 \fracpartial{f}{x_i}(p)=
 \partial_i f(p)=

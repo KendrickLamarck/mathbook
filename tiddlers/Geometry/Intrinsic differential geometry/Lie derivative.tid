@@ -1,16 +1,13 @@
 created: 20191213213736739
 lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
-modified: 20200919120616799
+modified: 20200920213426813
 tags: [[Intrinsic differential geometry]]
 title: Lie derivative
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 !! Vector fields
 
 If $$X,Y\in\mathfrak X(M)$$ and $$\theta_t$$ is the [[local flow|Local flow]] of $$X$$ around $$p,$$ then the //Lie derivative// $$\L_X Y$$ of $$Y$$ with respect to $$X$$ is the vector field defined by
-
 $$
 (\L_X Y)_p \coloneqq
 \left.\fracderiv{}{t}\right|_{t=0}
@@ -37,7 +34,6 @@ $$</div>
 !! Differential forms
 
 Let $$\omega\in\Omega^k(M),$$ $$X\in\mathfrak X(M)$$ and let $$\theta_t$$ be the local flow of $$X$$ around $$p.$$ We define
-
 $$
 (\L_X \omega)_p \coloneqq
 \left.\fracderiv{}{t}\right|_{t=0}

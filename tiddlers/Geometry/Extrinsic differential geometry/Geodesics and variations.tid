@@ -1,10 +1,8 @@
 created: 20200512221151493
-modified: 20200716150558908
+modified: 20200920210521902
 tags: [[Variation (plane curves)]] no-toc
 title: Geodesics and variations
 type: text/vnd.tiddlywiki
-
-{{KaTeX macros}}
 
 A parametrized curve $$\gamma$$ is a //geodesic,// if for all of its variations $$\gamma(x,t)$$ with compact support we have
 $$

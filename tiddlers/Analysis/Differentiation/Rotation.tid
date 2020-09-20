@@ -1,13 +1,10 @@
 created: 20190408230946576
-modified: 20200918162807945
+modified: 20200920205905202
 tags: [[Linearer Differentialoperator]]
 title: Rotation
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld|Vector field]]. Dann definieren wir die //Rotation (engl. curl)// von $$a$$ als
-
 $$
 \operatorname{rot}a\coloneqq
 \begin{pmatrix}
@@ -16,7 +13,6 @@ $$
 \fracpartial{a_2}{x} - \fracpartial{a_1}{y}
 \end{pmatrix}.
 $$
-
 Symbolisch ist $$\operatorname{rot} a=\left( \fracpartial{}{x}, \fracpartial{}{y}, \fracpartial{}{z} \right)\times(a_1,a_2,a_3).$$
 
 !! With differential forms

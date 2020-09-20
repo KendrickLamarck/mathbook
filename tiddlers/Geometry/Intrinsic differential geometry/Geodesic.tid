@@ -1,6 +1,5 @@
 created: 20200326004008380
-modified: 20200601190135332
-revision: 0
+modified: 20200920212129014
 tags: [[Intrinsic differential geometry]]
 title: Geodesic
 type: text/vnd.tiddlywiki
@@ -31,5 +30,7 @@ $$
 
 A Riemannian manifold $$M$$ is called //(geodesically) complete// if every geodesic can be extended indefinitely to $$\gamma\colon \R \to M.$$
 
+@@.theorem
 ''Theorem (Hopf-Rinow).''
 A Riemannian manifold is geodesically complete if and only if it is [[complete as a metric space|Vollständigkeit]].
+@@

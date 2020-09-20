@@ -1,14 +1,17 @@
 created: 20200331030224536
-modified: 20200331030943419
-revision: 0
+modified: 20200920212118029
 tags: [[Riemannian curvature]]
 title: Flat manifolds
 type: text/vnd.tiddlywiki
 
 A Riemannian manifold $$M^m$$ is locally isometric to $$\R^m$$ if and only if it is flat in the sense that its [[Riemannian curvature]] vanishes. This is proven using two lemmas:
 
+@@.theorem
 ''Lemma 1.''
 Given a connection $$\nabla$$ on a vector bundle $$E \to M$$ we have $$R^\nabla = 0$$ if and only if locally around any point $$p \in M$$ there is a frame $$\{\sigma_i\}$$ of parallel sections, i.e. sections satisfying $$\nabla_X \sigma_i$$ for any vector field $$X.$$
+@@
 
+@@.theorem
 ''Lemma 2.''
 Suppose $$\{X_i\}$$ is a frame of $$\T M$$ of commuting vector fields, meaning $$[X_i,X_j] = 0.$$ Then around any $$p\in M$$ there is a coordinate chart $$(U, \varphi)$$ such that $$X_i = \partial_i$$ are the coordinate vector fields.
+@@

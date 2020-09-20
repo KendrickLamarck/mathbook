@@ -1,24 +1,19 @@
 created: 20180528203216756
 creator: Leander
 list: [[Partielle Ableitung]] [[Differenzierbarkeit und partielle Differenzierbarkeit]] [[Höhere Ableitungen und Richtungsableitungen]] Gradient
-modified: 20200918150045850
+modified: 20200920210335320
 modifier: Leander
 tags: Ableitung
 title: Richtungsableitung
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Seien $$V,W$$ endlichdimensionale [[Banachräume|Banachraum]], $$G\subset V$$ [[offen|Offenheit]] und $$f\colon G\to W$$ eine Abbildung.
-
 $$
 \partial_v f(p)\coloneqq\lim_{t\to 0}\frac{f(p+tv)-f(p)}{t}
 $$
-
 heißt dann die //Richtungsableitung// von $$f$$ in $$p$$ in Richtung $$v$$, falls dieser [[Limes|Grenzwert von Funktionen]] existiert.
 
 Equivalently, if $$\gamma\colon\R\to V$$ is a differentiable curve through $$p=\gamma(0)$$ with velocity $$v=\gamma'(0),$$ we have
-
 $$
 \partial_v f(p)= \left.\fracderiv{}{t}\right|_{t=0}(g\circ\gamma).
 $$

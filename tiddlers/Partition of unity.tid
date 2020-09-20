@@ -1,9 +1,8 @@
 created: 20191229225658673
 creator: Leander
 list: [[Untergeordnete Teilung der Eins]] [[Topological base of manifolds]] [[Compact exhaustion of manifolds]]
-modified: 20200601190136159
+modified: 20200916174206347
 modifier: Leander
-revision: 0
 tags: [[Intrinsic differential geometry]]
 title: Partition of unity
 type: text/vnd.tiddlywiki
@@ -12,9 +11,9 @@ type: text/vnd.tiddlywiki
 
 A (smooth) //partition of unity// on a manifold $$M$$ is a collection of functions $$\psi_\alpha\colon M \to\R$$ such that
 
-* $$\psi_\alpha\ge 0,$$
-* $$\{\supp\psi_\alpha\}$$ is [[locally finite|Locally finite collection]],
-* $$\sum\psi_\alpha=1.$$
+# $$\psi_\alpha\ge 0,$$
+# $$\{\supp\psi_\alpha\}$$ is [[locally finite|Locally finite collection]],
+# $$\sum\psi_\alpha=1.$$
 
 !! Subordinate partitions of unity
 

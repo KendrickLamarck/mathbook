@@ -1,8 +1,7 @@
 created: 20190114141341046
 creator: Leander
-modified: 20191116222040326
+modified: 20200916190102049
 modifier: Leander
-revision: 0
 tags: Stetigkeit
 title: Homöomorphismus
 type: text/vnd.tiddlywiki
@@ -14,3 +13,7 @@ Seien $$X,Y$$ [[topologische Räume|Topologie]]. Eine Abbildung $$f\colon X\to Y
 * die [[Umkehrabbildung]] $$f^{-1}$$ ebenfalls stetig ist.
 
 if $$X$$ is [[compact|Kompaktheit]] and $$Y$$ is [[Hausdorff|Hausdorff'scher Raum]], then any continuous bijection $$f\colon X\to Y$$ is a homeomorphism.
+
+!! Local
+
+A topological space $$X$$ is //locally homeomorphic// to another topological space $$Y,$$ if for each $$x \in X$$ there exists an open neighborhood $$U \ni x$$ and a homeomorphism $$\varphi\colon U \to \varphi(U) \subseteq Y.$$

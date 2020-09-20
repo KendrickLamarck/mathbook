@@ -1,0 +1,11 @@
+created: 20200918152922519
+modified: 20200918154943837
+tags: Algebra
+title: Derivation
+type: text/vnd.tiddlywiki
+
+A //derivation// $$D$$ on an [[algebra|Algebra (algebraische Struktur)]] $$A$$ is an endomorphism which additionally satisfies the Leibniz-like rule
+$$
+D(ab) = D(a) b + a D(b).
+$$
+The term is also used for maps $$D \in A^*$$ satisfying the above rule.

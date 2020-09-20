@@ -1,6 +1,5 @@
 created: 20191112213934852
-modified: 20200603153338208
-revision: 0
+modified: 20200919072912727
 tags: [[Tangent space]]
 title: Vector field
 type: text/vnd.tiddlywiki
@@ -18,5 +17,6 @@ Der Raum der Vektorfelder $$\mathfrak X(M)$$ ist damit ein [[Modul]] über dem R
 
 !! Verknüpfte Vektorfelder
 {{Verknüpfte Vektorfelder}}
+
 !! Lie-algebra
 {{Lie-Algebra der Vektorfelder}}

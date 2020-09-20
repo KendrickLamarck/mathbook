@@ -1,17 +1,14 @@
 created: 20191114011328888
-modified: 20200603153338156
-revision: 0
+modified: 20200920144252849
 tags: [[Vector field]] no-toc
 title: Verknüpfte Vektorfelder
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon M\to N$$ [[glatt|Differenzierbarkeit auf Mannigfaltigkeiten]] und seien $$X$$ und $$Y$$ zwei [[Vektorfelder|Vector field]] auf $$M$$ bzw. $$N.$$ Wir sagen,  //$$Y$$ ist $$f$$-verknüpft mit ($$f$$-related to) $$X$$,// wenn
-
 $$
 \D_p f(X_p)=Y_{f(p)}.
 $$
-
 Wenn $$f$$ ein [[Diffeomorphismus]] ist, gibt es ein eindeutiges $$Y,$$ welches $$f$$-verknüpft mit $$X$$ ist und wir schreiben $$Y=f_*(X).$$ Man beachte für $$g\in\mathcal C^\infty M$$ die Formeln
 
-* $$ f_* (gX) = (g\circ f^{-1}) f_* (X),$$
-* $$f_* (X)_{f(p)} (g\circ f^{-1}) = X_p g.$$
+* $$ f_*(gX) = (g\circ f^{-1}) f_* (X),$$
+* $$f_*(X)_{f(p)}(g\circ f^{-1}) = X_p g.$$

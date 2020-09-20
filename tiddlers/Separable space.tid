@@ -1,0 +1,7 @@
+created: 20200916181349155
+modified: 20200916181659053
+tags: Topologie
+title: Separable space
+type: text/vnd.tiddlywiki
+
+A topological space is called //separable// if it contains a countable, [[dense subset|Dense subset]].

@@ -1,0 +1,7 @@
+created: 20200916181704308
+modified: 20200916181732896
+tags: Topologie
+title: Dense subset
+type: text/vnd.tiddlywiki
+
+A subset $$A$$ of a topological space $$X$$ is called //dense// if $$\bar{A} = X.$$

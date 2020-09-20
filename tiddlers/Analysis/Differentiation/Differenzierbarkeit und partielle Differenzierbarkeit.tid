@@ -1,8 +1,7 @@
 created: 20180605170808279
 creator: Leander
-modified: 20191003230453918
+modified: 20200918151443039
 modifier: Leander
-revision: 0
 tags: no-toc Richtungsableitung
 title: Differenzierbarkeit und partielle Differenzierbarkeit
 type: text/vnd.tiddlywiki
@@ -18,5 +17,5 @@ $$
 insbesondere im Fall $$V=\mathbb R^n$$
 
 $$
-\partial_i f(p)=\mathrm D_p f(e_i).
+\fracpartial{}{x_i} f(p)=\mathrm D_p f(e_i).
 $$

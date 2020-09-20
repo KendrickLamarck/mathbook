@@ -1,6 +1,5 @@
 created: 20191123223003774
-modified: 20200426144816483
-revision: 0
+modified: 20200919073638955
 tags: Gruppe
 title: Group action
 type: text/vnd.tiddlywiki
@@ -23,7 +22,7 @@ which are the equivalence classes under the [[equivalence relation|Äquivalenzre
 The //stabilizer// of $$x$$ is the subgroup
 
 $$
-G^x \coloneqq \{g\in G \mid g\cdot x = x\} < G.
+G^x \coloneqq \{\, g\in G \mid g\cdot x = x \,\} < G.
 $$
 
 * An action is called //faithful// if the homomorphism $$g \mapsto \theta_g$$ is injective.

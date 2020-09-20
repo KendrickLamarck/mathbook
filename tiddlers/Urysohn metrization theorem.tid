@@ -1,0 +1,7 @@
+created: 20200916181756443
+modified: 20200916181954906
+tags: Topologie
+title: Urysohn metrization theorem
+type: text/vnd.tiddlywiki
+
+A topological space is [[separable|Separable space]] and [[metrizable|Metrizable space]] if and only if it is [[Hausdorff|Hausdorff'scher Raum]], [[regular|Regular topological space]] and [[second-countable|Second-countable]].

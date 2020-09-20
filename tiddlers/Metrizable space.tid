@@ -1,0 +1,7 @@
+created: 20200916182018941
+modified: 20200916182100193
+tags: Topologie
+title: Metrizable space
+type: text/vnd.tiddlywiki
+
+A topological space $$X$$ is called //metrizable// if there exists a metric space $$A$$ such that $$X$$ is homeomorphic to $$A$$ with the induced topology.

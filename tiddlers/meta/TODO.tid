@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200824220920938
+modified: 20200919124838500
 modifier: Leander
 tags: meta
 title: TODO
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 
 * Structure changes
 ** Organize plane curves (distinct from space curves?)
-** Exterior algebra: Linear algebar, Algebra or differential geometry?
+** Exterior algebra: Linear algebra, Algebra or differential geometry?
 ** Distinguish the different types of normal fields / normal vectors etc. better
 ** Change some names (with parentheses) maybe, now that it's possible with relink
 
@@ -44,7 +44,7 @@ type: text/vnd.tiddlywiki
 * Consider an alias mechanism (so links don't have to be the exact title)
 * An actual favicon: nice to have.
 * Try applying the 5-color subpalettes to the Solarized palettes
-* Table class with transparent borders and padding
+* ~~Table class with transparent borders and padding~~
 
 !! (Future) collaboration
 

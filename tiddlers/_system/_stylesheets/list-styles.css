@@ -7,30 +7,3 @@ div.tc-tiddler-body li:not([class]) {
 div.tc-tiddler-body ol:not([class]) {
   list-style-type: lower-roman;
 }
-
-div.tc-tiddler-body > p {
-  text-indent: 26px; /* calculated from LaTeX 20pt default */
-  margin-top: 0;
-  margin-bottom: 0;
-}
-div.tc-tiddler-body > p:first-of-type,
-div.tc-tiddler-body > h1 + p,
-div.tc-tiddler-body > h2 + p,
-div.tc-tiddler-body > h3 + p,
-div.tc-tiddler-body > h4 + p,
-div.tc-tiddler-body > h5 + p,
-div.tc-tiddler-body > h6 + p {
-  text-indent: 0px;
-}
-
-div.tc-tiddler-body > p.theorem {
-  text-indent: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-/*  padding: 5px;
-  border: solid 1px;*/
-}
-/*div.tc-tiddler-body > p.theorem::before {
-  content: "Theorem. ";
-  font-weight: bold;
-}*/

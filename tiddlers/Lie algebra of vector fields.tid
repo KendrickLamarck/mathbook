@@ -1,18 +1,14 @@
 created: 20191213213234973
-modified: 20200603153337964
-revision: 0
+modified: 20200921152152830
 tags: [[Vector field]] no-toc
-title: Lie-Algebra der Vektorfelder
+title: Lie algebra of vector fields
 type: text/vnd.tiddlywiki
 
 Der Raum der Vektorfelder $$\mathfrak X(M)$$ ist eine [[Lie-Algebra|Lie algebra]] mit der //Lie-Klammer//
-
 $$
 [X,Y]f \coloneqq X(Yf)-Y(Xf).
 $$
-
 Die Lie-Klammer ist $$\R$$-bilinear, aber nicht $$\mathcal C^\infty(M)$$-bilinear, sondern erfüllt stattdessen
-
 $$
 [fX,gY]=fg[X,Y]+f(Xg)Y-g(Yf)X.
 $$

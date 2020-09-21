@@ -1,8 +1,7 @@
 created: 20171110205840528
 creator: Leander
-modified: 20200616190001654
+modified: 20200921150357759
 modifier: Leander
-revision: 0
 tags: Kombinatorik
 title: Binomialkoeffizient
 type: text/vnd.tiddlywiki
@@ -11,7 +10,7 @@ Für $$n,k \in \mathbb{N}$$ ist der Binomialkoeffizient folgendermaßen definier
 $$
 \binom{n}{k} \coloneqq \frac{n!}{k!(n-k)!}.
 $$
-Es gilt $$\binom{n}{n}=1$$
+Es gilt $$\binom{n}{0}=\binom{n}{n}=1$$
 und $$\binom{n}{k}=0$$ falls $$k>n. $$
 Außerdem gibt es die Rekursionsformel
 $$

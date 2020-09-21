@@ -1,7 +1,7 @@
 created: 20180708183242867
 creator: Leander
 list: [[Mannigfaltigkeit als lokale Nullstellenmenge]] [[Mannigfaltigkeiten als Graphen]] [[Mannigfaltigkeit als Bild eines Homöomorphismus]] [[Parameterdarstellung von Mannigfaltigkeiten]] Atlas [[Transition function]] [[Gleichungsdefinierte Mannigfaltigkeiten]] Tangentialvektor [[Tangentialraum von Untermannigfaltigkeiten]] Normalenvektor [[Differenzierbarkeit auf Mannigfaltigkeiten]] [[Integrale über Untermannigfaltigkeiten des Rn]] [[Kompaktum mit glattem Rand]] [[Extrema auf Mannigfaltigkeiten]]
-modified: 20200920213548482
+modified: 20200921154000469
 modifier: Leander
 tags: [[Intrinsic differential geometry]] [[Extrinsic differential geometry]]
 title: Untermannigfaltigkeit
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 Given a [[manifold|Topologische Mannigfaltigkeit]] $$N^n,$$ we say a subset $$M\subseteq N$$ is an //$$m$$-submanifold// if around each point $$p\in M$$ there is a coordinate chart $$(U,\varphi)$$ for $$N$$ such that
 
 $$
-\varphi(M\cap U)=\varphi(U)\cap(\R^m\times\{0\})\subseteq\R^n.
+\varphi(M\cap U)=\varphi(U)\cap(\R^m\times\{0 \in \R^{n-m}\})\subseteq\R^n.
 $$
 
 !! Definition als lokale Nullstellenmenge
@@ -25,7 +25,7 @@ $$
 
 The tangent space $$\T_p M$$ of $$M\subset N$$ can be viewed naturally as a vector subspace of $$\T_p N$$ using the injective differential $$\D_p i$$ of the inclusion map $$i\colon M\hookrightarrow N$$:
 
-* We identify $$\T_p M \cong \D_p i(\T_p M) \subseteq \T_p N.$$
+* We identify $$\T_p M \cong \D_p i(\T_p M) \subseteq \T_p N.$$ Because of this, the best way to restrict structures on $$N$$ to $$M$$ is to pull them back under the inclusion map.
 
 * If $$M$$ is given locally as the image of an immersion $$f\colon\R^m\to N,$$ then $$\T_p M = \D_{f^{-1}(p)}f(\R^m).$$
 

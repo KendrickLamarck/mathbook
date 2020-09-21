@@ -1,14 +1,14 @@
 created: 20191114222954987
-modified: 20200920213703423
+modified: 20200921160747743
 tags: [[Tangent space]]
 title: Tangent bundle
 type: text/vnd.tiddlywiki
 
 The //tangent bundle// $$\T M=\T(M)$$ to a [[smooth manifold|Smooth manifold]] $$M^m$$ is the disjoint union $$\bigsqcup_{p\in M}\T_p M$$ of all tangent spaces to $$M.$$ This is itself a smooth $$2m$$-manifold: Start with an [[atlas|Atlas]] for $$M.$$ Over any coordinate chart $$(U,\varphi),$$ there is a bijection
 $$
-\mathrm D\varphi\colon\T U\to\varphi(U)\times\R^m\subseteq\R^{2m},
+\T U\to\varphi(U)\times\R^m\subseteq\R^{2m},
 \quad\T_p U=\T_p M\ni\sum v_i\partial_i\mapsto (\varphi(p),v).
 $$
-We define the topology on $$\T M$$ by specifying that these maps $$\D\varphi$$ are [[homeomorphisms|Homöomorphismus]]; they then form an atlas and define a [[smooth structure|Smooth structure]].
+We define the topology on $$\T M$$ by specifying that these maps are [[homeomorphisms|Homöomorphismus]]; they then form an atlas and define a [[smooth structure|Smooth structure]].
 
 A section of this [[vector bundle|Vector bundle]] is a [[vector field|Vector field]]. {{Endomorphism field}}

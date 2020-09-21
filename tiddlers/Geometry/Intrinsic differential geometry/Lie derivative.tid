@@ -1,6 +1,6 @@
 created: 20191213213736739
 lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
-modified: 20200920213426813
+modified: 20200921152152692
 tags: [[Intrinsic differential geometry]]
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ $$
 
 !!! Properties
 
-* The Lie derivative and [[Lie bracket|Lie-Algebra der Vektorfelder]] coincide, that is, we have $$\L_X Y=[X,Y].$$
+* The Lie derivative and [[Lie bracket|Lie algebra of vector fields]] coincide, that is, we have $$\L_X Y=[X,Y].$$
 
 * Suppose $$f\colon M^m \to N^n$$ is a smooth map and $$Y\in\mathfrak X(N)$$ is $$f$$-[[related|Verknüpfte Vektorfelder]] to $$X\in\mathfrak X(M)$$ while $$Y'$$ is $$f$$-related to $$X'.$$ Then $$[Y,Y']$$ is $$f$$-related to $$[X,X'].$$
 

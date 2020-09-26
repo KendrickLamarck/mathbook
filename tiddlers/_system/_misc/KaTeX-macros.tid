@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200801045707942
+modified: 20200924215311345
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -91,12 +91,12 @@ $$
 \gdef\k{\mathrm{k}}
 \gdef\e{\mathrm{e}}
 \gdef\T{\mathrm{T}} % tangent space / transpose
-\gdef\G{\mathrm{G}} % no idea
+\gdef\G{\mathrm{G}} % Grassmannian
 \gdef\L{\mathrm{L}} % Lie derivative
 
 \gdef\Borel{\mathcal{B}}
 \gdef\smooth{\mathcal{C}}
-\gdef\smoothcs{\mathcal{C}_{\mathrm{c}}}
+\gdef\smoothcs{\smooth_{\mathrm{c}}}
 \gdef\sections{\Gamma}
 \gdef\vecfields{\mathfrak{X}}
 \gdef\totaltorsion{\mathcal{T}}

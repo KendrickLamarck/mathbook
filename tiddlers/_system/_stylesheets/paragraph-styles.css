@@ -3,25 +3,16 @@ div.tc-tiddler-body > p {
   margin-bottom: 0;
 }
 /*only indent paragraphs preceded by another paragraph*/
-div.tc-tiddler-body > p+p {
+div.tc-tiddler-body > p + p {
   text-indent: 26px; /* calculated from LaTeX 20pt default */
 }
-/*div.tc-tiddler-body > p:first-of-type,
-div.tc-tiddler-body > h1 + p,
-div.tc-tiddler-body > h2 + p,
-div.tc-tiddler-body > h3 + p,
-div.tc-tiddler-body > h4 + p,
-div.tc-tiddler-body > h5 + p,
-div.tc-tiddler-body > h6 + p {
-  text-indent: 0px;
-}*/
 
-div.tc-tiddler-body > p.theorem {
+/*don't indent first p.theorem and first p after p.theorem and add margins*/
+/*should probably use div.theorem for this, but the markup isn't as nice*/
+div.tc-tiddler-body > p:not([class=theorem]) + p.theorem,
+div.tc-tiddler-body > p.theorem + p:not([class=theorem]) {
   text-indent: 0;
-  margin-top: 8px;
-  margin-bottom: 8px;
-/*  padding: 5px;
-  border: solid 1px;*/
+  margin-top: 12px;
 }
 /*div.tc-tiddler-body > p.theorem::before {
   content: "Theorem. ";

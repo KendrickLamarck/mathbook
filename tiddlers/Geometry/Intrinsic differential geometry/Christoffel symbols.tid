@@ -1,27 +1,21 @@
 created: 20200121205426144
-modified: 20200402052859753
-revision: 0
+modified: 20200925193920061
 tags: Connection no-toc
 title: Christoffel symbols
 type: text/vnd.tiddlywiki
 
 Let $$\nabla$$ be a [[connection|Connection]] on a vector bundle $$E$$ on a manifold $$M.$$ Suppose $$U$$ is a coordinate neighborhood for $$M$$ and a trivializing neighborhood for $$E,$$ with frames $$\partial_i,\ i=1,\dots,m$$ for $$\T M$$ and $$e_a,\ a=1,\dots,\rank E$$ for $$E.$$ Then $$\nabla$$ is expressed in coordinates by the //Christoffel symbols// defined by
-
 $$
 \nabla_{\partial_i} e_a=\sum_b{\varGamma^{\,b}}_{ia} e_b.
 $$
-
 In general for $$X=\sum v^i \partial_i$$ and $$\sigma=\sum \sigma^a e_a$$ we have
-
 $$
 \nabla_X \sigma = \sum_{i,b} v^i \Bigl(
 \partial_i\sigma^b+\sum_a {\varGamma^{\,b}}_{ia} \sigma^a \Bigr) e_b
 $$
-
 and any collection of smooth functions $${\varGamma^{\,b}}_{ia}$$ describes a connection in this neighborhood.
 
 For the [[Levi-Civita connection]]:
-
 $$\begin{gathered}
 \varGamma_{ijk}\coloneqq g(\nabla_{\partial_i}\partial_j,\partial_k),
 \\
@@ -30,5 +24,4 @@ $$\begin{gathered}
 \partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}
 \right),
 \end{gathered}$$
-
 where $$g_{ij}=g(\partial_i,\partial_j)$$ are the entries of the gramian matrix $$G$$ and $$g^{ij}$$ are the entries of $$G^{-1}.$$

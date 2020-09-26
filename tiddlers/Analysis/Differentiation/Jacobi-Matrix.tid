@@ -1,6 +1,6 @@
 created: 20180529172034710
 creator: Leander
-modified: 20200717185354966
+modified: 20200925185540634
 modifier: Leander
 tags: Ableitung
 title: Jacobi-Matrix
@@ -10,9 +10,9 @@ Sei $$f\colon\R^n\supseteq G\to\R^m$$ [[differenzierbar|Ableitung]] in $$p\in G$
 $$
 f'(p) \coloneqq
 \begin{pmatrix}
-  \partial_1 f_1(p) & \cdots & \partial_n f_1(p) \\
+  \displaystyle\fracpartial{f_1}{x_1}(p) & \cdots & \displaystyle\fracpartial{f_1}{x_n}(p) \\
   \vdots            &        &\vdots            \\
-  \partial_1 f_m(p) & \cdots & \partial_n f_m(p)
+  \displaystyle\fracpartial{f_m}{x_1}(p) & \cdots & \displaystyle\fracpartial{f_m}{x_n}(p)
 \end{pmatrix}
 \in\R^{m\times n}.
 $$

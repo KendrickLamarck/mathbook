@@ -1,17 +1,18 @@
 created: 20190408230946576
-modified: 20200920205905202
+modified: 20200924211805001
 tags: [[Linearer Differentialoperator]]
 title: Rotation
 type: text/vnd.tiddlywiki
 
 Sei $$a\colon\Bbb R^3\to\Bbb R^3$$ ein $$\mathcal C^1$$-[[Vektorfeld|Vector field]]. Dann definieren wir die //Rotation (engl. curl)// von $$a$$ als
 $$
-\operatorname{rot}a\coloneqq
+\rot a\coloneqq
 \begin{pmatrix}
 \fracpartial{a_3}{y} - \fracpartial{a_2}{z} \\[5mu]
 \fracpartial{a_1}{z} - \fracpartial{a_3}{x} \\[5mu]
 \fracpartial{a_2}{x} - \fracpartial{a_1}{y}
-\end{pmatrix}.
+\end{pmatrix}
+\colon \R^3 \to \R^3.
 $$
 Symbolisch ist $$\operatorname{rot} a=\left( \fracpartial{}{x}, \fracpartial{}{y}, \fracpartial{}{z} \right)\times(a_1,a_2,a_3).$$
 

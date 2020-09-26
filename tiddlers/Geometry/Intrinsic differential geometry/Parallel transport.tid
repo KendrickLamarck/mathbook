@@ -1,5 +1,5 @@
 created: 20200213232354416
-modified: 20200920212200426
+modified: 20200925231205880
 tags: Connection
 title: Parallel transport
 type: text/vnd.tiddlywiki
@@ -26,8 +26,7 @@ $$
 
 Let $$T_t$$ be the parallel transport map coming from the Levi-Civita connection from $$\gamma(0)$$ to $$\gamma(t).$$ Then for a vector field $$Y,$$ we have
 $$
-\frac{\D Y}{\d t}\biggr|_{t=0} = \lim_{t \to 0}
-\frac{T_t{}^{-1}(Y_{\gamma(t)})-Y_{\gamma(0)}}
-     {t}
-= \frac{\d}{\d t} T_t{}^{-1}(Y_{\gamma(t)}).
+\frac{\D Y}{\d t}\biggr|_{t=0} =
+\nabla_{\dot\gamma(0)}Y =
+\left.\fracderiv{}{t}\right|_{t=0} T_t{}^{-1}(Y_{\gamma(t)}).
 $$

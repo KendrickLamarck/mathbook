@@ -1,7 +1,6 @@
 created: 20181026160847388
 list: [[Stetigkeit von linearen monotonen Funktionalen]] Träger [[Satz von Fubini für stetige Funktionen mit kompaktem Träger]] [[Integral von Produktfunktionen]] Transformationssatz [[Partielle Integration]] [[Monoton approximierbare Funktionen]] [[Herunterdrücken außerhalb von Kompakta]] [[Positive Definitheit des Integrals]] [[Stetige Teilung der Eins]] [[Glatte Teilung der Eins]]
-modified: 20191229225156886
-revision: 0
+modified: 20200924201159361
 tags: Integration
 title: Haar'sches Maß
 type: text/vnd.tiddlywiki
@@ -11,21 +10,16 @@ type: text/vnd.tiddlywiki
 !! Haar'sches Maß
 
 Das [[Integral von Funktionen mit kompaktem Träger|Satz von Fubini für stetige Funktionen mit kompaktem Träger]] definiert ein Funktional
-
 $$
-J\colon\mathcal C_\mathrm c(\mathbb R^d)\to\mathbb R,\quad J(f)\coloneqq\int_{\mathbb R^d} f(x)\,\mathrm dx.
+J\colon\smoothcs(\R^d)\to\R,\quad J(f)\coloneqq\int_{\R^d} f(x)\,\d x.
 $$
-
-Dieses ist [[linear|Lineare Abbildung]], [[monoton|Monotonie]] und translationsinvariant, wobei letzteres heißt, dass für den Verschiebungsoperator $$\theta_y\colon\mathcal C_\mathrm c(\mathbb R^d)\to\mathcal C_\mathrm c(\mathbb R^d),\ \theta_y f(x)\coloneqq f(x-y)$$ gilt:
-
+Dieses ist [[linear|Lineare Abbildung]], [[monoton|Monotonie]] und translationsinvariant, wobei letzteres heißt, dass für den Verschiebungsoperator $$\theta_y\colon\smoothcs(\R^d)\to\smoothcs(\R^d),\ \theta_y f(x)\coloneqq f(x-y)$$ gilt:
 $$
-J(\theta_y f)=J(f)\quad\forall f\in\mathcal C_\mathrm c(\mathbb R^d)\ \forall y\in\mathbb R^d.
+J(\theta_y f)=J(f)\quad\forall f\in\smoothcs(\R^d)\ \forall y\in\R^d.
 $$
 
-Es ist auch eindeutig: Ist $$J\colon\mathcal C_\mathrm c(\mathbb R^d)\to\mathbb R$$ ein lineares monotones translationsinvariantes Funktional, so gibt es ein $$c\in\mathbb R$$ mit
-
+Es ist auch eindeutig: Ist $$J\colon\smoothcs(\R^d)\to\R$$ ein lineares monotones translationsinvariantes Funktional, so gibt es ein $$c\in\R$$ mit
 $$
-J(f)=c\int_{\mathbb R^d} f(x)\,\mathrm dx\quad\forall f\in\mathcal C_\mathrm c(\mathbb R^d).
+J(f)=c\int_{\R^d} f(x)\,\d x\quad\forall f\in\smoothcs(\R^d).
 $$
-
 Und jedes solche Funktional heißt ein //Haar'sches Maß.//

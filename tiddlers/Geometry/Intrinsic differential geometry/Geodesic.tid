@@ -1,5 +1,5 @@
 created: 20200326004008380
-modified: 20200920212129014
+modified: 20200925183651562
 tags: [[Intrinsic differential geometry]]
 title: Geodesic
 type: text/vnd.tiddlywiki
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 Let $$\nabla$$ be the [[Levi-Civita connection]] on a Riemannian manifold $$(M,g).$$ A curve $$\gamma\colon I \to M$$ is called a //geodesic,// if its velocity $$\dot\gamma$$ is parallel along $$\gamma,$$ i.e.
 
 $$
-\frac{\D}{\d t}\dot\gamma = \nabla_{\dot\gamma} \dot\gamma = 0.
+\frac{\D\dot\gamma}{\d t} = \nabla_{\dot\gamma} \dot\gamma = 0.
 $$
 
 * Every geodesic is parametrized with constant speed.
@@ -17,6 +17,8 @@ $$
 * $$\gamma^{\lambda X_p}(t) = \gamma^{X_p}(\lambda t)$$ for any $$\lambda \in \R.$$ 
 
 * Geodesics are locally length-minimizing.
+
+Intuitively speaking, geodesics have no acceleration in the tangent direction.
 
 !! Geodesic equation
 

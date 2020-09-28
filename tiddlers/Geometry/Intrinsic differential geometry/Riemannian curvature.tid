@@ -1,6 +1,6 @@
 created: 20200116215220084
 list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]] [[Ricci curvature]] [[Scalar curvature]]
-modified: 20200920212305985
+modified: 20200927175408430
 tags: [[Intrinsic differential geometry]]
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
@@ -41,9 +41,9 @@ extended by bilinearity to non-simple 2-vectors.</div>
 
 In coordinates $$(U, \varphi)$$ with respect to the coordinate frame $$\{\partial_i\},$$ the curvature operator and curvature tensor have components given by
 $$\begin{aligned}
-R(\partial_k, \partial_l) \partial_i &\eqqcolon 
+R(\partial_k, \partial_l) \partial_i &= 
 \sum {R^j}_{ikl} \partial_j, \\
-\langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &\eqqcolon
+\langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &=
 R_{ijkl} = \sum g_{jm} {R^m}_{ikl},
 \end{aligned}$$
 where
@@ -52,5 +52,6 @@ $$
 \partial_k {\varGamma^{\,j}}_{il} - \partial_l {\varGamma^{\,j}}_{ik}
 + \sum_m {\left(
   {\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -
-  {\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml} \right)}.
+  {\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml}
+\right)}.
 $$

@@ -1,32 +1,25 @@
 created: 20200511113712023
-modified: 20200609130258640
-revision: 0
+modified: 20200927154237420
 tags: Schätzer no-toc
 title: A priori- und A posteriori-Verteilung
 type: text/vnd.tiddlywiki
 
 Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit messbarer Dichtefunktion $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und $$\varTheta \subseteq \R^d.$$ Dann heißt ein Wahrscheinlichkeitsmaß $$\alpha$$ auf $$(\varTheta,\mathcal B(\varTheta))$$ eine //A-priori-Verteilung// für den Parameter $$\vartheta.$$
 
-
-
 Zu $$x \in \mathcal X$$ heißt
-
 $$
 \nu_x(\d\vartheta) \coloneqq
   \frac{\rho(\vartheta,x)}
     {\int_\varTheta \rho(p,x)\,\alpha(\d p)}
   \alpha(\d \vartheta)
 $$
-
 die //A-posteriori-Verteilung// für $$\vartheta.$$
 
 ''Bemerkung.''
 Ist die Abbildung $$\vartheta \mapsto \P_\vartheta(A)$$ messbar für alle $$A \in \mathcal F,$$ dann ist $$\kappa\colon (\vartheta,A) \mapsto \P_\vartheta(A)$$ ein [[stochastischer Kern|Übergangskern]] von $$\varTheta$$ nach $$\mathcal X.$$ Wir schreiben $$\P = \alpha \otimes \kappa.$$ Sind $$X$$ und $$\varGamma$$ die Projektionen auf $$\varTheta \times \mathcal X,$$ so können wir die A posteriori-Verteilung auch als die [[reguläre bedingte Verteilung|Reguläre bedingte Verteilung]]
-
 $$
 \nu_x(A) = \P(\varGamma \in A \mid X=x)
 $$
-
 auffassen. Die Existenz dieser Verteilungen ist zunächst nicht klar, kann hier aber als gegeben angenommen werden.
 
 * Durch zufällige Wahl aus der Menge $$\P_\vartheta$$ gemäß der Verteilung $$\alpha$$ ergibt sich das Wahrscheinlichkeitsmaß $$\P(\d x \,\d \vartheta) = \P_\vartheta(\d x)\,\alpha(\d \vartheta)$$ auf $$\mathcal X \times \varTheta.$$ Es gilt auch $$\P(\d x\,\d\vartheta) = \nu_x(\d\vartheta)\,\P_\alpha(\d x)$$ mit der [[Randverteilung]] $$\P_\alpha(\d x) = \int_\varTheta \P_p(\d x)\,\alpha(\d p).$$

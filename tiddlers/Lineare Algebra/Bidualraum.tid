@@ -1,30 +1,29 @@
 created: 20180725140927147
 creator: Leander
-modified: 20191004224426741
+modified: 20200927154842007
 modifier: Leander
-revision: 0
 tags: Dualraum no-toc
 title: Bidualraum
 type: text/vnd.tiddlywiki
 
 Den [[Dualraum]] des Dualraumes eines $$K$$-[[Vektorraumes|Vektorraum]] $$V$$ nennt man //Bidualraum://
-
 $$
 V^{**}\coloneqq (V^*)^*=\hom_K(V^*,K).
 $$
-
 Man hat eine kanonische Abbildung
-
 $$
 \iota\colon V\to V^{**},\quad v\mapsto \iota_v,\quad\text{mit } \iota_v(\varphi)\coloneqq \varphi(v).
 $$
 
+@@.theorem
 ''Satz.'' Für jeden endlichdimensionalen $$K$$-[[Vektorraum]] $$V$$ ist die kanonische Abbildung $$\iota\colon V\to V^{**}$$ ein [[Isomorphismus]].
 
 Man kann also $$V$$ mit $$V^{**}$$ identifizieren und schreiben:
-
 $$
 v(\varphi)\coloneqq\varphi(v).
 $$
+@@
 
+@@.theorem
 ''Korollar.'' Für jede lineare Abbildung $$F\colon V\to W$$ gilt $$F^{**}=F.$$
+@@

@@ -1,6 +1,6 @@
 created: 20200502120046486
 creator: Leander
-modified: 20200823182541796
+modified: 20200927154811417
 modifier: Leander
 tags: Erwartungswert
 title: Bedingte Erwartung
@@ -41,9 +41,11 @@ $$
 \expect[X\mid Z](z) = \sum_{i=1}^n \indicator_{\{Z=x_i\}}(z) \expect[X \mid Z=x_i].
 $$
 
+@@.theorem
 ''Satz.''
 Sei $$\mathcal F \subseteq \mathcal A$$ und $$X \in \mathcal L^2(\P).$$ Dann gilt
 $$
 \E[(X-Y)^2] \ge \E[(X-\E[X \mid \mathcal F])^2]
 $$
 für alle $$\mathcal F$$-messbaren $$Y \in \mathcal L^2(\P),$$ d.h. der bedingte Erwartungswert ist die beste $$\mathcal L^2$$-Approximation unter allen $$\mathcal F$$-messbaren Funktionen.
+@@

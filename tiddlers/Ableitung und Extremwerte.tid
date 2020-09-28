@@ -1,16 +1,13 @@
 created: 20180907090140612
-modified: 20191011165230888
-revision: 0
+modified: 20200927154416705
 tags: Extremwerte no-toc
 title: Ableitung und Extremwerte
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon V\supset G\to\mathbb R$$ $$k$$-mal [[differenzierbar|Ableitung]], $$k\ge 1,\ p\in G$$ und
-
 $$
 \mathrm D_p f=\dots=\mathrm D_p^{k-1} f=0,\qquad\mathrm D_p^k f\ne 0.
 $$
-
 Dann gilt:
 
 # Ist $$\mathrm D_p^k f$$ negativ [[definit|Definitheit]], so hat $$f$$ in $$p$$ ein [[striktes lokales Maximum|Extremwerte]].
@@ -26,13 +23,17 @@ Sei $$f\colon\mathbb R^2\supset G\to\mathbb R$$ zweimal differenzierbar auf der 
 
 # Hat $$f$$ in $$p$$ ein lokales Extremum, so ist $$\mathrm D_p f=0.$$
 
-# Ist $$\mathrm D_p f=0$$ und gilt $$
+# <div>Ist $$\mathrm D_p f=0$$ und gilt
+$$
 \partial_x^2 f(p)\partial_y^2 f(p)-(\partial_x\partial_y f(p))^2>0,
-$$ so hat $$f$$ in $$p$$ ein striktes lokales Extremum, und zwar
+$$
+so hat $$f$$ in $$p$$ ein striktes lokales Extremum, und zwar</div>
 
 #* ein Maximum, falls $$\partial_x^2 f(p)<0,$$
 #* ein Minimum, falls $$\partial_x^2 f(p)>0.$$
 
-# Ist $$
+# <div>Ist
+$$
 \partial_x^2 f(p)\partial_y^2 f(p)-(\partial_x\partial_y f(p))^2<0,
-$$ so hat $$f$$ in $$p$$ kein lokales Extremum (Sattelpunkt).
+$$
+so hat $$f$$ in $$p$$ kein lokales Extremum (Sattelpunkt).</div>

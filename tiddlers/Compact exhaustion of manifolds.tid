@@ -1,17 +1,16 @@
 created: 20191229232539096
-modified: 20200414165200349
-revision: 0
+modified: 20200927201232423
 tags: [[Partition of unity]] no-toc
 title: Compact exhaustion of manifolds
 type: text/vnd.tiddlywiki
 
 Every manifold $$M$$ has a "compact exhaustion", i.e. a nested family of subsets
-
 $$
 \varnothing\ne W_1 \subset \overline W_1 \subset W_2 \subset \overline W_2 \subset\cdots
 $$
-
 with $$W_k$$ open and $$\overline W_k$$ compact, whose union is $$M.$$
 
+@@.theorem
 ''Corollary.''
 Given a manifold $$M,$$ we can find countable families of subsets $$K_i\subset O_i\subset M,$$ for $$i\in\N_+,$$ with $$K_i$$ compact, $$O_i$$ open, $$\bigcup K_i=M$$ and $$\{O_i\}$$ locally finite.
+@@

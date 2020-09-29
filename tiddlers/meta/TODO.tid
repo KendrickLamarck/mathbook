@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200919124838500
+modified: 20200929132429844
 modifier: Leander
 tags: meta
 title: TODO
@@ -20,9 +20,7 @@ type: text/vnd.tiddlywiki
 
 * We don't want to commit changes where only the //modified// field has changed.
 
-* Improve the folder structure
-** Stuff that definitely belongs together, like ~~most things in~~ <<tag Verteilung>>
-** Somewhat prevented by technical issues. Do it with a special field? Really annoying to add to every tiddler
+* A lot of paragraphs are wrong
 
 !! Content ideas
 
@@ -31,6 +29,8 @@ type: text/vnd.tiddlywiki
 
 * Add sources (as embedded PDFs?)
 ** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
+
+* Covariant tensors, indices, etc.
 
 !! Tech ideas
 
@@ -44,7 +44,7 @@ type: text/vnd.tiddlywiki
 * Consider an alias mechanism (so links don't have to be the exact title)
 * An actual favicon: nice to have.
 * Try applying the 5-color subpalettes to the Solarized palettes
-* ~~Table class with transparent borders and padding~~
+* Filter field & "open all" button in $:/_templates/tree
 
 !! (Future) collaboration
 

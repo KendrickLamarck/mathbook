@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200924215311345
+modified: 20200929130826742
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -31,10 +31,12 @@ $$
 \gdef\O{\operatorname{O}}
 \gdef\SO{\operatorname{SO}}
 \gdef\U{\operatorname{U}}
+\gdef\SU{\operatorname{SU}}
 \gdef\GL{\operatorname{GL}}
 \gdef\PO{\operatorname{PO}}
 \gdef\PGL{\operatorname{PGL}}
 \gdef\PSL{\operatorname{PSL}}
+\gdef\PSU{\operatorname{PSU}}
 
 \gdef\crossratio{\operatorname{cr}} % \cr is in use
 \gdef\rank{\operatorname{rank}}

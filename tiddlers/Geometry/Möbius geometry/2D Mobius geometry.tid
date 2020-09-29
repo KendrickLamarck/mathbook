@@ -1,6 +1,5 @@
 created: 20190505151036416
-modified: 20200618153309040
-revision: 0
+modified: 20200929124706703
 tags: [[Möbius geometry]]
 title: 2D Möbius geometry
 type: text/vnd.tiddlywiki
@@ -10,7 +9,6 @@ $$
 z\mapsto\frac{az+b}{cz+d},\qquad
 z\mapsto\frac{a\bar z+b}{c\bar z+d}
 $$
-
 with $$ad-bc\ne 0.$$ So $$\operatorname{SMöb}(2)=\PGL(2,\Bbb C).$$
 
 * <div>The orientation preserving Möbius transformations of the plane preserve the complex [[cross ratio|Cross-ratio]]. If $$f$$ is an orientation reversing Möbius transformation, then

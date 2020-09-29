@@ -1,6 +1,6 @@
 caption: Paraboloid model
 created: 20191013021930147
-modified: 20200815174346389
+modified: 20200929125422881
 tags: [[Möbius geometry]]
 title: Paraboloid model of Möbius geometry
 type: text/vnd.tiddlywiki
@@ -38,7 +38,6 @@ v  \\
 0  \\
 \end{bmatrix}.
 $$
-
 Thus, hyperspheres and hyperplanes correspond to points $$[s_1,\dots,s_n,s_\infty,s_0]$$ with $$s_1{}^2+\dots+s_n{}^2-s_\infty s_0>0.$$
 
 * If $$s_0=0,$$ the point corresponds to a hyperplane in $$\R^n$$ with normal vector $$(s_1,\dots,s_n).$$

@@ -1,6 +1,6 @@
 created: 20191220195817702
 list: [[Metric connection]] Torsion [[Levi-Civita connection]] [[Christoffel symbols]] [[Covariant derivative]] Holonomy [[Parallel transport]]
-modified: 20200920212416667
+modified: 20200928165419421
 tags: [[Intrinsic differential geometry]]
 title: Connection
 type: text/vnd.tiddlywiki
@@ -25,14 +25,11 @@ $$</div>
 
 * If $$\sigma$$ and $$\tau$$ agree locally along a curve with $$\gamma'(0) = X_p,$$ then $$\nabla_{X_p}\sigma = \nabla_{X_p}\tau.$$
 
-!! Torsion
-{{Torsion}}
 
-!! Metric connections
-{{Metric connection}}
+!! Torsion, Metricity and the Levi-Civita connection
 
-!! Levi-Civita connection
 {{Levi-Civita connection}}
 
 !! In Coordinates
+
 {{Christoffel symbols}}

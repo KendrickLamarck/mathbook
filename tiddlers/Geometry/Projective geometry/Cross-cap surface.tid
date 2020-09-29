@@ -1,18 +1,15 @@
 created: 20200519000658541
 creator: Leander
-modified: 20200519001424296
+modified: 20200929125607756
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]]
 title: Cross-cap surface
 type: text/vnd.tiddlywiki
 
 The //cross-cap surface,// parametrized by
-
 $$
 f\colon S^2 \to \R^3,\quad
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} \mapsto
   \begin{pmatrix} yz \\ zx \\ \frac 1 2 (x^2-y^2) \end{pmatrix}
 $$
-
 satisfies $$f(-p) = f(p)$$ and can therefore be viewed as representing $$\RP^2.$$

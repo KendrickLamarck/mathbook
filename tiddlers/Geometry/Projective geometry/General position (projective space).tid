@@ -1,17 +1,17 @@
 caption: General position
 created: 20181210135505966
-modified: 20191109153609094
-revision: 0
+modified: 20200929130312402
 tags: [[Projective geometry]]
 title: General position (projective space)
+type: text/vnd.tiddlywiki
 
 Let $$\mathrm P(V)$$ be an $$n$$-dimensional [[projective space|Projective space]]. Then $$n+2$$ points in $$\mathrm P(V)$$ are said to be in //general position,// if no $$n+1$$ of the points are contained in an $$n-1$$-dimensional [[projective subspace|Projective subspace]]. Equivalently, any $$n+1$$ of the points have [[linearly independent|Lineare Unabhängigkeit]] representative vectors.
 
+@@.theorem
 ''Technical Lemma.''
 Let $$\mathrm P(V)$$ be an $$n$$-dimensional projective space and suppose $$P_1,\dots,P_{n+2}\in \mathrm P(V)$$ are in general position. Then representative vectors $$v_1,\dots,v_{n+2}\in V$$ may be chosen so that $$P_j=[v_j]$$ and
-
 $$
 v_1+\dots+v_{n+2}=0.
 $$
-
 This choice of representative vectors is unique up to a common scaling factor.
+@@

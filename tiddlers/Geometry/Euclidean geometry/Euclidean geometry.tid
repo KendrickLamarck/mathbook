@@ -1,16 +1,14 @@
 created: 20190426111130999
 list: [[Euclidean group]] [[Euler's rotation theorem]] [[Trigonometrische Funktionen]] [[Euclidean metric in Möbius space]] [[Thales' theorem]] [[Ptolemy's theorem]] [[Cotangent formula for the rotation of a triangle edge]]
-modified: 20200711204018223
+modified: 20200929125025941
 tags: Geometrie
 title: Euclidean geometry
 type: text/vnd.tiddlywiki
 
 $$\Bbb R^n$$ with the transformation [[group|Gruppe]] of Euclidean motions
-
 $$
 x\mapsto Ax+b
 $$
-
 with $$A\in \mathrm O(n),\ b\in\Bbb R^n.$$
 
 !! From Möbius geometry

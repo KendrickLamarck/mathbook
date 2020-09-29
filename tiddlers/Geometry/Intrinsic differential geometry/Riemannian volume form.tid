@@ -1,5 +1,5 @@
 created: 20191201221207733
-modified: 20200924210540644
+modified: 20200928144100533
 tags: [[Differential form]] no-toc
 title: Riemannian volume form
 type: text/vnd.tiddlywiki
@@ -16,3 +16,5 @@ $$
 $$
 
 On an oriented Riemannian manifold $$(M^m,g)$$ any $$m$$-form $$\omega$$ is a multiple $$\omega=f\varOmega=\star f$$ of the volume form $$\varOmega,$$ where $$f\in\mathcal C^\infty M.$$
+
+On curves, the volume form is the [[arc length form|Arc length parametrization]] $$\d s = v\,\d t.$$ On surfaces, it is the [[area form|Area form]], denoted $$\det,$$ $$\d A$$ or $$\d S$$ and on subsets of $$\R^3,$$ we call the volume form $$\d V.$$ These are also called //surface-// or //volume elements.//

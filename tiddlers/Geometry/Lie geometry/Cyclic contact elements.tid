@@ -1,13 +1,11 @@
 created: 20191022191638379
-modified: 20191022194138009
-revision: 0
+modified: 20200929125201733
 tags: [[Lie geometry]]
 title: Cyclic contact elements
+type: text/vnd.tiddlywiki
 
 Let $$l_{ij}$$ with $$i,j\in\{0,1\}$$ be Lie geometric [[contact elements|Lie geometric contact element]] in $$\widehat\R^3$$ such that for each of the following pairs, there is a [[Lie sphere]] in oriented contact with both:
-
 $$
 (l_{00},l_{01}),\ (l_{10},l_{11}),\ (l_{00},l_{10}),\ (l_{01},l_{11}).
 $$
-
 Then the point spheres in $$l_{ij}$$ lie on a circle in $$\widehat\R^2.$$

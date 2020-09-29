@@ -1,17 +1,14 @@
 created: 20191014224850504
-modified: 20200618210207607
-revision: 0
+modified: 20200929125048779
 tags: [[Euclidean geometry]] no-toc
 title: Euclidean metric in Möbius space
 type: text/vnd.tiddlywiki
 
 [[Möbius space|Projective model of Möbius geometry]] $$Q\setminus\{[p]\}$$ with the metric given by
-
 $$
 d_\mathrm{eucl}([x],[y])^2=
 -2 \frac
 {\langle x,y\rangle_{n+1,1}}
 {\langle x,p\rangle_{n+1,1} \langle y,p\rangle_{n+1,1}}
 $$
-
 is isometric to $$\R^n$$ with the euclidean metric.

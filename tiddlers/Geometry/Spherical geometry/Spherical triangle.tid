@@ -1,8 +1,7 @@
 caption: Triangles
 created: 20181018210150739
 list: [[Existence and uniqueness of spherical triangles]] [[Area of spherical triangles]] [[Spherical cosine theorems]] [[Spherical half-angle theorem]] [[Spherical sine theorem]] [[Napier's rule]] [[Hyperbolic cosine theorems]] [[Hyperbolic sine theorem]]
-modified: 20200610181042899
-revision: 0
+modified: 20200929131346490
 tags: [[Spherical geometry]]
 title: Spherical triangle
 type: text/vnd.tiddlywiki
@@ -10,11 +9,9 @@ type: text/vnd.tiddlywiki
 A spherical triangle, or more specifically an //Euler triangle// is the intersection of three [[hemispheres|Hemisphere]] with poles not on one [[great circle|Great circle]].
 
 It can also be defined by its three vertices: Suppose $$A,B,C\in S^2$$ do not all lie on one great circle. Then the intersection of $$S^2$$ with the cone
-
 $$
 \mathcal C=\{\,\lambda A+\mu B+\nu C\in\mathbb R^3\mid \lambda,\mu,\nu\ge 0\,\}
 $$
-
 is an Euler triangle.
 
 {{Area of spherical triangles}}

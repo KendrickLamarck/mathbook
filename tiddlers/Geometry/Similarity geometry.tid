@@ -1,26 +1,21 @@
 created: 20190426111724861
-modified: 20191103205433978
-revision: 0
+modified: 20200929125129531
 tags: Geometrie
 title: Similarity geometry
 type: text/vnd.tiddlywiki
 
 $$\R^n$$ with the [[group|Gruppe]] of similarity transformations
-
 $$
 x\mapsto \lambda Ax+b,\quad\textsf{where }
 \lambda\in\R_{>0},\ A\in \O(n),\ b\in\R^n
 $$
-
 yields $$n$$-dimensional affine geometry.
 
 This is an obvious [[subgeometry|Subgeometry]] of [[affine geometry|Affine geometry]], but it can also be obtained by considering the projective model of [[Möbius geometry]] and the subgroup of Möbius transformations that fix a point in $$Q$$ (most obviously the north pole of $$S^n$$), then [[stereographically projecting|Stereographic projection]] from that point.
 
 In fact, let $$\mu=\sigma\circ f\circ\sigma^{-1},$$ where $$f$$ is a projective transformation mapping $$Q$$ to itself and fixing $$[p]\in Q,$$ i.e. coming from $$A\in\O(n+1,1)$$ with $$Ap=\lambda p$$ for some $$\lambda\in\R\setminus\{0\}.$$ Then we have for $$u,\tilde u\in\R^n$$:
-
 $$
           d_\mathrm{eucl}(\mu(u),\mu(\tilde u))=
 |\lambda| d_\mathrm{eucl}(u,\tilde u),
 $$
-
 so $$\mu$$ is a similarity transformation with scale factor $$|\lambda|.$$ Now it is also clear how to obtain [[Euclidean geometry]] from Möbius geometry.

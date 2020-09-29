@@ -1,21 +1,17 @@
 created: 20180423195727417
 creator: Leander
-modified: 20200530150905117
+modified: 20200929124746470
 modifier: Leander
-revision: 0
 tags: [[Topologischer Raum]]
 title: Abgeschlossene Hülle
 type: text/vnd.tiddlywiki
 
 Seien $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]] und $$Y\subset X$$. Die //abgeschlossene Hülle// oder der //Abschluss// von $$Y$$ ist die Menge
-
 $$
 \bar Y\coloneqq X\setminus(X\setminus Y)^\circ=
 \left(\left(Y^\mathrm C\right)^\circ\right)^\mathrm C.
 $$
-
 Diese Menge ist die kleinste [[abgeschlossene|Abgeschlossenheit]] Menge, die $$Y$$ enthält: Ist $$(A_i)_{i\in I}$$ die Menge aller abgeschlossenen Mengen, in denen $$Y$$ enthalten ist, so gilt
-
 $$
 \bar Y=\bigcap_{i\in I} A_i.
 $$

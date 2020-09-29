@@ -1,8 +1,8 @@
 created: 20191022195647787
-modified: 20191106231516320
-revision: 0
+modified: 20200929125152311
 tags: Geometrie
 title: Laguerre geometry
+type: text/vnd.tiddlywiki
 
 Consider $$n$$-dimensional [[Lie geometry]]. //Laguerre geometry// is the geometry of the subgroup of [[Lie-transformations|Lie transformation]] $$[A]\in\O(n+1,2)$$ with $$Ae_\infty=e_\infty.$$
 
@@ -12,14 +12,12 @@ $$\langle y,e_\infty\rangle=-\frac 1 2 y_0=0,$$
 so the Laguerre transformations map hyperspheres to hyperspheres and hyperplanes to hyperplanes.
 
 Let $$[s],[s']\in\mathscr L$$ with $$\langle s,e_\infty\rangle\ne 0,\ \langle s',e_\infty\rangle\ne 0$$ represent two hyperspheres with centers $$c,c'$$ and radii $$r,r'.$$ We have
-
 $$
 \frac
 {\langle s,s'\rangle}
 {\langle s,e_\infty \rangle\langle s',e_\infty\rangle}=
 -\frac 1 2 \left(\|c-c'\|^2-(r-r')^2\right),
 $$
-
 so the tangent distance
 $$\sqrt{\|c-c'\|^2-(r-r')^2}$$
 of the two oriented hyperspheres can be calculated in this way and it is preseved by Laguerre transformations. In particular, oriented contact is preserved.

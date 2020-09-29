@@ -1,11 +1,10 @@
 created: 20190528094257174
-modified: 20200815174517890
+modified: 20200929125322835
 tags: [[Lie geometry]] no-toc
 title: Lie quadric
 type: text/vnd.tiddlywiki
 
 The //Lie quadric// is the [[quadric|Projective quadric]]
-
 $$
 \mathscr{L} \coloneqq \left\{\,
   \begin{bmatrix}
@@ -18,5 +17,4 @@ $$
   y_1{}^2+\dots+y_n{}^2-y_\infty y_0-y_{n+3}{}^2=0
 \,\right\},
 $$
-
 where $$y_\infty=\frac 1 2 (y_{n+1}+y_{n+2}),\ y_0=\frac 1 2 (-y_{n+1}+y_{n+2}).$$ The corresponding [[quadratic form|Quadratische Form]] has [[signature|Signatur]] $$(n+1,2).$$ It is constructed by appending the signed radius as another coordinate in the [[paraboloid model of Möbius geometry|Paraboloid model of Möbius geometry]].

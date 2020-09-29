@@ -1,18 +1,15 @@
 created: 20200519000653844
 creator: Leander
-modified: 20200519001442920
+modified: 20200929125552743
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]]
 title: Roman surface
 type: text/vnd.tiddlywiki
 
 The //Roman surface,// parametrized by
-
 $$
 f\colon S^2 \to \R^3,\quad
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} \mapsto
   \begin{pmatrix} yz \\ zx \\ xy \end{pmatrix}
 $$
-
 satisfies $$f(-p) = f(p)$$ and can therefore be viewed as representing $$\RP^2.$$

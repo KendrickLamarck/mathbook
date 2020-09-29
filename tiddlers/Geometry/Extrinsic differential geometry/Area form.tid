@@ -1,12 +1,12 @@
 created: 20200617140156562
 creator: Leander
-modified: 20200719214136066
+modified: 20200928143554074
 modifier: Leander
 tags: Surface
 title: Area form
 type: text/vnd.tiddlywiki
 
-On every Riemannian domain $$M,$$ there is a unique [[endomorphism field|Endomorphism field]] $$J$$ such that
+On every [[Riemannian domain|Riemannian domain]] $$M,$$ there is a unique [[endomorphism field|Endomorphism field]] $$J$$ such that
 
 * $$J^* = -J,$$
 * $$J^2 = -I,$$

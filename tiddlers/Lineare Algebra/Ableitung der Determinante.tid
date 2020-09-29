@@ -1,26 +1,20 @@
 created: 20180802124854175
 creator: Leander
-modified: 20190325195420158
+modified: 20200929124842211
 modifier: Leander
-revision: 0
 tags: Determinante
 title: Ableitung der Determinante
 type: text/vnd.tiddlywiki
 
 Die [[Determinante]] $$\det\colon\mathbb R^{n\times n}\to\mathbb R$$ ist nach der [[Produktregel]] [[differenzierbar|Ableitung]]. Ihre Ableitung ist
-
 $$
 \mathrm D_A\det(B)=\operatorname{Spur}(B A^\#),
 $$
-
 wobei $$A^\#$$ die [[komplementäre Matrix|Komplementäre Matrix]] ist. Ist $$A=E,$$ so gilt insbesondere
-
 $$
 \mathrm D_E\det(B)=\operatorname{Spur}(B)
 $$
-
 und falls $$A$$ [[invertierbar|Inverse Matrix]] ist, gilt
-
 $$
 \mathrm D_A\det(B)=\det(A)\operatorname{Spur}(BA^{-1}).
 $$

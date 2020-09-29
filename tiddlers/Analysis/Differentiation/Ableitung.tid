@@ -2,25 +2,20 @@ caption: Differentiation
 created: 20180528201328382
 creator: Leander
 list: [[Ableitung in R]] [[Komponentenweise Differentiation]] Richtungsableitung Jacobi-Matrix Kettenregel Produktregel [[Höhere Ableitungen]] [[Notwendiges Extremwertkriterium]] Extremwerte [[Stetige Differenzierbarkeit]] [[Konstanter Rang]] [[Linearer Differentialoperator]]
-modified: 20200604151840707
+modified: 20200929124805335
 modifier: Leander
-revision: 0
 tags: Analysis
 title: Ableitung
 type: text/vnd.tiddlywiki
 
 Seien $$V,W$$ endlichdimensionale [[Banachräume|Banachraum]] und $$G$$ eine [[offene|Offenheit (metrische Räume)]] Teilmenge von $$V$$. Sei $$f\colon V\supset G\to W$$ eine Abbildung der offenen Menge $$G.\ f$$ heißt //differenzierbar// in $$p\in G$$, wenn es eine [[lineare Abbildung|Lineare Abbildung]] $$F\colon V\to W$$ gibt, so dass für die durch
-
 $$
 f(x)=f(p)+F(x-p)+R(x)
 $$
-
 definierte Restfunktion $$R\colon G\to W$$ gilt
-
 $$
 \lim_{x\to p}\frac{R(x)}{\|x-p\|}=0.
 $$
-
 $$F$$ ist dann eindeutig bestimmt und wir nennen es die //Ableitung// oder das //Differential// von $$f$$ in $$p$$. $$f$$ heißt //differenzierbar// (auf $$G$$), falls $$f$$ in allen $$p\in G$$ differenzierbar ist.
 
 * Differenzierbare Funktionen sind [[stetig|Stetigkeit]].

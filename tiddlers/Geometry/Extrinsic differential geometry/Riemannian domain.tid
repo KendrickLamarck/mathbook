@@ -1,6 +1,6 @@
 caption: Riemannian metric
 created: 20200603153840917
-modified: 20200717194913081
+modified: 20200928143613197
 tags: Surface
 title: Riemannian domain
 type: text/vnd.tiddlywiki
@@ -14,12 +14,14 @@ $$
 \lang \d\varphi(X),\d\varphi(Y)\rang_N = \lang X,Y \rang_M.
 $$
 
+@@.theorem
 ''Theorem.''
 If $$\det_M$$ and $$\det_N$$ are the two [[area forms|Area form]] defined via endomorphism fields $$J_M$$ and $$J_N,$$ then, if $$\varphi\colon M \to N$$ is an orientation-preserving isometry, we have
 $$\begin{gathered}
 \d\varphi(J_M X) = J_N \d\varphi(X), \\
 {\det}_N(\d\varphi(X),\d\varphi(Y)) = {\det}_M(X,Y).
 \end{gathered}$$
+@@
 
 !! Induced metric from a surface
 

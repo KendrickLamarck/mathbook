@@ -1,6 +1,5 @@
 created: 20200609182323161
-modified: 20200609183633076
-revision: 0
+modified: 20201005193559770
 tags: [[Combinatorial topology]]
 title: Combinatorial manifold
 type: text/vnd.tiddlywiki
@@ -13,7 +12,7 @@ Let $$M$$ be a 1-dimensional [[simplicial complex|Simplicial complex]] or [[cell
 
 The only cases are discrete intervals, discrete circles and unions of such objects.
 
-Now let $$M$$ be a 2-dimensional simplicial complex or cell complex. We define the //vertex link// of a vertex $$i$$ as the (multi)graph whose vertices are the edges that come together at $$i$$ connected with an edge if they are part of the same face.
+Now let $$M$$ be a 2-dimensional simplicial complex or cell complex. {{Vertex link}}
 
 * $$M$$ is called a //2-dimensional manifold// or //discrete closed surface// if every vertex link is a discrete circle.
 * $$M$$ is called a //2-dimensional manifold with boundary// or //discrete surface// if every vertex link is a discrete circle or a discrete interval. This divides vertices into //interior// and //boundary// vertices.

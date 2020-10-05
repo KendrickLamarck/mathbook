@@ -1,6 +1,6 @@
 caption: Variation
 created: 20200624162003236
-modified: 20200711195707186
+modified: 20201005144013826
 tags: [[Discrete differential geometry]]
 title: Variation (discrete function)
 type: text/vnd.tiddlywiki
@@ -9,5 +9,4 @@ A //variation// of a discrete function $$f \in \R^V$$ is a smooth map
 $$
 \openI{-\varepsilon,\varepsilon}\times V \to \R,\quad (t,i) \mapsto f_t(i)= f_i(t)
 $$
-
 such that $$f_0 = f.$$ Each variation defines a variational vector field $$X = \dot{f} = \left.\fracderiv{}{t}\right|_{t=0}f_t.$$ If $$X|_{V_\partial} = 0,$$ the variation is called //compactly supported.//

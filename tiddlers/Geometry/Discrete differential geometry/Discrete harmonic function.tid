@@ -1,7 +1,6 @@
 caption: Harmonic function
 created: 20200624162304791
-modified: 20200624214111901
-revision: 0
+modified: 20201005143951047
 tags: [[Discrete differential geometry]]
 title: Discrete harmonic function
 type: text/vnd.tiddlywiki
@@ -12,6 +11,7 @@ $$
 $$
 for all compactly supported [[variations|Variation (discrete function)]] $$t \mapsto f_t$$ of $$f.$$
 
+@@.theorem
 ''Theorem.''
 $$f$$ is harmonic if and only if
 $$
@@ -22,6 +22,7 @@ f_i = \sum_{j\colon \{i,j\} \in E} \frac{
 } f_j
 $$
 for all $$i \in \mathring V = V \setminus V_\partial.$$ Because the weights can be negative, the right hand side is not necessarily a convex combination.
+@@
 
 * If $$\partial M = \varnothing,$$ then $$f$$ is harmonic if and only if $$f$$ is constant.
 * For each $$g \in \R^{V_\partial}$$ there is a unique harmonic $$f \in \R^V$$ such that $$f|_{V_\partial} = g.$$

@@ -1,5 +1,5 @@
 created: 20200711160627068
-modified: 20200711213707748
+modified: 20201005144109487
 tags: [[Discrete differential geometry]]
 title: Discrete minimal surface
 type: text/vnd.tiddlywiki
@@ -30,6 +30,7 @@ $$
 \mu(\dot{f}) = \sum_{i \in V} \lang \mu_i,\dot{f_i}\rang.
 $$
 
+@@.theorem
 ''Theorem.''
 For $$f \in \mathscr{BI}(M,\R^3),$$ we have
 $$\d\mathcal{A_f} = \sum_V(\d\mathcal{A}_f)_i\delta_i^*$$ with
@@ -39,6 +40,7 @@ $$
 $$
 where $$N_{ijk}$$ denotes the normal of $$ijk$$ given by
 $$N_{ijk} = \frac{(f_j - f_i) \times (f_k - f_i)}{\|(f_j - f_i) \times (f_k - f_i)\|}.$$
+@@
 
 * For $$f \in \mathscr{BI}(M,\R^3),$$ we have $$(\d\mathcal{A})_f = -Lf,$$ where $$E_\D = \frac{1}{2}(L\,\cdot)(\cdot)$$ is the [[Dirichlet energy|Discrete Dirichlet energy]] with respect to the metric induced by $$f.$$
 * $$f \in \mathscr{BI}(M,\R^3)$$ is minimal if and only if it is [[harmonic|Discrete harmonic function]] with respect to the metric $$\ell$$ induced by $$f.$$

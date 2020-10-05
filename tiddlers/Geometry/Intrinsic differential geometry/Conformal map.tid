@@ -1,14 +1,18 @@
 created: 20200504143916992
-modified: 20200920213232699
+modified: 20201005201547143
 tags: [[Riemannian metric]]
 title: Conformal map
 type: text/vnd.tiddlywiki
 
 {{Conformal equivalence}} A diffeomorphism $$f \colon M \to N$$ between Riemannian manifolds $$(M,g)$$ and $$(N,h)$$ is called //conformal// if $$f^*h$$ is conformally equivalent to $$g.$$
 
-In elementary terms, this means that intersection angles between curves are preserved. Furthermore, a map $$f\colon \R^n \to \R^n$$ whose derivative $$f'(p)$$ has rank $$n$$ is conformal if and only if there is a smooth function $$u\colon \R^n \to \R$$ such that for all $$p \in \R^n$$ and all vectors $$X,Y \in \R^n$$ we have
+In elementary terms, this means that intersection angles between curves are preserved. Furthermore, a map $$f\colon \R^n \supset M \to \R^n$$ whose derivative $$f'(p)$$ has rank $$n$$ is conformal if and only if there is a smooth function $$u\colon M \to \R$$ such that for all $$p \in M$$ and all vectors $$X,Y \in \R^n$$ we have
 $$
 \lang f'(p)X, f'(p)Y\rang = e^{2u(p)}\lang X,Y \rang.
+$$
+In other words, there are maps $$u\colon M \to \R$$ and $$A\colon M \to \O(n)$$ such that
+$$
+f'(p) = e^{u(p)} A(p).
 $$
 
 @@.theorem

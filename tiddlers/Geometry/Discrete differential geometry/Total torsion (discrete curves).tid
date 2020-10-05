@@ -1,7 +1,6 @@
 caption: Total torsion
 created: 20200610185923132
-modified: 20200610190018154
-revision: 0
+modified: 20201005143646052
 tags: [[Discrete curve]]
 title: Total torsion (discrete curves)
 type: text/vnd.tiddlywiki
@@ -16,8 +15,10 @@ The map is called //monodromy// and $$\mathfrak m_\gamma$$ is called the //total
 * If $$\gamma$$ has reflectional symmetry, i.e. there is a reflection $$R$$ and $$k \in \Z$$ such that $$R\gamma_i = \gamma_{i+k}$$ for all $$i,$$ then $$\mathfrak m_\gamma = 1.$$
 * The last point is true in particular for plane curves.
 
+@@.theorem
 ''Theorem.''
 The total torsion $$\mathfrak m_\gamma$$ and the [[signed area|Area of spherical polygons]] $$A_T$$ of the tangent curve $$T$$ satisfy the relation
 $$
 \mathfrak m_\gamma = e^{\i A_T}.
 $$
+@@

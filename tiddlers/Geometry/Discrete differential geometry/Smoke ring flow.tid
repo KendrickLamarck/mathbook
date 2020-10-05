@@ -1,6 +1,5 @@
 created: 20200618190503602
-modified: 20200618193336899
-revision: 0
+modified: 20201005143844360
 tags: [[Discrete curve]]
 title: Smoke ring flow
 type: text/vnd.tiddlywiki
@@ -15,9 +14,9 @@ Now for the discrete case: There is a unique $$Z \in \Gamma(\T \mathcal M_n)$$ s
 $$Z$$ is given by
 $$
 Z_i(\gamma) = \frac{
-  \mathbf e_{i-1} \times \mathbf e_i
+  \mathbf{e}_{i-1} \times \mathbf{e}_i
 }{
-  2|\mathbf e_{i-1}||\mathbf e_i||\mathbf e_{i-1} + \mathbf e_i|
+  2|\mathbf{e}_{i-1}||\mathbf{e}_i||\mathbf{e}_{i-1} + \mathbf{e}_i|
 }
 $$
 and the //discrete smoke ring flow// is given by the equation $$\dot\gamma = Z(\gamma).$$

@@ -1,0 +1,7 @@
+created: 20201005193556924
+modified: 20201005193634562
+tags: [[Combinatorial topology]]
+title: Vertex link
+type: text/vnd.tiddlywiki
+
+We define the //vertex link// of a vertex $$i$$ of a 2-dimensional cell complex as the (multi)graph whose vertices are the edges that come together at $$i,$$ connected with an edge if they are part of the same face.

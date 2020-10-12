@@ -1,11 +1,11 @@
 caption: Parallel transport
 created: 20200610132510999
-modified: 20201005143428048
+modified: 20201010221234686
 tags: [[Discrete curve]]
 title: Parallel transport (discrete curves)
 type: text/vnd.tiddlywiki
 
-The //parallel transport// $$\rho_i\colon \perp_{i-1}\gamma \to \perp_i\gamma$$ is defined as the restriction of $$P_i \in \SO(3),$$ where
+The //parallel transport// $$\rho_i\colon {\perp_{i-1}}\gamma \to {\perp_i}\gamma$$ is defined as the restriction of $$P_i \in \SO(3),$$ where
 
 # <div>For $$T_{i-1} \times T_i \ne 0,\ P_i$$ denotes the unique rotation such that
 $$

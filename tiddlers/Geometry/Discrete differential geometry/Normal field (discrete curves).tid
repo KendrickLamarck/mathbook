@@ -1,7 +1,6 @@
 caption: Normal field
 created: 20200610123518429
-modified: 20200610190002521
-revision: 0
+modified: 20201010212956718
 tags: [[Discrete curve]]
 title: Normal field (discrete curves)
 type: text/vnd.tiddlywiki
@@ -12,12 +11,12 @@ A //normal vector field// along $$\gamma$$ is a map $$N$$ that assigns each edge
 
 !! Identifying normal spaces
 
-Denote by $$\perp_i\gamma$$ the normal spaces of the $$T_i$$ and consider the map
+Denote by $${\perp_i}\gamma$$ the normal spaces of the $$T_i$$ and consider the map
 $$
-J_i \colon \perp_i\gamma \to \perp_i\gamma,\quad \xi \mapsto T_i \times \xi.
+J_i \colon {\perp_i}\gamma \to {\perp_i}\gamma,\quad \xi \mapsto T_i \times \xi.
 $$
 It satisfies $$J_i{}^2 = -\id$$ and thus with complex scalar multiplication defined by
 $$
 (x+\i y)\cdot \xi \coloneqq x\xi + y J_i\xi,
 $$
-$$\perp_i \gamma$$ is a 1-dimensional complex vector space, a complex line. If we have a normal field $$N_i,$$ we can further identify in a unitary fashion $$\C \ni z \leftrightarrow z N_i \in \perp_i \gamma.$$ From this, we finally obtain a unitary isomorphism $$\rho_i\colon \perp_{i-1}\gamma \to \perp_i\gamma.$$
+$${\perp_i}\gamma$$ is a 1-dimensional complex vector space, a complex line. If we have a normal field $$N_i,$$ we can further identify in a unitary fashion $$\C \ni z \leftrightarrow z N_i \in {\perp_i}\gamma.$$ From this, we finally obtain a unitary isomorphism $$\rho_i\colon {\perp_{i-1}}\gamma \to {\perp_i}\gamma.$$

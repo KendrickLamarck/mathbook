@@ -1,26 +1,17 @@
 created: 20200513191033439
-modified: 20200603202449343
-revision: 0
+modified: 20201006172526150
 tags: Surface
 title: Minimal surface
 type: text/vnd.tiddlywiki
 
 Consider a smooth map $$f\colon \R^2 \supseteq M \to \R^n$$ and let $$u$$ and $$v$$ denote the standard coordinate functions on $$M$$ (or coordinate functions from another 2-manifold to $$M$$). We further denote the partial derivatives with respect to $$u$$ and $$v$$ by $$f_u$$ and $$f_v.$$ $$f$$ is then conformal if
-
 $$
 \lang f_u,f_u \rang = \lang f_v,f_v \rang,\qquad \lang f_u,f_v \rang = 0.
 $$
-
 Such a conformal map is an immersion if $$f_u \ne 0.$$
 
----
-
 A conformal immersion $$f\colon \R^2 \supseteq M \to \R^n$$ is called a //conformally parametrized minimal surface// if it is //harmonic,// which means that it satisfies
-
 $$
 f_{uu} + f_{vv} = 0.
 $$
-
----
-
-{{Holomorphic function}}
+harmonic functions include all [[holomorphic|Holomorphic function]] ones.

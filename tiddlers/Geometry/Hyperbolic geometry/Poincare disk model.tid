@@ -1,17 +1,17 @@
 created: 20190216185217976
-modified: 20200929130934730
+modified: 20201010204546256
 tags: [[Hyperbolic geometry]]
 title: Poincaré disk model
 type: text/vnd.tiddlywiki
 
 The //Poincaré model// of the [[hyperbolic plane|Hyperbolic geometry]] is $$D^2$$ and is obtained by central projection to the plane $$x_3=0$$ from the point $$-e_3,$$ which is //stereographic projection// of $$H^2.$$ It is the map
 
-$$\begin{gathered}
-\sigma_{H^2}\begin{pmatrix} x_1\\x_2\\x_3 \end{pmatrix}=
+$$\begin{aligned}
+\sigma_{H^2}\begin{pmatrix} x_1\\x_2\\x_3 \end{pmatrix}&=
 \frac 1 {x_3+1} \begin{pmatrix} x_1\\x_2 \end{pmatrix}, \\
-\sigma_{H^2}{}^{-1}\begin{pmatrix} u_1\\u_2 \end{pmatrix}=
-\frac 1 {1-u_1^2-u_2^2}\begin{pmatrix} 2u_1\\2u_2\\ 1+u_1^2+u_2^2 \end{pmatrix}.
-\end{gathered}$$
+\sigma_{H^2}{}^{-1}\begin{pmatrix} u_1\\u_2 \end{pmatrix}&=
+\frac 1 {1-{u_1}^2-{u_2}^2}\begin{pmatrix} 2u_1\\2u_2\\ 1+{u_1}^2+{u_2}^2 \end{pmatrix}.
+\end{aligned}$$
 
 @@.theorem
 ''Theorem.''

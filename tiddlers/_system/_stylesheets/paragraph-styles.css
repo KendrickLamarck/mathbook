@@ -1,4 +1,6 @@
-div.tc-tiddler-body > p,
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+
+<pre>div.tc-tiddler-body > p,
 div.tc-tiddler-body > div.theorem > p {
   margin-top: 0;
   margin-bottom: 0;
@@ -9,14 +11,19 @@ div.tc-tiddler-body > div.theorem > p + p {
   text-indent: 26px; /* calculated from LaTeX 20pt default */
 }
 
-/* use only if the theorem is a single paragraph */
-
 div.tc-tiddler-body > .theorem {
   margin-top: 12px;
   margin-bottom: 12px;
+  color: <<colour light-emphasised-foreground>>;
+  background: <<colour light-highlight-background>>;
+  border: 1px solid;
+  border-color: <<colour foreground>>;
+  border-radius: 3px;
+  padding: 7px;
 }
 div.tc-tiddler-body > p.theorem,
 div.tc-tiddler-body > div.theorem > p:first-of-type,
 div.tc-tiddler-body > p.theorem + p:not([class=theorem]) {
   text-indent: 0;
 }
+</pre>

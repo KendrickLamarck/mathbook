@@ -1,6 +1,5 @@
 created: 20200610165202157
-modified: 20200617195445802
-revision: 0
+modified: 20201012204636062
 tags: Curve
 title: Area enclosed by spherical curves
 type: text/vnd.tiddlywiki
@@ -9,4 +8,4 @@ Let $$\gamma\colon \sphere^1 \to \sphere^2$$ be a smooth closed curve. Then to d
 $$
 A_\gamma \coloneqq A_f = \int_D \det(f,f_x,f_y)\,\d x\,\d y.
 $$
-The subscripts denote partial derivatives. If $$\tilde f$$ is another extension, the areas only differ by an integer multiple of $$4\pi.$$
+The subscripts denote partial derivatives. If $$\tilde f$$ is another extension, the areas only differ by addition of an integer multiple of $$4\pi.$$

@@ -1,10 +1,10 @@
 created: 20200624135947742
-modified: 20200711210337927
+modified: 20201013224105397
 tags: [[Combinatorial topology]]
 title: Piecewise linear map (simplicial complex)
 type: text/vnd.tiddlywiki
 
-Let $$M$$ be a [[simplicial complex|Simplicial complex]]. The space of piecewise linear maps $$W_\mathrm{PL}$$ is the space of functions $$g\colon C(M) \to \R$$ such that $$g|_{\mathcal A_S}$$ is linear for every simplex $$S \in M.$$
+Let $$M$$ be a [[simplicial complex|Simplicial complex]]. The space of piecewise linear maps $$W_\mathrm{PL}$$ is the space of functions $$g\colon C(M) \to \R$$ such that $$g|_{\mathcal A_S}$$ is affine for every simplex $$S \in M.$$
 
 * <div>We can identify $$\R^V \cong W_\mathrm{PL}$$ by
 $$

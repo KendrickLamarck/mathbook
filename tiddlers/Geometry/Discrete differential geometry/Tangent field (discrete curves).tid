@@ -1,6 +1,6 @@
 caption: Tangent field
 created: 20200610123252772
-modified: 20200714152653257
+modified: 20201017215426863
 tags: [[Discrete curve]]
 title: Tangent field (discrete curves)
 type: text/vnd.tiddlywiki
@@ -15,6 +15,7 @@ A discrete curve is //regular,// if $$\ell_i \ne 0$$ and $$T_{i+1} \ne -T_i.$$  
 
 The //unit tangent curve// of a closed discrete curve is the closed discrete curve $$T$$ in $$\sphere^2.$$ Regularity ensures that any two consecutive points can be joined by a shortest geodesic arc, making $$T$$ a spherical polygon.
 
+@@.theorem
 ''Proposition.''
 A closed spherical polygon $$T = (T_0,\dots,T_{n-1})$$ is the unit tangent curve of a closed regular curve $$\gamma$$ if and only if
 $$
@@ -22,3 +23,4 @@ $$
   \sum \lambda_i T_i \Bigm| \sum \lambda_i = 1,\ \lambda_i \ge 0
 \Bigr\}.
 $$
+@@

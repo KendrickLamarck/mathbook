@@ -1,14 +1,12 @@
 created: 20180907141051891
 creator: Leander
-modified: 20190411212352629
+modified: 20201016131326481
 modifier: Leander
-revision: 0
 tags: [[Höhere Ableitungen]]
 title: Hesse-Matrix
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon\mathbb R^n\supset G\to\mathbb R$$ eine zweimal [[stetig differenzierbare|Stetige Differenzierbarkeit]] Funktion. Dann ist die //Hesse-Matrix// von $$f$$ am Punkt $$p\in G$$ definiert durch
-
 $$
 H_f(p)\coloneqq
 \begin{pmatrix}
@@ -18,5 +16,4 @@ H_f(p)\coloneqq
 \end{pmatrix}
 \in\Bbb R^{n\times n}.
 $$
-
 Nach dem [[Satz von Schwarz]] ist sie [[symmetrisch|Symmetrische Matrix]]. Sie ist die [[darstellende Matrix|Darstellende Matrix (Bilinearformen)]] der zweiten Ableitung.

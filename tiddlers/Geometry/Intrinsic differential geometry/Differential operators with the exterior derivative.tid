@@ -1,10 +1,10 @@
 created: 20191227203334903
-modified: 20200920210054663
+modified: 20201015121533284
 tags: [[Differential form]]
 title: Differential operators with the exterior derivative
 type: text/vnd.tiddlywiki
 
-On $$\R^3,$$ we can use the [[Hodge star]] to identify:
+On $$\R^3$$ with the standard scalar product, we can use the [[Hodge star]] to identify:
 
 * <div>vectors with [[pseudovectors|Pseudovectors and pseudoscalars]] and thus one-forms with two-forms. Explicitly, identify
 $$

@@ -1,17 +1,17 @@
 created: 20200630212439407
-modified: 20200901075741190
+modified: 20201015170121947
 tags: misc
 title: Electrostatics
 type: text/vnd.tiddlywiki
 
-Let $$\mathbf E\colon \R^3 \supseteq M \to \R^3$$ be a vector field called the //electric field// with the property $$\rot \mathbf E = 0$$ and let $$\widetilde{\mathbf E}$$ be the corresponding one-form. Due to this property there exists a unique //electric potential// $$\phi \in \smooth^\infty(M)$$ with $$\d\phi = -\widetilde \mathbf E$$ and $$\nabla\phi = -\mathbf E.$$ In particular, any path integral along $$\gamma\colon [a,b] \to \R^3$$
+Let $$\mathbf E\colon \R^3 \supseteq M \to \R^3$$ be a vector field called the //electric field// with the property $$\rot \mathbf E = 0$$ and let $$\widetilde{\mathbf E}$$ be the [[corresponding one-form|Bilinearformen und dualität]]. Due to this property there exists a unique //electric potential// $$\phi \in \smooth^\infty(M)$$ with $$\d\phi = -\widetilde \mathbf E$$ and $$\grad\phi = -\mathbf E.$$ In particular, any path integral along $$\gamma\colon [a,b] \to \R^3$$
 $$
 \int_\gamma \widetilde \mathbf E = \phi(\gamma(a))-\phi(\gamma(b))
 $$
 only depends on the start and end points, but not the path itself.
 
 * We call $$\divergence \mathbf E = \rho$$ the //charge// (Gauss' law). Every compactly supported charge distribution has a corresponding potential.
-* In absence of a magnetic field, the force exerted on a particle with charge $$q$$ is determined by the Lorentz force law $$F = q\mathbf E.$$
+* In absence of a magnetic field, the force exerted on a particle with charge $$q$$ is determined by the Lorentz force law $$\mathbf{F} = q\mathbf E.$$ The electric potential energy of a particle with charge $$q$$ at point $$x$$ is thus $$q\phi(x).$$
 
 The //kinetic energy// is given by
 $$
@@ -19,17 +19,19 @@ E_\mathrm{kin}(\mathbf{E}) =
 \frac{1}{2} \int_{\R^3} \|\mathbf{E}\|^2 =
 E_\D(\phi).
 $$
-
 The //electrostatic energy// $$E_\rho$$ with respect to a given charge distribution $$\rho$$ is defined as
 $$
 E_\rho(\phi) = \int_{\R^3} \rho \phi.
 $$
+In the light of the Lorentz force law, this can be thought of as the total potential energy in the system.
 
+@@.theorem
 ''Theorem.''
-For a charge distribution $$\rho$$ the critical point $$\phi$$ of $$E = E_\D - E_\rho$$ under compactly supported [[variations|Variation (smooth function)]] is an electric potential of $$\rho,$$ i.e.
+For a charge distribution $$\rho,$$ the critical point $$\phi$$ of $$E = E_\D - E_\rho$$ under compactly supported [[variations|Variation (smooth function)]] is an electric potential of $$\rho,$$ i.e.
 $$
 \rho = -\divergence\grad\phi = -\Delta\phi.
 $$
+@@
 
 !! Discretization
 

@@ -1,15 +1,15 @@
 caption: Harmonic function
 created: 20200624162304791
-modified: 20201005143951047
+modified: 20201016143729266
 tags: [[Discrete differential geometry]]
 title: Discrete harmonic function
 type: text/vnd.tiddlywiki
 
-A discrete function $$f \in \R^V$$ is called //harmonic,// if
+Let $$(V,E,F)$$$ be a simplicial surface with [[metric|Metric on a discrete surface]] $$\ell.$$ A discrete function $$f \in \R^V$$ (or $$W^V$$ in the vector-valued case) is called //harmonic,// if
 $$
-\left.\fracderiv{}{t}\right|_{t=0} E_\D(f_t) =(Lf)(X) = 0
+\left.\fracderiv{}{t}\right|_{t=0} E_\D(f_t) =(Lf)(\dot{f}) = 0
 $$
-for all compactly supported [[variations|Variation (discrete function)]] $$t \mapsto f_t$$ of $$f.$$
+for all compactly supported [[variations|Variation (discrete function)]] $$t \mapsto f_t$$ of $$f.$$ Thus $$f$$ is harmonic if and only if $$(Lf)_i = 0$$ for all $$i \in \mathring{V}.$$
 
 @@.theorem
 ''Theorem.''

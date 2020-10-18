@@ -1,0 +1,47 @@
+created: 20201016142648060
+modified: 20201016153125994
+tags: [[Discrete differential geometry]]
+title: Discrete minimal surfaces in the 3-sphere
+type: text/vnd.tiddlywiki
+
+Let $$M = (V,E,F)$$ be a simplicial surface with boundary $$\partial M = (V_\partial, E_\partial)$$ (possibly empty) and metric $$\ell.$$ Define
+
+* $$\mathscr{C}(M;\sphere^3) \coloneqq \left(\sphere^3\right)^V,$$ a smooth submanifold of $$\mathscr{C}(M;\R^4),$$
+
+* For any variation $$g_t$$ of $$g \in \mathscr{C}(M;\sphere^3),$$ we get $$\lang g_i, \dot{g}_i\rang = 0$$ and for any such $$\dot{g}$$ we can construct a corresponding variation. //Compactly supported// variations are those with variational vector fields $$\dot{g} \in \mathscr{C}_0(M;\R^4) \coloneqq \{\, g \in \mathscr{C}(M;\R^4) : g|_{V_\partial} = 0\,\}.$$
+
+* A map $$h \in \mathscr{C}(M;\sphere^3)$$ is called //harmonic in $$\sphere^3,$$// if it is a critical point of the [[Dirichlet energy|Discrete Dirichlet energy]] $$E_\D = \frac{1}{2}(L\,\cdot)(\cdot)$$ under all compactly supported variations in $$\mathscr{C}(M;\sphere^3).$$
+
+* <div>Let $$\rho = \sum_{i \in V} \rho_i \delta_i{}^* \in \mathscr{M}(M)$$ be a signed measure and $$g \in \mathscr{C}_0(M;\R^4).$$ We define $$\rho g \in \mathscr{C}_0(M;\R^4)^*$$ by "multiplying" (?)
+$$
+\rho g \coloneqq  \sum_{i \in V} \rho_i\lang g_i, \cdot\rang.
+$$
+We can then define $$\mathscr{M}(M)g$$ in the obvious way.</div>
+
+* <div>We also again use the identification $$\mu \in \mathscr{C}(M;\R^4)^* \cong \mathscr{M}(M) \otimes \R^4$$:
+$$
+\mu = \sum_{i \in V} \lang \mu_i,\cdot\rang
+\cong \sum_{i \in V} \mu_i \delta_i{}^*,
+\qquad \mu_i \in \R^4.
+$$</div>
+
+@@.theorem
+''Theorem.''
+Let $$\mathcal{F}\colon \mathscr{C}_0(M;\R^4) \to \R$$ be a smooth function. Then $$g \in \mathscr{C}(M;\sphere^3)$$ is a critical point of $$\mathcal{F}$$ under all compactly supported variations in $$\mathscr{C}(M;\sphere^3)$$ if and only if there exists $$\rho \in \mathscr{M}(M)$$ such that
+$$
+\D_g \mathcal{F}\bigr|_{\mathscr{C}_0(M;\R^4)} =
+\rho g\bigr|_{\mathscr{C}_0(M;\R^4).}
+$$
+@@
+
+@@.theorem
+''Corollary.''
+We get as a corollary that $$h \in \mathscr{C}(M;\sphere^3)$$ is harmonic if and only if there exists $$\rho \in \mathscr{M}(M)$$ such that $$(Lh)_i = (\rho h)_i$$ for all $$i \in \mathring{V}.$$
+@@
+
+The area functional $$\mathcal{A}\colon \mathscr{C}(M;\R^4) \to \R$$ restricts to a smooth functional on $$\mathscr{BI}(M;\sphere^3) \coloneqq \mathscr{C}(M;\sphere^3) \cap \mathscr{BI}(M;\R^4).$$ We call a surface $$f \in \mathscr{BI}(M;\sphere^3)$$ //minimal,// if it is a critical point under the area functional $$\mathcal{A}$$ under all compactly supported variations in $$\mathscr{C}(M;\sphere^3).$$
+
+@@.theorem
+''Theorem.''
+Let $$f \in \mathscr{BI}(M;\sphere^3).$$ Then $$f$$ is minimal if and only if it is harmonic in $$\sphere^3$$ with respect to the metric $$\ell$$ induced by $$f.$$
+@@

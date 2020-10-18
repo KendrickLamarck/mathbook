@@ -2,18 +2,13 @@ caption: Abbildungen
 created: 20180315152130442
 creator: Leander
 list: [[Injektiv, surjektiv, bijektiv]] Umkehrabbildung Involution Einschränkung Komposition [[Gleichheit von Abbildungen]] Monotonie Monotoniekriterium [[Beschränktheit (Funktionen)]] Extremwerte [[Gleichmäßige Konvergenz]] Konvexität [[Vektor- und skalares Feld]]
-modified: 20200601183411987
+modified: 20201016112746885
 modifier: Leander
-revision: 0
 tags: Mengenlehre
 title: Abbildung
 type: text/vnd.tiddlywiki
 
-Eine //Abbildung //oder //Funktion//
-$$
-f\colon X \to Y
-$$
-Ist eine [[Relation]], die jedem Element $$x \in X$$ genau ein Element $$f(x) \in Y$$ zuordnet. Man schreibt auch
+Eine //Abbildung //oder //Funktion// $$f\colon X \to Y$$ Ist eine [[Relation]], die jedem Element $$x \in X$$ genau ein Element $$f(x) \in Y$$ zuordnet. Man schreibt auch
 $$
 f\colon X \to Y, \quad x \mapsto f(x).
 $$

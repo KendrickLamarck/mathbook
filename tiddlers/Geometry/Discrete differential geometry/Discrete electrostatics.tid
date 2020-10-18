@@ -1,20 +1,26 @@
 created: 20200630232118496
-modified: 20200901075756752
+modified: 20201015170316476
 tags: [[Discrete differential geometry]]
 title: Discrete electrostatics
 type: text/vnd.tiddlywiki
 
-Let $$\rho \in \mathscr{M}(M)$$ be a given //charge distribution.// We can then define the //electrostatic energy// of a potential $$\varphi \in \mathscr{C}(M)$$ as in the smooth case by
+Let $$\rho \in \mathscr{M}(M)$$ be a given //charge distribution.// We can then define the //electrostatic energy// of a potential $$\phi \in \mathscr{C}(M)$$ as in the smooth case by
 $$
-E_\rho(\varphi) = \int_M \varphi \rho.
+E_\rho(\phi) = \int_M \phi \rho.
 $$
 
-Let $$L\colon \mathscr{C}(M) \to \mathscr{M}(M)$$ be the [[symmetric operator|Bilinearformen und duale Abbildungen]] such that
+@@.theorem
+<div>
+
+''Theorem.''
+Let $$L\colon \mathscr{C}(M) \to \mathscr{M}(M)$$ be the [[symmetric operator|Bilinearformen und dualität]] such that
 $$
-E_\D(\varphi) = \frac{1}{2} \int_M \varphi(L\varphi),
+E_\D(\phi) = \frac{1}{2} \int_M \phi(L\phi),
 $$
 see [[Discrete Dirichlet energy]]. Then
 
-* $$\phi$$ is a critical point of $$E = E_\D - E_\rho$$ if and only if $$L\phi = \rho.$$
+# $$\phi$$ is a critical point of $$E = E_\D - E_\rho$$ if and only if $$L\phi = \rho.$$
+# The //Poisson problem// $$L\phi = \rho$$ has a solution if and only if $$\int_M \rho = 0.$$ If there is a solution, it is unique up to an added constant.
 
-* The //Poisson problem// $$L\phi = \rho$$ has a solution if and only if $$\int_M \rho = 0.$$ If there is a solution, it is unique up to an added constant.
+</div>
+@@

@@ -1,5 +1,5 @@
 created: 20201016142648060
-modified: 20201016153125994
+modified: 20201018224116064
 tags: [[Discrete differential geometry]]
 title: Discrete minimal surfaces in the 3-sphere
 type: text/vnd.tiddlywiki
@@ -14,14 +14,14 @@ Let $$M = (V,E,F)$$ be a simplicial surface with boundary $$\partial M = (V_\par
 
 * <div>Let $$\rho = \sum_{i \in V} \rho_i \delta_i{}^* \in \mathscr{M}(M)$$ be a signed measure and $$g \in \mathscr{C}_0(M;\R^4).$$ We define $$\rho g \in \mathscr{C}_0(M;\R^4)^*$$ by "multiplying" (?)
 $$
-\rho g \coloneqq  \sum_{i \in V} \rho_i\lang g_i, \cdot\rang.
+(\rho g)(f) \coloneqq  \sum_{i \in V} \rho_i\lang g_i, f_i\rang.
 $$
 We can then define $$\mathscr{M}(M)g$$ in the obvious way.</div>
 
 * <div>We also again use the identification $$\mu \in \mathscr{C}(M;\R^4)^* \cong \mathscr{M}(M) \otimes \R^4$$:
 $$
-\mu = \sum_{i \in V} \lang \mu_i,\cdot\rang
-\cong \sum_{i \in V} \mu_i \delta_i{}^*,
+\mu(g) = \sum_{i \in V} \lang \mu_i,g_i\rang
+\leftrightarrow\sum_{i \in V} \mu_i \delta_i{}^*,
 \qquad \mu_i \in \R^4.
 $$</div>
 

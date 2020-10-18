@@ -1,12 +1,12 @@
 created: 20200630232118496
-modified: 20201015170316476
+modified: 20201018183957137
 tags: [[Discrete differential geometry]]
 title: Discrete electrostatics
 type: text/vnd.tiddlywiki
 
 Let $$\rho \in \mathscr{M}(M)$$ be a given //charge distribution.// We can then define the //electrostatic energy// of a potential $$\phi \in \mathscr{C}(M)$$ as in the smooth case by
 $$
-E_\rho(\phi) = \int_M \phi \rho.
+E_\rho(\phi) = \int_M \phi\rho.
 $$
 
 @@.theorem

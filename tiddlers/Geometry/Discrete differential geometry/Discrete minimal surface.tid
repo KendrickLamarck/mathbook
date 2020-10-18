@@ -1,5 +1,5 @@
 created: 20200711160627068
-modified: 20201016170330911
+modified: 20201018224211694
 tags: [[Discrete differential geometry]]
 title: Discrete minimal surface
 type: text/vnd.tiddlywiki
@@ -22,10 +22,10 @@ A critical point of $$\mathcal{A}$$ under compactly supported variations is call
 The derivative of $$\mathcal{A}$$ at $$f \in \mathscr{BI}(M,\R^3)$$ is a linear map
 $$\D_f\mathcal{A}\colon \mathscr{C}(M,\R^3) \to \R$$
 and as such an element of the dual space
-$$\mathscr{C}(M,\R^3)^* \cong \mathscr{M}(M) \otimes \R^3.$$ We identify
+$$\mathscr{C}(M,\R^3)^* \cong \mathscr{M}(M) \otimes \R^3.$$ We identify $$\mu$$ via
 $$
-\mu = \sum_{i \in V} \lang \mu_i,\cdot\rang
-\cong \sum_{i \in V} \mu_i \delta_i{}^*,
+\mu(g) = \sum_{i \in V} \lang \mu_i,g_i\rang
+\leftrightarrow \sum_{i \in V} \mu_i \delta_i{}^*,
 \qquad \mu_i \in \R^3.
 $$
 

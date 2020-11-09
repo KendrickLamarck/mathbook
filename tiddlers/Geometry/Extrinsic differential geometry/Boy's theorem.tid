@@ -1,12 +1,12 @@
 created: 20200701193716548
-modified: 20200719221707171
+modified: 20201019162823680
 tags: Surface no-toc
 title: Boy's theorem
 type: text/vnd.tiddlywiki
 
 Let $$f\colon M \to \R^3$$ be a parametrized surface that [[closes up|Closed surface]]. Then the Gaussian curvature $$K$$ of $$f$$ satisfies
 $$
-\int_M K \det = 2\pi \cdot \chi(M).
+\int_M K \det = 2\pi \, \chi(M).
 $$
 If $$(f,\rho,a)$$ is a closed surface with $$m$$ components and [[genus|Genus]] $$g,$$ we get
 $$

@@ -1,5 +1,5 @@
 created: 20200513200250466
-modified: 20201006174145526
+modified: 20201019161533415
 tags: [[Minimal surface]]
 title: Weierstraß representation
 type: text/vnd.tiddlywiki
@@ -35,7 +35,7 @@ Let $$M \subseteq \R^2$$ be a domain and $$F \colon M \to \C^3$$ a holomorphic m
 $$
 F_u = \begin{pmatrix}
 \psi^2 - \phi ^2    \\
-\i(\psi^2 - \phi^2) \\
+\i(\psi^2 + \phi^2) \\
 2 \psi \phi         \\
 \end{pmatrix},
 $$

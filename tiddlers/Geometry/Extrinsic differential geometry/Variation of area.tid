@@ -1,5 +1,5 @@
 created: 20200710182254814
-modified: 20200720190113140
+modified: 20201019162132440
 tags: [[Variation (surface)]]
 title: Variation of area
 type: text/vnd.tiddlywiki
@@ -20,4 +20,6 @@ $$
 where $$B$$ is the outward-pointing unit normal field and $$\d s$$ implies arc length parametrization of the boundary with the [[inherited orientation|Boundary of surfaces]].
 A critical point of the area functional is called a //minimal surface.//
 
+@@.theorem
 ''Theorem.'' A surface is minimal if and only if its [[mean curvature|Mean curvature]] vanishes.
+@@

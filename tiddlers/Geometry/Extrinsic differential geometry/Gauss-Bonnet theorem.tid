@@ -1,13 +1,19 @@
 created: 20200701142834969
-modified: 20200719221543305
+modified: 20201019162947476
 tags: [[Curvature (surfaces)]]
 title: Gauss-Bonnet theorem
 type: text/vnd.tiddlywiki
 
-Let $$M \subset \R^2$$ be a compact domain with smooth boundary having $$k$$ connected components. Assume that the boundary $$\partial M$$ has $$n$$ components. Let $$f\colon M \to \R^3$$ be a parametrized surface, $$K\colon M \to \R$$ its [[Gauss curvature]] and $$\det$$ its area form. Then
+Let $$M \subset \R^2$$ be a compact domain with smooth boundary. Let $$f\colon M \to \R^3$$ be a parametrized surface,
+$$K\colon M \to \R$$ its [[Gauss curvature]],
+$$\chi(M)$$ the [[Euler characteristic|Euler characteristic]],
+$$\kappa_b$$ the [[boundary's binormal curvature|Boundary of surfaces]] and
+$$\det$$ its [[area form|Area form]]. Then
 $$
-\int_M K \det = 2\pi(2k-n) - \int_{\partial M} \kappa_b \,\d s.
+\int_M K \det = 2\pi \, \chi(M) - \int_{\partial M} \kappa_b \,\d s.
 $$
 
+@@.theorem
 ''Theorem (Boy's theorem).''
 {{Boy's theorem}}
+@@

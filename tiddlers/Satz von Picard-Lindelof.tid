@@ -1,24 +1,19 @@
 created: 20180509195822332
 creator: Leander
-modified: 20200526211052161
+modified: 20201105172947189
 modifier: Leander
-revision: 0
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Satz von Picard-Lindelöf
 type: text/vnd.tiddlywiki
 
 Sei $$I=[x_0-a,x_0+a],\ J=[y_0-b,y_0+b]$$ und sei $$f\colon I\times J\to\Bbb R$$ [[stetig|Stetigkeit]] und [[Lipschitz-stetig|Lipschitz-Stetigkeit]] im zweiten Argument, d.h.
-
 $$
 \exists L\in\left]0,\infty\right[\,\forall x\in I\,\forall y,\tilde y\in J\colon\quad |f(x,y)-f(x,\tilde y)|\le L|y-\tilde y|.
 $$
-
 Setze
-
 $$
 M\coloneqq\max_{x\in I,y\in J} |f(x,y)|,\quad\alpha\coloneqq\min\left\{a,\frac{b}{M}\right\}.
 $$
-
 Ist $$\alpha<\frac{1}{L}$$, dann gibt es genau eine Lösung des Anfangswertproblems
 $$y'=f(x,y(x))$$
 auf $$\tilde I=[x_0-\alpha,x_0+\alpha].$$

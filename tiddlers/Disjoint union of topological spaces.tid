@@ -1,0 +1,14 @@
+caption: Disjoint union
+created: 20201103140138512
+modified: 20201103140823333
+tags: [[Topologischer Raum]]
+title: Disjoint union of topological spaces
+type: text/vnd.tiddlywiki
+
+We define the //disjoint union// of topological spaces $$(X_i)_{\alpha \in A}$$ as
+$$
+\bigsqcup_{\alpha \in A} X_\alpha \coloneqq
+\bigcup_{\alpha \in A} \bigl(\{\alpha\} \times X_\alpha\bigr)
+\subseteq A \times \bigcup X_\alpha,
+$$
+but we write $$X_\alpha = \{\alpha\} \times X_\alpha$$ whenever convenient. We can define the //disjoint union topology// on the disjoint union via the basis consisting of all open subsets of all the $$X_\alpha,$$ using the above identification.

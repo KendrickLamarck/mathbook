@@ -1,20 +1,16 @@
 created: 20180517184649268
 creator: Leander
-modified: 20191004234222609
+modified: 20201103134225860
 modifier: Leander
-revision: 0
 tags: Stetigkeit no-toc
 title: Epsilon-Delta-Kriterium für Stetigkeit
 type: text/vnd.tiddlywiki
 
 Seien $$(X,d_X),(Y,d_Y)$$ [[metrische Räume|Metrischer Raum]] und $$f\colon X\supset G\to Y.$$ Sei $$p\in G.$$ Dann ist $$f$$ in $$p$$ genau dann [[stetig|Stetigkeit (metrische Räume)]], wenn gilt:
-
 $$
 \forall\epsilon>0(\exists\delta>0(\forall x \in G(\,d_X(x,p) < \delta \implies d_Y(f(x),f(p)) < \epsilon\,))).
 $$
-
 Äquivalent dazu ist, dass es zu jedem $$\epsilon>0$$ ein $$\delta>0$$ gibt, so dass
-
 $$
 f(U_\delta(p)\cap G)\subset U_\epsilon(f(p)).
 $$

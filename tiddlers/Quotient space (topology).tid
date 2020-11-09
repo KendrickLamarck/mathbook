@@ -1,0 +1,7 @@
+created: 20201103141607828
+modified: 20201103142059608
+tags: [[Topologischer Raum]]
+title: Quotient space (topology)
+type: text/vnd.tiddlywiki
+
+Let $$X$$ be a topological space and $$\sim$$ an equivalence relation on $$X.$$ The quotient space $$X/{\sim}$$ as a set is simply the set of equivalence classes. The //quotient topology// on $$X/{\sim}$$ is defined as the finest topology making the quotient map $$\pi\colon X \to X/{\sim},\ x \mapsto [x]$$ continuous, i.e. a set $$U \subseteq X/{\sim}$$ is open if and only if $$\pi^{-1}(U)$$ (a union of equivalence classes) is open in $$X.$$

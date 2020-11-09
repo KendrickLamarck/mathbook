@@ -1,14 +1,15 @@
 created: 20180509204240163
 creator: Leander
 list: [[Zusammenhängende Teilmengen]] [[Stetige Funktionen und Zusammenhang]] Wegzusammenhang [[Zusammenhang und Abschluss]] [[Zusammenhang und Intervalle]] Zwischenwertsatz
-modified: 20200308205807387
+modified: 20201103142732180
 modifier: Leander
-revision: 0
 tags: Topologie
 title: Zusammenhang
 type: text/vnd.tiddlywiki
 
 Sei $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]]. $$X$$ heißt //zusammenhängend//, wenn er nicht die Vereinigung zweier nicht-leerer disjunkter [[offener|Offenheit (metrische Räume)]] Mengen ist: Für alle offenen $$U,V\subset X$$ mit $$U\cap V=\varnothing$$ und $$U\cup V=X$$ gilt $$U=\varnothing$$ oder $$V=\varnothing$$.
+
+Eine äquivalente Charakterisierung ist, dass $$\varnothing$$ und $$X$$ die einzigen Mengen sind, die sowohl offen als auch abgeschlossen sind.
 
 * Eine Teilmenge $$A\subset X$$ heißt zusammenhängend, wenn $$(A,\mathcal T_A)$$ zusammenhängend ist.
 * {{Zusammenhang und Abschluss}}

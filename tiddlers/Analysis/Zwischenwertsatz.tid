@@ -1,23 +1,26 @@
 created: 20171225164506885
 creator: Leander
 list: 
-modified: 20191229215712951
+modified: 20201103134856405
 modifier: Leander
-revision: 0
-tags: Zusammenhang no-toc
+tags: Stetigkeit
 title: Zwischenwertsatz
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon\mathbb{R} \supset J \to \mathbb{R}$$ [[stetig|Stetigkeit]] auf dem Intervall $$J$$. Dann ist die Bildmenge $$f(J)$$ ein Intervall. Das heißt: sind $$f(x)$$ und $$f(y)$$ zwei Funktionswerte von $$f$$, so sind auch alle reellen Zahlen dazwischen Funktionswerte von $$f$$.
 
+@@.theorem
 ''Korollar 1.''
 sind $$x,y \in J$$ mit
-
 $$
 f(x)\cdot f(y)<0,
 $$
-
 sind also die Vorzeichen von $$f(x)$$ und $$f(y)$$ verschieden, dann gibt es zwischen $$x$$ und $$y$$ eine Nullstelle von $$f$$.
 
 ''Korollar 2.''
 Es gilt: $$f$$ [[injektiv|Injektivität]] $$\iff$$  $$f$$ streng [[monoton|Monotonie]] auf $$J$$.
+@@
+
+!! Verallgemeinerung
+
+{{Stetige Funktionen und Zusammenhang}}

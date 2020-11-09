@@ -1,0 +1,22 @@
+created: 20201105172706933
+modified: 20201105173735241
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Grönwall's inequality
+type: text/vnd.tiddlywiki
+
+Let $$a,b,w$$ be non-negative continuous functions on $$[t_0,t_0+c]$$ satisfying
+$$
+w(t) \le a(t) + \int_{t_0}^t b(s)w(s)\,\d s,\qquad t \in [t_0,t_0+c].
+$$
+Then we have:
+$$
+w(t) \le a(t) + \int_{t_0}^t a(s)b(s)\exp\left({\textstyle\int_s^tb(\tau)\,\d\tau}\right)\,\d s.
+$$
+Particularly nice are the following special cases:
+
+$$\begin{aligned}
+b(t) \equiv b \in \R &\implies
+  w(t) \le a(t) + b \int_{t_0}^t a(s)e^{b(t-s)}\,\d s, \\
+a(t) \equiv a \in \R &\implies w(t) \le ae^{b(t-t_0)}, \\
+a \equiv 0 &\implies w(t) = 0.
+\end{aligned}$$

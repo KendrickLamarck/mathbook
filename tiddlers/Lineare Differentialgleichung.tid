@@ -1,9 +1,8 @@
 created: 20180801132454460
 creator: Leander
 list: [[Hauptsatz über lineare Differentialgleichungen]] [[Lineare Differentialgleichung mit konstanten Koeffizienten]] [[Lineare Differentialgleichung höherer Ordnung]] [[Lineare Differentialgleichung höherer Ordnung mit konstanten Koeffizienten]]
-modified: 20200527180249596
+modified: 20201106141224072
 modifier: Leander
-revision: 0
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Lineare Differentialgleichung
 type: text/vnd.tiddlywiki
@@ -12,11 +11,7 @@ Eine //lineare Differentialgleichung 1. Ordnung// auf einem [[offenen|Offenheit]
 $$
 \dot x=F(t)x+g(t),
 $$
-wobei
-$$
-F\colon J\to\operatorname{End}(V),\quad t\mapsto F(t)
-$$
-und $$g\colon J\to V$$ [[stetig|Stetigkeit]] sind. Jede Lösung $$x$$ ist dann offenbar [[stetig differenzierbar|Stetige Differenzierbarkeit]]. Wir definieren
+wobei $$F\colon J\to\operatorname{End}(V)$$ und $$g\colon J\to V$$ [[stetig|Stetigkeit]] sind. Jede Lösung $$x$$ ist dann offenbar [[stetig differenzierbar|Stetige Differenzierbarkeit]]. Wir definieren
 $$
 L\colon\mathcal C^1(J,V)\to\mathcal C^0(J,V),\quad x\mapsto \dot x-F(t)x.
 $$

@@ -1,5 +1,5 @@
 created: 20200703142337989
-modified: 20201015174748234
+modified: 20201024221031252
 tags: [[Combinatorial topology]]
 title: Dual discrete surface
 type: text/vnd.tiddlywiki
@@ -16,4 +16,4 @@ A_i = \frac{1}{3} \sum_{ijk \in F} A_{ijk}.
 $$
 This is obtained by choosing the barycenter of each triangle as its dual vertex and connecting these.
 
-We call these //vertex areas// and the corresponding [[measure|Measure on a discrete surface]] $$\d A.$$ The latter can be thought of as a discretization of the [[area form|Area form]].
+We call these //vertex areas// and the corresponding [[measure|Measure on a discrete surface]] $$A.$$ The latter can be thought of as a discretization of the [[area form|Area form]].

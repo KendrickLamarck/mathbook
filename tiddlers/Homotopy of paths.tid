@@ -1,0 +1,25 @@
+created: 20201109184559917
+modified: 20201109193550807
+tags: [[Algebraic topology]]
+title: Homotopy of paths
+type: text/vnd.tiddlywiki
+
+A //homotopy// of paths (with fixed endpoints) in a space is a continuous map $$H\colon I \times I \to X$$ which is constant on $$\{0\} \times I$$ and on $$\{1\} \times I.$$
+
+* By setting $$\gamma_t(s) \coloneqq H(s,t),$$ we think of $$H$$ as a one-parameter family of paths $$\gamma_t\colon I \to X.$$ We sometimes write the homotopy as $$(\gamma_t).$$
+* We say $$H$$ is a homotopy from $$\gamma_0$$ to $$\gamma_1$$ and that $$\gamma_0$$ is homotopic to $$\gamma_1.$$ We write this as $$\gamma_0 \simeq \gamma_1.$$ This defines an equivalence relation. The equivalence classes are called //homotopy classes// and are written as $$[\gamma].$$
+
+@@.theorem
+<div>
+
+''Lemma.''
+Suppose $$\gamma$$ is a path in $$X$$ and $$\varphi\colon I \to I$$ is any continuous map with $$\varphi(0)=0$$ and $$\varphi(1)=1.$$ Then $$\gamma$$ is homotopic to its reparametrization $$\gamma\circ\varphi.$$ From this also follows:
+
+* $$(\alpha\cdot\beta)\cdot\gamma \simeq \alpha\cdot(\beta\cdot\gamma).$$ for appropriate paths $$\alpha,\beta,\gamma.$$
+* Suppose $$\gamma$$ is a path in $$X$$ and for $$i=0,1$$ let $$c_i(s) = \gamma(i)$$ be the constant paths. Then $$\gamma \simeq c_0 \cdot \gamma$$ and $$\gamma \simeq \gamma \cdot c_1.$$
+* $$\gamma \cdot \bar\gamma \simeq c_0.$$
+
+</div>
+@@
+
+The set $$\mathcal{P}$$ of homotopy classes with the concatenation operation thus forms a [[groupoid|Groupoid]] called the //fundamental groupoid.//

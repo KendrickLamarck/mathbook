@@ -1,8 +1,7 @@
 created: 20181106162450155
 creator: Leander
-modified: 20200527111647098
+modified: 20201030165851410
 modifier: Leander
-revision: 0
 tags: Lebesgue-Integral [[Haar'sches Maß]]
 title: Transformationssatz
 type: text/vnd.tiddlywiki
@@ -10,12 +9,10 @@ type: text/vnd.tiddlywiki
 !! Riemann
 
 Seien $$U$$ und $$V$$ offene Teilmengen des $$\R^d$$ und $$\varphi\colon U\to V$$ eine $$\mathcal C^1$$-[[invertierbare|Diffeomorphismus]] Abbildung. Dann gilt für jede stetige Funktion $$f\colon V\to\R,$$ so dass $$f_+$$ und $$f_-$$ [[integrierbar|Integral monoton approximierbarer Funktionen]] sind:
-
 $$
 \int_U f(\varphi(x))|{\det\D_x\varphi}|\,\d x=
 \int_V f(y)\,\d y.
 $$
-
 Symbolisch kann man schreiben: $$\d\varphi=|{\det\D\varphi}|\,\d x.$$
 
 Man beachte insbesondere die Sonderfälle, dass $$\D_x\varphi \in \GL(d;\R)$$ oder sogar [[orthogonal|Orthogonaler/unitärer Endomorphismus]] ist.

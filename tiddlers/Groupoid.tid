@@ -1,0 +1,16 @@
+created: 20201109193602433
+modified: 20201109194327388
+tags: Algebra
+title: Groupoid
+type: text/vnd.tiddlywiki
+
+A //groupoid// is a set $$X$$ with a partial (not always defined) binary operation $$*$$ and unary operation $$a \mapsto a^{-1}$$ such that:
+
+# Whenever $$a*b$$ and $$b*c$$ are defined, then $$(a*b)*c$$ and $$a*(b*c)$$ are defined and are equal. Conversely, if one of $$(a*b)*c$$ and $$a*(b*c)$$ is defined, then so are both $$a*b$$ and $$b*c$$ as well as $$(a*b)*c = a*(b*c).$$
+# $$a^{-1}*a$$ and $$a*a^{-1}$$ are always defined.
+# If $$a*b$$ is defined, then $$a^{-1}*a*b=b$$ and $$a*b*b^{-1}=a.$$
+
+From these axioms follow the properties
+
+* $$\left(a^{-1}\right)^{-1}=a,$$
+* If $$a*b$$ is defined, then $$(a*b)^{-1} = b^{-1}*a^{-1}.$$

@@ -1,0 +1,15 @@
+created: 20201109190348462
+modified: 20201109192512187
+tags: [[Algebraic topology]]
+title: Operations on paths
+type: text/vnd.tiddlywiki
+
+* If $$\gamma$$ is a path in $$X$$ from $$p$$ to $$q,$$ then the //inverse path// $$\bar\gamma$$ (from $$q$$ to $$p$$) is $$\bar\gamma(s) \coloneqq \gamma(1-s).$$
+
+* <div>If $$\alpha$$ and $$\beta$$ are paths in $$X$$ with $$\alpha(1) = \beta(0),$$ we define the //concatenation// $$\alpha\cdot\beta$$ as
+$$
+(\alpha\cdot\beta)(s) \coloneqq \begin{cases}
+\alpha(2s), &s \le 1/2, \\
+\beta(2s-1) &s \ge 1/2.
+\end{cases}
+$$</div>

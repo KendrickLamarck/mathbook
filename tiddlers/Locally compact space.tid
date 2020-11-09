@@ -1,8 +1,14 @@
 created: 20191229235110143
-modified: 20191229235430060
-revision: 0
+modified: 20201103143805717
 tags: Topologie
 title: Locally compact space
 type: text/vnd.tiddlywiki
 
-A topological space $$X$$ is called //locally compact,// if every point $$x\in X$$ has a compact neighbourhood, i.e. there exist an open set $$U$$ and a compact set $$K$$ with $$x\in U\subseteq K.$$
+A topological space $$X$$ is called //locally compact,// if every point $$x\in X$$ has a compact neighborhood.
+
+There are two other possible definitions:
+
+# For each $$x \in X,$$ every neighborhood of $$x$$ contains a compact neighborhood.
+# The space $$X$$ has a base consisting of open sets with compact closure.
+
+Each of these is stronger and neither implies the other. However, if $$X$$ is Hausdorff, they are all equivalent.

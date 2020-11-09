@@ -1,0 +1,18 @@
+created: 20201103142849085
+modified: 20201103143942370
+tags: Topologie
+title: Local properties of topological spaces
+type: text/vnd.tiddlywiki
+
+Let $$P$$ be any property of topological spaces. Then the following conditions for a topological space $$X$$ are equivalent:
+
+# $$X$$ has a base of open sets with property $$P.$$
+# Any neighborhood $$N$$  of any point $$x \in X$$ contains an open neighborhood of $$x$$ with property $$P.$$
+
+If this is the case, the space is often called //locally $$P.$$//
+If $$P$$ is inherited by subspaces, this is equivalent to the following simpler conditions:
+
+# $$X$$ has a covering by open sets with property $$P.$$
+# Any point $$x \in X$$ has an open neighborhood with property $$P.$$
+
+Most //locally $$P$$//-type properties are defined in this way. A notable exception is [[local compactness|Locally compact space]].

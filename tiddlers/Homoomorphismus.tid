@@ -1,18 +1,17 @@
 created: 20190114141341046
 creator: Leander
-modified: 20200916190102049
+modified: 20201103141240332
 modifier: Leander
-tags: Stetigkeit
+tags: Stetigkeit Topologie
 title: Homöomorphismus
 type: text/vnd.tiddlywiki
 
-Seien $$X,Y$$ [[topologische Räume|Topologie]]. Eine Abbildung $$f\colon X\to Y$$ heißt ein //Homöomorphismus,// wenn
+Seien $$X,Y$$ [[topologische Räume|Topologie]]. Eine Bijektion $$f\colon X\to Y$$ heißt ein //Homöomorphismus,// wenn sowohl $$f$$ als auch $$f^{-1}$$ stetig sind.
 
-* $$f$$ [[bijektiv|Bijektivität]] ist,
-* $$f$$ [[stetig|Stetigkeit]] ist und
-* die [[Umkehrabbildung]] $$f^{-1}$$ ebenfalls stetig ist.
-
+@@.theorem
+''Theorem''
 if $$X$$ is [[compact|Kompaktheit]] and $$Y$$ is [[Hausdorff|Hausdorff'scher Raum]], then any continuous bijection $$f\colon X\to Y$$ is a homeomorphism.
+@@
 
 !! Local
 

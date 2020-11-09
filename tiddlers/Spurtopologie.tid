@@ -1,10 +1,10 @@
 created: 20180423191435101
 creator: Leander
-modified: 20180725162024458
+modified: 20201103140210816
 modifier: Leander
-revision: 0
-tags: Topologie
+tags: [[Topologischer Raum]]
 title: Spurtopologie
+type: text/vnd.tiddlywiki
 
 Sei $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]] und sei $$Y\subset X$$. Dann ist
 

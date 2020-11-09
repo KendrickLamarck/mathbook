@@ -1,6 +1,5 @@
 created: 20200530143713896
-modified: 20200530145006389
-revision: 0
+modified: 20201103131433181
 tags: Topologie
 title: Separation axioms
 type: text/vnd.tiddlywiki
@@ -19,5 +18,4 @@ The separation axioms in topological spaces are
 # perfectly normal Hausdorff
 
 Here are some examples:
-
 {{||$:/_templates/listTitlesContents}}

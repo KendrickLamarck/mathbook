@@ -1,13 +1,13 @@
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
 
-<pre>div.tc-tiddler-body > p,
-div.tc-tiddler-body > div.theorem > p {
+<pre>div.tc-tiddler-body p,
+div.tc-tiddler-body div.theorem > p {
   margin-top: 0;
   margin-bottom: 0;
 }
 /*only indent paragraphs preceded by another paragraph*/
-div.tc-tiddler-body > p + p,
-div.tc-tiddler-body > div.theorem > p + p {
+div.tc-tiddler-body p + p,
+div.tc-tiddler-body div.theorem > p + p {
   text-indent: 26px; /* calculated from LaTeX 20pt default */
 }
 
@@ -31,4 +31,6 @@ div.tc-tiddler-body hr {
   border-top: solid 1px;
   border-bottom: 0;
 }
+
+tr, td, th, div, span { text-indent: 0; }
 </pre>

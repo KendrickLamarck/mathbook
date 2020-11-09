@@ -1,9 +1,9 @@
 created: 20180320103948917
 creator: Leander
-modified: 20200804063830929
+modified: 20201103134810309
 modifier: Leander
 tags: 
 title: $:/config/RelinkOnRename
 type: text/vnd.tiddlywiki
 
-yes
+no

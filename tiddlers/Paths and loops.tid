@@ -1,8 +1,12 @@
 created: 20201109190348462
-modified: 20201109192512187
+modified: 20201110220336674
 tags: [[Algebraic topology]]
-title: Operations on paths
+title: Paths and loops
 type: text/vnd.tiddlywiki
+
+Let $$X$$ be a topological space and $$x_0,x_1 \in X.$$ A //path// from $$x_0$$ to $$x_1$$ is a continuous map $$\gamma$$ from the unit interval $$I=[0,1]$$ to $$X$$ with $$\gamma(0)=x_0$$ and $$\gamma(1)=x_1.$$ If $$x_0=x_1,$$ this is called a //loop.//
+
+!! Operations on paths
 
 * If $$\gamma$$ is a path in $$X$$ from $$p$$ to $$q,$$ then the //inverse path// $$\bar\gamma$$ (from $$q$$ to $$p$$) is $$\bar\gamma(s) \coloneqq \gamma(1-s).$$
 

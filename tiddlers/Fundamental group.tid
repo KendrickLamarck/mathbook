@@ -1,0 +1,7 @@
+created: 20201110215317727
+modified: 20201110215743584
+tags: [[Algebraic topology]]
+title: Fundamental group
+type: text/vnd.tiddlywiki
+
+Let $$X$$ be a topological space and fix $$x_0 \in X.$$ The set $$\pi_1(X,x_0)$$ of [[homotopy classes|Homotopy of paths]] of loops in $$X$$ based at $$x_0$$ is called the //fundamental group// of $$X.$$ This set with the operation of concatenation is a [[group|Gruppe]].

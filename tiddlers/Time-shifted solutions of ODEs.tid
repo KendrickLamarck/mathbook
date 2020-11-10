@@ -1,0 +1,14 @@
+created: 20201110213516202
+modified: 20201110215217874
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Time-shifted solutions of ODEs
+type: text/vnd.tiddlywiki
+
+If $$x\colon I \to U \subseteq \R^n$$ is a solution of the autonomous ODE $$\dot{x} = f(x),$$ then the time-shifted function $$y(t) \coloneqq x(t-\tau),y\colon I+\tau \to U$$ is a solution as well.
+
+@@.theorem
+''Corollary.''
+Let $$x(\cdot,t_0,x_0)\colon I \to U$$ be the maximal solution of the IVP $$\dot{x} = f(x),\ x(t_0)=x_0.$$ Then for any $$t_1 \in \R,$$ the solution of the different IVP with initial value $$x(t_1) = x_0$$ is $$x(t,t_1,x_0) = x(t-\tau,t_0,x_0),$$ where $$\tau \coloneqq t_1 - t_0.$$
+@@
+
+This means that $$x$$ is a group action on $$U,$$ so it is the [[Flow|Flow]] of the vector field $$f.$$

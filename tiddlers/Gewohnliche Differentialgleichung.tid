@@ -1,9 +1,8 @@
 created: 20180509195852709
 creator: Leander
 list: [[Satz von Peano]] [[Satz von Picard-Lindelöf]] [[Lineare Differentialgleichung]]
-modified: 20200215174035455
+modified: 20201110145323506
 modifier: Leander
-revision: 0
 tags: Analysis
 title: Gewöhnliche Differentialgleichung
 type: text/vnd.tiddlywiki
@@ -42,3 +41,13 @@ heißt ein //Anfangswertproblem.//
 </div>
 
 # Das Anfangswertproblem $$\ddag$$ heißt //eindeutig lösbar,// wenn es eine Lösung gibt und wenn je zwei Lösungen $$x_1\colon J_1\to V$$ und $$x_2\colon J_2\to V$$ auf $$J_1\cap J_2$$ übereinstimmen.
+
+!! Continuing solutions
+
+@@.theorem
+''Theorem.''
+A solution $$x\colon \openI{t_0,t_1} \to V$$ can be continued to the right if and only if the limit $$x_1 \coloneqq \lim_{t \nearrow t_1} x(t)$$ exists and $$(t_1,x_1) \in G.$$
+
+''Theorem.''
+Let $$f\colon \R \times \R^n \supset \Omega \to \R^n$$ be locally Lipschitz w.r.t. $$x$$ and let $$x\colon \openI{t_-,t_+} \to \R^n$$ be a maximal Solution of $$\dot{x} = f(t,x).$$ Then either $$t_+=+\infty$$ or $$t_+<+\infty$$ and $$x(t)$$ explodes at $$t=t_+,$$ i.e. for any compact set $$K \subseteq \Omega$$ there exists $$t'<t_+$$ such that $$(t,x(t)) \notin K$$ for all $$t \in \openI{t',t_+}.$$
+@@

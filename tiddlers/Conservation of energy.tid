@@ -1,0 +1,24 @@
+created: 20201112165636098
+modified: 20201112173621392
+tags: misc
+title: Conservation of energy
+type: text/vnd.tiddlywiki
+
+Consider the second-order dynamical system
+$$
+\ddot{x} = -\fracpartial{\varphi}{x}
+$$
+with $$x \in \R^n$$ and a potential $$\varphi\colon \R^n \to \R.$$ It is equivalent to the first-order system
+$$
+\dot{x}=v, \quad \dot{v} = -\fracpartial{\varphi}{x},
+$$
+now with $$(x,v) \in \R^{2n}.$$
+
+@@.theorem
+''Proposition.''
+This system admits the [[integral of motion|Integral of motion]]
+$$
+H(x,v) = \tfrac{1}{2}\lang v,v \rang + \varphi(x).
+$$
+This is called the //energy integral,// the first term is called the //kinetic energy// and the second term the //potential energy.//
+@@

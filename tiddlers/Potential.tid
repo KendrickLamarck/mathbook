@@ -1,8 +1,7 @@
 created: 20200519132633625
-modified: 20200601180040952
-revision: 0
+modified: 20201112165558881
 tags: misc
 title: Potential
 type: text/vnd.tiddlywiki
 
-Let $$X$$ be a vector field. A scalar field $$f$$ such that $$X = -a\grad f$$ for some constant $$a$$ is called a //potential// of $$X.$$ The function $$af$$ called the //potential energy// $$E_\pot.$$
+Let $$X$$ be a vector field. A scalar field $$f$$ such that $$X = -a\grad f$$ for some constant $$a$$ is called a //potential// of $$X.$$ The function $$af$$ is called the //potential energy// $$E_\pot.$$

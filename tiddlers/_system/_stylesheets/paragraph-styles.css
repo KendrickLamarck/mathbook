@@ -32,5 +32,6 @@ div.tc-tiddler-body hr {
   border-bottom: 0;
 }
 
+/* have to do this because these for some reason inherit the indentation from p elements */
 tr, td, th, div, span { text-indent: 0; }
 </pre>

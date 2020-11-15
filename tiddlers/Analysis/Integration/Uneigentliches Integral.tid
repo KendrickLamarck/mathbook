@@ -1,31 +1,24 @@
 created: 20180226114450495
 creator: Leander
 list: 
-modified: 20191003235704116
+modified: 20201112142247740
 modifier: Leander
-revision: 0
 tags: Regelintegral
 title: Uneigentliches Integral
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon {[a,\infty[}\to\mathbb R$$ eine Funktion, die über jedes Intervall $$[a,b]$$ integrierbar ist. Dann definieren wir wir das uneigentliche Integral
-
 $$
 \int_a^\infty f(x)\,\mathrm dx \coloneqq \lim_{b\to\infty} \int_a^b f(x)\,\mathrm dx,
 $$
-
 falls der Grenzwert existiert. $$\int_{-\infty}^b f(x)\,\mathrm dx$$ definiert man analog und man setzt
-
 $$
 \int_{-\infty}^\infty f(x)\,\mathrm dx \coloneqq \int_{-\infty}^0 f(x)\,\mathrm dx + \int_0^\infty f(x)\,\mathrm dx.
 $$
-
 Für unbeschränkte Funktionen $$f\colon {]a,b]}\to\mathbb R$$ für die für alle $$c\in{]a,b]}$$ das Integral $$\int_c^b f(x)\,\mathrm dx$$ existiert definiert man das uneigentliche Integral
-
 $$
 \lim_{c\searrow b} \int_c^b f(x)\,\mathrm dx,
 $$
-
 falls der Grenzwert existiert.
 
 !! Reihenkriterium

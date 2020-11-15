@@ -1,19 +1,16 @@
 created: 20180226125125510
 creator: Leander
 list: 
-modified: 20191003225323230
+modified: 20201112141426003
 modifier: Leander
-revision: 0
 tags: no-toc Potenzreihe
 title: Differentiation von Potenzreihen
 type: text/vnd.tiddlywiki
 
 Die Funktion $$f$$ sei durch eine reelle [[Potenzreihe]] mit [[Konvergenzradius]] $$R$$ gegeben:
-
 $$
 f(x) = \sum_{k=0}^\infty a_k(x-x_0)^k, \quad |x-x_0| < R.
 $$
-
 Dann gilt
 
 # $$f$$ ist auf $$\{\,x\in\mathbb R: |x-x_0|<R\,\}$$ [[differenzierbar|Ableitung]] und$$

@@ -1,17 +1,14 @@
 created: 20180226123403162
 creator: Leander
 list: 
-modified: 20191011212016542
+modified: 20201112141205820
 modifier: Leander
-revision: 0
 tags: Reihe no-toc
 title: Assoziativgesetz für Reihen
 type: text/vnd.tiddlywiki
 
 Sei $$(a_k)$$ eine [[Folge]] in $$\mathbb C$$, so dass die [[Reihe]] $$\sum |a_k|$$ konvergiert. Sei $$0=n_0<n_1<\ldots$$ eine Folge in $$\mathbb N$$. Dann konvergiert die Reihe $$\sum b_k$$ [[absolut|Absolute Konvergenz]] mit $$\sum b_k = \sum a_k$$, wobei
-
 $$
 b_k = \sum_{i=n_k}^{n_{k+1}-1} a_i.
 $$
-
 Das bedeutet, dass man absolut konvergente Reihen beliebig klammern darf und sie trotzdem zum selben Wert konvergieren.

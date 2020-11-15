@@ -1,36 +1,31 @@
 created: 20180903152040493
 creator: Leander
-modified: 20200101192906562
+modified: 20201114181754589
 modifier: Leander
-revision: 0
 tags: Vektorraum
 title: Quotientenvektorraum
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]] und $$U\subset V$$ ein [[Untervektorraum]]. Für $$v,v'\in V$$ erklären wir die //Äquivalenz modulo $$U$$//
-
 $$
 v\sim v'\vcentcolon\!\!\iff v-v'\in U.
 $$
-
 Das ist eine [[Äquivalenzrelation]]. Weiter definieren wir $$V/U$$ als die Menge aller [[Äquivalenzklassen|Äquivalenzklasse]] und nennen sie den //Quotientenvektorraum von $$V$$ nach $$U$$.// Die Äquivalenzklasse eines $$v\in V$$ ist gleich dem [[affinen Unterraum|Affiner Unterraum]], also
-
 $$
 \{\,v'\in V:v'\sim v\,\}=v+U.
 $$
-
 Weiter gibt es die kanonische Abbildung
-
 $$
 \varrho\colon V\to V/U=\{\,v+U:v\in V\,\},\quad v\mapsto \varrho(v)=v+U.
 $$
 
+@@.theorem
 ''Satz.''
 Sei $$V$$ ein $$K$$-Vektorraum und $$U\subset V$$ ein Untervektorraum. Dann kann man die Menge $$V/U$$ auf genau eine Weise so zu einem $$K$$-Vektorraum machen, dass die kanonische Abbildung [[linear|Lineare Abbildung]] wird, nämlich mit den Verknüpfungen
-
 $$
 (v+U)+(w+U)=(v+w)+U,\qquad \lambda (v+U)= (\lambda v)+U.
 $$
+@@
 
 Weiter gilt:
 
@@ -39,14 +34,14 @@ Weiter gilt:
 * $$\dim V/U=\dim V-\dim U,$$ falls $$\dim V<\infty.$$
 * Der Quotientenvektorraum $$V/U$$ hat die folgende universelle Eigenschaft: Ist $$F\colon V\to W$$ eine lineare Abbildung mit $$U\subset\ker F,$$ so gibt es genau eine lineare Abbildung $$\bar F\colon V/U\to W$$ mit $$F=\bar F\circ\varrho$$ (man zeichne ein kommutatives Diagramm). Weiter ist $$\ker\bar F=(\ker F)/U.$$
 
+@@.theorem
 ''Satz.''
 Sei $$V=V_1\oplus V_2$$ und $$\varrho\colon V\to V/V_2$$ die kanonische Abbildung. Dann ist
-
 $$
 \varrho'\coloneqq\varrho|_{V_1}\colon V_1\to V/V_2
 $$
-
 ein [[Isomorphismus]].
+@@
 
 !! Dualraum
 

@@ -1,13 +1,11 @@
 created: 20181026155327379
-modified: 20190102013742306
-revision: 0
+modified: 20201112142419023
 tags: [[Haar'sches Maß]]
 title: Integral von Produktfunktionen
+type: text/vnd.tiddlywiki
 
 Falls $$f$$ von der Form $$f=\bigotimes_{i=1}^d \varphi_i$$ ist, also $$f(x_1,\dots,x_d)=\prod_{i=1}^d \varphi_i(x_i)$$ für [[stetige|Stetigkeit]] Funktionen $$\varphi_1,\dots,\varphi_d\colon\mathbb R\to\mathbb R$$ mit [[kompaktem|Kompaktheit]] [[Träger|Träger]], so ist $$f\in\mathcal C_\mathrm c(\mathbb R^d)$$ und es gilt
-
 $$
 \int_{\mathbb R^d} f(x)\,\mathrm dx=\prod_{i=1}^d\int_\mathbb R \varphi_i(x_i)\,\mathrm dx_i.
 $$
-
 Man nennt $$f$$ auch das [[Tensorprodukt]] der Funktionen $$\varphi_1,\dots,\varphi_d.$$

@@ -1,17 +1,14 @@
 created: 20180227152653317
 creator: Leander
 list: 
-modified: 20191003225135383
+modified: 20201112141248940
 modifier: Leander
-revision: 0
 tags: Potenzreihe
 title: Quotientenkriterium für Potenzreihen
 type: text/vnd.tiddlywiki
 
 Sei $$\sum_{k=0}^\infty a_k(z-z_0)^k$$ eine [[Potenzreihe]] mit [[Konvergenzradius]] $$R\in \left[0,\infty\right[ \cup \{+\infty\}$$ wobei $$a_k\neq 0$$ für fast alle $$k\in\mathbb N$$ und
-
 $$
 \lim_{k\to\infty} \left|\frac{a_{k+1}}{a_k}\right| = r \in \left[0,\infty\right[ \cup \{+\infty\}.
 $$
-
 Dann gilt $$R=1/r$$ (mit $$R=0$$ für $$r=+\infty$$ und $$R=+\infty$$ für $$r=0$$).

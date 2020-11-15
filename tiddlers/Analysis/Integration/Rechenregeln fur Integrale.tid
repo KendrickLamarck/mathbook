@@ -2,18 +2,16 @@ caption: Rechenregeln
 created: 20180125200028128
 creator: Leander
 list: 
-modified: 20200721151747605
+modified: 20201112142014249
 modifier: Leander
 tags: Regelintegral
 title: Rechenregeln für Integrale
 type: text/vnd.tiddlywiki
 
 Die Menge $$\mathcal R([a,b])$$ der [[Regelfunktionen|Regelfunktion]] auf $$[a,b]$$ ist bezüglich wertweiser Addition und Skalarmultiplikation ein [[Vektorraum]],
-
 $$
 \int_a^b\colon\mathcal R([a,b])\to\mathbb R
 $$
-
 ist [[linear|Lineare Abbildung]] und es gilt für $$f,g\in\mathcal R([a,b]),\,c\in\mathbb R$$ und $$a<b<c$$:
 
 $$\begin{gathered}

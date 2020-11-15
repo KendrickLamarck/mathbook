@@ -2,15 +2,13 @@ caption: Folgen
 created: 20180315140253613
 creator: Leander
 list: Konvergenz [[Divergenz (Folgen)]] Vollständigkeitsaxiom Cauchyfolge Reihen-Cauchyfolgenkriterium [[Existenz von Infimum, Supremum und Folgen]] Teilfolge [[Teilfolgen konvergenter Folgen]] Folgenkompaktheit [[Häufungspunkt (Folgen)]] [[Existenz monotoner Teilfolgen]] [[Limes superior/inferior]] [[Limes superior/inferior und Folgen]] [[Rechenregeln für konvergente Folgen]] [[Satz von Bolzano-Weierstraß]] [[Folge für Wurzeln]] [[Komponentenweise Konvergenz]] Folgenräume
-modified: 20200619131007644
+modified: 20201112140657561
 modifier: Leander
-revision: 0
 tags: Analysis
 title: Folge
 type: text/vnd.tiddlywiki
 
 Sei $$X$$ eine Menge. Eine //Folge// $$(x_n)_{n \in \mathbb{N}}$$ oder $$(x_n)$$ ist eine [[Abbildung]]
-
 $$
 \mathbb{N} \to X, \quad n \mapsto x_n.
 $$

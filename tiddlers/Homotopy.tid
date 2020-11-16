@@ -1,0 +1,18 @@
+created: 20201116215305181
+modified: 20201116220912543
+tags: [[Algebraic topology]]
+title: Homotopy
+type: text/vnd.tiddlywiki
+
+Two maps $$f_0,f_1\colon X \to Y$$ are //homotopic// to each other, in symbols $$f_0 \simeq f_1,$$ if there is a homotopy between them, meaning a map
+$$
+H\colon X \times I \to Y,\quad H(x,t) = f_t(x).
+$$
+If $$f_0|_A = f_1|_A$$ for some $$A \subseteq X,$$ then we say $$H = (f_t)$$ is a //homotopy relative to $$A$$// if $$f_t|_A = f_0|_A$$ for all $$t \in I.$$ Both of these notions define equivalence relations.
+
+Two spaces $$X,Y$$ are homotopy-equivalent, written again $$X \simeq Y,$$ if there exist $$f\colon X \to Y$$ and $$g\colon Y \to X$$ which are homotopy inverses of each other in the sense that $$f \circ g \simeq \id_Y$$ and $$g \circ f \simeq \id_X.$$
+
+@@.theorem
+''Theorem.''
+{{Homotopy lifting}}
+@@

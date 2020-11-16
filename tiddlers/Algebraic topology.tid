@@ -1,10 +1,11 @@
 created: 20201109184658598
 list: [[Paths and loops]] [[Homotopy of paths]] [[Fundamental group]]
-modified: 20201110221112989
+modified: 20201116185654614
 tags: Mathematics
 title: Algebraic topology
 type: text/vnd.tiddlywiki
 
-$$I = [0,1]$$
+* $$I = [0,1].$$
+* All maps are continuous by default.
 
 {{||$:/_templates/tree}}

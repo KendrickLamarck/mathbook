@@ -1,0 +1,17 @@
+created: 20201116185618483
+modified: 20201116191050777
+tags: [[Algebraic topology]]
+title: Covering space
+type: text/vnd.tiddlywiki
+
+Let $$X$$ be a topological space, $$F$$ discrete. Then $$X \times F = \sqcup_{f \in F} X$$ and the projection $$\pi\colon X \times F \to X$$ is called a //trivial covering.//
+
+A map $$p\colon X \to \tilde{X}$$ is a //covering map// if $$X$$ has an open cover by trivializing neighborhoods $$N_\alpha,$$ meaning $$p\colon p^{-1}(N_\alpha) \to N_\alpha$$ is, up to homeomorphism, a trivial covering, i.e. there is a homeomorphism $$\varphi$$ from $$p^{-1}(N_\alpha)$$ to $$N_\alpha \times F_\alpha$$ for some discrete $$F_\alpha$$ and $$p = \pi \circ \varphi$$ holds.
+
+* We say $$\tilde{X}$$ is a //covering space// of $$X$$ or $$\tilde{X}$$ //covers// $$X.$$
+* We call $$\tilde{X}$$ the //total space// and $$X$$ the //base space.//
+* This is the same as a fiber bundle with discrete fibers.
+
+@@.theorem
+''Proposition.''
+If $$X$$ is connected, then the cardinality $$n \coloneqq \#p^{-1}\{x\}$$ is constant over $$x \in X,$$ so we call $$\tilde{X}$$ an $$n$$-sheeted covering (might be infinite).

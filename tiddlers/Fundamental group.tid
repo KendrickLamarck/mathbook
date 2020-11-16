@@ -1,7 +1,18 @@
 created: 20201110215317727
-modified: 20201110215743584
+modified: 20201116180938439
 tags: [[Algebraic topology]]
 title: Fundamental group
 type: text/vnd.tiddlywiki
 
-Let $$X$$ be a topological space and fix $$x_0 \in X.$$ The set $$\pi_1(X,x_0)$$ of [[homotopy classes|Homotopy of paths]] of loops in $$X$$ based at $$x_0$$ is called the //fundamental group// of $$X.$$ This set with the operation of concatenation is a [[group|Gruppe]].
+Let $$X$$ be a topological space and fix $$x_0 \in X.$$ The group consisting of the set $$\pi_1(X,x_0)$$ of [[homotopy classes|Homotopy of paths]] of loops in $$X$$ based at $$x_0$$ with the operation of concatenation is called the //fundamental group// of $$X.$$
+
+Now let $$x_1 \in X$$ be another point. If there exists a path $$\alpha$$ from $$x_0$$ to $$x_1,$$ we can define the map
+$$
+\varphi_\alpha\colon \pi_1(X,x_0) \to \pi_1(X,x_1),\quad
+[\gamma] \mapsto [\bar\alpha\cdot\gamma\cdot\alpha].
+$$
+It is well-defined since homotopies can be transported in the same way and it is a group isomorphism. We call $$\varphi_\alpha$$ the //change-of-basepoint isomorphism.// Therefore, in a path-connected space the fundamental groups at different base points are isomorphic, but the isomorphisms depend on the choice of path $$\alpha$$: If $$\psi_g$$ denotes the [[conjugation|Conjugation]] by a group element $$g,$$ and $$\alpha,\beta$$ are paths from $$x_0$$ to $$x_1,$$ then
+$$
+\varphi_\beta[\gamma] = \psi_{[\bar\alpha,\beta]}(\varphi_\alpha[\gamma]),
+$$
+i.e. any two isomorphisms differ by the inner automorphism given by conjugation.

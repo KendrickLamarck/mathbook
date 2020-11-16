@@ -1,5 +1,5 @@
 created: 20201113160258074
-modified: 20201113160323308
+modified: 20201116135336689
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Continuing ODE solutions
 type: text/vnd.tiddlywiki
@@ -8,6 +8,13 @@ type: text/vnd.tiddlywiki
 ''Theorem.''
 A solution $$x\colon \openI{t_0,t_1} \to V$$ can be continued to the right if and only if the limit $$x_1 \coloneqq \lim_{t \nearrow t_1} x(t)$$ exists and $$(t_1,x_1) \in G.$$
 
+<div>
+
 ''Theorem.''
-Let $$f\colon \R \times \R^n \supset \Omega \to \R^n$$ be locally Lipschitz w.r.t. $$x$$ and let $$x\colon \openI{t_-,t_+} \to \R^n$$ be a maximal Solution of $$\dot{x} = f(t,x).$$ Then either $$t_+=+\infty$$ or $$t_+<+\infty$$ and $$x(t)$$ explodes at $$t=t_+,$$ i.e. for any compact set $$K \subseteq \Omega$$ there exists $$t'<t_+$$ such that $$(t,x(t)) \notin K$$ for all $$t \in \openI{t',t_+}.$$
+Let $$f\colon \R \times \R^n \supset \Omega \to \R^n$$ be locally Lipschitz w.r.t. $$x$$ and let $$x\colon \openI{t_-,t_+} \to \R^n$$ be a maximal Solution of $$\dot{x} = f(t,x).$$ Then either
+
+* $$t_+=+\infty$$ or
+* $$t_+<+\infty$$ and $$x(t)$$ explodes at $$t=t_+,$$ i.e. for any compact set $$K \subseteq \Omega$$ there exists $$t'<t_+$$ such that $$(t,x(t)) \notin K$$ for all $$t \in \openI{t',t_+}.$$
+
+</div>
 @@

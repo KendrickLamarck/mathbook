@@ -1,0 +1,18 @@
+created: 20201120161945412
+modified: 20201120171925762
+tags: [[Algebraic topology]]
+title: Borsuk's lemma
+type: text/vnd.tiddlywiki
+
+If $$f\colon \sphere^{m-1} \to \sphere^{m-1}$$ is odd, then $$\deg f$$ is odd.
+
+We have the following lemmas and corollaries:
+
+* If $$f\colon \sphere^{m-1} \to \sphere^{m-1}$$ extends to a map $$\bar{f}\colon D^m \to \sphere^{m-1},$$ then $$\deg f = 0.$$
+* There is no odd map $$\sphere^{m} \to \sphere^{m-1}.$$
+* ''Borsuk-Ulam theorem:'' Given any continuous map $$f\colon \sphere^m \to \R^m,$$ there exists a pair of antipodal points in $$\sphere^m$$ such that $$f(x) = f(-x).$$
+* There is no injective map $$\sphere^m \to \R^m.$$ In particular, no subset of $$\R^m$$ is homeomorphic to $$\sphere^m.$$
+* Invariance of dimension: No subset of $$\R^m$$ is homeomorphic to any open subset of $$\R^n$$ for any $$n>m.$$
+* Any odd map $$\sphere^m \to \R^m$$ has a zero.
+* ''Lyusternik-Schnirelmann theorem:'' It is impossible to cover $$\sphere^m$$ with $$m+1$$ closed subsets, none of which contains any antipodal pairs.
+* ''Ham sandwich theorem:'' Given $$m+1$$ objects (measurable subsets) $$A_0,\dots,A_m$$ in $$\R^{m+1},$$ there is an affine hyperplane which bisects each $$A_i,$$ cutting it exactly in half by volume.

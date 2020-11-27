@@ -1,0 +1,10 @@
+created: 20201120153238146
+modified: 20201120153831063
+tags: [[Algebraic topology]]
+title: Winding number
+type: text/vnd.tiddlywiki
+
+Suppose $$\gamma\colon \sphere^1 \to \R^2$$ is an oriented closed curve with $$p \notin \gamma(\sphere^1).$$ Radial projection $$\pi_p$$ around $$p$$ can be viewed as a deformation retraction $$\R^2 \setminus \{p\} \cong \sphere^1 \to \sphere^1,$$ so we define the //winding number// of $$\gamma$$ around $$p$$ to be
+$$
+W(\gamma,p) \coloneqq \deg(\pi_p \circ \gamma).
+$$

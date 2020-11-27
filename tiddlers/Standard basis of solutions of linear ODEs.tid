@@ -1,0 +1,27 @@
+created: 20201124141345021
+modified: 20201124143622515
+tags: [[Lineare Differentialgleichung]]
+title: Standard basis of solutions of linear ODEs
+type: text/vnd.tiddlywiki
+
+Consider a homogeneous [[linear ODE|Lineare Differentialgleichung]] $$\dot{x} = F(t)x,$$ on $$\R^n.$$ We can obtain a standard basis for the $$n$$-dimensional solution space, by taking the solutions $$x_1,\dots,x_n$$ whose initial values are the standard basis vectors, i.e. $$x_i(t_0) = e_i$$ for $$i=1,\dots,n.$$ An arbitrary solution with the initial value
+$$
+x(t_0) = x_0 = \begin{pmatrix}x_{10}\\ \vdots \\x_{n0}\end{pmatrix}
+$$ is then given by
+$$
+x(t) = x_{10} x_1(t) + \dots + x_{n0} x_n(t) = X(t) x_0,
+$$
+where $$X(t) = (x_1(t),\dots,x_n(t))$$ is the matrix containing the standard solution basis as columns. It solves the same, but matrix-valued ODE
+$$
+\dot{X} = A(t)X,\qquad X(t_0) = I_n.
+$$
+Any matrix-valued solution $$X(t)$$ of $$\dot{X} = A(t) X.$$ with $$\det X(t_0) \ne 0$$ for some (and then for all) $$t_0$$ is called a //fundamental solution// of the equation.
+
+@@.theorem
+''Theorem.''
+Let $$X\colon I \to \R^{n \times n}$$ be a fundamental solution. Then for any other matrix-valued solution $$Y \colon I \to \R^{n \times m}$$ we have
+$$
+Y(t) = X(t)C
+$$
+with a suitable $$C \in \R^{n \times m}.$$ If $$Y$$ is a square matrix, is a fundamental solution if and only if $$\det C \ne 0.$$
+@@

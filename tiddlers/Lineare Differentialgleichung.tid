@@ -1,7 +1,7 @@
 created: 20180801132454460
 creator: Leander
 list: [[Hauptsatz über lineare Differentialgleichungen]] [[Lineare Differentialgleichung mit konstanten Koeffizienten]] [[Lineare Differentialgleichung höherer Ordnung]] [[Lineare Differentialgleichung höherer Ordnung mit konstanten Koeffizienten]]
-modified: 20201106141224072
+modified: 20201124154801683
 modifier: Leander
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Lineare Differentialgleichung
@@ -21,6 +21,13 @@ $$
 $$
 bilden deshalb einen [[Vektorraum]] $$\ker L$$ und alle Lösungen auf $$J$$ erhält man, indem man zu einer partikulären Lösung $$\tilde x$$ alle Lösungen der homogenen Gleichung addiert.
 
-!! Hauptsatz
+@@.theorem
+<div>
 
 {{Hauptsatz über lineare Differentialgleichungen}}
+
+</div>
+
+''Theorem.''
+Let all Eigenvalues of $$A \in \R^{n \times n}$$ have $$\Re(\lambda_i)<0$$ and let $$b\colon \R \to \R^n$$ be a bounded function. Then $$\dot{x} = Ax + b(t)$$ has a unique solution which is bounded on $$\R.$$
+@@

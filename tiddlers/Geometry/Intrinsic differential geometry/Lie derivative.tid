@@ -1,6 +1,6 @@
 created: 20191213213736739
 lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
-modified: 20201112165330379
+modified: 20201119205708913
 tags: [[Intrinsic differential geometry]]
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -12,6 +12,28 @@ $$
 L_f F \coloneqq \sum_kf_k \fracpartial{}{x_k}F =
 \lang f,\grad F\rang.
 $$
+If for two flows $$\Phi$$ and $$\Psi$$ of vector fields $$f$$ and $$g$$ on $$\R^n$$ and a real-valued function $$F,$$ we define
+$$
+\Delta(t,s,x) \coloneqq
+F(\Phi^t \circ \Psi^s(x)) - F(\Psi^s \circ \Phi^t(x)),
+$$
+we get
+$$
+\left.\frac{\partial^2}{\partial t\partial s}\right|_{t=s=0} \Delta(t,s) =
+(L_g L_f - L_f L_g) F(x)
+$$
+and this commutator is a first-order differential operator.
+
+@@.theorem
+''Theorem.''
+If we define the vector field $$[g,f]$$ by
+$$
+[g,f]_l \coloneqq \sum_{k=1}^n \left(
+  g_k \fracpartial{f_l}{x_k}-f_k\fracpartial{g_l}{x_k}
+\right),
+$$
+then $$L_gL_f - L_fL_g = L_{[g,f]}.$$
+@@
 
 !! Vector fields
 

@@ -1,0 +1,9 @@
+created: 20201117134416135
+modified: 20201117142501137
+tags: [[Algebraic topology]]
+title: Pointed space
+type: text/vnd.tiddlywiki
+
+A //pointed space// $$(X,x)$$ is a topological space $$X$$ together with a point $$x \in X.$$ A morphism of pointed spaces is a continuous map $$f\colon (X,x) \to (Y,y)$$ such that $$f(x) = y.$$
+
+The path-lifting property in this case reads as follows: Given a based path $$\gamma\colon (I,0) \to (X,x)$$ and a covering $$p\colon (\tilde{X},\tilde{x}) \to (X,x),$$ there exists a unique lift $$\tilde{\gamma}\colon (I,0) \to (\tilde{X},\tilde{x}).$$

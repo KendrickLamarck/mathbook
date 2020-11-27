@@ -1,0 +1,7 @@
+created: 20201117130013093
+modified: 20201117130959000
+tags: [[Algebraic topology]]
+title: Fiber bundle
+type: text/vnd.tiddlywiki
+
+A //fiber bundle// with //fiber// $$F$$ and //base space// $$B$$ is a map $$p\colon E \to B$$ from the //total space// $$E$$ to the base space such that $$B$$ is covered by //trivializing neighborhoods// $$N_\alpha,$$ that is, by neighborhoods over which the bundle is trivial: There is a homeomorphism $$\varphi\colon p^{-1} N_\alpha \to N_\alpha \times F$$ such that $$p = \pi \circ \varphi.$$

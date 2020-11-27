@@ -1,0 +1,22 @@
+created: 20201119212006809
+modified: 20201120135032336
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Phase volume
+type: text/vnd.tiddlywiki
+
+Let $$\Phi^t$$ be the flow of a dynamical system with vector field $$f$$ on $$\R^n$$ and let $$D \subset \R^n$$ be a bounded open set. We then have the formula
+$$
+\left.\fracderiv{}{t}\right|_{t=0} \vol(\Phi^t(D)) =
+\int_D \divergence f(y)\,\d y_1\cdots\d y_n.
+$$
+
+@@.theorem
+''Theorem (of Liouville).''
+The phase volume is preserved by the phase flow of a dynamical systen if and only if $$\divergence f \equiv 0.$$
+
+''Theorem.''
+A discrete time dynamical system $$(\Phi^n)_{n \in \Z}$$ preserves phase volume if and only if $$\left|\det\Phi'\right|=1.$$
+
+''Theorem (Poincaré recurrence theorem).''
+{{Poincaré recurrence theorem}}
+@@

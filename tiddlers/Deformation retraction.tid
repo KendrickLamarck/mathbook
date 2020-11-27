@@ -1,0 +1,14 @@
+created: 20201117150501708
+modified: 20201126155345649
+tags: [[Algebraic topology]] no-toc
+title: Deformation retraction
+type: text/vnd.tiddlywiki
+
+A //weak deformation retraction// is a [[retraction|Retraction]] $$r\colon X \to A$$ which is homotopic to the identity. More precisely, $$i \circ r \simeq \id_X.$$ This is even a homotopy equivalence.
+
+A //deformation retraction// is a retraction $$r\colon X \to A$$ such that $$i \circ r \simeq \id_X$$ relative to $$A.$$
+
+@@.theorem
+''Proposition.''
+If $$r\colon X \to A$$ is a deformation retraction, then $$i_*$$ is surjective, so $$i_*$$ and $$r_*$$ are inverse isomorphisms of the fundamental groups.
+@@

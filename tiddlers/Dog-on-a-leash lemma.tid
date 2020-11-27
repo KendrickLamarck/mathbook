@@ -1,0 +1,11 @@
+created: 20201120153918331
+modified: 20201120155215556
+tags: [[Algebraic topology]]
+title: Dog-on-a-leash lemma
+type: text/vnd.tiddlywiki
+
+Given two loops $$\gamma_0,\gamma_1\colon \sphere^1 \to \R^2 \setminus \{0\}$$ in the punctured plane, if
+$$
+\|\gamma_0(s) - \gamma_1(s)\| \le \|\gamma_0(s)\|
+$$
+for all $$s \in \sphere^1,$$ then $$\gamma_0 \simeq \gamma_1$$ in $$\R^2 \setminus \{0\}.$$

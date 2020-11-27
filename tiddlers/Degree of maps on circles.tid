@@ -1,0 +1,16 @@
+created: 20201120152423843
+modified: 20201120164458603
+tags: [[Algebraic topology]]
+title: Degree of maps on circles
+type: text/vnd.tiddlywiki
+
+If $$f\colon \sphere^1 \to \sphere^1$$ is a map, then we can define its //degree// as follows: Choose a basepoint $$x_0 \in \sphere^1$$ and obtain the (natural, because $$\Z$$ is abelian) homomorphism
+$$
+f_*\colon \Z \cong \pi_1(\sphere^1,x_0) \to \pi_1(\sphere^1,f(x_0)) \cong \Z.
+$$
+Any such homomorphism is given by $$k \mapsto nk$$ for some $$n \in Z.$$ We define the degree $$\deg f$$ of $$f$$ to be $$n.$$
+
+* The degree of the identity map is 1.
+* The degree of any constant map is 0.
+* If $$f \simeq g$$ are homotopic, then $$\deg f = \deg g.$$
+* $$\deg(g \circ f) = \deg g \cdot \deg f.$$

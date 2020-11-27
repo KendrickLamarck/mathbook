@@ -1,0 +1,10 @@
+created: 20201120135032402
+modified: 20201120135055757
+tags: Maßtheorie
+title: Poincaré recurrence theorem
+type: text/vnd.tiddlywiki
+
+Let $$(X,\mu)$$ be a probability space and let $$f\colon X \to X$$ be a measure-preserving map, i.e. $$\mu(f^{-1}E) = \mu(E)$$ for any measurable set $$E \subseteq X.$$ Then, for any measurable set $$E,$$ almost all points of $$E$$ return to $$E$$ under iterates of $$f$$ infinitely many times:
+$$
+\mu\{x \in E : \exists N \in \N\colon f^n(x) \notin E\ \forall n \ge N\} = 0.
+$$

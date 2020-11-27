@@ -1,0 +1,31 @@
+created: 20201119221108582
+modified: 20201119223257809
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Fixed points of dynamical systems
+type: text/vnd.tiddlywiki
+
+A fixed point $$x_0$$ of a dynamical system $$(\Phi^t)_{t \in \R}$$ is called
+
+* <div>//(Lyapunov) stable// if
+$$
+\forall\varepsilon>0\ \exists\delta>0\colon
+y \in B_\delta(x_0) \implies \Phi^t(y) \in B_\varepsilon(x_0)\ \forall t \ge 0.
+$$</div>
+
+* <div>//Asymptotically stable// if it is Lyapunov stable and additionally
+$$
+\exists \delta_1 > 0\colon
+y \in B_{\delta_1}(x_0) \implies \lim_{t \to \infty} \Phi^t(y) = x_0.
+$$</div>
+
+* <div>//Unstable// if it is not Lyapunov stable, i.e.
+$$
+\exists \varepsilon > 0\ \exists (y_n)_{n \in \N}\colon
+\lim_{n \to \infty} y_n = x_0,\ \Phi^{t_n}(y_n) \notin B_\varepsilon(x_0)
+$$
+for suitable $$t_n > 0.$$</div>
+
+@@.theorem
+''Theorem.''
+Suppose that a maximal solution $$x\colon I = (t_-,t_+) \to U$$ of $$\dot{x} = f(x)$$ with a continuous vector field $$f\colon U \to \R^n$$ has a definite limit $$\lim_{t \to t_+} x(t) = x_0 \in U.$$ Then $$t_+ = \infty$$ (as we know) and $$x_0$$ must be a fixed point.
+@@

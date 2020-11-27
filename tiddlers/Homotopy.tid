@@ -1,5 +1,5 @@
 created: 20201116215305181
-modified: 20201116220912543
+modified: 20201121145243741
 tags: [[Algebraic topology]]
 title: Homotopy
 type: text/vnd.tiddlywiki
@@ -10,9 +10,14 @@ H\colon X \times I \to Y,\quad H(x,t) = f_t(x).
 $$
 If $$f_0|_A = f_1|_A$$ for some $$A \subseteq X,$$ then we say $$H = (f_t)$$ is a //homotopy relative to $$A$$// if $$f_t|_A = f_0|_A$$ for all $$t \in I.$$ Both of these notions define equivalence relations.
 
+@@.theorem
+''Theorem (homotopy lifting).''
+{{Homotopy lifting}}
+@@
+
 Two spaces $$X,Y$$ are homotopy-equivalent, written again $$X \simeq Y,$$ if there exist $$f\colon X \to Y$$ and $$g\colon Y \to X$$ which are homotopy inverses of each other in the sense that $$f \circ g \simeq \id_Y$$ and $$g \circ f \simeq \id_X.$$
 
 @@.theorem
 ''Theorem.''
-{{Homotopy lifting}}
+Two spaces $$X$$ and $$Y$$ are homotopy equivalent if and only if there exists a space $$Z$$ which contains both $$X$$ and $$Y$$ as deformation retracts.
 @@

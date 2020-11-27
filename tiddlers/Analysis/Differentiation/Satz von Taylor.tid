@@ -1,30 +1,24 @@
 created: 20180621112736759
 creator: Leander
-modified: 20200327184025782
+modified: 20201124161846444
 modifier: Leander
-revision: 0
 tags: [[Höhere Ableitungen]]
 title: Satz von Taylor
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon V\supset G\to W$$ $$n$$-mal [[differenzierbar|Höhere Ableitungen]]. Dann lässt sich $$f$$ darstellen als
-
 $$
 f(x)=\Biggl(
 \sum_{k=0}^n
 \frac{1}{k!} \D_p^k f( \underbrace{x-p,\dots,x-p}_{k\text{-mal}} )
 \Biggr) + R(x),
 $$
-
 wobei für die dadurch definierte Restfunktion $$R$$ gilt:
-
 $$
 \lim_{x\to p} \frac {R(x)} {\|x-p\|^n} = 0.
 $$
-
 ''Zusatz:''
 Ist $$f$$ sogar $$n+1$$-mal differenzierbar und reellwertig und ist $$\overline{px}\subset G,$$ so gibt es $$q\in\overline{px},$$ so dass
-
 $$
 R(x) = \frac {1} {(n+1)!} \D_q^{n+1}
 f( \underbrace{x-p,\dots,x-p}_{n+1\text{-mal}} ).

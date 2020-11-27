@@ -1,0 +1,19 @@
+created: 20201117142849342
+modified: 20201126155339756
+tags: [[Algebraic topology]]
+title: Retraction
+type: text/vnd.tiddlywiki
+
+Given $$A \subseteq X,$$ a retraction of $$X$$ onto $$A$$ is a map $$r\colon X \to A$$ whose restriction to $$A$$ is the identity.
+
+@@.theorem
+''Proposition.''
+Let $$r\colon X \to A$$ be a retraction and $$i\colon A \hookrightarrow X$$ be the inclusion map. Choose any $$a \in A$$ as the base point for $$A$$ and $$X.$$ Then the induced map $$r_*$$ on the fundamental groups is surjective, while $$i_*$$ is injective.
+
+''Corollary.''
+There is no retraction from $$D^2$$ onto its boundary $$\sphere^1 = \partial D^2.$$ In fact, this is true in arbitrary dimension.
+@@
+
+!! Deformation retraction
+
+{{Deformation retraction}}

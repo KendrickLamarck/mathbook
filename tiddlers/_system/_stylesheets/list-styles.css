@@ -7,3 +7,10 @@ div.tc-tiddler-body li:not([class]) {
 div.tc-tiddler-body ol:not([class]) {
   list-style-type: lower-roman;
 }
+/*
+div.tc-tiddler-body ul:last-of-type,
+div.tc-tiddler-body ol:last-of-type,
+div.tc-tiddler-body li:last-of-type, {
+  margin-bottom: 0;
+}
+*/

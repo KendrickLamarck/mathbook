@@ -1,5 +1,5 @@
 created: 20201119221108582
-modified: 20201119223257809
+modified: 20201127154924625
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Fixed points of dynamical systems
 type: text/vnd.tiddlywiki
@@ -28,4 +28,10 @@ for suitable $$t_n > 0.$$</div>
 @@.theorem
 ''Theorem.''
 Suppose that a maximal solution $$x\colon I = (t_-,t_+) \to U$$ of $$\dot{x} = f(x)$$ with a continuous vector field $$f\colon U \to \R^n$$ has a definite limit $$\lim_{t \to t_+} x(t) = x_0 \in U.$$ Then $$t_+ = \infty$$ (as we know) and $$x_0$$ must be a fixed point.
+
+<div>
+
+{{Poincaré-Lyapunov theorem}}
+
+</div>
 @@

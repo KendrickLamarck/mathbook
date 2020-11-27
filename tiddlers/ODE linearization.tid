@@ -1,5 +1,5 @@
 created: 20201120135404724
-modified: 20201120140755096
+modified: 20201127153357621
 tags: [[Gewöhnliche Differentialgleichung]]
 title: ODE linearization
 type: text/vnd.tiddlywiki
@@ -13,13 +13,7 @@ is called the //Poincaré variational system// for the fixed point $$x_0.$$
 @@.theorem
 <div>
 
-''Theorem (Poincaré-Lyapunov).''
-Let $$x_0$$ be the fixed point of a $$\smooth^1$$ - vector field $$f\colon U \to \R^n,$$ set $$A \coloneqq f'(x_0).$$
-
-* If all eigenvalues of $$A$$ have negative real parts $$\Re(x_i)<0,\ i=1,\dots,n,$$ then $$x_0$$ is asymptotically stable.
-* If at least one Eigenvalue of $$A$$ has positive real part $$\Re(x_i)>0$$ for some $$i=1,\dots,n,$$ then $$x_0$$ is unstable.
-
-No statement is made if some values are negative and the others are zero.
+{{Poincaré-Lyapunov theorem}}
 
 </div>
 @@

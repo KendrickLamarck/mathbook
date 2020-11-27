@@ -1,0 +1,13 @@
+created: 20201127153319854
+modified: 20201127154931057
+tags: [[Gewöhnliche Differentialgleichung]] no-toc
+title: Poincaré-Lyapunov theorem
+type: text/vnd.tiddlywiki
+
+''Theorem (Poincaré-Lyapunov).''
+Let $$x_0$$ be the fixed point of a $$\smooth^1$$ - vector field $$f\colon U \to \R^n.$$
+
+* If all eigenvalues of $$f'(x_0)$$ have negative real parts $$\Re(x_i)<0,\ i=1,\dots,n,$$ then $$x_0$$ is asymptotically stable.
+* If at least one Eigenvalue of $$f'(x_0)$$ has positive real part $$\Re(x_i)>0$$ for some $$i=1,\dots,n,$$ then $$x_0$$ is unstable.
+
+No statement is made if no values are positive and some are zero. In this case, we have to look at the non-linear terms in $$f(x) = f'(x_0)x + O(x^2)$$ or use [[Lyapunov functions|Lyapunov function]].

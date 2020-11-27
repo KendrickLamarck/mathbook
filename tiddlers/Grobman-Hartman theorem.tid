@@ -1,0 +1,18 @@
+created: 20201127143759351
+modified: 20201127144818666
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Grobman-Hartman theorem
+type: text/vnd.tiddlywiki
+
+A fixed point $$x_0$$ of $$\dot{x} = f(x)$$ is called //hyperbolic,// if for all eigenvalues $$\lambda_1,\dots,\lambda_n$$ of $$f'(x_0)$$ we have $$\Re(\lambda_i) \ne 0.$$
+
+@@.theorem
+<div>
+
+''Theorem.''
+Let $$x_0$$ be a hyperbolic fixed point of a $$\smooth^1$$- vector field $$f\colon U \to \R^n.$$ Then there exists a neighborhood $$U_0 \ni x_0$$ such that the flow $$\Phi^t$$ of $$\dot{x} = f(x)$$ on $$U_0$$ is topologically conjugate to the flow $$\Psi^t$$ of the linearized system $$\dot{y} = f'(x_0)y.$$
+
+This means there exists a homeomorphism $$\varphi\colon U_0 \to V_0 \ni 0$$ such that $$\varphi$$ conjugates both flows, i.e. $$\varphi \circ \Phi^t = \Psi^t \circ \varphi.$$ So one flow coincides with another one under the change of variables $$\varphi\colon x \mapsto y.$$
+
+</div>
+@@

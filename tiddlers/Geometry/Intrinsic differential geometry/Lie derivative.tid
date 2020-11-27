@@ -1,6 +1,6 @@
 created: 20191213213736739
 lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
-modified: 20201119205708913
+modified: 20201127154527803
 tags: [[Intrinsic differential geometry]]
 title: Lie derivative
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 On $$\R^n$$ we can identify $$f\colon \R^n \to \R^n \leftrightarrow \sum_k f_k \fracpartial{}{x_k}.$$ We define the Lie derivative of $$F\colon \R^n \to \R$$ as the smooth function
 $$
-L_f F \coloneqq \sum_kf_k \fracpartial{}{x_k}F =
+\L_f F \coloneqq \sum_kf_k \fracpartial{}{x_k}F =
 \lang f,\grad F\rang.
 $$
 If for two flows $$\Phi$$ and $$\Psi$$ of vector fields $$f$$ and $$g$$ on $$\R^n$$ and a real-valued function $$F,$$ we define
@@ -20,7 +20,7 @@ $$
 we get
 $$
 \left.\frac{\partial^2}{\partial t\partial s}\right|_{t=s=0} \Delta(t,s) =
-(L_g L_f - L_f L_g) F(x)
+(\L_g \L_f - \L_f \L_g) F(x)
 $$
 and this commutator is a first-order differential operator.
 
@@ -32,7 +32,7 @@ $$
   g_k \fracpartial{f_l}{x_k}-f_k\fracpartial{g_l}{x_k}
 \right),
 $$
-then $$L_gL_f - L_fL_g = L_{[g,f]}.$$
+then $$\L_g\L_f - \L_f\L_g = \L_{[g,f]}.$$
 @@
 
 !! Vector fields

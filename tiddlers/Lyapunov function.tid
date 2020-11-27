@@ -1,0 +1,20 @@
+created: 20201127154330629
+modified: 20201127163231565
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Lyapunov function
+type: text/vnd.tiddlywiki
+
+A function $$F\colon U \to \R$$ is called a //Lyapunov function// for a $$\smooth^1$$- vector field $$f\colon U \to \R^n,$$ if $$\L_f F$$ has a constant sign in $$U,$$ or equivalently, if $$F(\Phi^t(x))$$ is monotone in $$t.$$
+
+@@.theorem
+<div>
+
+''Theorem.''
+Let $$f\colon \R^n \supseteq U \to \R^n$$ be a $$\smooth^1$$- vector field, $$x_0 \in U$$ a fixed point, $$F\colon U \to \R$$ a Lyapunov function for $$f,$$ which has a local minimum at $$x_0.$$ W.l.o.g. assume $$F(x_0) = 0$$ so that $$F(x) \ge 0$$ around $$x_0.$$
+
+* $$\L_f F \le 0$$ on $$U \implies x_0$$ is stable.
+* $$\L_f F < 0$$ on $$U \setminus \{x_0\} \implies x_0$$ is asymptotically stable.
+* $$\L_f F > 0$$ on $$U \setminus \{x_0\} \implies x_0$$ is unstable.
+
+</div>
+@@

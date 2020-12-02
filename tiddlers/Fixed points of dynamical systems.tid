@@ -1,5 +1,7 @@
+caption: Fixed points and stability
 created: 20201119221108582
-modified: 20201127154924625
+list: [[ODE linearization]] [[Hyperbolic fixed points]] [[Lyapunov function]]
+modified: 20201201180947012
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Fixed points of dynamical systems
 type: text/vnd.tiddlywiki

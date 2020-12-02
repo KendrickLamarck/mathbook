@@ -1,11 +1,13 @@
 created: 20200526204735585
-modified: 20200526205206428
-revision: 0
+modified: 20201201134238520
 tags: Gruppe
 title: Normal subgroup
 type: text/vnd.tiddlywiki
 
 If a subgroup $$H<G$$ is conjugate only to itself, i.e. $$gHg^{-1}=H$$ for all $$g \in G,$$ then $$H$$ is called a //normal subgroup// and we write $$H \lhd G.$$
+
+@@.theorem
+<div>
 
 ''Theorem.''
 Suppose $$N \lhd G$$ is a normal subgroup and $$H < G$$ is any subgroup. Then
@@ -13,3 +15,6 @@ Suppose $$N \lhd G$$ is a normal subgroup and $$H < G$$ is any subgroup. Then
 * the product $$HN = \{hn : h \in H, n \in N\}$$ is a subgroup of $$G$$;
 * the intersection $$H \cap N$$ is a normal subgroup of $$H$$ (but not necessarily of $$G$$); and
 * the quotient groups $$(HN)/N$$ and $$H/(H \cap N)$$ are isomorphic.
+
+</div>
+@@

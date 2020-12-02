@@ -1,6 +1,6 @@
 caption: Projective model
 created: 20190426105555535
-modified: 20200920214311156
+modified: 20201201132331568
 tags: [[Hyperbolic geometry]]
 title: Projective model of hyperbolic geometry
 type: text/vnd.tiddlywiki
@@ -39,5 +39,4 @@ $$
 {\langle x,p\rangle_{n+1,1}\langle y,p\rangle_{n+1,1}}=
 -2\sinh^2\frac {d_\mathrm{hyp}([x],[y])} 2.
 $$
-
 It is also possible to use the intersection of the polar plane of $$[p]$$ with the inside of $$S^n$$ as yet another model.

@@ -1,22 +1,19 @@
 caption: Suffizienz und Satz von Rao-Blackwell
 created: 20200504194323416
-modified: 20200825081046301
+modified: 20201129152950891
 tags: Schätzer
 title: Suffiziente Statistik
 type: text/vnd.tiddlywiki
 
 Sei $$(\mathcal{X},\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell und $$S\colon \mathcal X \to \varSigma$$ eine Statistik. Dann heißt $$S$$ //suffizient,// falls für alle $$A \in \mathcal F$$ der Ausdruck
-
 $$
 \P_\vartheta(X \in A \mid \sigma(S))
 $$
-
 nicht von $$\vartheta$$ abhängt, also wenn die Verteilung der Stichprobe $$X$$ bedingt auf $$S(X)$$ nicht vom Parameter $$\vartheta$$ abhängt.
 
 * <div>Im diskreten Fall reicht es, dass für alle $$x \in \mathcal X$$ und $$s \in \varSigma$$ der Ausdruck
-
 $$
-\P_\vartheta( X = x \mid S(X) = s)
+\P_\vartheta(\, X = x \mid S(X) = s \,)
 $$
 
 nicht von $$\vartheta$$ abhängt.</div>

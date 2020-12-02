@@ -1,21 +1,17 @@
 created: 20190331224112580
 creator: Leander
 list: [[Extrema unter Nebenbedingungen]] Lagrange-Multiplikatoren
-modified: 20200601190051796
+modified: 20201127210004041
 modifier: Leander
-revision: 0
 tags: [[Extrinsic differential geometry]] Extremwerte
 title: Extrema auf Mannigfaltigkeiten
 type: text/vnd.tiddlywiki
 
 Seien $$G\subset V$$ [[offen|Offenheit]] und $$M\subset G$$ eine [[Mannigfaltigkeit|Untermannigfaltigkeit]]. Sei $$f\colon G\to\R$$ eine [[differenzierbare|Ableitung]] Funktion. Wir suchen [[lokale Extrema|Extremwerte]] der Funktion $$f|_M.$$ Sei $$p\in M$$ und $$\phi\colon U\to\R^n$$ ein Koordinatensystem dazu wie in der Mannigfaltigkeitsdefinition mit $$\phi(p)=0.$$ Eine notwendige Bedingung dafür, dass $$f|_M$$ in $$p$$ ein lokales Extremum hat ist dann
-
 $$
 \mathrm D_p f(\T_p M)=\{0\}.
 $$
-
 Ist $$M=g^{-1}(\{q\})$$ [[gleichungsdefiniert|Gleichungsdefinierte Mannigfaltigkeiten]], so bedeutet das, dass
-
 $$
 \ker\D_p g \subseteq \ker\D_p f.
 $$

@@ -1,18 +1,14 @@
 created: 20190331231334073
-modified: 20200520161103198
-revision: 0
-tags: [[Extrema auf Mannigfaltigkeiten]] no-toc
+modified: 20201127210031310
+tags: no-toc Extremwerte
 title: Lagrange-Multiplikatoren
 type: text/vnd.tiddlywiki
 
 Sei $$G$$ offen in $$V=\Bbb R^n$$ und seien $$f\colon G\to\Bbb R$$ und $$g=(g_1,\dots,g_m)\colon G\to\Bbb R^m$$ differenzierbar. Dann ist
-
 $$
 \ker\mathrm D_p g\subseteq\ker\mathrm D_p f.
 $$
-
 äquivalent dazu, dass es Zahlen $$\lambda_1,\dots,\lambda_m\in\Bbb R$$ gibt (sog. //Lagrange-Multiplikatoren//), so dass für alle $$j\in\{1,\dots,n\}$$
-
 $$
 \partial_j f(p)=\sum_{i=1}^m \lambda_i \partial_j g_i(p).
 $$

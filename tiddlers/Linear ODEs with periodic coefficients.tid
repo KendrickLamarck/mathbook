@@ -1,0 +1,16 @@
+created: 20201201173023959
+modified: 20201201180409162
+tags: [[Lineare Differentialgleichung]]
+title: Linear ODEs with periodic coefficients
+type: text/vnd.tiddlywiki
+
+Consider the linear ODE $$\dot{x} = A(t)x$$ with $$A\colon \R \to \R^{n \times n}$$ continuous and periodic with minimal period $$T > 0.$$
+
+@@.theorem
+''Theorem (Floquet/Bloch).''
+Any fundamental solution of the matrix equation $$\dot{X} = A(t)X$$ can be written as
+$$
+X(t) = P(t)e^{tR},
+$$
+where $$P\colon \R \to \C^{n \times n}$$ is $$T$$-periodic and $$R \in \C^{n \times n}.$$
+@@

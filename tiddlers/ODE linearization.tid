@@ -1,6 +1,6 @@
 created: 20201120135404724
-modified: 20201127153357621
-tags: [[Gewöhnliche Differentialgleichung]]
+modified: 20201201165721927
+tags: [[Fixed points of dynamical systems]]
 title: ODE linearization
 type: text/vnd.tiddlywiki
 
@@ -10,10 +10,12 @@ $$
 $$
 is called the //Poincaré variational system// for the fixed point $$x_0.$$
 
-@@.theorem
-<div>
+{{Poincaré-Lyapunov theorem||$:/_templates/theorem}}
 
-{{Poincaré-Lyapunov theorem}}
+!! Discrete time
 
-</div>
-@@
+For a discrete time dynamical system, we can simply look at the fixed points of $$\Phi.$$ The analogue of the above linearization is
+$$
+y_{n+1} = \Phi'(x_0) y_n \implies y_n = \Phi'(x_0)^n y_0.
+$$
+The Poincaré-Lyapunov theorem holds for the modified conditions $$|\lambda_i| < 1$$ ($$|\lambda_i| > 1$$) for all (at least one) of the eigenvalues of $$\Phi'(x_0).$$

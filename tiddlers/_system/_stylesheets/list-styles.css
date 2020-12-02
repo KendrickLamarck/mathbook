@@ -7,10 +7,15 @@ div.tc-tiddler-body li:not([class]) {
 div.tc-tiddler-body ol:not([class]) {
   list-style-type: lower-roman;
 }
-/*
-div.tc-tiddler-body ul:last-of-type,
-div.tc-tiddler-body ol:last-of-type,
-div.tc-tiddler-body li:last-of-type, {
+div.tc-tiddler-body ol:not([class]),
+div.tc-tiddler-body ul:not([class]) {
+  margin-top: 0;
   margin-bottom: 0;
 }
+/*
+div.tc-tiddler-body li:last-child,
+div.tc-tiddler-body li:last-of-type {
+  margin-bottom: 0;
+}
+div.tc-tiddler-body li:first-of-type {  margin-top: 0; }
 */

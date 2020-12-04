@@ -1,0 +1,11 @@
+created: 20201204194751547
+modified: 20201204201027410
+tags: [[Algebraic topology]]
+title: Products and fundamental groups
+type: text/vnd.tiddlywiki
+
+Given two pointed spaces $$(X_1,x_1)$$ and $$(X_2,x_2),$$ we have
+$$
+\pi_1(X_1 \times X_2,(x_1,x_2)) \cong \pi_1(X_1,x_1) \times \pi_1(X_2,x_2).
+$$
+The same is true for arbitrary, even infinite products.

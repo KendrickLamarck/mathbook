@@ -1,0 +1,7 @@
+created: 20201204203544914
+modified: 20201204203845000
+tags: [[Topologischer Raum]]
+title: Homogeneous space
+type: text/vnd.tiddlywiki
+
+We say $$X$$ is //homogeneous,// if for all $$x,x' \in X,$$ there exists a homeomorphism $$f\colon X \to X$$ with $$f(x) = x',$$ i.e. if there exists a homeomorphism of pointed spaces $$(X,x) \to (X,x').$$

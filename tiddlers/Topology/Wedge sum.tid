@@ -1,0 +1,15 @@
+created: 20201204202005231
+modified: 20201204203918818
+tags: [[Topologischer Raum]]
+title: Wedge sum
+type: text/vnd.tiddlywiki
+
+The //wedge sum// of a family of pointed spaces $$(X_\alpha, x_\alpha)$$ is
+$$
+\bigvee (X_\alpha,x_\alpha) \coloneqq \left(
+  \bigsqcup X_\alpha \Bigm/ \bigsqcup\{x_\alpha\},\ 
+  x_0
+\right), \quad
+x_0 \coloneqq \bigsqcup\{x_\alpha\} \Bigm/ \bigsqcup\{x_\alpha\}.
+$$
+The wedge sum of homogeneous spaces is independent of the base points, so we usually just write $$\bigvee X_\alpha.$$

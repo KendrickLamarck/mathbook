@@ -1,8 +1,7 @@
 created: 20171225224253553
 creator: Leander
-modified: 20200424212108762
+modified: 20201204231157963
 modifier: Leander
-revision: 0
 tags: Algebra
 title: Homomorphismus
 type: text/vnd.tiddlywiki
@@ -10,9 +9,7 @@ type: text/vnd.tiddlywiki
 {{Gruppenhomomorphismus}}
 
 Für [[Ringe|Ring]] $$(R,+,\cdot)$$ und $$(S,\oplus,\odot)$$ muss zusätzlich gelten
-
 $$
 \varphi(a+b) = \varphi(a) \oplus \varphi(b).
 $$
-
 Die Homomorphismen von [[Vektorräumen|Vektorraum]] sind die [[linearen Abbildungen|Lineare Abbildung]].

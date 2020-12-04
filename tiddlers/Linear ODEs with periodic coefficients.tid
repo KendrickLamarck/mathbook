@@ -1,5 +1,5 @@
 created: 20201201173023959
-modified: 20201201180409162
+modified: 20201204152716828
 tags: [[Lineare Differentialgleichung]]
 title: Linear ODEs with periodic coefficients
 type: text/vnd.tiddlywiki
@@ -8,9 +8,34 @@ Consider the linear ODE $$\dot{x} = A(t)x$$ with $$A\colon \R \to \R^{n \times n
 
 @@.theorem
 ''Theorem (Floquet/Bloch).''
-Any fundamental solution of the matrix equation $$\dot{X} = A(t)X$$ can be written as
+Any [[fundamental solution|Standard basis of solutions of linear ODEs]] of the matrix equation $$\dot{X} = A(t)X$$ can be written as
 $$
 X(t) = P(t)e^{tR},
 $$
 where $$P\colon \R \to \C^{n \times n}$$ is $$T$$-periodic and $$R \in \C^{n \times n}.$$
+@@
+
+This follows from the fact that $$X(t+T) = X(t)C$$ for some $$C \in \GL(n;\R)$$ which is called the //monodromy matrix// (for a fundamental solution $$X(t)$$). If we set $$R \coloneqq \frac{1}{T} \ln C$$ (matrix logarithm), the theorem follows.
+
+@@.theorem
+''Proposition.''
+All monodromy matrices for a given linear system are conjugate to one another.
+
+''Theorem.''
+The eigenvalues of (any) monodromy matrix are called //multipliers// of the system $$\dot{X} = A(t)X.$$
+A number $$\mu \in \C$$ is a multiplier for $$\dot{X} = A(t)X$$ if and only if this system possesses a solution $$x\colon \R \to \C^n$$ with
+$$
+x(t+T) = \mu x(t) \quad \forall t \in \R.
+$$
+@@
+
+If $$\dot{x} = f(x)$$ possesses a periodic solution $$x_0,$$ then the linearization $$\dot{y} = f'(x_0(t))y$$ always has 1 as a multiplier, i.e. a periodic solution, namely $$\dot{x}_0.$$
+
+!! Inhomogeneous
+
+Consider a linear ODE $$\dot{x} = A(t)x + b(t)$$ with $$A$$ and $$b$$ $$T$$-periodic. A solution of such a system is $$T$$-periodic if and only if $$x(0)=x(T).$$
+
+@@.theorem
+''Theorem.''
+If a homgeneous system $$\dot{x} = A(t)x$$ has no multiplier equal to 1 (i.e. if it has no non-trivial periodic solution) then the corresponding inhomogeneous system $$\dot{x} = A(t)x + b(t)$$ has exactly one $$T$$-periodic solution for any $$T$$-periodic $$b(t).$$
 @@

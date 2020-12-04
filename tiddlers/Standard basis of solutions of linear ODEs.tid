@@ -1,5 +1,5 @@
 created: 20201124141345021
-modified: 20201124143622515
+modified: 20201204142743052
 tags: [[Lineare Differentialgleichung]]
 title: Standard basis of solutions of linear ODEs
 type: text/vnd.tiddlywiki
@@ -23,5 +23,5 @@ Let $$X\colon I \to \R^{n \times n}$$ be a fundamental solution. Then for any ot
 $$
 Y(t) = X(t)C
 $$
-with a suitable $$C \in \R^{n \times m}.$$ If $$Y$$ is a square matrix, is a fundamental solution if and only if $$\det C \ne 0.$$
+with a suitable $$C \in \R^{n \times m}.$$ If $$Y$$ is a square matrix, it is a fundamental solution if and only if $$\det C \ne 0.$$
 @@

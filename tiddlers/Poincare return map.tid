@@ -1,0 +1,20 @@
+created: 20201204160655355
+modified: 20201204161544354
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Poincaré return map
+type: text/vnd.tiddlywiki
+
+Let $$x_0(t) = x_0(t+T)$$ be a periodic solution with minimal positive period $$T$$ and let $$\Gamma$$ be its orbit. Set $$p \coloneqq x_0(0) \in \Gamma$$ and set $$v \coloneqq \dot{x}_0(0) = f(p) \in \T_p \Gamma.$$
+Let $$S$$ be a hypersurface (a manifold of codimension 1) transversal to $$v,$$ i.e. $$v \notin \T_p S.$$ One calls $$S$$ a //Poincaré section// for $$\dot{x} = f(x)$$ at the point $$p.$$
+
+@@.theorem
+''Theorem.''
+If $$f$$ is a $$\smooth^k$$- vector field, then there exists a //Poincaré return map// which is a $$\smooth^k$$- diffeomorphism $$P\colon W_0 \to W_1,$$ where $$W_0,W_1 \subseteq S$$ are suitable open neighborhoods of $$p \in S$$ such that for all $$x \in W_0$$ there exists $$\tau = \tau(x)$$ with
+$$
+P(x) = \Phi^{T+\tau(x)}(x) \in W_1
+$$
+and
+$$
+\Phi^t(x) \notin W_1\ \quad\forall 0 < t < T+\tau(x).
+$$
+@@

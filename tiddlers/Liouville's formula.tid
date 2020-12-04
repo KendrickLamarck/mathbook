@@ -1,10 +1,10 @@
 created: 20201112155503373
-modified: 20201112160240511
+modified: 20201204145002816
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Liouville's formula
 type: text/vnd.tiddlywiki
 
-The solutions of the linear ODE $$\dot{Y}=A(t)Y,$$ where $$A,Y\colon \R \to \R^{n \times n}$$ satisfy
+The solutions of the linear ODE $$\dot{Y}=A(t)Y$$ with $$A,Y\colon \R \to \R^{n \times n}$$ satisfy
 $$
 \det Y(t) =
 \det Y(t_0) \exp\left(

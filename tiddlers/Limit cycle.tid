@@ -1,0 +1,25 @@
+created: 20201204154612831
+modified: 20201204162027077
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Limit cycle
+type: text/vnd.tiddlywiki
+
+A closed orbit $$\Gamma \subset \R^n$$ of $$\dot{x} = f(x)$$ is called
+
+* //(Lyapunov) stable// if for any $$\varepsilon > 0$$ there exists $$\delta > 0$$ such that as soon as $$d(y,\Gamma) \coloneqq \min_{x_0 \in \Gamma} \|y - x_0\| < \delta,$$ we have $$d(x(t;0,y),\Gamma) < \varepsilon$$ for all $$t \ge 0.$$
+
+* //Asymptotically stable// if it is stable and additionally $$\lim_{t \to \infty} d(x(t;0,y),\Gamma) = 0.$$
+
+@@.theorem
+<div>
+
+''Theorem.''
+If all multipliers (except for $$\mu_n = 1$$) of the linearized system for a given periodic solution satisfy $$|\mu_j|<1,$$ then the corresponding (periodic) closed orbit $$\Gamma$$ is asymptotically stable.
+
+Moreover, all nearby solutions $$x(t;0,y)$$ with $$d(y,\Gamma) < \delta$$ possess an //asymptotic phase// $$c \in \R$$ such that
+$$
+d(x(t;0,y),x_0(t+c)) \xrightarrow[t\to\infty]{} 0.
+$$
+
+</div>
+@@

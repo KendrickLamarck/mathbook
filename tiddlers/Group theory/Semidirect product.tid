@@ -1,6 +1,5 @@
 created: 20200426134127352
-modified: 20200426155747835
-revision: 0
+modified: 20201204192846667
 tags: Gruppe
 title: Semidirect product
 type: text/vnd.tiddlywiki
@@ -11,11 +10,9 @@ We say $$G$$ is a //split extension// if a [[quotient group|Quotient group]] $$Q
 * In a semidirect product, every element of $$G$$ has a unique representation as $$nq$$ with $$n \in N$$ and $$q \in Q.$$
 
 We can think of $$G$$ as the set $$N \times Q$$ with a "twisted" product rule
-
 $$
 (nq)(n'q')=(n\varphi_q(n'))qq',
 $$
-
 i.e. the semidirect product is determined by a homomorphism $$\varphi\colon Q \to \Aut(N).$$
 
 * If $$\varphi_q = \id_N$$ for all $$Q,$$ this is simply the direct product.

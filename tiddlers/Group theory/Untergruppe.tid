@@ -1,6 +1,6 @@
 created: 20171225224018887
 creator: Leander
-modified: 20201201135104870
+modified: 20201204194218228
 modifier: Leander
 tags: Gruppe no-toc
 title: Untergruppe
@@ -12,6 +12,6 @@ Die von einer Teilmenge $$S \subseteq G$$ erzeugte Untergruppe $$\lang S \rang$$
 $$
 \lang S \rang \coloneqq \bigcap_{S \subseteq H < G} H.
 $$
-Genau so kann man die von $$S$$ erzeugte normale Untergruppe $$\llang S \rrang$$ definieren. $$\llang S \rrang$$ ist auch die von elementen $$s \in S$$ und deren konjugierten $$gsg^{-1}$$ mit beliebigen $$g \in G$$ erzeugte Untergruppe.
+Genau so kann man die von $$S$$ erzeugte [[normale Untergruppe|Normal subgroup]] $$\llang S \rrang$$ definieren. $$\llang S \rrang$$ ist auch die von elementen $$s \in S$$ und deren konjugierten $$gsg^{-1}$$ mit beliebigen $$g \in G$$ erzeugte Untergruppe.
 
 Die von einem einzigen Element erzeugte Untergruppe $$\lang g \rang$$ ist immer eine zyklische Gruppe mit Ordnung gleich derer von $$g$$ (siehe [[Coset]]).

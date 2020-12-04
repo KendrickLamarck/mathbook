@@ -1,0 +1,14 @@
+created: 20201204193250747
+modified: 20201204194636055
+tags: Gruppe
+title: Direct product
+type: text/vnd.tiddlywiki
+
+The //direct product// of groups $$G_1$$ and $$G_2$$ is the set $$H \coloneqq G_1 \times G_2$$ with the operation
+$$
+(g_1,g_2)(h_1,h_2) \coloneqq (g_1 h_1, g_2 h_2).
+$$
+
+* It fulfills the following universal property: Given two homomorphisms $$f_i\colon H \to G_i,$$ the map $$(f_1,f_2)\colon H \to G_1 \times G_2$$ is a homomorphism.
+
+* The subgroups $$G_2 \cong \{e_1\} \times G_2$$ and $$G_1 \cong G_1 \times \{e_2\}$$ are normal subgroups of $$G_1 \times G_2.$$ They are the kernels of the projection maps.

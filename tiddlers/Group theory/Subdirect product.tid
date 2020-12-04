@@ -1,6 +1,5 @@
 created: 20200606181814334
-modified: 20200628210219619
-revision: 0
+modified: 20201204192811639
 tags: Gruppe
 title: Subdirect product
 type: text/vnd.tiddlywiki
@@ -15,7 +14,9 @@ K_\varphi \coloneqq \{\,
 $$
 is a subdirect product.
 
+@@.theorem
 ''Lemma (Goursat).''
 Suppose $$K < G_1 \times G_2$$ is a subdirect product, then consider $$K_i \coloneqq \ker \pi_j = K \cap G_i$$ (for $$i \ne j$$). We have $$K_i \lhd G_i$$ and there exists an isomorphism $$\varphi\colon G_1/K_1 \to G_2/K_2.$$ such that $$K$$ is the fiber product $$K_\varphi.$$
+@@
 
 If $$K_i = G_i$$ then $$K_j = G_j$$ and $$K = G_1 \times G_2.$$

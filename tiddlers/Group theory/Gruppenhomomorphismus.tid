@@ -1,19 +1,15 @@
 caption: Homomorphismus
 created: 20200424212010043
-modified: 20200628205557796
-revision: 0
+modified: 20201204231210905
 tags: Gruppe
 title: Gruppenhomomorphismus
 type: text/vnd.tiddlywiki
 
 Sind $$G$$ und $$H$$ [[Gruppen|Gruppe]] mit [[Verknüpfungen|Verknüpfung]] $$\cdot$$ und $$\odot$$, so heißt eine [[Abbildung]] $$\varphi\colon G \to H$$ Homomorphismus (von Gruppen), wenn für alle $$a,b \in G$$
-
 $$
 \varphi(a \cdot b) = \varphi(a) \odot \varphi(b).
 $$
-
 Es gilt $$\varphi(e_G) = e_H$$, wobei $$e_G$$ und $$e_H$$ die neutralen Elemente bezeichnen, und $$\varphi(a^{-1}) = \varphi(a)^{-1}$$ für alle $$a \in G$$.
-
 
 Der //Kern// von $$\varphi$$ ist
 $$

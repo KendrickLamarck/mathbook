@@ -26,8 +26,9 @@ div.tc-tiddler-body > div.theorem > p:first-of-type,
 div.tc-tiddler-body > p.theorem + p:not([class=theorem]) {
   text-indent: 0;
 }
-div.theorem *:first-child {margin-top: 0}
-div.theorem *:last-child {margin-bottom: 0}
+/* what a mess */
+div.theorem *:first-child:not(.katex-display) {margin-top: 0}
+div.theorem *:last-child:not(.katex-display) {margin-bottom: 0}
 
 div.tc-tiddler-body hr {
   border-top: solid 1px;

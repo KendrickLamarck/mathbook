@@ -1,0 +1,24 @@
+created: 20201203161744608
+modified: 20201203170357710
+tags: Gruppe
+title: Tietze transformation
+type: text/vnd.tiddlywiki
+
+Let $$\lang A \mid R\rang$$ be a [[group presentation|Group presentation]]. We define the two types of //Tietze transformations// or //Tietze moves// as
+
+* $$T_1\colon \lang A \mid R\rang \to \lang A \cup B \mid R \cup \{ w_b b^{-1} \mid b \in B\}\rang,$$ where $$B$$ is a set and $$(w_b)_{b \in B}$$ is a family of words in $$\lang A \rang.$$
+
+* $$T_2 \colon \lang A \mid R\rang \to \lang A \mid R \cup S \rang,$$ where $$S$$ is a subset of $$\llang R \rrang.$$
+
+The first type essentially gives new names to already existing group elements and the second one adds redundant relators. Both are thus isomorphisms.
+
+@@.theorem
+''Proposition.''
+$$\lang A \mid R\rang$$
+and
+$$\lang B \mid S \rang$$
+present isomorphic groups if and only if there is a finite sequence of Tietze moves from
+$$\lang A \mid R\rang$$
+to
+$$\lang B \mid S \rang.$$
+@@

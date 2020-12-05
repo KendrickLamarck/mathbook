@@ -1,5 +1,5 @@
 created: 20200710213138996
-modified: 20200710233708511
+modified: 20201205202412205
 tags: Surface no-toc
 title: Cone volume
 type: text/vnd.tiddlywiki
@@ -14,5 +14,7 @@ F\colon [0,1] \times M \to \R^3,\quad
 F(s,p) \coloneqq sf(p).
 $$
 
+@@.theorem
 ''Theorem.''
 If $$(f,\rho,a)$$ is an oriented closed surface and $$v \in \R^3,$$ then $$\mathcal{V}(f+v) = \mathcal{V}(f).$$
+@@

@@ -1,6 +1,6 @@
 caption: Projective model
 created: 20190426105555535
-modified: 20201201132331568
+modified: 20201205171017108
 tags: [[Hyperbolic geometry]]
 title: Projective model of hyperbolic geometry
 type: text/vnd.tiddlywiki
@@ -12,7 +12,6 @@ $$
 {|q(x,y)|}
 {\sqrt{q(x,x)q(y,y)}}.
 $$
-
 If we use [[homogeneous coordinates|Homogeneous coordinates]] in $$\Bbb R\mathrm P^n$$ with respect to an [[orthonormal basis|Orthonormalbasis]] for $$q,$$ then $$q=\langle\cdot,\cdot\rangle,$$ and the map
 $$
 \R^{n+1}\supset H^n\to H^n_\mathrm{proj}\subset\R\mathrm P^n,\quad

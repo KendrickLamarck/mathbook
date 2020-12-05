@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20200929132429844
+modified: 20201205170102397
 modifier: Leander
 tags: meta
 title: TODO
@@ -45,6 +45,7 @@ type: text/vnd.tiddlywiki
 * An actual favicon: nice to have.
 * Try applying the 5-color subpalettes to the Solarized palettes
 * Filter field & "open all" button in $:/_templates/tree
+* Commutative diagrams as images (for now)
 
 !! (Future) collaboration
 

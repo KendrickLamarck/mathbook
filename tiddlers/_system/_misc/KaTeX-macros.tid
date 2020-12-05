@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20200929130826742
+modified: 20201205160142420
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -68,6 +68,7 @@ $$
 
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
 \gdef\sd{\mathbin{\triangle}} % symmetric difference
+\gdef\freeprod{\operatorname{\bigstar}} % what we really want is a big operator like \sum but an asterisk
 
 \gdef\Poiss{\operatorname{Poiss}}
 \gdef\Hyp{\operatorname{Hyp}}

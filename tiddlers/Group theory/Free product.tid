@@ -1,0 +1,16 @@
+created: 20201205153226245
+modified: 20201205181124719
+tags: Gruppe
+title: Free product
+type: text/vnd.tiddlywiki
+
+Given a collection $$\{G_\alpha\}$$ of groups, consider words $$g_1g_2\cdots g_N$$ in the elements of the $$G_\alpha$$ s.t. $$N \ge 0,\ G_i \in G_{\alpha_i}.$$ We call the word //reduced,// if $$\alpha_i \ne \alpha_{i+1}$$ for all $$i$$ and $$g_i \ne e \in G_{\alpha_i}.$$ The //free product// $$\freeprod_{\alpha \in A} G_\alpha$$ is the set of reduced words. Concatenating and reducing defines a group operation.
+
+* The free product ist the [[coproduct|Coproduct]] in the category of groups.
+
+* <div>If the $$G_\alpha$$ are presented as $$\lang S_\alpha \mid R_\alpha \rang,$$ then
+$$
+\freeprod_\alpha G_\alpha = \left\lang \bigsqcup S_\alpha \Bigm| \bigsqcup R_\alpha \right\rang,
+$$
+where the disjoint union means that we have to relabel the generators so that the $$S_\alpha$$ and thus the $$R_\alpha$$ are pairwise disjoint.
+</div>

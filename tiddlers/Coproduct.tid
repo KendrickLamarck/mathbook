@@ -1,0 +1,9 @@
+created: 20201205165500430
+modified: 20201205170209572
+tags: Category
+title: Coproduct
+type: text/vnd.tiddlywiki
+
+Let $$(X_j)_{j \in J}$$ be a family of objects. A //coproduct// of this family is an object $$X$$ together with a family of morphisms $$(i_j\colon X \to X_j)_{j \in J}$$ such that the following universal property is fulfilled:
+
+For every object $$Y$$ and every family of morphisms $$(f_j\colon X_j \to Y)_{j \in J},$$ there exists a unique morphism $$f\colon X \to Y$$ such that $$f_j = f \circ i_j$$ for all $$j \in J.$$ We then write $$X \eqqcolon \coprod X_j.$$

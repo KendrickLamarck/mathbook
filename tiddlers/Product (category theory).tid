@@ -1,0 +1,9 @@
+created: 20201205164754083
+modified: 20201205170213300
+tags: Category
+title: Product (category theory)
+type: text/vnd.tiddlywiki
+
+Let $$(X_i)_{i \in I}$$ be a family of objects. A //product// of this family is an object $$X$$ together with a family of morphisms $$(\pi_i\colon X \to X_i)_{i \in I}$$ such that the following universal property is fulfilled:
+
+For every object $$Y$$ and every family of morphisms $$(f_i\colon Y \to X_i)_{i \in I},$$ there exists a unique morphism $$f\colon Y \to X$$ such that $$f_i = \pi_i \circ f$$ for all $$i \in I.$$ We then write $$X \eqqcolon \prod X_i.$$

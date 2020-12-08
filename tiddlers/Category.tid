@@ -1,8 +1,9 @@
 created: 20181119223326772
-modified: 20191028152138035
-revision: 0
+list: Functor [[Natural transformation]] [[Product (category theory)]] Coproduct Pushout
+modified: 20201205204834616
 tags: Algebra
 title: Category
+type: text/vnd.tiddlywiki
 
 A //category// $$\mathcal C$$ consists of the following three mathematical entities:
 

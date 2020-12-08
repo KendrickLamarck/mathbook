@@ -1,9 +1,10 @@
 created: 20201205200331859
-modified: 20201205202634527
+modified: 20201207162014060
 tags: Category
 title: Pushout
 type: text/vnd.tiddlywiki
 
 Let $$X$$ and $$(Y_k)_{k \in K}$$ be objects together with morphisms $$(i_k\colon X \to Y_k).$$ The //pushout// is an object $$P$$ with morphisms $$(j_k\colon Y_k \to P)$$ such that the following universal property is fulfilled:
+For all objects $$Z$$ and all families of morphisms $$(f_k\colon Y_k \to Z)$$ @@color:#b58900; such that $$f_k \circ i_k = f_l \circ i_l$$ for all $$k$$ and $$l,$$@@ there exists a unique morphism $$f\colon P \to Z$$ such that $$f_k = f \circ j_k$$ for all $$k.$$
 
-For all objects $$Z$$ and all families of morphisms $$(f_k\colon Y_k \to Z)$$ such that $$f_k \circ i_k = f_l \circ i_l$$ for all $$k$$ and $$l,$$ there exists a unique morphism $$f\colon P \to Z$$ such that $$f_k = f \circ j_k$$ for all k.$$
+This definition is similar to that of the [[coproduct|Coproduct]], the only difference is the highlighted part.

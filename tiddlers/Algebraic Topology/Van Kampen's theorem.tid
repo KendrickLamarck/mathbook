@@ -1,5 +1,5 @@
 created: 20201205184629377
-modified: 20201205191631409
+modified: 20201207153131743
 tags: [[Algebraic topology]]
 title: Van Kampen's theorem
 type: text/vnd.tiddlywiki
@@ -16,6 +16,3 @@ Then since $$K < \ker\varphi,$$ we get a map $$\bar\varphi\colon F/K \to \pi_1(X
 &dagger; The inclusions $$U_\alpha \hookrightarrow X$$ induce homomorphisms $$\pi_1(U_\alpha) \to \pi_1(X).$$ By the universal property of the free product, these combine to give a homomorphism $$\varphi\colon F \to \pi_1(X).$$
 &Dagger; $$i_{\alpha\beta}\colon \pi_1(U_\alpha \cap U_\beta) \to \pi_1(U_\alpha)$$ denotes the homomorphism induced by the corresponding inclusion.
 """
-
-
-

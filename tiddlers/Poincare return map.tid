@@ -1,5 +1,5 @@
 created: 20201204160655355
-modified: 20201204161544354
+modified: 20201208181951369
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Poincaré return map
 type: text/vnd.tiddlywiki
@@ -10,11 +10,11 @@ Let $$S$$ be a hypersurface (a manifold of codimension 1) transversal to $$v,$$ 
 @@.theorem
 ''Theorem.''
 If $$f$$ is a $$\smooth^k$$- vector field, then there exists a //Poincaré return map// which is a $$\smooth^k$$- diffeomorphism $$P\colon W_0 \to W_1,$$ where $$W_0,W_1 \subseteq S$$ are suitable open neighborhoods of $$p \in S$$ such that for all $$x \in W_0$$ there exists $$\tau = \tau(x)$$ with
-$$
-P(x) = \Phi^{T+\tau(x)}(x) \in W_1
-$$
-and
-$$
+$$\begin{gathered}
+P(x) = \Phi^{T+\tau(x)}(x) \in W_1, \\[5mu]
 \Phi^t(x) \notin W_1\ \quad\forall 0 < t < T+\tau(x).
-$$
+\end{gathered}$$
+
+''Lemma.''
+Decompose $$\R^n = \span(v) \oplus \T_p S.$$ Denote the local coordinates around $$p$$ by $$(u,w)$$ and write $$\Phi^t(u,w) = (\Phi_1^t(u,w),\Phi_2^t(u,w)).$$ Then $$P'(p) = \partial_2\Phi_2^T(0,0)$$ and the Eigenvalues of $$P'(p)$$ are the non-trivial multipliers of the linearized equation $$\dot{y} = f'(x_0(t))y.$$
 @@

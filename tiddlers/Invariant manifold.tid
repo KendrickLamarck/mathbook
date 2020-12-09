@@ -1,0 +1,43 @@
+created: 20201208184117424
+modified: 20201208191452946
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Invariant manifold
+type: text/vnd.tiddlywiki
+
+Let $$x_0$$ be a fixed point of the dynamical system $$(\Phi^t)_{t \in \R}.$$ We define the local stable and unstable manifolds of $$x_0$$ to be
+$$\begin{gathered}
+W_\varepsilon^\mathrm{s}(x_0) \coloneqq \Bigl\{\,
+  x \in B_\varepsilon(x_0) :
+  \Phi^t(x) \in B_\varepsilon(x_0)\ \forall t \ge 0,\ 
+  \lim_{t \to +\infty} \Phi^t(x) = x_0
+\,\Bigr\}, \\[1em]
+
+W_\varepsilon^\mathrm{u}(x_0) \coloneqq \Bigl\{\,
+  x \in B_\varepsilon(x_0) :
+  \Phi^t(x) \in B_\varepsilon(x_0)\ \forall t \le 0,\ 
+  \lim_{t \to -\infty} \Phi^t(x) = x_0
+\,\Bigr\}.
+\end{gathered}$$
+These subsets are not guaranteed to be manifolds in general, however they are manifolds for hyperbolic fixed points.
+
+We further define the stable und unstable spaces
+$$E^\mathrm{s}(x_0)$$ and
+$$E^\mathrm{u}(x_0)$$ to be the span of generalized Eigenvectors with negative and positive real part, respectively. In particular if $$x_0$$ is hyperbolic,
+$$\R^n = E^\mathrm{s}(x_0) \oplus E^\mathrm{u}(x_0).$$ Now introduce coordinates $$(y,z)$$ on $$\R^n$$ such that
+$$E^\mathrm{s}(x_0) = \{z=0\}$$ and
+$$E^\mathrm{u}(x_0) = \{y=0\}.$$
+
+@@.theorem
+''Theorem.''
+Let $$x_0$$ be a hyperbolic fixed point of $$\dot{x} = f(x).$$ Then for all sufficiently small $$\varepsilon>0$$ the subsets
+$$W_\varepsilon^\mathrm{s}(x_0)$$ and
+$$W_\varepsilon^\mathrm{u}(x_0)$$ are (embedded) submanifolds of $$\R^n.$$ Moreover,
+$$W_\varepsilon^\mathrm{s}(x_0)$$
+is a graph of a function on
+$$E^\mathrm{s}(x_0) = \{z=0\}$$ of the form
+$$z = h^\mathrm{s}(y)$$ with
+$$(h^\mathrm{s})'(0)=0$$ (i.e. the graph is tangent to
+$$E^\mathrm{s}(x_0)$$ at $$x_0 = (0,0)$$). An analogous statement holds for 
+$$E^\mathrm{u}(x_0) = \{y=0\}$$ and a function
+$$y = h^\mathrm{u}(z)$$ and both functions are $$\smooth^r$$ if $$f$$ is $$\smooth^r.$$
+@@

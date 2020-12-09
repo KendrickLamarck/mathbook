@@ -1,5 +1,5 @@
 created: 20201116191124760
-modified: 20201116230025028
+modified: 20201208123332500
 tags: [[Algebraic topology]]
 title: Lift
 type: text/vnd.tiddlywiki
@@ -22,6 +22,6 @@ We write $$\tilde{x} * \gamma \coloneqq \tilde{\gamma}(1).$$ This of course lies
 
 </div>
 
-''Theorem (homotopy lifting).''
-{{Homotopy lifting}}
 @@
+
+{{Homotopy lifting||$:/_templates/theorem}}

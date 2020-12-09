@@ -1,5 +1,5 @@
 created: 20191123223003774
-modified: 20201105165945023
+modified: 20201208123957705
 tags: Gruppe
 title: Group action
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ Such that $$\theta_e=\id_X$$ and $$\theta_{gh}=\theta_g \circ \theta_h.$$
 $$
 G\cdot x\coloneqq \{\, g\cdot x\mid g\in G \,\},
 $$
-which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot x.$$</div>
+which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot y.$$</div>
 
 * <div>The //stabilizer// of $$x$$ is the subgroup
 $$

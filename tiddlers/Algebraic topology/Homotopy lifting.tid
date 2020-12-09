@@ -1,7 +1,10 @@
 created: 20201116220910536
-modified: 20201116220926632
+modified: 20201208123249356
 tags: [[Algebraic topology]] no-toc
 title: Homotopy lifting
 type: text/vnd.tiddlywiki
 
+''Theorem (homotopy lifting).''
 Let $$p\colon \tilde{X} \to X$$ be a covering map and $$H\colon Y \times I \to X$$ some homotopy of maps $$f_0,f_1\colon Y \to X$$. Given any lift $$\tilde{f}_0\colon Y \to \tilde{X}$$ of $$f_0,$$ there is a unique lift $$\tilde{H}\colon Y \times I \to \tilde{X}$$ of $$H$$ agreeing with $$\tilde{f}_0$$ on $$Y \times \{0\}.$$
+
+Relative homotopies lift to relative homotopies. In particular, homotopies of paths with fixed endpoints lift to homotopies of paths with fixed endpoints.

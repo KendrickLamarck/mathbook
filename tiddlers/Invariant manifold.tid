@@ -1,5 +1,5 @@
 created: 20201208184117424
-modified: 20201208191452946
+modified: 20201211143929446
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Invariant manifold
 type: text/vnd.tiddlywiki
@@ -40,4 +40,40 @@ $$(h^\mathrm{s})'(0)=0$$ (i.e. the graph is tangent to
 $$E^\mathrm{s}(x_0)$$ at $$x_0 = (0,0)$$). An analogous statement holds for 
 $$E^\mathrm{u}(x_0) = \{y=0\}$$ and a function
 $$y = h^\mathrm{u}(z)$$ and both functions are $$\smooth^r$$ if $$f$$ is $$\smooth^r.$$
+
+''Theorem.''
+Consider a $$\smooth^1$$- map
+$$\Phi\colon (y,z) \mapsto (\tilde{y},\tilde{z}),\ y \in \R^m,z \in \R^n$$ such that
+$$\begin{gathered}
+\begin{pmatrix} \tilde{y} \\ \tilde{z} \end{pmatrix} =
+\begin{pmatrix} Ay + Y(y,z) \\ Cz + Z(y,z) \end{pmatrix}, \\
+\|A\|=a<1,\quad \|C^{-1}\| = 1/c < 1 ,\\
+Y(0,0) = Z(0,0) = 0, \\
+\partial_y Y(0,0) = \partial_z Y(0,0) = \partial_y Z(0,0) = \partial_z Z(0,0) = 0.
+\end{gathered}$$
+Then there exists a $$\smooth^1$$- function $$z=g(y)$$ with $$g(0)=0,\ \partial_y g(0)=0$$ such that the map
+$$
+R\colon \begin{pmatrix} y \\ z \end{pmatrix} \mapsto
+  \begin{pmatrix} u \\ v \end{pmatrix} = 
+  \begin{pmatrix} y \\ z-g(y) \end{pmatrix}, \quad
+R^{-1}\colon \begin{pmatrix} u \\ v \end{pmatrix} \mapsto
+  \begin{pmatrix} y \\ z \end{pmatrix} = 
+  \begin{pmatrix} u \\ v+g(u) \end{pmatrix}
+$$
+conjugates $$\Phi$$ to
+$$
+R \Phi R^{-1}\begin{pmatrix} u \\ v \end{pmatrix} =
+  \begin{pmatrix} \tilde{u} \\ \tilde{v} \end{pmatrix} =
+  \begin{pmatrix} Au + U(u,v) \\ Cv + V(u,v) \end{pmatrix}
+$$
+where $$U,V$$ have the same properties as $$Y$$ and $$Z$$ and $$V(u,0) = 0.$$ This means that the $$u$$-hyperplane is invariant under the map.
 @@
+
+If $$X_0$$ is not hyperbolic, we introduce the central space $$E^\mathrm{c}(x_0)$$ as the span of generalized Eigenvectors with vanishing real part.
+
+@@.theorem
+''Theorem.''
+Let $$\dot{x} = f(x)$$ be a dynamical system with $$f \in \smooth^r$$ and let $$x_0$$ be a non-hyperbolic fixed point. Then there exists an invariant $$\smooth^{r-1}$$- submanifold of $$\R^n$$ which is tangent to $$E^\mathrm{c}(x_0)$$ at $$x_0.$$
+@@
+
+These //local central submanifolds// are not unique.

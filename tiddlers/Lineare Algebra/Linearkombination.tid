@@ -1,15 +1,13 @@
 created: 20170206211606768
 creator: Leander
 list: 
-modified: 20191004232321269
+modified: 20201211150651531
 modifier: Leander
-revision: 0
 tags: Vektorraum
 title: Linearkombination
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]] und $$(v_i)_{i \in I}$$ eine Familie von Vektoren $$v_i \in V$$ und $$I = \{1,\ldots,r\}$$. Ein $$v \in V$$ heißt Linearkombination von $$v_1,\ldots,v_r$$, wenn es $$\lambda_1,\ldots,\lambda_r \in K$$ gibt, so dass
-
 $$
 v = \lambda_1 v_1 + \dots + \lambda_r v_r.
 $$

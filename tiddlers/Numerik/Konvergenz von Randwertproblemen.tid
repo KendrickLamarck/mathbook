@@ -1,44 +1,38 @@
 created: 20200218215537996
-modified: 20200601182806933
-revision: 0
+modified: 20201209224041468
 tags: Numerik
 title: Konvergenz von Randwertproblemen
 type: text/vnd.tiddlywiki
 
 Gegeben sei eine lineare Differentialgleichung zweiter Ordnung der Form
-
 $$
 -y''+py'+qy=s \text{ auf } [a,b]\subset\R
 $$
-
 sowie ein Gitter $$\{x_j=a+jh:j=0,\dots,n\},$$ wobei $$h=\frac{b-a}{n}.$$
 
 * <div>Zu festem $$l$$ heißt ein Differenzenquotient der Form
-
 $$
 \sum_{j=-l}^l \alpha_j^{(k)} u_{k+j} = s(x_k)
 \tag*\dag
 $$
-
 mit festen $$\alpha_{-l}^{(k)},\dots,\alpha_l^{(k)}$$ //konsistent von der Ordnung $$p,$$// falls für hinreichend glattes $$y$$ und alle $$k=1,\dots,n-1$$ gilt, dass
-
 $$
 \sum_{j=-l}^l \alpha_l^{(k)} y(x_{k+j}) = s(x_k)+\mathcal O(h^p).
 $$</div>
 
 * <div>Sind zusätzlich Dirichlet-Randbedingungen $$y(a)=g_a$$ und $$y(b)=g_b$$ gegeben, so heißt die //Finite-Differenzen-Näherung// $$u_0,\dots,u_n$$ //konvergent von der Ordnung $$p,$$// falls für hinreichend glattes $$y$$ und alle $$k=1,\dots,n-1$$ gilt:
-
 $$
 |y(x_k)-u_k|\le Ch^p.
 $$</div>
 
+@@.theorem
+<div>
+
 ''Satz.''
 Betrachte nun den Spezialfall
-
 $$
 -w(x)y''+q(x)y=s(x),
 $$
-
 genannt elliptisches Randwertproblem, mit Randbedingungen $$y(a)=g_a$$ und $$y(b)=g_b.$$ $$q$$ sei stetig und nicht-negativ und $$w$$ sei stetig differenzierbar mit $$w(x)\ge w_0>0.$$ Haben wir einen Differenzenquotienten der Form $$\dag,$$ so dass für die $$\alpha_j^{(k)}$$ gilt:
 
 * $$\alpha_0^{(k)}>0,$$
@@ -46,5 +40,7 @@ genannt elliptisches Randwertproblem, mit Randbedingungen $$y(a)=g_a$$ und $$y(b
 * $$\sum_{j=-l}^l \alpha_j^{(k)}=q(x_k),$$
 
 Dann gilt: Ist das Verfahren konsistent von der Ordnung $$p,$$ dann ist es auch konvergent von der Ordnung $$p.$$
-
 Ein vergleichbarer Satz gilt auch im zweidimensionalen Fall.
+
+</div>
+@@

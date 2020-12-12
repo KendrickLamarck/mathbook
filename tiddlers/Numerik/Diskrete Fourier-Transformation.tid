@@ -1,32 +1,26 @@
 created: 20200221205225096
-modified: 20200308145942693
-revision: 0
+modified: 20201209223511154
 tags: Fourier-Reihe Numerik
 title: Diskrete Fourier-Transformation
 type: text/vnd.tiddlywiki
 
 Seien $$f$$ eine stetige, $$2\pi$$-periodische Funktion und $$n,r,s\in\N.$$ Dann heißt die Funktion
-
 $$
 \tilde f_{r,s}(x)=\sum_{k=-r}^s \tilde c_k e^{\i kx},\quad\text{wobei }
 \tilde c_k=(f,e^{\i kx})\coloneqq
 \frac 1 n \sum_{l=0}^{n-1} f(x_l)e^{-\i k x_l}
 $$
-
 //diskrete Fourier-Transformierte// von $$f.$$ Dabei approximierten wir das Integral $$c_k$$ mit der summierten Trapezregel an Stützstellen $$x_l=lh,\ l=0,\dots,n-1$$ mit $$h=2\pi/n,$$ d.h.
-
 $$
 \langle f,g\rangle = \frac 1 {2\pi}\int_0^{2\pi} f(x)\overline{g(x)}\,\d x
 \approx \frac 1 n \sum_{l=0}^{n-1} f(x_l)\overline{g(x_l)}\eqqcolon
 (f,g)
 $$
-
 und wir definieren im folgenden $$\|f\|\coloneqq\sqrt{\langle f,f\rangle},\ |f|\coloneqq\sqrt{(f,f)}.$$
 
 !! Fehler
 
 Ist $$f$$ eine $$2\pi$$-periodische, komplexwertige, stetige Funktion und $$r+s\le n-1,$$ so gilt
-
 $$
 |f-\tilde f_{r,s}|=\min_{ g=\sum_{k=-r}^s\beta_k e^{\i kx} } |f-g|.
 $$
@@ -34,11 +28,9 @@ $$
 !! Im Reellen
 
 Sei $$f$$ eine $$2\pi$$-periodische, stetige und reelle Funktion. Seien $$\tilde c_0,\dots,\tilde c_s$$ die (komplexwertigen) diskreten Fourier-Koeffizienten. Dann gilt für die diskrete Fourier-transformierte mit $$r=s$$:
-
 $$
 \tilde f_{s,s}(x)=\frac{\tilde a_0}{2} + \sum_{k=1}^s\left(\tilde a_k\cos(kx)+\tilde b_k\sin(kx)\right),
 $$
-
 wobei $$\tilde a_k=2\Re(\tilde c_k),\ \tilde b_k=-2\Im(\tilde c_k)$$ für $$k=0,\dots,s.$$
 
 !! Interpolation

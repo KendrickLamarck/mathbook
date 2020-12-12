@@ -1,6 +1,6 @@
 created: 20180725140927147
 creator: Leander
-modified: 20200927154842007
+modified: 20201211150755911
 modifier: Leander
 tags: Dualraum no-toc
 title: Bidualraum
@@ -17,7 +17,6 @@ $$
 
 @@.theorem
 ''Satz.'' Für jeden endlichdimensionalen $$K$$-[[Vektorraum]] $$V$$ ist die kanonische Abbildung $$\iota\colon V\to V^{**}$$ ein [[Isomorphismus]].
-
 Man kann also $$V$$ mit $$V^{**}$$ identifizieren und schreiben:
 $$
 v(\varphi)\coloneqq\varphi(v).

@@ -1,9 +1,8 @@
 caption: Direkte Summe
 created: 20180319113556569
 creator: Leander
-modified: 20191003194045949
+modified: 20201211150936985
 modifier: Leander
-revision: 0
 tags: Vektorraum
 title: Direkte Summe
 type: text/vnd.tiddlywiki
@@ -24,9 +23,7 @@ $$ eine Basis von $$V$$.
 
 ''Korollar.''
 Ist $$V$$ endlichdimensional und $$W\subset V$$ Untervektorraum, so gibt es dazu einen (im Allgemeinen nicht eindeutig bestimmten) Untervektorraum $$W'\subset V$$, so dass
-
 $$
 V=W\oplus W'.
 $$
-
 $$W'$$ heißt //direkter Summand// von $$V$$ zu $$W$$.

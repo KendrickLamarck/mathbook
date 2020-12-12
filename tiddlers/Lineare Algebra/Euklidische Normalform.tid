@@ -1,13 +1,12 @@
 created: 20180624213549433
 creator: Leander
-modified: 20200718213116402
+modified: 20201211135839168
 modifier: Leander
 tags: Orthogonalität no-toc
 title: Euklidische Normalform
 type: text/vnd.tiddlywiki
 
 Ist $$F$$ ein [[orthogonaler|Orthogonaler/unitärer Endomorphismus]] [[Endomorphismus]] eines [[endlichdimensionalen|Dimension]] [[euklidischen|Euklidischer Vektorraum]] [[Vektorraumes|Vektorraum]] $$V,$$ so gibt es eine [[Orthonormalbasis]] $$\mathcal B$$ von $$V,$$ so dass
-
 $$
 M_\mathcal B(F)=\begin{pmatrix}
 \,+1 \\[3mu]
@@ -21,14 +20,11 @@ M_\mathcal B(F)=\begin{pmatrix}
 &&&&&&&&\mkern{-20mu}\boxed{A_k}\,
 \end{pmatrix},
 $$
-
 wobei für $$j=1,\dots,k$$
-
 $$
 A_j=\begin{pmatrix}
 \cos\vartheta_j&-\sin\vartheta_j \\
 \sin\vartheta_j&\cos\vartheta_j
 \end{pmatrix}\in \mathrm{SO}(2)
 $$
-
 mit $$\vartheta_j\in\openI{0,2\pi} \setminus \{\pi\}.$$

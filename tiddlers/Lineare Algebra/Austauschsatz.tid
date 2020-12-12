@@ -1,6 +1,6 @@
 created: 20171230202609430
 creator: Leander
-modified: 20200927154750639
+modified: 20201211150615779
 modifier: Leander
 tags: Basis
 title: Austauschsatz
@@ -15,8 +15,6 @@ eine Basis von $$V$$ ist.
 @@.theorem
 ''Korollar 1.''
 Hat ein $$K$$-Vektorraum eine endliche Basis, so ist jede Basis von $$V$$ endlich.
-@@
 
-@@.theorem
 ''Korollar 2.'' Je zwei endliche Basen eines $$K$$-Vektorraumes haben gleiche Länge. Hiermit kann die [[Dimension]] sinnvoll definiert werden.
 @@

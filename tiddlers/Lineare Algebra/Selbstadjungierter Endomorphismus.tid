@@ -1,14 +1,12 @@
 created: 20180626175536410
 creator: Leander
-modified: 20200617142338212
+modified: 20201211140009599
 modifier: Leander
-revision: 0
 tags: [[Adjungierte Abbildung]]
 title: Selbstadjungierter Endomorphismus
 type: text/vnd.tiddlywiki
 
 Ein [[Endomorphismus]] $$F$$ eines [[endlichdimensionalen|Dimension]] [[euklidischen|Euklidischer Vektorraum]] bzw. [[unitären|Unitärer Vektorraum]] [[Vektorraums|Vektorraum]] heißt //selbstadjungiert//, wenn für alle $$v,w\in V$$ gilt:
-
 $$
 \langle F(v),w\rangle=\langle v,F(w)\rangle.
 $$

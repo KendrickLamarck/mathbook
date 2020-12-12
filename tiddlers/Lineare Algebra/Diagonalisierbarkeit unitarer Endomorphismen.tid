@@ -1,16 +1,16 @@
 created: 20180624213059174
 creator: Leander
-modified: 20191004192455800
+modified: 20201211135956507
 modifier: Leander
-revision: 0
 tags: Orthogonalität
 title: Diagonalisierbarkeit unitärer Endomorphismen
 type: text/vnd.tiddlywiki
 
+@@.theorem
+''Satz.''
 Jeder [[unitäre|Orthogonaler/unitärer Endomorphismus]] Endomorphismus $$F$$ eines [[unitären|Unitärer Vektorraum]] [[Vektorraums|Vektorraum]] besitzt eine [[Orthonormalbasis]] aus [[Eigenvektoren|Eigenwert]] von $$F.$$ Insbesondere ist er [[diagonalisierbar|Diagonalisierung]].
 
 ''Korollar.'' Zu $$A\in U(n)$$ gibt es $$S\in U(n),$$ so dass
-
 $$
 \bar S^\mathrm T AS=\begin{pmatrix}
 \lambda_1 && 0 \\
@@ -18,5 +18,5 @@ $$
 0 && \mkern{-15mu}\lambda_n
 \end{pmatrix},
 $$
-
 wobei $$\lambda_i\in\mathbb C$$ mit $$|\lambda_i|=1$$ für $$i=1,\dots,n.$$
+@@

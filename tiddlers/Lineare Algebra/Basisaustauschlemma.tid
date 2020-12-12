@@ -1,22 +1,17 @@
 created: 20171230201910352
 creator: Leander
-modified: 20180727211815752
+modified: 20201211150604758
 modifier: Leander
-revision: 0
 tags: Basis
 title: Basisaustauschlemma
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]] $$V$$ mit der [[Basis]] $$\mathcal{B} = (v_1,\ldots,v_r)$$ und
-
 $$
 w = \lambda_1 v_1 + \dots + \lambda_r v_r \in V.
 $$
-
 Ist $$k \in \{1,\ldots,r\}$$ mit $$\lambda_k \neq 0$$, so ist
-
 $$
 \mathcal{B}' \coloneqq (v_1,\ldots,v_{k-1},w,v_{k+1},\ldots,v_r)
 $$
-
 wieder eine Basis von $$V$$. Man kann also $$v_k$$ gegen $$w$$ austauschen.

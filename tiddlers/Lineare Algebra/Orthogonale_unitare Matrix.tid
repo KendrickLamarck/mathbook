@@ -1,24 +1,19 @@
 created: 20180611212520897
 creator: Leander
-modified: 20200305152504927
+modified: 20201211135910811
 modifier: Leander
-revision: 0
 tags: Orthogonalität no-toc
 title: Orthogonale/unitäre Matrix
 type: text/vnd.tiddlywiki
 
 Eine [[Matrix]] $$A\in\operatorname{GL}(n;\mathbb R)$$ heißt //orthogonal//, falls
-
 $$
 A^{-1}=A^\mathrm T.
 $$
-
 Entsprechend heißt $$A\in\operatorname{GL}(n;\mathbb C)$$ //unitär//, falls
-
 $$
 A^{-1}=\bar A^\mathrm T.
 $$
-
 In beiden Fällen gilt $$|{\det A}|=1.$$
 
 Folgende Bedingungen sind äquivalent für $$A\in\mathbb K^{n\times n}$$:
@@ -30,11 +25,9 @@ Folgende Bedingungen sind äquivalent für $$A\in\mathbb K^{n\times n}$$:
 !! Nichteuklidische Skalarprodukte
 
 Im $$\Bbb R^{p,q}$$ heißt eine Matrix $$A$$ //orthogonal//, falls gilt
-
 $$
 A^\mathrm T E_{p,q} A = E_{p,q},
 $$
-
 wobei $$E_{p,q}$$ die Diagonalmatrix mit $$p$$-mal $$1$$ und $$q$$-mal $$-1$$ auf der Diagonalen ist.
 
 !! Orthogonale Gruppen

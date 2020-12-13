@@ -1,0 +1,15 @@
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+div.cd {
+  text-align: center; /* this centers the span */
+}
+span.cd {
+  display: inline-block; /* bounding box size = image size */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+img.cd {
+  filter: invert(63%) sepia(21%) saturate(186%) hue-rotate(138deg) brightness(88%) contrast(86%);
+  --s: 1.4; /* scale factor */
+  min-width: calc(var(--s) * 100%); /* min-width forces scaling over 100% */
+  transform: translate(calc( (100% - var(--s) * 100%) / (2 * var(--s)) )); /* re-center.*/
+}

@@ -1,0 +1,15 @@
+created: 20201213172220714
+modified: 20201213183207250
+tags: 
+title: $:/_templates/cd
+type: text/vnd.tiddlywiki
+
+<div class="cd">
+
+<span class="cd">
+
+<$image source=<<currentTiddler>> class="cd center"/>
+
+</span>
+
+</div>

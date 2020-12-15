@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20201213145946055
+modified: 20201214160807530
 modifier: Leander
 tags: meta
 title: TODO
@@ -48,7 +48,8 @@ type: text/vnd.tiddlywiki
 
 * Commutative diagrams as images (for now)
 ** Partially solved. TeX w/ `\documentclass{standalone}`, convert with pdf2svg and see [[Pushout]] for an example.
-** What could be better: Color, direct svg generating from within TeX. Scaling is done by eye currently.
+** What could be better: Color, direct svg generating from within TeX.
+** Problem: Putting a diagram within `.theorem` doesn't change the color appropriately.
 
 * Footnotes in [[Van Kampen's theorem]] could be prettier
 

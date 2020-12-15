@@ -1,5 +1,5 @@
 created: 20191123223003774
-modified: 20201208123957705
+modified: 20201214151742679
 tags: Gruppe
 title: Group action
 type: text/vnd.tiddlywiki
@@ -25,3 +25,8 @@ $$</div>
 * An action is called //transitive// if there is a single orbit, i.e. for any $$x,y$$ there exists $$g$$ with $$g\cdot x=y.$$
 
 Of particular interest are actions not just by bijective maps but automorphisms preserving some structure on $$X.$$
+
+@@.theorem
+''Theorem (orbit-stabilizer-theorem).''
+$$\#(G \cdot x) = [G:G^x].$$
+@@

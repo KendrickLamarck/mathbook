@@ -1,5 +1,5 @@
 created: 20201116185618483
-modified: 20201120232157328
+modified: 20201214152308008
 tags: [[Algebraic topology]]
 title: Covering space
 type: text/vnd.tiddlywiki
@@ -15,4 +15,6 @@ A map $$p\colon X \to \tilde{X}$$ is a //covering map// if $$X$$ has an open cov
 @@.theorem
 ''Proposition.''
 If $$X$$ is connected, then the cardinality $$n \coloneqq \#p^{-1}\{x\}$$ is constant over $$x \in X,$$ so we call $$\tilde{X}$$ an $$n$$-sheeted covering (might be infinite).
+
+''Proposition.'' {{Homomorphism of fundamental groups induced by a covering map}}
 @@

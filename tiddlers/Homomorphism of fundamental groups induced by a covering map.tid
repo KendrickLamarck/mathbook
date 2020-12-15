@@ -1,0 +1,7 @@
+created: 20201214152306943
+modified: 20201214152334917
+tags: [[Algebraic topology]] no-toc
+title: Homomorphism of fundamental groups induced by a covering map
+type: text/vnd.tiddlywiki
+
+If $$p\colon (\tilde{X},\tilde{x}) \to (X,x)$$ is a covering map, then $$p_*\colon \pi_1(\tilde{X},\tilde{x}) \to \pi_1(X,x)$$ is injective. The image $$H \coloneqq p_* \pi_1(\tilde{X},\tilde{x}) < \pi_1(X,x)$$ consists of those loops which lift to loops in $$\tilde{X}.$$ If $$\tilde{X}$$ is path-connected, then the number of sheets in the covering equals the index of $$H$$ in $$\pi_1(X).$$

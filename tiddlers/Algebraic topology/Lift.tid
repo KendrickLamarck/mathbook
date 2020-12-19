@@ -1,5 +1,5 @@
 created: 20201116191124760
-modified: 20201214155341973
+modified: 20201217183456116
 tags: [[Algebraic topology]]
 title: Lift
 type: text/vnd.tiddlywiki
@@ -15,11 +15,13 @@ Let $$p\colon \tilde{X} \to X$$ be a covering map. Given a map $$f\colon Y \to X
 <div>
 
 ''Theorem (path lifting).''
-Given a covering $$p\colon \tilde{X} \to X,$$ a path $$\gamma\colon I \to X$$ and a point $$\tilde{x} \in \tilde{X}$$ such that $$p(\tilde{x})=\gamma(0).$$ Then there exists a unique lift $$\tilde{\gamma}\colon I \to \tilde{X}$$ starting at $$\tilde{x}.$$
+Given a covering $$p\colon \tilde{X} \to X,$$ a path $$\gamma\colon I \to X$$ and a point $$\tilde{x} \in \tilde{X}$$ such that $$p(\tilde{x})=x=\gamma(0).$$ Then there exists a unique lift $$\tilde{\gamma}\colon I \to \tilde{X}$$ starting at $$\tilde{x}.$$
 
-We write $$\tilde{x} * \gamma \coloneqq \tilde{\gamma}(1).$$ This of course lies in the fiber $$p^{-1}\{\gamma(1)\}$$ and depends on the path taken, but if $$\gamma \simeq \gamma',$$ then $$\tilde{x}*\gamma = \tilde{x}*\gamma'$$ by the homotopy lifting property, so we write $$\tilde{x}*[\gamma].$$
+The formulation in terms of [[pointed spaces|Pointed space]] is slightly nicer: Given a based path $$\gamma\colon (I,0) \to (X,x)$$ and a covering $$p\colon (\tilde{X},\tilde{x}) \to (X,x),$$ there exists a unique lift $$\tilde{\gamma}\colon (I,0) \to (\tilde{X},\tilde{x}).$$
 
 </div>
 @@
+
+We write $$\tilde{x} * \gamma \coloneqq \tilde{\gamma}(1).$$ This of course lies in the fiber $$p^{-1}\{\gamma(1)\}$$ and depends on the path taken, but if $$\gamma \simeq \gamma',$$ then $$\tilde{x}*\gamma = \tilde{x}*\gamma'$$ by the homotopy lifting property, so we write $$\tilde{x}*[\gamma].$$ In fact, this defines a (right) [[group action|Group action]] of $$\pi_1(X,x)$$ on $$p^{-1}\{x\}.$$
 
 {{Homotopy lifting||$:/_templates/theorem}}

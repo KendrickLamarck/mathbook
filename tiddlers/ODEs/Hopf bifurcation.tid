@@ -1,0 +1,23 @@
+created: 20201223150719362
+modified: 20201223160144923
+tags: [[Gewöhnliche Differentialgleichung]]
+title: Hopf bifurcation
+type: text/vnd.tiddlywiki
+
+@@.theorem
+''Theorem.''
+Consider a parameter-dependent dynamical system $$\dot{x} = f(x,\mu)$$ with $$f \in \smooth^1,$$ $$x \in \R^n$$ and $$\mu \in \R$$ and assume that $$f'(x_0, \mu_0)$$ has maximal rank. Let $$x_0$$ be a fixed point at $$\mu = \mu_0.$$ and suppose that $$\fracpartial{f}{x}(x_0, \mu_0)$$ has a pair of purely imaginary eigenvalues $$\lambda(\mu_0), \bar\lambda(\mu_0) \in i\R$$ and no further eigenvalues with $$\Re(\lambda_i) = 0.$$ Moreover, assume that
+$$
+\left. \fracderiv{}{\mu} \right|_{\mu = \mu_0} \Re \lambda(\mu) \ne 0
+$$
+for the curve of Eigenvalues of $$\fracpartial{f}{x}(x(\mu),\mu).$$ Then there exists a unique invariant 2-dimensional central manifold $$W^\mathrm{c}(\mu)$$ through $$x_0(\mu)$$ and a system of local coordinates $$(z_1, z_2)$$ on this manifold such that the dynamics there are described by
+$$\begin{aligned}
+\dot{z}_1 &= (d\mu + ar^2)z_1 - (w + c\mu + br^2)z_2 \\
+\dot{z}_2 &= (w + c\mu + br^2)z_1 + (d\mu + ar^2)z_2,
+\end{aligned}$$
+with $$r^2 = z_1{}^2 + z_2{}^2$$ and certain constants $$a,b,c,d,w$$ depending on the vector field $$f.$$ If $$a \ne 0$$ then for small $$\mu$$ with $$\sign(\mu) = \sign(-d/a)$$ there exist [[limit cycles|Limit cycle]] on $$W^\mathrm{c}(\mu)$$ of the radius
+$$
+r \approx \sqrt{-\frac{d}{a} \mu}
+$$
+which are stable if $$a>0$$ and unstable if $$a<0.$$
+@@

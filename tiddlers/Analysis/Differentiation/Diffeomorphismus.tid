@@ -1,17 +1,16 @@
 created: 20180708180838912
 creator: Leander
-modified: 20200603135106276
+modified: 20201223161233508
 modifier: Leander
-revision: 0
 tags: [[Stetige Differenzierbarkeit]]
 title: Diffeomorphismus
 type: text/vnd.tiddlywiki
 
 Eine $$k$$-mal [[stetig differenzierbare|Stetige Differenzierbarkeit]] Abbildung mit einem $$k$$-mal stetig differenzierbaren [[Inversen|Umkehrabbildung]] heißt ein $$\mathcal C^k$$-//Diffeomorphismus.//
 
-Ist $$f\colon V\to W$$ ein Diffeomorphismus, so ist $$\D_p f$$ für jedes $$p\in V$$ [[invertierbar|Inverse Matrix]] und für $$q=f(p)$$ gilt
+* <div>Ist $$f\colon V\to W$$ ein Diffeomorphismus, so ist $$\D_p f$$ für jedes $$p\in V$$ [[invertierbar|Inverse Matrix]] und für $$q=f(p)$$ gilt
 $$
 (\D_p f)^{-1}=\D_q{\left(f^{-1}\right)}.
-$$
+$$</div>
 
-Ein Diffeomorphismus heißt //orientierungserhaltend,// wenn $$\det \D_p f > 0$$ für alle $$p.$$
+* Ein Diffeomorphismus heißt //orientierungserhaltend,// wenn $$\det \D_p f > 0$$ für alle $$p.$$

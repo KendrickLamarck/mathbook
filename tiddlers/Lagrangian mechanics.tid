@@ -1,0 +1,66 @@
+created: 20201227200713681
+modified: 20201227212910030
+tags: Physics
+title: Lagrangian mechanics
+type: text/vnd.tiddlywiki
+
+Let $$X$$ be a manifold called the //configuration space.// A //lagrange function// is a $$\smooth^2$$- function $$L\colon \T X \to \R.$$ If $$X = \R^n,$$ we can replace $$\T X$$ with $$\R^n \times \R^n.$$
+
+The //principle of least action// says that the curves $$x\colon [t_0,t_1] \to X$$ that represent motion of the system are exactly the ones which are critical points of the //action functional//
+$$
+S[x] = \int_{t_0}^{t_1} L(x(t),\dot{x}(t)) \,\d t,
+$$
+under variations with compact support: The domain of the functional is the affine space
+$$
+\mathfrak{X} \coloneqq \{\, x \in \smooth^1([t_0,t_1],X) :
+  x(t_0) = x_0,\ x(t_1) = t_1 \,\}
+$$
+and the //space of variations// is the corresponding vector space
+$$
+\mathfrak{X}_0 \coloneqq \{\, h \in \smooth^1([t_0,t_1],\R^n) :
+h(t_0) = h(t_1) = 0 \,\}
+$$
+on which we can define the norm
+$$
+\|h\|_1 \coloneqq \max_{t \in [t_0,t_1]} \left(
+  \|h(t)\| + \|\dot{h}(t)\|
+\right).
+$$
+A functional $$S\colon \mathfrak{X} \to \R$$ is called //differentiable// if for any $$x \in \mathfrak{X}$$ there exists a linear functional $$\delta S[x]\colon \mathfrak{X}_0 \to \R$$ such that
+$$
+S[x+h] - S[x] = \delta S[x] h + o(\|h\|_1).
+$$
+A point $$x_0 \in \mathfrak{X}$$ is a //critical point// for a differentiable functional $$S$$ if $$\delta S[x_0] = 0.$$
+
+@@.theorem
+''Theorem.''
+The action functional is differentiable with
+$$
+\delta S[x]h = \int_{t_0}^{t_1} \sum_{k=1}^n \left(
+  \fracpartial{L}{x_k} - \fracderiv{}{t} \fracpartial{L}{\dot{x}_k}
+\right) h_k(t) \,\d t.
+$$
+
+''Theorem.''
+$$x \in \mathfrak{X}$$ is critical for the action functional if and only if it satisfies the following differential equations, called the //Euler-Lagrange equations://
+$$
+\fracderiv{}{t}\left( \fracpartial{L}{\dot{x}_k} \right)
+  - \fracpartial{L}{x_k} = 0
+$$
+for $$k = 1,\dots,n.$$
+@@
+
+The Euler-Lagrange equations are also equivalent to
+$$
+\sum_{j=1}^n
+  \frac{\partial^2 L}{\partial \dot{x}_k \partial \dot{x}_j} \ddot{x}_j + \sum_{j=1}^n
+  \frac{\partial^2 L}{\partial \dot{x}_k \partial x_j} \dot{x}_j -
+\fracpartial{L}{x_k} = 0
+$$
+for $$k=1,\dots,n.$$ These are implicit ODEs of 2nd order which can be solved for each $$\ddot{x}_j$$ if
+$$
+\det \left(
+  \frac{\partial^2 L}{\partial \dot{x}_k \partial \dot{x}_j}
+\right) \ne 0,
+$$
+in which case we say the Lagrange function is non-degenerate.

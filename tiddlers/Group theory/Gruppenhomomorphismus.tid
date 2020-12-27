@@ -1,6 +1,6 @@
 caption: Homomorphismus
 created: 20200424212010043
-modified: 20201204231210905
+modified: 20201222140908114
 tags: Gruppe
 title: Gruppenhomomorphismus
 type: text/vnd.tiddlywiki
@@ -20,4 +20,4 @@ $$\varphi(G) < H.$$
 
 * $$\ker\varphi \lhd H$$ ist eine [[normale Untergruppe|Normal subgroup]]
 * $$\varphi(G) < H$$ ist isomorph zu $$G/\ker\varphi.$$
-* $$\varphi$$ ist injektiv genau dann wenn $$\ker\varphi = e_G.$$ In diesem Fall ist auch $$\varphi^{-1}$$ ein Homomorphismus und $$\varphi\colon G \to \varphi(G)$$ ein Isomorphismus.
+* $$\varphi$$ ist injektiv genau dann wenn $$\ker\varphi = e_G.$$ In diesem Fall ist auch $$\varphi^{-1}\colon \varphi(G) \to G$$ ein Homomorphismus und $$\varphi\colon G \to \varphi(G)$$ ein Isomorphismus.

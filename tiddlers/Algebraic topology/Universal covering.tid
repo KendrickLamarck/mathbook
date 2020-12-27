@@ -1,12 +1,14 @@
 created: 20201218191140817
-modified: 20201218201238676
-tags: [[Algebraic topology]]
+modified: 20201222134130683
+tags: [[Algebraic topology]] no-toc
 title: Universal covering
 type: text/vnd.tiddlywiki
 
+A covering map is called a //universal covering// if the covering space is simply connected.
+
 @@.theorem
 ''Theorem.''
-Suppose $$X$$ is path-connected, locally path-connected and semilocally simply connected. Then there exists a //universal covering// $$p\colon (\tilde{X}, \tilde{x}_0) \to (X,x_0),$$ meaning a covering such that $$\tilde{X}$$ is simply connected.
+Suppose $$X$$ is path-connected, locally path-connected and semilocally simply connected. Then there exists a universal covering of $$X.$$
 
 ''Corollary.''
 Suppose $$X$$ is path-connected, locally path-connected and semilocally simply connected and fix a subgroup $$H < \pi_1(X,x_0).$$ Then there exists a covering $$p_H\colon (X_H, x_H) \to (X,x_0)$$ such that $$(p_H)_* \pi_1(X_H,x_H) = H.$$

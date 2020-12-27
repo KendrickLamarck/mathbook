@@ -1,18 +1,16 @@
 created: 20200512204246638
 creator: Leander
 list: [[Fundamental lemma of calculus of variations]] [[Variation of length]] [[Geodesics and variations]] [[Bending energy (plane curves)]] [[Free elastic curve]] [[Elastic curve]] [[Dirichlet energy]]
-modified: 20200716221954291
+modified: 20201227203229604
 modifier: Leander
 tags: Curve
 title: Variation (plane curves)
 type: text/vnd.tiddlywiki
 
 A //variation// of a curve $$\gamma_0$$ is a smooth map $$\varphi\colon [a,b] \times \openI{-\varepsilon,\varepsilon} \to \R^2$$ such that $$\gamma_0(x) = \varphi(x,0).$$ The vector field
-
 $$
 \dot\gamma(x) \coloneqq \fracpartial{\varphi}{t}(x,0)
 $$
-
 along $$\gamma_0$$ is called //variational vector field// of $$\varphi.$$ In general, the dot denotes the $$t$$-derivative in $$0.$$
 
 * For closed curves, we also demand that the period is the same for every $$t.$$

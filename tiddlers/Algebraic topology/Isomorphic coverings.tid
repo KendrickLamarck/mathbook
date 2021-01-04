@@ -1,0 +1,26 @@
+created: 20210104142034789
+modified: 20210104152722115
+tags: [[Algebraic topology]]
+title: Isomorphic coverings
+type: text/vnd.tiddlywiki
+
+We say that two coverings $$p_i\colon \tilde{X}_i \to X$$ are //isomorphic,// if there exists a homeomorphism $$f\colon \tilde{X}_1 \to \tilde{X}_2$$ such that $$p_1 = p_2 \circ f.$$
+
+@@.theorem
+''Proposition.''
+Suppose $$(X,x_0)$$ is path-connected and locally path-connected and $$p_i\colon (\tilde{X}_i,\tilde{x}_i) \to (X,x_0)$$ for $$i=1,2$$ are connected coverings. Then these are isomorphic via a homeomorphism of pointed spaces if and only if
+$$
+(p_1)_*\pi_1(\tilde{X}_1, \tilde{x}_1) = (p_2)_*\pi_1(\tilde{X}_2, \tilde{x}_2)
+$$
+are the same subgroup of $$\pi_1(X,x_0).$$
+
+''Corollary.''
+Suppose $$(X,x_0)$$ is path-connected, locally path connected and semilocally simply connected. Then the connected covering spaces of $$(X,x_0)$$ up to basepoint-preserving isomorphism are in one-to-one correspondence with the subgroups $$H < \pi_1(X,x_0)$$ via
+$$
+(\tilde{X}, \tilde{x}_0) \leftrightarrow
+p_* \pi_1(\tilde{X}, \tilde{x}_0) < \pi_1(X,x_0).
+$$
+
+''Theorem.''
+Suppose $$X$$ is path-connected, locally path connected and semilocally simply connected. Then the isomorphism classes of connected coverings of $$X$$ are in one-to-one correspondence to conjugacy classes of subgroups $$H < \pi_1 X.$$
+@@

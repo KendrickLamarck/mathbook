@@ -1,5 +1,5 @@
 created: 20201116191124760
-modified: 20201217183456116
+modified: 20210104141720557
 tags: [[Algebraic topology]]
 title: Lift
 type: text/vnd.tiddlywiki
@@ -25,3 +25,7 @@ The formulation in terms of [[pointed spaces|Pointed space]] is slightly nicer: 
 We write $$\tilde{x} * \gamma \coloneqq \tilde{\gamma}(1).$$ This of course lies in the fiber $$p^{-1}\{\gamma(1)\}$$ and depends on the path taken, but if $$\gamma \simeq \gamma',$$ then $$\tilde{x}*\gamma = \tilde{x}*\gamma'$$ by the homotopy lifting property, so we write $$\tilde{x}*[\gamma].$$ In fact, this defines a (right) [[group action|Group action]] of $$\pi_1(X,x)$$ on $$p^{-1}\{x\}.$$
 
 {{Homotopy lifting||$:/_templates/theorem}}
+
+!! Existence
+
+{{Existence of lifts||$:/_templates/theorem}}

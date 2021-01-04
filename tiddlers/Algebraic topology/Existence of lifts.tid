@@ -1,0 +1,8 @@
+created: 20201214152435354
+modified: 20210104141741901
+tags: [[Algebraic topology]] no-toc
+title: Existence of lifts
+type: text/vnd.tiddlywiki
+
+''Proposition.''
+Suppose $$Y$$ is path-connected and locally path-connected and suppose $$p\colon (\tilde{X},\tilde{x}_0) \to (X,x_0)$$ is any covering map. A map $$f\colon (Y,y_0) \to (X,x_0)$$ has a lift $$\tilde{f}\colon (Y,y_0) \to (\tilde{X},\tilde{x}_0)$$ if and only if $$f_* \pi_1(Y,y_0) < p_*\pi_1(\tilde{X},\tilde{x}_0).$$

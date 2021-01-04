@@ -1,0 +1,21 @@
+created: 20210104152725045
+modified: 20210104161058451
+tags: [[Algebraic topology]]
+title: Deck transformation
+type: text/vnd.tiddlywiki
+
+A self-[[isomorphism|Isomorphic coverings]] of a covering $$p\colon \tilde{X} \to X$$ is called a //covering transformation// or //deck transformation.// Locally, it permutes the sheets (decks). These form a group $$\Gamma(\tilde{X}).$$
+
+A deck transformation $$g$$ is a lift of the covering map itself. If $$\tilde{X}$$ is connected and we fix a basepoint $$\tilde{x}_0$$, it is uniquely determined by $$g(\tilde{x}_0) \in p^{-1}\{x_0\}.$$ A cover where $$\Gamma$$ acts transitively on fibers, i.e. a lift exists for any $$\tilde{x}_1 \in p^{-1}\{x_0\}$$ is called //regular// or //normal,// these are the most symmetric ones.
+
+@@.theorem
+''Proposition.''
+Let $$X$$ be path-connected and locally path-connected space and consider a connected covering $$p\colon \tilde{X} \to X.$$ Write
+$$
+H \coloneqq p_* \pi_1(\tilde{X},\tilde{x}_0) < \pi_1(X,x_0) \eqqcolon G
+$$
+and let $$N(H)$$ denote the normalizer of $$H$$ in $$G.$$ Then the deck transformation group $$\Gamma(\tilde{X})$$ is isomorphic to the quotient $$N(H)/H.$$ In particular, the covering is normal if and only if $$H \lhd G$$ is a normal subgroup, in which case $$\Gamma \cong \pi_1(X,x_0)/H.$$
+@@
+
+* A universal covering is always normal and thus has $$\Gamma \cong \pi_1 X.$$
+* An $$n$$-sheeted covering corresponds to an index $$n$$ subgroup $$H < \pi_1 X.$$ It is regular if and only if $$H$$ is a normal subgroup.

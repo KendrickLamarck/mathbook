@@ -1,0 +1,12 @@
+created: 20210104161713168
+modified: 20210104163521613
+tags: [[Algebraic topology]]
+title: Even action
+type: text/vnd.tiddlywiki
+
+A continuous group action $$G \to \hom(Y)$$ on a topological space $$Y$$ is //even// (in the sense of being smooth) if every $$y \in Y$$ has a neighborhood $$U$$ such that $$g \cdot U \cap g' \cdot U = \varnothing$$ for all $$g \ne g'$$ in $$G.$$
+
+@@.theorem
+''Proposition.''
+If $$G$$ acts evenly on $$Y,$$ then the quotient map $$q\colon Y \to Y/G$$ is a normal covering map. Assuming $$Y$$ is path-connected, $$G$$ is the deck transformation group. Thus if $$Y$$ is also locally path-connected, we have $$G \cong \pi_1(Y/G)/q_*\pi_1(Y).$$
+@@

@@ -1,5 +1,5 @@
 created: 20191123223003774
-modified: 20201214151742679
+modified: 20210104161552855
 tags: Gruppe
 title: Group action
 type: text/vnd.tiddlywiki
@@ -19,7 +19,8 @@ which are the equivalence classes under the [[equivalence relation|Äquivalenzre
 * <div>The //stabilizer// of $$x$$ is the subgroup
 $$
 G^x \coloneqq \{\, g\in G \mid g\cdot x = x \,\} < G.
-$$</div>
+$$
+An action is called //free,// if all stabilizers are trivial.</div>
 
 * An action is called //faithful// if the homomorphism $$g \mapsto \theta_g$$ is injective.
 * An action is called //transitive// if there is a single orbit, i.e. for any $$x,y$$ there exists $$g$$ with $$g\cdot x=y.$$

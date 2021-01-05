@@ -1,0 +1,28 @@
+created: 20210105155913098
+modified: 20210105164931519
+tags: Physics
+title: Noether's theorem
+type: text/vnd.tiddlywiki
+
+A 1-parameter family of diffeomorphisms of the configuration space $$\varphi_s\colon \R^n \to \R^n$$ is called a //symmetry// of a Lagrangian $$L(x,\dot{x})$$ if
+$$
+L(\varphi^s(x),\varphi_s{}'(x)\dot{x}) = L(x,\dot{x})
+$$
+for all $$s \in \R$$ and $$(x,\dot{x}) \in \R^n \times \R^n.$$
+
+@@.theorem
+''Theorem.''
+If the Lagrangian $$L(x,\dot{x})$$ admits a symmetry $$\varphi_s$$ then the system of Euler-Lagrange equations admits the [[conserved quantity|Integral of motion]]
+$$\begin{aligned}
+I(x,\dot{x}) &=
+\sum_{k=1}^n
+  \fracpartial{L(x,\dot{x})}{\dot{x}_k}
+  \left.\fracderiv{}{s}\right|_{s=0} (\varphi_s(x))_k \\
+&=\left\lang
+  \grad_{\dot{x}} L(x,\dot{x}),
+  \left.\fracderiv{}{s}\right|_{s=0} \varphi_s(x)
+\right\rang.
+\end{aligned}$$
+@@
+
+A $$p_k = \fracpartial{L}{\dot{x}_k}$$ is called //momentum// and $$\left.\fracderiv{}{s}\right|_{s=0} \varphi_s(x)$$ is called the [[infinitesimal generator|Infinitesimal generator]] of the symmetry.

@@ -1,5 +1,5 @@
 created: 20201227200713681
-modified: 20201227212910030
+modified: 20210105140748928
 tags: Physics
 title: Lagrangian mechanics
 type: text/vnd.tiddlywiki
@@ -8,12 +8,12 @@ Let $$X$$ be a manifold called the //configuration space.// A //lagrange functio
 
 The //principle of least action// says that the curves $$x\colon [t_0,t_1] \to X$$ that represent motion of the system are exactly the ones which are critical points of the //action functional//
 $$
-S[x] = \int_{t_0}^{t_1} L(x(t),\dot{x}(t)) \,\d t,
+S[x] = \int_{t_0}^{t_1} L(x(t),\dot{x}(t)) \,\d t
 $$
 under variations with compact support: The domain of the functional is the affine space
 $$
 \mathfrak{X} \coloneqq \{\, x \in \smooth^1([t_0,t_1],X) :
-  x(t_0) = x_0,\ x(t_1) = t_1 \,\}
+  x(t_0) = x_0,\ x(t_1) = x_1 \,\}
 $$
 and the //space of variations// is the corresponding vector space
 $$

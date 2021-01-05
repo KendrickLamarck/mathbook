@@ -1,0 +1,12 @@
+created: 20210105141439232
+modified: 20210105162800628
+tags: Physics
+title: Energy
+type: text/vnd.tiddlywiki
+
+If the Lagrangian does not depend on time explicitly, then the Euler-Lagrange equations admit an integral of motion called the //Energy://
+$$\begin{aligned}
+E(x,\dot{x})
+&= \sum_{k=1}^n \dot{x}_k \fracpartial{L(x,\dot{x})}{\dot{x}_k} - L(x,\dot{x}) \\
+&= \lang \dot{x},\grad_{\dot{x}} L(x,\dot{x}) \rang - L(x,\dot{x}).
+\end{aligned}$$

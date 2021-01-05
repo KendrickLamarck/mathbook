@@ -1,0 +1,19 @@
+created: 20210105172105261
+modified: 20210105174418204
+tags: Physics
+title: Euler-Lagrange equations under changes of variables
+type: text/vnd.tiddlywiki
+
+Consider a Lagrangian system with configuration space $$X=\R^n$$ with the Lagrange function $$L(x,\dot{x}).$$ Perform a change of variables $$x \mapsto q,\ x=x(q)$$ with $$\det \left(\fracpartial{x_i}{q_j}\right)_{i,j} \ne 0$$ everywhere. This induces a transformation of velocities $$(x,\dot{x}) \mapsto (q,\dot{q}),$$ namely
+$$
+x_i = x_i(q_1,\dots,q_n), \qquad \dot{x}_i = \sum_{j=1}^n \fracpartial{x_i}{q_j} \dot{q}_j.
+$$
+Assume $$x(t)$$ satisfies the Euler-Lagrange equations. The transformed Lagrangian is $$\tilde{L}(q,\dot{q}) = L(x(q),\dot{x}(q,\dot{q})).$$ The transformed Euler-Lagrange equations are
+$$
+\fracderiv{}{t} \left( \fracpartial{\tilde{L}}{\dot{q}_k} \right) - 
+  \fracpartial{\tilde{L}}{q_k} = 
+\sum_{j=1}^n \left(
+    \fracderiv{}{t} \left( \fracpartial{L}{\dot{x}_j} \right) - 
+    \fracpartial{L}{x_j}
+  \right) \fracpartial{x_j}{q_k}.
+$$

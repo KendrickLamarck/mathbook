@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20201205160142420
+modified: 20210107150403183
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -45,6 +45,7 @@ $$
 \gdef\span{\operatorname{span}}
 \gdef\End{\operatorname{End}}
 \gdef\Aut{\operatorname{Aut}}
+\gdef\Homeo{\operatorname{Homeo}}
 \gdef\Sym{\operatorname{Sym}}
 \gdef\tr{\operatorname{tr}}
 \gdef\sign{\operatorname{sign}}
@@ -86,6 +87,7 @@ $$
 \gdef\comp{\mathrm{C}}
 \gdef\Hermite{\mathrm{H}}
 \gdef\pot{\mathrm{pot}}
+\gdef\kin{\mathrm{kin}}
 
 \gdef\D{\mathrm{D}} % Derivative
 \gdef\d{\mathrm{d}} % derivative

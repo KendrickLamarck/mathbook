@@ -1,5 +1,6 @@
 created: 20201116185618483
-modified: 20210104142520116
+list: Lift [[Homotopy lifting]] [[Existence of lifts]] [[Universal covering]] [[Isomorphic coverings]] [[Deck transformation]] [[Homomorphism of fundamental groups induced by a covering map]]
+modified: 20210107150917333
 tags: [[Algebraic topology]]
 title: Covering space
 type: text/vnd.tiddlywiki
@@ -18,7 +19,3 @@ If $$X$$ is connected, then the cardinality $$n \coloneqq \#p^{-1}\{x\}$$ is con
 
 ''Proposition.'' {{Homomorphism of fundamental groups induced by a covering map}}
 @@
-
-!! Universal covering
-
-{{Universal covering}}

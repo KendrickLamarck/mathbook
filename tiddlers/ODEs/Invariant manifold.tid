@@ -1,5 +1,5 @@
 created: 20201208184117424
-modified: 20201211143929446
+modified: 20210105205729176
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Invariant manifold
 type: text/vnd.tiddlywiki
@@ -18,7 +18,7 @@ W_\varepsilon^\mathrm{u}(x_0) \coloneqq \Bigl\{\,
   \lim_{t \to -\infty} \Phi^t(x) = x_0
 \,\Bigr\}.
 \end{gathered}$$
-These subsets are not guaranteed to be manifolds in general, however they are manifolds for hyperbolic fixed points.
+These subsets are not guaranteed to be manifolds in general, however they are manifolds for [[hyperbolic fixed points|Hyperbolic fixed points]].
 
 We further define the stable und unstable spaces
 $$E^\mathrm{s}(x_0)$$ and

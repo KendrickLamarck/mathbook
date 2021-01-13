@@ -1,0 +1,29 @@
+caption: On manifolds
+created: 20210113143136373
+modified: 20210113151014884
+tags: [[Lagrangian mechanics]]
+title: Lagrangian mechanics on manifolds
+type: text/vnd.tiddlywiki
+
+Let $$M$$ be a manifold given as a level set $$f^{-1}\{0\}$$ of a suitable function $$f\colon \R^n \to \R^m.$$ The modified condition for a curve to be a critical point of the action functional among all curves in the manifold from $$x(t_0)$$ to $$x(t_1)$$ is
+$$\int_{t_0}^{t_1} \sum_{k=1}^n \left(
+  \fracpartial{L}{x_k}-\fracderiv{}{t}\fracpartial{L}{\dot{x}_k}
+\right) \delta x_k(t) \,\d t = 0
+$$
+for all $$\delta x(t) = (\delta x_1(t),\dots,\delta x_k(t))^\transp$$ satisfying $$\lang \grad f_i(x(t)),\delta x(t)\rang = 0$$ for all $$i.$$
+In other words, this means that
+$$
+\fracderiv{}{t}\fracpartial{L}{\dot{x}_k} - \fracpartial{L}{x_k} =
+\sum_{i=1}^m \lambda_i \fracpartial{f}{x_k},\quad k=1,\dots,n
+$$
+for functions $$\lambda_i$$ called //Lagrange multipliers.//
+
+@@.theorem
+''Theorem.''
+Let the coordinates $$q_1,\dots,q_{n-m}$$ parametrize the manifold $$M = \{f_1=0,\dots,f_m=0\}$$ of dimension $$d=n-m.$$ Let $$\tilde{L}(q_1,\dots,q_{n-m},\dot{q}_1,\dots,\dot{q}_{n-m})$$ be the expression of the Lagrange function $$L(x_1,\dots,x_n,\dot{x}_1,\dots,\dot{x}_n)$$ restricted to the tangent bundle $$\T M$$ in the parametrizing coordinates. Then the Lagrangian mechanics on $$M$$ is described by the standard Euler-Lagrange equations for $$\tilde{L}$$:
+$$
+\fracderiv{}{t}\left( \fracpartial{\tilde{L}}{\dot{q}_k} \right)
+  - \fracpartial{\tilde{L}}{q_k} = 0,
+\quad k=1,\dots,n-m.
+$$
+@@

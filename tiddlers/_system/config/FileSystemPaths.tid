@@ -1,0 +1,12 @@
+created: 20180321151537727
+creator: Leander
+modified: 20210109163829779
+modifier: Leander
+tags: 
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[is[system]removeprefix[$:/]addprefix[_system/]]
+[is[draft]search-replace:g:regexp[/|\\],[_]addprefix[drafts/]]
+[tag[meta]addprefix[meta/]]
+[tag[Verteilung]addprefix[Verteilungen/]]

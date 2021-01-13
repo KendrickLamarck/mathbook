@@ -1,3 +1,0 @@
-[is[system]removeprefix[$:/]addprefix[_system/]]
-[tag[meta]addprefix[meta/]]
-[tag[Verteilung]addprefix[Verteilungen/]]

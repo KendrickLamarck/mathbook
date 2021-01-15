@@ -1,0 +1,24 @@
+created: 20210115171424850
+modified: 20210115175725125
+tags: [[Hamiltonian mechanics]]
+title: Poisson bracket
+type: text/vnd.tiddlywiki
+
+For an arbitrary function $$F\colon \R^n \times \R^n \to \R,$$ we define
+$$
+\{H,F\} \coloneqq \sum_{k=1}^n \left(
+  \fracpartial{H}{p_k} \fracpartial{F}{x_k}
+  -\fracpartial{H}{x_k} \fracpartial{F}{p_k}
+\right),
+$$
+which is called the //Poisson bracket// of $$H$$ and $$F.$$
+
+* $$\L_{X_H} F = \left.\fracderiv{}{t}\right|_{t=0} (F \circ \Phi^t) = \{H,F\}.$$
+* $$F$$ is an integral of motion for $$X_H$$ if and only if $$\{H,F\} = 0.$$
+* If $$F$$ and $$G$$ are integrals of motion for $$X_H,$$ then $$\{F,G\}$$ is an integral of motion for $$X_H$$ as well.
+* $$(\smooth^\infty(\R^n \times \R^n),\{\cdot,\cdot\})$$ is a [[Lie algebra]], i.e. the bracket is bilinear, skew-symmetric and satisfies the Jacobi identity.
+* $$[X_F, X_G] = X_{\{F,G\}}.$$ In particular, Hamiltonian vector fields are closed under the operation of computing the commutator and the set of Hamiltonian vector fields is a Lie algebra, a subalgebra of $$(\vecfields(\R^n),[\cdot,\cdot]).$$ Moreover, the map $$H \mapsto X_H$$ is a homomorphism between this Lie algebra and the previous one.
+
+!! Poisson manifolds
+
+{{Poisson manifold}}

@@ -1,11 +1,11 @@
 created: 20201227200713681
 list: [[Noether's theorem]] Energy [[Euler-Lagrange equations under changes of variables]] [[Lagrangian mechanics on manifolds]]
-modified: 20210113151048322
+modified: 20210115125338846
 tags: Physics
 title: Lagrangian mechanics
 type: text/vnd.tiddlywiki
 
-Let $$X$$ be a manifold called the //configuration space.// A //lagrange function// is a $$\smooth^2$$- function $$L\colon \T X \to \R.$$ If $$X = \R^n,$$ we can replace $$\T X$$ with $$\R^n \times \R^n.$$
+Let $$X$$ be a manifold called the //configuration space.// A //lagrange function// is a $$\smooth^2$$- function $$L\colon \T X \to \R.$$ If $$X = \R^n,$$ we can replace $$\T X$$ with $$\R^n \times \R^n,$$ which is the case we will consider now.
 
 The //principle of least action// says that the curves $$x\colon [t_0,t_1] \to X$$ that represent motion of the system are exactly the ones which are critical points of the //action functional//
 $$

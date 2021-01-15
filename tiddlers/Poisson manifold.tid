@@ -1,0 +1,17 @@
+created: 20210115174034815
+modified: 20210115175749545
+tags: [[Hamiltonian mechanics]] no-toc
+title: Poisson manifold
+type: text/vnd.tiddlywiki
+
+Let $$M$$ be a manifold. If there exists a bilinear operation
+$$
+\{\cdot,\cdot\}\colon \smooth^\infty(M) \times \smooth^\infty(M) \to \smooth^\infty(M)
+$$
+that
+
+# is skew-symmetric, i.e. $$\{F,G\} = -\{G,F\},$$
+# satisfies the Jacobi identity $$\{\{F,G\},H\} + \{\{G,H\},F\} + \{\{H,F\},G\} = 0$$ and
+# is a derivation, i.e. $$\{F_1 F_2,G\} = F_1\{F_2,G\} + F_2\{F_1,G\}$$
+
+then $$M$$ is called a //Poisson manifold// and $$\{\cdot,\cdot\}$$ is called a //Poisson bracket.//

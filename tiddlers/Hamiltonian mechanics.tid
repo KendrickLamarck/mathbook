@@ -1,0 +1,19 @@
+created: 20210115165607520
+modified: 20210115171445172
+tags: Physics
+title: Hamiltonian mechanics
+type: text/vnd.tiddlywiki
+
+For an arbitrary function $$H\colon \R^n \times \R^n \to \R,$$ we define the corresponding //Hamiltonian vector field//
+$$
+X_H \coloneqq \left(
+  \fracpartial{H}{p_1},\dots,\fracpartial{H}{p_n},
+  -\fracpartial{H}{x_1},\dots,-\fracpartial{H}{x_n}.
+\right)^\transp
+$$
+and the corresponding canonical Hamiltonian ODEs $$(\dot{x},\dot{p})^\transp = X_H(x,p).$$
+
+@@.theorem
+''Theorem.''
+$$H(x,p)$$ is an integral of motion for the vector field $$X_H.$$
+@@

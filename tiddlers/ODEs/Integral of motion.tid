@@ -1,9 +1,9 @@
 created: 20201112164308771
-modified: 20201117211123012
+modified: 20210116134906829
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Integral of motion
 type: text/vnd.tiddlywiki
 
-Let $$\Phi^t(x)$$ be the flow of a dynamical system $$\dot{x}=f(x).$$ on $$U.$$ A functon $$F\colon U \to \R$$ is called an //integral of motion// (also //conserved quantity, first integral,// deutsch //Bewegungsintegral, Erhaltungsgröße, Erhaltungssatz//) if $$F(\Phi^t(x)) = F(x)\ \forall t\in\R \iff L_f F = 0.$$
+Let $$\Phi^t(x)$$ be the flow of a dynamical system $$\dot{x}=f(x).$$ on $$U.$$ A functon $$F\colon U \to \R$$ is called an //integral of motion// (also //conserved quantity, first integral,// deutsch //Bewegungsintegral, Erhaltungsgröße, Erhaltungssatz//) if $$F(\Phi^t(x)) = F(x)\ \forall t\in\R \iff \L_f F = 0.$$
 
 For discrete time dynamical systems: $$F(\Phi^n(x)) = F(x)\ \forall n \in \Z \iff F \circ \Phi = F.$$

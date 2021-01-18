@@ -1,12 +1,12 @@
 created: 20210105155913098
-modified: 20210113151034121
+modified: 20210116131838858
 tags: [[Lagrangian mechanics]]
 title: Noether's theorem
 type: text/vnd.tiddlywiki
 
 A 1-parameter family of diffeomorphisms of the configuration space $$\varphi_s\colon \R^n \to \R^n$$ is called a //symmetry// of a Lagrangian $$L(x,\dot{x})$$ if
 $$
-L(\varphi^s(x),\varphi_s{}'(x)\dot{x}) = L(x,\dot{x})
+L(\varphi_s(x),\varphi_s{}'(x)\dot{x}) = L(x,\dot{x})
 $$
 for all $$s \in \R$$ and $$(x,\dot{x}) \in \R^n \times \R^n.$$
 

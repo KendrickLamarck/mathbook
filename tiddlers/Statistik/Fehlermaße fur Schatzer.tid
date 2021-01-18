@@ -1,31 +1,25 @@
 created: 20200428133525472
-modified: 20200822193823205
+modified: 20210118220320497
 tags: Schätzer no-toc
 title: Fehlermaße für Schätzer
 type: text/vnd.tiddlywiki
 
 Sei $$(\mathcal X,\mathcal F,(\P_\vartheta)_{\vartheta \in \varTheta})$$ ein statistisches Modell, $$\tau\colon \varTheta \to \R$$ eine Kenngröße und $$T\colon \mathcal X \to \R$$ ein Schätzer für $$\tau.$$ Dann heißt
-
 $$
 \Bbb B_\vartheta[T] \coloneqq \Bbb E_\vartheta[T]-\tau(\vartheta)
 $$
-
 //Bias// oder //systematischer Fehler// und
-
 $$
 \Bbb F_\vartheta[T] = \MSE(T,\vartheta) \coloneqq
 \Bbb E_\vartheta {\left[(T-\tau(\vartheta))^2\right]}
 $$
-
 heißt //mittlerer quadratischer Fehler.// Auch die [[Varianz]] $$\Var[T]$$ ist ein Fehlermaß.
 
 ''Bemerkung.''
 Man kann auch andere Fehlermaße der Form
-
 $$
 \Bbb F^\psi{}_\vartheta[T] \coloneqq \Bbb E_\vartheta[\psi(T-\tau(\vartheta))]
 $$
-
 mit Fehlerfunktionen $$\psi\colon \R \to \R_+$$ betrachten.
 
 * <div>Mit der Chebyshev-Ungleichung folgt

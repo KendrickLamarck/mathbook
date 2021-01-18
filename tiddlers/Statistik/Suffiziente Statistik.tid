@@ -1,6 +1,6 @@
 caption: Suffizienz und Satz von Rao-Blackwell
 created: 20200504194323416
-modified: 20201129152950891
+modified: 20210118220147758
 tags: Schätzer
 title: Suffiziente Statistik
 type: text/vnd.tiddlywiki
@@ -23,10 +23,8 @@ nicht von $$\vartheta$$ abhängt.</div>
 ''Interpretation.''
 Eine suffiziente Statistik kann als informationserhaltende Hilfsbeobachtung angesehen werden: Wir nehmen eine datenreduktion vor, so dass der verbleibende Restzufall nicht mehr von $$\vartheta$$ abhängt.
 
-!! Neyman-Fisher-Faktorisierungslemma
-
-{{Neyman-Fisher-Faktorisierungslemma}}
-
-!! Satz von Rao-Blackwell
+@@.theorem
+''Neyman-Fisher-Faktorisierungslemma.'' {{Neyman-Fisher-Faktorisierungslemma}}
+@@
 
 {{Satz von Rao-Blackwell}}

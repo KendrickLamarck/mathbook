@@ -1,16 +1,14 @@
 created: 20200421161752016
-modified: 20200815151300284
+modified: 20210118214939423
 tags: [[Statistisches Modell]] no-toc
 title: Produktmodell
 type: text/vnd.tiddlywiki
 
 Sei $$(E,\mathcal E,(\mathrm{Q}_\vartheta)_{\vartheta\in\varTheta})$$ ein statistisches Modell. Dann heißt
-
 $$
 (\mathcal X,\mathcal F,
 (\P_\vartheta)_{\vartheta\in\varTheta}) \coloneqq
 (E^n,\mathcal E^{\otimes n},
 (\mathrm{Q}_\vartheta{}^{\otimes n})_{\vartheta\in\varTheta})
 $$
-
 das zugehörige $$n$$-fache //Produktmodell.// Wir bezeichnen mit $$X_i\colon \mathcal X \to E$$ die Projektion auf die $$i$$-te Komponente.

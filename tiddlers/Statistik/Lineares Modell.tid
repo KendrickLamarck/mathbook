@@ -1,6 +1,6 @@
 created: 20200707181234581
 creator: Leander
-modified: 20200823164535405
+modified: 20210118214716847
 modifier: Leander
 tags: Statistik
 title: Lineares Modell
@@ -21,8 +21,11 @@ Das zugehörige statistische Modell ist $$(\R^n,\Borel_n,\prob_{\gamma,v}:\gamma
 
 Wir suchen für $$x \in \R^n$$ das $$y \in \Image A$$ mit minimalem Abstand zu $$x.$$ Ist $$\pi\colon \R^n \to \Image A$$ die orthogonale Projektion, so ist $$y = \pi(x).$$
 
+@@.theorem
 ''Lemma.''
 $$A^\transp A$$ ist invertierbar und es gilt $$\pi(x) = A(A^\transp A)^{-1}A^\transp x.$$ Insbesondere löst $$\hat\gamma \coloneqq (A^\transp A)^{-1}A^\transp x$$ die Gleichung $$\pi(x) = A\hat\gamma$$ eindeutig.
+
+<div>
 
 ''Satz (Gauß-Markov).''
 Im linearen Modell mit unkorellierten Fehlergrößen $$\xi_1,\dots,\xi_n$$ gelten folgende Aussagen:
@@ -39,3 +42,5 @@ V^* = \frac{\|X - \pi(X)\|^2}{n-s} =
 $$
 ist ein erwartungstreuer Schätzer für $$v.$$
 </div>
+</div>
+@@

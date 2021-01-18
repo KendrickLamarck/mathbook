@@ -1,5 +1,5 @@
 created: 20200428192408459
-modified: 20200911103845506
+modified: 20210118215044140
 tags: Statistik
 title: Exponentielle Familie
 type: text/vnd.tiddlywiki
@@ -10,17 +10,15 @@ $$
 $$
 hat, wobei $$a\colon \varTheta \to \R$$ stetig differenzierbar mit $$a' \ne 0$$ und $$h\colon \mathcal X \to {]0,\infty[}$$ messbar ist. Weiter wird implizit angenommen, dass $$T$$ nicht konstant ist.
 
-@@.list-padded
-
 * Die Normierungsfunktion $$b$$ ist auf $$\varTheta$$ stetig differenzierbar mit $$b'(\vartheta) = a'(\vartheta)\E_\vartheta[T].$$
 * Jede Statistik $$S\colon \mathcal X \to \R$$ mit existierendem Erwartungswert ist regulär. Insbesondere sind $$M$$ und $$T$$ regulär und $$\tau(\vartheta) \coloneqq \E_\vartheta[T]$$ ist stetig differenzierbar mit Ableitung $$\tau'(\vartheta) = a'(\vartheta)\Var_\vartheta[T] \ne 0.$$
 * Für die [[Fisher-Information]] gilt $$I = a'\tau'.$$
 * Jedes (einparametrige) exponentielle Modell hat [[wachsenden Likelihood-Quotienten|Wachsender Likelihood-Quotient]] entweder für die Statistik $$T$$ oder $$-T.$$
 
-@@
-
+@@.theorem
 ''Korollar.''
 Fur jedes exponentielle Modell ist die zugrunde liegende Statistik $$T$$ ein [[bester Schätzer|Gleichmäßig bester Schätzer]] für $$\tau(\vartheta) = \expect_\vartheta[T] = b'(\vartheta) / a'(\vartheta).$$ In diesem Fall gilt auch $$I(\vartheta) = a'(\vartheta) \tau'(\vartheta)$$ und $$\Var_\vartheta[T] = \tau'(\vartheta) / a'(\vartheta).$$
+@@
 
 !! Mehrdimensional
 

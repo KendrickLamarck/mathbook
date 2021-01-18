@@ -1,5 +1,5 @@
 created: 20200630131243543
-modified: 20200824112914373
+modified: 20210118214654293
 tags: [[Lineares Modell]]
 title: Lineare Regression
 type: text/vnd.tiddlywiki
@@ -29,6 +29,7 @@ F_\gamma \coloneqq
 $$
 für $$\gamma = \hat{\gamma}$$ minimal ist. Hier ist $$\vec{1} = (1,\dots,1)^\transp \in \R^n.$$
 
+@@.theorem
 ''Satz (Regressionsgerade).''
 Die eindeutigen kleinste-Quadrate-Schätzer sind gegeben durch die Statistiken
 $$
@@ -41,3 +42,4 @@ V(t) = \frac{1}{n} \sum_{i=1}^n t_i{}^2 - \bar{t}\,^2,\qquad
 C(t,X) = \frac{1}{n} \sum_{i=1}^n t_i X_i - \bar{t}\bar{X}.
 $$
 Die Schätzer sind außerdem erwartungstreu.
+@@

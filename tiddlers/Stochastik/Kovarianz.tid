@@ -1,16 +1,14 @@
 created: 20190523221448161
-modified: 20200804094637673
+modified: 20210118152809588
 tags: Stochastik
 title: Kovarianz
 type: text/vnd.tiddlywiki
 
 Seien $$X$$ und $$Y$$ [[Zufallsvariablen|Zufallsvariable]] mit $$\Bbb E(X^2)<\infty$$ und $$\Bbb E(Y^2)<\infty.$$ Dann heißt der [[Erwartungswert]]
-
 $$
 \operatorname{Cov}(X,Y)\coloneqq
 \Bbb E[(X-\Bbb E[X])(Y-\Bbb E[Y])]
 $$
-
 die //Kovarianz// von $$X$$ und $$Y.$$ Gilt $$\operatorname{Cov}(X,Y)=0,$$ so heißen $$X$$ und $$Y$$ //unkorelliert.//
 
 * Die Kovarianz ist eine [[positiv semidefinite|Definitheit]] [[symmetrische|Symmetrische Form]] [[Bilinearform]].

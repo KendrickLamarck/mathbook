@@ -1,6 +1,6 @@
 created: 20200602190919926
 creator: Leander
-modified: 20200824180841131
+modified: 20210118215303568
 modifier: Leander
 tags: Test
 title: Neyman-Pearson-Test
@@ -20,7 +20,6 @@ sofern $$\rho_0(x) \ne 0,$$ sonst setzen wir $$R(x) = \infty.$$
 Ein [[Test]] $$\varphi$$ der Form
 $$\indicator_{R > c} + \gamma\indicator_{R = c}$$
 für Konstanten $$c$$ und $$\gamma$$ heißt //Neyman-Pearson-Test.//
-
 Für $$\alpha \in \openI{0,1}$$ gilt:
 
 * Jeder Neyman-Pearson-Test mit $$\expect_0[\varphi]=\alpha$$ ist ein gleichmäßig bester Test zum Niveau $$\alpha.$$

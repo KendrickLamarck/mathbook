@@ -1,6 +1,6 @@
 created: 20200421162141560
 list: [[Fehlermaße für Schätzer]] [[Gleichmäßig bester Schätzer]] Maximum-likelihood-Schätzer [[Regulärer Schätzer]] Cramer-Rao-Ungleichung [[Suffiziente Statistik]] [[Verteilungsfreie Statistik]] [[Vollständige Statistik]] [[Satz von Lehmann-Scheffé]] [[A priori- und A posteriori-Verteilung]] Bayes-Schätzer [[Mehrdimensionale exponentielle Familie]] [[Schätzer für das Gauß-Produktmodell]]
-modified: 20200821054301263
+modified: 20210118220340783
 tags: Statistik
 title: Schätzer
 type: text/vnd.tiddlywiki
@@ -18,14 +18,15 @@ $$
 \expect_\vartheta(T) = \expect_\vartheta[T(X)]\coloneqq
 \int_\mathcal X T(x) \,\P_\vartheta(\d x) = \tau(\vartheta).
 $$
-
 Sei $$M^n=(\mathcal X^n, \mathcal F^n, (\P^n{}_\vartheta)_{\vartheta \in \varTheta})$$ eine Folge von statistischen Modellen, $$\tau\colon \varTheta \to \varSigma$$ eine Kenngröße und $$T_n\colon \mathcal X^n \to \varSigma$$ eine Folge von Schätzern. Dann heißt die Folge $$(T_n)$$ eine //konsistente Schätzfolge,// falls $$T_n \to \tau(\vartheta)$$ in $$\P_\vartheta$$-[[Wahrscheinlichkeit|Konvergenz in Wahrscheinlichkeit]] für $$\vartheta \in \varTheta.$$
 
+@@.theorem
 ''Satz.''
 Für alle $$\vartheta \in \varTheta$$ gelte $$\expect_\vartheta[T_n] \to \tau(\vartheta)$$
 (asymptotisch erwartungstreu) und
 $$\Var_\vartheta[T_n] \to 0$$ für $$n \to \infty.$$
 Dann ist $$(T_n)$$ eine konsistente Schätzfolge.
+@@
 
 !! Fehlermaße
 

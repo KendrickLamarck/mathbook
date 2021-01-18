@@ -1,6 +1,6 @@
 created: 20200609124745574
 creator: Leander
-modified: 20200824060302629
+modified: 20210118215241426
 modifier: Leander
 tags: Test
 title: Likelihood-Quotiententest
@@ -8,6 +8,7 @@ type: text/vnd.tiddlywiki
 
 {{Wachsender Likelihood-Quotient}}
 
+@@.theorem
 ''Satz.''
 Sei <<mathtext "Statistisches Modell">> ein Standardmodell mit $$\varTheta \subseteq \R,$$ strikt positiver Dichte $$\rho\colon \varTheta \times \mathcal X \to \R_+$$ und wachsendem Likelihood-Quotienten. Für $$\vartheta_0 \in \varTheta$$ sei
 $$
@@ -26,6 +27,7 @@ $$
 Dann ist $$\varphi$$ ein gleichmäßig bester Test von $$\varTheta_0$$ gegen $$\varTheta_1$$ zum Niveau
 $$\alpha \coloneqq \expect_{\vartheta_0}[\varphi].$$
 Weiterhin ist $$\vartheta \mapsto \expect_\vartheta[\varphi]$$ monoton wachsend.
+@@
 
 * Das funktioniert genau so für rechtsseitige Hypothesen, verwende dafür $$-\vartheta$$ und $$-T.$$
 

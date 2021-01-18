@@ -1,5 +1,5 @@
 created: 20201204202005231
-modified: 20201205164602470
+modified: 20210118183212760
 tags: [[Topologischer Raum]]
 title: Wedge sum
 type: text/vnd.tiddlywiki
@@ -12,6 +12,6 @@ $$
 \right), \quad
 x_0 \coloneqq \bigsqcup\{x_\alpha\} \Bigm/ \bigsqcup\{x_\alpha\}.
 $$
-The wedge sum of homogeneous spaces is independent of the base points, so we usually just write $$\bigvee X_\alpha.$$
+The wedge sum of [[homogeneous spaces|Homogeneous space]] is independent of the base points, so we usually just write $$\bigvee X_\alpha.$$
 
 The wedge sum is the [[coproduct|Coproduct]] in the category of pointed spaces.

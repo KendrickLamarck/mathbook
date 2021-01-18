@@ -1,5 +1,5 @@
 created: 20210111165709197
-modified: 20210112133933161
+modified: 20210116142858378
 tags: [[Algebraic topology]]
 title: CW complex
 type: text/vnd.tiddlywiki
@@ -26,11 +26,11 @@ $$
 $$
 Its image is called a //closed $$n$$-cell// in $$X.$$ Restricted to the interior, this is an [[embedding|Embedding]] giving a homeomorphism to the //open $$n$$-cell// $$e^n_\alpha$$ (not necessarily an open set) and the closed cell is $$\overline{e^n_\alpha}.$$ If all characteristic maps themselves are embeddings, the CW complex is called //regular.//
 
-This gives an alternate description of the topology: $$U \subseteq X$$ is open (or closed) if and only if for each $$n$$ the preimage $$(\Phi^n_\alpha{})^{-1}(U) \subseteq D^n{}_\alpha$$ is open (or closed).
+This gives an alternate description of the topology: $$U \subseteq X$$ is open (closed) if and only if for each $$n$$ the preimage $$(\Phi^n_\alpha{})^{-1}(U) \subseteq D^n{}_\alpha$$ is open (closed).
 
 * A compact subset in a CW complex meets only finitely many open cells (but can meet arbitrarily many closed cells).
 * Any CW complex is Hausdorff and [[normal|Normal topological space]].
 * Any CW complex is locally contractible, in particular locally path-connected and locally simply connected.
-* A CW complex is compact if and only if it is finte and locally compact if and only if it is locally finite.
+* A CW complex is compact if and only if it is finite. It is locally compact if and only if it is locally finite.
 * Any subcomplex $$A \subseteq X$$ has an open neighborhood that deformation retracts onto $$A.$$
 * Any compact topological manifold is homotopy equivalent to a CW complex.

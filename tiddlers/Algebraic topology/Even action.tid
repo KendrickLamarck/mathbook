@@ -1,14 +1,10 @@
 created: 20210104161713168
-modified: 20210114154559094
-tags: [[Algebraic topology]]
+modified: 20210118213906365
+tags: [[Covering space]]
 title: Even action
 type: text/vnd.tiddlywiki
 
-A continuous group action $$G \to \Homeo(Y)$$ on a topological space $$Y$$ is //even// (in the sense of being homogenous) if every $$y \in Y$$ has a neighborhood $$U$$ such that
-$$
-g \cdot U \cap g' \cdot U = \varnothing
-$$
-for all $$g \ne g'$$ in $$G.$$
+A continuous group action $$G \to \Homeo(Y)$$ on a topological space $$Y$$ is //even// (in the sense of being homogenous) if every $$y \in Y$$ has a neighborhood $$U$$ such that $$g \cdot U$$ and $$g' \cdot U$$ are disjoint for all $$g \ne g'$$ in $$G.$$
 
 @@.theorem
 ''Proposition.''

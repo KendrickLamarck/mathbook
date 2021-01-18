@@ -1,3 +1,9 @@
+created: 20200921160123639
+modified: 20210118220107452
+tags: $:/tags/Stylesheet
+title: $:/_stylesheets/paragraph-styles
+type: text/vnd.tiddlywiki
+
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
 
 <pre>div.tc-tiddler-body p,

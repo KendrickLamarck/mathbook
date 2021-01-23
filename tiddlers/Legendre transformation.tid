@@ -1,19 +1,19 @@
 created: 20210115124717218
-modified: 20210115171436497
+modified: 20210123143128007
 tags: [[Hamiltonian mechanics]]
 title: Legendre transformation
 type: text/vnd.tiddlywiki
 
 Let $$L$$ be a non-degenerate [[Lagrangian|Lagrangian mechanics]], i.e. the [[Hessian|Hesse-Matrix]] $$H_L$$ is invertible. We set
 $$
-p_k \coloneqq \fracpartial{L}{\dot{x}_k}(x,\dot{x}),\quad k=1,\dots,n.
+p_k = \fracpartial{L}{\dot{x}_k}(x,\dot{x}),\quad k=1,\dots,n.
 $$
 By the [[implicit function theorem|Satz über implizite Funktionen]], we can solve these equations for $$\dot{x}_j = \dot{x}_j(x,p).$$ We now define the //Hamilton function// as
 $$
 H(x,p) \coloneqq \lang p, \dot{x} \rang - L(x,\dot{x})
-\Bigr|_{\dot{x}_j = \dot{x}_j(x,p)}.
+\Bigr|_{\dot{x}_j = \dot{x}_j(x,p).}
 $$
-Together this means that we consider the function $$\lang p, \dot{x} \rang - L(x,\dot{x})$$ at its critical points w.r.t. $$\dot{x}.$$ If $$L(x,\cdot)$$ is convex, i.e. $$H_L$$ is positive definite, we can replace this definition by
+Together this means that we consider the function $$\dot{x} \mapsto \lang p, \dot{x} \rang - L(x,\dot{x})$$ at its critical points. If $$L(x,\cdot)$$ is convex, i.e. $$H_L$$ is positive definite, we can replace this definition by
 $$
 H(x,p) \coloneqq
 \max_{\dot{x} \in \R^n} (\lang p, \dot{x} \rang - L(x,\dot{x})).
@@ -22,7 +22,7 @@ The function $$H(x,p)$$ is also called the //Legendre transform// of $$L(x,\dot{
 
 @@.theorem
 ''Theorem.''
-The Euler-Lagrange equations are equivalent, upon Legendre transformation, to the following first oder ODEs, called //canonical Hamiltonian equations of motion:
+The Euler-Lagrange equations are equivalent, upon Legendre transformation, to the following first order ODEs, called //canonical Hamiltonian equations of motion:
 $$
 \dot{x}_k = \fracpartial{H}{p_k},\quad \dot{p}_k = -\fracpartial{H}{x_k},
 \quad k=1,\dots,n.

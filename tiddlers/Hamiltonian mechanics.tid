@@ -1,14 +1,14 @@
 created: 20210115165607520
-modified: 20210115171445172
+modified: 20210123171242780
 tags: Physics
 title: Hamiltonian mechanics
 type: text/vnd.tiddlywiki
 
-For an arbitrary function $$H\colon \R^n \times \R^n \to \R,$$ we define the corresponding //Hamiltonian vector field//
+For an arbitrary function $$H\colon \R^n \times \R^n \to \R,\ (x,p) \mapsto H(x,p)$$ called the //Hamiltonian,// we define the corresponding //Hamiltonian vector field//
 $$
 X_H \coloneqq \left(
   \fracpartial{H}{p_1},\dots,\fracpartial{H}{p_n},
-  -\fracpartial{H}{x_1},\dots,-\fracpartial{H}{x_n}.
+  -\fracpartial{H}{x_1},\dots,-\fracpartial{H}{x_n}
 \right)^\transp
 $$
 and the corresponding canonical Hamiltonian ODEs $$(\dot{x},\dot{p})^\transp = X_H(x,p).$$
@@ -16,4 +16,40 @@ and the corresponding canonical Hamiltonian ODEs $$(\dot{x},\dot{p})^\transp = X
 @@.theorem
 ''Theorem.''
 $$H(x,p)$$ is an integral of motion for the vector field $$X_H.$$
+
+''Theorem (Liouville).''
+The phase flow $$\Phi^t\colon \R^{2n} \to \R^{2n}$$ of a hamiltonian vector field $$X_H$$ preserves [[phase volume|Phase volume]].
+
+''Theorem.''
+The flow $$\Phi^t$$ of an arbitrary canonical Hamiltonian system preserves the //symplectic 2-form//
+$$
+\omega = \sum_{k=1}^n \d p_k \wedge \d x_k,
+$$
+i.e. $$(\Phi^t)^*\omega = \omega$$ or, in other words, $$\L_{X_H} \omega = 0.$$
+@@
+
+For $$n=1,$$ this coincides with the Liouville theorem. For $$n>1,$$ it means that for any surface $$S \subset \R^{2n}$$
+$$
+\int_S \omega = \int_{\Phi^t(S)} \omega.
+$$
+This is also the sum of the areas of $$S$$ or $$\Phi^t(S)$$ projected the $$p_i$$-$$x_i$$-coordinate planes.
+
+The Liouville theorem follows from Symplecticity via
+$$
+\underbrace{\omega \wedge \dots \wedge \omega}_n =
+\d p_1 \wedge\dots\wedge \d p_n \wedge \d x_1 \wedge\dots\wedge \d x_n.
+$$
+
+@@.theorem
+''Theorem.''
+If the 2-form $$\omega = \sum_{k=1}^n \d p_k \wedge \d x_k$$ on $$\R^{2n}$$ is preserved by the flow of the vector field
+$$
+\dot{x}_k = f_k(x,p), \quad \dot{p}_k = g_k(x,p),
+\quad k=1,\dots,n,
+$$
+then this vector field is locally Hamiltonian, i.e. there exists locally a function $$H\colon \R^{2n} \to \R$$ such that
+$$
+f_k = \fracpartial{H}{p_k}, \quad g_k = -\fracpartial{H}{x_k},
+\quad k=1,\dots,n.
+$$
 @@

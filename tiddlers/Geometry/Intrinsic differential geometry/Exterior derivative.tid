@@ -1,5 +1,5 @@
 created: 20191129163954910
-modified: 20200925174235210
+modified: 20210123160915363
 tags: [[Differential form]]
 title: Exterior derivative
 type: text/vnd.tiddlywiki
@@ -20,17 +20,15 @@ $$
 \d(f^*\omega)=f^*(\d\omega).
 $$</div>
 
-adsf
-
 @@.theorem
 ''Theorem.''
 Suppose $$\omega\in\Omega^k(M^m)$$ is a $$k$$-form and $$X_0,\dots,X_k$$ are $$k+1$$ vector fields. Then
 $$\begin{aligned}
 &(\d\omega)(X_0,\dots,X_k) \\
 =&\mkern{27mu}\sum_{0 \le i \le k} (-1)^i
-  X_i(\omega(X_0,\dots,\widehat X_i,\dots,X_k)) \\
+  X_i(\omega(X_0,\dots,\cancel{X_i},\dots,X_k)) \\
 & +\sum_{0 \le i<j \le k} (-1)^{i+j}
-  \omega([X_i,X_j],X_0,\dots,\widehat X_i,\dots,\widehat X_j,\dots,X_k).
+  \omega([X_i,X_j],X_0,\dots,\cancel{X_i},\dots,\cancel{X_j},\dots,X_k).
 \end{aligned}$$
 In particular, if $$\omega$$ is a 1-form, we have
 $$

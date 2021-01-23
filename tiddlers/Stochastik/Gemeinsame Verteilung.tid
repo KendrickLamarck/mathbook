@@ -1,20 +1,16 @@
 created: 20190510075604518
 list: [[Gemeinsame Zähldichte]] [[Unabhängigkeit und Zähldichten]] [[Gemeinsame Dichte]] Randdichte [[Unabhängigkeit und Dichten]] [[Gemeinsame Verteilungsfunktion]] [[Unabhängigkeit und Verteilungsfunktionen]] Randverteilung
-modified: 20200601183039672
-revision: 0
+modified: 20210123161157635
 tags: Stochastik
 title: Gemeinsame Verteilung
 type: text/vnd.tiddlywiki
 
 Sei $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Wahrscheinlichkeitsmaß]], $$X_1,\dots,X_n$$ [[Zufallsvariablen|Zufallsvariable]] mit Werten in den [[messbaren Räumen|Sigma-Algebra]] $$(E_i,\mathcal E_i).$$ Weiter sei $$E\coloneqq E_1\times\dots\times E_n$$ das kartesische Produkt, $$\mathcal E\coloneqq \mathcal E_1\otimes\dots\otimes\mathcal E_n$$ die [[Produkt|Produkt-sigma-Algebra]]-$$\sigma$$-Algebra, sowie
-
 $$
 \Bbb X\coloneqq (X_1,\dots,X_n)\colon\Omega\to E,\quad
 \omega\mapsto (X_1(\omega),\dots,X_n(\omega)).
 $$
-
 Dann heißt die Verteilung
-
 $$
 \Bbb P_\Bbb X(B)=
 \Bbb P(\Bbb X\in B)=

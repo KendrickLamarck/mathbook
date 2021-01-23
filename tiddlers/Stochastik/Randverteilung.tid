@@ -1,15 +1,12 @@
 created: 20200514135040617
-modified: 20200514135906712
-revision: 0
+modified: 20210123161208268
 tags: [[Gemeinsame Verteilung]] no-toc
 title: Randverteilung
 type: text/vnd.tiddlywiki
 
 Ist $$\P_\Bbb X$$ eine gemeinsame Verteilung auf $$E_1 \times\dots\times E_n,$$ so heißt die Verteilung
-
 $$
 \P_{X_i}(A) \coloneqq
 \P_\Bbb X(E_1 \times\dots\times A \times\dots\times E_n)
 $$
-
 auf $$(E_i,\mathcal E_i)$$ die $$i$$-te //Randverteilung// von $$\Bbb X.$$

@@ -1,22 +1,21 @@
 created: 20191129160225195
 list: One-form [[Basis for differential forms]] [[Pullback of differential forms]] Antiderivation [[Exterior derivative]] [[Contraction (differential forms)]] [[Oriented manifold]] [[Volume form]] [[Riemannian volume form]] [[De Rham cohomology]] [[Differential operators with the exterior derivative]]
-modified: 20200623230441696
-revision: 0
+modified: 20210123150031297
 tags: [[Intrinsic differential geometry]]
 title: Differential form
 type: text/vnd.tiddlywiki
 
-A (differential) $$k$$-form on a [[manifold|Smooth manifold]] $$M^m$$ is a (smooth) section of the [[bundle|Vector bundle]] $$\Lambda^k\T M$$ (see [[Dual exterior algebra]]). We write $$\Omega^k M=\Gamma(\Lambda^k\T M)$$ for the space of all $$k$$-forms, which is a [[module|Modul]] over $$\mathcal C^\infty M=\Omega^0 M.$$ Similarly we write $$\Omega^* M=\Gamma(\Lambda^*\T M)=\bigoplus\Omega^k M$$ for the [[exterior algebra|Exterior algebra]] of $$M.$$
+A (differential) $$k$$-form on a [[manifold|Smooth manifold]] $$M^m$$ is a (smooth) section of the [[bundle|Vector bundle]] $$\Lambda^k\T M$$ (see [[Dual exterior algebra]]). We write $$\Omega^k M \coloneqq \Gamma(\Lambda^k\T M)$$ for the space of all $$k$$-forms, which is a [[module|Modul]] over $$\mathcal C^\infty M=\Omega^0 M.$$ Similarly we write $$\Omega^* M=\Gamma(\Lambda^*\T M)=\bigoplus\Omega^k M$$ for the [[exterior algebra|Exterior algebra]] of $$M.$$
 
 If $$\omega\in\Omega^k M$$ is a $$k$$-form, then at each point $$p\in M$$ the value $$\omega_p\in\Lambda^k\T_p M$$ is an [[alternating|Alternierende Form]] $$k$$-[[linear|Multilineare Abbildung]] form on $$\T_p M,$$ or equivalently a linear functional on $$\Lambda_k \T_p M.$$ For $$k$$ vectors $$X_1,\dots,X_k\in\T_p M$$ we can evaluate
 $$
 \omega_p(X_1,\dots,X_k)=\omega(X_1\wedge\dots\wedge X_k)\in\R.
 $$
 
-!! Pullback
-
-{{Pullback of differential forms}}
-
 !! Basis
 
 {{Basis for differential forms}}
+
+!! Pullback
+
+{{Pullback of differential forms}}

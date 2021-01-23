@@ -1,14 +1,12 @@
 created: 20180322140658184
 creator: Leander
-modified: 20191004231957624
+modified: 20210121175515503
 modifier: Leander
-revision: 0
 tags: [[Lineare Abbildung]] Matrix
 title: Rang
 type: text/vnd.tiddlywiki
 
 Als den //Rang// einer [[linearen Abbildung|Lineare Abbildung]] $$F$$ bezeichnet man die Dimension ihres [[Bildes|Bild (lineare Abbildung)]] $$\dim\operatorname{Im}F$$.
-
 Für eine [[Matrix]] $$A\in K^{m\times n}$$ sei
 
 # Zeilenrang $$A$$ = $$\dim\operatorname{ZR}(A)$$ und
@@ -16,5 +14,7 @@ Für eine [[Matrix]] $$A\in K^{m\times n}$$ sei
 
 Als den //Rang// einer [[Matrix]] bezeichnen wir den Spaltenrang, aber für jede Matrix gilt Zeilenrang = Spaltenrang.
 
+@@.theorem
 ''Lemma.''
 In der Matrix $$A\in K^{m\times n}$$ sei die letzte Zeile [[Linearkombination]] der vorhergehenden, $$\bar A \in K^{m-1\times n}$$ entstehe aus $$A$$ durch Weglassen der letzten Zeile. Dann ist Spaltenrang $$\bar A$$ = Spaltenrang $$A$$.
+@@

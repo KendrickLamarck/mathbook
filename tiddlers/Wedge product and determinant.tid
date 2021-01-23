@@ -1,5 +1,5 @@
 created: 20191122205009882
-modified: 20200923164303891
+modified: 20210123145625059
 tags: Determinante [[Exterior algebra]]
 title: Wedge product and determinant
 type: text/vnd.tiddlywiki
@@ -10,4 +10,4 @@ v_1 \wedge\dots\wedge v_m = \det({v_j}^i)e_{1 2 \cdots m}.
 $$
 Similarly, the components of the wedge product of $$k$$ vectors $$v_1,\dots,v_k$$ are given by the minor determinants of the matrix $$({v_j}^i).$$
 
-Furthermore, we could define the determinant itself $$\det \in \Lambda^m(\R^m)$$ with the normalization condition $$\det(e_{1 \cdots m})=1$$ using the standard basis.
+Furthermore, we could define the determinant itself as $$\det \in \Lambda^m(\R^m)$$ with the normalization condition $$\det(e_{1 \cdots m})=1$$ using the standard basis.

@@ -1,20 +1,16 @@
 caption: Höhere Ordnungen
 created: 20181016212158809
-modified: 20200227035621470
-revision: 0
+modified: 20210121192652775
 tags: [[Lineare Differentialgleichung]]
 title: Lineare Differentialgleichung höherer Ordnung
 type: text/vnd.tiddlywiki
 
 Gegeben sei das Anfangswertproblem 
-
 $$\begin{gathered}
 x^{(n)}+f_1(t)x^{(n-1)}+\dots+f_{n-1}(t)\dot x+f_n(t)x=g(t) \\
 x(t_0)=\xi_0,\dots,x^{(n-1)}(t_0)=\xi_{n-1}
 \end{gathered}$$
-
 mit [[stetigen|Stetigkeit]] Funktionen $$f_1,\dots,f_n,g\colon J\to\mathbb R$$ auf einem [[Intervall|Intervall]] $$J$$ um $$t_0$$ und $$\xi_0,\dots,\xi_{n-1}\in\mathbb R.$$ Wir können dieses Problem in eine Gleichung 1. Ordnung in $$n$$ Dimensionen umwandeln:
-
 $$
 \dot y =
 \begin{pmatrix}
@@ -27,7 +23,6 @@ $$
 y(t_0) =
 \begin{pmatrix} \xi_0 \\ \vdots \\ \xi_{n-1} \end{pmatrix}.
 $$
-
 Wobei $$y=(y_1,\dots,y_n)\coloneqq(x,\dot x,\dots,x^{(n-1)}).$$ Insgesamt gilt:
 
 # Das Anfangswertproblem hat genau eine auf ganz $$J$$ definierte Lösung.

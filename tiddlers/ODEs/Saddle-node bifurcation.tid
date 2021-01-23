@@ -1,15 +1,24 @@
 created: 20201223130942983
-modified: 20201223153932063
+modified: 20210121181752922
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Saddle-node bifurcation
 type: text/vnd.tiddlywiki
 
 @@.theorem
+<div>
+
 ''Theorem.''
-Consider a parameter-dependent dynamical system $$\dot{x} = f(x,\mu)$$ with $$f \in \smooth^1,$$ $$x \in \R^n$$ and $$\mu \in \R$$ and assume that $$f'(x_0, \mu_0)$$ has maximal rank. Suppose that $$D \coloneqq \fracpartial{f}{x}(x_0, \mu_0)$$ has one eigenvalue 0, with the right and left eigenvectors $$v,w$$ i.e. $$Dv = w^\transp D = 0,$$ and further has $$k$$ eigenvalues with $$\Re(\lambda_i) < 0$$ and $$n-k-1$$ eigenvalues with $$\Re(\lambda_i) > 0.$$ Further suppose that
+Consider a parameter-dependent dynamical system $$\dot{x} = f(x,\mu)$$ with $$f \in \smooth^1,$$ $$x \in \R^n$$ and $$\mu \in \R.$$ Assume:
+
+# $$x_0$$ is a fixed point at $$\mu_0.$$
+# $$f'(x_0, \mu_0)$$ has maximal rank.
+# $$D \coloneqq \fracpartial{f}{x}(x_0, \mu_0)$$ has one eigenvalue 0, with the right and left eigenvectors $$v,w$$ i.e. $$Dv = w^\transp D = 0,$$ and further has $$k$$ eigenvalues with $$\Re(\lambda_i) < 0$$ and $$n-k-1$$ eigenvalues with $$\Re(\lambda_i) > 0.$$
+# <div>Further suppose that
 $$
 w^\transp \fracpartial{f}{\mu}(x_0,\mu_0) \ne 0,\qquad
 w^\transp \frac{\partial^2 f}{\partial x^2}(x_0,\mu_0)(v,v) \ne 0.
-$$
-Then there exists a smooth curve of equilibria through $$(x_0, \mu_0)$$ and tangent to the affine subspace $$\R^n \times \{\mu_0\}.$$ For $$\mu > \mu_0$$ there are two equilibria, for $$\mu < \mu_0$$ there are no equilibria and for $$\mu = \mu_0$$ there is one equilibrium. The two equilibria for $$\mu > \mu_0$$ are hyperbolic with $$k$$ and $$k+1$$ eigenvalues with $$\Re(\lambda_i) < 0$$ respectively.
+$$</div>
+Then there exists a smooth curve of equilibria through $$(x_0, \mu_0)$$ and tangent to the affine subspace $$\R^n \times \{\mu_0\}.$$ For $$\mu > \mu_0$$ (or $$\mu < \mu_0$$) there are two equilibria, for $$\mu < \mu_0$$ (or $$\mu > \mu_0$$) there are no equilibria and for $$\mu = \mu_0$$ there is one equilibrium. The two equilibria for $$\mu > \mu_0$$ are hyperbolic with $$k$$ and $$k+1$$ eigenvalues with $$\Re(\lambda_i) < 0$$ respectively.
+
+</div>
 @@

@@ -1,0 +1,25 @@
+created: 20210123221604974
+modified: 20210123225718040
+tags: Homology
+title: Augmentation map
+type: text/vnd.tiddlywiki
+
+For a [[singular homology|Singular homology]], we define the augmentation map $$\varepsilon\colon C_0(X) \to \Z$$ by
+$$
+\varepsilon{\left(\sum k_i \sigma_i\right)} \coloneqq \sum k_i.
+$$
+
+* $$\varepsilon$$ is surjective if and only if $$X$$ is nonempty.
+* $$\img \partial_1 < \ker \varepsilon.$$
+
+We can use this map to define the //augmented chain complex//
+$$
+\cdots
+\xrightarrow{\partial_2} C_1(X)
+\xrightarrow{\partial_1} C_0(X)
+\xrightarrow{\varepsilon} \Z
+\longrightarrow 0.
+$$
+The homology groups of this complex are called the //reduced (singular) homology groups// of $$X$$ $$\tilde{H}_n(X).$$ We have $$\tilde{H}_n(X) = H_n(X)$$ for $$n>0$$ and $$H_0(X) \cong \tilde{H}_0(X) \oplus \Z$$ if $$X \ne \varnothing.$$
+
+The augmentation map and augmented homology could be interpreted as $$\partial_0$$ thinking of $$\varnothing = [\,]$$ as a (-1)-simplex and using the isomorphism $$C_{-1}(X) \cong \Z.$$ The reduced homology $$\tilde{H}_0(X)$$ can also be thought of as the space of 0-loops, meaning maps from $$\sphere^0 = \{\pm 1\}$$ to $$X$$ mapping the two points to different path-components.

@@ -1,0 +1,24 @@
+created: 20210123205459773
+modified: 20210123211853248
+tags: [[Algebraic topology]]
+title: Homology
+type: text/vnd.tiddlywiki
+
+A //chain complex// $$C_*$$ is a sequence of abelian groups $$(C_n)_{n \in \Z}$$ together with homomorphisms called //boundary maps// $$\partial_n\colon C_n \to C_{n-1}$$ such that $$\partial_n \circ \partial_{n+1} = 0$$ for all $$n.$$ That is, such that $$\img(\partial_{n+1}) < \ker(\partial_n) < C_n$$:
+$$
+\cdots
+\xrightarrow{\partial_{n+2}} C_{n+1}
+\xrightarrow{\partial_{n+1}} C_n
+\xrightarrow{\partial_n} C_{n-1}
+\xrightarrow{\partial_{n-1}} \cdots
+$$
+The //$$n$$-th homology group// of a chain complex is
+$$
+H_n = H_n(C_*) \coloneqq \ker(\partial_n) / \img(\partial_{n+1}).
+$$
+
+* The elements of $$C_n$$ are called //$$n$$-chains.//
+* The elements of $$\ker \partial_n$$ are called //cycles.//
+* The elements of $$\img \partial_{n+1}$$ are called //$$n$$-boundaries.//
+* The elements of $$H_n$$ are called //homology classes.//
+* Two cycles differing by a boundary are called //homologous.//

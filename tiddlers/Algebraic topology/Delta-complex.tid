@@ -1,0 +1,12 @@
+created: 20210123191331434
+modified: 20210123211909871
+tags: Homology
+title: Delta-complex
+type: text/vnd.tiddlywiki
+
+A //$$\Delta$$-complex// structure on $$X$$ is a collection of maps $$\sigma_\alpha \colon \Delta^n \to X$$ defined on [[simplices|Simplex]] ($$n$$ is dependent on $$\alpha$$) such that
+
+* each  $$\sigma_\alpha|_{\mathring\Delta^n}$$ is injective,
+* the //open cells// $$e_\alpha^n \coloneqq \sigma_\alpha(\mathring\Delta^n)$$ partition $$X,$$
+* the restriction of $$\sigma_\alpha$$ to any face of $$\Delta^n$$ (composed with the standard linear map from $$\Delta^k$$ to that face) is one of our maps $$\sigma_\beta,$$
+* $$U \subseteq X$$ is open if and only if each $$\sigma_\alpha{}^{-1}(U)$$ is open in $$\Delta^n.$$

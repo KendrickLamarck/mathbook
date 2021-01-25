@@ -12,5 +12,8 @@
         "tiddlywiki/vanilla",
         "tiddlywiki/centralised",
         "tiddlywiki/snowwhite"
-    ]
+    ],
+    "config": {
+        "retain-original-tiddler-path": true
+    }
 }

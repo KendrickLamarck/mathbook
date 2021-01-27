@@ -1,8 +1,7 @@
 created: 20180723112944776
 creator: Leander
-modified: 20191003195642601
+modified: 20210126134754517
 modifier: Leander
-revision: 0
 tags: [[Symmetrische Form]]
 title: Signatur
 type: text/vnd.tiddlywiki
@@ -15,13 +14,11 @@ Sei $$b$$ eine [[symmetrische|Symmetrische Form]] [[Bilinearform]] auf einem [[e
 * $$b(v_i,v_i)\in\{+1,-1,0\}.$$
 
 Das Tupel $$(k,l,m)\in(\mathbb Z_{\ge 0})^3$$ mit
-
 $$\begin{aligned}
 k&\coloneqq\#\{\,i\in\{1,\dots,n\}:b(v_i,v_i)=+1\,\} \\
 l&\coloneqq\#\{\,i\in\{1,\dots,n\}:b(v_i,v_i)=-1\,\} \\
 m&\coloneqq\#\{\,i\in\{1,\dots,n\}:b(v_i,v_i)=0\,\}
 \end{aligned}$$
-
 ist durch $$b$$ eindeutig bestimmt (Trägheitssatz von Sylvester) und heißt die //Signatur// von $$b.$$
 
 Das gleiche gilt auch für [[hermitesche|Hermite'sche Form]] [[Sesquilinearformen|Sesquilinearform]] auf endlichdimensionalen $$\mathbb C$$-Vektorräumen.
@@ -34,7 +31,6 @@ Zu jeder symmetrischen Bilinearform $$b$$ auf einem endlichdimensionalen $$\math
 * $$b(v_i,v_i)\in\{1,0\}.$$
 
 Dabei gilt
-
 $$
 \#\{\,i\in\{1,\dots,n\}:b(v_i,v_i)=0\,\}=\dim\ker b.
 $$
@@ -42,7 +38,6 @@ $$
 !! Matrixversion
 
 Für jede [[symmetrische|Symmetrische Matrix]] [[Matrix]] $$B\in\mathbb R^{n\times n}$$ gibt es eine Matrix $$S\in\operatorname{GL}(n;\mathbb R),$$ so dass
-
 $$
 S^\mathrm T B S=\begin{pmatrix}
 \lambda_1 && \mkern{-12mu}0\, \\[4mu]
@@ -50,8 +45,6 @@ S^\mathrm T B S=\begin{pmatrix}
 0 && \mkern{-12mu}\lambda_n
 \end{pmatrix}
 $$
-
-
 mit $$\lambda_j\in\{\,+1,-1,0\,\}.$$ Das analog zu oben definierte Tupel $$(k,l,m)$$ ist durch $$B$$ eindeutig bestimmt.
 
 ---

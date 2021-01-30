@@ -1,5 +1,5 @@
 created: 20201117142849342
-modified: 20201126155339756
+modified: 20210130174936131
 tags: [[Algebraic topology]]
 title: Retraction
 type: text/vnd.tiddlywiki
@@ -12,6 +12,9 @@ Let $$r\colon X \to A$$ be a retraction and $$i\colon A \hookrightarrow X$$ be t
 
 ''Corollary.''
 There is no retraction from $$D^2$$ onto its boundary $$\sphere^1 = \partial D^2.$$ In fact, this is true in arbitrary dimension.
+
+''Proposition.''
+The [[induced map|Chain map]] on homology $$r_*\colon H_n(X) \to H_n(A)$$ is surjective for each $$n.$$
 @@
 
 !! Deformation retraction

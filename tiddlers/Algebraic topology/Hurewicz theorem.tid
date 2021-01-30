@@ -1,0 +1,19 @@
+created: 20210129204513899
+modified: 20210129210538804
+tags: Homology
+title: Hurewicz theorem
+type: text/vnd.tiddlywiki
+
+Regard a point $$p \in X$$ as a 0-chain and a path $$\alpha$$ as a 1-chain with $$\partial\alpha = \alpha(1) - \alpha(0).$$ We write $$\alpha \sim \beta$$ if the 1-chains $$\alpha$$ and $$\beta$$ are homologous, i.e. $$\alpha - \beta$$ is a boundary. Denote homotopy classes by $$[\alpha] \in \pi_1(X,x_0)$$ and homology classes by $$\llbracket \alpha \rrbracket \in H_1(X).$$
+
+* Any constant path $$\sigma^1\colon \Delta^1 = I \to X$$ is null-homologous.
+* If $$\alpha(1) = \beta(0),$$ then $$\alpha \cdot \beta \sim \alpha + \beta.$$
+* If $$\alpha$$ and $$\beta$$ are homotopic with fixed endpoints, then they are homologous.
+* If $$\alpha$$ is any path, then $$\bar\alpha \sim -\alpha.$$
+
+This means that the map $$h\colon \pi_1(X,x_0) \to H_1(X),\ [\gamma] \mapsto \llbracket \gamma \rrbracket$$ is a group homomorphism, the so-called //Hurewicz homomorphism.// Since $$H_1(X)$$ is abelian, it factors through the abelianization $$\pi_1(X,x_0)_\mathrm{ab},$$ giving a map $$\bar{h} \colon \pi_1(X,x_0)_\mathrm{ab} \to H_1(X).$$
+
+@@.theorem
+''Theorem (Hurewicz).''
+If $$X$$ is path-connected, then $$\bar{h}$$ is an isomorphism.
+@@

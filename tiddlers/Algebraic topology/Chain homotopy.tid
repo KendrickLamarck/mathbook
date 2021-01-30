@@ -1,0 +1,20 @@
+created: 20210130150057199
+modified: 20210130174641347
+tags: Homology
+title: Chain homotopy
+type: text/vnd.tiddlywiki
+
+Two chain maps $$f,g \colon C_* \to D_*$$ are //chain homotopic// if there exists a //chain homotopy// between them, i.e. a family of maps $$h_n \colon C_n \to D_{n+1}$$ such that $$\partial_{n+1}^D \circ h_n + h_{n-1} \circ \partial_n^C = g_n - f_n,$$ or more symbolically, $$\partial \circ h + h \circ \partial = g-f.$$
+
+@@.theorem
+''Proposition.''
+If $$f$$ and $$g$$ are chain homotopic maps, then they induce the same maps $$f_* = g_*$$ on homology.
+
+''Theorem.''
+If $$f$$ and $$g$$ are homotopic maps between topoloical spaces, then the induced chain maps $$f_\#$$ and $$g_\#$$ are chain homotopic, so the induced maps $$f_* = g_*$$ on homology are equal.
+
+''Corollary.''
+If $$X \simeq Y$$ are homotopy equivalent spaces, then any homotopy equivalence induces isomorphisms $$H_n(X) \cong H_n(Y)$$ for all $$n.$$
+@@
+
+The theorem also holds for [[reduced homology|Augmentation map]].

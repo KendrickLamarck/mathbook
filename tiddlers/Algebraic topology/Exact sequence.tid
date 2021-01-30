@@ -1,0 +1,52 @@
+created: 20210130175825686
+modified: 20210130191919291
+tags: Homology
+title: Exact sequence
+type: text/vnd.tiddlywiki
+
+A sequence f abelian groups and homomorphisms
+$$
+\dots \xrightarrow{} A_{n+1}
+\xrightarrow{\alpha_{n+1}} A_n
+\xrightarrow{\alpha_n} A_{n-1}
+\xrightarrow{\alpha_{n-1}} \cdots
+$$
+is //exact// at $$A_n$$ if $$\img(\alpha_{n+1}) = \ker (\alpha_n) < A_n.$$ It is called a //long exact sequence,// if it is exat at each $$A_n,$$ i.e. if it is a [[chain complex|Homology]] with trivial homology.
+
+If one of the maps vanishes, we can split the sequence and we get the equivalences 
+
+* $$\cdots\xrightarrow{0} A \xrightarrow{\alpha}\cdots$$ is exact $$\iff$$ $$\alpha$$ is injective,
+* $$\cdots\xrightarrow{\alpha} A \xrightarrow{0}\cdots$$ is exact $$\iff$$ $$\alpha$$ is surjective,
+* $$\cdots\xrightarrow{0} A \xrightarrow{0}\cdots$$ is exact $$\iff$$ $$A \cong 0,$$
+* $$\cdots\xrightarrow{0} A \xrightarrow{\alpha} B \xrightarrow{0}\cdots$$ is exact $$\iff$$ $$\alpha$$ is an isomorphism.
+
+A //short exact sequence// is a sequence
+$$
+0 \xrightarrow{}
+A \xrightarrow{\alpha} B \xrightarrow{\beta} C
+\xrightarrow{} 0
+$$
+which is exact at $$A,B$$ and $$C.$$ We have that $$\alpha$$ is injective, $$\beta$$ is surjective and $$C \cong B/A.$$
+
+@@.theorem
+<div>
+
+''Theorem.''
+Suppose $$A \subseteq X$$ is a nonempty closed subspace that has a neighborhood $$N \subseteq X$$ which deformation retracts to $$A.$$ Then the short exact sequence
+$$
+A \hookrightarrow X \twoheadrightarrow X/A
+$$
+of the inclusion $$i$$ and quotient map $$j$$ induces a long exact sequence on [[reduced homology|Augmentation map]]:
+
+{{$:/_svg/longExactSequenceOnHomology.svg||$:/_templates/cd}}
+
+</div>
+@@
+
+* If $$A$$ is a subcomplex of a CW complex $$X,$$ then the theorem applies.
+* If all the $$\partial$$ vanish, we get short exact sequences and we get $$H_n(X/A) \cong H_n(X) / H_n(A).$$
+
+@@.theorem
+''Corollary.''
+The reduced homology of the $$k$$-sphere is $$\tilde{H}_n(\sphere^k) \cong \Z$$ if $$n=k$$ and $$0$$ otherwise.
+@@

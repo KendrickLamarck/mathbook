@@ -1,11 +1,10 @@
 created: 20190211140051543
 creator: Leander
-modified: 20190211143147584
+modified: 20210128203217514
 modifier: Leander
-revision: 0
 tags: [[Projective conic]]
 title: Brianchon's theorem
+type: text/vnd.tiddlywiki
 
 In a hexagon which is circumscribed to a [[conic|Projective conic]], the three diagonals connecting opposite points intersect in one point.
-
 This is the [[dual|Dual conic]] of [[Pascal's theorem]].

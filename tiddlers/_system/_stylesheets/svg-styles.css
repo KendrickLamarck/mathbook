@@ -26,3 +26,11 @@ img.cd {
                  (100% - var(--s) * 100%) / (2 * var(--s))
              ));
 }
+.theorem img.cd {
+  filter: invert(71%)
+          sepia(15%)
+          saturate(181%)
+          hue-rotate(131deg)
+          brightness(87%)
+          contrast(88%);
+}

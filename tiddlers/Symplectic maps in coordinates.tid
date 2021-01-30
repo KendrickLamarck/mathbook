@@ -1,0 +1,64 @@
+created: 20210130215906521
+modified: 20210130220120788
+tags: [[Hamiltonian mechanics]]
+title: Symplectic maps in coordinates
+type: text/vnd.tiddlywiki
+
+$$\varphi(x,p) = (\tilde{x}, \tilde{p})$$ is a symplectic map if and only if
+$$\begin{aligned}
+  \left(\fracpartial{\tilde{p}}{p}\right)^\transp \fracpartial{\tilde{x}}{x}
+- \left(\fracpartial{\tilde{x}}{p}\right)^\transp \fracpartial{\tilde{p}}{x}
+= I &\iff
+\sum_{k=1}^n \left(
+  \fracpartial{\tilde{p}_k}{p_j} \fracpartial{\tilde{x}_k}{x_i}
+- \fracpartial{\tilde{p}_k}{x_i} \fracpartial{\tilde{x}_k}{p_j}
+\right) = \delta_{ij}, \\[1em]
+
+  \left(\fracpartial{\tilde{p}}{x}\right)^\transp \fracpartial{\tilde{x}}{x}
+- \left(\fracpartial{\tilde{x}}{x}\right)^\transp \fracpartial{\tilde{p}}{x}
+= 0 &\iff
+\sum_{k=1}^n \left(
+  \fracpartial{\tilde{p}_k}{x_j} \fracpartial{\tilde{x}_k}{x_i}
+- \fracpartial{\tilde{p}_k}{x_i} \fracpartial{\tilde{x}_k}{x_j}
+\right) = 0, \\[1em]
+
+  \left(\fracpartial{\tilde{p}}{p}\right)^\transp \fracpartial{\tilde{x}}{p}
+- \left(\fracpartial{\tilde{x}}{p}\right)^\transp \fracpartial{\tilde{p}}{p}
+= 0 &\iff
+\sum_{k=1}^n \left(
+  \fracpartial{\tilde{p}_k}{p_j} \fracpartial{\tilde{x}_k}{p_i}
+- \fracpartial{\tilde{p}_k}{p_i} \fracpartial{\tilde{x}_k}{p_j}
+\right) = 0.
+\end{aligned}$$
+Equivalent conditions are
+$$\begin{aligned}
+  \fracpartial{\tilde{p}}{p} \left(\fracpartial{\tilde{x}}{x}\right)^\transp
+- \fracpartial{\tilde{p}}{x} \left(\fracpartial{\tilde{x}}{p}\right)^\transp
+= I &\iff
+\sum_{k=1}^n \left(
+  \fracpartial{\tilde{p}_i}{p_k} \fracpartial{\tilde{x}_j}{x_k}
+- \fracpartial{\tilde{p}_i}{x_k} \fracpartial{\tilde{x}_j}{p_k}
+\right) = \delta_{ij},\\[1em]
+
+  \fracpartial{\tilde{p}}{p} \left(\fracpartial{\tilde{p}}{x}\right)^\transp
+- \fracpartial{\tilde{p}}{x} \left(\fracpartial{\tilde{p}}{p}\right)^\transp
+= 0 &\iff
+\sum_{k=1}^n \left(
+  \fracpartial{\tilde{p}_i}{p_k} \fracpartial{\tilde{p}_j}{x_k}
+- \fracpartial{\tilde{p}_i}{x_k} \fracpartial{\tilde{p}_j}{p_k}
+\right) = 0, \\[1em]
+
+  \fracpartial{\tilde{x}}{p} \left(\fracpartial{\tilde{x}}{x}\right)^\transp
+- \fracpartial{\tilde{x}}{x} \left(\fracpartial{\tilde{x}}{p}\right)^\transp
+= 0 &\iff
+\sum_{k=1}^n \left(
+  \fracpartial{\tilde{x}_i}{p_k} \fracpartial{\tilde{x}_j}{x_k}
+- \fracpartial{\tilde{x}_i}{x_k} \fracpartial{\tilde{x}_j}{p_k}
+\right) = 0.
+\end{aligned}$$
+We can reformulate this in terms of the Poisson bracket:
+$$\begin{gathered}
+\{\tilde{p}_i, \tilde{x}_j\} = \delta_{ij} = \{p_i, x_j\}, \\
+\{\tilde{p}_i, \tilde{p}_j\} = 0 = \{p_i, p_j\}, \\
+\{\tilde{x}_i, \tilde{x}_j\} = 0 = \{x_i, x_j\}, \\
+\end{gathered}$$

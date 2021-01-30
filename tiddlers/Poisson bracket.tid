@@ -1,5 +1,5 @@
 created: 20210115171424850
-modified: 20210115175725125
+modified: 20210130220645602
 tags: [[Hamiltonian mechanics]]
 title: Poisson bracket
 type: text/vnd.tiddlywiki
@@ -22,3 +22,7 @@ which is called the //Poisson bracket// of $$H$$ and $$F.$$
 !! Poisson manifolds
 
 {{Poisson manifold}}
+
+!! Poisson map
+
+{{Poisson map}}

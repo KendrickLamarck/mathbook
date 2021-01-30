@@ -1,0 +1,10 @@
+created: 20210130215854913
+modified: 20210130220650114
+tags: [[Hamiltonian mechanics]] no-toc
+title: Poisson map
+type: text/vnd.tiddlywiki
+
+A //Poisson map// is a smooth map $$\varphi$$ between Poisson manifolds $$M$$ and $$N$$ such that for any two functions $$f,g \in \smooth^\infty(N)$$ we have
+$$
+\{f \circ \varphi, g \circ \varphi \}_M = \{f,g\}_N \circ \varphi.
+$$

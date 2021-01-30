@@ -1,0 +1,42 @@
+created: 20210130192555781
+modified: 20210130193315366
+tags: [[Hamiltonian mechanics]]
+title: Symplecticity of Hamiltonian flows
+type: text/vnd.tiddlywiki
+
+@@.theorem
+''Theorem.''
+The flow $$\Phi^t$$ of an arbitrary canonical Hamiltonian system preserves the //symplectic 2-form//
+$$
+\omega = \sum_{k=1}^n \d p_k \wedge \d x_k,
+$$
+i.e. $$(\Phi^t)^*\omega = \omega$$ or, in other words, $$\L_{X_H} \omega = 0.$$
+@@
+
+For $$n=1,$$ this coincides with the Liouville theorem. For $$n>1,$$ it means that for any surface $$S \subset \R^{2n}$$
+$$
+\int_S \omega = \int_{\Phi^t(S)} \omega.
+$$
+This is also the sum of the areas of $$S$$ or $$\Phi^t(S)$$ projected the $$p_i$$-$$x_i$$-coordinate planes.
+
+The Liouville theorem follows from Symplecticity via
+$$
+\underbrace{\omega \wedge \dots \wedge \omega}_n =
+\d p_1 \wedge\dots\wedge \d p_n \wedge \d x_1 \wedge\dots\wedge \d x_n.
+$$
+
+@@.theorem
+''Theorem.''
+If the 2-form $$\omega = \sum_{k=1}^n \d p_k \wedge \d x_k$$ on $$\R^{2n}$$ is preserved by the flow of the vector field
+$$
+\dot{x}_k = f_k(x,p), \quad \dot{p}_k = g_k(x,p),
+\quad k=1,\dots,n,
+$$
+then this vector field is locally Hamiltonian, i.e. there exists locally a function $$H\colon \R^{2n} \to \R$$ such that
+$$
+f_k = \fracpartial{H}{p_k}, \quad g_k = -\fracpartial{H}{x_k},
+\quad k=1,\dots,n.
+$$
+@@
+
+All locally Hamiltonian vector fields on contractible domains are globally Hamiltonian.

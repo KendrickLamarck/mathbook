@@ -1,5 +1,5 @@
 created: 20210130215906521
-modified: 20210130220120788
+modified: 20210131173628469
 tags: [[Hamiltonian mechanics]]
 title: Symplectic maps in coordinates
 type: text/vnd.tiddlywiki
@@ -60,5 +60,5 @@ We can reformulate this in terms of the Poisson bracket:
 $$\begin{gathered}
 \{\tilde{p}_i, \tilde{x}_j\} = \delta_{ij} = \{p_i, x_j\}, \\
 \{\tilde{p}_i, \tilde{p}_j\} = 0 = \{p_i, p_j\}, \\
-\{\tilde{x}_i, \tilde{x}_j\} = 0 = \{x_i, x_j\}, \\
+\{\tilde{x}_i, \tilde{x}_j\} = 0 = \{x_i, x_j\}. \\
 \end{gathered}$$

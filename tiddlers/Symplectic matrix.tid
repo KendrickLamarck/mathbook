@@ -1,0 +1,14 @@
+created: 20210131174555372
+modified: 20210131174627328
+tags: [[Hamiltonian mechanics]]
+title: Symplectic matrix
+type: text/vnd.tiddlywiki
+
+A matrix $$A \in \R^{2n \times 2n}$$ is called //symplectic// if $$A^\transp J A = J,$$ where
+$$
+J = \begin{pmatrix} 0 & I_n \\ -I_n & 0 \end{pmatrix}.
+$$
+Symplectic matrices form a group called the //symplectic group// denoted $$\Sp(2n,\R).$$
+
+* All symplectic matrices have determinant 1.
+* $$A$$ is symplectic if and only if $$A^\transp$$ is symplectic.

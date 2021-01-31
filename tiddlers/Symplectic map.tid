@@ -1,0 +1,32 @@
+created: 20210131174613292
+modified: 20210131175938854
+tags: [[Hamiltonian mechanics]]
+title: Symplectic map
+type: text/vnd.tiddlywiki
+
+Let $$\omega = \sum_k \d p_k \wedge \d x_k$$ be the canonical symplectic structuren on $$\R^{2n}.$$
+A (local) diffeomorphism $$\R^{2n} \to \R^{2n}$$ is called a //symplectic map// or //(local) symplectomorphism// if $$\varphi^*\omega = \omega,$$ i.e. $$\varphi' \in \Sp(2n,\R)$$ everywhere.
+
+@@.theorem
+''Theorem.''
+A map $$\varphi\colon \R^{2n} \to \R^{2n}$$ is symplectic if and only if it preserves the Poisson brackets between coordinate functions. See also [[Symplectic maps in coordinates]].
+
+''Corollary.''
+A symplectic map is a [[Poisson map|Poisson map]].
+
+''Corollary.''
+Consider a Hamiltonian system on $$\R^{2n}$$:
+$$
+\dot{x}_k = \fracpartial{H}{p_k},\quad \dot{p}_k = -\fracpartial{H}{x_k},
+\quad k=1,\dots,n
+$$
+and a symplectic map $$\varphi\colon (x,p) \mapsto (\tilde{x}, \tilde{p}).$$ Then the evolution of the variables $$(\tilde{x}, \tilde{p})$$ is given by the pushforward $$\varphi_* X_H$$:
+$$
+\dot{\tilde{x}}_k =
+\fracpartial{\tilde{H}(\tilde{x},\tilde{p})}{\tilde{p}_k}, \quad
+\dot{\tilde{p}}_k =
+-\fracpartial{\tilde{H}(\tilde{x},\tilde{p})}{\tilde{x}_k}, \quad
+k=1,\dots,n,
+$$
+where $$\tilde{H}(\tilde{x},\tilde{p})$$ is the function $$H$$ expressed in the new coordinates $$(\tilde{x}, \tilde{p}),$$ i.e. $$\tilde{H} \circ \varphi = H.$$
+@@

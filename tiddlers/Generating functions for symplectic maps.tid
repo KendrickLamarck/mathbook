@@ -1,0 +1,32 @@
+created: 20210131182332994
+modified: 20210131192615219
+tags: [[Hamiltonian mechanics]]
+title: Generating functions for symplectic maps
+type: text/vnd.tiddlywiki
+
+Consider a map $$\varphi\colon \R^{2n} \to \R^{2n}, (x,p) \mapsto (\tilde{x}, \tilde{p})$$ which is represented by $$p_k = f_k(x,\tilde{x})$$ and $$\tilde{p}_k = g_k(x,\tilde{x})$$ for $$k=1,\dots,n.$$ Assume that we can solve $$f$$ for $$\tilde{x},$$ i.e. that
+$$
+\det\left(\fracpartial{f_k}{\tilde{x}_j}\right)_{k,j} \ne 0.
+$$
+
+@@.theorem
+''Theorem.''
+$$\varphi$$ is [[symplectic|Symplectic map]], if and only if there exist (locally) a function $$\Lambda\colon \R^{2n} \to \R,\ (x,\tilde{x}) \mapsto \Lambda(x,\tilde{x})$$ such that
+$$
+f_k = -\fracpartial{\Lambda(x,\tilde{x})}{x_k},\quad
+g_k = \fracpartial{\Lambda(x,\tilde{x})}{\tilde{x}_k},\quad
+k = 1,\dots,n.
+$$
+@@
+
+So for any $$\Lambda\colon \R^{2n} \to \R,\ (x,\tilde{x}) \mapsto \Lambda(x,\tilde{x})$$ with the non-degeneracy condition
+$$
+\det\left(\frac{\partial^2\Lambda}{\partial x_i \partial \tilde{x}_j}\right)_{i,j} \ne 0,
+$$
+the relations
+$$
+p_k = -\fracpartial{\Lambda(x,\tilde{x})}{x_k},\quad
+\tilde{p}_k = \fracpartial{\Lambda(x,\tilde{x})}{\tilde{x}_k},\quad
+k = 1,\dots,n.
+$$
+define (at least locally) a symplectic map $$(x,p) \mapsto (\tilde{x}, \tilde{p})$$ (solve the first set of relations for $$\tilde{x}(x,p)$$ and substitute this into the second set to find $$\tilde{p}$$).

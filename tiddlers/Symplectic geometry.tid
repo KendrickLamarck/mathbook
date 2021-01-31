@@ -1,5 +1,5 @@
 created: 20210130205501169
-modified: 20210130220704451
+modified: 20210131175350988
 tags: [[Hamiltonian mechanics]]
 title: Symplectic geometry
 type: text/vnd.tiddlywiki
@@ -9,25 +9,8 @@ type: text/vnd.tiddlywiki
 * A //symplectic map// is a map on a manifold preserving a symplectic form. Symplectic geometry is the study of invariants under symplectic maps.
 * A //symplectic matrix// is the matrix of a linear symplectic transformation. These form a group, the so-called //symplectic group.//
 
-!! Basic
+!! Canonical
 
-A matrix $$A \in \R^{2n \times 2n}$$ is called //symplectic// if $$A^\transp J A = J,$$ where
-$$
-J = \begin{pmatrix} 0 & I_n \\ -I_n & 0 \end{pmatrix}.
-$$
-Symplectic matrices form a group called the //symplectic group// denoted $$\Sp(2n,\R).$$
+{{Symplectic matrix}}
 
-* All symplectic matrices have determinant 1.
-* $$A$$ is symplectic if and only if $$A^\transp$$ is symplectic.
-
-A (local) diffeomorphism $$\R^{2n} \to \R^{2n}$$ is called a //symplectic map// or //(local) symplectomorphism// if $$\varphi^*\omega = \omega,$$ i.e. $$\varphi' \in \Sp(2n,\R)$$ everywhere.
-
-@@.theorem
-''Theorem.''
-A map
-$$\varphi\colon \R^{2n} \to \R^{2n},\ \varphi(x_1,\dots,x_n, p_1,\dots,p_n) = (\tilde{x}_1,\dots,\tilde{x}_n, \tilde{p}_1,\dots,\tilde{p}_n)$$
-is symplectic if and only if it preserves the Poisson brackets between coordinate functions. See also [[Symplectic maps in coordinates]].
-
-''Corollary.''
-A symplectic map is a [[Poisson map|Poisson map]].
-@@
+{{Symplectic map}}

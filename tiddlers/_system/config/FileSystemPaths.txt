@@ -1,0 +1,3 @@
+[is[system]removeprefix[$:/]addprefix[_system/]]
+[is[draft]search-replace:g:regexp[/|\\],[_]addprefix[drafts/]]
+[tag[meta]addprefix[meta/]]

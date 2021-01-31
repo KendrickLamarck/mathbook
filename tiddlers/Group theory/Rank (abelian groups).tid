@@ -1,0 +1,7 @@
+created: 20210131164758367
+modified: 20210131164815398
+tags: Gruppe
+title: Rank (abelian groups)
+type: text/vnd.tiddlywiki
+
+The //rank// of an abelian group is the cardinality of a maximal linearly independent subset. We have $$\rank(A \oplus B) = \rank(A) + \rank(B).$$

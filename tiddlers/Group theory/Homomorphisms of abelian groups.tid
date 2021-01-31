@@ -1,0 +1,7 @@
+created: 20210131164824683
+modified: 20210131165011805
+tags: Gruppe
+title: Homomorphisms of abelian groups
+type: text/vnd.tiddlywiki
+
+Given two homomorphisms $$f,g \colon A \to B$$ of abelian groups, $$f+g$$ is again a homomorphism, so $$\hom(A,B)$$ is itself an abelian group.

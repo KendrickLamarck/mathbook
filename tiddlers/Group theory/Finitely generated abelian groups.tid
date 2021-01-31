@@ -1,0 +1,11 @@
+created: 20210131163213390
+modified: 20210131164818262
+tags: Gruppe
+title: Finitely generated abelian groups
+type: text/vnd.tiddlywiki
+
+Any finitely generated abelian group is isomorphic to
+$$
+\Z \oplus\dots\oplus \Z \oplus A_f,
+$$
+where $$A_f$$ is a finite abelian group called the //torsion subgroup.//

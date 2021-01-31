@@ -1,0 +1,10 @@
+created: 20210131164216596
+modified: 20210131164347023
+tags: misc
+title: Chinese remainder theorem
+type: text/vnd.tiddlywiki
+
+Let $$n_1,\dots,n_r \in \N$$ be pairwise coprime and let $$N \coloneqq \prod n_i.$$ Then
+$$
+\Z_N \cong \Z_{n_1} \oplus \dots \oplus \Z_{n_r}.
+$$

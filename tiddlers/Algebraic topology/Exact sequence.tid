@@ -1,5 +1,5 @@
 created: 20210130175825686
-modified: 20210130191919291
+modified: 20210206200716630
 tags: Homology
 title: Exact sequence
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ $$
 \xrightarrow{\alpha_n} A_{n-1}
 \xrightarrow{\alpha_{n-1}} \cdots
 $$
-is //exact// at $$A_n$$ if $$\img(\alpha_{n+1}) = \ker (\alpha_n) < A_n.$$ It is called a //long exact sequence,// if it is exat at each $$A_n,$$ i.e. if it is a [[chain complex|Homology]] with trivial homology.
+is //exact// at $$A_n$$ if $$\img(\alpha_{n+1}) = \ker (\alpha_n) < A_n.$$ It is called a //long exact sequence,// if it is exact at each $$A_n,$$ i.e. if it is a [[chain complex|Homology]] with trivial homology.
 
 If one of the maps vanishes, we can split the sequence and we get the equivalences 
 
@@ -29,21 +29,16 @@ $$
 which is exact at $$A,B$$ and $$C.$$ We have that $$\alpha$$ is injective, $$\beta$$ is surjective and $$C \cong B/A.$$
 
 @@.theorem
-<div>
-
 ''Theorem.''
 Suppose $$A \subseteq X$$ is a nonempty closed subspace that has a neighborhood $$N \subseteq X$$ which deformation retracts to $$A.$$ Then the short exact sequence
 $$
 A \hookrightarrow X \twoheadrightarrow X/A
 $$
 of the inclusion $$i$$ and quotient map $$j$$ induces a long exact sequence on [[reduced homology|Augmentation map]]:
-
 {{$:/_svg/longExactSequenceOnHomology.svg||$:/_templates/cd}}
-
-</div>
 @@
 
-* If $$A$$ is a subcomplex of a CW complex $$X,$$ then the theorem applies.
+* The theorem applies in particular if $$A$$ is a subcomplex of a CW complex $$X.$$
 * If all the $$\partial$$ vanish, we get short exact sequences and we get $$H_n(X/A) \cong H_n(X) / H_n(A).$$
 
 @@.theorem

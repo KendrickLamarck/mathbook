@@ -1,0 +1,16 @@
+created: 20210206161242077
+creator: Leander
+modified: 20210206173424109
+modifier: Leander
+tags: Homology
+title: Zig-zag lemma
+type: text/vnd.tiddlywiki
+
+Suppose we have a [[short exact sequence|Exact sequence]]
+$$
+0 \xrightarrow{}
+A_* \xrightarrow{i} B_* \xrightarrow{j} C_*
+\xrightarrow{} 0.
+$$
+of chain complexes. This induces a long exact sequence on homology:
+{{$:/_svg/zigZagLemma.svg||$:/_templates/cd}}

@@ -1,0 +1,19 @@
+created: 20210206204821475
+modified: 20210206205706266
+tags: Homology
+title: Homological orientation
+type: text/vnd.tiddlywiki
+
+A continuous map $$f\colon \R^n \supseteq V \to U \subseteq \R^n$$ is orientation-preserving if the induced map $$f_*$$ from
+$$
+H_n(\R^n, \R^n \setminus\{0\}) \cong
+H_n(\R^n, \R^n \setminus\{x\}) \cong
+H_n(V, V \setminus\{x\})
+$$
+to
+$$
+H_n(U, U \setminus\{f(x)\}) \cong
+H_n(V, V \setminus\{f(x)\}) \cong
+H_n(\R^n, \R^n \setminus\{0\})
+$$
+is the identity for all $$x \in U,$$ where we used the isomorphisms induced by [[excision|Excision]] and translation.

@@ -1,5 +1,5 @@
 created: 20210115124717218
-modified: 20210123143128007
+modified: 20210206143721523
 tags: [[Hamiltonian mechanics]]
 title: Legendre transformation
 type: text/vnd.tiddlywiki
@@ -18,7 +18,7 @@ $$
 H(x,p) \coloneqq
 \max_{\dot{x} \in \R^n} (\lang p, \dot{x} \rang - L(x,\dot{x})).
 $$
-The function $$H(x,p)$$ is also called the //Legendre transform// of $$L(x,\dot{x}).$$ The transition from $$(x,\dot{x}) \in \T_x \R^n$$ to $$(x,p) \in \T^*_x \R^n$$ is called //Legendre transformation.//
+The function $$H(x,p)$$ is also called the //Legendre transform// of $$L(x,\dot{x}).$$ The map $$\T_x \R^n \to \T^*_x \R^n,\ (x,\dot{x}) \mapsto (x,p)$$ (we identify $$p$$ with the one-form $$\dot{x} \mapsto \lang p,\dot{x} \rang$$) is called //Legendre transformation.//
 
 @@.theorem
 ''Theorem.''

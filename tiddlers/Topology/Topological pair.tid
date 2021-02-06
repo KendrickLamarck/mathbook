@@ -1,0 +1,7 @@
+created: 20210206155311554
+modified: 20210206155419162
+tags: Topologie
+title: Topological pair
+type: text/vnd.tiddlywiki
+
+A //pair// $$(X,A)$$ of topological spaces consists of a space $$X$$ and a subspace $$A.$$ A //map of pairs// $$f\colon (X,A) \to (Y,B)$$ is a map $$f\colon X \to Y$$ such that $$f(A) \subseteq B.$$

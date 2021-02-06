@@ -1,6 +1,6 @@
 created: 20191229214758724
 list: Umgebung [[Innerer Punkt]] [[Abgeschlossene Hülle]] Randpunkt [[Häufungspunkt (Mengen)]] Offenheit [[Topological base]] Spurtopologie [[Product topology]] [[Disjoint union of topological spaces]] [[Quotient topology]] [[Wedge sum]] [[Pointed space]] [[Homogeneous space]]
-modified: 20210118214349345
+modified: 20210206174337996
 tags: Topologie
 title: Topologischer Raum
 type: text/vnd.tiddlywiki
@@ -19,4 +19,4 @@ Man nennt dann $$(X,\mathcal T)$$ einen //topologischen Raum// und die mengen in
 
 * Wenn jede offene Menge in $$\mathcal{T}_1$$ auch in $$\mathcal{T}_2$$ offen ist, so sagen wir, $$\mathcal{T}_2$$ ist //feiner// und $$\mathcal{T}_1$$ ist //gröber.//
 
-* In der //Kofinite Topologie// sind genau die endlichen Mengen abgeschlossen.
+* In der //Kofiniten Topologie// sind genau die endlichen Mengen abgeschlossen.

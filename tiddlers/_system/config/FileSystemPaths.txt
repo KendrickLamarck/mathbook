@@ -1,3 +1,6 @@
+[is[system]suffix[.js]removesuffix[.js]removeprefix[$:/]addprefix[_system/]]
+[is[system]suffix[.svg]removesuffix[.svg]removeprefix[$:/]addprefix[_system/]]
+[is[system]suffix[.jpg]removesuffix[.jpg]removeprefix[$:/]addprefix[_system/]]
 [is[system]removeprefix[$:/]addprefix[_system/]]
 [is[draft]search-replace:g:regexp[/|\\],[_]addprefix[drafts/]]
 [tag[meta]addprefix[meta/]]

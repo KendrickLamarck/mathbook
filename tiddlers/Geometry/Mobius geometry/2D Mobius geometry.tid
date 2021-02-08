@@ -1,5 +1,5 @@
 created: 20190505151036416
-modified: 20200929124706703
+modified: 20210207213036037
 tags: [[Möbius geometry]]
 title: 2D Möbius geometry
 type: text/vnd.tiddlywiki
@@ -17,6 +17,6 @@ $$
 \overline{\crossratio(z_1,z_2,z_3,z_4)}.
 $$</div>
 
-* For any three points $$z_1,z_2,z_3$$ and any three points $$w_1,w_2,w_3$$ there is a unique orientation preserving Möbius transformation $$f\in\operatorname{PGL}(2,\Bbb C)$$ with $$f(z_i)=w_i$$ and a unique orientation reversing one with $$f(z_i)=w_i.$$
+* For any three points $$z_1,z_2,z_3$$ and any three points $$w_1,w_2,w_3$$ there is a unique orientation preserving Möbius transformation $$f\in\operatorname{PGL}(2,\Bbb C)$$ with $$f(z_i)=w_i$$ and a unique orientation reversing one with $$f(z_i)=w_i$$ for $$i=1,2,3.$$
 
 * Four points $$z_1,z_2,z_3,z_4$$ lie on a circle if their cross ratio is real. They are in that cyclic order on the circle if $$\crossratio(z_1,z_2,z_3,z_4)<0.$$

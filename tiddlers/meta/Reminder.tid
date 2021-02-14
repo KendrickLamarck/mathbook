@@ -1,8 +1,7 @@
 created: 20191016204949012
 creator: Leander
-modified: 20200605012423459
+modified: 20210213155856293
 modifier: Leander
-revision: 0
 tags: meta
 title: Reminder
 type: text/vnd.tiddlywiki
@@ -15,4 +14,6 @@ type: text/vnd.tiddlywiki
 * Use ``\substack`` in [[Lagrange-Interpolation]] and [[Explizites Einschrittverfahren]].
 
 * Use ``\operatorname*{ave}`` in [[Ricci curvature]].
+
+* use ``\begin{CD}`` in [[Naturality of sequences]], [[Natural transformation]], [[Five-lemma]].
 @@

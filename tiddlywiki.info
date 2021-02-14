@@ -4,9 +4,8 @@
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
-	"tiddlywiki/katex",
-	"tiddlywiki/mobiledragdrop",
-	"flibbles/relink"
+        "tiddlywiki/mobiledragdrop",
+        "flibbles/relink"
     ],
     "themes": [
         "tiddlywiki/vanilla",

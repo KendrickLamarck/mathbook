@@ -1,11 +1,11 @@
 created: 20210206195007615
-modified: 20210206195326846
+modified: 20210209133039164
 tags: Homology
 title: Mayer-Vietoris theorem
 type: text/vnd.tiddlywiki
 
-Suppose $$A,B \subseteq X$$ with $$\mathring{A} \cup \mathring{B} = X.$$ Then we have a long exact sequence (the Mayer-Vietoris sequence)
+Suppose $$A,B \subseteq X$$ with $$\mathring{A} \cup \mathring{B} = X.$$ Then we have a long exact sequence, the //Mayer-Vietoris sequence://
 $$
-\cdots \xrightarrow{\partial}
-H_n(A \cap B) \to H_n(A) \oplus H_n(B) \to H_n(X) \xrightarrow{\partial} H_{n-1}(A \cap B) \to \cdots
+\cdots \xrightarrow{\partial_{n+1}}
+H_n(A \cap B) \xrightarrow{(i_A,-i_B)} H_n(A) \oplus H_n(B) \xrightarrow{j_A+j_B} H_n(X) \xrightarrow{\partial_n} \cdots
 $$

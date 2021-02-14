@@ -1,0 +1,26 @@
+created: 20201120152423843
+modified: 20210213174018139
+tags: [[Algebraic topology]]
+title: Degree of maps on spheres
+type: text/vnd.tiddlywiki
+
+If $$f\colon \sphere^1 \to \sphere^1$$ is a map, then we can define its //degree// as follows: Choose a basepoint $$x_0 \in \sphere^1$$ and obtain the (natural, because $$\Z$$ is abelian) homomorphism
+$$
+f_*\colon \Z \cong \pi_1(\sphere^1,x_0) \to \pi_1(\sphere^1,f(x_0)) \cong \Z.
+$$
+Any such homomorphism is given by $$k \mapsto nk$$ for some $$n \in Z.$$ We define the degree $$\deg f$$ of $$f$$ to be $$n = f_*(1).$$
+
+In general, the //degree// of a map $$f\colon \sphere^n \to \sphere^n$$ is $$\deg f \coloneqq f_*(1) \in \Z,$$ where $$f_*$$ is the induced homomorphism $$\Z \cong \tilde{H}_n(\sphere^n) \to \tilde{H}_n(\sphere^n) \cong \Z.$$
+
+* The degree of the identity map is 1.
+* The degree of any constant map is 0.
+* If $$f \simeq g$$ are homotopic, then $$\deg f = \deg g$$ (in fact for $$n>0$$ the converse is also true). In particular:
+** Since any non-surjective map is homotopic to a constant, its degree is 0.
+** If $$f$$ and $$g$$ are homotopy equivalent, then $$\deg f = \deg g = \pm 1.$$ This sign can be used to define orientation.
+* $$\deg(g \circ f) = \deg g \cdot \deg f.$$
+* If $$\Sigma f\colon \sphere^{n+1} \to \sphere^{n+1}$$ is the [[suspension|Suspension]] of $$f\colon \sphere^n \to \sphere^n,$$ then $$\deg f = \deg \Sigma f.$$
+
+!! Examples
+
+* The degree of a reflection $$\mu\colon \sphere^n \to \sphere^n$$ across a hyperplane in $$\R^{n+1}$$ has degree -1.
+* The antipodal map on $$\sphere^n$$ is the composition of $$n+1$$ reflections, so it is 1 if $$n$$ is odd and -1 if $$n$$ is even.

@@ -1,10 +1,10 @@
 created: 20210130175825686
-modified: 20210206200716630
+modified: 20210209131456935
 tags: Homology
 title: Exact sequence
 type: text/vnd.tiddlywiki
 
-A sequence f abelian groups and homomorphisms
+A sequence of abelian groups and homomorphisms
 $$
 \dots \xrightarrow{} A_{n+1}
 \xrightarrow{\alpha_{n+1}} A_n

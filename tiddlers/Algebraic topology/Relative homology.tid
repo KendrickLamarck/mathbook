@@ -1,6 +1,6 @@
 created: 20210206155445189
 creator: Leander
-modified: 20210206175620050
+modified: 20210213115353696
 modifier: Leander
 tags: Homology
 title: Relative homology
@@ -15,7 +15,7 @@ C_n(A) \xrightarrow{i_n} C_n(X) \xrightarrow{j_n} C_n(X,A)
 \xrightarrow{} 0.
 $$
 The boundary map of $$C_*(X)$$ decends to a map on these quotients and we get a chain complex $$C_*(X,A).$$ Its homology $$H_n(X,A)$$ is called the //relative homology// of $$(X,A).$$
-Elements of $$H_n(X,A)$$ are represented by //relative cycles// $$\alpha \in C_n(X)$$ with $$\partial \alpha \in C_{n-1}(A).$$ $$\alpha$$ is trivial in $$H_n(X,A)$$ if it is a //relative boundary// $$\alpha = \partial\beta + \gamma$$ with $$\beta \in C_{n-1}(X)$$ and $$\gamma \in C_n(A).$$
+Elements of $$H_n(X,A)$$ are represented by //relative cycles// $$\alpha \in C_n(X)$$ with $$\partial \alpha \in C_{n-1}(A).$$ $$\alpha$$ is trivial in $$H_n(X,A)$$ if it is a //relative boundary// $$\alpha = \partial\beta + \gamma$$ with $$\beta \in C_{n+1}(X)$$ and $$\gamma \in C_n(A).$$
 
 The maps $$i_n$$ and $$j_n$$ fit together to give [[chain maps|Chain map]], yielding a short exact sequence of chain complexes
 $$
@@ -27,12 +27,13 @@ $$
 @@.theorem
 ''Corollary (to the [[zig-zag lemma|Zig-zag lemma]]).''
 For any pair of spaces $$(X,A)$$ we get a long exact sequence
-$$\begin{aligned}
-&\cdots \xrightarrow{\partial}
-H_n(A) \xrightarrow{i_*} H_n(X) \xrightarrow{j_*} H_n(X,A) \xrightarrow{\partial} H_{n-1}(A) \xrightarrow{i_*} \cdots \\[7mu]
-&\cdots \xrightarrow{\partial}
+$$\begin{gathered}
+\cdots \xrightarrow{\partial_{n-1}}
+H_n(A) \xrightarrow{i_*} H_n(X) \xrightarrow{j_*} H_n(X,A) \xrightarrow{\partial_n}\cdots \\
+\vdots \\ 
+\cdots \xrightarrow{\partial_1}
 H_0(A) \xrightarrow{i_*} H_0(X) \xrightarrow{j_*} H_0(X,A) \xrightarrow{} 0.
-\end{aligned}$$
+\end{gathered}$$
 @@
 
 * We can recover regular and reduced homology from relative homology via $$H_n(X) = H_n(X,\varnothing)$$ and $$\tilde{H}_n(X) = H_n(X,\{x_0\})$$ for any $$x_0 \in X.$$

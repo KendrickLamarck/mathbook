@@ -1,6 +1,6 @@
 created: 20201109184658598
-list: [[Paths and loops]] [[Homotopy of paths]] Homotopy [[Fundamental group]] [[Simply connected space]] [[Fiber bundle]] [[Covering space]] [[Degree of maps on circles]] [[Winding number]] [[Dog-on-a-leash lemma]] [[Pointed space]] Retraction [[Deformation retraction]] [[Brouwer fixed-point theorem]] [[Borsuk's lemma]] [[Products and fundamental groups]] [[Van Kampen's theorem]] [[Even action]] [[Orbit space]]
-modified: 20210107151331833
+list: [[Paths and loops]] [[Homotopy of paths]] Homotopy [[Fundamental group]] [[Fiber bundle]] [[Covering space]] [[Degree of maps on spheres]] [[Local degree]] [[Winding number]] [[Dog-on-a-leash lemma]] Retraction [[Deformation retraction]] [[Brouwer fixed-point theorem]] [[Borsuk's lemma]] [[Orbit space]] [[CW complex]] Homology
+modified: 20210213171709225
 tags: Mathematics
 title: Algebraic topology
 type: text/vnd.tiddlywiki

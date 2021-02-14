@@ -1,0 +1,11 @@
+created: 20210213222033272
+modified: 20210213230204122
+tags: Gruppe
+title: Lie group
+type: text/vnd.tiddlywiki
+
+A Lie group is a group with the structure of a differentiable manifold such that the group multiplication and inversion are differentiable. w.r.t. the manifold structure.
+
+For a Lie group $$G,$$ its tangent space at the neutral element $$e$$ is called its //Lie algebra// $$\mathfrak{g} = \T_e G.$$ One can always define a bilinear operation on $$\mathfrak{g}$$ so that it actually becomes a [[Lie algebra|Lie algebra]] in the algebraic sense:
+
+Define //left-invariant vector fields// on $$G$$ by the property $$X(g) = g X(e)$$ for all $$g \in G.$$ The latter is defined as $$(L_g)_* X(e),$$ where $$L_g$$ is [[left translation|Linkstranslation]]. Such vector fields are in 1-1 correspondence to vectors at $$e,$$ so we write $$X_\xi$$ for the left-invariant vector field corresponding to $$\xi \in \mathfrak{g}.$$ The commutator on these vector fields is again a left-invariant vector field and induces the desired bilinear operation on $$\mathfrak{g}.$$

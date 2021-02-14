@@ -1,0 +1,20 @@
+created: 20210213220234217
+modified: 20210213222146881
+tags: Physics
+title: Rigid body
+type: text/vnd.tiddlywiki
+
+A //rigid body// is a system of mass points with fixed pairwise distances. This can be a finite system or a continuum with a corresponding mass distribution described by a density function. A //top// is a rigid body with a fixed point $$0 \in \R^3.$$
+
+Let $$B(t)$$ be a position of a rigid body at time $$t.$$ Let $$E(t) = (e_1(t), e_2(t), e_3(t)) \in \SO(3)$$ be the position of an orthonormal frame fixed to $$B(t),$$ moving together with the body. This is called the //moving frame.// Let $$x(t)$$ be a trajectory of a mass point of $$B(t),$$ described as
+$$
+x(t) = \sum_{k=1}^3 x_k(t) e_k(0) =
+E(0)\begin{pmatrix} x_1(t) \\ x_2(t) \\ x_3(t) \end{pmatrix}.
+$$
+The rigidity of the body means that the coordinates of the masspoint do not change w.r.t. the moving frame:
+$$
+x(t) = \sum_{k=1}^3 X_k e_k(t) =
+E(0)\begin{pmatrix} X_1 \\ X_2 \\ X_3 \end{pmatrix},
+\quad X_k = x_k(0).
+$$
+Thus $$x(t) = g(t)X$$ with $$g(t) = E^{-1}(0)E(t) \in \SO(3),$$ so the configuration space is the Lie group $$G = \SO(3).$$

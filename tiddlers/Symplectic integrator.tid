@@ -1,0 +1,11 @@
+created: 20210213194734194
+modified: 20210213195029724
+tags: [[Hamiltonian mechanics]]
+title: Symplectic integrator
+type: text/vnd.tiddlywiki
+
+A one-step numerical method (explicit or implicit) is called a //symplectic integrator,// if for any canonical Hamiltonian vector field on $$\R^{2n}$$ $$f(y) = f(x,p) = X_H(x,p) = (\grad_p H,-\grad_x H)^\transp,$$ the corresponding map
+$$
+\Phi\colon (x_m,p_m) \mapsto (x_{m+1},p_{m+1})
+$$
+(which also depends on $$f = X_H$$ and the step size $$\varepsilon > 0$$) is symplectic.

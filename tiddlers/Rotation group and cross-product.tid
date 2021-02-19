@@ -1,0 +1,23 @@
+created: 20210219101610195
+modified: 20210219103548104
+tags: Orthogonalität
+title: Rotation group and cross-product
+type: text/vnd.tiddlywiki
+
+The [[Lie algebra|Lie algebra]] $$(\so(3),[\cdot,\cdot])$$ is isomorphic to $$(\R^3, \times)$$: Associate
+$$
+\begin{pmatrix}
+  0  & -\xi_3 & \xi_2 \\
+  \xi_3 & 0 & -\xi_1 \\
+  -\xi_2 & \xi_1 & 0 \\
+\end{pmatrix} \leftrightarrow
+\begin{pmatrix} \xi_1 \\ \xi_2 \\ \xi_3 \end{pmatrix}.
+$$
+The standard scalar product on $$\R^3$$ transfers to $$\so(3).$$ With the above identification:
+$$
+\lang \xi,\eta \rang = -\tfrac{1}{2} \tr(\xi\eta).
+$$
+For $$x \in \R^3,$$ We also have
+$$
+\xi x = \xi \times x.
+$$

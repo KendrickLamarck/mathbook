@@ -1,5 +1,5 @@
 created: 20210213220234217
-modified: 20210213222146881
+modified: 20210219162216417
 tags: Physics
 title: Rigid body
 type: text/vnd.tiddlywiki
@@ -17,4 +17,22 @@ x(t) = \sum_{k=1}^3 X_k e_k(t) =
 E(0)\begin{pmatrix} X_1 \\ X_2 \\ X_3 \end{pmatrix},
 \quad X_k = x_k(0).
 $$
-Thus $$x(t) = g(t)X$$ with $$g(t) = E^{-1}(0)E(t) \in \SO(3),$$ so the configuration space is the Lie group $$G = \SO(3).$$
+Thus $$x(t) = g(t)X$$ with $$g(t) = E^{-1}(0)E(t) \in \SO(3),$$ so the configuration space is the [[Lie group|Lie group]] $$G = \SO(3).$$
+
+Let $$\rho$$ be the mass density. $$\Omega = g^{-1}\dot{g} \in \so(3)$$ is called //angular velocity w.r.t. the moving frame// and $$\omega = \dot{g}g^{-1} \in \so(3)$$ is called //angular velocity w.r.t. the fixed frame.// For the justification of the name //angular momentum,// use the [[identification|Rotation group and cross-product]] $$\so(3) \leftrightarrow \R^3$$ on $$\dot{x} = \dot{g}X = \omega x$$ and on $$g^{-1}\dot{x} = \Omega X$$ to get
+$$
+\dot{x} = \omega \times x,\quad g^{-1}\dot{x} = \Omega \times X.
+$$
+Using these definitions, the kinetic energy is
+$$\begin{aligned}
+K &= \frac{1}{2} \int_{B(0)}
+       \lang \Omega X, \Omega X\rang \rho(X) \,\d^3X \\
+  &= \frac{1}{2} \sum_{i,j,k=1}^3 \Omega_{ij} \Omega_{ik}
+       \underbrace{\int_{B(0)} X_j X_k \rho(X) \,\d^3 X}_{J_{jk}} \\
+  &= -\tfrac{1}{2}\tr(\Omega J \Omega) \\
+  &= \lang \Omega, J\Omega \rang =
+       \tfrac{1}{2}\lang
+         \Omega, \underbrace{J\Omega + \Omega J}_{\in \so(3)}
+       \rang.
+\end{aligned}$$
+The tensor with components $$J_{jk}$$ is the //inertia tensor// of the rigid body $$B(0)$$ and characterizes its distribution of mass. There exists a choice of initial frame, the so-called //principal frame,// such that $$J = \operatorname{diag}(J_1,J_2,J_3).$$

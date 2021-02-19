@@ -1,6 +1,6 @@
 created: 20180617122044542
 creator: Leander
-modified: 20210213225228048
+modified: 20210219093141048
 modifier: Leander
 tags: Orthogonalität no-toc
 title: Orthogonale Gruppen
@@ -26,4 +26,4 @@ sind [[Untergruppen|Untergruppe]] von $$\GL(n;\mathbb K).$$
 
 !! As Lie groups
 
-The orthogonal groups are Lie groups. If $$g \in \O(n),$$ then $$\T_g O(n)$$ is $$g \cdot \mathfrak{so}(n) = \mathfrak{so}(n) \cdot g,$$ where $$\mathfrak{so}(n)$$ is the set of skew-symmetric matrices. Thus $$\mathfrak{so}(n)$$ is the Lie algebra of $$\O(n)$$ and it is indeed a [[Lie algebra|Lie algebra]] together with the matrix commutator. It is called $$\mathfrak{so}(n)$$ because $$\SO(n)$$ is a connected component of $$\O(n).$$
+The orthogonal groups are Lie groups. If $$g \in \O(n),$$ then $$\T_g \O(n)$$ is $$g \cdot \mathfrak{so}(n) = \mathfrak{so}(n) \cdot g,$$ where $$\mathfrak{so}(n)$$ is the set of skew-symmetric matrices. Thus $$\mathfrak{so}(n)$$ is the Lie algebra of $$\O(n)$$ and it is indeed a [[Lie algebra|Lie algebra]] together with the matrix commutator. It is called $$\mathfrak{so}(n)$$ because $$\SO(n)$$ is a connected component of $$\O(n).$$

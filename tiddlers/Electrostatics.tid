@@ -1,12 +1,12 @@
 created: 20200630212439407
-modified: 20201227213201784
+modified: 20210219165212479
 tags: Physics
 title: Electrostatics
 type: text/vnd.tiddlywiki
 
-Let $$\mathbf E\colon \R^3 \supseteq M \to \R^3$$ be a vector field called the //electric field// with the property $$\rot \mathbf E = 0$$ and let $$\widetilde{\mathbf E}$$ be the [[corresponding one-form|Bilinearformen und dualität]]. Due to this property there exists a unique //electric potential// $$\phi \in \smooth^\infty(M)$$ with $$\d\phi = -\widetilde \mathbf E$$ and $$\grad\phi = -\mathbf E.$$ In particular, any path integral along $$\gamma\colon [a,b] \to \R^3$$
+Let $$\mathbf E\colon \R^3 \supseteq M \to \R^3$$ be a vector field called the //electric field// with the property $$\rot \mathbf{E} = 0$$ and let $$\widetilde{\mathbf E}$$ be the [[corresponding one-form|Bilinearformen und dualität]]. Due to this property there exists a unique //electric potential// $$\phi \in \smooth^\infty(M)$$ with $$\d\phi = -\widetilde{\mathbf{E}}$$ and $$\grad\phi = -\mathbf{E}.$$ In particular, any path integral along $$\gamma\colon [a,b] \to \R^3$$
 $$
-\int_\gamma \widetilde \mathbf E = \phi(\gamma(a))-\phi(\gamma(b))
+\int_\gamma \widetilde{\mathbf{E}} = \phi(\gamma(a))-\phi(\gamma(b))
 $$
 only depends on the start and end points, but not the path itself.
 

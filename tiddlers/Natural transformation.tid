@@ -1,11 +1,12 @@
 created: 20181119225638140
-modified: 20191028152044051
-revision: 0
+modified: 20210214152952196
 tags: Category no-toc
 title: Natural transformation
+type: text/vnd.tiddlywiki
 
-Let $$F$$ and $$G$$ be (covariant) [[functors|Functor]] between the [[categories|Category]] $$\mathcal C$$ and $$\mathcal D.$$ A //natural transformation// $$\eta$$ from $$F$$ to $$G$$ associates to every object $$x$$ in $$\mathcal C$$ a morphism $$\eta_x\colon F(x)\to G(x)$$ in $$\mathcal D$$ such that for every morphism $$f\colon x\to y$$ in $$\mathcal C,$$ we have
-
-$$
-\eta_y\circ F(f)=G(f)\circ\eta_x.
-$$
+Let $$F$$ and $$G$$ be (covariant) [[functors|Functor]] between the [[categories|Category]] $$\mathcal C$$ and $$\mathcal D.$$ A //natural transformation// $$\eta$$ from $$F$$ to $$G$$ associates to every object $$x$$ in $$\mathcal C$$ a morphism $$\eta_x\colon F(x)\to G(x)$$ in $$\mathcal D$$ such that for every morphism $$f\colon x\to y$$ in $$\mathcal C,$$ the following diagram commutes:
+$$\begin{CD}
+F(x)        @>{\eta_x}>>  G(x) \\
+@V{F(f)}VV                @VV{G(f)}V \\
+F(y)        @>>{\eta_y}>  G(y)
+\end{CD}$$

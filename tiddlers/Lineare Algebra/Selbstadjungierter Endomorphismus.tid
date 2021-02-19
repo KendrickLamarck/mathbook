@@ -1,6 +1,6 @@
 created: 20180626175536410
 creator: Leander
-modified: 20201211140009599
+modified: 20210219161245611
 modifier: Leander
 tags: [[Adjungierte Abbildung]]
 title: Selbstadjungierter Endomorphismus
@@ -21,4 +21,4 @@ $$
 
 !! Diagonalisierung
 
-{{Diagonalisierbarkeit selbstadjungierter Endomorphismen}}
+{{Spektralsatz}}

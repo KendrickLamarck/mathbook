@@ -1,15 +1,13 @@
 created: 20180219115336671
 creator: Leander
 list: 
-modified: 20200601183336940
+modified: 20210214160053340
 modifier: Leander
-revision: 0
 tags: no-toc Lp-Räume
 title: Hölder'sche Ungleichung (Summen)
 type: text/vnd.tiddlywiki
 
 Falls $$\frac{1}{p}+\frac{1}{q}=1$$ ist, gilt für $$a_1,\ldots,a_n,b_1,\ldots,b_n\in\mathbb R$$
-
 $$
 \sum|a_k b_k|\le\left(\sum|a_k|^p\right)^{1/p}\left(\sum|b_k|^q\right)^{1/q}.
 $$

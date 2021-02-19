@@ -1,10 +1,9 @@
 created: 20190528093859950
-modified: 20191104020213067
-revision: 0
+modified: 20210219103335957
 tags: [[Lie geometry]] no-toc
 title: Lie transformation
 type: text/vnd.tiddlywiki
 
 A //Lie transformation// is a transformation on the set of [[Lie spheres|Lie sphere]] that corresponds to a [[projective transformation|Projective transformation]] of $$\RP^{n+2}$$ that map the [[Lie quadric]] to itself. The [[group|Gruppe]] of Lie transformations is $$\PO(n+1,2).$$
 
-Lie transformations preserve oriented contact and any bijective transformation of the space of spheres which maps spheres in oriented contact to spheres in oriented contact is a Lie transformation.
+Lie transformations preserve oriented contact and any bijective transformation of the space of oriented spheres which maps spheres in oriented contact to spheres in oriented contact is a Lie transformation.

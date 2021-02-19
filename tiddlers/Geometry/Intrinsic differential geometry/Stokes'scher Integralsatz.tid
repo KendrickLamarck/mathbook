@@ -1,5 +1,5 @@
 created: 20190408230643462
-modified: 20200920212502359
+modified: 20210219130246734
 tags: [[Intrinsic differential geometry]]
 title: Stokes'scher Integralsatz
 type: text/vnd.tiddlywiki
@@ -22,7 +22,6 @@ $$
 \partial_u\varphi_1\partial_v\varphi_2-\partial_u\varphi_2\partial_v\varphi_1
 \end{pmatrix}.
 $$
-
 Sei $$\varOmega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und
 $$a\in\mathcal C^1(\varOmega\to\R^3)$$
 ein $$\mathcal C^1$$-[[Vektorfeld|Vector field]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und

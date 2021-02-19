@@ -1,16 +1,14 @@
 caption: Transposition
 created: 20180312143709608
 creator: Leander
-modified: 20200604142554226
+modified: 20210215201026547
 modifier: Leander
-revision: 0
 tags: Matrix
 title: Transposition (Matrizen)
 type: text/vnd.tiddlywiki
 
-Zu einer [[Matrix]] $$A=(a_{ij})\in K^{m\times n}$$ heißt $$A^\mathrm T = (a'_{ij})\in K^{n\times m}$$ mit $$(a'_{ij})=(a_{ji})$$ die //Transponierte// von $$A$$. Diese [[Bijektive|Bijektivität]] Abbildung $$K^{m\times n}\to K^{n\times m}$$ macht Spalten zu Zeilen und umgekehrt, sie ist anschaulich eine Spiegelung entlang der Hauptdiagonalen $$a_{11},\ldots,a_{kk}$$ mit $$k=\min\{m,n\}$$. Die Abbildung ist [[linear|Lineare Abbildung]] und es gilt $$\left(A^\mathrm T\right)^\mathrm T=A$$. Es gelten die Rechenregeln
+Zu einer [[Matrix]] $$A=(a_{ij})\in K^{m\times n}$$ heißt $$A^\mathrm T = (a'_{ij})\in K^{n\times m}$$ mit $$(a'_{ij})=(a_{ji})$$ die //Transponierte// von $$A$$. Diese [[Bijektive|Bijektivität]] Abbildung $$K^{m\times n}\to K^{n\times m}$$ macht Spalten zu Zeilen und umgekehrt, sie ist anschaulich eine Spiegelung entlang der Hauptdiagonalen $$a_{11},\ldots,a_{kk}$$ mit $$k=\min\{m,n\}$$.
+Die Abbildung ist [[linear|Lineare Abbildung]] und eine [[Involution|Involution]]. Es gelten die Rechenregeln
 
-# $$(A+B)^\mathrm T=A^\mathrm T+B^\mathrm T$$
-# $$(\lambda A)^\mathrm T=\lambda A^\mathrm T$$
-# $$(A^\mathrm T)^{-1}=(A^{-1})^\mathrm T$$
+# $$(A^\mathrm T)^{-1}=(A^{-1})^\mathrm T \eqqcolon A^{-\transp}$$
 # $$(A\cdot B)^\mathrm T=B^\mathrm T\cdot A^\mathrm T$$

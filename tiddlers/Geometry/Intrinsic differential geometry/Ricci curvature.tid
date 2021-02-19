@@ -1,5 +1,5 @@
 created: 20200402065854301
-modified: 20200927181241497
+modified: 20210214185732852
 tags: [[Riemannian curvature]]
 title: Ricci curvature
 type: text/vnd.tiddlywiki
@@ -18,5 +18,5 @@ and therefore the components
 $$ \Ric_{ij} = \sum_k R^k{}_{ikj},$$
 see [[Riemannian curvature]].
 
-* $$\Ric(X,X)=(m-1) \operatorname{ave}_{\varPi\ni X} K(\varPi\,).$$
+* $$\Ric(X,X)=(m-1) \operatorname*{ave}_{\varPi\ni X} K(\varPi\,).$$
 * For $$m=3,$$ the Ricci curvature determines all sectional curvatures at $$p.$$

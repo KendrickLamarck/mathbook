@@ -1,5 +1,5 @@
 created: 20200215173854514
-modified: 20201209224639086
+modified: 20210214155449193
 tags: Numerik
 title: Explizites Einschrittverfahren
 type: text/vnd.tiddlywiki
@@ -31,7 +31,7 @@ $$</div>
 
 * <div>Wir nennen das Verfahren //konsistent,// Wenn $$\lim_{h\to 0}\tau(t,h)=0$$ für alle $$t\in I$$ und konsistent von der Ordnung $$p\in\N,$$ falls $$\tau(t,h)\in\mathcal O(h^p).$$ Daraus folgt
 $$
-\dot y(t)=f(t,y(t))=\lim_{h\to 0}\varPhi(t,y(t),h).
+\dot y(t)=f(t,y(t))=\lim_{\substack{h \to 0 \\[0.2em] h \ne 0}}\varPhi(t,y(t),h).
 $$</div>
 
 * Das Verfahren heißt //konvergent,// wenn für $$i=0,\dots,n$$ gilt $$\lim_{h\to 0} |e_h(t_i)|=0.$$ Es heißt konvergent von der Ordnung $$p\in\N,$$ wenn für $$i=0,\dots,n$$ gilt $$e_h(t_i)\in\mathcal O(h^p).$$

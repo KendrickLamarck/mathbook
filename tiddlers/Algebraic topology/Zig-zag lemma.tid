@@ -1,6 +1,6 @@
 created: 20210206161242077
 creator: Leander
-modified: 20210206173424109
+modified: 20210218014657043
 modifier: Leander
 tags: Homology
 title: Zig-zag lemma
@@ -14,3 +14,30 @@ A_* \xrightarrow{i} B_* \xrightarrow{j} C_*
 $$
 of chain complexes. This induces a long exact sequence on homology:
 {{$:/_svg/zigZagLemma.svg||$:/_templates/cd}}
+
+@@.theorem
+<div>
+
+''Proposition (Naturality).''
+The $$i_*,j_*$$ and $$\partial$$ are [[natural transformations|Natural transformation]] between the functors mapping the short exact sequence to
+
+# $$H_n(A_*)$$ and $$H_n(B_*),$$
+# $$H_n(B_*)$$ and $$H_n(C_*),$$
+# $$H_{n+1}(C_*)$$ and $$H_n(A_*),$$
+
+respectively. Explicitly: Given a commutative diagram
+$$\begin{CD}
+0   @>>>  A_* @>i>>      B_* @>j>>      C_* @>>> 0    \\
+@.        @VV{\alpha}V   @VV{\beta}V    @VV{\gamma}V  \\
+0   @>>>  A'_* @>{i'}>>  B'_* @>{j'}>>  C'_* @>>> 0
+\end{CD}$$
+the induced diagram on homology
+$$\begin{CD}
+\cdots @.  \mkern{-0.5em}H_n(A_*) @>{i_*}>>   H_n(B_*) @>{j_*}>>   H_n(C_*) @>{\partial}>>   H_{n-1}(A_*) @.\mkern{-0.5em}\cdots   \\
+@.         @VV{\alpha_*}V                     @VV{\beta_*}V        @VV{\gamma_*}V            @VV{\alpha_*}V                        \\
+\cdots @.  \mkern{-0.5em}H_n(A'_*) @>{i_*}>>  H_n(B'_*) @>{j_*}>>  H_n(C'_*) @>{\partial}>>  H_{n-1}(A'_*) @.\mkern{-0.5em}\cdots
+\end{CD}$$
+is also commutative.
+
+</div>
+@@

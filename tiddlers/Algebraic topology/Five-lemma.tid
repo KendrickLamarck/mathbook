@@ -1,0 +1,18 @@
+created: 20210215125735703
+modified: 20210218014917368
+tags: Homology
+title: Five-lemma
+type: text/vnd.tiddlywiki
+
+Given a commutative diagram
+$$\begin{CD}
+A @>i>>       B @>j>>      C @>k>>       D @>l>>       E    \\
+@VV{\alpha}V  @VV{\beta}V  @VV{\gamma}V  @VV{\delta}V  @VV{\epsilon}V \\
+A' @>i'>>     B' @>j'>>    C' @>k'>>     D' @>l'>>     E'    \\
+\end{CD}$$
+with exact rows, we have
+
+# If $$\beta$$ and $$\delta$$ are surjective and $$\epsilon$$ is injective, then $$\gamma$$ is surjective.
+# If $$\beta$$ and $$\delta$$ are injective and $$\alpha$$ is surjective, then $$\gamma$$ is injective.
+
+Thus in particular, if $$\alpha,\beta,\delta$$ and $$\epsilon$$ are isomoprhisms, then so is $$\gamma.$$

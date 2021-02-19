@@ -1,0 +1,7 @@
+created: 20210216132532179
+modified: 20210216132802531
+tags: [[Topologischer Raum]]
+title: Suspension
+type: text/vnd.tiddlywiki
+
+The //suspension// of a topological space $$X$$ is the quotient space $$\sigma X \coloneqq X \times I/\!\sim$$ where $$(x,0) \sim (y,0)$$ and $$(x,1) \sim (y,1)$$ for all $$x,y \in X.$$

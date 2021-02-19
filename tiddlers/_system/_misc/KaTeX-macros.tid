@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20210214150337195
+modified: 20210219102137477
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_misc/KaTeX-macros
@@ -30,9 +30,11 @@ $$
 
 \gdef\O{\operatorname{O}}
 \gdef\SO{\operatorname{SO}}
+\gdef\so{\mathfrak{so}}
 \gdef\U{\operatorname{U}}
 \gdef\SU{\operatorname{SU}}
 \gdef\GL{\operatorname{GL}}
+\gdef\SL{\operatorname{SL}}
 \gdef\PO{\operatorname{PO}}
 \gdef\PGL{\operatorname{PGL}}
 \gdef\PSL{\operatorname{PSL}}

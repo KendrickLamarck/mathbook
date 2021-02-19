@@ -1,6 +1,6 @@
 created: 20191016204949012
 creator: Leander
-modified: 20210213155856293
+modified: 20210216132129003
 modifier: Leander
 tags: meta
 title: Reminder
@@ -9,11 +9,5 @@ type: text/vnd.tiddlywiki
 @@color:#dc322f;
 !! Whenever $$\KaTeX$$ is updated
 
-* Delete the ``customMacros`` function argument and variable from [[$:/plugins/tiddlywiki/katex/wrapper.js]] before updating and add it back in after. We need something better for that.
-
-* Use ``\substack`` in [[Lagrange-Interpolation]] and [[Explizites Einschrittverfahren]].
-
-* Use ``\operatorname*{ave}`` in [[Ricci curvature]].
-
-* use ``\begin{CD}`` in [[Naturality of sequences]], [[Natural transformation]], [[Five-lemma]].
+* Take a look at [[$:/plugins/tiddlywiki/katex/wrapper.js]].
 @@

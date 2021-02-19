@@ -38,7 +38,7 @@ KaTeXWidget.prototype.render = function(parent,nextSibling) {
 	var displayMode = this.getAttribute("displayMode",this.parseTreeNode.displayMode || "false") === "true";
 	// Render it into a span
 	var span = this.document.createElement("span"),
-		options = {throwOnError: false, displayMode: displayMode, macros: customMacros};
+		options = {errorColor: "#dc322f", displayMode: displayMode, macros: customMacros, trust: true};
 	try {
 		if(!this.document.isTiddlyWikiFakeDom) {
 			katex.render(text,span,options);

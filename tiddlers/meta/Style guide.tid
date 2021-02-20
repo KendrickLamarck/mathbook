@@ -1,5 +1,5 @@
 created: 20200612205857336
-modified: 20201208185140324
+modified: 20210220143055861
 tags: meta
 title: Style guide
 type: text/vnd.tiddlywiki
@@ -11,23 +11,21 @@ type: text/vnd.tiddlywiki
 
 !! $$\KaTeX$$
 
-* Variables cursive, e.g. $$\sigma \in \varSigma, x \in X.$$
-* Operators roman, e.g. $$\D_p f,\ \d\varphi.$$
-* constants as is customary/needed: $$e^x$$ cursive, $$\i$$ roman if e.g. an index $$i$$ is present...
+* Variables cursive
+** $$\sigma \in \varSigma, x \in X.$$
+* Operators roman
+** $$\D_p f,\ \d\varphi.$$
+* constants as is customary/needed
+** $$e^x$$ cursive, $$\i$$ roman if e.g. an index $$i$$ is present...
 * Abbreviations and so on roman, as in $$\smoothcs.$$
-* <div>
-If there is a ``\mid`` or ``:``, there should probably be ``\,``, e.g.
+* <div>If there is a ``\mid`` or ``:``, there should probably be ``\,``, e.g.
 $$
-\{\, x\in X:f(x)=0\,\},\quad \expect(\, X \mid \sigma(S)\,).
-$$
-</div>
+\{\, x\in X:f(x)=0\,\},\qquad \expect(\, X \mid \sigma(S)\,).
+$$</div>
+* Single numbers not in $$\KaTeX,$$ single variables always; We need to be able to distinguish $$v$$ and $$\mathrm{v}$$ but nothing like that for numbers.
+** $$\R^3$$ is a vector space of dimension 3.
 
 !! Markup style
 
 * Use `\Bbb{P}` and not `\Bbb P` to improve searchability.
 * Always explicitly specify a wikilink name, even if it is the same, e.g. `[[Spur|Spur]]` to make renaming with relink fully seamless.
-
-!! Open/unanswerable questions
-
-* Which headers when?
-* What should be its own tiddler and what shouldn't?

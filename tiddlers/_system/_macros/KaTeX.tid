@@ -1,9 +1,9 @@
 created: 20200516133333572
 creator: Leander
-modified: 20210219102137477
+modified: 20210220164029484
 modifier: Leander
 tags: $:/tags/AboveStory
-title: $:/_misc/KaTeX-macros
+title: $:/_macros/KaTeX
 type: text/vnd.tiddlywiki
 
 $$
@@ -25,6 +25,7 @@ $$
 \gdef\RP{\R\mathrm{P}}
 \gdef\Proj{\mathrm{P}}
 \gdef\C{\mathbb{C}}
+\gdef\Q{\mathbb{Q}}
 \gdef\quat{\mathbb{H}}
 \gdef\sphere{\mathrm{S}}
 
@@ -102,6 +103,7 @@ $$
 \gdef\T{\mathrm{T}} % tangent space / transpose
 \gdef\G{\mathrm{G}} % Grassmannian
 \gdef\L{\mathrm{L}} % Lie derivative
+\gdef\CW{\operatorname{CW}}
 
 \gdef\Borel{\mathcal{B}}
 \gdef\smooth{\mathcal{C}}

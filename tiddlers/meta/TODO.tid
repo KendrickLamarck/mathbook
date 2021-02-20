@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20201214160807530
+modified: 20210220173416212
 modifier: Leander
 tags: meta
 title: TODO
@@ -30,8 +30,6 @@ type: text/vnd.tiddlywiki
 * Add sources (as embedded PDFs?)
 ** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
 
-* Covariant tensors, indices, etc.
-
 !! Tech ideas
 
 * Hosting a node wiki on the web would be great
@@ -41,17 +39,12 @@ type: text/vnd.tiddlywiki
 ** `\differential{f}{p}` to toggle between $$\D_p f$$ and $$\D f(p).$$
 ** avoid single letters
 
-* Consider an alias mechanism (so links don't have to be the exact title)
-* An actual favicon: nice to have.
 * Try applying the 5-color subpalettes to the Solarized palettes
 * Filter field & "open all" button in $:/_templates/tree
 
 * Commutative diagrams as images (for now)
 ** Partially solved. TeX w/ `\documentclass{standalone}`, convert with pdf2svg and see [[Pushout]] for an example.
 ** What could be better: Color, direct svg generating from within TeX.
-** Problem: Putting a diagram within `.theorem` doesn't change the color appropriately.
-
-* Footnotes in [[Van Kampen's theorem]] could be prettier
 
 !! (Future) collaboration
 

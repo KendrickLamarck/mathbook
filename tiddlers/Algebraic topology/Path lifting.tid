@@ -1,0 +1,18 @@
+created: 20210220143543375
+modified: 20210220143604402
+tags: [[Covering space]] no-toc
+title: Path lifting
+type: text/vnd.tiddlywiki
+
+@@.theorem
+<div>
+
+''Theorem (path lifting).''
+Given a covering $$p\colon \tilde{X} \to X,$$ a path $$\gamma\colon I \to X$$ and a point $$\tilde{x} \in \tilde{X}$$ such that $$p(\tilde{x})=x=\gamma(0).$$ Then there exists a unique lift $$\tilde{\gamma}\colon I \to \tilde{X}$$ starting at $$\tilde{x}.$$
+
+The formulation in terms of [[pointed spaces|Pointed space]] is slightly nicer: Given a based path $$\gamma\colon (I,0) \to (X,x)$$ and a covering $$p\colon (\tilde{X},\tilde{x}) \to (X,x),$$ there exists a unique lift $$\tilde{\gamma}\colon (I,0) \to (\tilde{X},\tilde{x}).$$
+
+</div>
+@@
+
+We write $$\tilde{x} * \gamma \coloneqq \tilde{\gamma}(1).$$ This of course lies in the fiber $$p^{-1}\{\gamma(1)\}$$ and depends on the path taken, but if $$\gamma \simeq \gamma',$$ then $$\tilde{x}*\gamma = \tilde{x}*\gamma'$$ by the homotopy lifting property, so we write $$\tilde{x}*[\gamma].$$ In fact, this defines a (right) [[group action|Group action]] of $$\pi_1(X,x)$$ on $$p^{-1}\{x\}.$$

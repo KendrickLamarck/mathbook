@@ -1,14 +1,12 @@
 created: 20171229195102286
 creator: Leander
-modified: 20180725180139006
+modified: 20210220140751048
 modifier: Leander
-revision: 0
 tags: Körper Ring
 title: Charakteristik
 type: text/vnd.tiddlywiki
 
 Ist $$R$$ ein [[Ring]] mit Einselement $$1$$, so ist seine Charakteristik erklärt durch
-
 $$
 \operatorname{char}(R) \coloneqq
 \begin{cases}
@@ -16,5 +14,4 @@ $$
 \min\{n \in \mathbb{N}\setminus\{0\} \mid n \cdot 1 = 0\},\quad&\text{sonst}.
 \end{cases}
 $$
-
 Ist $$K$$ ein [[Körper]], so ist $$\operatorname{char}(K)$$ entweder Null oder eine Primzahl.

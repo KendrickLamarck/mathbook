@@ -1,5 +1,5 @@
 created: 20210130150057199
-modified: 20210206200924644
+modified: 20210220144732036
 tags: Homology
 title: Chain homotopy
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ If $$f$$ and $$g$$ are homotopic maps between topological spaces, then the induc
 If $$X \simeq Y$$ are homotopy equivalent spaces, then any homotopy equivalence induces isomorphisms $$H_n(X) \cong H_n(Y)$$ for all $$n.$$
 @@
 
-The theorem also holds for [[reduced homology|Augmentation map]].
+The theorem also holds for [[reduced homology|Reduced homology]].
 
 !! Chain homotopy inverses
 

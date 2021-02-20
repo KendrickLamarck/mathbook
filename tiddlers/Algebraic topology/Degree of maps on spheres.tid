@@ -1,5 +1,5 @@
 created: 20201120152423843
-modified: 20210213174018139
+modified: 20210220151137575
 tags: [[Algebraic topology]]
 title: Degree of maps on spheres
 type: text/vnd.tiddlywiki
@@ -24,3 +24,10 @@ In general, the //degree// of a map $$f\colon \sphere^n \to \sphere^n$$ is $$\de
 
 * The degree of a reflection $$\mu\colon \sphere^n \to \sphere^n$$ across a hyperplane in $$\R^{n+1}$$ has degree -1.
 * The antipodal map on $$\sphere^n$$ is the composition of $$n+1$$ reflections, so it is 1 if $$n$$ is odd and -1 if $$n$$ is even.
+
+!! mod-2 homology
+
+@@.theorem
+''Proposition.''
+If $$f\colon \sphere^n \to \sphere^n,$$ then $$f_*\colon \tilde{H}_n(\sphere^n;\Z_2) \to \tilde{H}_n(\sphere^n;\Z_2)$$ is the zero map if the degree of $$f$$ is even and the identity if it is odd.
+@@

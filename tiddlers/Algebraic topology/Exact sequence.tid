@@ -1,5 +1,5 @@
 created: 20210130175825686
-modified: 20210209131456935
+modified: 20210220114911687
 tags: Homology
 title: Exact sequence
 type: text/vnd.tiddlywiki
@@ -27,21 +27,3 @@ A \xrightarrow{\alpha} B \xrightarrow{\beta} C
 \xrightarrow{} 0
 $$
 which is exact at $$A,B$$ and $$C.$$ We have that $$\alpha$$ is injective, $$\beta$$ is surjective and $$C \cong B/A.$$
-
-@@.theorem
-''Theorem.''
-Suppose $$A \subseteq X$$ is a nonempty closed subspace that has a neighborhood $$N \subseteq X$$ which deformation retracts to $$A.$$ Then the short exact sequence
-$$
-A \hookrightarrow X \twoheadrightarrow X/A
-$$
-of the inclusion $$i$$ and quotient map $$j$$ induces a long exact sequence on [[reduced homology|Augmentation map]]:
-{{$:/_svg/longExactSequenceOnHomology.svg||$:/_templates/cd}}
-@@
-
-* The theorem applies in particular if $$A$$ is a subcomplex of a CW complex $$X.$$
-* If all the $$\partial$$ vanish, we get short exact sequences and we get $$H_n(X/A) \cong H_n(X) / H_n(A).$$
-
-@@.theorem
-''Corollary.''
-The reduced homology of the $$k$$-sphere is $$\tilde{H}_n(\sphere^k) \cong \Z$$ if $$n=k$$ and $$0$$ otherwise.
-@@

@@ -1,5 +1,5 @@
 created: 20210129204513899
-modified: 20210129210538804
+modified: 20210220151728318
 tags: Homology
 title: Hurewicz theorem
 type: text/vnd.tiddlywiki
@@ -15,5 +15,5 @@ This means that the map $$h\colon \pi_1(X,x_0) \to H_1(X),\ [\gamma] \mapsto \ll
 
 @@.theorem
 ''Theorem (Hurewicz).''
-If $$X$$ is path-connected, then $$\bar{h}$$ is an isomorphism.
+If $$X$$ is path-connected, then $$\bar{h}$$ is an isomorphism, i.e. the first homology group is the abelianization of the fundamental group.
 @@

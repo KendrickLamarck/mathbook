@@ -1,6 +1,6 @@
 created: 20210206161242077
 creator: Leander
-modified: 20210218014657043
+modified: 20210220152543224
 modifier: Leander
 tags: Homology
 title: Zig-zag lemma
@@ -19,13 +19,13 @@ of chain complexes. This induces a long exact sequence on homology:
 <div>
 
 ''Proposition (Naturality).''
-The $$i_*,j_*$$ and $$\partial$$ are [[natural transformations|Natural transformation]] between the functors mapping the short exact sequence to
+For each $$n,$$ the families
 
-# $$H_n(A_*)$$ and $$H_n(B_*),$$
-# $$H_n(B_*)$$ and $$H_n(C_*),$$
-# $$H_{n+1}(C_*)$$ and $$H_n(A_*),$$
+* $$H_n(A_*) \xrightarrow{i_*} H_n(B_*),$$
+* $$H_n(B_*) \xrightarrow{j_*} H_n(C_*),$$
+* $$H_{n+1}(C_*) \xrightarrow{\partial} H_n(A_*),$$
 
-respectively. Explicitly: Given a commutative diagram
+are components of [[natural transformations|Natural transformation]] between functors from the category of short exact sequences to the category of Abelian groups. Explicitly: Given a commutative diagram
 $$\begin{CD}
 0   @>>>  A_* @>i>>      B_* @>j>>      C_* @>>> 0    \\
 @.        @VV{\alpha}V   @VV{\beta}V    @VV{\gamma}V  \\

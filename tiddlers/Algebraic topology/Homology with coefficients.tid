@@ -1,0 +1,25 @@
+created: 20210220112749500
+modified: 20210220150659052
+tags: Homology
+title: Homology with coefficients
+type: text/vnd.tiddlywiki
+
+Fix an abelian group $$G$$ and let $$C_n(X;G) \coloneqq C_n(X) \otimes G$$ be the set of formal sums of simplices with coefficients in $$G.$$ Using the same formula for the boundary map (formally), we get a chain complex $$C_*(X;G).$$ For a pair $$(X,A),$$ we set $$C_*(X,A;G) \coloneqq C_*(X;G)/C_*(A;G).$$ The homology of these chain complexes $$H_n(X;G)$$ and $$H_n(X,A;G)$$ are //homology with coefficients in $$G.$$// Reduced homology comes from the obvious [[augmentation map|Reduced homology]] $$\varepsilon\colon C_0(X;G) \to G.$$
+To contrast, the ordinary homology $$H_n(X) = H_n(X;\Z)$$ is called //integral homology.// Homology with coefficients in any $$G$$ is already determined by integral homology.
+
+Suppose the homology groups are finitely generated (for example, $$X$$ is a finite $$\Delta$$-complex). We can then decompose
+$$
+H_n(X) \cong \Z^r \oplus \bigoplus_{i=1}^l \Z_{{p_i}^{k_i}}
+$$
+with $$p_i$$ prime. $$r \eqqcolon \beta_n(X)$$ is called the $$n$$-th //Betti number// of $$X$$ and the prime powers $${p_i}^{k_i}$$ are called //torsion coefficients.// We get:
+
+* $$H_n(X;\Q) = H_n(X) \otimes \Q = \Q^r$$ and the same is true for $$\R$$ and any other field with [[characteristic|Charakteristik]] 0.
+* $$H_n(X;\Z_p)$$ is a vector space of dimension $$r$$ plus the number of torsion coefficients of $$H_n(X)$$ and $$H_{n-1}(X)$$ with $$p_i = p.$$
+
+In so-called //mod-2 homology// with $$G = \Z_2$$ we ignore orientation. Chains can be understood as finite collections of simplices with addition being set difference. The mod-2 homology of $$\RP^n$$ is
+$$
+H_k(\RP^n;\Z^2) \cong \begin{cases}
+  \Z_2, & 0 \le k \le n, \\
+  0,    & \text{otherwise.}
+\end{cases}
+$$

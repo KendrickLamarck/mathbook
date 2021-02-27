@@ -1,5 +1,5 @@
 created: 20210111165709197
-modified: 20210116142858378
+modified: 20210227123439427
 tags: [[Algebraic topology]]
 title: CW complex
 type: text/vnd.tiddlywiki
@@ -20,7 +20,9 @@ If this process stops with some finite $$n,$$ we define $$X \coloneqq X^n$$ and 
 For each cell, the //characteristic map// is the composition of inclusions and the quotient map
 $$
 \Phi^n_\alpha\colon D^n{}_\alpha
-  \hookrightarrow    X^{n-1} \sqcup \bigsqcup_\alpha D^n{}_\alpha 
+  \hookrightarrow \biggl(
+    X^{n-1} \sqcup \bigsqcup_\alpha D^n{}_\alpha
+  \biggr)
   \twoheadrightarrow X^n
   \hookrightarrow    X.
 $$

@@ -1,0 +1,11 @@
+created: 20210227145036176
+modified: 20210227145250140
+tags: Gruppe
+title: Rank (Groups)
+type: text/vnd.tiddlywiki
+
+Any finitely generated abelian group $$G$$ can be decomposed as
+$$
+G \cong \Z^r \oplus \bigoplus_{i=1}^l \Z_{{p_i}^{k_i}}
+$$
+with $$p_i$$ prime. $$r$$ is called the //rank// of $$G.$$

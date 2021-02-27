@@ -1,6 +1,6 @@
 caption: Homomorphismus
 created: 20200424212010043
-modified: 20201222140908114
+modified: 20210227150736732
 tags: Gruppe
 title: Gruppenhomomorphismus
 type: text/vnd.tiddlywiki
@@ -16,8 +16,8 @@ $$
 \ker\varphi\coloneqq \{g \in G : \varphi(g) = e_H\} < G
 $$
 und das Bild ist
-$$\varphi(G) < H.$$
+$$\varphi(G) \eqqcolon \img\varphi< H.$$
 
 * $$\ker\varphi \lhd H$$ ist eine [[normale Untergruppe|Normal subgroup]]
-* $$\varphi(G) < H$$ ist isomorph zu $$G/\ker\varphi.$$
-* $$\varphi$$ ist injektiv genau dann wenn $$\ker\varphi = e_G.$$ In diesem Fall ist auch $$\varphi^{-1}\colon \varphi(G) \to G$$ ein Homomorphismus und $$\varphi\colon G \to \varphi(G)$$ ein Isomorphismus.
+* $$\img\varphi < H$$ ist isomorph zu $$G/\ker\varphi.$$
+* $$\varphi$$ ist injektiv genau dann wenn $$\ker\varphi = e_G.$$ In diesem Fall ist auch $$\varphi^{-1}\colon \img\varphi \to G$$ ein Homomorphismus und $$\varphi\colon G \to \img\varphi$$ ein Isomorphismus.

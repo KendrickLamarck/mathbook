@@ -1,25 +1,33 @@
 created: 20210123205459773
 list: Simplex Delta-complex [[Simplicial homology]] [[Singular homology]] [[Simplicial and singular homology]] [[Reduced homology]] [[Hurewicz theorem]] [[Chain map]] [[Chain homotopy]] [[Exact sequence]] [[Exact sequence on homology]] Excision [[Homological orientation]] [[Homology manifold]] [[Mayer-Vietoris theorem]] [[Relative homology]] [[Zig-zag lemma]] Five-lemma [[Homology with coefficients]]
-modified: 20210220144732074
+modified: 20210227170014862
 tags: [[Algebraic topology]]
 title: Homology
 type: text/vnd.tiddlywiki
 
-A //chain complex// $$C_*$$ is a sequence of abelian groups $$(C_n)_{n \in \Z}$$ together with homomorphisms called //boundary maps// $$\partial_n\colon C_n \to C_{n-1}$$ such that $$\partial_n \circ \partial_{n+1} = 0$$ for all $$n.$$ That is, such that $$\img(\partial_{n+1}) < \ker(\partial_n) < C_n$$:
-$$
-\cdots
-\xrightarrow{\partial_{n+2}} C_{n+1}
-\xrightarrow{\partial_{n+1}} C_n
-\xrightarrow{\partial_n} C_{n-1}
-\xrightarrow{\partial_{n-1}} \cdots
-$$
-The //$$n$$-th homology group// of a chain complex is
-$$
-H_n = H_n(C_*) \coloneqq \ker(\partial_n) / \img(\partial_{n+1}).
-$$
+A //homology theory// is a collection of functors $$h_n$$ for $$n \in \Z$$ from pairs $$(X,A)$$ to abelian groups together with natural transformations $$\partial_n\colon h_n(X,A) \to h_{n-1}(A,\varnothing)$$ (we write $$h_n(X) \coloneqq h_n(X,\varnothing)$$ and $$f_* \coloneqq h_n(f)$$) satisfying the following axioms:
 
-* The elements of $$C_n$$ are called //$$n$$-chains.//
-* The elements of $$\ker \partial_n$$ are called //cycles.//
-* The elements of $$\img \partial_{n+1}$$ are called //$$n$$-boundaries.//
-* The elements of $$H_n$$ are called //homology classes.//
-* Two cycles differing by a boundary are called //homologous.//
+; Homotopy:
+: If $$f,g\colon (X,A) \to (Y,B)$$ are homotopic maps of pairs then $$f_* = g_*\colon h_n(X,A) \to h_n(Y,B)$$ for each $$n \in \Z.$$
+
+; Exactness:
+: <div>For any pair, we get a long exact sequence
+$$
+\cdots \xrightarrow{\partial_{n+1}} h_n(A) \to h_n(X) \to h_n(X,A) \xrightarrow{\partial_n} h_{n-1}(A) \to \cdots
+$$</div>
+
+; Excision:
+: If $$\overbar{4}{-2}{Z} \subseteq \mathring{A},$$ then the inclusion induces for each $$n \in \Z$$ an isomorphism $$h_n(X \setminus Z, A \setminus Z) \cong h_n(X,A).$$
+
+; Dimension:
+: $$h_n(\{*\}) = 0$$ for $$n \ne 0.$$ $$h_0(\{*\})$$ is called the //coefficient group// for the homology theory. Dropping this axiom gives so -called //generalized homology theories.//
+
+; Additivity:
+: <div>For any disjoint union, the inclusions induce for each $$n \in \Z$$ an isomorphism
+$$
+\bigoplus_{\alpha \in A} h_n(X_\alpha) \to
+  h_n\biggl( \coprod_{\alpha \in A} X_\alpha \biggr).
+$$
+This is only important for infinite complexes.</div>
+
+These axioms uniquely determine a homology theory on all spaces homotopy equivalent to a CW complex.

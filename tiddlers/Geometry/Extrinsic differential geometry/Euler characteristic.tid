@@ -1,7 +1,6 @@
 created: 20200701193550364
-modified: 20200701200105116
-revision: 0
-tags: Surface
+modified: 20210227172355807
+tags: Homology [[Extrinsic differential geometry]]
 title: Euler characteristic
 type: text/vnd.tiddlywiki
 
@@ -10,3 +9,27 @@ $$
 \chi(M) \coloneqq 2k-n
 $$
 is called the //Euler characteristic// of $$M.$$
+
+!! From homology
+
+Let $$X$$ be a topological space with finitely generated homology groups $$H_n(X)$$ (for example, $$X$$ is a finite [[CW complex|CW complex]]). Then we define the //Euler characteristic// as
+$$
+\chi(X) \coloneqq \sum_k (-1)^k \beta_k(X),
+$$
+where $$\beta_k(X)$$ is the $$k$$-th [[Betti number|Betti number]].
+
+@@.theorem
+''Theorem.''
+If $$X$$ is a finite CW complex with $$c_k$$ cells in dimension $$k,$$ then $$\chi(X) = \sum (-1)^k c_k.$$
+@@
+
+The proof uses the following fact:
+
+@@.theorem
+''Proposition.''
+If $$C_*$$ is a finite chain complex of finitely generated abelian groups, then
+$$
+\sum (-1)^k \rank C_k = \sum (-1)^k \rank H_k(C_*).
+$$
+In particular, for a short exact sequence $$0 \to A \to B \to C \to 0,$$ we have $$\rank B = \rank A + \rank C.$$
+@@

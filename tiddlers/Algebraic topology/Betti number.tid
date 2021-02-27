@@ -1,0 +1,9 @@
+created: 20210227143523272
+modified: 20210227145349022
+tags: Homology
+title: Betti number
+type: text/vnd.tiddlywiki
+
+{{Rank (Groups)}}
+
+If the homology groups of $$X$$ are finitely generated (for example, $$X$$ is a finite $$\Delta$$-complex). $$\beta_n(X) \coloneqq \rank H_n(X)$$ is called the $$n$$-th //Betti number// of $$X$$ and the prime powers $${p_i}^{k_i}$$ are called //torsion coefficients.//

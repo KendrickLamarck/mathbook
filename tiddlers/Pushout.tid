@@ -1,5 +1,5 @@
 created: 20201205200331859
-modified: 20201214154925500
+modified: 20210227171647045
 tags: Category
 title: Pushout
 type: text/vnd.tiddlywiki
@@ -9,4 +9,4 @@ For all objects $$Z$$ and all families of morphisms $$(f_k\colon Y_k \to Z)$$ @@
 
 This definition is similar to that of the [[coproduct|Coproduct]], the only difference is the highlighted part. For two objects, the property means that the following diagram commutes:
 
-{{$:/_svg/pushout.svg||$:/_templates/cd}}
+{{$:/_images/pushout.svg||$:/_templates/cd}}

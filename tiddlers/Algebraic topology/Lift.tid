@@ -1,12 +1,12 @@
 created: 20201116191124760
-modified: 20210220143648588
+modified: 20210227171658262
 tags: [[Covering space]]
 title: Lift
 type: text/vnd.tiddlywiki
 
 Let $$p\colon \tilde{X} \to X$$ be a covering map. Given a map $$f\colon Y \to X,$$ a //lift// of $$f$$ to $$\tilde{X}$$ is a map $$\tilde{f}\colon Y \to \tilde{X}$$ such that $$f = p \circ \tilde{f}$$ holds, i.e. the following diagram commutes:
 
-{{$:/_svg/lift.svg||$:/_templates/cd}}
+{{$:/_images/lift.svg||$:/_templates/cd}}
 
 * If $$Y$$ is connected and two lifts $$\tilde{f},\bar{f}$$ of $$f\colon Y \to X$$ agree at some point $$y_0 \in Y,$$ then $$\tilde{f}=\bar{f}.$$
 * A map $$f\colon Y \to X$$ with $$Y$$ connected has at most $$n$$ lifts to an $$n$$-sheeted covering.

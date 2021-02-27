@@ -1,5 +1,5 @@
 created: 20210220114906441
-modified: 20210220145257624
+modified: 20210227171653375
 tags: Homology
 title: Exact sequence on homology
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ $$
 A \hookrightarrow X \twoheadrightarrow X/A
 $$
 of the inclusion $$i$$ and quotient map $$j$$ induces a long exact sequence on [[reduced homology|Reduced homology]]:
-{{$:/_svg/longExactSequenceOnHomology.svg||$:/_templates/cd}}
+{{$:/_images/longExactSequenceOnHomology.svg||$:/_templates/cd}}
 @@
 
 * The theorem applies in particular if $$A$$ is a subcomplex of a CW complex $$X.$$

@@ -1,6 +1,6 @@
 created: 20210206161242077
 creator: Leander
-modified: 20210220152543224
+modified: 20210227171631144
 modifier: Leander
 tags: Homology
 title: Zig-zag lemma
@@ -13,7 +13,7 @@ A_* \xrightarrow{i} B_* \xrightarrow{j} C_*
 \xrightarrow{} 0.
 $$
 of chain complexes. This induces a long exact sequence on homology:
-{{$:/_svg/zigZagLemma.svg||$:/_templates/cd}}
+{{$:/_images/zigZagLemma.svg||$:/_templates/cd}}
 
 @@.theorem
 <div>

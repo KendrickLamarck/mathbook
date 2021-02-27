@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20210220173416212
+modified: 20210221135017853
 modifier: Leander
 tags: meta
 title: TODO
@@ -33,7 +33,6 @@ type: text/vnd.tiddlywiki
 !! Tech ideas
 
 * Hosting a node wiki on the web would be great
-* Styling definitions, theorems, etc. with classes
 
 * replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
 ** `\differential{f}{p}` to toggle between $$\D_p f$$ and $$\D f(p).$$
@@ -41,6 +40,8 @@ type: text/vnd.tiddlywiki
 
 * Try applying the 5-color subpalettes to the Solarized palettes
 * Filter field & "open all" button in $:/_templates/tree
+* Assign css class to KaTeX links in [[$:/plugins/tiddlywiki/katex/wrapper.js]]
+* Tag selector / same tags as parent in excision dialogue
 
 * Commutative diagrams as images (for now)
 ** Partially solved. TeX w/ `\documentclass{standalone}`, convert with pdf2svg and see [[Pushout]] for an example.

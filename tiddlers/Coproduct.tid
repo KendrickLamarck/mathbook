@@ -1,8 +1,12 @@
 created: 20201205165500430
-modified: 20201207162020601
+modified: 20210302155216909
 tags: Category
 title: Coproduct
 type: text/vnd.tiddlywiki
 
 Let $$(X_j)_{j \in J}$$ be a family of objects. A //coproduct// of this family is an object $$X$$ together with a family of morphisms $$(i_j\colon X_j \to X)_{j \in J}$$ such that the following universal property is fulfilled:
-For every object $$Y$$ and every family of morphisms $$(f_j\colon X_j \to Y)_{j \in J},$$ there exists a unique morphism $$f\colon X \to Y$$ such that $$f_j = f \circ i_j$$ for all $$j \in J.$$ We then write $$X \eqqcolon \coprod X_j.$$
+For every object $$Y$$ and every family of morphisms $$(f_j\colon X_j \to Y)_{j \in J},$$ there exists a unique morphism $$f\colon X \to Y$$ such that $$f_j = f \circ i_j$$ for all $$j \in J.$$ We then write $$X \eqqcolon \coprod X_j,$$ or $$X_1 \oplus X_2 \oplus \cdots$$ if appropriate.For the case of two spaces, the following diagram must commute:
+
+{{$:/_images/coproduct.svg||$:/_templates/cd}}
+
+Examples include the [[wedge sum of pointed spaces|Wedge sum]], the [[free product of groups|Free product]] and the [[disjoint union of topological spaces|Disjoint union topology]].

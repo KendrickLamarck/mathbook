@@ -1,26 +1,22 @@
 created: 20180522185328799
 creator: Leander
-modified: 20200222181739909
+modified: 20210303002308094
 modifier: Leander
-revision: 0
 tags: Norm
 title: Operatornorm
 type: text/vnd.tiddlywiki
 
 Seien $$(V,\|\cdot\|_V)$$ und $$(W,\|\cdot\|_W)$$ [[normierte Vektorräume|Normierter Vektorraum]] und $$V\ne\{0\}$$ [[endlichdimensional|Dimension]]. Dann definiert für $$F\in L(V,W)$$
-
 $$
 \|F\|_{\operatorname{op}}\coloneqq
 \sup_{v\ne 0}\frac{\|F(v)\|_W}{\|v\|_V}
 =\max_{\|v\|_V=1} \|F(v)\|_W
 $$
-
 eine [[Norm]] auf dem [[Vektorraum]] $$L(V,W).$$
 
 !! Beispiele
 
 * <div>Ist $$F\colon\Bbb R^n\to\Bbb R$$ durch die [[Matrix|Darstellende Matrix (lineare Abbildungen)]] $$A=(a_1,\dots,a_n)$$ gegeben, so ist bezüglich der euklidischen Norm auf $$\R^n$$ und dem Betrag auf $$\R$$
-
 $$
 \|F\|=\sqrt{\sum_{i=1}^n a_i^2}.
 $$</div>
@@ -28,13 +24,11 @@ $$</div>
 * Sei $$A$$ die darstellende Matrix von $$F\colon\Bbb R^n\to\Bbb R^m.$$ Dann ist $$\|F\|$$ bezüglich der euklidischen Normen die Wurzel aus dem Maximum der [[Eigenwerte|Eigenwert]] von $$A^\mathrm T A.$$
 
 * <div>Für $$\|A\|_1\coloneqq\max_{\|x\|_1=1}\|Ax\|_1,\ A\in\Bbb K^{m\times n}$$ erhalten wir die Maximale Spaltensummennorm
-
 $$
 \|A\|_1=\max_{j=1}^n \sum_{i=1}^m |a_{ij}|.
 $$</div>
 
 * <div>Für $$\|A\|_\infty\coloneqq\max_{\|x\|_\infty=1}\|Ax\|_\infty,\ A\in\Bbb K^{m\times n}$$ erhalten wir die Maximale Zeilensummennorm
-
 $$
 \|A\|_\infty=\max_{i=1}^m \sum_{j=1}^n |a_{ij}|.
 $$</div>

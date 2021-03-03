@@ -1,19 +1,16 @@
 created: 20180416182853748
 creator: Leander
-modified: 20180709204400321
+modified: 20210303002321320
 modifier: Leander
-revision: 0
 tags: Norm
 title: l-unendlich-Norm
+type: text/vnd.tiddlywiki
 
 Für $$x=(x_1,\ldots,x_n)\in\mathbb R^n$$ definiert
-
 $$
 \|x\|_\infty\coloneqq\sup_{i=1}^n |x_i|
 $$
-
 Eine [[Norm]], welche die sogenannte $$l^\infty$$-[[Metrik]] induziert. Es gilt
-
 $$
 \lim_{p\to\infty} d^p(x,y)=d^\infty(x,y).
 $$

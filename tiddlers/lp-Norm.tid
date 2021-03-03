@@ -1,6 +1,6 @@
 created: 20180416181816836
 creator: Leander
-modified: 20201227205655917
+modified: 20210303002512193
 modifier: Leander
 tags: Norm
 title: lp-Norm
@@ -15,3 +15,7 @@ Ist $$1\le p\le q\le+\infty$$ und $$x\in\mathbb R^n$$, so ist
 $$
 \|x\|_q\le\|x\|_p\le n^{\frac{1}{p}-\frac{1}{q}}\|x\|_p.
 $$
+
+!! $$p = \infty$$
+
+{{l-unendlich-Norm}}

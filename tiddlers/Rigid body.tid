@@ -1,5 +1,5 @@
 created: 20210213220234217
-modified: 20210219162216417
+modified: 20210226170518390
 tags: Physics
 title: Rigid body
 type: text/vnd.tiddlywiki
@@ -36,3 +36,18 @@ K &= \frac{1}{2} \int_{B(0)}
        \rang.
 \end{aligned}$$
 The tensor with components $$J_{jk}$$ is the //inertia tensor// of the rigid body $$B(0)$$ and characterizes its distribution of mass. There exists a choice of initial frame, the so-called //principal frame,// such that $$J = \operatorname{diag}(J_1,J_2,J_3).$$
+
+@@.theorem
+''Theorem.''
+For a Lagrange function $$L\colon \T G \to \R$$ of the form $$L(g,\dot{g})$$ of the form $$L(g,\dot{g}) = \ell(\Omega),$$ where $$\Omega = g^{-1}\dot{g}$$ (angular velocity in the moving frame), the Euler-Lagrange equations take the following form:
+$$
+\dot{M} = [M,\Omega],\quad M = \d_\Omega\ell \in g^* \cong g,
+$$
+where the last isomorphism comes from the scalar product, if there is one. These equations have to be supplied by the //frame reconstruction equation//
+$$
+\dot{g} = g\Omega
+$$
+which is a linear differential equation for the frame $$g,$$ provided $$\Omega(t)$$ is known as a solution of the Euler-Lagrange equations.
+@@
+
+For any Lagrange function $$L(g,\dot{g}) = \ell(\Omega),$$ the Euler-Lagrange equations $$\dot{M} = [M,\Omega]$$ have $$\tr(M^2)$$ as a conserved quantity.

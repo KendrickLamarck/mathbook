@@ -1,19 +1,16 @@
 created: 20180522180415162
 creator: Leander
 list: Betrag lp-Norm l-unendlich-Norm Operatornorm Parallelogrammgleichung Supremumsnorm
-modified: 20191011220007783
+modified: 20210303002228949
 modifier: Leander
-revision: 0
 tags: [[Normierter Vektorraum]]
 title: Norm
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein reeller [[Vektorraum]]. Eine //Norm// für $$V$$ ist eine Abbildung
-
 $$
 \|\cdot\|\colon V\to\mathbb R,\quad v\mapsto \|v\|,
 $$
-
 so dass für alle $$u,v\in V$$ und $$\lambda\in\mathbb R$$ gilt:
 
 # $$\|v\|\ge 0$$ und $$(\|v\|=0\iff v=0)$$ @@float:right; (positive [[Definitheit]]), @@

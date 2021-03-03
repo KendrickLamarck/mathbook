@@ -1,7 +1,7 @@
 created: 20201214152306943
-modified: 20210107150844938
+modified: 20210302183032558
 tags: no-toc [[Covering space]]
 title: Homomorphism of fundamental groups induced by a covering map
 type: text/vnd.tiddlywiki
 
-If $$p\colon (\tilde{X},\tilde{x}) \to (X,x)$$ is a covering map, then $$p_*\colon \pi_1(\tilde{X},\tilde{x}) \to \pi_1(X,x)$$ is injective. The image $$H \coloneqq p_* \pi_1(\tilde{X},\tilde{x}) < \pi_1(X,x)$$ consists of those loops which lift to loops in $$\tilde{X}.$$ If $$\tilde{X}$$ is path-connected, then the number of sheets in the covering equals the index of $$H$$ in $$\pi_1(X).$$
+If $$p\colon (\overtilde{4}{-3}{X},\tilde{x}) \to (X,x)$$ is a covering map, then $$p_*\colon \pi_1(\overtilde{4}{-3}{X},\tilde{x}) \to \pi_1(X,x)$$ is injective. The image $$H \coloneqq p_* \pi_1(\overtilde{4}{-3}{X},\tilde{x}) < \pi_1(X,x)$$ consists of those loops which lift to loops in $$\overtilde{4}{-3}{X}.$$ If $$\overtilde{4}{-3}{X}$$ is path-connected, then the number of sheets in the covering equals the index of $$H$$ in $$\pi_1(X).$$

@@ -1,5 +1,5 @@
 created: 20210130150057199
-modified: 20210220144732036
+modified: 20210302155554320
 tags: Homology
 title: Chain homotopy
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ Two chain maps $$f,g \colon C_* \to D_*$$ are //chain homotopic// if there exist
 If $$f$$ and $$g$$ are chain homotopic maps, then they induce the same maps $$f_* = g_*$$ on homology.
 
 ''Theorem.''
-If $$f$$ and $$g$$ are homotopic maps between topological spaces, then the induced chain maps $$f_\#$$ and $$g_\#$$ are chain homotopic, so the induced maps $$f_* = g_*$$ on homology are equal.
+If $$f$$ and $$g$$ are homotopic maps between topological spaces, then the induced chain maps $$f_\sharp$$ and $$g_\sharp$$ are chain homotopic, so the induced maps $$f_* = g_*$$ on homology are equal.
 
 ''Corollary.''
 If $$X \simeq Y$$ are homotopy equivalent spaces, then any homotopy equivalence induces isomorphisms $$H_n(X) \cong H_n(Y)$$ for all $$n.$$

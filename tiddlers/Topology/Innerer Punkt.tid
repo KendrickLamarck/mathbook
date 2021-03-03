@@ -1,20 +1,16 @@
 created: 20171225132736189
 creator: Leander
-modified: 20200530150849931
+modified: 20210302222709256
 modifier: Leander
-revision: 0
-tags: [[Topologischer Raum]]
+tags: [[Inneres, Abschluss, Rand, Häufungspunkt]] no-toc
 title: Innerer Punkt
 type: text/vnd.tiddlywiki
 
 Seien $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]] und $$Y\subset X$$. Das //innere// oder den //offenen Kern// von $$Y$$ nennen wir die Menge
-
 $$
 \mathring Y=Y^\circ\coloneqq\{\,y\in Y\mid\exists\, U\in\mathcal T\colon y\in U\subset Y\,\}.
 $$
-
 Die Menge ist offen und ihre Punkte heißen //innere Punkte//. Sie ist die größte offene Menge in $$Y$$: Ist $$(U_i)_{i\in I}$$ die Menge aller offenen Teilmengen von $$Y$$, so gilt
-
 $$
 \mathring Y=\bigcup_{i\in I} U_i.
 $$

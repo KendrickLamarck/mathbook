@@ -1,8 +1,8 @@
 caption: Disjoint union
 created: 20201103140138512
-modified: 20201205164516076
-tags: [[Topologischer Raum]]
-title: Disjoint union of topological spaces
+modified: 20210302223103278
+tags: [[Derived topologies]] no-toc
+title: Disjoint union topology
 type: text/vnd.tiddlywiki
 
 We define the //disjoint union// of topological spaces $$(X_i)_{\alpha \in A}$$ as

@@ -1,7 +1,11 @@
 created: 20201117134416135
-modified: 20210118214330377
+modified: 20210302145645336
 tags: [[Topologischer Raum]]
 title: Pointed space
 type: text/vnd.tiddlywiki
 
 A //pointed space// $$(X,x)$$ is a topological space $$X$$ together with a point $$x \in X.$$ A morphism of pointed spaces is a continuous map $$f\colon (X,x) \to (Y,y)$$ such that $$f(x) = y.$$
+
+!! Homogeneous space
+
+{{Homogeneous space}}

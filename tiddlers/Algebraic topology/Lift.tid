@@ -1,5 +1,5 @@
 created: 20201116191124760
-modified: 20210227171658262
+modified: 20210302160213421
 tags: [[Covering space]]
 title: Lift
 type: text/vnd.tiddlywiki
@@ -15,6 +15,7 @@ Let $$p\colon \tilde{X} \to X$$ be a covering map. Given a map $$f\colon Y \to X
 
 {{Homotopy lifting}}
 
-!! Existence
-
+@@.theorem
+''Theorem. (existence of lifts)''
 {{Existence of lifts}}
+@@

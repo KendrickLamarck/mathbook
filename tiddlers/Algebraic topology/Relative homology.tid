@@ -1,6 +1,6 @@
 created: 20210206155445189
 creator: Leander
-modified: 20210213115353696
+modified: 20210302155609007
 modifier: Leander
 tags: Homology
 title: Relative homology
@@ -38,6 +38,6 @@ H_0(A) \xrightarrow{i_*} H_0(X) \xrightarrow{j_*} H_0(X,A) \xrightarrow{} 0.
 
 * We can recover regular and reduced homology from relative homology via $$H_n(X) = H_n(X,\varnothing)$$ and $$\tilde{H}_n(X) = H_n(X,\{x_0\})$$ for any $$x_0 \in X.$$
 
-* Just as with regular homology, maps of pairs $$f\colon (X,A) \to (Y,B)$$ induce maps $$f_\#\colon C_*(X,A) \to C_*(Y,B)$$ and $$f_*\colon H_n(X,A) \to H_n(Y,B).$$ If $$f$$ and $$g$$ are homotopic (through maps of pairs), then $$f_* = g_*.$$
+* Just as with regular homology, maps of pairs $$f\colon (X,A) \to (Y,B)$$ induce maps $$f_\sharp\colon C_*(X,A) \to C_*(Y,B)$$ and $$f_*\colon H_n(X,A) \to H_n(Y,B).$$ If $$f$$ and $$g$$ are homotopic (through maps of pairs), then $$f_* = g_*.$$
 
 * If $$A \subseteq B \subseteq X,$$ we have inclusions $$(B,A) \hookrightarrow (X,A) \hookrightarrow (X,B),$$ which induce a short exact sequence $$0 \to C_*(B,A) \to C_*(X,A) \to C_*(X,B) \to 0,$$ and thus a long exact sequence on homology.

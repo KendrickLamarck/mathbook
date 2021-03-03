@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20210227170844189
+modified: 20210302182325108
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_macros/KaTeX
@@ -81,6 +81,11 @@ $$
   {#3}
 }
 \gdef\REx{\overbar{0}{-1}{\R}}
+% #2 mu are cut off the bar on both sides, bar is shifted by #1 mu
+\gdef\overtilde#1#2#3{\mathrlap
+  {\mkern #1mu\widetilde{\mkern #2mu\phantom{#3}\mkern #2mu}}
+  {#3}
+}
 
 \gdef\Poiss{\operatorname{Poiss}}
 \gdef\Hyp{\operatorname{Hyp}}

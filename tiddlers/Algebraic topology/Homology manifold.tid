@@ -1,5 +1,5 @@
 created: 20210206205721096
-modified: 20210302162058750
+modified: 20210305001126845
 tags: Homology
 title: Homology manifold
 type: text/vnd.tiddlywiki
@@ -14,5 +14,5 @@ and all other homology groups are trivial.
 
 A //local orientation// for $$M$$ is a choice of generator $$[M]_x \in H_n(M,M \setminus \{x\})$$ for all $$x.$$ This is continuous if for any $$x$$ there is a neighborhood $$U \ni x$$ and an $$\alpha \in H_n(M,M \setminus U)$$ such that $$i_*(\alpha) = [M]_x$$ for all $$x,$$ where $$i$$ is the inclusion
 $$
-H_n(M,M \setminus U) \hookrightarrow H_n(M,M \setminus \{x\})
+H_n(M,M \setminus U) \hookrightarrow H_n(M,M \setminus \{x\}).
 $$

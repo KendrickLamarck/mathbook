@@ -1,5 +1,5 @@
 created: 20180417184839862
-modified: 20201106165949261
+modified: 20210304150126238
 tags: [[Separation axioms]] no-toc
 title: Hausdorff'scher Raum
 type: text/vnd.tiddlywiki
@@ -7,5 +7,5 @@ type: text/vnd.tiddlywiki
 Ein [[topologischer Raum|Topologie]] heißt //Hausdorff'sch//, wenn zu je zwei unterschiedlichen Punkten $$x,y\in X$$ zwei disjunkte [[Umgebungen|Umgebung]] existieren. Er heißt //regulär,// falls es zu jeder nichtleeren abgeschlossenen Menge $$A\subseteq X$$ und zu jedem Punkt $$x\in X\setminus A$$ disjunkte Umgebungen von $$A$$ und $$x$$ gibt.
 
 * Jeder [[metrische Raum|Metrischer Raum]] ist ein Hausdorff'scher Raum.
-* A space $$X$$ is Hausdorff if and only if the diagional $$\{(x,x) : x \in X\}$$ is closed in $$X \times X$$.
+* A space $$X$$ is Hausdorff if and only if the diagonal $$\{(x,x) : x \in X\}$$ is closed in $$X \times X$$.
 * Jede kompakte Teilmenge eines Hausdorff'schen Raumes ist abgeschlossen.

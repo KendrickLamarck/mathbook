@@ -1,7 +1,11 @@
 created: 20201214152435354
-modified: 20210220143657832
+modified: 20210317140527567
 tags: no-toc [[Covering space]]
 title: Existence of lifts
 type: text/vnd.tiddlywiki
 
-Suppose $$Y$$ is path-connected and locally path-connected and suppose $$p\colon (\tilde{X},\tilde{x}_0) \to (X,x_0)$$ is any covering map. A map $$f\colon (Y,y_0) \to (X,x_0)$$ has a lift $$\tilde{f}\colon (Y,y_0) \to (\tilde{X},\tilde{x}_0)$$ if and only if $$f_* \pi_1(Y,y_0) < p_*\pi_1(\tilde{X},\tilde{x}_0).$$
+Suppose $$Y$$ is path-connected and locally path-connected and suppose $$p\colon (\tilde{X},\tilde{x}_0) \to (X,x_0)$$ is any covering map. A map $$f\colon (Y,y_0) \to (X,x_0)$$ has a lift $$\tilde{f}\colon (Y,y_0) \to (\tilde{X},\tilde{x}_0)$$ if and only if
+$$
+f_* \pi_1(Y,y_0) < p_*\pi_1(\tilde{X},\tilde{x}_0).
+$$
+Intuitively, this condition means that images of loops [[lift to loops|Homomorphism of fundamental groups induced by a covering map]]. We construct the lift as $$\tilde{f}(y) \coloneqq \tilde{x}_0 * (f \circ \alpha),$$ where $$\alpha$$ is an arbitrary path from $$y_0$$ to $$y$$ and this property ensures that this is well-defined, i.e. independent of the path $$\alpha.$$

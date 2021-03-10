@@ -1,5 +1,5 @@
 created: 20210128132725385
-modified: 20210302155633481
+modified: 20210317184821773
 tags: Homology
 title: Chain map
 type: text/vnd.tiddlywiki
@@ -11,3 +11,7 @@ Given [[chain complexes|Homology]] $$C_*$$ and $$D_*,$$ a //chain map// $$f\colo
 
 ''Proposition.'' A continuous map $$f\colon X \to Y$$ induces a chain map $$f_\sharp \colon C_*(X) \to C_*(Y)$$ of singular chains via $$f_\sharp = f \circ \sigma \colon \Delta^n \to Y.$$ This is also functorial. Thus it also induces maps on homology $$f_* \colon H_n(X) \to H_n(Y).$$
 @@
+
+!! Chain homotopy
+
+{{Chain homotopy}}

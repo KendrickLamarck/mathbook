@@ -1,17 +1,17 @@
 created: 20201204202005231
-modified: 20210302223033065
-tags: [[Derived topologies]] no-toc
+modified: 20210312004601085
+tags: [[Derived topological spaces]] no-toc
 title: Wedge sum
 type: text/vnd.tiddlywiki
 
 The //wedge sum// of a family of pointed spaces $$(X_\alpha, x_\alpha)$$ is
 $$
 \bigvee (X_\alpha,x_\alpha) \coloneqq \left(
-  \bigsqcup X_\alpha \Bigm/ \bigsqcup\{x_\alpha\},\ 
+  \bigsqcup X_\alpha \!\!\Bigm/\! \bigsqcup\{x_\alpha\},\ 
   x_0
 \right), \quad
-x_0 \coloneqq \bigsqcup\{x_\alpha\} \Bigm/ \bigsqcup\{x_\alpha\}.
+x_0 \coloneqq \bigsqcup\{x_\alpha\} \!\!\Bigm/\! \bigsqcup\{x_\alpha\}.
 $$
 The wedge sum of [[homogeneous spaces|Homogeneous space]] is independent of the base points, so we usually just write $$\bigvee X_\alpha.$$
 
-The wedge sum is the [[coproduct|Coproduct]] in the category of pointed spaces.
+The wedge sum is the [[coproduct|Coproduct]] in the category of pointed spaces. Its topology is the finest one making the injections $$(X_\alpha,x_\alpha) \hookrightarrow \bigvee (X_\alpha,x_\alpha)$$ continuous.

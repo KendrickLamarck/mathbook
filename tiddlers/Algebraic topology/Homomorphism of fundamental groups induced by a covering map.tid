@@ -1,7 +1,11 @@
 created: 20201214152306943
-modified: 20210302183032558
+modified: 20210313234711510
 tags: no-toc [[Covering space]]
 title: Homomorphism of fundamental groups induced by a covering map
 type: text/vnd.tiddlywiki
 
-If $$p\colon (\overtilde{4}{-3}{X},\tilde{x}) \to (X,x)$$ is a covering map, then $$p_*\colon \pi_1(\overtilde{4}{-3}{X},\tilde{x}) \to \pi_1(X,x)$$ is injective. The image $$H \coloneqq p_* \pi_1(\overtilde{4}{-3}{X},\tilde{x}) < \pi_1(X,x)$$ consists of those loops which lift to loops in $$\overtilde{4}{-3}{X}.$$ If $$\overtilde{4}{-3}{X}$$ is path-connected, then the number of sheets in the covering equals the index of $$H$$ in $$\pi_1(X).$$
+Let $$p\colon (\overtilde{4}{-3}{X},\tilde{x}) \to (X,x)$$ be a covering map. Then
+
+* $$p_*\colon \pi_1(\overtilde{4}{-3}{X},\tilde{x}) \to \pi_1(X,x)$$ is injective,
+* The image $$H \coloneqq p_* \pi_1(\overtilde{4}{-3}{X},\tilde{x}) < \pi_1(X,x)$$ consists of those loops which lift to loops in $$\overtilde{4}{-3}{X},$$
+* If $$\overtilde{4}{-3}{X}$$ is path-connected, then the number of sheets in the covering equals $$[\pi_1(X):H],$$ the [[index|Coset]] of $$H$$ in $$\pi_1(X).$$

@@ -1,11 +1,11 @@
 created: 20201205200331859
-modified: 20210312215227901
+modified: 20210314014959096
 tags: Category
 title: Pushout
 type: text/vnd.tiddlywiki
 
 Let $$X$$ and $$Y_1,Y_2$$ be objects together with morphisms $$i_k\colon X \to Y_k.$$ The //pushout// is an object $$P \eqqcolon Y_1 \oplus_X Y_2$$ with morphisms $$j_k\colon Y_k \to P$$ such that the following universal property is fulfilled:
-For all objects $$Z$$ and all morphisms $$f_k\colon Y_k \to Z$$ @@color:#b58900; such that $$f_1 \circ i_1 = f_2 \circ i_2$$@@ there exists a unique morphism $$f\colon P \to Z$$ such that $$f_k = f \circ j_k$$ for $$k=1,2.$$
+For all objects $$Z$$ and all morphisms $$f_k\colon Y_k \to Z$$ @@.yellow such that $$f_1 \circ i_1 = f_2 \circ i_2$$@@ there exists a unique morphism $$f\colon P \to Z$$ such that $$f_k = f \circ j_k$$ for $$k=1,2.$$
 
 This definition is similar to that of the [[coproduct|Coproduct]], the only difference is the highlighted part. For two objects, the property means that the following diagram commutes:
 

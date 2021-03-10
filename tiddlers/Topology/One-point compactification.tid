@@ -1,10 +1,10 @@
 created: 20201103143859192
-modified: 20201103144310082
-tags: Topologie
+modified: 20210313191019310
+tags: [[Derived topological spaces]] no-toc
 title: One-point compactification
 type: text/vnd.tiddlywiki
 
-Suppose $$X$$ is a noncompact but locally compact Hausdorff space. Then the //one-point compactification// of $$X$$ is $$\hat{X} \coloneqq X \cup \{\infty\}$$ with the following topology: A subset $$U \subseteq \hat{X}$$ is open if $$U \subseteq X$$ is open or if $$\hat{X} \setminus U \subseteq X$$ is compact.
+Suppose $$X$$ is a noncompact but locally compact Hausdorff space. Then the //one-point compactification// of $$X$$ is $$\overhat{4}{-3}{X} \coloneqq X \cup \{\infty\}$$ with the following topology: A subset $$U \subseteq \overhat{4}{-3}{X}$$ is open if $$U \subseteq X$$ is open or if $$\overhat{4}{-3}{X} \setminus U \subseteq X$$ is compact.
 
-* As the name implies, this is compact.
-* $$\widehat{\R}^n \cong \sphere^n.$$
+* As the name suggests, this is compact.
+* $$\overhat{0}{-1}{\R}^n \cong \sphere^n.$$

@@ -1,5 +1,5 @@
 created: 20200526204735585
-modified: 20210104155933527
+modified: 20210313202645471
 tags: Gruppe
 title: Normal subgroup
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ Suppose $$N \lhd G$$ is a normal subgroup and $$H < G$$ is any subgroup. Then
 
 !! Normalizer
 
-We call
+Let $$H < G.$$ We call
 $$
 N(H) \coloneqq \{\, g \in G : gHg^{-1}=H\,\} < G
 $$

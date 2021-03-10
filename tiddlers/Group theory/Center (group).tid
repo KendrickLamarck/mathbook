@@ -1,0 +1,11 @@
+created: 20210313202157585
+modified: 20210313202520791
+tags: Gruppe
+title: Center (group)
+type: text/vnd.tiddlywiki
+
+The //center// of a group $$G$$ is the set
+$$
+\{\, c \in G : gc = cg \ \forall g \in G \,\},
+$$
+i.e. the set of elements that commute with all other elements. It, as well as all of its subgroups, are [[normal subgroups|Normal subgroup]] of $$G.$$

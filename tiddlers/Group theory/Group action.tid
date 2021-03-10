@@ -1,5 +1,5 @@
 created: 20191123223003774
-modified: 20210104161552855
+modified: 20210319210525997
 tags: Gruppe
 title: Group action
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ Such that $$\theta_e=\id_X$$ and $$\theta_{gh}=\theta_g \circ \theta_h.$$
 $$
 G\cdot x\coloneqq \{\, g\cdot x\mid g\in G \,\},
 $$
-which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot y.$$</div>
+which are the equivalence classes under the [[equivalence relation|Äquivalenzrelation]] $$x\sim g\cdot y.$$ The set of orbits $$X/G$$ is called the //orbit space.//</div>
 
 * <div>The //stabilizer// of $$x$$ is the subgroup
 $$
@@ -22,7 +22,8 @@ G^x \coloneqq \{\, g\in G \mid g\cdot x = x \,\} < G.
 $$
 An action is called //free,// if all stabilizers are trivial.</div>
 
-* An action is called //faithful// if the homomorphism $$g \mapsto \theta_g$$ is injective.
+* An action is called //faithful// if the homomorphism $$g \mapsto \theta_g$$ is injective. In this case, we can think of $$G$$ as a subgroup of the relevant automorphism group.
+
 * An action is called //transitive// if there is a single orbit, i.e. for any $$x,y$$ there exists $$g$$ with $$g\cdot x=y.$$
 
 Of particular interest are actions not just by bijective maps but automorphisms preserving some structure on $$X.$$

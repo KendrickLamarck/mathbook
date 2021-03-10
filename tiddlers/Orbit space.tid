@@ -1,7 +1,0 @@
-created: 20210104162655590
-modified: 20210104163132655
-tags: [[Algebraic topology]]
-title: Orbit space
-type: text/vnd.tiddlywiki
-
-Consider a group action of $$G$$ on a topological space $$X$$ by homeomorphism. We define the orbit space $$X/G$$ as the quotient $$X/\!\sim,$$ where $$x \sim y$$ if and only if there is a $$g \in G$$ such that $$y = g \cdot x.$$

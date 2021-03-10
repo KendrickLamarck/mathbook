@@ -1,5 +1,6 @@
+caption: Induced homomorphisms
 created: 20210306180857193
-modified: 20210306180909191
+modified: 20210316121635995
 tags: [[Fundamental group]]
 title: Induced homomorphisms on fundamental groups
 type: text/vnd.tiddlywiki
@@ -20,3 +21,7 @@ If $$f\colon X \to Y$$ is a homotopy equivalence, then for any basepoint $$x_0 \
 
 ''Proposition.'' {{Homomorphism of fundamental groups induced by a covering map}}
 @@
+
+!! Covering maps
+
+{{Homomorphism of fundamental groups induced by a covering map}}

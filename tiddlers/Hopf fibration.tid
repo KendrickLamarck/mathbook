@@ -1,0 +1,10 @@
+created: 20210320215741875
+modified: 20210320220515770
+tags: misc
+title: Hopf fibration
+type: text/vnd.tiddlywiki
+
+The //Hopf fibration// is a map $$p \colon \C^2 \supset \sphere^3 \to \C\mathrm{P}^1 \cong \sphere^2.$$ It is given by restricting the quotient map $$\C^2 \to \C\mathrm{P}^1$$ to vectors of unit length. Every fiber $$p^{-1}\{x\}$$ is a great circle in $$\sphere^3,$$ so we write
+$$
+\sphere^1 \hookrightarrow \sphere^3 \twoheadrightarrow \sphere^2.
+$$

@@ -1,5 +1,5 @@
 created: 20191116152409897
-modified: 20201103140217843
+modified: 20210317194414665
 tags: [[Topologischer Raum]]
 title: Topological base
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ $$
   \bigcup_{B \in \mathcal{C}} B \Bigm| \mathcal{C} \subseteq \mathcal{B}
 \,\biggr\}
 $$
-is a [[topology|Topologie]] on $$X$$ and $$\mathcal{B}$$ is called a //basis// for $$\mathcal T.$$
+is a [[topology|Topologie]] on $$X$$ and $$\mathcal{B}$$ is called a //base// for $$\mathcal T.$$
 
 !! Second-countable space
 

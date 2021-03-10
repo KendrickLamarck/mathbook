@@ -1,5 +1,5 @@
 created: 20201205184629377
-modified: 20210206133506010
+modified: 20210312220357639
 tags: [[Fundamental group]]
 title: Van Kampen's theorem
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ Then since $$K < \ker\varphi,$$ we get a map $$\bar\varphi\colon F/K \to \pi_1(X
 
 * If $$U_\alpha \cap U_\beta$$ is path-connected for all $$\alpha,\beta,$$ then $$\bar\varphi$$ is surjective.
 * If furthermore $$U_\alpha \cap U_\beta \cap U_\gamma$$ is path-connected for all $$\alpha,\beta,\gamma,$$ then $$\bar\varphi$$ is injective as well, i.e. $$F/K \cong \pi_1(X).$$
+
+In the case of two sets $$U,V$$ this means that $$\pi_1(X)$$ is the [[amalgamated free product|Amalgamated free product]] $$\pi_1(U) \star_{\pi_1(U \cap V)} \pi_1(V).$$
 
 ---
 

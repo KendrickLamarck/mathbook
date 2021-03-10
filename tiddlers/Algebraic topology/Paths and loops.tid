@@ -1,5 +1,5 @@
 created: 20201109190348462
-modified: 20210302155919734
+modified: 20210316121710095
 tags: [[Fundamental group]]
 title: Paths and loops
 type: text/vnd.tiddlywiki
@@ -17,3 +17,7 @@ $$
 \beta(2s-1) &s \ge 1/2.
 \end{cases}
 $$</div>
+
+!! Homotopy of paths
+
+{{Homotopy of paths}}

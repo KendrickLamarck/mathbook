@@ -1,0 +1,7 @@
+created: 20210313194342032
+modified: 20210313194855573
+tags: [[Algebraic topology]]
+title: Linking number
+type: text/vnd.tiddlywiki
+
+Let $$L \subset \R^3 \cup \{\infty\} \cong \sphere^3$$ be an unknotted circle. Then $$\sphere^3 \setminus L$$ is homeomorphic to $$\R^3$$ minus a straight line and therefore homotopy equivalent to $$\sphere^1,$$ so $$\pi_1(\sphere^3 \setminus L) \cong \Z.$$ $$[\gamma] \leftrightarrow k \in \Z$$ is called the //linking number// of a loop $$\gamma$$ with $$L.$$

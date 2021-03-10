@@ -1,5 +1,5 @@
 created: 20210104142034789
-modified: 20210112143610534
+modified: 20210319150113773
 tags: [[Covering space]]
 title: Isomorphic coverings
 type: text/vnd.tiddlywiki
@@ -18,7 +18,7 @@ are the same subgroup of $$\pi_1(X,x_0).$$
 Suppose $$(X,x_0)$$ is path-connected, locally path connected and semilocally simply connected. Then the connected covering spaces $$(\tilde{X}, \tilde{x}_0)$$ of $$(X,x_0)$$ up to basepoint-preserving isomorphism are in one-to-one correspondence with the subgroups $$H < \pi_1(X,x_0)$$ via
 $$
 (\tilde{X}, \tilde{x}_0) \leftrightarrow
-p_* \pi_1(\tilde{X}, \tilde{x}_0) < \pi_1(X,x_0).
+p_* \pi_1(\tilde{X}, \tilde{x}_0).
 $$
 
 ''Theorem.''

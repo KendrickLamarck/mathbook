@@ -1,5 +1,5 @@
 created: 20201116181012452
-modified: 20210118213949627
+modified: 20210317192327666
 tags: [[Fundamental group]]
 title: Simply connected space
 type: text/vnd.tiddlywiki
@@ -11,8 +11,6 @@ A topological space $$X$$ is called //simply connected// if it is path-connected
 $$X$$ is simply connected if and only if for any $$a,b \in X,$$ there is a unique homotopy class of paths from $$a$$ to $$b.$$
 @@
 
-!! Local
+* $$X$$ is //locally simply connected// if it has a base of simply connected neighborhoods.
 
-$$X$$ is //locally simply connected// if it has a base of simply connected neighborhoods.
-
-$$X$$ is //semilocally simply connected If every point has a neighborhood $$U$$ such that all based loops in $$U$$ are trivial in $$X$$.$$
+* $$X$$ is //semilocally simply connected If every point has a neighborhood $$U$$ such that all based loops in $$U$$ are trivial in $$X$$.$$

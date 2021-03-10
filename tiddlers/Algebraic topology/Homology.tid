@@ -1,11 +1,11 @@
 created: 20210123205459773
 list: [[Chain complex]] [[Simplicial homology]] [[Singular homology]] [[Simplicial and singular homology]] [[Reduced homology]] [[Betti number]] [[Hurewicz theorem]] [[Chain map]] [[Chain homotopy]] [[Exact sequence]] [[Exact sequence on homology]] Excision [[Mayer-Vietoris theorem]] [[Relative homology]] [[Zig-zag lemma]] Five-lemma [[Homology with coefficients]] [[Cellular homology]] [[Euler characteristic]] [[Homology manifold]] [[Homological orientation]]
-modified: 20210305233433463
+modified: 20210317011520353
 tags: [[Algebraic topology]]
 title: Homology
 type: text/vnd.tiddlywiki
 
-A //homology theory// is a collection of functors $$h_n$$ for $$n \in \Z$$ from pairs $$(X,A)$$ to abelian groups together with natural transformations $$\partial_n\colon h_n(X,A) \to h_{n-1}(A,\varnothing)$$ (we write $$h_n(X) \coloneqq h_n(X,\varnothing)$$ and $$f_* \coloneqq h_n(f)$$) satisfying the following axioms:
+A //homology theory// is a collection of functors $$(h_n)_{n \in \Z}$$ from pairs $$(X,A)$$ to abelian groups together with natural transformations $$\partial_n\colon h_n(X,A) \to h_{n-1}(A,\varnothing)$$ (we write $$h_n(X) \coloneqq h_n(X,\varnothing)$$ and $$f_* \coloneqq h_n(f)$$) satisfying the following axioms:
 
 ; Homotopy:
 : If $$f,g\colon (X,A) \to (Y,B)$$ are homotopic maps of pairs then $$f_* = g_*\colon h_n(X,A) \to h_n(Y,B)$$ for each $$n \in \Z.$$
@@ -17,7 +17,7 @@ $$
 $$</div>
 
 ; Excision:
-: If $$\overbar{4}{-2}{Z} \subseteq \mathring{A},$$ then the inclusion induces for each $$n \in \Z$$ an isomorphism $$h_n(X \setminus Z, A \setminus Z) \cong h_n(X,A).$$
+: If $$\overbar{3}{-2}{Z} \subseteq \mathring{A},$$ then the inclusion induces for each $$n \in \Z$$ an isomorphism $$h_n(X \setminus Z, A \setminus Z) \cong h_n(X,A).$$
 
 ; Dimension:
 : $$h_n(\{*\}) = 0$$ for $$n \ne 0.$$ $$h_0(\{*\})$$ is called the //coefficient group// for the homology theory. Dropping this axiom gives so -called //generalized homology theories.//
@@ -26,8 +26,8 @@ $$</div>
 : <div>For any disjoint union, the inclusions induce for each $$n \in \Z$$ an isomorphism
 $$
 \bigoplus_{\alpha \in A} h_n(X_\alpha) \to
-  h_n\biggl( \coprod_{\alpha \in A} X_\alpha \biggr).
+  h_n\biggl( \bigsqcup_{\alpha \in A} X_\alpha \biggr).
 $$
 This is only important for infinite complexes.</div>
 
-These axioms uniquely determine a homology theory on all spaces homotopy equivalent to a CW complex.
+These axioms uniquely determine a homology theory on all spaces homotopy equivalent to a [[CW complex]].

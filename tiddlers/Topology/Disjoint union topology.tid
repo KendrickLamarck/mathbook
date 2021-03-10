@@ -1,7 +1,7 @@
 caption: Disjoint union
 created: 20201103140138512
-modified: 20210302223103278
-tags: [[Derived topologies]] no-toc
+modified: 20210312003756584
+tags: [[Derived topological spaces]] no-toc
 title: Disjoint union topology
 type: text/vnd.tiddlywiki
 
@@ -11,6 +11,6 @@ $$
 \bigcup_{\alpha \in A} \bigl(\{\alpha\} \times X_\alpha\bigr)
 \subseteq A \times \bigcup X_\alpha,
 $$
-but we write $$X_\alpha = \{\alpha\} \times X_\alpha$$ whenever convenient. We can define the //disjoint union topology// on the disjoint union via the basis consisting of all open subsets of all the $$X_\alpha,$$ using the above identification.
+but we write $$X_\alpha = \{\alpha\} \times X_\alpha$$ whenever convenient. We can define the //disjoint union topology// on the disjoint union via the basis consisting of all open subsets of all the $$X_\alpha,$$ using the above identification. It is the finest topology such that all the injections $$X_\alpha \hookrightarrow \bigsqcup X_\alpha$$ are continuous.
 
 The disjoint union is the [[coproduct|Coproduct]] in the category of topological spaces.

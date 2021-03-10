@@ -1,6 +1,6 @@
 created: 20180517112646648
 creator: Leander
-modified: 20201030174926648
+modified: 20210306172247337
 modifier: Leander
 tags: Kompaktheit no-toc
 title: Lebesgue'sche Zahl
@@ -11,3 +11,11 @@ $$
 \forall a\in A\ \exists i\in I\colon\quad U_\delta(a)\subset U_i.
 $$
 Jedes solche $$\delta$$ nennt man eine //Lebesgue'sche Zahl// der Überdeckung.
+
+@@.theorem
+''Corollary.''
+Let $$(U_\alpha)$$ be an open cover of the unit interval $$I.$$ Then there exists a finite partition $$0=t_0<\dots<t_n=1$$ of $$I$$ such that each $$[t_{i-1},t_i]$$ is contained in some $$U_\alpha.$$
+
+''Corollary to the corollary.''
+Let $$Y$$ be a topological space, $$(U_\alpha)$$ an open cover of $$Y \times I$$ and let $$y \in Y.$$ Then there exists a neighborhood $$N \subseteq Y$$ of $$y$$ and a finite partition $$0=t_0<\dots<t_n=1$$ of $$I$$ such that each $$N \times [t_{i-1},t_i]$$ is contained in some $$U_\alpha.$$
+@@

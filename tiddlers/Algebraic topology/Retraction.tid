@@ -1,12 +1,14 @@
 created: 20201117142849342
 creator: Leander
-modified: 20210214135320547
+modified: 20210306183037388
 modifier: Leander
 tags: [[Algebraic topology]]
 title: Retraction
 type: text/vnd.tiddlywiki
 
 Given $$A \subseteq X,$$ a retraction of $$X$$ onto $$A$$ is a map $$r\colon X \to A$$ whose restriction to $$A$$ is the identity.
+
+This can be viewed as the topological analogue of a [[projection|Projektion]]: Any map $$r\colon X \to X$$ with $$r \circ r = r$$ is a retraction when viewed as a map onto its image.
 
 @@.theorem
 ''Proposition.''

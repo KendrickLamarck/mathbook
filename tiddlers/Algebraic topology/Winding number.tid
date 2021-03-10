@@ -1,5 +1,5 @@
 created: 20201120153238146
-modified: 20201120153831063
+modified: 20210309002121899
 tags: [[Algebraic topology]]
 title: Winding number
 type: text/vnd.tiddlywiki
@@ -8,3 +8,4 @@ Suppose $$\gamma\colon \sphere^1 \to \R^2$$ is an oriented closed curve with $$p
 $$
 W(\gamma,p) \coloneqq \deg(\pi_p \circ \gamma).
 $$
+If $$\gamma_0,\gamma_1\colon I \to \R^2 \setminus \{p\}$$ are homotopic, they have the same winding number around $$p.$$

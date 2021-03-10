@@ -1,6 +1,6 @@
 created: 20201110215317727
-list: [[Paths and loops]] [[Homotopy of paths]] [[Products and fundamental groups]] [[Simply connected space]] [[Van Kampen's theorem]]
-modified: 20210302155937120
+list: [[Paths and loops]] [[Homotopy of paths]] [[Induced homomorphisms on fundamental groups]] [[Products and fundamental groups]] [[Simply connected space]] [[Van Kampen's theorem]]
+modified: 20210306180952797
 tags: [[Algebraic topology]]
 title: Fundamental group
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ Let $$X$$ be a topological space and fix $$x_0 \in X.$$ The group consisting of 
 
 Now let $$x_1 \in X$$ be another point. If there exists a path $$\alpha$$ from $$x_0$$ to $$x_1,$$ we can define the map
 $$
-\varphi_\alpha\colon \pi_1(X,x_0) \to \pi_1(X,x_1),\quad
+\varphi_\alpha\colon \pi_1(X,x_0) \to \pi_1(X,x_1),\qquad
 [\gamma] \mapsto [\bar\alpha\cdot\gamma\cdot\alpha].
 $$
 It is well-defined since homotopies can be transported in the same way and it is a group isomorphism. We call $$\varphi_\alpha$$ the //change-of-basepoint isomorphism.// Therefore, in a path-connected space the fundamental groups at different base points are isomorphic, but the isomorphisms depend on the choice of path $$\alpha$$: If $$\psi_g$$ denotes the [[conjugation|Conjugation]] by a group element $$g,$$ and $$\alpha,\beta$$ are paths from $$x_0$$ to $$x_1,$$ then
@@ -17,22 +17,3 @@ $$
 \varphi_\beta[\gamma] = \psi_{[\bar\alpha,\beta]}(\varphi_\alpha[\gamma]),
 $$
 i.e. any two isomorphisms differ by the inner automorphism given by conjugation.
-
-!! Induced homomorphism
-
-A map $$f\colon (X,x_0) \to (Y,y_0)$$ of [[pointed spaces|Pointed space]] induces a homomorphism of fundamental groups:
-$$
-f_*\colon \pi_1(X,x_0) \to \pi_1(Y,y_0),\quad
-f_*[y] \coloneqq [f \circ \gamma].
-$$
-$$\pi_1$$ together with this induced homomorphism is a [[functor|Functor]] from the category of pointed spaces to the category of groups, i.e. $$(\id_{(X,x_0)})_*=\id_{\pi_1(X,x_0)}$$ and $$(g \circ f)_* = g_* \circ f_*.$$
-
-@@.theorem
-''Lemma.''
-Suppose $$f_t\colon X \to Y$$ is a homotopy and $$x_0 \in X$$ is a basepoint. The images of $$x_0$$ form a path $$\alpha(t) \coloneqq f_t(x_0)$$ in $$Y$$ from $$f_0(x_0)$$ to $$f_1(x_0).$$ Let $$\varphi_{\bar{\alpha}}\colon \pi_1(Y,f_1(x_0)) \to \pi_1(Y,f_0(x_0))$$ be the change-of-basepoint isomorphism. Then $$(f_0)_* = \varphi_{\bar{\alpha}} \circ (f_1)_*.$$
-
-''Proposition.''
-If $$f\colon X \to Y$$ is a homotopy equivalence, then for any basepoint $$x_0 \in X,$$ the induced map $$f_*\colon \pi_1(X,x_0) \to \pi_1(Y,f(x_0))$$ is an isomorphism.
-
-''Proposition.'' {{Homomorphism of fundamental groups induced by a covering map}}
-@@

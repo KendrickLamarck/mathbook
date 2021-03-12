@@ -1,11 +1,11 @@
 caption: Paraboloid model
 created: 20191013021930147
-modified: 20200929125422881
+modified: 20210311182841459
 tags: [[Möbius geometry]]
 title: Paraboloid model of Möbius geometry
 type: text/vnd.tiddlywiki
 
-Consider $$S^n\subset\R\mathrm P^{n+1}$$ as the image of $$\widehat\R^n$$ under [[stereographic projection|Stereographic projection]]. If we define
+Consider $$\sphere^n\subset\R\mathrm P^{n+1}$$ as the image of $$\widehat\R^n$$ under [[stereographic projection|Stereographic projection]]. If we define
 $$
 e_\infty\coloneqq\frac 1 2 (e_{n+1}+e_{n+2}),\quad
 e_0     \coloneqq\frac 1 2 (-e_{n+1}+e_{n+2}),

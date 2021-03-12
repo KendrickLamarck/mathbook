@@ -1,5 +1,5 @@
 created: 20201205165500430
-modified: 20210302155216909
+modified: 20210312003318605
 tags: Category
 title: Coproduct
 type: text/vnd.tiddlywiki
@@ -9,4 +9,4 @@ For every object $$Y$$ and every family of morphisms $$(f_j\colon X_j \to Y)_{j 
 
 {{$:/_images/coproduct.svg||$:/_templates/cd}}
 
-Examples include the [[wedge sum of pointed spaces|Wedge sum]], the [[free product of groups|Free product]] and the [[disjoint union of topological spaces|Disjoint union topology]].
+Examples include the [[disjoint union of topological spaces|Disjoint union topology]], the [[wedge sum of pointed spaces|Wedge sum]] and the [[free product of groups|Free product]].

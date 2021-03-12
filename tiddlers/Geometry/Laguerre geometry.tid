@@ -1,11 +1,10 @@
 created: 20191022195647787
-modified: 20200929125152311
+modified: 20210310200050927
 tags: Geometrie
 title: Laguerre geometry
 type: text/vnd.tiddlywiki
 
 Consider $$n$$-dimensional [[Lie geometry]]. //Laguerre geometry// is the geometry of the subgroup of [[Lie-transformations|Lie transformation]] $$[A]\in\O(n+1,2)$$ with $$Ae_\infty=e_\infty.$$
-
 $$[y]\in\mathscr L$$
 represents a hyperplane if and only if
 $$\langle y,e_\infty\rangle=-\frac 1 2 y_0=0,$$

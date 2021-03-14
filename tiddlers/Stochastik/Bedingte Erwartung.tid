@@ -1,12 +1,12 @@
 created: 20200502120046486
 creator: Leander
-modified: 20200927154811417
+modified: 20210314001255795
 modifier: Leander
 tags: Erwartungswert
 title: Bedingte Erwartung
 type: text/vnd.tiddlywiki
 
-Sei $$X$$ eine reellwertige Zufallsvariable auf $$(\varOmega, \mathcal A,\P).$$ Für $$A \in \mathcal A$$ definieren wir den //bedingten Erwartungswert// $$\expect(X \mid A) \coloneqq \expect(\mathbf 1_A X)/\P(A).$$
+Sei $$X$$ eine reellwertige Zufallsvariable auf $$(\varOmega, \mathcal A,\P).$$ Für $$A \in \mathcal A$$ definieren wir den //bedingten Erwartungswert// $$\expect[\,X \mid A\,] \coloneqq \expect[\mathbf 1_A X]/\P(A).$$
 
 Eine Zufallsvariable $$Y$$ auf $$(\varOmega,\mathcal A,\P)$$ heißt //bedingte Erwartung// von $$X$$ gegeben $$\mathcal F \subseteq \mathcal A,$$ falls
 
@@ -15,11 +15,11 @@ Eine Zufallsvariable $$Y$$ auf $$(\varOmega,\mathcal A,\P)$$ heißt //bedingte E
 
 Wir schreiben $$Y = \expect[X \mid \mathcal F].$$ Für $$X \in \mathcal L^1$$ und eine Zufallsvariable $$Z$$ definieren wir
 $$
-\expect[X \mid Z] \coloneqq \expect[X \mid \sigma(Z)].
+\expect[\,X \mid Z\,] \coloneqq \expect[\,X \mid \sigma(Z)\,].
 $$
 Nach dem [[Faktorisierungslemma]] gibt es eine Funktion $$\varphi\colon \R \to \R,$$ so dass $$\E[X \mid Y] = \varphi \circ Y$$ ist. Wir definieren
 $$
-\expect[X \mid Y = y] \coloneqq \varphi(y).
+\expect[\,X \mid Y = y\,] \coloneqq \varphi(y).
 $$
 
 
@@ -28,24 +28,24 @@ $$
 
 Ist $$\mathcal G \subseteq \mathcal F \subseteq \mathcal A$$ und $$Y \in \mathcal L^1(\P),$$ so gilt:
 
-* $$\expect[\lambda X+Y \mid \mathcal F] = \lambda\expect[ X\mid \mathcal F] + \expect[ Y\mid \mathcal F].$$
-* $$X \ge Y$$ fast sicher $$\implies \expect[ X\mid \mathcal F] \ge \expect[ Y\mid \mathcal F]$$ fast sicher.
-* Wenn $$X\ \mathcal{F}$$-messbar ist, ist $$\expect(X \mid \mathcal{F}) = X.$$
-* Wenn $$\expect[|XY|] < \infty$$ und $$Y\ \mathcal F$$-messbar ist, dann ist $$\expect[XY \mid \mathcal F] = Y \expect[X \mid \mathcal F].$$
-* $$\expect[\expect(X \mid \mathcal{F})] = \expect(X)$$ @@float:right;(Projektivität).@@
-* $$\E[\E[X \mid \mathcal F] \mid \mathcal G] = \E[\E[X \mid \mathcal G] \mid \mathcal F] = \E[X \mid \mathcal G].$$
-* Wenn $$\sigma(X)$$ unabhängig von $$\mathcal F$$ ist, dann ist $$\E[X \mid \mathcal F] = \E[X].$$
+* $$\expect[\,\lambda X+Y \mid \mathcal F\,] = \lambda\expect[\, X\mid \mathcal F\,] + \expect[\, Y\mid \mathcal F\,].$$
+* $$X \ge Y$$ fast sicher $$\implies \expect[\, X\mid \mathcal F\,] \ge \expect[\, Y\mid \mathcal F\,]$$ fast sicher.
+* Wenn $$X\ \mathcal{F}$$-messbar ist, ist $$\expect[\,X \mid \mathcal{F}\,] = X.$$
+* Wenn $$\expect[\,|XY|\,] < \infty$$ und $$Y\ \mathcal F$$-messbar ist, dann ist $$\expect[\,XY \mid \mathcal F\,] = Y \expect[\,X \mid \mathcal F\,].$$
+* $$\expect[\expect[\,X \mid \mathcal{F}\,]] = \expect[X]$$ @@float:right;(Projektivität).@@
+* $$\expect[\,\expect[\,X \mid \mathcal F\,] \mid \mathcal G\,] = \expect[\,\expect[\,X \mid \mathcal G\,] \mid \mathcal F\,] = \expect[\,X \mid \mathcal G\,].$$
+* Wenn $$\sigma(X)$$ unabhängig von $$\mathcal F$$ ist, dann ist $$\E[\,X \mid \mathcal F\,] = \E[X].$$
 
 Ist $$Z$$ eine Zufallsvariable mit Werten in $$\{x_1,\dots,x_n\},$$ so ist
 $$
-\expect[X\mid Z](z) = \sum_{i=1}^n \indicator_{\{Z=x_i\}}(z) \expect[X \mid Z=x_i].
+\expect[\,X\mid Z\,](z) = \sum_{i=1}^n \indicator_{\{Z=x_i\}}(z) \expect[\, X \mid Z=x_i\,].
 $$
 
 @@.theorem
 ''Satz.''
 Sei $$\mathcal F \subseteq \mathcal A$$ und $$X \in \mathcal L^2(\P).$$ Dann gilt
 $$
-\E[(X-Y)^2] \ge \E[(X-\E[X \mid \mathcal F])^2]
+\E[(X-Y)^2] \ge \E[(X-\E[\,X \mid \mathcal F\,])^2]
 $$
 für alle $$\mathcal F$$-messbaren $$Y \in \mathcal L^2(\P),$$ d.h. der bedingte Erwartungswert ist die beste $$\mathcal L^2$$-Approximation unter allen $$\mathcal F$$-messbaren Funktionen.
 @@

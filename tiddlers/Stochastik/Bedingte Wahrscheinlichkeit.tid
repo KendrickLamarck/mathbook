@@ -1,5 +1,5 @@
 created: 20190426113920709
-modified: 20200807193139315
+modified: 20210314001146304
 tags: Stochastik
 title: Bedingte Wahrscheinlichkeit
 type: text/vnd.tiddlywiki
@@ -24,7 +24,6 @@ $$
 \P(A \mid \mathcal F) \coloneqq \expect[\mathbf 1_A \mid \mathcal F],\qquad
 \P(A \mid Y=y) \coloneqq \expect[\mathbf 1_A \mid Y = y].
 $$
-
 Dies ist aber nicht notwendigerweise ein Wahrscheinlichkeitsmaß.
 
 !! Reguläre bedingte Verteilung

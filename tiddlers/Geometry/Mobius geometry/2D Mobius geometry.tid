@@ -1,15 +1,15 @@
 created: 20190505151036416
-modified: 20210207213036037
+modified: 20210313191441431
 tags: [[Möbius geometry]]
 title: 2D Möbius geometry
 type: text/vnd.tiddlywiki
 
-$$\Bbb R^2\cup\{\infty\}$$ can be identified with $$\widehat\Bbb C=\Bbb C\mathrm P^1.$$ The orentation preserving/reversing [[Möbius transformations|Möbius transformation]] of $$\widehat\Bbb C$$ are precisely the maps of the form
+$$\Bbb R^2\cup\{\infty\}$$ can be identified with $$\overhat{0}{-1}{\C}=\C\mathrm P^1.$$ The orentation preserving/reversing [[Möbius transformations|Möbius transformation]] of $$\overhat{0}{-1}{\C}$$ are precisely the maps of the form
 $$
 z\mapsto\frac{az+b}{cz+d},\qquad
 z\mapsto\frac{a\bar z+b}{c\bar z+d}
 $$
-with $$ad-bc\ne 0.$$ So $$\operatorname{SMöb}(2)=\PGL(2,\Bbb C).$$
+with $$ad-bc\ne 0.$$ So $$\operatorname{SMöb}(2)=\PGL(2,\C).$$
 
 * <div>The orientation preserving Möbius transformations of the plane preserve the complex [[cross ratio|Cross-ratio]]. If $$f$$ is an orientation reversing Möbius transformation, then
 $$
@@ -17,6 +17,6 @@ $$
 \overline{\crossratio(z_1,z_2,z_3,z_4)}.
 $$</div>
 
-* For any three points $$z_1,z_2,z_3$$ and any three points $$w_1,w_2,w_3$$ there is a unique orientation preserving Möbius transformation $$f\in\operatorname{PGL}(2,\Bbb C)$$ with $$f(z_i)=w_i$$ and a unique orientation reversing one with $$f(z_i)=w_i$$ for $$i=1,2,3.$$
+* For any three points $$z_1,z_2,z_3$$ and any three points $$w_1,w_2,w_3$$ there is a unique orientation preserving Möbius transformation $$f\in\PGL(2,\C)$$ with $$f(z_i)=w_i$$ and a unique orientation reversing one with $$f(z_i)=w_i$$ for $$i=1,2,3.$$
 
 * Four points $$z_1,z_2,z_3,z_4$$ lie on a circle if their cross ratio is real. They are in that cyclic order on the circle if $$\crossratio(z_1,z_2,z_3,z_4)<0.$$

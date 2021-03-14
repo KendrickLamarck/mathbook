@@ -1,13 +1,11 @@
 created: 20200502140048717
-modified: 20200807190506870
+modified: 20210314001339928
 tags: [[Bedingte Wahrscheinlichkeit]] no-toc
 title: Reguläre bedingte Verteilung
 type: text/vnd.tiddlywiki
 
 Sei $$Y$$ eine Zufallsvariable von $$(\Omega,\mathcal A,\P)$$ nach $$(E,\mathcal E)$$ und $$\mathcal F \subseteq \mathcal A$$ eine Unter-$$\sigma$$-Algebra. Ein [[stochastischer Kern|Übergangskern]] $$\kappa_{Y,\mathcal F}$$ von $$(\Omega,\mathcal A)$$ nach $$(E,\mathcal E)$$ heißt eine //reguläre Version der bedingten Verteilung// von $$Y$$ gegeben $$\mathcal F,$$ wenn
-
 $$
 \kappa_{Y,\mathcal F}(\omega,B) = \P(\,Y \in B \mid \mathcal F\,)
 $$
-
 $$\P$$-fast sicher für alle $$B \in \mathcal E.$$

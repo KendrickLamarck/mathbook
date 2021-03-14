@@ -1,6 +1,6 @@
 created: 20190210221038641
 creator: Leander
-modified: 20201006160927594
+modified: 20210313191235402
 modifier: Leander
 tags: [[Spherical geometry]]
 title: Stereographic projection
@@ -18,7 +18,7 @@ $$\begin{gathered}
   \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
 \end{gathered}$$
 
-Stereographic projection maps circles in $$\sphere^2$$ which contain $$e_3$$ to lines in $$\Bbb R^2$$ and all other circles in $$\sphere^2$$ to circles in $$\Bbb R^2.$$ All circles and lines in $$\Bbb R^2$$ are images of circles in $$\sphere^2.$$
+Stereographic projection maps circles in $$\sphere^2$$ which contain $$e_3$$ to lines in $$\R^2$$ and all other circles in $$\sphere^2$$ to circles in $$\R^2.$$ All circles and lines in $$\R^2$$ are images of circles in $$\sphere^2.$$
 
 The map can also be obtained as [[inversion|Inversion in a hypersphere]] in the sphere with center $$e_n$$ and radius $$\sqrt 2$$ restricted to the unit sphere for $$\sigma$$ or the plane $$e_n = 0$$ for $$\sigma^{-1}.$$ From this we obtain the general versions of the formulas above:
 $$
@@ -41,7 +41,7 @@ on $$\R^2.$$ From this, we can see that stereographic projection is conformal.
 
 !! Projective
 
-$$\sphere^n=\{\, [x]\in\RP^{n+1}\mid \langle x,x\rangle_{n+1,1}=0 \,\}$$ can be mapped to $$\widehat\Bbb R^n$$ bijectively via stereographic projection:
+$$\sphere^n=\{\, [x]\in\RP^{n+1}\mid \langle x,x\rangle_{n+1,1}=0 \,\}$$ can be mapped to $$\overhat{0}{-1}{\R}^n$$ bijectively via stereographic projection:
 $$
 \sigma\colon \begin{bmatrix}
   x_1     \\
@@ -57,7 +57,7 @@ $$
 \end{pmatrix}.
 $$
 For the direction
-$$\widehat\R^n\to \sphere^n$$
+$$\overhat{0}{-1}{\R}^n\to \sphere^n$$
 we get
 $$
 \sigma^{-1}\colon \R^n \ni u\mapsto

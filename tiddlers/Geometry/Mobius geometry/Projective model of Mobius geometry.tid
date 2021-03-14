@@ -1,11 +1,11 @@
 caption: Projective model
 created: 20190605210919018
-modified: 20210305130438009
+modified: 20210313191250714
 tags: [[Möbius geometry]]
 title: Projective model of Möbius geometry
 type: text/vnd.tiddlywiki
 
-Consider [[stereographic projection|Stereographic projection]] $$\widehat\R^n \to \sphere^n\subset\RP^{n+1}.$$ All hyperspheres and hyperplanes correspond to hyperspheres in $$\sphere^n,$$ which in turn correspond to points $$[s]$$ outside $$\sphere^n,$$ i.e. points with $$\langle s,s\rangle_{n+1,1}>0$$: A hypersphere in $$\sphere^n$$ is the intersection of $$\sphere^n$$ with the [[polar hyperplane|Pole-polar relationship]] of $$[s].$$ Explicitly, a hypersphere with center $$c$$ and radius $$r$$ corresponds to the point
+Consider [[stereographic projection|Stereographic projection]] $$\overhat{0}{-1}{\R}^n \to \sphere^n\subset\RP^{n+1}.$$ All hyperspheres and hyperplanes correspond to hyperspheres in $$\sphere^n,$$ which in turn correspond to points $$[s]$$ outside $$\sphere^n,$$ i.e. points with $$\langle s,s\rangle_{n+1,1}>0$$: A hypersphere in $$\sphere^n$$ is the intersection of $$\sphere^n$$ with the [[polar hyperplane|Pole-polar relationship]] of $$[s].$$ Explicitly, a hypersphere with center $$c$$ and radius $$r$$ corresponds to the point
 $$
 [s]=
 \begin{bmatrix}

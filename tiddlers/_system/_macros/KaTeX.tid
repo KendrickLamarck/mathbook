@@ -1,6 +1,6 @@
 created: 20200516133333572
 creator: Leander
-modified: 20210312220816954
+modified: 20210313190737736
 modifier: Leander
 tags: $:/tags/AboveStory
 title: $:/_macros/KaTeX
@@ -75,15 +75,19 @@ $$
 \gdef\operp{\mathbin{\perp\kern-21mu{\bigcirc}}}
 \gdef\sd{\mathbin{\triangle}} % symmetric difference
 \gdef\freeprod{\operatorname*{\bigstar}} % what we really want is a big operator like \sum but an asterisk
+
 % #2 mu are cut off the bar on both sides, bar is shifted by #1 mu
 \gdef\overbar#1#2#3{\mathrlap
   {\mkern #1mu\overline{\mkern #2mu\phantom{#3}\mkern #2mu}}
   {#3}
 }
 \gdef\REx{\overbar{0}{-1}{\R}}
-% #2 mu are cut off the bar on both sides, bar is shifted by #1 mu
 \gdef\overtilde#1#2#3{\mathrlap
   {\mkern #1mu\widetilde{\mkern #2mu\phantom{#3}\mkern #2mu}}
+  {#3}
+}
+\gdef\overhat#1#2#3{\mathrlap
+  {\mkern #1mu\widehat{\mkern #2mu\phantom{#3}\mkern #2mu}}
   {#3}
 }
 

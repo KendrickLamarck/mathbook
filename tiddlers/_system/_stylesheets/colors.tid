@@ -1,0 +1,24 @@
+created: 20210314010126546
+modified: 20210314142130483
+tags: $:/tags/Stylesheet
+title: $:/_stylesheets/colors
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+
+<pre>div.tc-tiddler-body .red { color: <<colour red>> }
+div.tc-tiddler-body .yellow { color: <<colour yellow>> }
+div.tc-tiddler-body .violet { color: <<colour violet>> }
+div.tc-tiddler-body .blue { color: <<colour blue>> }
+div.tc-tiddler-body .cyan { color: <<colour cyan>> }
+div.tc-tiddler-body .green { color: <<colour green>> }
+div.tc-tiddler-body .orange { color: <<colour orange>> }
+div.tc-tiddler-body .magenta { color: <<colour magenta>> }
+div.tc-tiddler-body .base03 { color: <<colour base03>> }
+div.tc-tiddler-body .base02 { color: <<colour base02>> }
+div.tc-tiddler-body .base01 { color: <<colour base01>> }
+div.tc-tiddler-body .base00 { color: <<colour base00>> }
+div.tc-tiddler-body .base0 { color: <<colour base0>> }
+div.tc-tiddler-body .base1 { color: <<colour base1>> }
+div.tc-tiddler-body .base2 { color: <<colour base2>> }
+div.tc-tiddler-body .base3 { color: <<colour base3>> }</pre>

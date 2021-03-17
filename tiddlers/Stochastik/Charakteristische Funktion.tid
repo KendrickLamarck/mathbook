@@ -1,18 +1,15 @@
 created: 20190604222345968
-modified: 20200619223312818
-revision: 0
+modified: 20210314143959205
 tags: Stochastik
 title: Charakteristische Funktion
 type: text/vnd.tiddlywiki
 
 Sei $$X$$ eine reellwertige [[Zufallsvariable]]. Dann heißt die Funktion $$\Bbb R\to \Bbb C$$
-
 $$
 \chi_X(t)\coloneqq
-\Bbb E\left[ e^{itX} \right]
+\Bbb E{\left[ e^{itX} \right]}
 =\Bbb E[\cos(tX)]+i\Bbb E[\sin(tX)]
 $$
-
 //charakteristische Funktion// oder [[Fourier-Transformation]] der Zufallsvariablen $$X.$$
 
 * <div>Ist $$X$$ diskret verteilt mit Werten $$x_n,$$ so ist
@@ -37,7 +34,7 @@ $$</div>
 
 * <div>Besitzt $$X$$ endliches $$n$$-tes Moment, d.h. $$\Bbb E(|X|^n)<\infty,$$ so folgt
 $$
-\Bbb E(X^n)=i^{-n}\chi_X^{(n)}(0).
+\Bbb E(X^n)=i^{-n}\chi_X{}^{(n)}(0).
 $$</div>
 
 * <div>Seien $$X_1,\dots,X_n$$ unabhängige Zufallsvariablen. Dann gilt für $$S_n\coloneqq X_1+\dots+X_n$$

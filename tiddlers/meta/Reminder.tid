@@ -1,12 +1,12 @@
 created: 20191016204949012
 creator: Leander
-modified: 20210216132129003
+modified: 20210314010602937
 modifier: Leander
 tags: meta
 title: Reminder
 type: text/vnd.tiddlywiki
 
-@@color:#dc322f;
+@@.red
 !! Whenever $$\KaTeX$$ is updated
 
 * Take a look at [[$:/plugins/tiddlywiki/katex/wrapper.js]].

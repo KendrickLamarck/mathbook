@@ -1,7 +1,7 @@
 created: 20190102175918810
 creator: Leander
 list: Rechteck [[Elementare Menge]]
-modified: 20200730205557938
+modified: 20210314011124592
 modifier: Leander
 tags: Lebesgue-Borel-Maß
 title: Lebesgue-Maß im R2
@@ -9,7 +9,8 @@ type: text/vnd.tiddlywiki
 
 {{Elementare Menge}}
 
-@@color:#dc322f;text-align:center;
+@@.red
+@@text-align:center;
 ''Dieser Abschnitt ist hässlich und nur als Vorbereitung für den Test gut.''
 @@
 

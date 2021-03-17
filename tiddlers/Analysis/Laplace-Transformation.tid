@@ -1,13 +1,13 @@
 created: 20200814150738081
-modified: 20200814161503775
+modified: 20210314144405385
 tags: Fourier-Reihe
 title: Laplace-Transformation
 type: text/vnd.tiddlywiki
 
 Die //Laplace-Transformation// einer Funktion $$f\colon \R \to \C$$ ist definiert als
 $$
-F(s) = \mathcal{L}f(s) \coloneqq \int_\R f(t)e^{-st}\,\d t,\qquad s \in \C,
+F = \mathcal{L}\{f\} \colon \C \to \C,\qquad
+s \mapsto \int_\R f(t)e^{-st}\,\d t,
 $$
 sofern das Integral existiert.
-
 Die Laplace-Transformation ist eindeutig, bis auf Gleichheit von $$f$$ und $$g$$ fast überall.

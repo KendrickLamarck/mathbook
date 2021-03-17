@@ -1,15 +1,12 @@
 created: 20190102180336346
 list: 
-modified: 20191011175438672
-revision: 0
+modified: 20210314011155492
 tags: [[Lebesgue-Maß im R2]] no-toc
 title: Rechteck
 type: text/vnd.tiddlywiki
 
 Sei $$\mathcal R\subseteq\mathcal P(\Bbb R^2)$$ die Menge der Rechtecke, d.h. Mengen der Form
-
 $$
 [a,b]\times [c,d],\quad [a,b]\times{]c,d[}
 $$
-
 usw. mit $$a,b,c,d\in\mathbb R,\ a\le b$$ und $$c\le d.$$

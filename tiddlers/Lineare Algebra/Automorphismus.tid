@@ -1,10 +1,7 @@
 created: 20180319183407669
-modified: 20191004232249785
-revision: 0
+modified: 20210314151450034
 tags: [[Lineare Abbildung]]
 title: Automorphismus
 type: text/vnd.tiddlywiki
 
 Eine [[lineare Abbildung|Lineare Abbildung]] $$F\colon V\to W$$ heißt //Automorphismus//, wenn $$V=W$$ ist und $$F$$ [[bijektiv|Bijektivität]] ist.
-
-{{Orientierungstreue}}

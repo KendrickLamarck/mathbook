@@ -1,5 +1,5 @@
 created: 20191016194056740
-modified: 20200929125627752
+modified: 20210314153235500
 tags: [[Projective geometry]]
 title: Projective lines enveloping a curve
 type: text/vnd.tiddlywiki
@@ -21,6 +21,7 @@ if for all
 $$t\in I\colon \gamma(t),\gamma'(t)\in\R p_1(t)+\R p_2(t).$$
 This means that the point on the curve and the tangent vector at that point must both be contained in a corresponding line.
 
+@@.theorem
 ''Theorem.''
 A regular family of lines
 $$l(t)=\mathrm P(\R p_1(t)+\R p_2(t))$$
@@ -30,6 +31,7 @@ are linearly dependent.
 
 ''Corollary.''
 Every regular one-parameter family of lines in $$\RP^2$$ envelops a curve. This does not hold for $$n>2.$$
+@@
 
 !! Finding the curve
 

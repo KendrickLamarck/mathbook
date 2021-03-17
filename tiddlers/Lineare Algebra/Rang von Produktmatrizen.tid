@@ -1,14 +1,12 @@
 created: 20180329175544609
 creator: Leander
-modified: 20191004231953511
+modified: 20210314151108020
 modifier: Leander
-revision: 0
 tags: Matrix
 title: Rang von Produktmatrizen
 type: text/vnd.tiddlywiki
 
 Ist $$A\in K^{m\times n}$$ und $$B\in K^{n\times r}$$, so gilt
-
 $$
 \operatorname{rang}\,A+\operatorname{rang}\,B-n\le\operatorname{rang}(A\cdot B)\le\min\{\,\operatorname{rang}\,A,\,\operatorname{rang}\,B\,\}.
 $$

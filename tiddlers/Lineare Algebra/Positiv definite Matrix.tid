@@ -1,16 +1,13 @@
 created: 20180605174502567
 creator: Leander
-modified: 20191003192938133
+modified: 20210314150213026
 modifier: Leander
-revision: 0
 tags: no-toc Definitheit
 title: Positiv definite Matrix
 type: text/vnd.tiddlywiki
 
 Eine [[symmetrische|Symmetrische Matrix]] ([[Hermite'sche|Hermite'sche Matrix]]) [[Matrix]] $$A\in\mathbb K^{n\times n}$$ heißt //positiv definit//, wenn für jeden Spaltenvektor $$0\ne x\in\mathbb K^n$$ gilt:
-
 $$
-x^\mathrm T A\bar x>0.
+x^\transp A\bar x>0.
 $$
-
 $$A$$ ist genau dann [[positiv definit|Positiv definite Matrix]] (semidefinit), wenn alle [[Eigenwerte|Eigenwert]] von $$A$$ positiv (nicht negativ) sind.

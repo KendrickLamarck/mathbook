@@ -1,32 +1,25 @@
 created: 20180330123144120
 creator: Leander
 list: Transformationsmatrix [[Darstellende Matrizen und Koordinatensysteme]] Transformationsformeln [[Transformationsformel (Bilinearformen)]] [[Transformationsformel (lineare Abbildungen)]] [[Transformationsformel (Sesquilinearformen)]] [[Covariant and contravariant vectors]]
-modified: 20200601185953578
+modified: 20210314150826509
 modifier: Leander
-revision: 0
 tags: [[Lineare Algebra]]
 title: Koordinatensystem
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein [[Vektorraum]] mit einer [[Basis]] $$\mathcal B=(v_1,\ldots,v_n)$$. Nach der [[Eindeutigkeit linearer Abbildungen]] gibt es dazu genau einen [[Isomorphismus]]
-
 $$
 \Phi_\mathcal B\colon K^n\to V \quad\text{mit } \Phi_\mathcal B(e_j)=v_j
 $$
-
 für $$j=1,\dots,n$$, wobei $$e_j$$ der $$j$$-te Einheitsvektor ist. Nach Definition ist
-
 $$
 \Phi_\mathcal B(x_1,\dots,x_n)=x_1v_1+\dots+x_nv_n.
 $$
-
 Man nennt $$\Phi_\mathcal B$$ das durch $$\mathcal B$$ bestimmte //Koordinatensystem// und
-
 $$
 x=(x_1,\ldots,x_n) =
 \Phi_\mathcal B^{-1}(v) \eqqcolon
 [v]_\mathcal B
 \in K^n
 $$
-
 die //Koordinaten// von $$v=x_1v_1+\dots+x_nv_n$$.

@@ -1,15 +1,12 @@
 caption: Existence
 created: 20190216141649966
-modified: 20191008204045841
-revision: 0
+modified: 20210314154321978
 tags: no-toc [[Hyperbolic triangle]]
 title: Existence of hyperbolic triangles
 type: text/vnd.tiddlywiki
 
-A hyperbolic triangle with side lengths $$a,b,c\in \Bbb R^2$$ exists if and only if the triangle inequalities are satisfied.
-
-A hyperbolic triangle with angles $$\alpha,\beta,\gamma\in{]0,\pi[}$$ exists if and only if
-
+A hyperbolic triangle with ''side lengths'' $$a,b,c\in \R^2$$ exists if and only if the triangle inequalities are satisfied.
+A hyperbolic triangle with ''angles'' $$\alpha,\beta,\gamma\in{]0,\pi[}$$ exists if and only if
 $$
 \alpha+\beta+\gamma<\pi.
 $$

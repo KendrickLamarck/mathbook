@@ -1,24 +1,19 @@
 created: 20180725193657212
 creator: Leander
-modified: 20200404053304163
+modified: 20210314145305321
 modifier: Leander
-revision: 0
 tags: [[Lineare Algebra]]
 title: Multilineare Abbildung
 type: text/vnd.tiddlywiki
 
 Seien $$V_1,\dots,V_p,W$$ $$K$$-[[Vektorräume|Vektorraum]]. Eine Abbildung $$F\colon V_1\times\dots\times V_p\to W$$ heißt //multilinear// oder $$p$$-//linear//, wenn für jedes $$k\in\{1,\dots,p\}$$ und jede Wahl von $$v_1\in V_1,\dots,v_{k-1}\in V_{k-1},v_{k+1}\in V_{k+1},\dots,v_p\in V_p$$ die Abbildung
-
 $$
 V_k\to W,\quad v\mapsto F(v_1,\dots,v_{k-1},v,v_{k+1},\dots,v_p)
 $$
-
 [[linear|Lineare Abbildung]] ist. Die Menge der multilinearen Abbildungen $$V_1\times\dots\times V_p\to W$$ bildet zusammen mit den offensichtlichen Verknüpfungen einen $$K$$-Vektorraum, den wir mit
-
 $$
 \hom_p(V_1,\dots,V_p;W)
 $$
-
 bezeichnen. Eine multilineare Abbildung in den Grundkörper $$K$$ heißt //Multilinearform.//
 
 !! Darstellende Matrix

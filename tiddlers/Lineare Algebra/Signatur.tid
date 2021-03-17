@@ -1,6 +1,6 @@
 created: 20180723112944776
 creator: Leander
-modified: 20210126134754517
+modified: 20210314150418405
 modifier: Leander
 tags: [[Symmetrische Form]]
 title: Signatur
@@ -20,7 +20,6 @@ l&\coloneqq\#\{\,i\in\{1,\dots,n\}:b(v_i,v_i)=-1\,\} \\
 m&\coloneqq\#\{\,i\in\{1,\dots,n\}:b(v_i,v_i)=0\,\}
 \end{aligned}$$
 ist durch $$b$$ eindeutig bestimmt (Trägheitssatz von Sylvester) und heißt die //Signatur// von $$b.$$
-
 Das gleiche gilt auch für [[hermitesche|Hermite'sche Form]] [[Sesquilinearformen|Sesquilinearform]] auf endlichdimensionalen $$\mathbb C$$-Vektorräumen.
 
 !! Im Komplexen

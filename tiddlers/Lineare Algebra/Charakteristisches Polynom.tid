@@ -1,25 +1,20 @@
 created: 20180423211827083
 creator: Leander
 list: [[Ähnliche Matrizen und charakteristische Polynome]] [[Satz von Cayley-Hamilton]] [[Minimalpolynom und charakteristisches Polynom]]
-modified: 20200610151733386
+modified: 20210314151911982
 modifier: Leander
-revision: 0
 tags: Endomorphismus
 title: Charakteristisches Polynom
 type: text/vnd.tiddlywiki
 
 Die Suche von [[Eigenwerten|Eigenwert]] eines [[Endomorphismus]] $$F$$ eines [[endlichdimensionalen|Dimension]] $$K$$-[[Vektorraums|Vektorraum]] $$V$$ mit [[Dimension]] $$n<\infty$$ kann auf die Suche nach Nullstellen der //charakteristischen Funktion// von $$F$$
-
 $$
-\widetilde{P}_F\colon K\to K,\quad\lambda\mapsto\det(F-\lambda\operatorname{id}_V)
+\overtilde{4}{-2}{P}_F\colon K\to K,\quad\lambda\mapsto\det(F-\lambda\operatorname{id}_V)
 $$
-
 reduziert werden. Nach der [[Leibnizformel]] kann diese als [[Polynom]], genannt //charakteristisches Polynom// geschrieben werden. Ist $$A=(a_{ij})=M_\mathcal A(F)\in K^{n\times n}$$, so ist
-
 $$
 P_A(t)=P_F(t)\coloneqq\det(A-tE)=a_nt^n+\dots+a_0,
 $$
-
 wobei
 
 * $$a_n=(-1)^n,$$

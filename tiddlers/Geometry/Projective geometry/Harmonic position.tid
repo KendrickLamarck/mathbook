@@ -1,6 +1,6 @@
 created: 20190114141921569
 creator: Leander
-modified: 20200929130044124
+modified: 20210314153624861
 modifier: Leander
 tags: [[Projective geometry]] no-toc
 title: Harmonic position
@@ -11,6 +11,7 @@ $$
 \crossratio(A,P,B,Q)=-1.
 $$
 
-!! Theorem on the complete quadrilateral
-
+@@.theorem
+''Theorem on the complete quadrilateral.''
 {{Theorem on the complete quadrilateral}}
+@@

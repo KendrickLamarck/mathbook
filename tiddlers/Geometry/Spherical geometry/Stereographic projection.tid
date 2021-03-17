@@ -1,6 +1,6 @@
 created: 20190210221038641
 creator: Leander
-modified: 20210313191235402
+modified: 20210314154400126
 modifier: Leander
 tags: [[Spherical geometry]]
 title: Stereographic projection
@@ -17,7 +17,6 @@ $$\begin{gathered}
   \frac{1}{\|u\|^2+1}
   \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
 \end{gathered}$$
-
 Stereographic projection maps circles in $$\sphere^2$$ which contain $$e_3$$ to lines in $$\R^2$$ and all other circles in $$\sphere^2$$ to circles in $$\R^2.$$ All circles and lines in $$\R^2$$ are images of circles in $$\sphere^2.$$
 
 The map can also be obtained as [[inversion|Inversion in a hypersphere]] in the sphere with center $$e_n$$ and radius $$\sqrt 2$$ restricted to the unit sphere for $$\sigma$$ or the plane $$e_n = 0$$ for $$\sigma^{-1}.$$ From this we obtain the general versions of the formulas above:

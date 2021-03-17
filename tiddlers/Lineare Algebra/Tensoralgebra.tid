@@ -1,23 +1,18 @@
 created: 20191121225951360
-modified: 20200416175327649
-revision: 0
+modified: 20210314145237109
 tags: Tensorprodukt no-toc
 title: Tensoralgebra
 type: text/vnd.tiddlywiki
 
 Die //Tensoralgebra// eines $$K$$-Vektorraums $$V$$ ist definiert als
-
 $$
 \otimes_* V\coloneqq\bigoplus_{k=0}^\infty V^{\otimes k},
 $$
-
 wobei wir die Konventionen $$V^{\otimes 1}=V$$ und $$V^{\otimes 0}=K$$ verwenden. Dies ist eine [[graduierte Algebra|Graded algebra]], die weder kommutativ noch antikommutativ ist.
 
 Die Tensoralgebra erfüllt die folgende universelle Eigenschaft: Ist $$A$$ eine assoziative $$K$$-Algebra mit einem Einselement $$e$$ und $$i\colon V\to T(V)$$ die Inklusionsabbildung, sowie $$f\colon V\to A$$ eine lineare Abbildung, so existiert genau ein Algebrenhomomorphismus $$\tilde f\colon{\oplus_* V}\to A,$$ so dass $$f=\tilde f\circ i.$$ Explizit ist $$\tilde f$$ durch
-
 $$
 \tilde f(v_1\otimes\dots\otimes v_k)=f(v_1)\cdots f(v_k),\quad
 \tilde f(\lambda)=\lambda f(e)
 $$
-
 gegeben.

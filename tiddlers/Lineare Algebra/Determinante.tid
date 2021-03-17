@@ -1,18 +1,16 @@
 created: 20180404220238608
 creator: Leander
 list: Leibnizformel [[Entwicklungssatz von Laplace]] [[Determinante eines Endomorphismus]] [[Determinante und Permutationen]] [[Komplementäre Matrix]] Minor [[Gram'sche Determinante]] Kreuzprodukt [[Ableitung der Determinante]] [[Wedge product and determinant]]
-modified: 20200912220537182
+modified: 20210314152832034
 modifier: Leander
 tags: [[Lineare Algebra]]
 title: Determinante
 type: text/vnd.tiddlywiki
 
 Sei $$K$$ ein [[Körper]] (oder mit Einschränkungen ein kommutativer [[Ring]] mit Eins) und $$n$$ eine von Null verschiedene natürliche zahl. Eine Abbildung
-
 $$
 \det\colon K^{n\times n}\to K,\quad A\mapsto\det A
 $$
-
 heißt //Determinante//, falls folgendes gilt:
 
 * $$\det$$ ist ''multilinear'' in jeder Zeile, d.h. für einen Index $$i\in\{1,\ldots,n\}$$ gilt:

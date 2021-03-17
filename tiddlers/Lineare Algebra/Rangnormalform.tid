@@ -1,14 +1,12 @@
 created: 20180327200635295
 creator: Leander
-modified: 20191003210901288
+modified: 20210314152338330
 modifier: Leander
-revision: 0
 tags: [[Darstellende Matrix (lineare Abbildungen)]]
 title: Rangnormalform
 type: text/vnd.tiddlywiki
 
 Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]], $$n=\dim V,\ m=\dim W$$ und $$r=\dim\operatorname{Im}F$$. Dann gibt es [[Basen|Basis]] $$\mathcal A$$ von $$V$$ und $$\mathcal B$$ von $$W$$, so dass
-
 $$
 M_\mathcal B^\mathcal A(F)=
 \begin{pmatrix}
@@ -16,5 +14,4 @@ E_r&0\\
 0&0
 \end{pmatrix}.
 $$
-
 Dabei bezeichnet $$E_r$$ die $$r$$-reihige [[Einheitsmatrix]].

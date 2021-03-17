@@ -1,7 +1,7 @@
 caption: Direkte Summe
 created: 20180319113556569
 creator: Leander
-modified: 20210131163509653
+modified: 20210314152649338
 modifier: Leander
 tags: Vektorraum
 title: Direkte Summe
@@ -21,9 +21,11 @@ Für Untervektorräume $$W_1,\ldots,W_k$$ eines endlichdimensionalen Vektorraume
 $$ eine Basis von $$V$$.
 * $$V=W_1+\dots+W_k$$ und $$\dim V = \dim W_1 + \dots + \dim W_k$$
 
+@@.theorem
 ''Korollar.''
 Ist $$V$$ endlichdimensional und $$W\subset V$$ Untervektorraum, so gibt es dazu einen (im Allgemeinen nicht eindeutig bestimmten) Untervektorraum $$W'\subset V$$, so dass
 $$
 V=W\oplus W'.
 $$
 $$W'$$ heißt //direkter Summand// von $$V$$ zu $$W$$.
+@@

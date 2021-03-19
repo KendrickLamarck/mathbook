@@ -9,7 +9,6 @@
     ],
     "themes": [
         "tiddlywiki/vanilla",
-        "tiddlywiki/centralised",
         "tiddlywiki/snowwhite"
     ],
     "config": {

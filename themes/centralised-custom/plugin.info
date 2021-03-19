@@ -1,0 +1,9 @@
+{
+	"title": "$:/themes/tiddlywiki/centralised",
+	"name": "Centralised custom",
+	"author": "JeremyRuston / me",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "Centralises the story river (with tweaks)",
+	"dependents": ["$:/themes/tiddlywiki/snowwhite"]
+}

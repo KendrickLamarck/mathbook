@@ -1,6 +1,6 @@
 created: 20181026153907606
 creator: Leander
-modified: 20200924195305624
+modified: 20210320163915235
 modifier: Leander
 tags: Integration
 title: Riemann-Integral
@@ -22,8 +22,6 @@ Man schreibt dann
 $$
 I=\int_a^b f(x)\,\mathrm dx.
 $$
-
----
 
 !! Riemann- und Lebesgue-Integrierbarkeit
 

@@ -1,5 +1,5 @@
 created: 20210227153142931
-modified: 20210227153154843
+modified: 20210323164832178
 tags: Homology
 title: Chain complex
 type: text/vnd.tiddlywiki
@@ -18,7 +18,7 @@ H_n = H_n(C_*) \coloneqq \ker(\partial_n) / \img(\partial_{n+1}).
 $$
 
 * The elements of $$C_n$$ are called //$$n$$-chains.//
-* The elements of $$\ker \partial_n$$ are called //cycles.//
-* The elements of $$\img \partial_{n+1}$$ are called //$$n$$-boundaries.//
-* The elements of $$H_n$$ are called //homology classes.//
-* Two cycles differing by a boundary are called //homologous.//
+* The elements $$\alpha$$ of $$\ker \partial_n$$ are called //cycles.//
+* The elements $$\partial\beta$$ of $$\img \partial_{n+1}$$ are called //$$n$$-boundaries.//
+* The elements $$[\alpha] = \alpha + \img \partial_{n+1}$$ of $$H_n$$ are called //homology classes.//
+* Two cycles $$\alpha$$ and $$\alpha + \partial \beta$$ differing by a boundary are called //homologous,// since $$[\alpha] = [\alpha + \partial\beta].$$

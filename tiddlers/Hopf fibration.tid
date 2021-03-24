@@ -1,5 +1,5 @@
 created: 20210320215741875
-modified: 20210320220515770
+modified: 20210323200929528
 tags: misc
 title: Hopf fibration
 type: text/vnd.tiddlywiki
@@ -8,3 +8,4 @@ The //Hopf fibration// is a map $$p \colon \C^2 \supset \sphere^3 \to \C\mathrm{
 $$
 \sphere^1 \hookrightarrow \sphere^3 \twoheadrightarrow \sphere^2.
 $$
+The existence of this map shows that $$\pi_3(\sphere^2)$$ is non-trivial.

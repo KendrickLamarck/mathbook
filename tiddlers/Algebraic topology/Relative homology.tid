@@ -1,6 +1,6 @@
 created: 20210206155445189
 creator: Leander
-modified: 20210302155609007
+modified: 20210323233344228
 modifier: Leander
 tags: Homology
 title: Relative homology
@@ -14,7 +14,7 @@ $$
 C_n(A) \xrightarrow{i_n} C_n(X) \xrightarrow{j_n} C_n(X,A)
 \xrightarrow{} 0.
 $$
-The boundary map of $$C_*(X)$$ decends to a map on these quotients and we get a chain complex $$C_*(X,A).$$ Its homology $$H_n(X,A)$$ is called the //relative homology// of $$(X,A).$$
+The boundary map of $$C_*(X)$$ descends to a map on these quotients and we get a chain complex $$C_*(X,A).$$ Its homology $$H_n(X,A)$$ is called the //relative homology// of $$(X,A).$$
 Elements of $$H_n(X,A)$$ are represented by //relative cycles// $$\alpha \in C_n(X)$$ with $$\partial \alpha \in C_{n-1}(A).$$ $$\alpha$$ is trivial in $$H_n(X,A)$$ if it is a //relative boundary// $$\alpha = \partial\beta + \gamma$$ with $$\beta \in C_{n+1}(X)$$ and $$\gamma \in C_n(A).$$
 
 The maps $$i_n$$ and $$j_n$$ fit together to give [[chain maps|Chain map]], yielding a short exact sequence of chain complexes
@@ -26,7 +26,7 @@ $$
 
 @@.theorem
 ''Corollary (to the [[zig-zag lemma|Zig-zag lemma]]).''
-For any pair of spaces $$(X,A)$$ we get a long exact sequence
+For any pair of spaces $$(X,A)$$ we get a long exact sequence on relative homology:
 $$\begin{gathered}
 \cdots \xrightarrow{\partial_{n-1}}
 H_n(A) \xrightarrow{i_*} H_n(X) \xrightarrow{j_*} H_n(X,A) \xrightarrow{\partial_n}\cdots \\
@@ -40,4 +40,4 @@ H_0(A) \xrightarrow{i_*} H_0(X) \xrightarrow{j_*} H_0(X,A) \xrightarrow{} 0.
 
 * Just as with regular homology, maps of pairs $$f\colon (X,A) \to (Y,B)$$ induce maps $$f_\sharp\colon C_*(X,A) \to C_*(Y,B)$$ and $$f_*\colon H_n(X,A) \to H_n(Y,B).$$ If $$f$$ and $$g$$ are homotopic (through maps of pairs), then $$f_* = g_*.$$
 
-* If $$A \subseteq B \subseteq X,$$ we have inclusions $$(B,A) \hookrightarrow (X,A) \hookrightarrow (X,B),$$ which induce a short exact sequence $$0 \to C_*(B,A) \to C_*(X,A) \to C_*(X,B) \to 0,$$ and thus a long exact sequence on homology.
+* If $$A \subseteq B \subseteq X,$$ we have inclusions $$(B,A) \hookrightarrow (X,A) \hookrightarrow (X,B),$$ which induce a short exact sequence $$0 \to C_*(B,A) \to C_*(X,A) \to C_*(X,B) \to 0,$$ and thus a long exact sequence on homology. The cases $$A=\varnothing$$ and $$A = \{*\}$$ are the sequences we had above.

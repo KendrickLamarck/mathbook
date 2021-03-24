@@ -1,16 +1,25 @@
 created: 20210128132725385
-modified: 20210317184821773
+modified: 20210323165727487
 tags: Homology
 title: Chain map
 type: text/vnd.tiddlywiki
 
-Given [[chain complexes|Homology]] $$C_*$$ and $$D_*,$$ a //chain map// $$f\colon C_* \to D_*$$ is a collection of maps $$f_n \colon C_n \to D_n$$ such that $$\partial_n^D \circ f_n = f_{n-1} \circ \partial_n^C,$$ or more symbolically, $$\partial \circ f = f \circ \partial.$$
+Given [[chain complexes|Chain complex]] $$C_*$$ and $$D_*,$$ a //chain map// $$f\colon C_* \to D_*$$ is a collection of homomorphisms $$f_n \colon C_n \to D_n$$ such that $$\partial_n^D \circ f_n = f_{n-1} \circ \partial_n^C,$$ or more symbolically, $$\partial \circ f = f \circ \partial.$$
 
-@@.theorem
-''Proposition.'' A chain map $$f\colon C_* \to D_*$$ induces maps on homology $$f_* \colon H_n(C_*) \to H_n(D_*).$$ This is a functor.
+* <div>A chain map $$f\colon C_* \to D_*$$ induces maps on homology
+$$
+f_* \colon H_n(C_*) \to H_n(D_*),\qquad
+f_*[c] \coloneqq [f(c)].
+$$</div>
 
-''Proposition.'' A continuous map $$f\colon X \to Y$$ induces a chain map $$f_\sharp \colon C_*(X) \to C_*(Y)$$ of singular chains via $$f_\sharp = f \circ \sigma \colon \Delta^n \to Y.$$ This is also functorial. Thus it also induces maps on homology $$f_* \colon H_n(X) \to H_n(Y).$$
-@@
+* <div>A continuous map $$f\colon X \to Y$$ induces a chain map via
+$$
+f_\sharp \colon C_*(X) \to C_*(Y),\qquad 
+f_\sharp(\sigma) \coloneqq f \circ \sigma.
+$$
+Thus it also induces maps on homology $$f_* \colon H_n(X) \to H_n(Y).$$</div>
+
+Both of these constructions are [[functorial|Functor]].
 
 !! Chain homotopy
 

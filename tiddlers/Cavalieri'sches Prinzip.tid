@@ -1,20 +1,16 @@
 created: 20181128171718050
 creator: Leander
-modified: 20191010152302137
+modified: 20210323113816318
 modifier: Leander
-revision: 0
 tags: Volumen no-toc
 title: Cavalieri'sches Prinzip
 type: text/vnd.tiddlywiki
 
 Sei $$K\subset\mathbb R^d$$ [[kompakt|Kompaktheit]] und für $$t\in\mathbb R$$ sei
-
 $$
 K_t\coloneqq\{\, (x_1,\dots,x_{d-1})\in\mathbb R^{d-1} : (x_1,\dots,x_{d-1},t)\in K \,\}
 $$
-
 der $$t$$-Schnitt von $$K.$$ Dann gilt
-
 $$
 \operatorname{Vol}_d(K)=\int_\mathbb R\operatorname{Vol}_{d-1}(K_t)\,\mathrm dt.
 $$

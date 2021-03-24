@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20210221135017853
+modified: 20210323203649292
 modifier: Leander
 tags: meta
 title: TODO
@@ -29,6 +29,9 @@ type: text/vnd.tiddlywiki
 
 * Add sources (as embedded PDFs?)
 ** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
+
+* Musical isomorphisms
+* Make the [[Zig-zag lemma]] picture look more zig-zag and less snake
 
 !! Tech ideas
 

@@ -1,5 +1,5 @@
 created: 20191008231459206
-modified: 20210126141948647
+modified: 20210326232811884
 tags: Geometrie
 title: Elliptic geometry
 type: text/vnd.tiddlywiki
@@ -13,4 +13,4 @@ which is also the [[Cayley-Klein metric]]
 $$
 d_\mathrm{ell}(A,B)=\tfrac{i}{2} \log\crossratio(B,X,A,Y).
 $$
-This geometry can be viewed as [[spherical geometry|Spherical geometry]], where antipodal points are identified with each other. The space then is $$S^n/\pm$$ and the transformation group is $$\O(n+1)/\{\pm I\}.$$
+This geometry can be viewed as [[spherical geometry|Spherical geometry]], where antipodal points are identified with each other. The space then is $$\sphere^n/\pm$$ and the transformation group is $$\O(n+1)/\{\pm I\}.$$

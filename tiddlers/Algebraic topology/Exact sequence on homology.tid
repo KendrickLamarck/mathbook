@@ -1,23 +1,18 @@
 created: 20210220114906441
-modified: 20210319210645600
+modified: 20210325153309040
 tags: Homology
 title: Exact sequence on homology
 type: text/vnd.tiddlywiki
 
 @@.theorem
 ''Theorem.''
-Suppose $$A \subseteq X$$ is a nonempty closed subspace that has a neighborhood $$N \subseteq X$$ which deformation retracts to $$A.$$ Then the short exact sequence
+Suppose $$A \subseteq X$$ is a nonempty closed subspace that has a neighborhood $$N \subseteq X$$ which deformation retracts to $$A.$$ Then the inclusion $$i$$ and quotient map $$j$$
 $$
 A \hookrightarrow X \twoheadrightarrow X/A
 $$
-of the inclusion $$i$$ and quotient map $$j$$ induces a long exact sequence on [[reduced homology|Reduced homology]]:
+induce a long exact sequence on [[reduced homology|Reduced homology]]:
 {{$:/_images/LESOnHomology.svg||$:/_templates/cd}}
 @@
 
 * The theorem applies in particular if $$A$$ is a subcomplex of a [[CW complex|CW complex]] $$X.$$
 * If all the $$\partial$$ vanish, we get short exact sequences and we get $$H_n(X/A) \cong H_n(X) / H_n(A).$$
-
-@@.theorem
-''Corollary.''
-The reduced homology of the $$k$$-sphere is $$\tilde{H}_n(\sphere^k) \cong \Z$$ if $$n=k$$ and 0 otherwise.
-@@

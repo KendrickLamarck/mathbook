@@ -1,5 +1,5 @@
 created: 20210206195007615
-modified: 20210209133039164
+modified: 20210324135609124
 tags: Homology
 title: Mayer-Vietoris theorem
 type: text/vnd.tiddlywiki
@@ -7,5 +7,8 @@ type: text/vnd.tiddlywiki
 Suppose $$A,B \subseteq X$$ with $$\mathring{A} \cup \mathring{B} = X.$$ Then we have a long exact sequence, the //Mayer-Vietoris sequence://
 $$
 \cdots \xrightarrow{\partial_{n+1}}
-H_n(A \cap B) \xrightarrow{(i_A,-i_B)} H_n(A) \oplus H_n(B) \xrightarrow{j_A+j_B} H_n(X) \xrightarrow{\partial_n} \cdots
+H_n(A \cap B) \xrightarrow{} H_n(A) \oplus H_n(B) \xrightarrow{} H_n(X) \xrightarrow{\partial_n} \cdots
 $$
+where the intermediate homomorphisms come from the maps $$(i_A,-i_B)$$ and $$j_A + j_B,$$ respectively.
+
+The boundary map can be understood explicitly as follows: Any $$n$$-cycle $$\gamma$$ can be replaced by $$\alpha-\beta$$ with $$\alpha \in C_n(A)$$ and $$\beta \in C_n(B).$$ Then $$\partial[\gamma] = [\partial\alpha].$$

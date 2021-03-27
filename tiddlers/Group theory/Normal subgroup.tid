@@ -1,5 +1,5 @@
 created: 20200526204735585
-modified: 20210313202645471
+modified: 20210325144212722
 tags: Gruppe
 title: Normal subgroup
 type: text/vnd.tiddlywiki
@@ -18,6 +18,8 @@ Suppose $$N \lhd G$$ is a normal subgroup and $$H < G$$ is any subgroup. Then
 
 </div>
 @@
+
+Any subgroup of index 2 is [[normal|Conjugation]].
 
 !! Normalizer
 

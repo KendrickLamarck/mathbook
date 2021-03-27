@@ -1,0 +1,7 @@
+created: 20210325153256897
+modified: 20210325153439041
+tags: Homology
+title: Homology of spheres
+type: text/vnd.tiddlywiki
+
+The reduced homology of the $$k$$-sphere is $$\tilde{H}_n(\sphere^k) \cong \Z$$ if $$n=k$$ and 0 otherwise. More generally, $$\tilde{H}_n(\sphere^n;G)=G$$ and 0 otherwise.

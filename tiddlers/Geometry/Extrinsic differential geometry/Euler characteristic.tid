@@ -1,5 +1,5 @@
 created: 20200701193550364
-modified: 20210227172355807
+modified: 20210325234446153
 tags: Homology [[Extrinsic differential geometry]]
 title: Euler characteristic
 type: text/vnd.tiddlywiki
@@ -31,5 +31,5 @@ If $$C_*$$ is a finite chain complex of finitely generated abelian groups, then
 $$
 \sum (-1)^k \rank C_k = \sum (-1)^k \rank H_k(C_*).
 $$
-In particular, for a short exact sequence $$0 \to A \to B \to C \to 0,$$ we have $$\rank B = \rank A + \rank C.$$
+In particular, for a short exact sequence $$0 \to A \to B \to C \to 0,$$ we have $$\rank B = \rank A + \rank C$$ (prove this as a lemma first).
 @@

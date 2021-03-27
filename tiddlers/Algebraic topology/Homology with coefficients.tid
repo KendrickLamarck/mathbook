@@ -1,11 +1,11 @@
 created: 20210220112749500
-modified: 20210227143741514
+modified: 20210325135743168
 tags: Homology
 title: Homology with coefficients
 type: text/vnd.tiddlywiki
 
-Fix an abelian group $$G$$ and let $$C_n(X;G) \coloneqq C_n(X) \otimes G$$ be the set of formal sums of simplices with coefficients in $$G.$$ Using the same formula for the boundary map (formally), we get a chain complex $$C_*(X;G).$$ For a pair $$(X,A),$$ we set $$C_*(X,A;G) \coloneqq C_*(X;G)/C_*(A;G).$$ The homology of these chain complexes $$H_n(X;G)$$ and $$H_n(X,A;G)$$ are //homology with coefficients in $$G.$$// Reduced homology comes from the obvious [[augmentation map|Reduced homology]] $$\varepsilon\colon C_0(X;G) \to G.$$
-To contrast, the ordinary homology $$H_n(X) = H_n(X;\Z)$$ is called //integral homology.// Homology with coefficients in any $$G$$ is already determined by integral homology.
+Fix an abelian group $$G$$ and let $$C_n(X;G) \coloneqq C_n(X) \otimes G$$ be the set of formal sums of simplices with coefficients in $$G.$$ Using the same formula for the boundary map (formally, with $$(\pm 1)g = \pm g$$), we get a chain complex $$C_*(X;G).$$ For a pair $$(X,A),$$ we set $$C_*(X,A;G) \coloneqq C_*(X;G)/C_*(A;G).$$ The homology of these chain complexes $$H_n(X;G)$$ and $$H_n(X,A;G)$$ are //homology with coefficients in $$G.$$// Reduced homology comes from the obvious [[augmentation map|Reduced homology]] $$\varepsilon\colon C_0(X;G) \to G.$$
+To contrast, the ordinary homology $$H_n(X) = H_n(X;\Z)$$ is sometimes called //integral homology.// Homology with coefficients in any $$G$$ is already determined by integral homology.
 
 {{Betti number}} We get:
 

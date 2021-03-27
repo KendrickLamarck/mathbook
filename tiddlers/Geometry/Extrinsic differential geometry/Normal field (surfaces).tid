@@ -1,7 +1,7 @@
 caption: Normal field
 created: 20200617134801609
 creator: Leander
-modified: 20200712185317172
+modified: 20210325141206278
 modifier: Leander
 tags: Surface
 title: Normal field (surfaces)
@@ -23,8 +23,10 @@ $$
 N = \frac{f_u \times f_v}{\|f_u \times f_v\|}.
 $$
 
+@@.theorem
 ''Theorem.''
 {{Normal field and area form}}
+@@
 
 !! Covered area form
 

@@ -1,15 +1,15 @@
 created: 20210213171652255
-modified: 20210302160751447
+modified: 20210325162558178
 tags: [[Algebraic topology]] no-toc
 title: Local degree
 type: text/vnd.tiddlywiki
 
 Let $$n>0,$$ $$f\colon \sphere^n \to \sphere^n$$ and suppose there is a point $$y$$ such that $$f^{-1}\{y\} = \{x_1,\dots,x_k\}$$ is a finite set. Then we can find disjoint neighborhoods $$U_j$$ of each $$x_j$$ in the domain.
-We define the //local degree// of $$f$$ at $$x_j$$ to be $$\deg_{x_j} f \coloneqq f_*(1),$$ where
+We define the //local degree// of $$f$$ at $$x_j$$ to be $$\deg_{x_j} f \coloneqq (f_j)_*(1),$$ where
 $$
-f_*\colon \Z \cong H_n(U_j, U_j \setminus \{x_j\}) \to H_n(\sphere^n,\sphere^n \setminus \{y\}) \cong \Z
+(f_j)_*\colon \Z \cong H_n(U_j, U_j \setminus \{x_j\}) \to H_n(\sphere^n,\sphere^n \setminus \{y\}) \cong \Z
 $$
-is the induced map.
+is the induced map of the map of pairs $$f_j = f|_{U_j}.$$
 
 @@.theorem
 ''Theorem.''

@@ -1,5 +1,5 @@
 created: 20201205200331859
-modified: 20210314014959096
+modified: 20210327000426563
 tags: Category
 title: Pushout
 type: text/vnd.tiddlywiki
@@ -13,4 +13,4 @@ This definition is similar to that of the [[coproduct|Coproduct]], the only diff
 
 * If $$Y_1,Y_2$$ are subsets of some set $$W$$ and $$X = Y_1 \cap Y_2,$$ then $$P = Y_1 \cup Y_2.$$
 
-* The pushout of groups is the [[amalgamated free product|Amalgamated free product]] $$Y_1 *_X Y_2.$$
+* The pushout of groups is the [[amalgamated free product|Amalgamated free product]] $$Y_1 \star_X Y_2.$$

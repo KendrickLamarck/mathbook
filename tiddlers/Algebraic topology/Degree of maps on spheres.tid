@@ -1,5 +1,5 @@
 created: 20201120152423843
-modified: 20210302160909428
+modified: 20210325135053445
 tags: [[Algebraic topology]]
 title: Degree of maps on spheres
 type: text/vnd.tiddlywiki
@@ -18,11 +18,11 @@ In general, the //degree// of a map $$f\colon \sphere^n \to \sphere^n$$ is $$\de
 ** Since any non-surjective map is homotopic to a constant, its degree is 0.
 ** If $$f$$ and $$g$$ are homotopy equivalent, then $$\deg f = \deg g = \pm 1.$$ This sign can be used to define orientation.
 * $$\deg(g \circ f) = \deg g \cdot \deg f.$$
-* If $$\Sigma f\colon \sphere^{n+1} \to \sphere^{n+1}$$ is the [[suspension|Suspension]] of $$f\colon \sphere^n \to \sphere^n,$$ then $$\deg f = \deg \Sigma f.$$
+* If $$\varSigma f$$ is the [[suspension|Suspension]] of a map $$f\colon \sphere^n \to \sphere^n,$$ then $$\deg f = \deg \varSigma f.$$ Note also that if $$p$$ is one of the suspension points, then $$\deg_p \varSigma f = \deg f.$$
 
 Some examples:
 
-* The degree of a reflection $$\mu\colon \sphere^n \to \sphere^n$$ across a hyperplane in $$\R^{n+1}$$ has degree -1.
+* A reflection $$\mu\colon \sphere^n \to \sphere^n$$ across a hyperplane in $$\R^{n+1}$$ has degree -1.
 * The antipodal map on $$\sphere^n$$ is the composition of $$n+1$$ reflections, so it is 1 if $$n$$ is odd and -1 if $$n$$ is even.
 
 !! Mod-2 homology

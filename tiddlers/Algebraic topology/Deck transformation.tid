@@ -1,5 +1,5 @@
 created: 20210104152725045
-modified: 20210107154951929
+modified: 20210325143647186
 tags: [[Covering space]]
 title: Deck transformation
 type: text/vnd.tiddlywiki
@@ -18,4 +18,4 @@ and let $$N(H)$$ denote the [[normalizer|Normal subgroup]] of $$H$$ in $$G.$$ Th
 @@
 
 * A universal covering is always normal and thus has $$\Gamma \cong \pi_1 X.$$
-* An $$n$$-sheeted covering corresponds to an index $$n$$ subgroup $$H < \pi_1 X.$$ It is regular if and only if $$H$$ is a normal subgroup.
+* An $$n$$-sheeted covering corresponds to an index $$n$$ subgroup $$H < \pi_1 X.$$ It is regular if and only if $$H$$ is a normal subgroup. In particular, since index-two subgroups are always normal, two-sheeted coverings are always normal.

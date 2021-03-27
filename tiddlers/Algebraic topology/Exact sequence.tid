@@ -1,5 +1,5 @@
 created: 20210130175825686
-modified: 20210220114911687
+modified: 20210325144851531
 tags: Homology
 title: Exact sequence
 type: text/vnd.tiddlywiki
@@ -20,10 +20,16 @@ If one of the maps vanishes, we can split the sequence and we get the equivalenc
 * $$\cdots\xrightarrow{0} A \xrightarrow{0}\cdots$$ is exact $$\iff$$ $$A \cong 0,$$
 * $$\cdots\xrightarrow{0} A \xrightarrow{\alpha} B \xrightarrow{0}\cdots$$ is exact $$\iff$$ $$\alpha$$ is an isomorphism.
 
+!! Short exact sequence
+
 A //short exact sequence// is a sequence
 $$
 0 \xrightarrow{}
 A \xrightarrow{\alpha} B \xrightarrow{\beta} C
 \xrightarrow{} 0
 $$
-which is exact at $$A,B$$ and $$C.$$ We have that $$\alpha$$ is injective, $$\beta$$ is surjective and $$C \cong B/A.$$
+which is exact at $$A,B$$ and $$C.$$ We have that $$\alpha$$ is injective, $$\beta$$ is surjective and $$C \cong B/A,$$ so it essentially mimics the sequence
+$$
+0 \to A \hookrightarrow B \twoheadrightarrow B/A \to 0
+$$
+in a more abstract way.

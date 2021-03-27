@@ -1,10 +1,10 @@
 created: 20210213155304154
-modified: 20210213155631674
+modified: 20210324202558036
 tags: Homology
 title: Simplicial and singular homology
 type: text/vnd.tiddlywiki
 
-Since each cell in a $$\Delta$$-complex is a singular simplex, we have inclusions $$\Delta_n(X) \hookrightarrow C_n(X).$$ For any pair, this induces a chain map $$\varphi\colon \Delta_*(X,A) \to C_*(X,A)$$ and homomoprhisms $$\varphi_*\colon H_n^\Delta(X,A) \to H_n(X,A).$$
+Since each cell in a $$\Delta$$-complex is a singular simplex, we have inclusions $$\Delta_n(X) \hookrightarrow C_n(X).$$ For any pair, this induces a chain map $$\varphi\colon \Delta_*(X,A) \to C_*(X,A)$$ and homomorphisms $$\varphi_*\colon H_n^\Delta(X,A) \to H_n(X,A).$$ We simply have $$\varphi_*[\alpha] = [\alpha] \in H_n(X,A).$$
 
 @@.theorem
 ''Theorem.''

@@ -1,7 +1,7 @@
 created: 20180509204240163
 creator: Leander
 list: [[Zusammenhängende Teilmengen]] [[Stetige Funktionen und Zusammenhang]] Wegzusammenhang [[Zusammenhang und Abschluss]] [[Zusammenhang und Intervalle]] Zwischenwertsatz
-modified: 20201103142732180
+modified: 20210326152107989
 modifier: Leander
 tags: Topologie
 title: Zusammenhang
@@ -14,3 +14,4 @@ Eine äquivalente Charakterisierung ist, dass $$\varnothing$$ und $$X$$ die einz
 * Eine Teilmenge $$A\subset X$$ heißt zusammenhängend, wenn $$(A,\mathcal T_A)$$ zusammenhängend ist.
 * {{Zusammenhang und Abschluss}}
 * {{Zusammenhang und Intervalle}}
+* Eine lokal konstante funktion auf einem zusammenhängenden Raum ist konstant.

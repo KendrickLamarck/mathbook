@@ -1,0 +1,16 @@
+created: 20210324131404492
+modified: 20210325182342577
+tags: Homology no-toc
+title: Homology on quotient spaces
+type: text/vnd.tiddlywiki
+
+@@.theorem
+''Theorem.''
+If $$A \subseteq X$$ is a nonempty closed subspace with a neighborhood $$V \subseteq X$$ that deformation retracts onto $$A,$$ then the quotient map $$q\colon (X,A) \to (X/A, A/A)$$ induces isomorphisms
+$$
+q_*\colon H_n(X,A) \to H_n(X/A, A/A) \cong \tilde{H}_n(X/A)
+$$
+on homology.
+@@
+
+Applying this to the long exact sequence [[on relative homology|Relative homology]] gives the long exact sequence [[on homology|Exact sequence on homology]].

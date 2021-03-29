@@ -1,14 +1,18 @@
 created: 20210206195007615
-modified: 20210324135609124
+modified: 20210329172119381
 tags: Homology
 title: Mayer-Vietoris theorem
 type: text/vnd.tiddlywiki
 
-Suppose $$A,B \subseteq X$$ with $$\mathring{A} \cup \mathring{B} = X.$$ Then we have a long exact sequence, the //Mayer-Vietoris sequence://
+Suppose $$A,B \subseteq X$$ with $$\mathring{A} \cup \mathring{B} = X.$$ Then we get a long exact sequence, the //Mayer-Vietoris sequence://
 $$
 \cdots \xrightarrow{\partial_{n+1}}
 H_n(A \cap B) \xrightarrow{} H_n(A) \oplus H_n(B) \xrightarrow{} H_n(X) \xrightarrow{\partial_n} \cdots
 $$
-where the intermediate homomorphisms come from the maps $$(i_A,-i_B)$$ and $$j_A + j_B,$$ respectively.
+It is induced by the short exact sequence
+$$
+0 \to C_*(A \cap B) \xrightarrow{(i_A,-i_B)} C_*(A) \oplus C_*(B) \xrightarrow{j_A+j_B} C_*^{\{A,B\}}(X) \to 0.
+$$
+(See [[Excision]] for the meaning of $$C_*^{\{A,B\}}.$$)
 
-The boundary map can be understood explicitly as follows: Any $$n$$-cycle $$\gamma$$ can be replaced by $$\alpha-\beta$$ with $$\alpha \in C_n(A)$$ and $$\beta \in C_n(B).$$ Then $$\partial[\gamma] = [\partial\alpha].$$
+The boundary map can be understood explicitly as follows: Any $$n$$-cycle $$\gamma$$ can be replaced by $$\alpha-\beta$$ with $$\alpha \in C_n(A)$$ and $$\beta \in C_n(B).$$ Then $$\partial\alpha = \partial\beta$$ and  $$\partial[\gamma] = [\partial\alpha].$$

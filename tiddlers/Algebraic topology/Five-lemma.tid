@@ -1,10 +1,10 @@
 created: 20210215125735703
-modified: 20210218014917368
+modified: 20210329191517889
 tags: Homology
 title: Five-lemma
 type: text/vnd.tiddlywiki
 
-Given a commutative diagram
+Given a commutative diagram of abelian groups
 $$\begin{CD}
 A @>i>>       B @>j>>      C @>k>>       D @>l>>       E    \\
 @VV{\alpha}V  @VV{\beta}V  @VV{\gamma}V  @VV{\delta}V  @VV{\epsilon}V \\

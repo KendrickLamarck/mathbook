@@ -1,5 +1,5 @@
 created: 20210111165709197
-modified: 20210320162612760
+modified: 20210329115230320
 tags: [[Algebraic topology]]
 title: CW complex
 type: text/vnd.tiddlywiki
@@ -34,5 +34,5 @@ This gives an alternate description of the topology: $$U \subseteq X$$ is open (
 * Any CW complex is Hausdorff and [[normal|Normal topological space]].
 * Any CW complex is locally contractible, in particular locally path-connected and locally simply connected.
 * A CW complex is compact if and only if it is finite. It is locally compact if and only if it is locally finite.
-* Any subcomplex $$A \subseteq X$$ has an open neighborhood that deformation retracts onto $$A.$$
+* A //subcomplex// is a closed subset that is a union of open cells. Any subcomplex $$A \subseteq X$$ has an open neighborhood that deformation retracts onto $$A.$$
 * Any compact topological manifold is homotopy equivalent to a CW complex.

@@ -1,6 +1,6 @@
 created: 20210206161242077
 creator: Leander
-modified: 20210328234057354
+modified: 20210329185129339
 modifier: Leander
 tags: Homology
 title: Zig-zag lemma
@@ -12,7 +12,17 @@ $$
 A_* \xrightarrow{i} B_* \xrightarrow{j} C_*
 \xrightarrow{} 0.
 $$
-of chain complexes. This induces a long exact sequence on homology:
+of chain complexes, which is a shorthand for the infinite commutative diagram
+$$\begin{CD}
+@.      \vdots @.              \vdots @.              \vdots @.             \\
+@.      @VV{\partial_{n+1}}V   @VV{\partial_{n+1}}V   @VV{\partial_{n+1}}V  \\
+0 @>>>  A_n @>{i_n}>>          B_n @>{j_n}>>          C_n @>>> 0            \\
+@.      @VV{\partial_n}V       @VV{\partial_n}V       @VV{\partial_n}V      \\
+0 @>>>  A_{n-1} @>{i_{n-1}}>>  B_{n-1} @>{j_{n-1}}>>  C_{n-1} @>>> 0        \\
+@.      @VV{\partial_{n-1}}V   @VV{\partial_{n-1}}V   @VV{\partial_{n-1}}V  \\
+@.      \vdots @.              \vdots @.              \vdots @.             \\
+\end{CD}$$
+with exact rows. This induces a long exact sequence on homology:
 {{$:/_images/zigZagLemma.svg||$:/_templates/cd}}
 
 @@.theorem
@@ -25,7 +35,7 @@ H_n(A_*) &\xrightarrow{i_*} H_n(B_*), \\
 H_n(B_*) &\xrightarrow{j_*} H_n(C_*), \\
 H_{n+1}(C_*) &\xrightarrow{\partial} H_n(A_*),
 \end{aligned}$$
-are components of [[natural transformations|Natural transformation]] between functors from the category of short exact sequences to the category of Abelian groups. Explicitly: Given a commutative diagram
+are components of [[natural transformations|Natural transformation]] between functors from the category of short exact sequences to the category of Abelian groups. Explicitly: Given a commutative diagram (which is now really a three-dimensional commutative diagram)
 $$\begin{CD}
 0   @>>>  A_* @>i>>      B_* @>j>>      C_* @>>> 0    \\
 @.        @VV{\alpha}V   @VV{\beta}V    @VV{\gamma}V  \\

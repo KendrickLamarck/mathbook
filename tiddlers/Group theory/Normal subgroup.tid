@@ -1,5 +1,5 @@
 created: 20200526204735585
-modified: 20210325144212722
+modified: 20210327162449999
 tags: Gruppe
 title: Normal subgroup
 type: text/vnd.tiddlywiki
@@ -27,4 +27,4 @@ Let $$H < G.$$ We call
 $$
 N(H) \coloneqq \{\, g \in G : gHg^{-1}=H\,\} < G
 $$
-the //normalizer// of $$H$$ in $$G.$$ Then $$H \lhd N(H)$$ but $$H$$ is not normal in any larger subgroup of $$G.$$
+the //normalizer// of $$H$$ in $$G.$$ Then $$N(H)$$ is the largest subgroup of $$G$$ such that $$H \lhd N(H).$$ In particular, $$N(H) = G$$ if $$H \lhd G.$$

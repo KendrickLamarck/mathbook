@@ -1,5 +1,5 @@
 created: 20210104152725045
-modified: 20210325143647186
+modified: 20210327135403002
 tags: [[Covering space]]
 title: Deck transformation
 type: text/vnd.tiddlywiki
@@ -14,7 +14,11 @@ Let $$X$$ be path-connected and locally path-connected space and consider a conn
 $$
 H \coloneqq p_* \pi_1(\tilde{X},\tilde{x}_0) < \pi_1(X,x_0) \eqqcolon G
 $$
-and let $$N(H)$$ denote the [[normalizer|Normal subgroup]] of $$H$$ in $$G.$$ Then the deck transformation group $$\Gamma(\tilde{X})$$ is isomorphic to the quotient $$N(H)/H.$$ In particular, the covering is normal if and only if $$H \lhd G$$ is a normal subgroup, in which case $$\Gamma \cong \pi_1(X,x_0)/H.$$
+and let $$N(H)$$ denote the [[normalizer|Normal subgroup]] of $$H$$ in $$G.$$ Then
+$$
+\Gamma(\tilde{X}) \cong N(H)/H.
+$$
+In particular, the covering is normal if and only if $$H \lhd G$$ is a normal subgroup, in which case $$\Gamma \cong \pi_1(X,x_0)/H.$$
 @@
 
 * A universal covering is always normal and thus has $$\Gamma \cong \pi_1 X.$$

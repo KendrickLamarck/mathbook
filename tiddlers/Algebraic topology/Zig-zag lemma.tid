@@ -1,6 +1,6 @@
 created: 20210206161242077
 creator: Leander
-modified: 20210317185356193
+modified: 20210328234057354
 modifier: Leander
 tags: Homology
 title: Zig-zag lemma
@@ -19,7 +19,7 @@ of chain complexes. This induces a long exact sequence on homology:
 <div>
 
 ''Proposition (Naturality).''
-For each $$n,$$ the families
+The association of the LES on homology to the SES on chain complexes is a natural transformation. More precisely: For each $$n,$$ the families
 $$\begin{aligned}
 H_n(A_*) &\xrightarrow{i_*} H_n(B_*), \\
 H_n(B_*) &\xrightarrow{j_*} H_n(C_*), \\

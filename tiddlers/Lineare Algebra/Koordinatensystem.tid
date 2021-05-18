@@ -1,7 +1,7 @@
 created: 20180330123144120
 creator: Leander
 list: Transformationsmatrix [[Darstellende Matrizen und Koordinatensysteme]] Transformationsformeln [[Transformationsformel (Bilinearformen)]] [[Transformationsformel (lineare Abbildungen)]] [[Transformationsformel (Sesquilinearformen)]] [[Covariant and contravariant vectors]]
-modified: 20210314150826509
+modified: 20210507083334318
 modifier: Leander
 tags: [[Lineare Algebra]]
 title: Koordinatensystem
@@ -18,7 +18,7 @@ $$
 Man nennt $$\Phi_\mathcal B$$ das durch $$\mathcal B$$ bestimmte //Koordinatensystem// und
 $$
 x=(x_1,\ldots,x_n) =
-\Phi_\mathcal B^{-1}(v) \eqqcolon
+{\Phi_{\mathcal B}}^{-1}(v) \eqqcolon
 [v]_\mathcal B
 \in K^n
 $$

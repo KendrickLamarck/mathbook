@@ -1,10 +1,10 @@
 created: 20200327181342825
-modified: 20200921152646851
+modified: 20210422150657059
 tags: Koordinatensystem
 title: Covariant and contravariant vectors
 type: text/vnd.tiddlywiki
 
-Let $$V$$ be an $$n$$-dimensional $$F$$-vector space with bases $$\mathcal B_1=(v_1,\dots,v_n)$$ and $$\mathcal B_2=(w_1,\dots,w_n)$$ and $$A \in K^{n \times n}$$ such that $$\mathcal B_2=\mathcal B_1 A.$$ We say a vector is //contravariant// if its coordinates transform with $$A^{-1}$$ under this change of coordinates and //covariant// if it transforms with $$A.$$
+Let $$V$$ be an $$n$$-dimensional $$F$$-vector space with bases $$\mathcal B_1=(v_1,\dots,v_n)$$ and $$\mathcal B_2=(w_1,\dots,w_n)$$ and $$A \in F^{n \times n}$$ such that $$\mathcal B_2=\mathcal B_1 A.$$ We say a vector is //contravariant// if its coordinates transform with $$A^{-1}$$ under this change of coordinates and //covariant// if they transform with $$A.$$
 
 * For vectors $$v \in V,$$ we have $$[v]_{\mathcal B_2}=A^{-1}[v]_{\mathcal B_1},$$ so they are contravariant.
 * For vectors $$\alpha \in V^*,$$ we get $$[\alpha]_{{\mathcal B_2}^*}=[\alpha]_{{\mathcal B_1}^*}A,$$ so they are covariant.

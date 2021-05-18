@@ -1,6 +1,6 @@
 created: 20180330141932286
 creator: Leander
-modified: 20210314150644209
+modified: 20210512224022396
 modifier: Leander
 tags: Koordinatensystem
 title: Transformationsmatrix
@@ -10,4 +10,4 @@ Seien in $$V$$ zwei [[Basen|Basis]] $$\mathcal A=(v_1,\ldots,v_n)$$ und $$\mathc
 $$
 T_\mathcal B^\mathcal A\coloneqq\Phi_\mathcal B^{-1}\circ \Phi_\mathcal A
 $$
-Die [[Koordinaten|Koordinatensystem]] aus $$\mathcal A$$ in die von $$\mathcal B$$ um.
+Die [[Koordinaten|Koordinatensystem]] aus $$\mathcal A$$ in die von $$\mathcal B$$ um. Formal kann man das schreiben als $$\mathcal{A} = \mathcal{B} T_\mathcal B^\mathcal A.

@@ -1,6 +1,6 @@
 caption: Projective model
 created: 20190426105555535
-modified: 20201205171017108
+modified: 20210604125011739
 tags: [[Hyperbolic geometry]]
 title: Projective model of hyperbolic geometry
 type: text/vnd.tiddlywiki
@@ -31,7 +31,7 @@ $$
 
 !! The other one
 
-We can obtain another model of $$n$$-dimensional hyperbolic geometry as a [[subgeometry|Subgeometry]] of $$n$$-dimensional [[Möbius geometry]] by taking its [[projective model|Projective model of Möbius geometry]] and considering the subgroup of $$\PO(n+1,1)$$ that fixes a point $$[p]$$ outside of $$S^n$$ and maps one of its hemispheres (bounded by the polar plane of $$[p]$$) to itself. The space is said hemisphere (or the other one) and the transformation group is $$\mathrm{PO}(n,1).$$ We also get the distance function $$d_\mathrm{hyp}$$ given by
+We can obtain another model of $$n$$-dimensional hyperbolic geometry as a [[subgeometry|Subgeometry]] of $$n$$-dimensional [[Möbius geometry]] by taking its [[projective model|Projective model of Möbius geometry]] and considering the subgroup of $$\PO(n+1,1)$$ that fixes a point $$[p]$$ outside of $$\sphere^n$$ and maps one of its hemispheres (bounded by the polar plane of $$[p]$$) to itself. The space is said hemisphere (or the other one) and the transformation group is $$\mathrm{PO}(n,1).$$ We also get the distance function $$d_\mathrm{hyp}$$ given by
 $$
 \frac
 {\langle x,y\rangle_{n+1,1}}

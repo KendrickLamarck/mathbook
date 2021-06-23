@@ -1,6 +1,6 @@
 created: 20180725185440325
 creator: Leander
-modified: 20210314150026303
+modified: 20210622122009560
 modifier: Leander
 tags: Skalarprodukt
 title: Adjungierte Abbildung
@@ -12,7 +12,7 @@ $$
 $$
 Sie heißt auch die zu $$F$$ //adjungierte Abbildung,// denn es gilt
 $$
-F^\mathrm{ad}=\Psi_V^{-1}\circ F^*\circ\Psi_W,
+F^\mathrm{ad}=\Psi_V{}^{-1}\circ F^*\circ\Psi_W,
 $$
 siehe auch [[Duale Basis]] und [[Duale Abbildung]]. Man zeichne ein Diagramm.
 

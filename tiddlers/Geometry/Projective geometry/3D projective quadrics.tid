@@ -1,5 +1,5 @@
 created: 20210126131937547
-modified: 20210126141626125
+modified: 20210526120446330
 tags: [[Projective geometry]] no-toc
 title: 3D projective quadrics
 type: text/vnd.tiddlywiki
@@ -22,4 +22,4 @@ In the neutral case we also have:
 
 * $$Q$$ contains two families of pairwise skew lines, and each line of the first family intersects each line of the second family.
 
-* Since $$\Bbb R\mathrm P^1$$ is [[homeomorphic|Homöomorphismus]] to the circle $$S^1,\ Q$$ is homeomorphic to $$S^1\times S^1,$$ so it is topologically a torus.
+* Since $$\Bbb R\mathrm P^1$$ is [[homeomorphic|Homöomorphismus]] to the circle $$\sphere^1,\ Q$$ is homeomorphic to $$\sphere^1 \times \sphere^1,$$ so it is topologically a torus.

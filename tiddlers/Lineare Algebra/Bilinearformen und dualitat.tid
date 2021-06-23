@@ -1,6 +1,6 @@
 created: 20180725181904424
 creator: Leander
-modified: 20210314150138687
+modified: 20210622120430936
 modifier: Leander
 tags: Dualraum Bilinearform
 title: Bilinearformen und dualität
@@ -19,4 +19,4 @@ $$
 $$
 eine nicht entartete symmetrische Bilinearform. Mit dieser Identifikation können wir Begriffe wie Symmetrie und Definitheit von $$\langle\cdot,\cdot\rangle_\Psi$$ auf $$\Psi$$ übertragen.
 
-unter der natürlichen Identifikation $$V = V^{**}$$ gilt: Ist $$\Psi\colon V \to V^*$$ ein symmetrischer operator, so ist $$\ker A = \img A^0.$$
+unter der natürlichen Identifikation $$V = V^{**}$$ gilt: Ist $$\Psi\colon V \to V^*$$ ein symmetrischer operator, so ist $$\ker\Psi = \img\Psi^0.$$

@@ -1,15 +1,16 @@
 created: 20200426155954489
 list: [[Symmetries in the additive group of real numbers]] [[Finite subgroups of O(2)]]
-modified: 20200528110001112
-revision: 0
+modified: 20210716124946485
 tags: [[Euclidean geometry]]
 title: Euclidean group
 type: text/vnd.tiddlywiki
 
 Let $$\tau_a$$ be the translation action on $$\Bbb E^n \coloneqq (\R^n,\lang\cdot,\cdot\rang)$$ and let $$\O_n$$ be the orthogonal group.
 
+@@.theorem
 ''Proposition.''
 Every distance-preserving map $$\varphi\colon \Bbb E^n \to \Bbb E^n$$ can be written uniquely as the product of a translation and an origin-preserving isometry $$Q \in \O_n.$$ It then also follows that $$\varphi$$ is surjective, i.e. an isometry.
+@@
 
 We call the isometry group of euclidean space $$\Bbb E^n$$ the //euclidean group// $$\mathrm E_n.$$
 
@@ -27,8 +28,10 @@ $$</div>
 
 !! Euclidean motions as products of reflections
 
+@@.theorem
 ''Theorem.''
 Any Euclidean motion $$\varphi \in E_n$$ is the product of at most $$k$$ reflections, where $$k = n-\dim\operatorname{Fix}(\varphi)$$ is the codimension of the fixed point set (where we set $$\dim\varnothing \coloneqq  -1$$).
+@@
 
 ''Corollary.''
 Any $$\varphi \in \O_n$$ can be written as the product of at most $$n$$ reflections.

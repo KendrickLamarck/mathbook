@@ -1,12 +1,8 @@
 caption: Congruence
 created: 20181119134706954
-modified: 20200929131242538
+modified: 20210628133640084
 tags: [[Hyperbolic geometry]] no-toc
 title: Congruence in hyperbolic space
 type: text/vnd.tiddlywiki
 
-Two figures in [[hyperbolic space|Hyperbolic geometry]] $$H^n$$ are //congruent// if they are related by an [[orthogonal transformation|Orthogonale Gruppen]]
-$$
-A\in \O^+(n,1),
-$$
-which is the isometry group of $$H^n.$$
+Two figures in [[hyperbolic space|Hyperbolic geometry]] $$H^n$$ are //congruent// if they are related by an [[orthogonal transformation|Orthogonale Gruppen]] $$A\in \O^+(n,1),$$ which is the isometry group of $$H^n.$$

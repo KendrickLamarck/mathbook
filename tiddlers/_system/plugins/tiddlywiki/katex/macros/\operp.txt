@@ -1,0 +1,1 @@
+\mathbin{\perp\kern-21mu{\bigcirc}}

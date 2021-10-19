@@ -1,7 +1,0 @@
-{
-	"title": "$:/plugins/tiddlywiki/katex",
-	"name": "KaTeX",
-	"description": "KaTeX library for mathematical typography",
-	"list": "readme usage",
-	"library-version": "compiled on 2021-02-14"
-}

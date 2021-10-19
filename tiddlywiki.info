@@ -5,6 +5,7 @@
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
         "tiddlywiki/mobiledragdrop",
+        "tiddlywiki/katex",
         "flibbles/relink"
     ],
     "themes": [

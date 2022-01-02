@@ -1,5 +1,5 @@
 created: 20200512210316659
-modified: 20200713161738860
+modified: 20211219194741732
 tags: [[Variation (plane curves)]]
 title: Fundamental lemma of calculus of variations
 type: text/vnd.tiddlywiki
@@ -17,6 +17,7 @@ $$\begin{aligned}
 
 In particular, all variational vector fields of variations of plane curves with compact support are contained in $$\smooth_0^\infty([a,b],\R^2).$$
 
+@@.theorem
 ''Lemma.''
 For all vector fields
 $$Y \in \smooth_0^\infty([0,L],\R^2)$$
@@ -24,7 +25,7 @@ and every parametrized curve there is a variation $$\gamma$$ such that $$\dot\ga
 
 ''Lemma (fundamental lemma of calculus of variations).''
 On the vector space $$\smooth^\infty[a,b]$$ equipped with the $$L^2$$-[[inner product|Lp-Räume]] we have
-
 $$
 (\smooth_0^\infty[a,b])^\perp = \{0\}.
 $$
+@@

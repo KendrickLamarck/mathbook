@@ -1,6 +1,6 @@
 created: 20180611221544130
 creator: Leander
-modified: 20210121183558020
+modified: 20211107205850526
 modifier: Leander
 tags: no-toc [[Höhere Ableitungen]]
 title: Höhere Ableitungen auf dem Rn
@@ -14,11 +14,5 @@ gegeben, so gilt
 $$
 \D_p^k f(v_1,\dots,v_k)=
 \sum_{i_1,\dots,i_k=1}^n
-\partial_{i_1}\cdots\,\partial_{i_k} f(p) v_{{i_1}1}\cdots\, v_{{i_k}k}.
-$$
-
-$$
-\D_p^k f(v_1,\dots,v_k)=
-\sum_{i_1,\dots,i_k=1}^n
-\frac{\partial^k f}{\partial x_{i_1}\cdots\partial x_{i_k}}(p) v_{{i_1}1}\cdots\, v_{{i_k}k}.
+\partial_{i_1}\cdots\partial_{i_k}f(p) v_{{i_1}1}\cdots\, v_{{i_k}k}.
 $$

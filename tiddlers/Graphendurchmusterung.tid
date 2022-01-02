@@ -1,17 +1,15 @@
 created: 20180413121341293
 creator: Leander
-modified: 20180712123345363
+modified: 20211230233308020
 modifier: Leander
-revision: 0
 tags: Graph Algorithmus
 title: Graphendurchmusterung
+type: text/vnd.tiddlywiki
 
 Dieser Algorithmus findet in einem [[Graphen|Graph]] zu einem Knoten $$r$$ alle von $$r$$ aus erreichbaren Knoten, also genau die Menge
-
 $$
 U_r=\{\,v\in V:\exists r\text{-}v\text{-Weg in }G\,\}.
 $$
-
 Die gefundenen Kanten bilden einen $$U_r$$ aufspannenden [[Baum]] bzw. eine [[Arboreszenz]] mit Wurzel $$r$$.
 
 !! Breitensuche

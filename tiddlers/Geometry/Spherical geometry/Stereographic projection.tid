@@ -1,6 +1,6 @@
 created: 20190210221038641
 creator: Leander
-modified: 20210314154400126
+modified: 20211026170826707
 modifier: Leander
 tags: [[Spherical geometry]]
 title: Stereographic projection
@@ -36,13 +36,14 @@ Stereographic projection induces the Riemannian metric
 $$
 g_p(v,w) = \frac 4 {\left(1+\|p\|^2\right)^2} \lang v,w \rang
 $$
-on $$\R^2.$$ From this, we can see that stereographic projection is conformal.
+on $$\R^2.$$ From this, we can see that stereographic projection is [[conformal|Conformal map]].
 
 !! Projective
 
 $$\sphere^n=\{\, [x]\in\RP^{n+1}\mid \langle x,x\rangle_{n+1,1}=0 \,\}$$ can be mapped to $$\overhat{0}{-1}{\R}^n$$ bijectively via stereographic projection:
-$$
-\sigma\colon \begin{bmatrix}
+$$\begin{gathered}
+\sigma\colon \sphere^n \setminus \{e_\infty\} \to \R^n, \qquad
+\begin{bmatrix}
   x_1     \\
   \vdots  \\
   x_{n+2} \\
@@ -53,17 +54,13 @@ $$
   x_1    \\
   \vdots \\
   x_n    \\
-\end{pmatrix}.
-$$
-For the direction
-$$\overhat{0}{-1}{\R}^n\to \sphere^n$$
-we get
-$$
-\sigma^{-1}\colon \R^n \ni u\mapsto
+\end{pmatrix}, \\
+\sigma^{-1}\colon \R^n \to \sphere^n \setminus \{e_\infty\}, \qquad
+u \mapsto
 \begin{bmatrix}
   2u        \\
   \|u\|^2-1 \\
   \|u\|^2+1
 \end{bmatrix}.
-$$
-$$\infty$$ is mapped to the north pole $$[e_\infty]=[e_{n+1}+e_{n+2}]$$ and vice versa.
+\end{gathered}$$
+The missing point, the north pole $$[e_\infty]=[e_{n+1}+e_{n+2}],$$ is mapped to $$\infty \in \overhat{0}{-1}{\R}^n$$ and vice versa.

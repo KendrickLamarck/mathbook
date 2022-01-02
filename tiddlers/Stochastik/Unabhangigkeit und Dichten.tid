@@ -1,6 +1,5 @@
 created: 20190708232139709
-modified: 20200530214709520
-revision: 0
+modified: 20211230125214193
 tags: [[Gemeinsame Verteilung]] no-toc
 title: Unabhängigkeit und Dichten
 type: text/vnd.tiddlywiki
@@ -10,4 +9,7 @@ Seien $$X_1,\dots,X_n$$ reellwertige Zufallsvariablen. Besitzen diese eine [[gem
 # $$X_1,\dots,X_n$$ [[unabhängig|Stochastische Unabhängigkeit]],
 # $$f_\Bbb X(x_1,\dots,x_n)=f_{X_1}(x_1)\cdots f_{X_n}(x_n)$$ für alle $$(x_1,\dots,x_n)\in\R^n.$$
 
-Sind umgekehrt $$X_1,\dots,X_n$$ unabhängig und besitzen die [[Dichten|Dichte]] $$f_{X_1},\dots,f_{X_n},$$ so besitzen sie auch eine gemeinsame Dichte und es gilt $$f_\Bbb X(x_1,\dots,x_n)=f_{X_1}(x_1)\cdots f_{X_n}(x_n).$$
+Sind umgekehrt $$X_1,\dots,X_n$$ unabhängig und besitzen die [[Dichten|Dichte]] $$f_{X_1},\dots,f_{X_n},$$ so besitzen sie auch eine gemeinsame Dichte und es gilt
+$$
+f_\Bbb X(x_1,\dots,x_n)=f_{X_1}(x_1)\cdots f_{X_n}(x_n).
+$$

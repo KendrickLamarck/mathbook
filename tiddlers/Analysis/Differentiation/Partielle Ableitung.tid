@@ -1,6 +1,6 @@
 created: 20180605165108462
 creator: Leander
-modified: 20210105164031348
+modified: 20211024131444842
 modifier: Leander
 tags: no-toc Richtungsableitung
 title: Partielle Ableitung
@@ -9,6 +9,6 @@ type: text/vnd.tiddlywiki
 Sei $$G\subset \mathbb R^n$$ [[offen|Offenheit]], $$W$$ ein endlichdimensionaler [[Banachraum]], $$f\colon \mathbb R^n\supset G\to W$$ eine Abbildung und $$e_1,\dots,e_n$$ die kanonische Basis des $$\mathbb R^n.$$ Dann heißen die [[Richtungsableitungen|Richtungsableitung]] $$\partial_{e_i}f(p)$$ die //partiellen Ableitungen// von $$f$$ in $$p.$$ Man schreibt auch
 $$
 \fracpartial{f}{x_i}(p)=
-\partial_i f(p)=
+\partial_i f(p) \coloneqq
 \partial_{e_i} f(p).
 $$

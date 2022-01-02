@@ -1,6 +1,6 @@
 created: 20200116215220084
 list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]] [[Ricci curvature]] [[Scalar curvature]]
-modified: 20210123150048694
+modified: 20211127125959463
 tags: [[Intrinsic differential geometry]]
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ $$
 R(X,Y,Z,W)\coloneqq \langle R(X,Y)Z,W\rangle.
 $$
 ''Remark.''
-This can be defined in the same way for any connection $$\nabla$$ on a [[vector Bundle|Vector bundle]] $$E,$$ but we will only consider the curvature coming from the Levi-Civita connection.
+This can be defined in the same way for any [[connection|Connection]] $$\nabla$$ on a [[vector Bundle|Vector bundle]] $$E,$$ but we will only consider the curvature coming from the Levi-Civita connection.
 
 !!! Properties
 

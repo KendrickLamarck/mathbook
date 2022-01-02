@@ -1,20 +1,16 @@
 created: 20190708232345343
-modified: 20200514131112969
-revision: 0
+modified: 20211230125133177
 tags: [[Gemeinsame Verteilung]]
 title: Gemeinsame Dichte
 type: text/vnd.tiddlywiki
 
 Eine [[gemeinsame Verteilungsfunktion|Gemeinsame Verteilungsfunktion]] heißt //absolutstetig,// wenn es eine gemeinsame [[Dichte]] $$f_\Bbb X\colon\R^n\to[0,\infty[$$ gibt, so dass
-
 $$
 F_\Bbb X(x_1,\dots,x_n)=
 \int_{-\infty}^{x_1}\cdots\int_{-\infty}^{x_n}
 f_\Bbb X(y_1,\dots,y_n)\,\mathrm dy_n\cdots\mathrm dy_1.
 $$
-
 In diesem Fall gilt für $$B\in\mathcal B(\R^n)$$
-
 $$
 \Bbb P(\Bbb X\in B)=\int_B f_\Bbb X(y)\,\mathrm d^n y.
 $$

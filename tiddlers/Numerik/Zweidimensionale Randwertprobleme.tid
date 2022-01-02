@@ -1,5 +1,5 @@
 created: 20200218165052298
-modified: 20200920205850295
+modified: 20211227135737388
 tags: Numerik
 title: Zweidimensionale Randwertprobleme
 type: text/vnd.tiddlywiki
@@ -17,12 +17,16 @@ T(x,y) = g_D(x,y), \\
 \end{gathered}$$
 Die Ableitungen stellen wir durch die Differenzenquotienten
 $$\begin{aligned}
-\frac{T(x+h,y)-T(x-h,y)}{2h} &= \fracpartial{T(x,y)}{x} + \mathcal O(h^2) \\
-\frac{T(x,y+h)-T(x,y-h)}{2h} &= \fracpartial{T(x,y)}{y} + \mathcal O(h^2) \\
+\frac{T(x+h,y)-T(x-h,y)}{2h} &= \fracpartial{T(x,y)}{x}
+  + \mathcal O(h^2) \\
+\frac{T(x,y+h)-T(x,y-h)}{2h} &= \fracpartial{T(x,y)}{y}
+  + \mathcal O(h^2) \\
 \frac{T(x-h,y)-2T(x,y)+T(x+h,y)}{h^2} &=
-\fracpartial{^2T(x,y)}{y^2}+ \mathcal O(x^2) \\
+  \fracpartial{^2T(x,y)}{y^2}+
+  \mathcal O(h^2) \\
 \frac{T(x,y-h)-2T(x,y)+T(x,y+h)}{h^2} &=
-\fracpartial{^2T(x,y)}{y^2}+ \mathcal O(h^2)
+  \fracpartial{^2T(x,y)}{y^2}+
+  \mathcal O(h^2)
 \end{aligned}$$
 dar. Wir führen nun ein Gitter $$(x_i,y_j)$$ mit Weiten $$h_x=\frac{b-a}n$$ und $$h_y=\frac{d-c}m$$ ein und definieren die Koeffizienten
 $$\begin{gathered}

@@ -1,5 +1,5 @@
 created: 20191014224850504
-modified: 20200929125048779
+modified: 20220401184016426
 tags: [[Euclidean geometry]] no-toc
 title: Euclidean metric in Möbius space
 type: text/vnd.tiddlywiki
@@ -12,3 +12,5 @@ d_\mathrm{eucl}([x],[y])^2=
 {\langle x,p\rangle_{n+1,1} \langle y,p\rangle_{n+1,1}}
 $$
 is isometric to $$\R^n$$ with the euclidean metric.
+
+Attempted to generalize this here: [[Möbius model of Euclidean geometry]]

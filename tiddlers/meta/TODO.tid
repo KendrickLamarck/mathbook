@@ -1,6 +1,6 @@
 created: 20190206093529806
 creator: Leander
-modified: 20210331162014916
+modified: 20220109164004632
 modifier: Leander
 tags: meta
 title: TODO
@@ -33,6 +33,7 @@ type: text/vnd.tiddlywiki
 * Musical isomorphisms
 * Make the [[Zig-zag lemma]] picture look more zig-zag and less snake
 * Get the woven diagram for the CW boundary map in here. I don't care if it makes sense, I just want to do it. (but make it vertical maybe)
+* Make this more explicitly like a blog
 
 !! Tech ideas
 

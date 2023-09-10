@@ -1,40 +1,34 @@
 created: 20200218165052298
-modified: 20200218213001288
-revision: 0
+modified: 20211227135737388
 tags: Numerik
 title: Zweidimensionale Randwertprobleme
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Betrachte die partielle Differentialgleichung
-
 $$
 -\Delta T + \vec p(x,y)\cdot \grad T + q(x,y) T = s(x,y),\qquad
 (x,y)\in [a,b]\times [c,d]
 $$
-
 mit Dirichlet-, Neumann-, oder Cauchy-Randbedingungen für $$(x,y)\in\partial([a,b]\times [c,d]):$$
-
 $$\begin{gathered}
 T(x,y) = g_D(x,y), \\
 \fracpartial{T(x,y)}{\nu} = g_N(x,y), \\
 \fracpartial{T(x,y)}{\nu} + \alpha T(x,y) = g_C(x,y).
 \end{gathered}$$
-
 Die Ableitungen stellen wir durch die Differenzenquotienten
-
 $$\begin{aligned}
-\frac{T(x+h,y)-T(x-h,y)}{2h} &= \fracpartial{T(x,y)}{x} + \mathcal O(h^2) \\
-\frac{T(x,y+h)-T(x,y-h)}{2h} &= \fracpartial{T(x,y)}{y} + \mathcal O(h^2) \\
+\frac{T(x+h,y)-T(x-h,y)}{2h} &= \fracpartial{T(x,y)}{x}
+  + \mathcal O(h^2) \\
+\frac{T(x,y+h)-T(x,y-h)}{2h} &= \fracpartial{T(x,y)}{y}
+  + \mathcal O(h^2) \\
 \frac{T(x-h,y)-2T(x,y)+T(x+h,y)}{h^2} &=
-\fracpartial{^2T(x,y)}{y^2}+ \mathcal O(x^2) \\
+  \fracpartial{^2T(x,y)}{y^2}+
+  \mathcal O(h^2) \\
 \frac{T(x,y-h)-2T(x,y)+T(x,y+h)}{h^2} &=
-\fracpartial{^2T(x,y)}{y^2}+ \mathcal O(h^2)
+  \fracpartial{^2T(x,y)}{y^2}+
+  \mathcal O(h^2)
 \end{aligned}$$
-
 dar. Wir führen nun ein Gitter $$(x_i,y_j)$$ mit Weiten $$h_x=\frac{b-a}n$$ und $$h_y=\frac{d-c}m$$ ein und definieren die Koeffizienten
-
 $$\begin{gathered}
 \lambda_{i,j} = -\frac{p_1(x_i,y_j)}{2h_x} - \frac{1}{h_x^2},\qquad
 \mu_{i,j} = \frac{p_1(x_i,y_j)}{2h_x} - \frac{1}{h_x^2}, \\
@@ -42,11 +36,8 @@ $$\begin{gathered}
 \alpha_{i,j} = \frac{p_2(x_i,y_j)}{2h_y} - \frac{1}{h_y^2}, \\
 \sigma_{i,j} = q(x_i,y_j) + \frac{2}{h_x^2} + \frac{2}{h_y^2}.
 \end{gathered}$$
-
 Dann sind für $$i=0,\dots,n$$ und $$j=0,\dots,m$$ die Gleichungen für die Näherungen $$u_{i,j}\approx T(x_i,y_j)$$ gegeben durch
-
 $$
 \lambda_{i,j} u_{i-1,j} + \mu_{i,j} u_{i+1,j} + \sigma_{i,j} u_{i,j} + \alpha_{i,j} u_{i,j-1} + \beta_{i,j} u_{i,j+1} = s(x_i,y_i).
 $$
-
 Durch nummerieren dieser Gleichungen, z.B. Zeile für Zeile, können wir dieses System in ein normales Gleichungssystem der Form $$A\vec U=\vec S$$ umwandeln.

@@ -1,20 +1,16 @@
 caption: Höherer Ordnung mit konstanten Koeffizienten
 created: 20181023214304661
-modified: 20200224213249789
-revision: 0
+modified: 20210121193516088
 tags: [[Lineare Differentialgleichung]]
 title: Lineare Differentialgleichung höherer Ordnung mit konstanten Koeffizienten
 type: text/vnd.tiddlywiki
 
 Wir betrachten auf $$J=\mathbb R$$ die homogene [[lineare Differentialgleichung|Lineare Differentialgleichung]]
-
 $$
-x^{(n)}+a_i x^{(n-1)}+\dots+a_{n-1}\dot x+a_n x=0
+x^{(n)}+a_1 x^{(n-1)}+\dots+a_{n-1}\dot x+a_n x=0
 $$
-
 mit $$a_1,\dots,a_n\in\mathbb R.$$
 
-# <div>
 Eine [[Basis]] für den [[Unterraum|Untervektorraum]] aller komplexwertigen Lösungen der Differentialgleichung in $$\mathcal C^n(\mathbb R,\mathbb C)$$ ist gegeben durch die Funktionen
 $$
 x_{ij}(t)=t^j e^{t\lambda_i},\quad 1\le i\le m,\quad 0\le j\le k_i-1.
@@ -24,12 +20,9 @@ $$
 \chi(\lambda)=\lambda^n+a_1\lambda^{n-1}+\dots+a_{n-1}\lambda+a_n
 $$
 der Differentialgleichung und $$k_i$$ ist die [[Vielfachheit|Vielfachheit von Eigenwerten]] der Nullstelle $$\lambda_i.$$
-</div>
 
-# <div>
 Sind die $$a_i$$ reell und besitzt $$\chi(\lambda)$$ nicht-reelle Nullstellen, so treten diese in [[konjugierten|Konjugation]] Paaren gleicher Multiplizität auf. Ist $$\lambda=\alpha\pm i\omega$$ ein solches Paar mit Multiplizität $$k,$$ so erhält man daraus reelle linear unabhängige Lösungen
 $$
 t^j e^{\alpha t}\cos(\omega t),\quad t^j e^{\alpha t}\sin(\omega t),\quad 0\le j\le k-1.
 $$
 Auf diese Weise erhält man eine Basis des reellen Lösungsraumes der Differentialgleichung.
-</div>

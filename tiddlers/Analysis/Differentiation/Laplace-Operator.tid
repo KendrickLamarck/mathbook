@@ -1,15 +1,11 @@
 created: 20190408230348624
-modified: 20191227010152186
-revision: 0
+modified: 20201129152811398
 tags: [[Linearer Differentialoperator]]
 title: Laplace-Operator
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
-Für $$f\colon \R^n\supset U\to\R$$ definieren wir den Laplace-Operator durch
-
+Für $$f\colon \R^n\supset U\to\R$$ oder $$f \in \smooth^\infty(M),$$ wobei $$M$$ eine Riemann'sche Mannigfaltigkeit ist, definieren wir den //Laplace-Operator// (engl. //Laplacian//) durch
 $$
-\Delta f\coloneqq\operatorname{div}\nabla f=
-\sum_{k=1}^n \frac{\partial^2 f}{\partial x_k^2}.
+\Delta f\coloneqq\divergence\grad f= \tr H_f =
+\sum_{k=1}^n \frac{\partial^2 f}{\partial x_k{}^2}.
 $$

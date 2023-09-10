@@ -1,9 +1,8 @@
 created: 20171225174256707
 creator: Leander
-modified: 20191011202817767
+modified: 20201113193904990
 modifier: Leander
-revision: 0
-tags: no-toc Äquivalenzrelation
+tags: no-toc Mengenlehre
 title: Äquivalenzklasse
 type: text/vnd.tiddlywiki
 
@@ -13,10 +12,8 @@ Ist eine [[Äquivalenzrelation]] $$\sim$$ auf einer Menge $$X$$ gegeben, so hei�
 # $$x,y \in A \implies x \sim y$$.
 # $$x \in A,\, y \in X,\, x \sim y \implies y \in A.$$
 
-Jedes Element $$a \in X$$ gehört zu genau einer Äquivalenzklasse, also sind zwei Äquivalenzklassen entweder gleich oder disjunkt. Die Menge der disjunkten Äquivalenzklassen bezeichnet man als $$X/\!\sim$$ oder die //Quotientenmenge// von $$X$$ nach der Äquivalenzrelation $$\sim$$. Es gibt also eine kanonische (in einer Situation eindeutig festgelegte) [[Abbildung]]
-
+Jedes Element $$a \in X$$ gehört zu genau einer Äquivalenzklasse, also sind zwei Äquivalenzklassen entweder gleich oder disjunkt. Die Menge der disjunkten Äquivalenzklassen bezeichnet man als $$X/\!\sim$$ oder die //Quotientenmenge// von $$X$$ nach der Äquivalenzrelation $$\sim$$. Es gibt also eine kanonische [[Abbildung]]
 $$
 X \to X/\!\sim, \quad a \mapsto A_a
 $$
-
 die jedem $$a$$ die Äquivalenzklasse $$A_a$$ zuordnet, in der es enthalten ist. Jedes $$a \in A$$ heißt ein Repräsentant der Äquivalenzklasse $$A$$. Das Urbild eines Elements $$A\in X/\!\sim$$ ist $$A\subseteq X$$.

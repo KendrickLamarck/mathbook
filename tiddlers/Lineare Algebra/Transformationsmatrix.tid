@@ -1,16 +1,13 @@
 created: 20180330141932286
 creator: Leander
-modified: 20180705220417711
+modified: 20210512224022396
 modifier: Leander
-revision: 0
 tags: Koordinatensystem
 title: Transformationsmatrix
 type: text/vnd.tiddlywiki
 
 Seien in $$V$$ zwei [[Basen|Basis]] $$\mathcal A=(v_1,\ldots,v_n)$$ und $$\mathcal B=(w_1,\ldots,w_n)$$ gegeben. Dann rechnet die //Transformationsmatrix//
-
 $$
 T_\mathcal B^\mathcal A\coloneqq\Phi_\mathcal B^{-1}\circ \Phi_\mathcal A
 $$
-
-Die [[Koordinaten|Koordinatensystem]] aus $$\mathcal A$$ in die von $$\mathcal B$$ um.
+Die [[Koordinaten|Koordinatensystem]] aus $$\mathcal A$$ in die von $$\mathcal B$$ um. Formal kann man das schreiben als $$\mathcal{A} = \mathcal{B} T_\mathcal B^\mathcal A.

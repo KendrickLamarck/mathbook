@@ -1,36 +1,28 @@
 caption: Paraboloid model
 created: 20191013021930147
-modified: 20191013033914146
-revision: 0
+modified: 20210313191300243
 tags: [[Möbius geometry]]
 title: Paraboloid model of Möbius geometry
 type: text/vnd.tiddlywiki
 
-Consider $$S^n\subset\R\mathrm P^{n+1}$$ as the image of $$\widehat\R^n$$ under [[stereographic projection|Stereographic projection]]. If we define
-
+Consider $$\sphere^n\subset\R\mathrm P^{n+1}$$ as the image of $$\overhat{0}{-1}{\R}^n$$ under [[stereographic projection|Stereographic projection]]. If we define
 $$
 e_\infty\coloneqq\frac 1 2 (e_{n+1}+e_{n+2}),\quad
 e_0     \coloneqq\frac 1 2 (-e_{n+1}+e_{n+2}),
 $$
-
 then $$[e_\infty]$$ is the north pole and the image of $$\infty$$ and $$[e_0]$$ is the south pole and the image of $$0.$$ If we now use the basis $$\mathcal B=(e_1,\dots,e_n,e_\infty,e_0)$$ and dehomogenize by dividing by the $$e_0$$-coordinate, stereographic projection becomes
-
 $$
 u\mapsto \begin{pmatrix} u \\ \|u\|^2 \end{pmatrix}
 $$
-
 and its image is the paraboloid $$u_{n+1}=\|u\|^2,$$ so stereographic projection becomes vertical projection to a paraboloid.
 
 In the new basis, the Lorentz scalar product becomes
-
 $$
 \langle x,y\rangle=x_1y_1+\dots+x_ny_n
                    -\frac 1 2 x_\infty y_0
                    -\frac 1 2 x_0 y_\infty
 $$
-
-By the pole-polar relationship, Hyperspheres in $$\widehat\R^n$$ correspond to points outside the paraboloid, just as in the sphere model. The sphere with center $$c\in\R^n$$ and radius $$r$$ corresponds to the point
-
+By the pole-polar relationship, Hyperspheres in $$\overhat{0}{-1}{\R}^n$$ correspond to points outside the paraboloid, just as in the sphere model. The sphere with center $$c\in\R^n$$ and radius $$r$$ corresponds to the point
 $$
 \begin{bmatrix}
 c           \\
@@ -38,9 +30,7 @@ c           \\
 1           \\
 \end{bmatrix},
 $$
-
 which is the point a distance of $$r^2$$ below the image of $$c.$$ The hyperplane with equation $$(v,u)-b=0$$ corresponds to the point
-
 $$
 \begin{bmatrix}
 v  \\
@@ -48,13 +38,11 @@ v  \\
 0  \\
 \end{bmatrix}.
 $$
-
-Thus, hyperspheres and hyperplanes correspond to points $$[s_1,\dots,s_n,s_\infty,s_0]$$ with $$s_1^2+\dots+s_n^2-s_\infty s_0>0.$$
+Thus, hyperspheres and hyperplanes correspond to points $$[s_1,\dots,s_n,s_\infty,s_0]$$ with $$s_1{}^2+\dots+s_n{}^2-s_\infty s_0>0.$$
 
 * If $$s_0=0,$$ the point corresponds to a hyperplane in $$\R^n$$ with normal vector $$(s_1,\dots,s_n).$$
-
-* If $$s_0\ne 0,$$ it corresponds to a sphere with center $$c$$ and radius $$r$$ determined by<div>
+* <div>If $$s_0\ne 0,$$ it corresponds to a sphere with center $$c$$ and radius $$r$$ determined by
 $$
   c=\frac 1 {s_0} (s_1,\dots,s_n),\quad
-r^2=\frac 1 {s_0} (s_1^2+\dots+s_n^2-s_0 s_\infty).
-$$
+r^2=\frac 1 {s_0} (s_1{}^2+\dots+s_n{}^2-s_0 s_\infty).
+$$</div>

@@ -1,4 +1,3 @@
-[is[system]removeprefix[$:/]addprefix[_system/]]
-[tag[Journal]addprefix[journal/]]
-[suffix[.js]removesuffix[.js]]
-[suffix[.css]removesuffix[.css]]
+[is[system]removeprefix[$:/]addprefix[_system/]trim[.js]trim[.svg]trim[.jpg]trim[.png]]
+[is[draft]search-replace:g:regexp[/|\\],[_]addprefix[drafts/]]
+[tag[meta]addprefix[meta/]]

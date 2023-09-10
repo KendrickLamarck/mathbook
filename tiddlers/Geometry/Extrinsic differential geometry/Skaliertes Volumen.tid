@@ -1,17 +1,14 @@
 caption: Skalierung
 created: 20190205153021753
 creator: Leander
-modified: 20191228164739207
+modified: 20210323113738313
 modifier: Leander
-revision: 0
 tags: [[Integrale über Untermannigfaltigkeiten des Rn]] Volumen no-toc
 title: Skaliertes Volumen
 type: text/vnd.tiddlywiki
 
 Sei $$r\in{]0,\infty[}$$ und $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Untermannigfaltigkeit]]. Dann ist $$rM\coloneqq \{rm:m\in M\}$$ ebenfalls eine $$k$$-dimensionale Untermannigfaltigkeit. Eine Funktion $$f\colon rM\to\Bbb R$$ ist genau dann über $$rM$$ [[integrierbar|Integrale über Untermannigfaltigkeiten des Rn]], wenn die Abbildung $$x\mapsto f(rx)$$ über $$M$$ integrierbar ist und dann gilt
-
 $$
 \int_{rM} f(y)\,\Bbb S(\mathrm dy)=r^k\int_M f(rx)\,\Bbb S(\mathrm dx).
 $$
-
 Insbesondere ist für jede integrierbare Teilmenge $$A$$ von $$M$$ auch die Menge $$rA$$ integrierbar mit $$\operatorname{Vol}_k(rA)=r^k\operatorname{Vol}_k(A).$$

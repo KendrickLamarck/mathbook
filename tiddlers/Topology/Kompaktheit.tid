@@ -1,15 +1,24 @@
 created: 20171225165829992
 creator: Leander
 list: [[Offene Überdeckung]] [[Teilmengen kompakter Mengen]] [[Kompaktheit in metrischen Räumen]] Folgenkompaktheit [[Kompakte Teilmengen metrischer Räume]] [[Kompaktheit in R]] [[Kompaktheit von Quadern]] [[Satz von Heine-Borel]] [[Kompaktheit und Vollständigkeit]] [[Lebesgue'sche Zahl]] [[Satz von Bolzano-Weierstraß]] [[Stetige Funktionen und Kompaktheit]]
-modified: 20191011231050487
+modified: 20210108193030901
 modifier: Leander
-revision: 0
 tags: Topologie
 title: Kompaktheit
 type: text/vnd.tiddlywiki
 
 Seien $$(X,d)$$ ein [[topologischer Raum|Topologie]] und $$A\subset X$$. $$A$$ heißt //kompakt//, wenn jede [[offene Überdeckung|Offene Überdeckung]] von $$A$$ eine endliche Teilüberdeckung von $$A$$ enthält, also wenn gilt: Ist $$(U_i)_{i\in I}$$ eine offene Überdeckung von $$A$$, dann gibt es eine endliche Teilmenge $$K\subset I$$, so dass
-
 $$
 A\subset \bigcup_{i\in K} U_i.
 $$
+
+* {{Teilmengen kompakter Mengen}}
+* Wenn $$f\colon X \to Y$$ stetig und $$X$$ kompakt ist, ist $$f(X) \subseteq Y$$ kompakt.
+
+! In metrischen Räumen
+
+{{Kompaktheit in metrischen Räumen}}
+
+! Im euklidischen Raum
+
+{{Kompaktheit in R}}

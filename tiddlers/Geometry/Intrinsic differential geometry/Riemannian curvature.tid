@@ -1,37 +1,32 @@
 created: 20200116215220084
 list: [[Flat manifolds]] [[Sectional curvature]] [[Isotropic manifold]] [[Manifolds of constant curvature]] [[Bianchi identity]] [[Ricci curvature]] [[Scalar curvature]]
-modified: 20200407063108883
-revision: 0
-tags: Differentialgeometrie
+modified: 20211127125959463
+tags: [[Intrinsic differential geometry]]
 title: Riemannian curvature
 type: text/vnd.tiddlywiki
 
 On a [[Riemannian manifold|Riemannian metric]] with [[Levi-Civita connection]] $$\nabla,$$ we define the  //Riemannian curvature operator// by
-
 $$
 R(X,Y)Z\coloneqq \nabla_X(\nabla_Y Z)-\nabla_Y(\nabla_X Z)-\nabla_{[X,Y]}Z.
 $$
-
 We further define the //Riemannian curvature tensor// by
-
 $$
 R(X,Y,Z,W)\coloneqq \langle R(X,Y)Z,W\rangle.
 $$
-
 ''Remark.''
-This can be defined in the same way for any connection $$\nabla$$ on a [[vector Bundle|Vector bundle]] $$E,$$ but we will only consider the curvature coming from the Levi-Civita connection.
+This can be defined in the same way for any [[connection|Connection]] $$\nabla$$ on a [[vector Bundle|Vector bundle]] $$E,$$ but we will only consider the curvature coming from the Levi-Civita connection.
 
 !!! Properties
 
-* On a Riemannian manifold, the curvature operator $$R(X,Y)Z$$ is tensorial, i.e. its value at $$p$$ depends only on $$X_p,Y_p$$ and $$Z_p.$$ In particular, $$R(X_p,Y_p)$$ is a linear operator on $$\T_p M.$$
+* The curvature operator $$R(X,Y)Z$$ is tensorial, i.e. its value at $$p$$ depends only on $$X_p,Y_p$$ and $$Z_p.$$ In particular, $$R(X_p,Y_p)$$ is a linear operator on $$\T_p M.$$
 * The Riemannian curvature satisfies the following symmetries:
 
 *# $$R(X,Y) = -R(Y,X),$$
-*# $$\langle R(X,Y)Z, W\rangle= \langle R(X,Y)W, Z\rangle,$$
+*# $$\langle R(X,Y)Z, W\rangle= -\langle R(X,Y)W, Z\rangle,$$
 *# $$R(X,Y)Z + R(Y,Z)X + R(Z,X)Y = 0,$$ @@float:right;(first Bianchi identity)@@
 *# $$\langle R(X,Y)Z, W\rangle= \langle R(Z,W)X, Y\rangle.$$
 
-* <div>Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\char"22c0_2 \T_p M$$
+* <div>Properties 1, 2 and 4 imply that the Riemannian curvature Tensor can be thought of as the symmetric bilinear form on $$\Lambda_2 \T_p M$$
 
 $$
 S(X\wedge Y,Z\wedge W)\coloneqq -\langle R(X,Y)Z,W\rangle
@@ -44,20 +39,18 @@ extended by bilinearity to non-simple 2-vectors.</div>
 !! In coordinates
 
 In coordinates $$(U, \varphi)$$ with respect to the coordinate frame $$\{\partial_i\},$$ the curvature operator and curvature tensor have components given by
-
 $$\begin{aligned}
-R(\partial_k, \partial_l) \partial_i &\eqqcolon 
+R(\partial_k, \partial_l) \partial_i &= 
 \sum {R^j}_{ikl} \partial_j, \\
-\langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &\eqqcolon
+\langle R(\partial_k, \partial_l) \partial_i, \partial_j \rangle &=
 R_{ijkl} = \sum g_{jm} {R^m}_{ikl},
 \end{aligned}$$
-
 where
-
 $$
 {R^j}_{ikl} =
 \partial_k {\varGamma^{\,j}}_{il} - \partial_l {\varGamma^{\,j}}_{ik}
-+ \sum_m \left(
-{\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -
-{\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml} \right)
++ \sum_m {\left(
+  {\varGamma^{\,m}}_{il} {\varGamma^{\,j}}_{mk} -
+  {\varGamma^{\,m}}_{ik} {\varGamma^{\,j}}_{ml}
+\right)}.
 $$

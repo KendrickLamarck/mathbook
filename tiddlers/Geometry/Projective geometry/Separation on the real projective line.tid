@@ -1,21 +1,21 @@
 caption: Separation
 created: 20190114140648880
 creator: Leander
-modified: 20191116145524516
+modified: 20200929130029952
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]]
 title: Separation on the real projective line
 type: text/vnd.tiddlywiki
 
 An unordered pair $$\{A,B\}$$ of points in $$\RP^1$$ //separates// an unordered pair $$\{C,D\}\subset\RP^1$$ if $$C$$ and $$D$$ are in different [[connected|Zusammenhang]] components of $$\RP^1\setminus\{A,B\}.$$
 
+@@.theorem
 ''Theorem.''
 This is the case if and only if
-
 $$
 \crossratio(D,A,C,B)<0.
 $$
+@@
 
 !! Harmonic separation
 

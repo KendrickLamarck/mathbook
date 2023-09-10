@@ -1,18 +1,17 @@
 created: 20190114141921569
 creator: Leander
-modified: 20191116145628956
+modified: 20210314153624861
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]] no-toc
 title: Harmonic position
 type: text/vnd.tiddlywiki
 
 Two pairs of points $$\{A,B\},\{P,Q\}$$ in $$\RP^1$$ are in //harmonic position// (or $$\{A,B\}$$ [[separates|Separation on the real projective line]] $$\{P,Q\}$$ //harmonically//) if
-
 $$
 \crossratio(A,P,B,Q)=-1.
 $$
 
-!! Theorem on the complete quadrilateral
-
+@@.theorem
+''Theorem on the complete quadrilateral.''
 {{Theorem on the complete quadrilateral}}
+@@

@@ -1,13 +1,11 @@
 created: 20191102205134496
-modified: 20191116145559859
-revision: 0
+modified: 20200929125617054
 tags: [[Projective geometry]]
 title: Cayley-Klein metric
+type: text/vnd.tiddlywiki
 
 Let $$Q$$ be a [[quadric|Projective quadric]] in $$\RP^n$$ defined by the [[quadratic form|Quadratische Form]] $$q.$$ For two points $$A,B\in\RP^n,$$ the line $$AB$$ always has two intersection points $$X,Y$$ with $$Q,$$ where we might have to allow complex coordinates, if e.g. $$q$$ is [[positive definite|Definitheit]]. Label these points such that $$B,X$$ [[separates|Separation on the real projective line]] $$A,Y.$$ Then we can define a metric on $$\RP^n\setminus Q$$ via
-
 $$
 d(X,Y)=C\log\crossratio(B,X,A,Y).
 $$
-
 If $$C$$ is real, we get [[hyperbolic geometry|Hyperbolic geometry]] and if it is purely imaginary, we get [[elliptic geometry|Elliptic geometry]].

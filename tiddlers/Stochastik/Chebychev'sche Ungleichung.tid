@@ -1,5 +1,5 @@
 created: 20190607001321920
-modified: 20191011173814305
+modified: 20200421222941306
 revision: 0
 tags: Stochastik no-toc
 title: Chebychev'sche Ungleichung
@@ -12,5 +12,5 @@ $$
 \frac
 {\Bbb E(|X-\Bbb E(X)|^2)}
 {a^2}=
-\frac 1 {a^2} \operatorname{Var}(X)
+\frac 1 {a^2} \operatorname{Var}(X).
 $$

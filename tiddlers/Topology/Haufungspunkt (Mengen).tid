@@ -1,15 +1,13 @@
 caption: Häufungspunkt
 created: 20171225134136159
 creator: Leander
-modified: 20191229215343326
+modified: 20210302222722098
 modifier: Leander
-revision: 0
-tags: Topologie
+tags: [[Inneres, Abschluss, Rand, Häufungspunkt]] no-toc
 title: Häufungspunkt (Mengen)
 type: text/vnd.tiddlywiki
 
 Seien $$D \subset \mathbb{K}$$ und $$p \in \mathbb{K}.\ p$$ heißt ein Häufungspunkt von $$D$$, wenn in jeder punktierten [[Umgebung|Epsilon-Kugel]] von $$p$$ Punkte von D liegen, d.h. wenn gilt:
-
 $$
 \forall\delta > 0\colon\quad
 U^*_\delta(p) \cap D \neq \varnothing.

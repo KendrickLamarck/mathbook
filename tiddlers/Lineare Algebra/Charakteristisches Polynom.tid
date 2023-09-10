@@ -1,32 +1,27 @@
 created: 20180423211827083
 creator: Leander
 list: [[Ähnliche Matrizen und charakteristische Polynome]] [[Satz von Cayley-Hamilton]] [[Minimalpolynom und charakteristisches Polynom]]
-modified: 20191121232419772
+modified: 20210314151911982
 modifier: Leander
-revision: 0
-tags: Eigenwert
+tags: Endomorphismus
 title: Charakteristisches Polynom
 type: text/vnd.tiddlywiki
 
 Die Suche von [[Eigenwerten|Eigenwert]] eines [[Endomorphismus]] $$F$$ eines [[endlichdimensionalen|Dimension]] $$K$$-[[Vektorraums|Vektorraum]] $$V$$ mit [[Dimension]] $$n<\infty$$ kann auf die Suche nach Nullstellen der //charakteristischen Funktion// von $$F$$
-
 $$
-\widetilde{P}_F\colon K\to K,\quad\lambda\mapsto\det(F-\lambda\operatorname{id}_V)
+\overtilde{4}{-2}{P}_F\colon K\to K,\quad\lambda\mapsto\det(F-\lambda\operatorname{id}_V)
 $$
-
 reduziert werden. Nach der [[Leibnizformel]] kann diese als [[Polynom]], genannt //charakteristisches Polynom// geschrieben werden. Ist $$A=(a_{ij})=M_\mathcal A(F)\in K^{n\times n}$$, so ist
-
 $$
 P_A(t)=P_F(t)\coloneqq\det(A-tE)=a_nt^n+\dots+a_0,
 $$
-
 wobei
 
 * $$a_n=(-1)^n,$$
-* $$a_{n-1}=(-1)^{n-1}(a_{11}+\dots+a_{nn}),$$
+* $$a_{n-1}=(-1)^{n-1}\tr A,$$
 * $$a_0=\det A.$$
 
-Man nennt $$a_{11}+\dots+a_{nn}$$ auch die //Spur// von $$A$$. [[Ähnliche Matrizen|Äquivalente und ähnliche Matrizen]] haben das gleiche charakteristische Polynom.
+[[Ähnliche Matrizen|Äquivalente und ähnliche Matrizen]] haben das gleiche charakteristische Polynom.
 
 !! Satz von Cayley-Hamilton
 

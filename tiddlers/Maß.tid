@@ -1,0 +1,47 @@
+created: 20181127154740993
+creator: Leander
+list: [[Stetigkeit von Maßen]] [[Satz von Carathéodory]] [[Eindeutigkeit von Maßen]] Approximationssatz Nullmenge [[Fast überall]] [[Vollständiger Maßraum]] Bildmaß [[Absolutstetigkeit (Maße)]] Dichte [[Diskretes Maß]] Produktmaß Lebesgue-Borel-Maß Wahrscheinlichkeitsmaß
+modified: 20200622195143944
+modifier: Leander
+revision: 0
+tags: Maßtheorie
+title: Maß
+type: text/vnd.tiddlywiki
+
+Sei $$(\Omega,\mathcal F)$$ ein [[messbarer Raum|Sigma-Algebra]]. Es sei $$\mu\colon\mathcal F\to[0,\infty]$$ eine Abbildung.
+
+$$\mu$$ heißt ein //Maß,// falls gelten:
+
+# $$\mu(\varnothing)=0,$$
+
+# $$\mu$$ ist $$\sigma$$-additiv, d.h. für alle [[Folgen|Folge]] $$(A_n)_{n\in\mathbb N}$$ von paarweise disjunkten Mengen $$A_n\in\mathcal F$$ gilt<div>
+$$
+\mu\Bigl(\bigcup_{n\in\mathbb N} A_n\Bigr)=
+\sum_{n\in\mathbb N}\mu(A_n).
+$$
+</div>
+
+In diesem Fall heißt das Tripel $$(\Omega,\mathcal F,\mu)$$ ein //Maßraum.//
+
+* $$\mu$$ heißt //$$\sigma$$-endlich,// falls eine aufsteigende Folge $$(\Omega_n)_{n\in\mathbb N}$$ von messbaren Teilmengen von $$\Omega$$ existiert mit $$\Omega=\bigcup_{n\in\mathbb N}\Omega_n$$ und $$\mu(\Omega_n)<\infty$$ für jedes $$n\in\mathbb N.$$
+
+* $$\mu$$ heißt //endlich//, falls $$\mu(\Omega)<\infty.$$
+
+* Man nennt $$\mu(\Omega)$$ die //Masse// des Maßes.
+
+!! Eigenschaften
+
+Sei $$\mu$$ ein Maß auf $$\mathcal F.$$ Dann hat $$\mu$$ die folgenden Eigenschaften:
+
+* $$\mu$$ ist [[stetig|Stetigkeit von Maßen]] von oben und von unten.
+
+* $$\mu$$ ist $$\sigma$$-subadditiv, d.h. für alle Folgen $$(A_n)_{n\in\Bbb N}$$ von Mengen in $$\mathcal F$$ gilt <div>
+$$
+\mu\Bigl(\bigcup_{n\in\Bbb N} A_n\Bigr)\le
+\sum_{n\in\Bbb N}\mu(A_n).
+$$
+</div>
+
+* $$\mu$$ ist [[monoton|Monotonie]] bezüglich der Mengeninklusion.
+
+* Positive Vielfache und abzählbare Summen von Maßen sind wieder Maße.

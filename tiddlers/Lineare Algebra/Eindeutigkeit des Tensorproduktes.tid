@@ -1,25 +1,19 @@
 created: 20191121231251837
-modified: 20191121231513147
-revision: 0
+modified: 20201117220951371
 tags: Tensorprodukt no-toc
 title: Eindeutigkeit des Tensorproduktes
+type: text/vnd.tiddlywiki
 
 Wenn $$\eta\colon V_1\times V_2\to V_1\otimes V_2$$ und $$\eta'\colon V_1\times V_2\to V_1\otimes' V_2$$ zwei Tensorprodukte von $$K$$-Vektorräumen $$V_1$$ und $$V_2$$ sind, dann gibt es jeweils genau eine lineare Abbildung
-
 $$
 \tilde F\colon V_1\otimes V_2\to V_1\otimes' V_2,\quad \tilde F'\colon V_1\otimes' V_2\to V_1\otimes V_2
 $$
-
 mit
-
 $$
 \eta'=\tilde F\circ\eta,\quad \eta=\tilde F'\circ\eta'.
 $$
-
 Aus $$\eta=\tilde F'\circ\tilde F\circ\eta$$ folgt also $$\tilde F'=\tilde F^{-1}.$$ Mit anderen Worten: Für zwei Tensorprodukte $$\eta\colon V_1\times V_2\to V_1\otimes V_2$$ und $$\eta'\colon V_1\times V_2\to V_1\otimes' V_2$$ gibt es genau einen [[Isomorphismus]]
-
 $$
 \tilde F\colon V_1\otimes V_2\to V_1\otimes' V_2,
 $$
-
 so dass $$\eta'=\tilde F\circ\eta.$$ In diesem Sinne gibt es im Wesentlichen für zwei $$K$$-Vektorräume (höchstens) ein Tensorprodukt $$V_1\times V_2\to V_1\otimes V_2.$$

@@ -1,23 +1,19 @@
 created: 20181113154921049
-modified: 20191011174143661
-revision: 0
+modified: 20201112143122789
 tags: [[Monoton approximierbare Funktionen]] no-toc
 title: Approximation halbstetiger Funktionen
 type: text/vnd.tiddlywiki
 
+@@.theorem
+''Satz.''
 Es gilt (analog für $$\mathcal H^\downarrow(\Bbb R^d)$$):
-
 $$
 \mathcal H^\uparrow(\mathbb R^d)=
 \left\{\,
 f\colon\mathbb R^d\to\mathbb R\cup\{+\infty\}\mid
-f\ \href{#Halbstetigkeit}{\text{unterhalbstetig,}}\ \{f<0\}\text{ beschränkt}
+f\ \text{unterhalbstetig,}\ \{f<0\}\text{ beschränkt}
 \,\right\}.
 $$
 
-''Korollar.'' Es gilt
-
-$$
-\mathcal H^\uparrow(\mathbb R^d)\cap\mathcal H^\downarrow(\mathbb R^d)
-=\mathcal C_\mathrm c(\mathbb R^d).
-$$
+''Korollar:'' $$\mathcal H^\uparrow(\mathbb R^d)\cap\mathcal H^\downarrow(\mathbb R^d)=\mathcal C_\mathrm c(\mathbb R^d).$$
+@@

@@ -1,35 +1,26 @@
 caption: Mit konstanten Koeffizienten
 created: 20181015214816900
-modified: 20191011221604946
-revision: 0
+modified: 20201124144601946
 tags: [[Lineare Differentialgleichung]]
 title: Lineare Differentialgleichung mit konstanten Koeffizienten
 type: text/vnd.tiddlywiki
 
 Seien $$A\in\hom(V,V)$$ ein [[Endomorphismus]], $$k\in\mathbb N\setminus\{0\}$$ und $$v\in V$$ ein [[Hauptvektor]] der Stufe $$k$$ von $$A$$ zum [[Eigenwert]] $$\lambda\in\mathbb R,$$ d.h. es gelte
-
-$$
-(A-\lambda E)^k v=0.
-$$
-
+$$(A-\lambda E)^k v=0.$$
 Dann ist
-
 $$
 x(t)\coloneqq e^{\lambda t} \sum_{j=0}^{k-1}\frac{t^j}{j!}(A-\lambda E)^j v
 $$
-
 eine Lösung von $$\dot x=Ax.$$ Diese Lösung ist also von der Form $$e^{\lambda t} v(t),$$ wobei $$v(t)$$ ein Polynom in $$t$$ mit vektoriellen Koeffizienten ist.
 
 ''Korollar.''
 Besitzt $$V$$ eine [[Basis]] $$v_1,\dots,v_n$$ aus Hauptvektoren von $$A\in\operatorname{End}(V)$$ der Stufen $$k_1,\dots,k_n$$ zu den Eigenwerten $$\lambda_1,\dots,\lambda_n,$$ so liefern die Funktionen
-
 $$
 x_i(t)\coloneqq
 e^{\lambda_i t}\sum_{j=0}^{k_i-1}\frac{t^j}{j!}(A-\lambda_i E)^j v_i,
 \quad i\in\{1,\dots,n\}
 $$
-
-eine Lösungsbasis von $$\dot x=Ax.$$ Eine solche Basis existiert, wenn die [[Jordan'sche Normalform]] existiert, also genau dann wenn das [[charakteristische Polynom|Charakteristisches Polynom]] von $$A$$ in Linearfaktoren zerfällt.
+eine Lösungsbasis von $$\dot x=Ax.$$ Eine solche Basis existiert, wenn die [[Jordan'sche Normalform]] existiert, also genau dann, wenn das [[charakteristische Polynom|Charakteristisches Polynom]] von $$A$$ in Linearfaktoren zerfällt.
 
 ''Rezept.''
 Gesucht ist eine reelle Lösungsbasis für $$\dot x=Ax$$ mit $$A\in\Bbb R^{n\times n}.$$

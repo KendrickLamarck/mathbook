@@ -1,19 +1,14 @@
 created: 20200326012606051
-modified: 20200330014544319
-revision: 0
-tags: Geodesic
+modified: 20200920211950415
+tags: [[Intrinsic differential geometry]]
 title: Exponential map
 type: text/vnd.tiddlywiki
 
 We define the //exponential map// on a Riemannian manifold $$M$$ as
-
 $$
 \exp_p\colon \T_p M \supseteq U\to M,\quad X_p \mapsto \gamma^{X_p}(1),
 $$
-
-defined on some neighbourhood of the origin $$U$$ which is small enough so all geodesics exist for time 1.
-
-The dependencies on $$X_p$$ and $$p$$ are smooth, so the maps are smooth and fit together to give a map $$\exp\colon \T M \supseteq W \to M$$ for some neighborhood $$W$$ of $$0\in\mathfrak X(M).$$
+defined on some neighbourhood of the origin $$U$$ which is small enough so all geodesics exist for time 1. The dependencies on $$X_p$$ and $$p$$ are smooth, so the maps are smooth and fit together to give a map $$\exp\colon \T M \supseteq W \to M$$ for some neighborhood $$W$$ of $$0\in\mathfrak X(M).$$
 
 * Identifying $$\T_0(\T_p M) \cong \T_p M,$$ we have $$\D_0 \exp_p=\id_{\T_p M}.$$
 

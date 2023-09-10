@@ -1,14 +1,11 @@
 created: 20191004193726616
-modified: 20191004193907667
-revision: 0
+modified: 20201121205010620
 tags: Orthogonalität no-toc
 title: Gram-Schmidt-Verfahren
 type: text/vnd.tiddlywiki
 
 Aus dem induktiven Beweis des [[Orthonormalisierungssatzes|Orthonormalisierungssatz]] folgt folgender Algorithmus //(Gram-Schmidt):// Hat man $$w_1,\dots,w_m$$ wie im Satz gegeben, so wählt man ein $$v\in V\setminus W$$ und definiert $$\tilde w_{m+1}\coloneqq v-\tilde v,$$ wobei
-
 $$
 \tilde v\coloneqq \langle v,w_1\rangle w_1+\dots+\langle v,w_m\rangle w_m
 $$
-
 ist. Normiert man diesen Vektor als $$w_{m+1}\coloneqq \frac{\tilde w_{m+1}}{\|\tilde w_{m+1}\|},$$ so ist $$(w_1,\dots,w_{m+1})$$ eine Orthonormalbasis von $$\operatorname{span}(w_1,\dots,w_m,v).$$

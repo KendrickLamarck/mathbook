@@ -1,6 +1,5 @@
 created: 20180404231008080
-modified: 20180410191952440
-revision: 0
+modified: 20210414125120397
 tags: Matrix
 title: Elementarmatrizen
 type: text/vnd.tiddlywiki
@@ -12,4 +11,4 @@ Die //Elementarmatrizen// kodieren die elementaren Zeilen- und Spaltenumformunge
 # $$Q_i^j(\lambda)=E_m+\lambda E_i^j$$ addiert das $$\lambda$$-fache der $$i$$-ten Spalte zur $$j$$-ten Spalte und
 # $$P_i^j=E_m-E_i^i-E_j^j+E_i^j+E_j^i$$ vertauscht die $$i$$-te Spalte mit der $$j$$-ten Spalte,
 
-wenn diese Matrizen aus $$K^{m\times m}$$ von ''rechts'' mit einer Matrix mit $$m$$ Spalten [[multipliziert|Matrizenmultiplikation]] werden. Multiplikation von ''links'' mit einer Matrix mit $$m$$ Zeilen ergibt die entsprechenden Zeilenumformungen.
+wenn diese Matrizen aus $$K^{m\times m}$$ von ''rechts'' mit einer Matrix mit $$m$$ Spalten multipliziert werden. Multiplikation von ''links'' mit einer Matrix mit $$m$$ Zeilen ergibt die entsprechenden Zeilenumformungen.

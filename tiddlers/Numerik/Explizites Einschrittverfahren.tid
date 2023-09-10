@@ -1,6 +1,5 @@
 created: 20200215173854514
-modified: 20200301003133494
-revision: 0
+modified: 20210214155449193
 tags: Numerik
 title: Explizites Einschrittverfahren
 type: text/vnd.tiddlywiki
@@ -8,67 +7,55 @@ type: text/vnd.tiddlywiki
 Wir betrachten das [[Anfangswertproblem|Gewöhnliche Differentialgleichung]] $$\dot y = f(t,y)$$ auf einem Intervall $$I=[t_0,t_0+T]$$ mit Anfangswert $$y(t_0)=y_0\in\R^n.$$ Die Lösung ist also eine Funktion $$y\colon I\to\R^n$$ und $$f\colon I\times\R^n\to \R^n$$ ist gegeben. Gesucht ist jetzt eine Näherungslösung $$u_i=u(t_i)$$ auf einem Gitter $$I_h\coloneqq \{t_0,t_1,\dots,t_n\},$$ wobei $$h=T/n$$ und $$t_i=t_0+ih$$ ist. Die Schrittweite $$h_i$$ kann aber auch variabel sein.
 
 Ein //explizites Einschrittverfahren// ist ein Verfahren der Form
-
 $$
 u_{i+1}= u_i + h_i\varPhi(t_i,u_i,h_i),\quad i=0,1,\dots,n-1.
 $$
-
 wobei $$u_0 = y_0$$ ist.
 
 !! Fehler und Konsistenz
 
 * <div>Ist $$y$$ die exakte Lösung, so definieren wir den //globalen Fehler// an der Stelle $$t_i$$ als die Größe
-
 $$
 e_h(t_i) = e_i \coloneqq y_i-u_i = y(t_i)-u_h(t_i).
 $$</div>
 
 * <div>Wir definieren den //lokalen Diskretisierungsfehler// als die Größe
-
 $$
 \tau(t,h)\coloneqq\frac{y(t+h)-y(t)}{h}-\varPhi(t,y(t),h).
 $$</div>
 
 * <div>Der //maximale Diskretisierungsfehler// ist
-
 $$
 \tau_h \coloneqq \max_{t\in [t_0,t_0+T]} \|\tau(t,h)\|.
 $$</div>
 
 * <div>Wir nennen das Verfahren //konsistent,// Wenn $$\lim_{h\to 0}\tau(t,h)=0$$ für alle $$t\in I$$ und konsistent von der Ordnung $$p\in\N,$$ falls $$\tau(t,h)\in\mathcal O(h^p).$$ Daraus folgt
-
 $$
-\dot y(t)=f(t,y(t))=\lim_{h\to 0}\varPhi(t,y(t),h).
+\dot y(t)=f(t,y(t))=\lim_{\substack{h \to 0 \\[0.2em] h \ne 0}}\varPhi(t,y(t),h).
 $$</div>
 
 * Das Verfahren heißt //konvergent,// wenn für $$i=0,\dots,n$$ gilt $$\lim_{h\to 0} |e_h(t_i)|=0.$$ Es heißt konvergent von der Ordnung $$p\in\N,$$ wenn für $$i=0,\dots,n$$ gilt $$e_h(t_i)\in\mathcal O(h^p).$$
 
+@@.theorem
 ''Satz.''
 Die Inkrementfunktion $$\varPhi(t,y,h)$$ genüge bezüglich der zweiten Komponente einer Lipschitz-Bedingung, d.h.
-
 $$
 \| \varPhi(t,y_1,h)-\varPhi(t,y_2,h) \|\le L\| y_1-y_2 \|.
 $$
-
 Dann gilt: Ist das Einschrittverfahren konsistent von der Ordnung $$p,$$ dann ist es auch konvergent von der Ordnung $$p.$$ Für den globalen Fehler gilt die Abschätzung
-
 $$
 \|e_h(t_i)\| \le
 (\|u_h(t_0)-y(t_0)\| + (t_i-t_0)\tau_h) e^{L(t_i-t_0)}.
 $$
-
 Die Aussagen gelten auch für variable Schrittweiten mit $$h\coloneqq\max_{i=1}^{n-1} h_i.$$
 
 ''Satz (Rundungsfehler).''
 Zusatzlich zum Verfahrensfehler $$y_i-u_i$$ machen wir bei der Berechnung auch Rundungsfehler und erhalten
-
 $$
 \tilde u_0 = u_0 + \varepsilon_0,\qquad
 \tilde u_{i+1} = \tilde u_i + h_i\left( \varPhi(t_i,\tilde u_i,h_i) + \frac{\varepsilon_{i+1}}{h_i} \right).
 $$
-
 Definere nun den //Gesamtfehler// $$E(t_i)\coloneqq \tilde u_i - y(t_i)$$ und $$\varepsilon_h\coloneqq\max |\varepsilon_i|.$$ Dann gilt:
-
 $$
 \|E(t_i)\|\le
 \left( \|\tilde u(t_0)-y(t_0)\| + (t_i-t_0)
@@ -77,17 +64,18 @@ $$
 
 ''Korollar.''
 Für ein Einschrittverfahren, das konsistent von der Ordnung $$p$$ ist, gilt außerdem die folgende Abschätzung:
-
 $$
 \left\| \tau_h + \frac{\varepsilon_h}{h} \right\| \le
 c_1 h^p + \frac{ c_2 \eps y_{\max}}{h},
 $$
+wobei $$y_{\max} = \max_{t\in[t_0,t_0+T]}\|y\|$$ ist.
+@@
 
-wobei $$y_{\max} = \max_{t\in[t_0,t_0+T]}\|y\|$$ ist. Insgesamt gilt also
-
+Insgesamt gilt also
 $$
 \|E(t_i)\|\le
 \left( \|\tilde u(t_0)-y(t_0)\| + (t_i-t_0)
 \left( c_1 h^p + \frac{ c_2 \eps y_{\max}}{h} \right)\right)
 e^{L(t_i-t_0)}.
 $$
+@@

@@ -1,34 +1,30 @@
 created: 20180530153430792
 creator: Leander
-modified: 20200308152558617
+modified: 20210214161259813
 modifier: Leander
-revision: 0
-tags: Lp-Räume
+tags: Folge
 title: Folgenräume
 type: text/vnd.tiddlywiki
 
-Sei für $$p\in[1,\infty[$$
-
+Sei für $$p \in \ropenI{1, \infty}$$
 $$
-\ell^p\coloneqq\Bigl\{(x_n)_{n\in\mathbb N}\in\mathbb R^\Bbb N:\sum_{n\in\mathbb N}|x_n|^p<\infty\Bigr\}
+\ell^p \coloneqq \Bigl\{
+  (x_n)_{n\in\N} \in \R^\N : \sum_{n\in\N} |x_n|^p < \infty
+\Bigr\}
 $$
-
 und sei
-
 $$
-\ell^\infty\coloneqq\Bigl\{(x_n)_{n\in\mathbb N}\in\mathbb R^\Bbb N:\sup_{n\in\mathbb N}|x_n|<\infty\Bigr\}.
+\ell^\infty \coloneqq \Bigl\{
+  (x_n)_{n\in\N} \in \R^\N : \sup_{n\in\N} |x_n| < \infty
+\Bigr\}.
 $$
-
 Das sind [[Banachräume|Banachraum]] mit der [[Norm]]
-
 $$
-\|(x_n)_{n\in\mathbb N}\|_p\coloneqq\begin{cases}\displaystyle
-\Bigl(\sum_{n\in\mathbb N}|x_n|^p\Bigr)^{\frac{1}{p}},
-&\text{falls }p\in[1,\infty[,\\
-\phantom{\Bigl(}\displaystyle
-\sup_{n\in\mathbb N}|x_n|,
-&\text{falls }p=\infty.
-\end{cases}
+\|(x_n)_{n\in\N}\|_p \coloneqq \begin{dcases}
+  \biggl( \sum_{n \in \N}|x_n|^p \biggr)^{1/p},
+    &\text{falls } p \in \ropenI{1, \infty}, \\
+  \phantom{\Bigl(} \sup_{n\in\N}|x_n|,
+    &\text{falls } p = \infty.
+\end{dcases}
 $$
-
-Es handelt sich um $$L^p(\Bbb N,\mathcal P(\Bbb N),\#),$$ wobei $$\#$$ das [[Zählmaß|Diskretes Maß]] ist.
+Es handelt sich um $$L^p(\N,\mathcal P(\N), \#),$$ wobei $$\#$$ das [[Zählmaß|Diskretes Maß]] ist.

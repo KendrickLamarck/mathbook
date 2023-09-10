@@ -1,7 +1,6 @@
 created: 20171225175847529
-list: Untergruppe [[Symmetrische Gruppe]] [[Orthogonale Gruppen]]
-modified: 20191105225741631
-revision: 0
+list: Untergruppe Gruppenhomomorphismus Conjugation [[Normal subgroup]] Linkstranslation Coset [[Quotient group]] [[Group action]] [[Direct product]] [[Semidirect product]] [[Subdirect product]] [[Free product]] [[Free group]] [[Amalgamated free product]] [[Cyclic group]] [[Fundamental theorem of finite abelian groups]] [[Dihedral group]] Commutator [[Coxeter group]] [[Group presentation]] [[Tietze transformation]] [[Symmetrische Gruppe]] [[Finitely generated abelian groups]] [[Homomorphisms of abelian groups]] [[Lie group]] [[Rank (abelian groups)]] [[Rank (Groups)]] [[Center (group)]]
+modified: 20210325140151171
 tags: Algebra
 title: Gruppe
 type: text/vnd.tiddlywiki
@@ -13,18 +12,9 @@ Eine Menge $$G$$ zusammen mit einer [[Verknüpfung]] $$*$$ heißt Gruppe, wenn f
 #* $$e*a=a$$ für alle $$a \in G$$.
 #* Zu jedem $$a \in G$$ gibt es ein $$a' \in G$$ (inverses Element von $$a$$ genannt) mit $$a'*a=e$$.
 
-Die Gruppe heißt //abelsch// oder //kommutativ//, falls außerdem $$a*b = b*a$$ für alle $$a,b \in G$$.
+Die Gruppe heißt //abelsch// oder //kommutativ//, falls außerdem $$a*b = b*a$$ für alle $$a,b \in G.$$ Wir sagen, eine endliche Gruppe $$G$$ mit $$n$$ Elementen hat //Ordnung// $$n.$$
 
-Das zweite Axiom kann man auch anders formulieren. Wir betrachten die Abbildungen
-
-$$
-\begin{aligned}
-\tau_a&\colon G\to G,\quad x \mapsto x\cdot a,\\
-_a\tau&\colon G\to G,\quad x \mapsto a\cdot x,
-\end{aligned}
-$$
-
-genannt Rechtstranslation und Linkstranslation. Ist $$(G,\cdot)$$ eine Gruppe, so sind für jedes $$a\in G$$ die Abbildungen $$\tau_a$$ und $$_a\tau$$ [[bijektiv|Bijektivität]]. Ist umgekehrt $$G$$ eine Menge mit einer assoziativen Verknüpfung, so folgt das zweite Axiom aus der [[Surjektivität]] von $$\tau_a$$ und $$_a\tau$$ für alle $$a\in G$$.
+Eine Abel'sche Gruppe kann auch als Modul über dem Ring $$\Z$$ aufgefasst werden, wobei $$k \cdot g$$ als wiederholte Addition (subtraktion) definiert wird. Auf diese Weise können wir das [[Tensorprodukt]] auch für Abel'sche Gruppen definieren.
 
 !! Untergruppe
 

@@ -1,48 +1,41 @@
 caption: Projective model
 created: 20190426105555535
-modified: 20191116145638404
-revision: 0
+modified: 20210604125011739
 tags: [[Hyperbolic geometry]]
 title: Projective model of hyperbolic geometry
 type: text/vnd.tiddlywiki
 
 Consider the projective model of $$(n-1)$$-dimensional [[Möbius geometry]]. Use the inside of $$Q$$ $$\{[x]\in\R\mathrm P^n\mid q(x,x)<0\}$$ as the space instead of the quadric itself, but with the same transformation group $$\PO(n,1).$$ This is called the //projective model of hyperbolic geometry// and denoted by $$H^n_\mathrm{proj}.$$ We obtain the metric $$d_\mathrm{proj}$$ defined by
-
 $$
 \cosh d_\mathrm{proj}([x],[y])=
 \frac
 {|q(x,y)|}
 {\sqrt{q(x,x)q(y,y)}}.
 $$
-
 If we use [[homogeneous coordinates|Homogeneous coordinates]] in $$\Bbb R\mathrm P^n$$ with respect to an [[orthonormal basis|Orthonormalbasis]] for $$q,$$ then $$q=\langle\cdot,\cdot\rangle,$$ and the map
-
 $$
 \R^{n+1}\supset H^n\to H^n_\mathrm{proj}\subset\R\mathrm P^n,\quad
 x\mapsto [x]
 $$
-
 is [[bijective|Bijektivität]] and an [[isometry|Isometrie]]. The projective model is the same as the [[Klein model]] if we look at the quadric as the unit sphere.
 
-This model implies that $$n$$-dimensional Möbius geometry can be seen as the geometry of the ideal points of $$(n+1)$$-dimensional hyperbolic geometry.
+This model shows that $$n$$-dimensional Möbius geometry can be seen as the geometry of the ideal points of $$(n+1)$$-dimensional hyperbolic geometry.
 
 !! Cayley-Klein metric
 
 For two points $$A,B\in H^n_\mathrm{proj},$$ let $$X,Y$$ be the points where the line $$AB$$ intersects the quadric $$Q,$$ labelled such that $$X,B$$ [[separates|Separation on the real projective line]] $$A,Y.$$ Then
 
 $$
-d_\mathrm{proj}(A,B)=\frac 1 2\log\crossratio(B,X,A,Y).
+d_\mathrm{proj}(A,B)=\tfrac 1 2\log\crossratio(B,X,A,Y).
 $$
 
 !! The other one
 
-We can obtain another model of $$n$$-dimensional hyperbolic geometry as a [[subgeometry|Subgeometry]] of $$n$$-dimensional [[Möbius geometry]] by taking its [[projective model|Projective model of Möbius geometry]] and considering the subgroup of $$\PO(n+1,1)$$ that fixes a point $$[p]$$ outside of $$S^n$$ and maps one of its hemispheres (bounded by the polar plane of $$[p]$$) to itself. The space is said hemisphere (or the other one) and the transformation group is $$\mathrm{PO}(n,1).$$ We also get the distance function $$d_\mathrm{hyp}$$ given by
-
+We can obtain another model of $$n$$-dimensional hyperbolic geometry as a [[subgeometry|Subgeometry]] of $$n$$-dimensional [[Möbius geometry]] by taking its [[projective model|Projective model of Möbius geometry]] and considering the subgroup of $$\PO(n+1,1)$$ that fixes a point $$[p]$$ outside of $$\sphere^n$$ and maps one of its hemispheres (bounded by the polar plane of $$[p]$$) to itself. The space is said hemisphere (or the other one) and the transformation group is $$\mathrm{PO}(n,1).$$ We also get the distance function $$d_\mathrm{hyp}$$ given by
 $$
 \frac
 {\langle x,y\rangle_{n+1,1}}
 {\langle x,p\rangle_{n+1,1}\langle y,p\rangle_{n+1,1}}=
 -2\sinh^2\frac {d_\mathrm{hyp}([x],[y])} 2.
 $$
-
 It is also possible to use the intersection of the polar plane of $$[p]$$ with the inside of $$S^n$$ as yet another model.

@@ -1,16 +1,13 @@
 caption: Mittelwertsatz
 created: 20180125201237944
 list: 
-modified: 20191011172247722
-revision: 0
+modified: 20201112142038090
 tags: Regelintegral
 title: Mittelwertsatz der Integralrechnung
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon [a,b]\to\mathbb R$$ eine [[stetige|Stetigkeit]] Funktion. Dann gibt es ein $$\xi\in[a,b]$$ mit
-
 $$
 f(\xi) = \frac{1}{b-a}\int_a^b f(x)\,\mathrm  dx.
 $$
-
 Anschaulich heißt das, dass es einen Punkt im Intervall $$[a,b]$$ gibt, so dass die Breite des Intervalls mal der Höhe dieses Punktes gleich dem [[Integral|Regelintegral]] ist, also dass das so bestimmte Rechteck den gleichen Flächeninhalt hat wie die Fläche unter dem Graphen.

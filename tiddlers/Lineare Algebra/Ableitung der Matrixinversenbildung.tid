@@ -1,20 +1,16 @@
 created: 20191004165900877
-modified: 20191004165921230
-revision: 0
+modified: 20200929124849053
 tags: no-toc [[Inverse Matrix]]
 title: Ableitung der Matrixinversenbildung
 type: text/vnd.tiddlywiki
 
 Die Abbildung
-
 $$
 \operatorname{inv}\colon
 \operatorname{GL}(n;\mathbb R)\to\operatorname{GL}(n;\mathbb R),\quad
 A\mapsto A^{-1}
 $$
-
 ist [[differenzierbar|Ableitung]] und ihre Ableitung ist
-
 $$
 \mathrm D_A\operatorname{inv}(B)=-A^{-1}BA^{-1}.
 $$

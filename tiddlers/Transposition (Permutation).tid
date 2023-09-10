@@ -1,9 +1,8 @@
 caption: Transposition
 created: 20180406134525861
 creator: Leander
-modified: 20200120222236408
+modified: 20210118213419550
 modifier: Leander
-revision: 0
 tags: Permutation
 title: Transposition (Permutation)
 type: text/vnd.tiddlywiki
@@ -16,9 +15,10 @@ Eine [[Permutation]] $$\tau\in S_n$$ heißt //Transposition//, falls $$\tau$$ zw
 
 Es gilt $$\tau^{-1}=\tau$$ für jede Transposition $$\tau\in S_n$$.
 
+@@.theorem
 ''Lemma.''
 Sei $$n\ge 2$$ und $$\tau_0$$ die Transposition, die 1 und 2 vertauscht. Dann gibt es zu jeder Transposition $$\tau\in S_n$$ ein $$\sigma\in S_n$$ mit
-
 $$
 \tau=\sigma\cdot\tau_0\cdot\sigma^{-1}.
 $$
+@@

@@ -1,8 +1,7 @@
 created: 20180605165810188
 creator: Leander
-modified: 20200313202738674
+modified: 20201015170121971
 modifier: Leander
-revision: 0
 tags: [[Linearer Differentialoperator]]
 title: Gradient
 type: text/vnd.tiddlywiki
@@ -38,7 +37,7 @@ $$</div>
 
 !! With differential forms
 
-On a Riemannian manifold $$(M^m,g),$$ we can identify $$\T_p M$$ and $$\T_p^* M$$ and thus [[vector fields|Vektorfeld]] and [[one-forms|One-form]]. The //gradient// $$\nabla f$$ of a function $$f\in\mathcal C^\infty M$$ is the vector field corresponding in this way to $$\d f.$$ In particular, we have
+On a Riemannian manifold $$(M^m,g),$$ we can [[identify|Bilinearformen und dualität]] $$\T_p M$$ and $$\T_p^* M$$ and thus [[vector fields|Vector field]] and [[one-forms|One-form]]. The //gradient// $$\nabla f$$ of a function $$f\in\mathcal C^\infty M$$ is the vector field corresponding in this way to $$\d f.$$ In particular, we have
 
 $$
 \langle \nabla f, X \rangle = \d f(X) = Xf.

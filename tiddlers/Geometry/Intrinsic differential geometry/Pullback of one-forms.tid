@@ -1,12 +1,10 @@
 created: 20191123205723131
-modified: 20200320211705141
-revision: 0
-tags: One-form no-toc Pullback
+modified: 20200920215652878
+tags: no-toc Pullback
 title: Pullback of one-forms
 type: text/vnd.tiddlywiki
 
 A map $$f\colon M\to N$$ induces $$f_*=\D_p f\colon \T_p M\to \T_{f(p)} N,$$ at each $$p\in M$$ which in turn induces a [[dual map|Duale Abbildung]] $$f^*\coloneqq (\D_p f)^*\colon\T_{f(p)}^* N\to \T_p^* M.$$ For $$\omega\in\Omega^1(N),$$ we define $$f^*\omega\in\Omega^1(M)$$ by
-
 $$
 (f^*\omega)_p = f^* {\left( \omega_{f(p)} \right)} \in \T_p^* M.
 $$

@@ -1,16 +1,21 @@
 created: 20191116152409897
-modified: 20200308210305467
-revision: 0
-tags: Topologie
+modified: 20210317194414665
+tags: [[Topologischer Raum]]
 title: Topological base
 type: text/vnd.tiddlywiki
 
-Let $$X$$ be a set. A //base// is a collection of sets $$B\subseteq\mathcal P(X)$$ such that:
+Let $$X$$ be a set. A //base// is a collection of sets $$\mathcal{B}\subseteq\mathcal P(X)$$ such that:
 
 # The base elements cover $$X.$$
-# Let $$B_1,B_2\in B.$$ Then for each $$x\in B_1\cap B_2$$ there is a $$B_3\in B$$ such that $$x\in B_3$$ and $$B_3\subseteq B_1\cap B_2.$$
+# Let $$B_1,B_2\in \mathcal{B}.$$ Then for each $$x\in B_1\cap B_2$$ there is a $$B_3\in \mathcal{B}$$ such that $$x\in B_3$$ and $$B_3\subseteq B_1\cap B_2.$$
 
-If and only if $$B$$ satisfies these properties, the set of all unions of subsets of $$B$$ is a [[topology|Topologie]] $$\mathcal T$$ on $$X$$ and $$B$$ is called a //basis// for $$\mathcal T.$$
+If and only if $$\mathcal{B}$$ satisfies these properties, the set
+$$
+\mathcal{T} \coloneqq \biggl\{\,
+  \bigcup_{B \in \mathcal{C}} B \Bigm| \mathcal{C} \subseteq \mathcal{B}
+\,\biggr\}
+$$
+is a [[topology|Topologie]] on $$X$$ and $$\mathcal{B}$$ is called a //base// for $$\mathcal T.$$
 
 !! Second-countable space
 

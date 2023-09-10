@@ -1,9 +1,10 @@
+caption: Verteilungen
 created: 20190505115739901
-list: [[Gemeinsame Verteilung]] [[Absolutstetige Verteilungsfunktion]] [[Faltung von Dichten]] Bernoulli-Verteilung Binomialverteilung Poisson-Verteilung [[Geometrische Verteilung]] [[Negative Binomialverteilung]] [[Hypergeometrische Verteilung]] Exponentialverteilung Gamma-Verteilung Gleichverteilung Normalverteilung
-modified: 20190715155638272
-revision: 0
+list: Bernoulli-Verteilung Binomialverteilung Poisson-Verteilung [[Geometrische Verteilung]] [[Negative Binomialverteilung]] [[Hypergeometrische Verteilung]] Multinomialverteilung Gleichverteilung Exponentialverteilung Normalverteilung Gamma-Verteilung Beta-Verteilung Chi-Quadrat-Verteilung Student-Verteilung Fisher-Verteilung Cauchy-Verteilung Wartezeit [[Beziehung von Exponential- und Gammaverteilung]] [[Beziehung von Gamma- und Beta-Verteilung]] Binomialapproximation [[Normalapproximation der Multinomialverteilung]] [[Poissonscher Grenzwertsatz]]
+modified: 20200821112415468
 tags: Stochastik
 title: Verteilung
+type: text/vnd.tiddlywiki
 
 Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]], $$(E,\mathcal E)$$ ein [[messbarer Raum|Sigma-Algebra]] und $$X\colon\Omega\to E$$ eine [[Zufallsvariable]]. Das [[Bildmaß]] $$\Bbb P\circ X^{-1}$$ heißt //Verteilung von $$X$$ (unter $$\Bbb P$$)// und wird auch mit $$\Bbb P_X$$ bezeichnet.
 

@@ -1,24 +1,46 @@
+caption: Dependence on parameters
 created: 20200411145645568
-modified: 20200413185556750
-revision: 0
+modified: 20201116133043144
 tags: [[Gewöhnliche Differentialgleichung]]
 title: ODE solutions' dependence on parameters
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Suppose $$U \subset \R^m$$ is open and $$f\colon U \to \R^m$$ is a smooth function (weaker conditions are possible). For any point $$p\in U$$ there exists $$\varepsilon > 0,$$ a neighborhood $$V \subset U$$ of $$p,$$ and a smooth map $$x\colon \openI{-\varepsilon,\varepsilon} \times V \to U$$ satisfying
-
 $$
 \fracpartial{x}{t}(t,q)=f(x(t,q)), \quad x(0,q)=q
 $$
-
 for all $$t \in \openI{-\varepsilon,\varepsilon}$$ and $$q \in V.$$
 
 Let $$\tilde x\colon t \mapsto x(t+s,q)$$ for some $$s \in \openI{-\varepsilon,\varepsilon}.$$ Then
-
 $$
 \fracpartial{\tilde x}{t}(t,q)=f(\tilde x(t,q)) \quad \tilde x(0,q)=x(s,q),
 $$
-
 which means that $$x(t,q)=\theta_t(q)$$ is the [[flow|Local flow]] for the vector field $$f.$$
+
+!! Dependence on initial data
+
+Let $$f\colon \R \times \R^n \supseteq \Omega \to \R^n$$ be a $$\smooth^1$$-function. Then the solution $$x(t,t_0,x_0)$$ of the IVP
+$$
+\dot{x} = f(t,x),\qquad x(t_0)=x_0
+$$
+is also a $$\smooth^1$$-function.
+
+The [[Jacobi matrix|Jacobi-Matrix]] $$y = \fracpartial{x}{x_0}$$ is the solution of the IVP
+$$
+\dot{y} = A(t)y,\qquad y(t_0)=I_n,
+$$
+where $$A(t) = \fracpartial{f}{x}(t,x(t,t_0,x_0))$$ is the Jacobi matrix of $$f$$ evaluated along the solution. This ODE is called //Poincaré's variational equation.//
+
+For the partial derivative $$\fracpartial{x}{t_0}$$ we have
+$$
+\fracpartial{x}{t_0}(t,t_0,x_0) =
+-\fracpartial{x}{x_0}(t,t_0,x_0)f(t_0,x_0).
+$$
+
+!! Dependence on parameters
+
+If $$f$$ additionally depends on parameters $$\lambda \in \R^p,$$ so that $$f\colon \R \times \R^n \times \R^p \to \R^n$$ is a $$\smooth^1$$-function, then the solutions $$x(t,t_0,x_0,\lambda)$$ are $$\smooth^1$$-functions and the partial derivatives $$z = \fracpartial{x}{\lambda}(t,t_0,x_0,\lambda)$$ solve the IVP
+$$
+\dot{z} = A(t)z+B(t),\qquad z(t_0)=0 \in \R^{n \times p},
+$$
+where $$A(t) = \fracpartial{f}{x}(t,x(t),\lambda)$$ and $$B(t) = \fracpartial{f}{\lambda}(t,x(t),\lambda).$$

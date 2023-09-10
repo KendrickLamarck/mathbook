@@ -1,29 +1,25 @@
 created: 20180323112705036
 creator: Leander
-modified: 20200222184707940
+modified: 20210509121607892
 modifier: Leander
-revision: 0
 tags: [[Lineare Abbildung]]
 title: Kern-Bild-Zerlegung
 type: text/vnd.tiddlywiki
 
-Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]] und $$\dim V<\infty$$. Sind [[Basen|Basis]] $$(v_1,\ldots,v_k)$$ von $$\ker F$$ und $$(w_1,\ldots,w_r)$$ von $$\operatorname{Im}F,$$ sowie beliebige Vektoren $$u_1\in F^{-1}(w_1),\ldots,u_r\in F^{-1}(w_r)$$ gegeben, so ist
-
+Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]] und $$\dim V<\infty$$. Sind [[Basen|Basis]] $$(v_1,\ldots,v_k)$$ von $$\ker F$$ und $$(w_1,\ldots,w_r)$$ von $$\img F,$$ sowie beliebige Vektoren $$u_1\in F^{-1}(w_1),\ldots,u_r\in F^{-1}(w_r)$$ gegeben, so ist
 $$
 \mathcal A\coloneqq (u_1,\ldots,u_r,v_1,\ldots,v_k)
 $$
-
 eine Basis von $$V$$. Insbesondere gilt die Dimensionsformel
-
 $$
-\dim V=\dim\operatorname{Im}F+\dim\ker F.
+\dim V=\dim\img F+\dim\ker F.
 $$
 
+@@.theorem
 ''Korollar 1.''
 Ist $$V$$ endlichdimensional und $$F\colon V\to W$$, so gilt für alle nichtleeren Fasern
-
 $$
-\dim F^{-1}(w)=\dim V-\dim\operatorname{Im}F.
+\dim F^{-1}(w)=\dim V-\dim\img F.
 $$
 
 ''Korollar 2.''
@@ -31,3 +27,4 @@ Zwischen zwei endlichdimensionalen Vektorräumen $$V$$ und $$W$$ gibt es genau d
 
 ''Korollar 3.''
 Sei $$\dim V=\dim W<\infty$$ und $$F\colon V\to W$$ linear. Dann sind [[Injektivität]], [[Surjektivität]] und [[Bijektivität]] von $$F$$ äquivalent.
+@@

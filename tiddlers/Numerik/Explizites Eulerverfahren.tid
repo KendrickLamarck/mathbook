@@ -1,14 +1,11 @@
 created: 20200216201407960
-modified: 20200216212033375
-revision: 0
-tags: [[Explizites Einschrittverfahren]]
+modified: 20201209224727279
+tags: Numerik
 title: Explizites Eulerverfahren
 type: text/vnd.tiddlywiki
 
 Das //explizite Eulerverfahren// ist das [[explizite Einschrittverfahren|Explizites Einschrittverfahren]] mit $$\varPhi(t_i,u_i,h_i)=h_if(t_i,u_i),$$ d.h.
-
 $$
 u_{i+1} = u_i + h_i f(t_i,u_i).
 $$
-
-* Das Verfahren ist konsistent von erster Ordnung.
+Das Verfahren ist konsistent von erster Ordnung.

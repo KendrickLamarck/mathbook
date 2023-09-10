@@ -1,11 +1,10 @@
 created: 20191103213615512
-modified: 20191104155804315
-revision: 0
+modified: 20200929130631262
 tags: [[Hyperbolic geometry]] no-toc
 title: Mapping the Poincaré disk to the half-plane model
+type: text/vnd.tiddlywiki
 
 The Poincaré disk and half-plane models are related by the map
-
 $$
 D^2\to\{\,z\in\C\mid\operatorname{Im} z>0\,\},\quad z\mapsto\frac {z+i} {iz+1}.
 $$

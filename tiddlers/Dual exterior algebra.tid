@@ -1,39 +1,31 @@
 created: 20191122231852913
-modified: 20200313215711839
-revision: 0
+modified: 20200923184647200
 tags: [[Exterior algebra]]
 title: Dual exterior algebra
 type: text/vnd.tiddlywiki
 
 Considering the [[dual space of quotient spaces|Dualraum von Quotientenvektorräumen]], we find that
-
 $$
 \Lambda^k V\coloneqq (\Lambda_k V)^*\subset \left(V^{\otimes k}\right)^*
 $$
-
 Is the subspace of $$k$$-linear maps $$V^k\to\R$$ that are alternating. We define the wedge product on $$\Lambda^1 V=V^*$$ to be
-
 $$
 \omega\wedge\eta\coloneqq \omega\otimes\eta-\eta\otimes\omega.
 $$
-
 More generally, for $$\omega\in\Lambda^k V$$ and $$\eta\in\Lambda^l V,$$ we define $$(\omega\wedge\eta)(v_1,\dots,v_{k+l})$$ to be
-
 $$
 \frac 1 {k!\,l!} \sum_{\sigma\in S_{k+l}}(\sign\sigma)
   \omega{\left(v_{\sigma(1)},\dots,v_{\sigma(k)}\right)}
   \eta{\left(v_{\sigma(k+1)},\dots,v_{\sigma(k+l)}\right)}.
 $$
-
 With this definition, if $$(e_i)$$ is a basis for $$V$$ and $$(\omega_i)$$ is the [[dual basis|Duale Basis]] for $$\Lambda^1 V=V^*,$$ then
-
 $$
-\left\{\omega^{i_1\cdots i_k}\coloneqq
-\omega^{i_1}\wedge\dots\wedge\omega^{i_k}\right\}
+\left\{
+  \,\omega^{i_1\cdots i_k}\coloneqq 
+  \omega^{i_1}\wedge\dots\wedge\omega^{i_k} \mid i_1 < \dots < i_k
+\,\right\}
 $$
-
 is the basis of $$\Lambda^k V$$ dual to the [[basis|Basis for exterior algebras]] $$(e_{i_1\cdots i_k})$$ for $$\Lambda_k V.$$ Ultimately, we get a $$2^m$$-dimensional anticommutative [[graded algebra|Graded algebra]]
-
 $$
 \Lambda^* V\coloneqq\bigoplus_{k=0}^m \Lambda^k V.
 $$

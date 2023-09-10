@@ -1,9 +1,8 @@
 created: 20181217163629185
 creator: Leander
 list: [[Konvergenzsätze für Lebesgue-Integrale]] [[Monotoner Konvergenzsatz]] [[Satz von Beppo-Lévy]] [[Lemma von Fatou]] [[Satz von Lebesgue]] Stetigkeitslemma Differenziationslemma [[Integral rotationssymmetrischer Funktionen]] Lp-Räume Dichte [[Satz von Fubini]] [[Satz von Tonelli]] [[Integral differenzierbarer Funktionen mit dem Lebesgue-Maß]] [[Riemann- und Lebesgue-Integrierbarkeit]] [[Integrale über Untermannigfaltigkeiten des Rn]] Transformationssatz Faltung
-modified: 20191228153344863
+modified: 20211019200524077
 modifier: Leander
-revision: 0
 tags: Integration
 title: Lebesgue-Integral
 type: text/vnd.tiddlywiki
@@ -22,7 +21,7 @@ $$
 $$
 wobei $$(f_n)_{n\in\mathbb N}$$ eine [[Folge]] nichtnegativer einfacher Funktionen ist mit $$f_n\uparrow f.$$</div>
 
-# <div>Sei $$f\colon\varOmega\to\overline\Bbb R$$ messbar und numerisch, so dass $$\int f^+\,\d\mu<\infty$$ und $$\int f^-\d\mu <\infty.$$ Dann setzen wir
+# <div>Sei $$f\colon\varOmega\to\REx$$ messbar und numerisch, so dass $$\int f^+\,\d\mu<\infty$$ und $$\int f^-\d\mu <\infty.$$ Dann setzen wir
 $$
 \int f\,\d\mu\coloneqq
 \int f^+\,\d\mu - \int f^-\,\d\mu

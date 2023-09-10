@@ -1,22 +1,21 @@
 created: 20191206182740988
-modified: 20200411151047382
-revision: 0
+modified: 20201112153756726
 tags: Flow no-toc
 title: Local flow
 type: text/vnd.tiddlywiki
 
 A //local flow// around $$p\in M$$ is a map $$\theta\colon {]{-\epsilon,\epsilon}[}\times V\to U$$ for some $$\epsilon>0$$ and some open $$V\ni p$$ such that $$\theta_0(q)=q$$ for all $$q\in V,$$ and
-
 $$
 \theta_t(\theta_s(q))=\theta_{t+s}(q)
 $$
-
 whenever both sides are defined.
 
 * The //flow lines// are the curves $$\gamma_q(t)\coloneqq\theta_t(q)$$
 * The //infinitesimal generator// is the vector field $$X_q=\gamma_q'(0)$$ tangent to the flow lines.
 
+@@.theorem
 ''Theorem.''
 Any vector field $$X$$ on a manifold $$M$$ has a local flow around any point $$p\in M.$$
+@@
 
 This theorem is essentially a version of the theorem on [[ODE solutions' dependence on parameters]].

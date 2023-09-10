@@ -1,32 +1,25 @@
 created: 20180528185300079
 creator: Leander
-modified: 20191004200617411
+modified: 20210314145538711
 modifier: Leander
-revision: 0
 tags: Skalarprodukt no-toc
 title: Standardskalarprodukt in C
 type: text/vnd.tiddlywiki
 
 Das Standard- oder kanonische [[Skalarprodukt]] im $$\mathbb C^n$$ ist für $$z,w\in\mathbb C^n$$ definiert als
-
 $$
 \langle z,w\rangle\coloneqq
 \sum_{\nu=1}^n z_\nu \bar w_\nu=
 z^\mathrm T\bar w.
 $$
-
 Es ist [[sesquilinear|Sesquilinearform]], [[Hermite'sch|Hermite'sche Form]] und [[positiv definit|Definitheit]].
 
 Für $$x,y\in\mathbb R\subset\mathbb C$$ ist es gleich dem [[Standardskalarprodukt|Standardskalarprodukt in R]] in $$\mathbb R$$. Betrachtet man $$z_\nu=x_\nu+iy_\nu$$ für $$\nu\in\{1,\ldots,n\}$$, und den Vektor $$v=(x_1,y_1,,\ldots,x_n,y_n)\in\mathbb R^{2n}$$, sowie einen anderen solchen Vektor $$v'$$, so ist
-
 $$
 \langle z,z'\rangle = \sum_{\nu=1}^n z_\nu \bar z'_\nu=\sum_{\nu=1}^n(x_\nu x'_\nu+y_\nu y'_\nu)-i\det\sum_{\nu=1}^n\begin{pmatrix}x_\nu&y_\nu\\x'_\nu&y'_\nu\end{pmatrix},
 $$
-
 und das ist
-
 $$
 \langle v,v'\rangle-i\omega(v,v'),
 $$
-
 wobei das Skalarprodukt in $$\mathbb R^{2n}$$ gemeint ist und $$\omega\colon \mathbb R^{2n}\times\mathbb R^{2n}\to\mathbb R$$ durch die obige Summe definiert ist.

@@ -1,5 +1,5 @@
 created: 20190406221349327
-modified: 20190715220555117
+modified: 20200601181920418
 revision: 0
 tags: Verteilung
 title: Exponentialverteilung
@@ -12,11 +12,22 @@ f_\lambda(x)=
 \lambda e^{-\lambda x}\mathbf 1_{[0,\infty[}(x).
 $$
 
-Sie wird mit $$\operatorname{Exp}(\lambda)$$ bezeichnet.
-
-* <div>Ihre [[Verteilungsfunktion]] ist
+Sie wird mit $$\operatorname{Exp}(\lambda)$$ bezeichnet. Die [[Verteilungsfunktion]] ist
 $$
 F(x)=(1-e^{-\lambda x})\mathbf 1_{[0,\infty[}(x).
-$$</div>
+$$
+und es gilt $$\Bbb E(X)=1/\lambda$$ und $$V(X)=1/\lambda^2.$$
 
-* Es gilt $$\Bbb E(X)=1/\lambda$$ und $$V(X)=1/\lambda^2.$$
+{{Beziehung von Exponential- und Gammaverteilung}}
+
+!! Gedächtnislosigkeit
+
+Sei $$T$$ [[exponentialverteilt|Exponentialverteilung]]. Dann gilt für $$s>0$$
+
+$$
+\Bbb P(T>s+t\mid T>t)=\Bbb P(T>s)\qquad\forall t>0.
+$$
+
+Ist umgekehrt $$T$$ eine nichtnegative [[Zufallsvariable]] mit dieser Eigenschaft und gilt $$\Bbb P(T>0)>0,$$ so ist $$T$$ exponentialverteilt.
+
+Siehe auch [[Geometrische Verteilung]].

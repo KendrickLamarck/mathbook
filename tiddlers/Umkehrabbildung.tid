@@ -1,7 +1,8 @@
 created: 20161210014338771
+creator: Leander
 list: 
-modified: 20191011211352615
-revision: 0
+modified: 20200823123023058
+modifier: Leander
 tags: Abbildung
 title: Umkehrabbildung
 type: text/vnd.tiddlywiki
@@ -14,10 +15,14 @@ $$
 
 mit $$y = f(x)$$. Die Umkehrabbildung ist ebenfalls bijektiv.
 
-!! Involution
+!! Stetigkeit und Monotonie
 
-{{Involution}}
+{{Stetigkeit und Monotonie der Umkehrfunktion}}
 
 !! Ableitung
 
 {{Ableitung der Umkehrfunktion}}
+
+!! Involution
+
+{{Involution}}

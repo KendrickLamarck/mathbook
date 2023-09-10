@@ -1,10 +1,10 @@
+caption: ODEs
 created: 20180509195852709
 creator: Leander
-list: [[Satz von Peano]] [[Satz von Picard-Lindelöf]] [[Lineare Differentialgleichung]]
-modified: 20200215174035455
+list: [[Satz von Peano]] [[Satz von Picard-Lindelöf]] [[ODE solutions' dependence on parameters]] [[Continuing ODE solutions]] [[Grönwall's inequality]] [[Time-shifted solutions of ODEs]] [[Integral of motion]] [[Liouville's formula]] [[Fixed points of dynamical systems]] [[Phase volume]] [[Lineare Differentialgleichung]] Flow [[Invariant manifold]] [[Limit cycle]] [[Poincaré return map]] [[Poincaré-Lyapunov theorem]] [[Hopf bifurcation]] [[Saddle-node bifurcation]]
+modified: 20210105205435487
 modifier: Leander
-revision: 0
-tags: Analysis
+tags: Mathematics
 title: Gewöhnliche Differentialgleichung
 type: text/vnd.tiddlywiki
 
@@ -42,3 +42,7 @@ heißt ein //Anfangswertproblem.//
 </div>
 
 # Das Anfangswertproblem $$\ddag$$ heißt //eindeutig lösbar,// wenn es eine Lösung gibt und wenn je zwei Lösungen $$x_1\colon J_1\to V$$ und $$x_2\colon J_2\to V$$ auf $$J_1\cap J_2$$ übereinstimmen.
+
+!! Inhaltsverzeichnis
+
+{{||$:/_templates/tree}}

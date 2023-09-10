@@ -1,14 +1,12 @@
 created: 20180601213019180
 creator: Leander
-modified: 20191003211346084
+modified: 20210314150759170
 modifier: Leander
-revision: 0
-tags: Koordinatensystem
+tags: Koordinatensystem no-toc
 title: Transformationsformel (Sesquilinearformen)
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[Vektorraum]] mit [[Basen|Basis]] $$\mathcal{A,B}$$ und sei $$T\coloneqq T_\mathcal A^\mathcal B$$ die entsprechende [[Transformationsmatrix]]. Für jede [[Sesquilinearform]] $$s$$ auf $$V$$ gilt dann
-
 $$
-M_\mathcal B(s)=T^\mathrm T\cdot M_\mathcal A(s)\cdot \bar T.
+M_\mathcal B(s)=T^\mathrm T\cdot M_\mathcal A(s)\cdot \overbar{2}{-1}{T}.
 $$

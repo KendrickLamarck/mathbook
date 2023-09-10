@@ -1,9 +1,8 @@
 caption: Signum
 created: 20180406141335861
 creator: Leander
-modified: 20191122194354351
+modified: 20210118213630213
 modifier: Leander
-revision: 0
 tags: Permutation
 title: Signum (Permutation)
 type: text/vnd.tiddlywiki
@@ -16,7 +15,6 @@ Wir definieren das //Signum// (Vorzeichen) $$\operatorname{sign}\sigma$$ als
 !! Formel
 
 Für jedes $$\sigma\in S_n$$ gilt
-
 $$
 \operatorname{sign}\sigma=\prod_{i<j}\frac{\sigma(j)-\sigma(i)}{j-i}.
 $$
@@ -24,13 +22,10 @@ $$
 !! Verträglichkeit mit Komposition
 
 Für alle $$\sigma,\tau\in S_n$$ gilt $$\operatorname{sign}(\tau\cdot\sigma)=\operatorname{sign}\tau\cdot\operatorname{sign}\sigma$$. Insbesondere gilt $$\operatorname{sign}\sigma^{-1}=\operatorname{sign}\sigma$$ für jedes $$\sigma\in S_n$$.
-
 Anders ausgedrückt heißt das, dass die Abbildung
-
 $$
 \operatorname{sign}\colon S_n\to\{\,+1,-1\,\}
 $$
-
 ein [[Homomorphismus]] in die [[Gruppe]] von zwei Elementen ist. Es folgt:
 
 * Für jede [[Transposition|Transposition (Permutation)]] $$\tau\in S_n$$ gilt $$\operatorname{sign}\tau=-1$$

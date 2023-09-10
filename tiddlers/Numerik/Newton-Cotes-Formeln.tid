@@ -1,38 +1,37 @@
 created: 20200220222339418
 list: [[Summierte Trapezregel]] [[Summierte Simpsonregel]] [[Numerische Integration durch Extrapolation]]
-modified: 20200301012158228
-revision: 0
+modified: 20201209223704567
 tags: Numerik
 title: Newton-Cotes-Formeln
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon [a,b]\to\R$$ eine Funktion, die wir integrieren wollen und definiere ein äquidistantes Gitter $$\hat x_i\coloneqq a+iH,\ i=0,\dots,N$$ mit $$H\coloneqq (b-a)/N.$$ Für das Integral des Interpolationspolynoms $$P_{0,\dots,N}$$ gilt dann
-
 $$\begin{aligned}
 \int_a^b P_{0,\dots,N}(x)\,\d x &=
 H\sum_{i=0}^N f_i \int_0^N \prod_{k\ne i} \frac{s-k}{i-k}\d s \\ &=
 H\sum_{i=0}^N f_i\omega_i =
 \frac{b-a}{n_s}\sum_{i=0}^N \sigma_i f_i
 \end{aligned}$$
-
 mit $$n_s,\sigma_i\in\Z.$$
 
+@@.theorem
 ''Satz (Fehler).''
 Für ein $$\xi\in{]a,b[}$$ gilt:
-
 $$
 \int_a^b (P_{0,\dots,N}(x)-f(x))\,\d x = \begin{cases}
 H^{N+3}\cdot\kappa f^{(N+2)}(\xi), &\text{ falls $N$ gerade,} \\
 H^{N+2}\cdot\kappa f^{(N+1)}(\xi), &\text{ falls $N$ ungerade.}
 \end{cases}
 $$
+@@
 
 Einige Werte sind wie folgt gegeben:
 
-| $$N$$ | $$\sigma_i$$ | $$n_s$$ | Fehler | Name |
-| 1 |1 1 | 2|$$H^3\cdot 1/12 \cdot f^{(2)}(\xi)$$ |Trapezregel |
-| 2 |1 4 1 | 6|$$H^5\cdot 1/90 \cdot f^{(4)}(\xi)$$ |Simpson-Regel |
-| 3 |1 3 3 1 | 8|$$H^5\cdot 3/80\cdot f^{(4)}(\xi)$$ |3/8-Regel |
-| 4 |7 32 12 32 7 | 90|$$H^7\cdot 178/945 \cdot f^{(6)}(\xi)$$ |Milne-Regel |
-| 5 |19 75 50 50 75 19 | 288|$$H^7\cdot 275/12096 \cdot f^{(6)}(\xi)$$ | - |
-| 6 |41 216 27 272 27 216 41 | 840|$$H^9\cdot 9/1400 \cdot f^{(8)}(\xi)$$ |Weddle-Regel |
+|table-transparent-borders|k
+| $$N$$| $$\sigma_i$$            |   $$n_s$$| $$\kappa$$|Name         |h
+|    1| 1 1                     |         2|       1/12|Trapezregel   |
+|    2| 1 4 1                   |         6|       1/90|Simpson-Regel |
+|    3| 1 3 3 1                 |         8|       3/80|3/8-Regel     |
+|    4| 7 32 12 32 7            |        90|    178/945|Milne-Regel   |
+|    5| 19 75 50 50 75 19       |       288|  275/12096|---           |
+|    6| 41 216 27 272 27 216 41 |       840|     9/1400|Weddle-Regel  |

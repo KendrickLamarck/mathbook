@@ -1,8 +1,7 @@
 created: 20180617122044542
 creator: Leander
-modified: 20191104155243262
+modified: 20210219093141048
 modifier: Leander
-revision: 0
 tags: Orthogonalität no-toc
 title: Orthogonale Gruppen
 type: text/vnd.tiddlywiki
@@ -17,4 +16,14 @@ Die Mengen
 
 sind [[Untergruppen|Untergruppe]] von $$\GL(n;\mathbb K).$$
 
-Für $$\R^{p,q}$$ bezeichnen wir die entsprechenden Gruppen mit $$\O(p,q)$$ und $$\SO(p,q).$$ (siehe [[Orthogonale/unitäre Matrix]]).
+* Für $$\R^{p,q}$$ bezeichnen wir die entsprechenden Gruppen mit $$\O(p,q)$$ und $$\SO(p,q).$$ (siehe [[Orthogonale/unitäre Matrix]]).
+
+* $$\SO(n)$$ is a subgroup of index $$2$$ of $$\O(n).$$
+
+* $$\O(n) = \SO(n) \times \{\pm I\} = \SO(n) \rtimes \{\pm 1\}$$ since $$\{\pm 1\} \cong \{e,\mu\}$$ for any reflection $$\mu.$$
+
+* The finite subgroups of $$\O(n)$$ are called the //$$n$$-dimensional point groups.//
+
+!! As Lie groups
+
+The orthogonal groups are Lie groups. If $$g \in \O(n),$$ then $$\T_g \O(n)$$ is $$g \cdot \mathfrak{so}(n) = \mathfrak{so}(n) \cdot g,$$ where $$\mathfrak{so}(n)$$ is the set of skew-symmetric matrices. Thus $$\mathfrak{so}(n)$$ is the Lie algebra of $$\O(n)$$ and it is indeed a [[Lie algebra|Lie algebra]] together with the matrix commutator. It is called $$\mathfrak{so}(n)$$ because $$\SO(n)$$ is a connected component of $$\O(n).$$

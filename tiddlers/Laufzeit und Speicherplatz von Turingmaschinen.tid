@@ -1,10 +1,11 @@
 created: 20180719184915748
 creator: Leander
-modified: 20180719185206517
+modified: 20200530152213357
 modifier: Leander
 revision: 0
-tags: Turingmaschine
+tags: Algorithmus no-toc
 title: Laufzeit und Speicherplatz von Turingmaschinen
+type: text/vnd.tiddlywiki
 
 * Die //Rechenzeit// einer [[DTM|Turingmaschine]] ist die Anzahl der Zustandsübergänge, bis die Maschine stoppt.
 * Die //Worst-Case-Rechenzeit// $$t(n)$$ ist die maximale Anzahl Rechenschritte, die die Maschine auf Inputs aus $$\Sigma^n$$ durchführt.

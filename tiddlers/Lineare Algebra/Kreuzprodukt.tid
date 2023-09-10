@@ -1,48 +1,51 @@
 created: 20180525172145571
 creator: Leander
-modified: 20191009124937535
+modified: 20200712190123670
 modifier: Leander
-revision: 0
 tags: Skalarprodukt Determinante
 title: Kreuzprodukt
 type: text/vnd.tiddlywiki
 
-Seien $$x,y\in\mathbb R^3$$. Wir betrachten die Abbildung
-
+Seien $$x,y\in\R^3$$. Wir betrachten die Abbildung
 $$
-\mathbb R^3\to\mathbb R,\quad u\mapsto\det(x,y,u).
+\R^3\to\R,\quad u\mapsto\det(x,y,u).
 $$
-
 Diese Abbildung ist [[linear|Determinante]], also gibt es eindeutig bestimmte $$a_1,a_2,a_3$$, so dass
-
 $$
 \det(x,y,u)=a_1u_1+a_2u_2+a_3u_3=\langle a,u\rangle
 $$
-
-für alle $$u\in\mathbb R^3$$. Die Abbildung
-
+für alle $$u\in\R^3$$. Die Abbildung
 $$
-\times\colon\mathbb R^3\times\mathbb R^3\to\mathbb R^3,\quad (x,y)\mapsto x\times y\coloneqq a=(a_1,a_2,a_3)
+\times\colon\R^3\times\R^3\to\R^3,\quad
+(x,y)\mapsto x\times y\coloneqq a=(a_1,a_2,a_3)
 $$
-
-heißt das //Kreuz-// oder //Vektorprodukt// auf $$\mathbb R^3$$.
+heißt das //Kreuz-// oder //Vektorprodukt// auf $$\R^3$$. Es ist
+$$
+x\times y=\begin{pmatrix}
+  x_2y_3-x_3y_2 \\
+  x_3y_1-x_1y_3 \\
+  x_1y_2-x_2y_1
+\end{pmatrix}.
+$$
 
 !! Eigenschaften
 
-Für alle $$x,x',y,y'\in\mathbb R^3$$ und $$\lambda\in\mathbb R$$ gilt:
-
-# $$x\times y=(x_2y_3-x_3y_2,x_3y_1-x_1y_3,x_1y_2-x_2y_1).$$
-
-# $$\begin{gathered}(x+x')\times y=x\times y+x'\times y,\qquad \lambda x\times y=\lambda(x\times y),\\
-x\times(y+y')=x\times y+x\times y',\qquad x\times \lambda y=\lambda(x\times y).\end{gathered}$$
-
-# $$y\times x=-x\times y$$, also $$x\times x=0.$$
-
-# $$x\times y=0\iff x,y$$ [[linear abhängig|Lineare Unabhängigkeit]].
+# Das Kreuzprodukt ist [[bilinear und alternierend|Alternierende multilineare Abbildung]].
 
 # $$\langle x\times y,x\rangle=\langle x\times y,y\rangle=0.$$ Die Vektoren sind also [[senkrecht|Orthogonale Vektoren]].
 
-# Die [[Länge|Norm]] des Vektors ist gleich der Fläche des von $$x$$ und $$y$$ aufgespannten Parallelogramms:$$\begin{gathered}&\|x\times y\|^2=\|x\|^2\|y\|^2-\langle x,y\rangle^2,\\
-&\|x\times y\|=\|x\|\cdot\|y\|\cdot\sin\measuredangle(x,y).\end{gathered}$$
+# Die Basen $$\mathcal B=(x,y,x\times y)$$ und die Standardbasis sind [[gleichorientiert|Orientierung]].
 
-# Die Basen $$\mathcal B=(x,y,z=x\times y)$$ und die Standardbasis sind [[gleichorientiert|Orientierung]].
+# <div>Die [[Länge|Norm]] des Vektors ist gleich der Fläche des von $$x$$ und $$y$$ aufgespannten Parallelogramms:
+$$\begin{aligned}
+\|x\times y\|^2 &= \|x\|^2\|y\|^2-\langle x,y\rangle^2,\\
+\|x\times y\| &= \|x\|\cdot\|y\|\cdot\sin\measuredangle(x,y).
+\end{aligned}$$</div>
+
+# $$x\times(y\times z) = \lang x,z\rang y - \lang x,y\rang z$$ @@float:right; (bac-cab-Formel)@@
+
+# $$\lang x \times y,z\rang = \lang x, y \times z\rang$$
+
+# $$x\times (y \times z) + y \times (z \times x) + z \times (x \times y) = 0$$ @@float:right; (Jacobi-Identität)@@
+
+# $$\lang x\times y,u\times v\rang = \lang x,u\rang\lang y,v\rang - \lang y,u\rang\lang x,v\rang$$

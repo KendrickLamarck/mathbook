@@ -1,7 +1,7 @@
 created: 20180218200635871
 creator: Leander
 list: Umkehrsatz [[Satz über implizite Funktionen]] Rangsatz Diffeomorphismus [[Immersion und Submersion]]
-modified: 20190325194440504
+modified: 20200424182746403
 modifier: Leander
 revision: 0
 tags: Ableitung
@@ -14,7 +14,7 @@ $$
 \mathrm D^k f\colon G\to L^k(V,W),\quad p\mapsto\mathrm D_p^k f
 $$
 
-[[stetig|Stetigkeit]], so heißt $$f$$ //$$k$$-mal stetig differenzierbar// und wir schreiben $$f\in \mathcal C^k(G,W).$$
+[[stetig|Stetigkeit]], so heißt $$f$$ //$$k$$-mal stetig differenzierbar// und wir schreiben $$f\in \mathcal C^k(G,W).$$ Für $$V=\mathbb R^n$$ ist das äquivalent dazu, dass alle [[partiellen Ableitungen|Partielle Ableitung]] $$k$$-ter Ordnung von $$f$$ existieren und stetig sind.
 
-Für $$V=\mathbb R^n$$ ist das äquivalent dazu, dass alle [[partiellen Ableitungen|Partielle Ableitung]] $$k$$-ter Ordnung von $$f$$ existieren und stetig sind.
-
+''Bemerkung.''
+Ist $$G \subset V$$ eine beliebige, nicht notwendigerweise offene, Teilmenge, so sagen wir $$f \in \mathcal C^k(G,W),$$ wenn eine offene Menge $$U \subseteq V$$ mit $$G\subset U$$ und eine $$\mathcal C^k$$-Funktion $$\tilde f\colon U \to W$$ existiert, so dass $$f=\tilde f\bigr|_G.$$

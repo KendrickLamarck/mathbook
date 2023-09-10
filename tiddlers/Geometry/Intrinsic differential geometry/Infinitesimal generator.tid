@@ -1,11 +1,11 @@
 created: 20191123231123503
-modified: 20200311212336630
+modified: 20200603153337918
 revision: 0
 tags: Flow
 title: Infinitesimal generator
 type: text/vnd.tiddlywiki
 
-The //infinitesimal generator// of a [[flow|Flow]] $$\theta$$ on $$M$$ is the [[vector field|Vektorfeld]] $$X$$ on $$M$$ defined by $$X_p \coloneqq \gamma_p'(0).$$
+The //infinitesimal generator// of a [[flow|Flow]] $$\theta$$ on $$M$$ is the [[vector field|Vector field]] $$X$$ on $$M$$ defined by $$X_p \coloneqq \gamma_p'(0).$$
 
 We can also define $$X_p \coloneqq \D_{(0,p)}\theta(V),$$ where the vector field $$V$$ on $$\R\times M$$ is defined by
 

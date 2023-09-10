@@ -1,7 +1,6 @@
 created: 20190102180813320
 list: 
-modified: 20191028134234255
-revision: 0
+modified: 20210314011143450
 tags: [[Lebesgue-Maß im R2]] no-toc
 title: Elementare Menge
 type: text/vnd.tiddlywiki
@@ -9,12 +8,10 @@ type: text/vnd.tiddlywiki
 {{Rechteck}}
 
 Wir bezeichen mit
-
 $$
 \mathcal E\coloneqq
 \Bigl\{\bigcup_{i=1}^n R_n\mid R_1,\dots,R_n\in\mathcal R\text{ paarweise disjunkt}\Bigr\}
 $$
-
 die Menge aller endlichen Vereinigungen von paarweise [[Rechtecken|Rechteck]] und nennen ihre Elemente //elementare Mengen.//
 
 Für $$A,B\in\mathcal E$$ liegen auch $$A\cup B,\ A\cap B,\ A\setminus B$$ und $$A\sd B$$ in $$\mathcal E.$$

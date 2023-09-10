@@ -1,23 +1,18 @@
 created: 20180219120041516
 creator: Leander
 list: 
-modified: 20180728185304484
+modified: 20210314145518365
 modifier: Leander
-revision: 0
 tags: Skalarprodukt
 title: Cauchy-Schwarz'sche Ungleichung
 type: text/vnd.tiddlywiki
 
 Diese Ungleichung ist der Spezialfall $$p=q=2$$ der [[Hölder'schen Ungleichung|Hölder'sche Ungleichung]]. Seien $$a,b\in\mathbb R^n$$. Dann gilt
-
 $$
 \left|\sum a_i b_i\right|\le\sqrt{\sum a_i^2}\sqrt{\sum b_i^2}.
 $$
-
 Das kann man mit dem [[Standardskalarprodukt|Standardskalarprodukt in R]] und der [[Euklidischen Norm|lp-Norm]] auch schreiben als
-
 $$
 |\langle a,b\rangle|\le\|a\|\cdot\|b\|,
 $$
-
 wobei die Gleichheit genau dann gilt, wenn $$a$$ und $$b$$ [[linear abhängig|Lineare Unabhängigkeit]] sind.

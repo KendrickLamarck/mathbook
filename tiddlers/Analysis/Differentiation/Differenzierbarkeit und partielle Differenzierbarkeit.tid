@@ -1,8 +1,7 @@
 created: 20180605170808279
 creator: Leander
-modified: 20191003230453918
+modified: 20200920210317004
 modifier: Leander
-revision: 0
 tags: no-toc Richtungsableitung
 title: Differenzierbarkeit und partielle Differenzierbarkeit
 type: text/vnd.tiddlywiki
@@ -10,13 +9,10 @@ type: text/vnd.tiddlywiki
 Seien $$V,W$$ endlichdimensionale [[Banachräume|Banachraum]], $$G\subset V$$ [[offen|Offenheit]] und $$f\colon V\supset G\to W$$ eine Abbildung. Existieren auf ganz $$G$$ alle [[Richtungsableitungen|Richtungsableitung]], oder alle [[partiellen Ableitungen|Partielle Ableitung]] im Fall $$V=\mathbb R^n,$$ und sind diese [[stetig|Stetigkeit]], so ist $$f$$ in $$G$$ [[differenzierbar|Ableitung]].
 
 Ist umgekehrt $$f$$ bereits in $$p\in G$$ differenzierbar, so existieren dort alle Richtungsableitungen und es gilt
-
 $$
 \partial_v f(p)=\mathrm D_p f(v),
 $$
-
 insbesondere im Fall $$V=\mathbb R^n$$
-
 $$
-\partial_i f(p)=\mathrm D_p f(e_i).
+\fracpartial{}{x_i} f(p)=\mathrm D_p f(e_i).
 $$

@@ -1,14 +1,12 @@
 created: 20180528195941092
 creator: Leander
-modified: 20191003211333448
+modified: 20210314150250322
 modifier: Leander
-revision: 0
-tags: Koordinatensystem
+tags: Koordinatensystem no-toc
 title: Transformationsformel (Bilinearformen)
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein [[endlichdimensionaler|Dimension]] [[Vektorraum]] mit [[Basen|Basis]] $$\mathcal{A,B}$$ und sei $$T_\mathcal A^\mathcal B$$ die entsprechende [[Transformationsmatrix]]. Für jede [[Bilinearform]] $$s$$ auf $$V$$ gilt dann
-
 $$
 M_\mathcal B(s)=\left(T_\mathcal A^\mathcal B\right)^\mathrm T\cdot M_\mathcal A(s)\cdot T_\mathcal A^\mathcal B.
 $$

@@ -1,8 +1,7 @@
 created: 20180102210147455
 creator: Leander
-modified: 20190224174629580
+modified: 20200929131626630
 modifier: Leander
-revision: 0
 tags: [[Trigonometrische Funktionen]]
 title: Eigenschaften der trigonometrischen Funktionen
 type: text/vnd.tiddlywiki
@@ -24,27 +23,23 @@ $$
 \sin^2(x) &= \frac 12 (1-\cos(2x)).
 \end{aligned}
 $$
-
 Auf dem Intervall $$]0,\pi[$$ ist der Sinus positiv, also $$\cos|_{]0,\pi[}$$ streng [[monoton|Monotonie]] fallend.
 
+@@.theorem
 ''Lemma.''
 Für zwei Funktionen $$y_1,y_1\colon\mathbb R\to \mathbb R$$ mit
-
 $$
 y_i''+y_i=0,
 $$
-
 aber mit den Startbedingungen
-
 $$
 y_1(0)=0,\quad y_1'(0)=1,\quad y_2(0)=:a,\quad y_2'(0)=:b
 $$
-
 gilt
-
 $$
 y_2=b y_1+a y_1'.
 $$
+@@
 
 !! Werte
 

@@ -1,16 +1,14 @@
 created: 20190114140202795
 creator: Leander
-modified: 20191109133501360
+modified: 20210314153336494
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]]
 title: Topology on the real projective line
+type: text/vnd.tiddlywiki
 
-Consider the [[homeomorphism|Homöomorphismus]] $$S^1\to\Bbb R\mathrm P^1$$
-
+Consider the [[homeomorphism|Homöomorphismus]] $$\sphere^1\to\RP^1$$
 $$
 \begin{pmatrix} \cos\alpha \\ \sin\alpha\end{pmatrix}\mapsto
 \begin{bmatrix} \cos 2\alpha \\ \sin 2\alpha\end{bmatrix}.
 $$
-
 We define the open sets of $$\Bbb R\mathrm P^1$$ as the sets with open preimages under this map, which defines a [[topology|Topologie]].

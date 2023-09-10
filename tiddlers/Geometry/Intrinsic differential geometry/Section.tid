@@ -1,10 +1,10 @@
 created: 20191116232244035
-modified: 20200415115327806
+modified: 20200623230155389
 revision: 0
-tags: no-toc [[Vector bundle]]
+tags: no-toc [[Intrinsic differential geometry]]
 title: Section
 type: text/vnd.tiddlywiki
 
-A (smooth) //section// of a vector bundle $$\pi\colon E\to M$$ is a (smooth) map $$\sigma\colon M\to E$$ such that $$\pi\circ\sigma=\id_M,$$ meaning $$\sigma(p)\in E_p$$ for each $$p\in M.$$
+A (smooth) //section// of a vector bundle $$\pi\colon E\to M$$ is a (smooth) map $$\sigma\colon M\to E$$ such that $$\pi\circ\sigma=\id_M,$$ meaning $$\sigma(p)\in E_p$$ for each $$p\in M.$$ The space of all sections is denoted $$\Gamma(E).$$ It is always a module over $$\mathcal C^\infty(M).$$
 
-The space of all sections is denoted $$\Gamma(E).$$ It is always a module over $$\mathcal C^\infty(M).$$
+A //frame// for a local bundle $$E_U$$ is a set of $$k$$ sections $$\sigma_i \in \Gamma(E_U)$$ such that at each $$p\in U,$$ the $$\sigma_i(p)$$ form a basis for $$E_p.$$

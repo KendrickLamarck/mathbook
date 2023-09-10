@@ -1,24 +1,19 @@
 created: 20171225132939154
 creator: Leander
-modified: 20191229224824835
+modified: 20210302222717921
 modifier: Leander
-revision: 0
-tags: Topologie
+tags: [[Inneres, Abschluss, Rand, Häufungspunkt]] no-toc
 title: Randpunkt
 type: text/vnd.tiddlywiki
 
 Seien $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]] und $$Y\subset X$$. Den //Rand// von $$Y$$ nennen wir die Menge
-
 $$
 \partial Y\coloneqq\overline Y\setminus Y^\circ.
 $$
-
 Diese Menge ist [[abgeschlossen|Abgeschlossenheit]]. Außerdem enthält die Umgebung jedes Randpunktes Punkte von $$Y$$ und Punkte von $$X\setminus Y$$:
-
 $$
 \partial Y=\{\,p\in X:\forall\mathcal T\ni O\ni p
 [O \cap Y             \ne\varnothing \land
  O \cap (X\setminus Y)\ne\varnothing ]\,\}.
 $$
-
 $$p \in \mathbb{K}$$ ist genau dann ein Randpunkt von $$D \subset \mathbb{K}$$, wenn $$p$$ weder [[innerer Punkt|Innerer Punkt]] von $$D$$ noch von $$\mathbb{K}\setminus D$$ ist.

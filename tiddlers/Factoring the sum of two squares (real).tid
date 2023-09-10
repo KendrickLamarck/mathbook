@@ -1,7 +1,6 @@
 caption: Sum of two squares (real)
 created: 20170909035253421
-modified: 20191004165527434
-revision: 0
+modified: 20210113195827370
 tags: Factoring no-toc
 title: Factoring the sum of two squares (real)
 type: text/vnd.tiddlywiki
@@ -13,5 +12,4 @@ $$
 $$
 (a+b)^2-2ab=(a+b)^2-(\sqrt{2ab})^2.
 $$
-
 Proceed by [[factoring the difference of the two squares|Factoring the difference of two squares]].

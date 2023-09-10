@@ -1,16 +1,13 @@
 created: 20180108173843113
 creator: Leander
-modified: 20190217223749287
+modified: 20200929131515741
 modifier: Leander
-revision: 0
 tags: [[Trigonometrische Funktionen]]
 title: Kreiszahl
 type: text/vnd.tiddlywiki
 
 Die Menge
-
 $$
-\{\,x\in\mathbb R \mid x > 0 \text{ und } \cos x = 0\,\}
+\{\,x\in\R \mid x > 0 \text{ und } \cos x = 0\,\}
 $$
-
 ist nicht leer und besitzt ein kleinstes Element $$\xi$$. Wir definieren $$\pi\coloneqq 2\xi$$. Also ist $$\pi/2$$ die kleinste positive Nullstelle der Funktion $$\cos$$.

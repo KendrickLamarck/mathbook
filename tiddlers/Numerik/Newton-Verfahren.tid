@@ -1,6 +1,5 @@
 created: 20200223232229165
-modified: 20200224015158564
-revision: 0
+modified: 20201209223143866
 tags: Numerik
 title: Newton-Verfahren
 type: text/vnd.tiddlywiki
@@ -12,11 +11,9 @@ Das Newton-Verfahren sucht Nullstellen der differenzierbaren Funktion $$F\colon\
 # Setze $$x_{k+1}\coloneqq x^{(k)}-\lambda_k d^{(k)}$$ für ein $$\lambda_k$$ zur Dämpfung (Im Zweifel $$\lambda_k=1$$) und iteriere.
 
 Im Fall $$f\colon\R\to\R$$ haben wir die Gleichung
-
 $$
 x_{k+1}\coloneqq x_k-\frac{f(x_k)}{f'(x_k)}.
 $$
-
 Das Verfahren wird typischerweise iteriert, bis $$\|F(x^{(k)})\|\le\varepsilon$$ für ein vorgegebenes $$\varepsilon$$ ist.
 
 !! Konvergenz
@@ -32,35 +29,28 @@ Dann gilt:
 * Alle iterierten $$x^{(i)}$$ des Newton-Verfahrens liegen in $$U_\varepsilon$$ und konvergieren gegen $$\hat x.$$
 
 * <div>Sei $$\alpha \coloneqq \| F'(x^{(0)})^{-1} F(x^{(0)}) \|$$ und wähle $$x^{(0)}$$ so dicht an der Nullstelle $$\hat x,$$ dass $$h=\alpha \beta \gamma/2 < 1$$ ist. Dann gilt die Abschätzung
-
 $$
 \|x^{(i)}-\hat x\|\le\frac{\alpha}{h(1-h^{2^i})}h^{2^i},
 $$
-
 das Newton-Verfahren ist also mindestens quadratisch konvergent.</div>
 
 !! Dämpfung
 
 Die $$\lambda_k$$ werden so gewählt, dass die Folge $$(\|F(x^{(k)})\|_2)_k$$ streng monoton fällt und die $$x^{(k)}$$ gegen ein Minimum von $$\|F(x)\|$$ konvergieren. Für hinreichend kleines $$\lambda$$ gilt für viele Klassen von Funktionen
-
 $$
 \|F(x-\lambda d)\|_2 < \|F(x)\|_2
 $$
-
 und man nimmt dann $$x\coloneqq x-\lambda d$$ als nächste Iterierte und man erhält globale Konvergenz.
 
 !! Berechnung
 
 Die Berechnung der Jacobi-Matrix $$F'(x)$$ in jedem Schritt ist sehr aufwändig, weswegen man sie auch durch eine approximierende Matrix $$\Delta F(x^{(k)})$$ von Differenzenquotienten
-
 $$
 \Delta_i F(x)=\frac{F(x + h_i e_i)-F(x)}{h_i}
 $$
-
 ersetzen kann. Ist $$h_i$$ aber groß, so ist die Approximation schlecht, ist es klein, so ist $$F(x + h_i e_i)\approx F(x)$$ und es besteht die Gefahr der Auslöschung.
 
 Wählt man bei $$t$$-stelliger Rechnung $$h_i$$ so, dass $$F(x)$$ und $$F(x+h_i e_i)$$ die ersten $$t/2$$ Stellen gemeinsam haben, so gilt
-
 $$
 |h_i|\approx\sqrt{\eps} \frac{\|F(x)\|}{\|\Delta_i F(x)\|}.
 $$

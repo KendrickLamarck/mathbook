@@ -1,10 +1,10 @@
 created: 20190216141936375
-modified: 20191010155436544
+modified: 20200618203838959
 revision: 0
 tags: [[Spherical geometry]] no-toc
 title: Angles on the sphere
 type: text/vnd.tiddlywiki
 
-Let $$m$$ and $$n$$ be the poles of two [[great circles|Great circle]]. The interior angle $$\alpha$$ and the exterior angle $$\hat\alpha$$ of the corresponding [[digon|Spherical Digon]] satisfy $$\alpha+\hat\alpha=\pi$$ and $$\cos\hat\alpha=\langle m,n\rangle,$$ so $$\cos\alpha=-\langle m,n\rangle.$$ The exterior angle is the distance between $$m$$ and $$n.$$
+Let $$m$$ and $$n$$ be the poles of two [[great circles|Great circle]]. The interior angle $$\alpha$$ and the exterior angle $$\hat\alpha$$ of the corresponding [[digon|Spherical digon]] satisfy $$\alpha+\hat\alpha=\pi$$ and $$\cos\hat\alpha=\langle m,n\rangle,$$ so $$\cos\alpha=-\langle m,n\rangle.$$ The exterior angle is the distance between $$m$$ and $$n.$$
 
 The area of the digon is $$2\alpha.$$

@@ -1,17 +1,14 @@
 created: 20180211211259001
 creator: Leander
 list: 
-modified: 20191003224102901
+modified: 20201112141729930
 modifier: Leander
-revision: 0
 tags: no-toc Reihe
 title: Nullfolgenkriterium
 type: text/vnd.tiddlywiki
 
 Wählt man zum [[Cauchy-Kriterium|Cauchy-Kriterium für Konvergenz von Reihen]] $$n=m$$, so folgt als notwendiges, aber nicht hinreichendes Kriterium, dass die Glieder einer konvergenten [[Reihe]] eine Nullfolge bilden:
-
 $$
 \sum a_k \in\mathbb R \implies \lim a_k = 0.
 $$
-
 Ein Gegenbeispiel zur Gegenrichtung bildet die [[Harmonische Reihe]].

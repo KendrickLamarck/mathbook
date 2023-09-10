@@ -1,8 +1,9 @@
 created: 20190616005216751
-modified: 20190708225908425
+modified: 20200527121400142
 revision: 0
-tags: Normalverteilung Erwartungswert
+tags: Erwartungswert
 title: Satz von De Moivre-Laplace
+type: text/vnd.tiddlywiki
 
 Sei $$(X_n)$$ eine Folge [[unabhängig|Stochastische Unabhängigkeit]] [[Bernoulli-verteilter|Bernoulli-Verteilung]] [[Zufallsvariablen|Zufallsvariable]] mit Parameter $$p\in{]0,1[}$$ und $$S_n=X_1+\dots+X_n$$ die Anzahl der Erfolge der ersten $$n$$ Experimente. Dann gilt für beliebige $$a<b$$:
 

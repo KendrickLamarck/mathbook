@@ -1,12 +1,11 @@
 created: 20200222185408210
-list: Frobenius-Norm [[Konsistente Norm]] [[Komponentenweiser Betrag bei Matrizen]] [[Rundungsfehler bei Matrizen]] [[Kondition von linearen Gleichungssystemen]] Cholesky-Zerlegung [[Nachiteration bei Gleichungssystemen]]
-modified: 20200229230656920
-revision: 0
+list: Frobenius-Norm [[Konsistente Norm]] [[Komponentenweiser Betrag bei Matrizen]] [[Rundungsfehler bei Matrizen]] [[Kondition von linearen Gleichungssystemen]] [[Nachiteration bei Gleichungssystemen]] Cholesky-Zerlegung
+modified: 20201209223312834
 tags: Numerik
 title: LR-Zerlegung
 type: text/vnd.tiddlywiki
 
-Wir wollen das Gleichungssystem $$Ax=b$$ lösen, indem wir $$A=LR$$ in eine untere linke Dreicksmatrix $$L$$ mit Einsen auf der Diagonale und eine obere rechte Dreicksmatrix $$R$$ zerlegen und dann erst $$Ly=b$$ und dann $$Rx=y$$ durch vorwärts- bzw. Rückwärtseinsetzen lösen. Dazu führen wir das Gauss-Verfahren durch und speichern die Koeffizienten in der Matrix $$L.$$
+Wir wollen das Gleichungssystem $$Ax=b$$ lösen, indem wir $$A=LR$$ in eine untere linke Dreiecksmatrix $$L$$ mit Einsen auf der Diagonale und eine obere rechte Dreiecksmatrix $$R$$ zerlegen und dann erst $$Ly=b$$ und dann $$Rx=y$$ durch vorwärts- bzw. Rückwärtseinsetzen lösen. Dazu führen wir das Gauss-Verfahren durch und speichern die Koeffizienten in der Matrix $$L.$$
 
 !! Existenz und Eindeutigkeit
 
@@ -21,38 +20,30 @@ Vollständige Pivotisierung sucht das Pivotelement im gesamten Rest der Matrix, 
 !! Fehler
 
 Sei $$A$$ eine Matrix von Maschinenzahlen. Falls kein Null-Pivot auftritt, dann erfüllen die berechneten Faktoren $$\tilde L$$ und $$\tilde R$$ die Gleichung $$\tilde L\tilde R=A+H$$ mit einem äquivalenten Datenfehler
-
 $$
 |H|\le 3(n-1)\cdot\eps\cdot(|A|+|\tilde L||\tilde R|)+\mathcal O(\eps^2).
 $$
-
 Durch das Vorwärts-/Rückwärtseinsetzen zur Lösung von $$\tilde Ly=b$$ und $$\tilde Rx=\tilde y$$ erhalten wir, dass $$\tilde x$$ die Gleichung $$(A+E)\tilde x=b$$ löst, mit einem äquivalenten Datenfehler
-
 $$
 |E|\le n\cdot\eps\cdot(3|A|+5|\tilde L||\tilde R|)+\mathcal O(\eps^2).
 $$
-
 Der Term $$|\tilde L||\tilde R|$$ kann hierbei sehr groß werden, das Verfahren ist also im Allgemeinen nicht rückwärts stabil.
 
 !!! Mit Pivotisierung
 
 Seien $$\tilde P,\tilde L,\tilde R$$ die berechneten $$P,L,R$$ beim Verfahren mit Pivotisierung. Durch die Pivotisierung gilt $$\|\tilde L\|_\infty\le n$$ und
-
 $$
 \|E\|_\infty \le n\cdot\eps\cdot (3\|A\|_\infty+5n \|\tilde R\|_\infty)+
 \mathcal O(\eps^2).
 $$
-
 Es kann immer noch passieren, dass die Einträge von $$R$$ sehr groß werden, was durch vollständige Pivotisierung vermieden werden kann.
 
 !!! Genauigkeit der Lösung
 
 Wir betrachten nun das Residuum $$r\coloneqq b-A\tilde x$$ und erhalten
-
 $$
 \frac{\|x-\tilde x\|}{\|x\|}\le\kappa(A)\frac{\|r\|}{\|b\|}.
 $$
-
 Als Faustregel gilt: Eine Konditionszahl $$\kappa(A)=10^q$$ kostet $$q$$ Stellen Genauigkeit bei der Lösung von $$Ax=b.$$
 
 !! Bemerkungen 

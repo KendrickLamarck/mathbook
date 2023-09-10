@@ -1,29 +1,22 @@
 created: 20180601211145916
 creator: Leander
-modified: 20191123202800038
+modified: 20210126134459535
 modifier: Leander
-revision: 0
 tags: [[Symmetrische Form]]
 title: Quadratische Form
 type: text/vnd.tiddlywiki
 
 Sei $$s\colon V\times V\to K$$ eine [[symmetrische|Symmetrische Form]] [[Bilinearform]]. Dann heißt
-
 $$
 q\colon V\to K,\quad v\mapsto q(v)\coloneqq s(v,v)
 $$
-
 die zu $$s$$ gehörige //quadratische Form//. Da $$s$$ bilinear ist, gilt $$q(\lambda v)=\lambda^2 q(v)$$ Für $$\lambda\in K$$. Für $$V=K^n$$ sei $$s$$ durch eine [[symmetrische Matrix|Symmetrische Matrix]] $$A$$ gegeben. Dann gilt
-
 $$
 q(x_1,\ldots,x_n)=x^\T Ax,
 $$
-
 und in der Summendarstellung sieht man, dass dies ein homogenes quadratisches [[Polynom]] ist. Mit $$\mathrm Q(V)$$ bezeichnen wir den Vektorraum der quadratischen Formen auf $$V.$$
 
 Das kann man ähnlich für [[Hermite'sche Sesquilinearformen|Hermite'sche Form]] definieren.
-
----
 
 !! Normalform
 

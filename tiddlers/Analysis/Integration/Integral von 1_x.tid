@@ -1,21 +1,16 @@
 created: 20180226115610299
 list: 
-modified: 20191011181107622
-revision: 0
+modified: 20201112142317622
 tags: Regelintegral
 title: Integral von 1/x
 type: text/vnd.tiddlywiki
 
 Für $$\alpha>1$$ ist das [[uneigentliche Integral|Uneigentliches Integral]]
-
 $$
 \int_1^\infty \frac{\mathrm dx}{x^\alpha}=\frac{1}{\alpha-1}.
 $$
-
 Für $$\alpha<1$$ ist es nicht existent. Umgekehrt gilt für $$\alpha<1$$
-
 $$
 \int_0^1 \frac{\mathrm dx}{x^\alpha}=\frac{1}{1-\alpha}.
 $$
-
 Dies ist für $$\alpha>1$$ nicht existent.

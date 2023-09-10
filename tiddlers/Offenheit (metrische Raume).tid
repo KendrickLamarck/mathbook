@@ -1,9 +1,8 @@
 caption: Induzierte Topologie
 created: 20180417171229715
 creator: Leander
-modified: 20191229223034946
+modified: 20201103133541360
 modifier: Leander
-revision: 0
 tags: [[Metrischer Raum]]
 title: Offenheit (metrische Räume)
 type: text/vnd.tiddlywiki
@@ -11,13 +10,10 @@ type: text/vnd.tiddlywiki
 {{Epsilon-Kugel}}
 
 !! Umgebungen und Offenheit
-
 {{Umgebung (metrische Räume)}}
 
 Eine Teilmenge $$Y\subset X$$ eines [[metrischen Raumes|Metrischer Raum]] $$(X,d)$$ heißt //offen//, wenn $$Y$$ eine [[Umgebung|Umgebung (metrische Räume)]] jedes seiner Punkte ist.
-
 Dieser Begriff der Offenheit definiert eine [[Topologie]] auf $$X$$. Metrische Räume sind also topologische Räume.
 
 !! Äquivalente Metriken
-
 {{Induzierte Topologien verschiedener Metriken}}

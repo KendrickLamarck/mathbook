@@ -1,19 +1,31 @@
 created: 20190426113920709
-modified: 20190708230311470
-revision: 0
+modified: 20210314001146304
 tags: Stochastik
 title: Bedingte Wahrscheinlichkeit
 type: text/vnd.tiddlywiki
 
-Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Wahrscheinlichkeitsmaß]] und $$A,B\in\mathcal A$$ Ereignisse mit $$\Bbb P(B)>0.$$ Dann heißt
-
+Seien <<mathtext Wahrscheinlichkeitsmaß>> ein [[Wahrscheinlichkeitsraum|Wahrscheinlichkeitsmaß]] und $$A,B\in\mathcal A$$ Ereignisse mit $$\prob(B)>0.$$ Dann heißt
 $$
-\Bbb P(A\mid B)\coloneqq\frac{\Bbb P(A\cap B)}{\Bbb P(B)}
+\prob(A\mid B)\coloneqq\frac{\prob(A\cap B)}{\prob(B)}
 $$
+die //bedingte Wahrscheinlichkeit von $$A$$ unter der Bedingung $$B.$$// Im Fall $$\prob(B)=0$$ setzen wir $$\prob(A\mid B)\coloneqq 0.$$
 
-die //bedingte Wahrscheinlichkeit von $$A$$ unter der Bedingung $$B.$$// Im Fall $$\Bbb P(B)=0$$ setzen wir $$\Bbb P(A\mid B)\coloneqq 0.$$
+* Für $$\prob(B)>0$$ und $$A\supseteq B$$ gilt $$\prob(A\mid B)=1.$$
+* Für $$\prob(B)>0$$ ist $$\prob(\cdot\mid B)$$ ein Wahrscheinlichkeitsmaß auf $$(\Omega,\mathcal A).$$
 
----
+!! Bedingte Verteilung
 
-* Für $$\Bbb P(B)>0$$ und $$A\supseteq B$$ gilt $$\Bbb P(A\mid B)=1.$$
-* Für $$\Bbb P(B)>0$$ ist $$\Bbb P(\cdot\mid B)$$ ein Wahrscheinlichkeitsmaß auf $$(\Omega,\mathcal A).$$
+{{Bedingte Verteilung}}
+
+!! Erweiterung auf Unter-$$\sigma$$-Algebren
+
+Als Erweiterung definieren wir für $$\mathcal F \subseteq \mathcal A,\ A \in \mathcal A$$ und eine Zufallsvariable $$Y$$
+$$
+\P(A \mid \mathcal F) \coloneqq \expect[\mathbf 1_A \mid \mathcal F],\qquad
+\P(A \mid Y=y) \coloneqq \expect[\mathbf 1_A \mid Y = y].
+$$
+Dies ist aber nicht notwendigerweise ein Wahrscheinlichkeitsmaß.
+
+!! Reguläre bedingte Verteilung
+
+{{Reguläre bedingte Verteilung}}

@@ -1,11 +1,10 @@
 created: 20190608194513443
-modified: 20191107231030240
-revision: 0
+modified: 20210313191614548
 tags: [[Lie geometry]] no-toc
 title: Lie sphere
 type: text/vnd.tiddlywiki
 
-A point $$P=[y_1, \dots, y_n, y_\infty, y_0, y_{n+3}]^\mathrm T$$ in the [[Lie quadric]] $$\mathscr L\subset\R\mathrm P^{n+2}$$ corresponds to a an oriented Möbius sphere in $$\widehat\R^n,$$ including points and hyperplanes. There are the following cases:
+A point $$P=[y_1, \dots, y_n, y_\infty, y_0, y_{n+3}]^\transp$$ in the [[Lie quadric]] $$\mathscr L\subset\RP^{n+2}$$ corresponds to a an oriented Möbius sphere in $$\overhat{0}{-1}{\R}^n,$$ including points and hyperplanes. There are the following cases:
 
 # <div>An oriented hypersphere with center $$c$$ and radius $$r\in\R$$:
 $$\begin{bmatrix}
@@ -22,6 +21,6 @@ $$\begin{bmatrix}
 -n \\ -2d \\ 0 \\ 1
 \end{bmatrix}$$</div>
 
-# $$\infty\in\widehat\R^n$$ if $$P=[e_\infty].$$
+# $$\infty\in\overhat{0}{-1}{\R}^n$$ if $$P=[e_\infty].$$
 
 Two points $$p_1,p_2$$ in the Lie quadric are [[polar|Pole-polar relationship]] to each other, i.e. $$\langle p_1,p_2\rangle=0,$$ if and only if the corresponding oriented spheres are in oriented contact.

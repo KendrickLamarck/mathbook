@@ -1,17 +1,14 @@
 created: 20171122211328740
 creator: Leander
 list: 
-modified: 20180725163340572
+modified: 20201112140848739
 modifier: Leander
-revision: 0
 tags: Folge
 title: Folge für Wurzeln
 type: text/vnd.tiddlywiki
 
 Seien $$b$$, $$x_0>0$$ und $$k \in \mathbb{N},k \geq 2$$. Dann konvergiert die mit $$x_0$$ beginnende rekursiv definierte [[Folge]]
-
 $$
 x_{n+1} \coloneqq x_n \left( 1 + \frac{1}{k} \left( \frac{b}{x_n^k} - 1 \right) \right)
 $$
-
 gegen die einzig positive $$\sqrt[k]{b}$$.

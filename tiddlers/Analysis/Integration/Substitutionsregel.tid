@@ -1,13 +1,12 @@
 created: 20180222132621550
 list: 
-modified: 20191003234959383
-revision: 0
+modified: 20200721154407757
 tags: no-toc Regelintegral
 title: Substitutionsregel
 type: text/vnd.tiddlywiki
 
 Seien $$f\colon [a,b]\to\mathbb R$$ [[stetig|Stetigkeit]] und $$\varphi\colon [\alpha,\beta]\to\mathbb [a,b]$$ stetig [[differenzierbar|Ableitung]]. Dann gilt
-
 $$
-\int_\alpha^\beta f(\varphi(t))\dot\varphi(t)\,\mathrm dt = \int_{\varphi(\alpha)}^{\varphi(\beta)} f(x)\,\mathrm dx.
+\int_\alpha^\beta (f \circ \varphi)(\tau)\dot\varphi(\tau)\,\mathrm d\tau = \int_{\varphi(\alpha)}^{\varphi(\beta)} f(t)\,\mathrm dt.
 $$
+Symbolisch: $$\d\varphi = \dot\varphi\,\d t.$$

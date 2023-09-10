@@ -1,14 +1,13 @@
 created: 20191116154036263
-modified: 20200414163755509
-revision: 0
+modified: 20210206204329424
 tags: Manifold no-toc
 title: Manifold with boundary
 type: text/vnd.tiddlywiki
 
 An //$$m$$-manifold with boundary// $$M^m$$ is a [[second-countable|Second-countable]] [[Hausdorff|Hausdorff'scher Raum]] space locally homeomorphic to the closed half-space
-
 $$
-H^m \coloneqq \{ (x_1,\dots,x_m) \in \R^m : x_1\le 0 \}.
+H^m \coloneqq \{\, (x_1,\dots,x_m) \in \R^m : x_1\le 0 \,\}.
 $$
-
 The points that are mapped to $$\partial H\cong \R^{m-1}$$ in a chart have this property in any chart, are called the //boundary// $$\partial M$$ of $$M$$ (possibly empty) and are an $$(m-1)$$-manifold. The //interior// $$M\setminus\partial M$$ is an $$m$$-manifold.
+
+Note that a manifold with boundary is not usually, as the name would suggest, a manifold, but is more general. In fact, a manifold (without boundary) can be defined as a manifold with boundary whose boundary is empty.

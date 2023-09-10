@@ -1,22 +1,18 @@
 created: 20190128155524902
 creator: Leander
-modified: 20200316004758017
+modified: 20200924200933343
 modifier: Leander
-revision: 0
 tags: Lebesgue-Integral
 title: Satz von Fubini
 type: text/vnd.tiddlywiki
 
 Sei $$f\in\mathcal L^1(\varOmega_1\times\varOmega_2,\mathcal{F_1\otimes F_2},\mu_1\otimes\mu_2).$$ Dann liegt für $$\mu_1$$-fast alle $$\omega_1\in\varOmega_1$$ die Funktion $$f_{\omega_1}^{(1)}$$ in $$\mathcal L^1(\varOmega_2,\mathcal F_2,\mu_2)$$ und für $$\mu_2$$-fast alle $$\omega_2\in\varOmega_2$$ ist die Funktion $$f_{\omega_2}^{(2)}$$ in $$\mathcal L^1(\varOmega_1,\mathcal F_1,\mu_1),$$ wobei $$f_{\omega_1}^{(1)}\coloneqq f(\omega_1,\cdot)$$ und analog für $$f_{\omega_2}^{(2)}.$$ Setzt man
-
 $$
 f_1(\omega_1)\coloneqq\begin{cases}
 \int_{\varOmega_2} f_{\omega_1}^{(1)}(\omega_2)\,\mu_2(\d\omega_2),&\text{falls }f_{\omega_1}^{(1)}\in\mathcal L^1, \\
 0 & \text{sonst}
 \end{cases}$$
-
 und $$f_2(\omega_2)$$ analog, so gilt
-
 $$
 \int f\,\d(\mu_1\otimes\mu_2)=
 \int f_1(\omega_1)\,\mu_1(\d\omega_1)=

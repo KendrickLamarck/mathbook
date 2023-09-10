@@ -1,7 +1,6 @@
 created: 20171122202435622
 list: 
-modified: 20180410191953731
-revision: 0
+modified: 20210323004243435
 tags: Polynom
 title: Partialbruchzerlegung
 type: text/vnd.tiddlywiki
@@ -11,13 +10,11 @@ $$
 g(z)=a_n(z-z_1)^{k_1}\ldots(z-z_r)^{k_r}
 $$
 mit paarweise verschiedenen $$z_1,\ldots,z_r$$, die keine Nullstellen des Zählers sind (ausgekürzter Bruch) und positiven Exponenten $$k_1,\ldots,k_r \in \mathbb{N}$$.
-
 Dann gibt es eindeutig bestimmte $$A_{ij} \in \mathbb{C}$$ für $$1 \leq i \leq r$$ und $$1 \leq j \leq k_i$$, so dass
 $$
 \frac{f(z)}{g(z)}=\sum_{i=1}^{r}\sum_{j=1}^{k_i}\frac{A_{ij}}{(z-z_i)^j}
 $$
 für alle $$z \notin \{z_1,\ldots,z_r\}$$.
-
 Falls die Funktion und alle Nullstellen von $$g$$ reell sind, sind auch die $$A_{ij}$$ reell.
 
 !! Ausführung

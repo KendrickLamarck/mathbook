@@ -1,20 +1,17 @@
 created: 20191112232513190
 list: [[Pullback of Riemannian metrics]] [[Pullback of one-forms]] [[Pullback of differential forms]]
-modified: 20200323200039141
-revision: 0
-tags: Differentialgeometrie
+modified: 20200920213609111
+tags: [[Intrinsic differential geometry]]
 title: Pullback
 type: text/vnd.tiddlywiki
 
 !! Germs
 
 Let $$M,N$$ be smooth manifolds and $$f\colon M\to N$$ be a smooth map. Consider a point $$p\in M$$ and its image $$q=f(p).$$ This induces the //pullback// map
-
 $$
 f^*\colon\mathcal C^\infty(q)\to\mathcal C^\infty(p),\quad
 f^*(g)\coloneqq g\circ f,
 $$
-
 and similarly for $$\mathcal C^\infty(N)\to\mathcal C^\infty(M).$$
 
 * The pullback is a linear map.

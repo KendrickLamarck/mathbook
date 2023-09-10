@@ -1,26 +1,20 @@
 created: 20180319200119642
 creator: Leander
-modified: 20191004225211115
+modified: 20201222140016538
 modifier: Leander
-revision: 0
 tags: [[Lineare Abbildung]] no-toc
 title: Faser
 type: text/vnd.tiddlywiki
 
 Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]]. Wir nennen
-
 $$
 F^{-1}(w) \coloneqq \{\,v\in V : F(v)=w\,\}
 $$
-
 die //Faser// über $$w\in W.$$ $$V$$ wird durch die Fasern in disjunkte Teilmengen zerlegt:
-
 $$
 V=\bigcup_{y\in\operatorname{Im}F}F^{-1}(y).
 $$
-
 Für beliebiges $$u\in F^{-1}(w)$$ ist
-
 $$
 F^{-1}(w)=u+\ker F=\{\,u+v:v\in\ker F\,\}.
 $$

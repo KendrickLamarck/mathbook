@@ -1,11 +1,10 @@
 created: 20191107174238732
-modified: 20191107174631620
-revision: 0
+modified: 20200929125905685
 tags: [[Projective transformation]]
 title: Projective orthogonal group
+type: text/vnd.tiddlywiki
 
 The //projective orthogonal group// of the [[orthogonal group|Orthogonale Gruppen]] $$\O(p,q)$$ is defined by
-
 $$
 \PO(p,q)\coloneqq \O(p,q)/\{\pm I\}.
 $$

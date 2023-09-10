@@ -1,32 +1,24 @@
 created: 20181218161741985
-list: Erwartungswertvektor Moment [[Schwaches Gesetz der großen Zahlen]] [[Starkes Gesetz der großen Zahlen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]]
-modified: 20190715210314464
+list: [[Schwaches Gesetz der großen Zahlen]] [[Starkes Gesetz der großen Zahlen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]] [[Bedingte Erwartung]] Erwartungswertvektor Moment
+modified: 20200626133040520
 modifier: Leander
 revision: 0
 tags: Stochastik
 title: Erwartungswert
 type: text/vnd.tiddlywiki
 
-Ist $$\Bbb P$$ ein [[Wahrscheinlichkeitsmaß]], so schreiben wir auch $$\Bbb E(X)$$ oder $$\Bbb E_\Bbb P(X)$$ statt $$\int X\,\mathrm d\Bbb P$$ und nennen $$\Bbb E(X)$$ den //Erwartungswert// der [[Zufallsgröße|Zufallsvariable]] $$X.$$
+Ist $$\prob$$ ein [[Wahrscheinlichkeitsmaß]], so schreiben wir auch $$\expect(X)$$ oder $$\expect_\prob(X)$$ statt $$\int X\,\d\prob$$ und nennen $$\expect(X)$$ den //Erwartungswert// der reellen [[Zufallsgröße|Zufallsvariable]] $$X.$$
 
-!! Diskrete Variablen
-
-Ist $$X$$ diskret mit Werten $$x_n,$$ so gilt insbesondere
-
+* <div>Ist $$X$$ diskret mit Werten $$x_n,$$ so gilt insbesondere
 $$
-\Bbb E(X)=\sum_n x_n \Bbb P(X=x_n).
+\expect(X)=\sum_n x_n \prob(X=x_n).
 $$
+Es handelt sich also um den nach Wahrscheinlichkeit gewichteten Mittelwert.</div>
 
-!! Absolutstetig verteilte Variablen
-
-Ist $$X$$ eine [[absolutstetig verteilte|Absolutstetige Verteilungsfunktion]] Zufallsvariable mit integrierbarer [[Dichte]] $$f,$$ so existiert $$\Bbb E(X)\in\Bbb R$$ und es gilt
-
+* <div>Ist $$X$$ eine Zufallsvariable mit integrierbarer [[Dichte]] $$f,$$ so existiert $$\expect(X)\in\R$$ und es gilt
 $$
-\Bbb E(X)=\int_\Bbb R x f(x)\,\mathrm dx,
+\expect(X)=\int_\R x f(x)\,\d x,
 $$
+falls $$\int_\R |x| f(x)\,\d x<\infty.$$</div>
 
-falls
-
-$$
-\Bbb E(X)=\int_\Bbb R |x| f(x)\,\mathrm dx<\infty.
-$$
+* Falls $$X$$ und $$Y$$ unabhängig sind, so gilt $$\expect(XY)=\E(X)\expect(Y).$$

@@ -1,19 +1,16 @@
 created: 20190708232345343
-modified: 20191112212738529
-revision: 0
+modified: 20211230125133177
 tags: [[Gemeinsame Verteilung]]
 title: Gemeinsame Dichte
+type: text/vnd.tiddlywiki
 
 Eine [[gemeinsame Verteilungsfunktion|Gemeinsame Verteilungsfunktion]] heißt //absolutstetig,// wenn es eine gemeinsame [[Dichte]] $$f_\Bbb X\colon\R^n\to[0,\infty[$$ gibt, so dass
-
 $$
 F_\Bbb X(x_1,\dots,x_n)=
 \int_{-\infty}^{x_1}\cdots\int_{-\infty}^{x_n}
 f_\Bbb X(y_1,\dots,y_n)\,\mathrm dy_n\cdots\mathrm dy_1.
 $$
-
 In diesem Fall gilt für $$B\in\mathcal B(\R^n)$$
-
 $$
 \Bbb P(\Bbb X\in B)=\int_B f_\Bbb X(y)\,\mathrm d^n y.
 $$
@@ -22,13 +19,7 @@ $$
 
 !! Von der gemeinsamen Dichte zu den einzelnen
 
-Besitzen $$X_1,\dots,X_n$$ die gemeinsame Dichte $$f_\Bbb X,$$ so besitzen alle $$X_i$$ ebenfalls eine Dichte $$f_{X_i}$$ und es gilt
-
-$$
-f_{X_i}(x)=\underbrace{\int_\R\cdots\int_\R}_{n-1}
-f_\Bbb X(y_1,\dots,y_{i-1},x,y_{i+1},\dots,y_n)
-\,\mathrm dy_n\cdots\mathrm dy_{i+1}\mathrm dy_{i-1}\cdots\mathrm dy_1.
-$$
+{{Randdichte}}
 
 !! Von einzelnen Dichten zur gemeinsamen
 

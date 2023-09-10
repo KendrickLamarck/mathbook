@@ -1,8 +1,7 @@
 created: 20180409182647700
 creator: Leander
-modified: 20180713200434236
+modified: 20201209224409793
 modifier: Leander
-revision: 0
 tags: Zahldarstellung
 title: Komplementdarstellung
 type: text/vnd.tiddlywiki
@@ -23,7 +22,6 @@ z &\text{falls } z\ge 0,\\
 K_b^\ell(-n) &\text{falls } z<0.
 \end{cases}
 $$
-
 ist [[bijektiv|Bijektivität]] und für $$x,y\in Z$$ gilt:
 
 * Ist $$x+y\in Z$$, so gilt $$f(x+y)=(f(x)+f(y))\mod b^\ell$$;

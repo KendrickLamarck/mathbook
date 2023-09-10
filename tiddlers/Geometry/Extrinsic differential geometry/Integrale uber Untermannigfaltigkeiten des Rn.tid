@@ -1,10 +1,11 @@
+caption: Integrale
 created: 20190204155239816
 creator: Leander
-list: [[Untergeordnete Teilung der Eins]] [[Gram'sche Determinante von Karten]] [[Gram'sche Determinante unter Kartenwechsel]] [[Skaliertes Volumen]] [[Integral über Kugelschalen]] [[Gauß'scher integralsatz]] Volumen
-modified: 20191228153512778
+list: [[Gram'sche Determinante von Karten]] [[Gram'sche Determinante unter Kartenwechsel]] [[Skaliertes Volumen]] [[Integral über Kugelschalen]] [[Gauß'scher integralsatz]] [[Green'sche Formel]] [[Green's theorem]]
+modified: 20200611221304977
 modifier: Leander
 revision: 0
-tags: [[Untermannigfaltigkeiten des Rn]]
+tags: [[Extrinsic differential geometry]]
 title: Integrale über Untermannigfaltigkeiten des Rn
 type: text/vnd.tiddlywiki
 

@@ -1,20 +1,16 @@
 created: 20180529174412753
 creator: Leander
-modified: 20190325193013997
+modified: 20201016130546478
 modifier: Leander
-revision: 0
 tags: Ableitung
 title: Produktregel
 type: text/vnd.tiddlywiki
 
 Seien $$V_1,\dots,V_k,W$$ [[endlichdimensionale|Dimension]] [[Banachräume|Banachraum]] und
-
 $$
 \mu\colon V_1\times\dots\times V_k\to W
 $$
-
 eine $$k$$[[-lineare Abbildung|Multilineare Abbildung]]. Dann ist $$\mu$$ [[differenzierbar|Ableitung]] und es gilt
-
 $$
 \mathrm D_{(p_1,\dots,p_k)}\mu(v_1,\dots,v_k)=\sum_{i=1}^k\mu(p_1,\dots p_{i-1},v_i,p_{i+1},\dots,p_k).
 $$

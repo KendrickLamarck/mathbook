@@ -1,10 +1,9 @@
 created: 20190406184214742
-modified: 20191011173419591
-revision: 0
+modified: 20210214160036109
 tags: Lp-Räume no-toc
 title: Inklusionen der Lp-Räume
 type: text/vnd.tiddlywiki
 
-Sei $$1\le p\le p'\le\infty.$$ Für $$\mu(\Omega)<\infty$$ gilt $$\mathcal L^{p'}\subseteq\mathcal L^p$$ und $$L^{p'}\subseteq L^p.$$
+# Sei $$1\le p\le p'\le\infty.$$ Für $$\mu(\Omega)<\infty$$ gilt $$\mathcal L^{p'}\subseteq\mathcal L^p$$ und $$L^{p'}\subseteq L^p.$$
 
-Hat ein [[Maß]] die Eigenschaft, dass für ein $$a>0$$ gilt: $$\mu(A)\notin{]0,a[}$$ für alle $$A\in\mathcal F,$$ so gelten stattdessen die umgekehrten Inklusionen $$\mathcal L^p\subseteq\mathcal L^{p'}$$ und $$L^p\subseteq L^{p'}.$$ Ein Beispiel sind die [[Folgenräume]].
+# Hat ein [[Maß]] die Eigenschaft, dass für ein $$a>0$$ gilt: $$\mu(A)\notin{]0,a[}$$ für alle $$A\in\mathcal F,$$ so gelten stattdessen die umgekehrten Inklusionen $$\mathcal L^p\subseteq\mathcal L^{p'}$$ und $$L^p\subseteq L^{p'}.$$ Ein Beispiel sind die [[Folgenräume]].

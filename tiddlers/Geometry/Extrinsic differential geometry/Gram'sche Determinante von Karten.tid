@@ -1,14 +1,10 @@
 created: 20190408002859918
-modified: 20191228153344931
-revision: 0
+modified: 20200920210423868
 tags: [[Integrale über Untermannigfaltigkeiten des Rn]]
 title: Gram'sche Determinante von Karten
 type: text/vnd.tiddlywiki
 
-{{KaTeX macros}}
-
 Sei $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Mannigfaltigkeit|Untermannigfaltigkeit]] und sei $$\varphi=(\varphi_1,\dots,\varphi_d)\colon T\to V$$ eine [[Parametrisierung|Parameterdarstellung von Mannigfaltigkeiten]], wobei $$T\subseteq\Bbb R^k$$ und $$V\subseteq\Bbb R^k$$ zwei [[offene|Offenheit]] Mengen seien. Definiere
-
 $$
 G(t)\coloneqq
 \left((\D_t\varphi)^\T(\D_t\varphi)\right)=
@@ -16,9 +12,7 @@ G(t)\coloneqq
 \fracpartial{\varphi_\nu(t)}{t_i}
 \fracpartial{\varphi_\nu(t)}{t_j}\right)_{i,j=1,\dots,k}
 $$
-
 und $$g(t)=\det G(t).$$ Dann gilt
-
 $$
 g(t)=\sum_{1\le i_1<\dots<i_k\le d}\left(\det\fracpartial
 {(\varphi_{i_1},\dots,\varphi_{i_k})}

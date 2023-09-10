@@ -1,15 +1,14 @@
 caption: Spherical geometry
 created: 20180124194541350
 creator: Leander
-list: Einheitssphäre [[Great circle]] [[Spherical metric]] Hemisphere [[Spherical Digon]] [[Angles on the sphere]] [[Spherical triangle]] [[Ptolemy's theorem]] [[Stereographic projection]]
-modified: 20191106233644950
+list: Einheitssphäre [[Great circle]] [[Spherical metric]] [[Angles on the sphere]] Hemisphere [[Spherical digon]] [[Spherical triangle]] [[Area of spherical polygons]] [[Ptolemy's theorem]] [[Stereographic projection]]
+modified: 20200929131501119
 modifier: Leander
-revision: 0
 tags: Geometrie
 title: Spherical geometry
 type: text/vnd.tiddlywiki
 
-! The space
+!! The space
 
 {{Einheitssphäre}}
 
@@ -17,10 +16,9 @@ type: text/vnd.tiddlywiki
 
 {{Spherical metric}}
 
-! Transformation geometry
+!! Transformation geometry
 
 $$n$$-dimensional spherical geometry can also be obtained as a subgeometry of $$n$$-dimensional [[Möbius geometry]]: Take its projective model and fix a point $$[p]$$ inside of the quadric $$Q.$$ We obtain the space $$S^n\subset\R^{n+1}$$ with the transformation group $$\mathrm O(n+1).$$ The spherical metric $$d_\mathrm{sph}$$ is then given by
-
 $$
 \frac
 {\langle x,y\rangle_{n+1,1}}

@@ -1,25 +1,19 @@
 created: 20180330134839650
 creator: Leander
 list: 
-modified: 20180728192352285
+modified: 20210314152324173
 modifier: Leander
-revision: 0
 tags: [[Darstellende Matrix (lineare Abbildungen)]]
 title: Matrizenmultiplikation und Komposition
 type: text/vnd.tiddlywiki
 
 Gegeben seien [[Vektorräume|Vektorraum]] $$U,\,V$$ und $$W$$ mit endlichen [[Basen|Basis]] $$\mathcal{A,\,B}$$ und $$\mathcal C$$ sowie [[lineare Abbildungen|Lineare Abbildung]] $$G\colon U\to V$$ und $$F\colon V\to W$$. Dann gilt:
-
 $$
 M_\mathcal C^\mathcal A(F\circ G)=M_\mathcal C^\mathcal B(F)\cdot M_\mathcal B^\mathcal A(G).
 $$
-
 Der [[Hintereinanderschaltung|Komposition]] von linearen Abbildungen entspricht also das [[Produkt|Matrizenmultiplikation]] der [[darstellenden Matrizen|Darstellende Matrix (lineare Abbildungen)]].
-
 Insbesondere ist für $$V$$ mit Basis $$\mathcal B=(v_1,\dots,v_n)$$ die Abbildung
-
 $$
 M_\mathcal B\colon\operatorname{End}(V)\to K^{n\times n}
 $$
-
 ein [[Ringisomorphismus|Homomorphismus]].

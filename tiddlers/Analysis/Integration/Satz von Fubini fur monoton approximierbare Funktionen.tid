@@ -1,28 +1,22 @@
 caption: Satz von Fubini
 created: 20181113160156513
 creator: Leander
-modified: 20191201135423397
+modified: 20200924200944965
 modifier: Leander
-revision: 0
 tags: [[Monoton approximierbare Funktionen]] no-toc
 title: Satz von Fubini für monoton approximierbare Funktionen
 type: text/vnd.tiddlywiki
 
 Sei $$f\in\mathcal H^\uparrow(\R^d)$$ und $$k\in\{1,\dots,d-1\}.$$ Dann liegt für jedes $$(x_{k+1},\dots,x_d)\in\R^{d-k}$$ die Funktion
-
 $$
 \R^k\ni(x_1,\dots,x_k)\mapsto f(x_1,\dots,x_k,x_{k+1},\dots,x_d)
 $$
-
 in $$\mathcal H^\uparrow(\R^k).$$ Also ist das Integral
-
 $$
 F(x_{k+1},\dots,x_d)=\int_{\R^k} f(x)\,\d x_1\cdots\d x_k,\qquad
 x=(x_1,\dots,x_d)
 $$
-
 wohldefiniert. Ferner ist $$F\in\mathcal H^\uparrow(\R^{d-k})$$ und es gilt
-
 $$
 \int_{\R^{d-k}} F(x_{k+1},\dots x_d)\,\d x_{k+1}\cdots\d x_d=
 \int_{\R^d} f(x)\,\d x.

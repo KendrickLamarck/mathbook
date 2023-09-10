@@ -1,6 +1,6 @@
 created: 20190103020332847
 creator: Leander
-modified: 20191011175004080
+modified: 20200428142053747
 modifier: Leander
 revision: 0
 tags: Verteilung
@@ -20,7 +20,8 @@ definierte [[Wahrscheinlichkeitsmaß]] auf $$\{0,\dots,n\}$$ heißt //Binomialve
 
 * Sind $$X_1,\dots,X_n$$ unabhängig Bernoulli-verteilt zum Parameter $$p,$$ und definiert man $$S_n\coloneqq X_1+\dots+X_n,$$ so ist $$p_k\coloneqq b(k;n,p)$$ die Zähldichte von $$S_n.$$
 
-* <div>Ist $$X\sim\operatorname{Bin}(n,p),$$ so gilt
+* <div>Ist $$X\sim\operatorname{Bin}(n,p),$$ so gilt $$V(X)=np(1-p)$$ und
+
 $$
 \chi_X(t)=\left(pe^{it}+(1-p)\right)^n.
 $$</div>

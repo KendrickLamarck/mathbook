@@ -1,29 +1,23 @@
 created: 20180330142526834
 creator: Leander
-modified: 20191003211325216
+modified: 20210314150244281
 modifier: Leander
-revision: 0
-tags: Koordinatensystem
+tags: Koordinatensystem no-toc
 title: Transformationsformel (lineare Abbildungen)
 type: text/vnd.tiddlywiki
 
 Ist $$F\colon V\to W$$ [[linear|Lineare Abbildung]], sind $$\mathcal{A,A'}$$ [[Basen|Basis]] von $$V$$ und $$\mathcal{B,B'}$$ Basen von $$W$$, so ist
-
 $$
 M_\mathcal{B'}^\mathcal{A'}(F)=
 T_\mathcal{B'}^\mathcal B\cdot
 M_\mathcal B^\mathcal A(F)\cdot
 \left(T_\mathcal{A'}^\mathcal A\right)^{-1}
 $$
-
 oder zur besseren Lesbarkeit (Bedeutung der Buchstaben wie oben)
-
 $$
 B=S\cdot A\cdot T^{-1}.
 $$
-
 Für einen [[Endomorphismus|Endomorphismus]] ist sogar
-
 $$
 B=S\cdot A\cdot S^{-1},
 $$

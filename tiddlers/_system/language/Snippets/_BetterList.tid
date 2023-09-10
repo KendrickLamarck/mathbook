@@ -1,9 +1,0 @@
-caption: List tiddlers tagged with current title
-created: 20170825204951947
-modified: 20190211220903963
-revision: 0
-tags: $:/tags/TextEditor/Snippet
-title: $:/language/Snippets/_BetterList
-type: text/vnd.tiddlywiki
-
-<<list-links [tag{!!title}]>>

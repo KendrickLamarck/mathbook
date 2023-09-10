@@ -1,18 +1,15 @@
 created: 20171230201623304
 creator: Leander
-modified: 20191121233959034
+modified: 20201211150548396
 modifier: Leander
-revision: 0
 tags: Basis
 title: Erzeugendensystem
 type: text/vnd.tiddlywiki
 
 Eine Familie $$\mathcal{B} = (v_i)_{i \in I}$$ in einem [[Vektorraum]] $$V$$ heißt //Erzeugendensystem// von $$V$$, wenn
-
 $$
 V = \operatorname{span} (v_i)_{i \in I},
 $$
-
 d.h. wenn jedes $$v \in V$$ [[Linearkombination]] von endlichen vielen $$v_i$$ ist. $$V$$ heißt //endlich erzeugt//, falls es ein endliches Erzeugendensystem gibt.
 
 !! Basisauswahlsatz

@@ -1,13 +1,22 @@
 created: 20191227203334903
-modified: 20200314173544868
-revision: 0
+modified: 20201015121533284
 tags: [[Differential form]]
 title: Differential operators with the exterior derivative
 type: text/vnd.tiddlywiki
 
-On $$\R^3,$$ we can use the [[Hodge star]] to identify:
+On $$\R^3$$ with the standard scalar product, we can use the [[Hodge star]] to identify:
 
-* vectors with [[pseudovectors|Pseudovectors and pseudoscalars]] and thus one-forms with two-forms. Explicitly, identify both the one-form $$p\,\d x+q\,\d y+r\,\d z$$ and the two-form $$p\,\d y\wedge\d z+q\,\d z\wedge\d x+r\,\d x\wedge\d y$$ with the vector field $$p\partial_x+q\partial_y+r\partial_z.$$
-* scalars with pseudoscalars and thus zero-forms with three-forms. Explicitly, identify the three-form $$f\,\d x\wedge\d y\wedge\d z$$ with the function $$f.$$
+* <div>vectors with [[pseudovectors|Pseudovectors and pseudoscalars]] and thus one-forms with two-forms. Explicitly, identify
+$$
+p\partial_x+q\partial_y+r\partial_z \lrarr
+\begin{cases}
+p\,\d x + q\,\d y + r\,\d z, \\
+p\,\d y\wedge\d z + q\,\d z\wedge\d x + r\,\d x\wedge\d y.
+\end{cases}
+$$</div>
+* <div>scalars with pseudoscalars and thus zero-forms with three-forms. Explicitly, identify
+$$
+f\,\d x\wedge\d y\wedge\d z \lrarr f.
+$$</div>
 
-Then $$\d\colon\Omega^0\to\Omega^1$$ is the [[gradient|Gradient]], $$\d\colon\Omega^1\to\Omega^2$$ is the [[curl|Rotation]] and $$\d\colon\Omega^2\to\Omega^3$$ is the [[divergence|Divergenz (Differentialoperator)]].
+Using these identifications, $$\d\colon\Omega^0\to\Omega^1$$ is the [[gradient|Gradient]], $$\d\colon\Omega^1\to\Omega^2$$ is the [[curl|Rotation]] and $$\d\colon\Omega^2\to\Omega^3$$ is the [[divergence|Divergenz (Differentialoperator)]].

@@ -1,18 +1,14 @@
 created: 20180428162951765
 creator: Leander
-modified: 20191121232233093
+modified: 20201124151916070
 modifier: Leander
-revision: 0
 tags: Eigenwert no-toc
 title: Vielfachheit von Eigenwerten
 type: text/vnd.tiddlywiki
 
 {{Algebraische Vielfachheit}}
 
-{{Geometrische Vielfachheit}}
-
-Es gilt
-
+{{Geometrische Vielfachheit}} Es gilt
 $$
 1\le\dim\operatorname{Eig}(F,\lambda)\le\mu(P_F,\lambda).
 $$

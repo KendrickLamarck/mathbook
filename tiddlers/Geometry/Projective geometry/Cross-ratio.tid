@@ -1,50 +1,40 @@
 created: 20190109092809792
 creator: Leander
-modified: 20191116145618716
+modified: 20200929130211942
 modifier: Leander
-revision: 0
 tags: [[Projective geometry]]
 title: Cross-ratio
 type: text/vnd.tiddlywiki
 
 Let $$P_i=[x_i,y_i]\in F\mathrm P^1,$$ $$i=1,\dots,4$$ be four distinct points for an arbitrary [[field|Körper]] $$F.$$ The //cross-ratio// of the points is
-
 $$
 \crossratio(P_1,P_2,P_3,P_4)\coloneqq
-\frac
-{
-\det\begin{pmatrix}x_1 &x_2\\ y_1 &y_2\end{pmatrix}
-\det\begin{pmatrix}x_3 &x_4\\ y_3 &y_4\end{pmatrix}
-}
-{
-\det\begin{pmatrix}x_2 &x_3\\ y_2 &y_3\end{pmatrix}
-\det\begin{pmatrix}x_4 &x_1\\ y_4 &y_1\end{pmatrix}
+\frac{
+  \det\begin{pmatrix}x_1 &x_2\\ y_1 &y_2\end{pmatrix}
+  \det\begin{pmatrix}x_3 &x_4\\ y_3 &y_4\end{pmatrix}
+}{
+  \det\begin{pmatrix}x_2 &x_3\\ y_2 &y_3\end{pmatrix}
+  \det\begin{pmatrix}x_4 &x_1\\ y_4 &y_1\end{pmatrix}
 }.
 $$
-
 If $$u_i=x_i/y_i$$ are [[affine coordinates|Affine coordinates]], we get
-
 $$
 \frac{(u_1-u_2)(u_3-u_4)}{(u_2-u_3)(u_4-u_1)}.
 $$
-
 Even if one of the points is at infinity, we can cancel infinities, which is justified by the definition.
 
 !! Properties
 
 
-* <div>
-If $$f\colon F\mathrm P^1\to F\mathrm P^1$$ is a [[projective transformation|Projective transformation]] and $$P_1,P_2,P_3,P_4\in F\mathrm P^1$$ are distinct, then
+* <div>If $$f\colon F\mathrm P^1\to F\mathrm P^1$$ is a [[projective transformation|Projective transformation]] and $$P_1,P_2,P_3,P_4\in F\mathrm P^1$$ are distinct, then
 $$
-\crossratio(P_1,P_2,P_3,P_4)=\crossratio(f(P_1),f(P_2),f(P_3),f(P_4)).$$
-</div>
+\crossratio(P_1,P_2,P_3,P_4)=\crossratio(f(P_1),f(P_2),f(P_3),f(P_4)).
+$$</div>
 
-* <div>
-There exists a projective transformation that maps four distinct points $$P_1,P_2,P_3,P_4$$ on a line to four distinct points $$Q_1,Q_2,Q_3,Q_4$$ on the same or another line if and only if
+* <div>There exists a projective transformation that maps four distinct points $$P_1,P_2,P_3,P_4$$ on a line to four distinct points $$Q_1,Q_2,Q_3,Q_4$$ on the same or another line if and only if
 $$
-\crossratio(P_1,P_2,P_3,P_4)=\cr(Q_1,Q_2,Q_3,Q_4).
-$$
-</div>
+\crossratio(P_1,P_2,P_3,P_4)=\crossratio(Q_1,Q_2,Q_3,Q_4).
+$$</div>
 
 * The cross-ratio $$\crossratio(P_1,P_2,P_3,P_4)$$ is the affine coordinate of the image of $$P_1$$ under the projective transformation that maps $$P_2,P_3,P_4$$ to the points with affine coordinates $$0,1,\infty.$$
 

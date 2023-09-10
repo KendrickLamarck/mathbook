@@ -1,19 +1,15 @@
 created: 20191123215219529
-modified: 20191123222348668
-revision: 0
+modified: 20200928000117093
 tags: [[Riemannian metric]] no-toc
 title: Manifolds as metric spaces
+type: text/vnd.tiddlywiki
 
 Any manifold $$M^m$$ admits a Riemannian metric and becomes a [[metric space|Metrischer Raum]]: We define the length of a piecewise smooth curve $$\gamma\colon [a,b]\to M$$ to be
-
 $$
 \operatorname{len}(\gamma)\coloneqq\int_a^b \|\gamma'(t)\|\,\d t.
 $$
-
 It is invariant under reparametrization by the chain rule. We then define the distance to be
-
 $$
 d(p,q)\coloneqq\inf_\gamma\operatorname{len}(\gamma)
 $$
-
 taken over all piecewise smooth curves $$\gamma$$ from $$p$$ to $$q.$$ $$(M,d)$$ is then a metric space and the metric topology agrees with the given manifold topology.

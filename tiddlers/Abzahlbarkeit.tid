@@ -1,7 +1,6 @@
 created: 20171122194512903
 list: 
-modified: 20200404065422460
-revision: 0
+modified: 20210113200339451
 tags: Mengenlehre
 title: Abzählbarkeit
 type: text/vnd.tiddlywiki
@@ -9,9 +8,7 @@ type: text/vnd.tiddlywiki
 Eine Menge $$X$$ heißt abzählbar, wenn $$X=\varnothing$$ oder es eine [[surjektive|Surjektivität]] [[Abbildung]] $$f\colon\mathbb{N} \to X$$ gibt. Andernfalls heißt sie überabzählbar.
 
 Die Vereinigung
-
 $$
 \bigcup_{i \in I} X_i
 $$
-
 abzählbarer Mengen $$X_i$$ ist ebenfalls abzählbar, sofern die Indexmenge $$I$$ abzählbar ist. Der Beweis ist das erste Cantor'sche Diagonalverfahren, wie auch für die Abzählbarkeit von $$\Bbb Q.$$

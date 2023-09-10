@@ -1,9 +1,9 @@
 caption: Notation
 created: 20170804192959064
 list: 
-modified: 20180810211141249
+modified: 20200601180059564
 revision: 0
-tags: Mathematics
+tags: misc
 title: Math notation
 type: text/vnd.tiddlywiki
 
@@ -27,3 +27,7 @@ type: text/vnd.tiddlywiki
 
 ;$$a| b$$
 :a ist ein Teiler von b
+
+!! Das griechische Alphabet
+
+{{Das griechische Alphabet}}

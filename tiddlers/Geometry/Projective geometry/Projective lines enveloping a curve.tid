@@ -1,8 +1,8 @@
 created: 20191016194056740
-modified: 20191109133501359
-revision: 0
+modified: 20210314153235500
 tags: [[Projective geometry]]
 title: Projective lines enveloping a curve
+type: text/vnd.tiddlywiki
 
 Consider a one-parameter family of lines
 $$l(t)=\mathrm P(\R p_1(t)+\R p_2(t))\subset\RP^n,$$
@@ -21,6 +21,7 @@ if for all
 $$t\in I\colon \gamma(t),\gamma'(t)\in\R p_1(t)+\R p_2(t).$$
 This means that the point on the curve and the tangent vector at that point must both be contained in a corresponding line.
 
+@@.theorem
 ''Theorem.''
 A regular family of lines
 $$l(t)=\mathrm P(\R p_1(t)+\R p_2(t))$$
@@ -30,6 +31,7 @@ are linearly dependent.
 
 ''Corollary.''
 Every regular one-parameter family of lines in $$\RP^2$$ envelops a curve. This does not hold for $$n>2.$$
+@@
 
 !! Finding the curve
 
@@ -38,11 +40,9 @@ $$p_1(t),p_2(t),p_1'(t),p_2'(t)$$
 are linearly dependent, there exist (differentiable)
 $$a_1(t),a_2(t),b_1(t),b_2(t)\in\R$$
 with
-
 $$
 a_1(t)p_1(t)+a_2(t)p_2(t)+b_1(t)p_1'(t)+b_2(t)p_2'(t)=0.
 $$
-
 The enveloped curve $$[\gamma(t)]$$ is then given by
 $$[\gamma]=[b_1 p_1+b_2 p_2]$$
 and it can be checked that

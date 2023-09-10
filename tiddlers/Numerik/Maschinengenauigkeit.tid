@@ -1,31 +1,25 @@
 created: 20180411144503853
 creator: Leander
-modified: 20200229180157118
+modified: 20201209224441239
 modifier: Leander
-revision: 0
 tags: Maschinenzahl no-toc
 title: Maschinengenauigkeit
 type: text/vnd.tiddlywiki
 
 ''Konvention 1.''
 Es sei $$F$$ ein [[Maschinenzahlbereich|Maschinenzahl]] mit [[Rundung]] $$\operatorname{rd}$$. Die //Maschinengenauigkeit// von $$F$$ ist
-
 $$
 \eps(F)\coloneqq\sup\left\{\left|\frac{x-\rd(x)}{x}\right|:
 |x|\in\operatorname{range}(F)\right\},
 $$
-
 wobei $$\operatorname{range}(F)\coloneqq [F_{\min},F_{\max}]$$ für $$F_{\min},F_{\max}$$ die kleinste bzw. größte darstellbare positive Zahl.
 
 ''Konvention 2.''
 Man definiert auch in $$\Bbb M(p,m,e)$$
-
 $$
 \eps\coloneqq\frac p 2 p^{-m}.
 $$
-
 Es gilt $$\eps=\min\{\delta\in[x_{\min},x_{\max}]:\gl(1+\delta)>1\}$$ und
-
 $$
 \gl(x)=x\cdot (1+\varepsilon)\text{ mit } |\varepsilon|\le\eps,\text{ wobei }\varepsilon\coloneqq\frac{\gl(x)-x}{x}.
 $$

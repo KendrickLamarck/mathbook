@@ -1,13 +1,12 @@
 caption: Involutions
 created: 20190217224807691
-modified: 20191008215540712
-revision: 0
+modified: 20210314153406648
 tags: [[Projective transformation]]
 title: Projective involution
 type: text/vnd.tiddlywiki
 
-For any four points $$A,B,C,D\in\Bbb R\mathrm P^1$$ there is a unique [[projective transformation|Projective transformation]] $$f\colon\Bbb R\mathrm P^1\to \Bbb R\mathrm P^1$$ with $$f(A)=B,f(B)=A,f(C)=D,f(D)=C.$$ The transformation $$f$$ is an [[involution|Involution]].
+For any four points $$A,B,C,D\in\RP^1$$ there is a unique [[projective transformation|Projective transformation]] $$f\colon\RP^1\to \RP^1$$ with $$f(A)=B,f(B)=A,f(C)=D,f(D)=C.$$ The transformation $$f$$ is an [[involution|Involution]].
 
 * The involution $$f$$ has no fixed points if $$\{A,B\}$$ [[separates|Separation on the real projective line]] $$\{C,D\},$$ otherwise it has two fixed points.
 
-* If $$f$$ has two fixed points $$P$$ and $$Q,$$ then $$\{X,f(X)\}$$ separates $$\{P,Q\}$$ [[harmonically|Harmonic position]] for all $$X\in\Bbb R\mathrm P^1.$$
+* If $$f$$ has two fixed points $$P$$ and $$Q,$$ then $$\{X,f(X)\}$$ separates $$\{P,Q\}$$ [[harmonically|Harmonic position]] for all $$X\in\RP^1.$$

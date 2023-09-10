@@ -1,10 +1,11 @@
 created: 20180517201845015
 creator: Leander
-modified: 20180725180518844
+modified: 20200601184847210
 modifier: Leander
 revision: 0
-tags: Zahlentheorie
+tags: misc
 title: Lemma von Bezout
+type: text/vnd.tiddlywiki
 
 Für $$a,b\in\mathbb Z\setminus\{0\}$$ ist der [[größte gemeinsame Teiler|Größter gemeinsamer Teiler]] eine ganzzahlige [[Linearkombination]] von $$a$$ und $$b$$, d.h. es gibt $$s,t\in\mathbb Z$$, so dass
 

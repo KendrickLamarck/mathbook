@@ -1,18 +1,14 @@
 created: 20200213232354416
-modified: 20200408154634097
-revision: 0
+modified: 20200928182418776
 tags: Connection
 title: Parallel transport
 type: text/vnd.tiddlywiki
 
 We say a section $$\sigma$$ of a [[vector bundle|Vector bundle]] $$E\to M$$ is //parallel// along a curve $$\gamma\colon I\to M$$ from $$p$$ to $$q$$ (with respect to $$\nabla$$) if the [[covariant derivative|Covariant derivative]] vanishes:
-
 $$
 \frac{\D}{\d t}\sigma=\nabla_{\dot\gamma}\sigma=0.
 $$
-
 By ODE theorems, given $$\sigma_p\in E_p,$$ there is a unique extension to a parallel section $$\sigma$$ along $$\gamma.$$ This lets us define the //parallel transport// map
-
 $$
 T=T_\gamma\colon E_p\to E_q, \qquad T_\gamma(\sigma_p)=\sigma_q.
 $$
@@ -23,15 +19,14 @@ $$
 * If $$\nabla$$ and $$\tilde\nabla$$ are two metric connections, their parallel transport maps along $$\gamma$$ differ only by a rotation. The torsion-free Levi-Civita connection is in some sense the connection for which parallel fields rotate the least.
 
 !! Holonomy
+
 {{Holonomy}}
 
 !! Relation of connection and parallel transport
 
 Let $$T_t$$ be the parallel transport map coming from the Levi-Civita connection from $$\gamma(0)$$ to $$\gamma(t).$$ Then for a vector field $$Y,$$ we have
-
 $$
-\frac{\D Y}{\d t}\biggr|_{t=0} = \lim_{t \to 0}
-\frac{T_t^{-1}(Y_{\gamma(t)})-Y_{\gamma(0)}}
-     {t}
-= \frac{\d}{\d t} T_t^{-1}(Y_{\gamma(t)}).
+\frac{\D Y}{\d t}\biggr|_{t=0} =
+\nabla_{\dot\gamma(0)}Y =
+\left.\fracderiv{}{t}\right|_{t=0} T_t{}^{-1}(Y_{\gamma(t)}).
 $$

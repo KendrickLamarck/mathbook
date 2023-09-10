@@ -1,14 +1,13 @@
 created: 20200326004008380
-modified: 20200330014515684
-revision: 0
-tags: Differentialgeometrie
+modified: 20200925183651562
+tags: [[Intrinsic differential geometry]]
 title: Geodesic
 type: text/vnd.tiddlywiki
 
 Let $$\nabla$$ be the [[Levi-Civita connection]] on a Riemannian manifold $$(M,g).$$ A curve $$\gamma\colon I \to M$$ is called a //geodesic,// if its velocity $$\dot\gamma$$ is parallel along $$\gamma,$$ i.e.
 
 $$
-\frac{\D}{\d t}\gamma\dot = \nabla_{\dot\gamma} \dot\gamma = 0.
+\frac{\D\dot\gamma}{\d t} = \nabla_{\dot\gamma} \dot\gamma = 0.
 $$
 
 * Every geodesic is parametrized with constant speed.
@@ -19,17 +18,21 @@ $$
 
 * Geodesics are locally length-minimizing.
 
+Intuitively speaking, geodesics have no acceleration in the tangent direction.
+
 !! Geodesic equation
 
 If $$x_i(t)$$ denote the components of $$\varphi(\gamma(t))$$ in a chart $$(U,\varphi),$$ the geodesic equations are given explicitly by
 
 $$
-\ddot x_k + \sum_{i,j} {\varGamma^{\,k}}_{ij}(x) \dot x_i \dot x_j = 0.
+\ddot x_k + \sum_{i,j} {\varGamma\,^{k}}_{ij}(x) \dot x_i \dot x_j = 0.
 $$
 
 !! Geodesic completeness
 
 A Riemannian manifold $$M$$ is called //(geodesically) complete// if every geodesic can be extended indefinitely to $$\gamma\colon \R \to M.$$
 
+@@.theorem
 ''Theorem (Hopf-Rinow).''
 A Riemannian manifold is geodesically complete if and only if it is [[complete as a metric space|Vollständigkeit]].
+@@

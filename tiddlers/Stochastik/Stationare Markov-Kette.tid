@@ -1,5 +1,5 @@
 created: 20190628180820643
-modified: 20190628181906475
+modified: 20230424134705973
 revision: 0
 tags: Markov-Kette
 title: Stationäre Markov-Kette
@@ -8,9 +8,15 @@ Eine [[Markov-Kette]] $$(X_n)$$ heißt //stationär,// falls für beliebiges $$m
 
 Inbesondere sind damit $$X_0,X_1,\dots$$ identisch verteilt.
 
+@@.theorem
+<div>
+
 ''Lemma.''
 Sei $$(X_n)$$ eine [[Markov-Kette]] mit Anfangsverteilung $$\nu$$ und [[Übergangsmatrix|Stochastische Matrix]] $$P=(p_{ij})_{i,j\in I}.$$ Dann sind äquivalent:
 
 # $$(X_n)$$ ist stationär,
 
 # $$\sum_{j\in I} \nu_j p_{ji}=\nu_i$$ für alle $$i\in I.$$
+
+</div>
+@@

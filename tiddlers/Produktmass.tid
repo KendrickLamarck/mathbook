@@ -1,0 +1,27 @@
+created: 20190128151819159
+creator: Leander
+modified: 20210323114524641
+modifier: Leander
+revision: 0
+tags: Maß
+title: Produktmaß
+type: text/vnd.tiddlywiki
+
+Seien $$(\Omega_1,\mathcal F_1,\mu_1),(\Omega_2,\mathcal F_2,\mu_2)$$ zwei $$\sigma$$-endliche [[Maßräume|Maß]]. Dann gibt es genau ein Maß $$\mu$$ auf dem [[Produktraum|Produkt-sigma-Algebra]] $$(\Omega_1\times\Omega_2,\mathcal F_1\otimes\mathcal F_2),$$ so dass gilt:
+$$
+\mu(A_1\times A_2)=\mu_1(A_1)\mu_2(A_2),\quad
+A_1 \in \mathcal F_1,\ A_2 \in \mathcal F_2.
+$$
+Das Maß $$\mu$$ heißt das //Produktmaß// von $$\mu_1$$ und $$\mu_2$$ und wird mit $$\mu=\mu_1\otimes\mu_2$$ bezeichnet.
+
+Definieren wir für $$A\subseteq\Omega_1\times\Omega_2$$ die Schnitte
+$$
+A_{\omega_2}^{(2)}\coloneqq
+\{ \omega_1 \in \Omega_1: (\omega_1,\omega_2)\in A\},
+\quad\omega_2\in\Omega_2
+$$
+und $$A_{\omega_1}^{(1)}$$ analog, so gilt
+$$
+\mu(A)=\int_{\Omega_2}
+\mu_1{\left( A_{\omega_2}^{(2)} \right)}\,\mu_2(\mathrm d\omega_2).
+$$

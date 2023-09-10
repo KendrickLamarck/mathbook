@@ -1,0 +1,17 @@
+created: 20230729184452028
+modified: 20230729185209446
+tags: [[Machine learning]]
+title: Types of stochastic convergence
+
+Let $$X_n\colon (\varOmega, \mathcal{A}, \prob) \to (\R^d, \Borel)$$ be a sequence of random variables. We know the following kinds of convergence:
+
+* $$L^p$$-convergence: $$\expect[|X - X_n|^p] \to 0.$$
+* Almost sure convergence: $$\prob(X_n \to X) = 1 \iff \prob(X_n \not\to X) = 0.$$
+* [[Convergence in probability|Konvergenz in Wahrscheinlichkeit]]
+* [[Convergence in law|Konvergenz in Verteilung]]
+
+They are related in the following ways:
+
+* $$X_n \to X$$ $$\prob$$-a.s. implies $$X_n \xrightarrow{\prob} X.$$
+* $$X_n \xrightarrow{L^p} X$$ implies $$X_n \xrightarrow{\prob} X.$$
+* $$X_n \xrightarrow{P} X$$ implies $$X_n \xrightarrow{\mathscr{L}} X.$$

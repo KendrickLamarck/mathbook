@@ -1,0 +1,22 @@
+created: 20190607002423766
+modified: 20230428165128006
+revision: 0
+tags: Erwartungswert
+title: Schwaches Gesetz der großen Zahlen
+
+Sei $$(X_n)$$ eine [[Folge]] [[unkorellierter|Kovarianz]], identisch [[verteilter|Verteilung]] [[Zufallsvariablen|Zufallsvariable]] mit endlicher [[Varianz]]. Dann gilt
+$$
+\frac 1 n \sum_{k=1}^n X_k \xrightarrow[n\to\infty]{\Bbb P} \Bbb E(X_1).
+$$
+
+!! Verallgemeinerung
+
+Sei für $$n\in\Bbb N$$ $$X_1^{(n)},\dots,X_n^{(n)}$$ eine Familie paarweise unkorellierter Zufallsvariablen mit endlicher Varianz. Gilt dann
+$$
+\lim_{n\to\infty}\frac 1 {n^2} \sum_{k=1}^n V\left(X_k^{(n)}\right)=0,
+$$
+so folgt
+$$
+\frac 1 n \sum_{k=1}^n\left( X_k^{(n)}-\Bbb E\left[X_k^{(n)}\right]\right)
+\xrightarrow[n\to\infty]{\Bbb P} 0.
+$$

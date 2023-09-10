@@ -1,0 +1,34 @@
+created: 20200423134002786
+modified: 20200824173815378
+revision: 0
+tags: Schätzer
+title: Schätzer für das Gauß-Produktmodell
+type: text/vnd.tiddlywiki
+
+Im $$n$$-fachen Gauß-Produktmodell $$(\R^n, \mathcal B(\R^n), ({\P_{m,v}}^{\otimes n})_{m\in\R,\ v\ge 0}),$$ wobei
+$$
+\P_{m,v}(\d x) = \frac{1}{\sqrt{2 \pi v}}
+                 \exp\left( -\frac{(x-m)^2}{2v} \right) \d x,
+$$
+ist $$\bar{X} = \frac 1 n \sum_{i=1}^n X_i$$ ein ML-Schätzer für $$m$$ und $$V \coloneqq \frac 1 n \sum_{i=1}^n (X_i-\bar X)^2$$ für $$v.$$ Der Schätzer $$\bar{X}$$ für $$m$$ ist erwartungstreu, $$V$$ jedoch nicht, denn
+$$
+\expect_{m,v}[V] = \frac{n-1}{n} v.
+$$
+Wir können also $$V$$ standardisieren und erhalten den Erwartungstreuen Schätzer
+$$
+V^* \coloneqq \frac{n}{n-1} V = \frac{1}{n-1}\sum_{i=1}^n(X_i = \bar{X}).
+$$
+
+!! Optimalität oder Eine vollständige und suffiziente Statistik
+
+Die Statistik
+$$
+S(x) = \begin{pmatrix} S_1(x) \\ S_2(x) \end{pmatrix} \coloneqq
+\begin{pmatrix} \sum_i x_i \\[5mu] \sum_i x_i{}^2 \end{pmatrix}
+$$
+ist vollständig und suffizient. Daher ist $$\bar{X} = S_1(X)/n$$ der erwartungstreue varianzminimierende Schätzer für $$m$$ und
+$$
+V^* = \frac 1 {n-1} \left(S_2(X) - \frac 1 n S_1(X)^2\right)
+$$
+für $$v.$$
+

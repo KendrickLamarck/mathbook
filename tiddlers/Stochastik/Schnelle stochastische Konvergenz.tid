@@ -1,11 +1,10 @@
 created: 20190712172253716
-modified: 20190712172646625
+modified: 20230729183856720
 revision: 0
 tags: Stochastik
 title: Schnelle stochastische Konvergenz
 
 Wir sagen, eine Folge von reellwertigen [[Zufallsvariablen|Zufallsvariable]] $$X_n$$ konvergiert //schnell stochastisch// gegen $$0,$$ wenn für alle $$\epsilon>0$$ gilt:
-
 $$
 \sum_{n=1}^\infty \Bbb P(|X_n|<\epsilon) <\infty.
 $$
@@ -13,7 +12,6 @@ $$
 ---
 
 Schnelle stochastische Konvergenz gegen $$0$$ impliziert [[fast sichere|Fast überall]] Konvergenz gegen $$0,$$ d.h.
-
 $$
 \Bbb P\left(\lim_{n\to\infty} X_n=0\right)=1.
 $$

@@ -1,0 +1,58 @@
+created: 20200609164131386
+creator: Leander
+modified: 20200825091335904
+modifier: Leander
+revision: 0
+tags: Test
+title: Tests im Gauß-Modell
+type: text/vnd.tiddlywiki
+
+Sei
+$$(\R^n,\Borel(\R^n),(\mathcal N_{m,v}{}^{\otimes n})_{m\in\R,\, v>0})$$
+das  $$n$$-fache Gaußmodell mit unbekannten
+$$(m,v) \in \R \times \openI{0,\infty}$$.
+
+!! Varianz
+
+Der [[Test]]
+$$
+\varphi(x) \coloneqq \begin{cases}
+  1, &\text{ falls }\sum(x_i-\bar x)^2 \ge v_0 \, \chi_{n-1,1-\alpha}^2, \\
+  0  &\text{ sonst}
+\end{cases}
+$$
+ist ein gleichmäßig bester Test für
+$$H_0\colon v \le v_0$$ gegen $$H_1\colon v > v_0$$
+zum Niveau $$\alpha,$$ wobei $$\chi^2_{n-1,1-\alpha}$$ das $$\alpha$$-Fraktil der $$\chi^2_{n-1}$$-Verteilung ist.
+
+Das können wir diesmal nicht auf den rechtsseitigen Fall übertragen, in diesem Fall existiert nicht einmal ein gleichmäßig bester Test.
+
+!! Erwartungswert
+
+Einen Test für  $$H_0\colon m \le m_0$$ gegen $$H_1\colon m > m_0$$ erhalten wir mit
+$$
+\varphi(x) \coloneqq \begin{cases}
+  1, &\text{ falls }
+    (\bar x - m_0)\sqrt{\frac{n}{V^*(x)}} > t_{n-1,1-\alpha}, \\
+  0  &\text{ sonst},
+\end{cases}
+$$
+siehe auch [[Satz von Student]]. $$t_{n-1,1-\alpha}$$ ist das $$\alpha$$-Fraktil der [[Student-Verteilung]]. Dieser Test ist nicht gleichmäßig optimal, aber er ist optimal unter den [[unverfälschten|Unverfälschter Test]] Tests.
+
+!! Bekannte Parameter
+
+Betrachte das Gauß-Produktmodell, entweder mit bekannter Varianz oder bekanntem Erwartungswert.
+
+''Bekannte Varianz / Einseitiger Gauß-Test.''
+Der Beste Test von $$H_0\colon m \le m_0$$ gegen $$H_1\colon m > m_0$$ hat den Ablehnungsbereich
+$$
+\left\{\bar{X} > m_0 + \sqrt{\frac{v}{n}} \Phi^{-1}(1-\alpha)\right\},
+$$
+wobei $$\Phi$$ die Verteilungsfunktion der Standardnormalverteilung ist.
+
+''Bekannter Erwartungswert / Einseitiger Chi-Quadrat-Test.''
+Wir suchen den besten Test von $$H_0\colon v \le v_0$$ gegen $$H_1\colon v > v_0.$$ Das Gauß'sche Produktmodell ist eine exponentielle Familie bezüglich der Statistik $$T = \sum(X_i - m)^2,$$ der beste Test hat also den Verwerfungsbereich
+$$
+\Bigl\{ \sum(X_i - m)^2 > v_0\,\chi^2_{n;1-\alpha}\Bigr\},
+$$
+wobei $$\chi^2_{n;1-\alpha}$$ das $$\alpha$$-Fraktil der $$\chi^2_n$$-Verteilung ist.

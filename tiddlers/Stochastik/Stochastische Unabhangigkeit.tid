@@ -1,6 +1,6 @@
 created: 20190426115511608
 list: [[Unabhängigkeit in diskreten Produkträumen]] [[Unabhängigkeit und Zähldichten]] [[Unabhängigkeit und Verteilungsfunktionen]]
-modified: 20200601174112213
+modified: 20230520163908498
 revision: 0
 tags: Stochastik
 title: Stochastische Unabhängigkeit
@@ -14,21 +14,20 @@ $$
 \Bbb P\Bigl(\bigcap_{j\in J} A_j\Bigr)=\prod_{j\in J}\Bbb P(A_j).
 $$
 
+@@.theorem
 ''Satz.''
 Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein Wahrscheinlichkeitsraum und $$I=\{1,\dots,n\}.$$ Dann sind $$(A_i)_{i\in I}$$ genau dann unabhängig, wenn für jede Wahl von $$B_i\in\{A_i,A_i^c\}$$ folgende Produktformel gilt:
-
 $$
 \Bbb P\Bigl(\bigcap_{i\in I} B_i\Bigr)=\prod_{i\in I}\Bbb P(B_i).
 $$
+@@
 
 !! Zufallsvariablen
 
 Sei $$(\Omega,\mathcal A,\Bbb P)$$ ein beliebiger Wahrscheinlichkeitsraum und $$X_1,\dots,X_n$$ [[Zufallsvariablen|Zufallsvariable]] mit Werten in den messbaren Räumen $$(E_i,\mathcal E_i).$$ Dann heißen $$X_1,\dots,X_n$$ //(stochastisch) unabhängig,// falls für beliebige $$B_i\in\mathcal E_i$$ die Ereignisse
-
 $$
 \{X_1\in B_1\},\dots,\{X_n\in B_n\}
 $$
-
 unabhängig sind.
 
 * Eine beliebige Familie $$(X_i)_{i\in I}$$ von Zufallsvariablen heißt //unabhängig,// falls jede endliche Teilfamilie unabhängig ist.

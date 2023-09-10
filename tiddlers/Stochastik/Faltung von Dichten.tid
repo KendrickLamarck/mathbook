@@ -1,5 +1,5 @@
 created: 20190523220042362
-modified: 20200601180858031
+modified: 20230520164053659
 revision: 0
 tags: Stochastik
 title: Faltung von Dichten
@@ -7,6 +7,5 @@ type: text/vnd.tiddlywiki
 
 {{Faltung}}
 
-Seien $$f_1$$ und $$f_2$$ zwei [[Wahrscheinlichkeitsdichten|Dichte]] auf $$\Bbb R.$$ Dann ist auch die [[Faltung]] $$f_1*f_2$$ eine Dichte auf $$\Bbb R.$$
-
-Sind $$f_X$$ und $$f_Y$$ die Dichten zweier reellwertiger [[Zufallsvariablen|Zufallsvariable]] $$X$$ und $$Y,$$ so besitzt die Summe $$X+Y$$ die Dichte $$f_X*f_Y.$$
+* Seien $$f_1$$ und $$f_2$$ zwei [[Wahrscheinlichkeitsdichten|Dichte]] auf $$\Bbb R.$$ Dann ist auch die [[Faltung]] $$f_1*f_2$$ eine Dichte auf $$\Bbb R.$$
+* Sind $$f_X$$ und $$f_Y$$ die Dichten zweier reellwertiger [[Zufallsvariablen|Zufallsvariable]] $$X$$ und $$Y,$$ so besitzt die Summe $$X+Y$$ die Dichte $$f_X*f_Y.$$

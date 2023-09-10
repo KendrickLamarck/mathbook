@@ -1,13 +1,12 @@
 created: 20190607001940019
-modified: 20200805123646761
+modified: 20230729183738165
+revision: 0
 tags: Stochastik
 title: Konvergenz in Wahrscheinlichkeit
 type: text/vnd.tiddlywiki
 
 Seien $$X,X_1,X_2,\dots$$ reellwertige [[Zufallsvariablen|Zufallsvariable]]. Wir sagen, die [[Folge]] $$(X_n)$$ //konvergiert in Wahrscheinlichkeit// oder //konvergiert stochastisch// gegen $$X,$$ falls gilt:
-
 $$
 \lim_{n\to\infty}\Bbb P(|X_n-X|>\epsilon)=0\qquad\forall\epsilon>0.
 $$
-
-Wir schreiben $$X_n\xrightarrow \Bbb P X$$ oder $$X=\Bbb P-\lim_{n\to\infty} X_n.$$
+Wir schreiben $$X_n \xrightarrow{\Bbb P} X$$ oder $$X=\Bbb P-\lim_{n\to\infty} X_n.$$

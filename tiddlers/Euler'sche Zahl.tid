@@ -1,7 +1,7 @@
 created: 20170124152534333
 creator: Leander
 list: 
-modified: 20191011163048889
+modified: 20230428161637654
 modifier: Leander
 revision: 0
 tags: Exponentialfunktion
@@ -9,21 +9,15 @@ title: Euler'sche Zahl
 type: text/vnd.tiddlywiki
 
 Wir definieren die //Eulersche Zahl// $$e$$ als
-
 $$
 e \coloneqq \exp(1).
 $$
-
 Dann folgt
-
 $$
 e^x = \exp(x \log(\exp(1))) = \exp(x).
 $$
-
 Außerdem gilt:
-
 $$
 e = \lim_{n\to\infty} \left(1+\frac{1}{n}\right)^n
 $$
-
 An analogy: Consider a bank that gives 100% interest per year. Now consider the bank giving 50% interest every six months and so on. If we continue doing this, the factor after one year approaches $$e$$.

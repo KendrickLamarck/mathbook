@@ -1,6 +1,7 @@
 caption: List tiddlers tagged with current title
 created: 20170825204951947
 modified: 20200517010655107
+revision: 0
 tags: $:/tags/TextEditor/Snippet
 title: $:/_snippets/BetterList
 type: text/vnd.tiddlywiki

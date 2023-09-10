@@ -1,19 +1,16 @@
 created: 20190617140726319
-modified: 20200625235014219
+modified: 20230729190936084
 revision: 0
-tags: Stochastik
+tags: Stochastik [[Machine learning]]
 title: Borel-Cantelli-Lemma
 type: text/vnd.tiddlywiki
 
 Sei $$(A_n)_{n\in\Bbb N}$$ eine Folge von Ereignissen aus dem [[Wahrscheinlichkeitsraum|Wahrscheinlichkeitsmaß]] $$(\Omega,\mathcal A,\prob).$$ Dann gilt
-
 $$
 \sum_{n\in\N} \prob(A_n) < \infty \implies
 \prob\Bigl(\limsup_{n\to\infty} A_n\Bigr)=0.
 $$
-
 Sind außerdem die $$A_n$$ paarweise [[unabhängig|Stochastische Unabhängigkeit]], so gilt
-
 $$
 \sum_{n\in\N} \prob(A_n) = \infty \implies
 \prob\Bigl(\limsup_{n\to\infty} A_n\Bigr)=1.

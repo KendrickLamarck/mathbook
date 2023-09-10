@@ -1,0 +1,24 @@
+created: 20230223155251493
+modified: 20230223161639882
+tags: [[Topologie II]]
+title: Mayer-Vietoris for pairs
+
+If a map of pairs $$f\colon (X, A) \to (Y, B)$$ induces an isomorphism $$h_k(X, A) \xrightarrow{\cong} h_k(Y, B),$$ there is a long exact Mayer-Vietoris sequence
+$$
+\cdots\to h_k A \xrightarrow{(h_k\inc, -h_k \left.f\right|)} h_k X \oplus h_k B \xrightarrow{h_k\inc + h_k f} h_k Y \xrightarrow{\partial} h_{k-1} A \to \cdots
+$$
+If $$A \ne \varnothing,$$ the same is true with $$\tilde h.$$
+
+This condition is fulfilled in particular if $$(X, A)$$ is a [[good pair|Good pair]] and there is a [[pushout|Pushout]]
+$$\begin{CD}
+A        @>f>>  B \\
+@V{\inc}VV                @VV{J}V \\
+X        @>>F>  Y
+\end{CD}$$
+Then $$(Y, J(B))$$ is also a good pair and the induced map of pairs induces an isomorphism on relative homology.
+
+''Special case.'' If $$(X, A)$$ is a good pair, there is a long exact sequence in reduced homology
+$$
+\cdots \to \tilde{h}_k(A)\xrightarrow{\tilde{h}_k(\inc)} \tilde{h}_k(X) \to \tilde{h}(X / A) \to \cdots
+$$
+Together with the long exact sequence of a pair, this shows that for a good pair $$(X, A),$$ we have $$h_k(X, A) \cong \tilde h_k(X / A).$$

@@ -1,6 +1,7 @@
 created: 20190510075604518
 list: [[Gemeinsame Zähldichte]] [[Unabhängigkeit und Zähldichten]] [[Gemeinsame Dichte]] Randdichte [[Unabhängigkeit und Dichten]] [[Gemeinsame Verteilungsfunktion]] [[Unabhängigkeit und Verteilungsfunktionen]] Randverteilung
-modified: 20210123161157635
+modified: 20230506181412549
+revision: 0
 tags: Stochastik
 title: Gemeinsame Verteilung
 type: text/vnd.tiddlywiki
@@ -17,7 +18,6 @@ $$
 \Bbb P((X_1,\dots,X_n)\in B),\quad
 B\in\bigotimes_{i=1}^n \mathcal E_i
 $$
-
 auf dem Produktraum $$E$$ die //gemeinsame Verteilung// von $$X_1,\dots,X_n.$$
 
 !! Randverteilung

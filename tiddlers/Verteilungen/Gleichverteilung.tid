@@ -1,16 +1,14 @@
 created: 20190510071859047
-modified: 20200502120304030
+modified: 20230501200231610
 revision: 0
 tags: Verteilung
 title: Gleichverteilung
 type: text/vnd.tiddlywiki
 
 Für $$a<b$$ heißt eine [[Zufallsvariable]] $$X$$ mit Dichte
-
 $$
 f(x)=\frac 1 {b-a} \mathbf 1_{[a,b]}(x)
 $$
-
 //gleichverteilt// auf $$[a,b]$$ und wir schreiben $$X \sim \mathcal U([a,b]).$$ 
 
 

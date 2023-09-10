@@ -1,6 +1,6 @@
 created: 20190129163646304
 creator: Leander
-modified: 20200601190051953
+modified: 20221003211547755
 modifier: Leander
 revision: 0
 tags: [[Extrinsic differential geometry]]
@@ -8,9 +8,7 @@ title: Mannigfaltigkeiten als Graphen
 type: text/vnd.tiddlywiki
 
 Sei $$M\subseteq\Bbb R^d$$ eine $$k$$-dimensionale [[Mannigfaltigkeit|Untermannigfaltigkeit]] der Klasse $$\mathcal C^\alpha$$ und sei $$a=(a_1,\dots,a_d)\in M.$$ Dann gibt es nach eventueller Umnummerierung der Koordinaten [[offene|Offenheit]] [[Umgebungen|Umgebung]] $$U'\subseteq\Bbb R^k$$ von $$a'=(a_1,\dots,a_k)$$ und $$U''\subseteq\Bbb R^{d-k}$$ von $$a''=(a_{k+1},\dots,a_d)$$ sowie eine Funktion $$g\in\mathcal C^\alpha(U'\to U''),$$ so dass
-
 $$
 M\cap(U'\times U'')=\{(x',x'')\in U'\times U'' : g(x')=x''\}
 $$
-
 mit $$x'=(x_1,\dots,x_k),\ x''=(x_{k+1},\dots,x_d).$$

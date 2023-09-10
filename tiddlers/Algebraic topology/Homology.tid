@@ -1,6 +1,7 @@
 created: 20210123205459773
 list: [[Chain complex]] [[Simplicial homology]] [[Singular homology]] [[Simplicial and singular homology]] [[Reduced homology]] [[Hurewicz theorem]] [[Betti number]] [[Chain map]] [[Chain homotopy]] [[Exact sequence]] [[Exact sequence on homology]] [[Zig-zag lemma]] [[Relative homology]] Excision [[Homology on quotient spaces]] [[Mayer-Vietoris theorem]] Five-lemma [[Homology with coefficients]] [[Cellular homology]] [[Euler characteristic]] [[Homology manifold]] [[Homological orientation]] [[Homology of spheres]]
-modified: 20210328234025275
+modified: 20230213112911329
+revision: 0
 tags: [[Algebraic topology]]
 title: Homology
 type: text/vnd.tiddlywiki
@@ -20,7 +21,7 @@ $$</div>
 : If $$\overbar{3}{-2}{Z} \subseteq \mathring{A},$$ then the inclusion induces for each $$n \in \Z$$ an isomorphism $$h_n(X \setminus Z, A \setminus Z) \cong h_n(X,A).$$
 
 ; Dimension:
-: $$h_n(\{*\}) = 0$$ for $$n \ne 0.$$ $$h_0(\{*\})$$ is called the //coefficient group// for the homology theory. Dropping this axiom gives so-called //generalized homology theories.//
+: $$h_n(\{*\}) = 0$$ for $$n \ne 0.$$ $$h_0(\{*\})$$ is called the //coefficient group// for the homology theory. Dropping this axiom gives so-called //generalized// homology theories (as opposed to //ordinary// ones).
 
 ; Additivity:
 : <div>For any disjoint union, the inclusions induce for each $$n \in \Z$$ an isomorphism

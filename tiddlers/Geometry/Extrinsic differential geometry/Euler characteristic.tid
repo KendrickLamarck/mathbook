@@ -1,5 +1,6 @@
 created: 20200701193550364
-modified: 20210325234446153
+modified: 20230223124302836
+revision: 0
 tags: Homology [[Extrinsic differential geometry]]
 title: Euler characteristic
 type: text/vnd.tiddlywiki
@@ -33,3 +34,12 @@ $$
 $$
 In particular, for a short exact sequence $$0 \to A \to B \to C \to 0,$$ we have $$\rank B = \rank A + \rank C$$ (prove this as a lemma first).
 @@
+
+!! For finite CW complexes
+
+If $$\varnothing = X_{-1} \subseteq \dots \subseteq X_n = X$$ is a CW-structure on $$X$$ with $$\#\pi_0(X_k \setminus X_{k - 1}$$ finite for $$k = 0,\dots,n,$$ then
+$$
+\chi(X) \coloneqq \sum_{k = 0}^n
+(-1)^k \#\pi_0(X_k \setminus X_{k - 1})
+$$
+is called the //Euler characteristic// of $$X.$$

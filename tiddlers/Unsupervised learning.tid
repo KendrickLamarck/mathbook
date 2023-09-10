@@ -1,0 +1,35 @@
+created: 20230707212521215
+modified: 20230729215238469
+tags: [[Machine learning]]
+title: Unsupervised learning
+
+Let $$\mathsf{d}(\cdot\mmid\cdot)$$ be some [[statistical distance|Statistical distance]] of probability measures on $$\R^d.$$ An //unsupervised statistical learning algorithm// is a collection of functions $$\{\hat\mu_n \colon \R^{dn} \to \probmeasures(\R^d)\}_{n \in \N}$$ such that for any $$\mu \in \probmeasures(\R^d),$$ the mapping
+$$
+(x_1,\dots,x_n) = \chi \mapsto \mathsf{d}(\mu \mmid \hat\mu(\chi))
+$$
+is a measurable map from $$(\R^{dn}, \Borel(\R^{dn}))$$ to $$([0, \infty], \Borel([0, \infty])).$$
+
+Now let $$X_j \colon (\varOmega, \mathcal{A}, \prob) \to (\R^d, \Borel(\R^d))$$ represent a data model and denote the sample of size $$n$$ by $$\chi_n = (X_1, \dots, X_n).$$
+
+* <span>Let $$\hat\mu_n = \hat\mu_n \circ \chi_n$$ be a statistical learning algorithm and let $$\mu \in \probmeasures(\R^d)$$ such that the data model $$\{X_j\}_{j \in \N}$$ is (asymptotically) distributed according to $$\mu.$$ We say $$\mu$$ is //$$\mathsf{d}$$-learnable// by $$\hat\mu_n,$$ if
+$$
+\mathsf{d}(\mu \mmid \hat\mu_n) \xrightarrow[n \to \infty]{\prob} 0.
+$$
+Note that $$\mathsf{d}(\mu \mmid \hat\mu_n)$$ is a sequence of random variables.
+</span>
+
+* $$\mathcal{T} \subseteq \probmeasures(\R^d)$$ is called $$\mathsf{d}$$-learnable, if every $$\mu \in \mathcal{T}$$ is $$d$$-learnable.
+
+* <span>$$\mathcal{T}$$ is called //$$\mathsf{d}$$-PAC-learnable// (probably approximately correct), if there exists a function $$N \colon \openI{0, 1} \times \openI{0, 1} \to \N$$ such that for all $$\mu \in \mathcal{T}$$ such that $$\{X_j\}$$ follows $$\mu$$ and $$1 > \varepsilon, \delta > 0$$, we have
+$$
+\prob(\mathsf{d}(\mu \mmid \hat\mu_n) > \varepsilon) \le \delta \quad \forall n \ge N(\varepsilon, \delta).
+$$
+</span>
+
+''Remark.'' In the case where $$\mathcal{T} \nsubseteq \img(\hat{\mu}_n),$$ we deal with a minimal model error
+$$
+\varepsilon_\mathrm{mod}(\mu) =
+\inf_{n \in \N} \inf_{\nu \in \img(\hat{\mu}_n)}
+\mathsf{d}(\mu \mmid \nu) > 0.
+$$
+In this case, we can adapt the above definitions to an //agnostic// version by subtracting $$\varepsilon_\mathrm{mod}(\mu)$$ from $$\mathsf{d}(\mu \mmid \hat{\mu}_n)$$ in the definitions.

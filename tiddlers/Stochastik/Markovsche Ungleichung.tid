@@ -1,19 +1,17 @@
 created: 20190607001035031
-modified: 20191011173751856
+modified: 20230729190512410
 revision: 0
-tags: Stochastik
+tags: Stochastik [[Machine learning]]
 title: Markovsche Ungleichung
 type: text/vnd.tiddlywiki
 
 Sei $$X$$ eine reellwertige [[Zufallsvariable]] und $$\Phi\colon\Bbb R\to [0,\infty[$$ monoton wachsend. Dann gilt
-
 $$
 \Bbb P(X\ge a)\le
 \frac
 {\Bbb E(\Phi(X))}
 {\Phi(a)}
 $$
-
 für alle $$a\in\Bbb R$$ mit $$\Bbb\Phi(a)>0.$$
 
 !! Chebychev'sche Ungleichung

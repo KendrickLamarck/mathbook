@@ -1,5 +1,6 @@
 created: 20190216195554333
-modified: 20200929130620585
+modified: 20220627173929052
+revision: 0
 tags: [[Hyperbolic geometry]]
 title: Poincaré half-plane model
 type: text/vnd.tiddlywiki
@@ -28,7 +29,3 @@ with $$a,b,c,d\in\Bbb R,$$ which is the group $$\PSL(2,\Bbb R).$$
 !! Map from the Poincaré disk model
 
 {{Mapping the Poincaré disk to the half-plane model}}
-
-!! Map to Klein model
-
-{{Mapping the Klein- to the Poincaré model}}

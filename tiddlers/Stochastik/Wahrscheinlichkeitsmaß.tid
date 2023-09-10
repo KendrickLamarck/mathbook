@@ -1,9 +1,0 @@
-created: 20190509194557584
-formula: (\Omega,\mathcal{A},\prob)
-list: [[Laplacescher Wahrscheinlichkeitsraum]] [[Formel von Sylvester]] [[Satz von der totalen Wahrscheinlichkeit]] [[Formel von Bayes]]
-modified: 20200807191511251
-tags: Stochastik
-title: Wahrscheinlichkeitsmaß
-type: text/vnd.tiddlywiki
-
-Ein [[Maß]] $$\mu$$ auf $$(\Omega,\mathcal F)$$ heißt ein //Wahrscheinlichkeitsmaß,// falls $$\mu(\Omega)=1$$ ist. In diesem Fall heißt das Tripel $$(\Omega,\mathcal F,\mu)$$ ein //Wahrscheinlichkeitsraum// und wir schreiben meißt $$\mathbb P$$ statt $$\mu.$$ $$\Omega$$ heißt dann //Ergebnisraum// und $$\mathcal F$$ //Ereignisraum// und ihre Elemente //Ergebnisse,// respektive //Ereignisse.//

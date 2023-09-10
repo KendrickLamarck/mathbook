@@ -1,7 +1,7 @@
 caption: Grenzwerte
 created: 20180315141900058
 creator: Leander
-modified: 20191011212444405
+modified: 20230324130537633
 modifier: Leander
 revision: 0
 tags: Analysis
@@ -9,23 +9,17 @@ title: Grenzwert von Funktionen
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon\mathbb{K}\supset D \to \mathbb{K}$$ eine [[Funktion|Abbildung]]. Seien $$p$$ ein [[Häufungspunkt|Häufungspunkt (Mengen)]] von $$D$$ und $$a \in \mathbb{K}$$. Wir sagen $$a$$ ist der //Grenzwert// von $$f(x)$$ für $$x \to p$$, wenn folgendes gilt:
-
 $$
 \forall\epsilon>0\,\exists\delta>0\,\forall x \in D\colon\quad 0 < |x-p| < \delta \implies |f(x)-a| < \epsilon.
 $$
-
 Das kann man auch so schreiben:
-
 $$
 \forall\epsilon>0\,\exists\delta>0\colon\quad f(U_\delta^*(p)\cap D)\subset U_\epsilon(a).
 $$
-
 Man schreibt dann
-
 $$
 \lim_{x \to p} f(x) = a
 $$
-
 oder $$f(x) \to a$$ für $$x \to p.$$
 
 !! Mit Folgen

@@ -1,6 +1,7 @@
 caption: \fracpartial#1#2
 created: 20211019200400474
 modified: 20211019200357463
+revision: 0
 tags: $:/tags/KaTeX/Macro
 title: $:/plugins/tiddlywiki/katex/macros/\fracpartial#1#2
 type: text/plain

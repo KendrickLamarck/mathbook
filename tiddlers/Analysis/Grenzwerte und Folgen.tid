@@ -1,7 +1,7 @@
 created: 20171225153045263
 creator: Leander
 list: 
-modified: 20191003222046531
+modified: 20230324130434368
 modifier: Leander
 revision: 0
 tags: no-toc [[Grenzwert von Funktionen]]
@@ -9,9 +9,7 @@ title: Grenzwerte und Folgen
 type: text/vnd.tiddlywiki
 
 Seien $$f\colon\mathbb{R} \supset D \to \mathbb{R}$$ eine [[Funktion|Abbildung]] und $$p$$ ein [[Häufungspunkt|Häufungspunkt (Mengen)]] von $$D$$. Dann ist $$\lim_{x \to p}f(x)=a$$ genau dann, wenn gilt: Für jede [[Folge]] $$(x_n)$$ in $$D\setminus\{p\}$$ mit $$\lim_{n \to \infty} x_n = p$$ gilt:
-
 $$
 \lim_{n \to \infty} f(x_n) = a.
 $$
-
 Die Aussage gilt entsprechend auch für [[komplexe|Komplexe Zahlen]] Funktionen und [[einseitige Grenzwerte|Einseitiger Grenzwert]] reeller Funktionen.

@@ -1,20 +1,19 @@
 created: 20190406221109732
 creator: Leander
 list: [[Mehrdimensionale Normalverteilung]] [[Dichte mehrdimensionaler Normalverteilungen]] [[Transformierte mehrdimensionale Normalverteilungen]] [[Zentraler Grenzwertsatz]] [[Satz von De Moivre-Laplace]]
-modified: 20200823170313938
+modified: 20230428172803794
 modifier: Leander
+revision: 0
 tags: Verteilung
 title: Normalverteilung
 type: text/vnd.tiddlywiki
 
 Für $$m\in\Bbb R$$ und $$\sigma>0$$ ist
-
 $$
 f_{m,\sigma^2}(x)=
 \frac 1 {\sqrt{2\pi}\sigma}
 \exp\left(-\frac 12 \frac{(x-m)^2}{\sigma^2}\right)
 $$
-
 eine [[Dichte]]. Die zugehörige [[Verteilung]] heißt //Normalverteilung// mit [[Mittel|Erwartungswert]] $$m$$ und [[Varianz]] $$\sigma^2.$$ Sie wird mit $$\normaldist(m,\sigma^2),\ \normaldist_{m,\sigma^2}$$ oder $$N(m,\sigma^2)$$ bezeichnet. Im Fall $$m=0,\ \sigma^2=1$$ spricht man von der //Standardnormalverteilung.//
 
 * <div>Ist $$X\sim \normaldist(m,\sigma^2),\ a\ne 0$$ und $$b\in\Bbb R,$$ so gilt 

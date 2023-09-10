@@ -1,16 +1,14 @@
 created: 20190407192213728
-modified: 20200505152659398
+modified: 20230506180851182
 revision: 0
 tags: Verteilung
 title: Bernoulli-Verteilung
 type: text/vnd.tiddlywiki
 
 Sei $$p\in [0,1].$$ Das durch die [[Zähldichte|Diskretes Maß]] $$f\colon\{0,1\}\to[0,1]$$
-
 $$
 f(1)=p,\quad f(0)=1-p
 $$
-
 definierte [[Wahrscheinlichkeitsmaß]] auf $$\{0,1\}$$ heißt //Bernoulli-Verteilung zu $$p.$$//
 
 * <div>Ist $$X$$ Bernoulli-verteilt mit Parameter $$p,$$ so gilt für die [[charakteristische Funktion|Charakteristische Funktion]]

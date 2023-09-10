@@ -1,10 +1,9 @@
 created: 20191122174409535
-modified: 20221022195516308
-revision: 0
+modified: 20210326125007156
 tags: [[Derived topologies]] no-toc
 title: Product topology
 type: text/vnd.tiddlywiki
 
-Let $$(X_i)_{i\in I},Y$$ be [[topological spaces|Topologie]]. The //product topology// on $$X\coloneqq \prod X_i$$ is defined to be the coarsest topology such that all projections $$\pi_i\colon X\to X_i$$ are continuous. It is the topology with base elements $$\prod U_i,$$ where the $$U_i \subseteq X_i$$ are open and $$U_i = X_i$$ for almost all $$i.$$ For finite products, we can simply take the base to be products of open sets.
+Let $$(X_i)_{i\in I},Y$$ be [[topological spaces|Topologie]]. The //product topology// on $$X\coloneqq \prod X_i$$ is defined to be the coarsest topology such that all projections $$\pi_i\colon X\to X_i$$ are continuous. It is the topology with base elements $$\prod U_i,$$ where the $$U_i \subseteq X_i$$ are open and $$U_i = X_i$$ for almost all $$i.$$ For finitely products, we can simply take the base to be products of open sets.
 
 The cartesian product with the product topology is the [[product|Product (category theory)]] in the category of topological spaces as well as in the category of pointed spaces (with the obvious choice of basepoint for the product).

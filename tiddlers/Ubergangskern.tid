@@ -1,5 +1,5 @@
 created: 20200502135227139
-modified: 20230619130104032
+modified: 20200502140126795
 revision: 0
 tags: Maßtheorie
 title: Übergangskern
@@ -10,4 +10,4 @@ Sind $$(\varOmega_1,\mathcal A_1)$$ und $$(\varOmega_2,\mathcal A_2)$$ Maßräum
 * $$\omega_1 \mapsto \kappa(\omega_1, A_2)$$ ist $$\mathcal A_1$$-messbar für alle $$A_2 \in \mathcal A_2,$$
 * $$A_2 \mapsto \kappa(\omega_1,A_2)$$ ist ein $$\sigma$$-endliches Maß auf $$(\varOmega_2,\mathcal A_2)$$ für alle $$\omega_1 \in \varOmega_1.$$
 
-Ist das gelieferte Maß ein Wahrscheinlichkeitsmaß, so handelt es sich um einen //stochastischen Kern, Markow/Markov-Kern// oder //Wahrscheinlichkeitskern.//
+Ist das gelieferte Maß ein Wahrscheinlichkeitsmaß, so handelt es sich um einen //stochastischen Kern.//

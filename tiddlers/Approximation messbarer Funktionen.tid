@@ -1,5 +1,5 @@
 created: 20181218153009709
-modified: 20230604180548200
+modified: 20191011180007482
 revision: 0
 tags: [[Messbare Funktion]] no-toc
 title: Approximation messbarer Funktionen
@@ -8,6 +8,7 @@ type: text/vnd.tiddlywiki
 {{Einfache Funktion}}
 
 Für jede nichtnegative [[messbare|Messbare Funktion]] [[numerische|Numerische Funktion]] Funktion $$f$$ gibt es eine monoton wachsende Folge von [[einfachen|Einfache Funktion]] nichtnegativen Funktionen $$f_1,f_2,\dots$$ mit $$f_n\uparrow f$$ für $$n\to\infty.$$ Eine solche Folge ist z.B.
+
 $$
 f_n\coloneqq
 \sum_{k=1}^{n2^n} (k-1)2^{-n}\mathbf 1_{\{(k-1)2^{-n}\le f<k2^{-n}\}}+

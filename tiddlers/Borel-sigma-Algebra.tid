@@ -1,21 +1,25 @@
 created: 20181127153033702
-modified: 20230516174851859
+modified: 20191011175601853
 revision: 0
 tags: Sigma-Algebra
 title: Borel-sigma-Algebra
 type: text/vnd.tiddlywiki
 
 Die //Borel-$$\sigma$$-Algebra// $$\mathcal B$$ auf $$\mathbb R$$ ist die von den offenen Mengen [[erzeugte|Erzeugte sigma-Algebra]] $$\sigma$$-Algebra. Es gilt auch
+
 $$\begin{aligned}
 \mathcal B &=
 \sigma(\{\, {]a,b[} : -\infty\le a<b\le\infty \,\}) \\ &=
 \sigma(\{\, ]\infty,t] : t\in\mathbb R \,\}) \\ &=
 \sigma(\{\, ]\infty,t] : t\in\mathbb Q \,\}).
 \end{aligned}$$
+
 Auch auf dem $$\mathbb R^d$$ können wir die von den offenen Mengen erzeugte $$\sigma$$-Algebra $$\mathcal B_d$$ betrachten. Es gilt außerdem
+
 $$\begin{aligned}
 \mathcal B_d &=
 \sigma\left(\left\{ \prod_{i=1}^d I_i : I_1,\dots I_d\subset\mathbb R \text{ Intervalle} \right\}\right) \\ &=
 \sigma(\{ [a_1,b_1]\times\dots\times[a_d,b_d] : a_i<b_i \}).
 \end{aligned}$$
+
 Noch allgemeiner können wir zu jedem [[topologischen Raum|Topologie]] $$(\Omega,\mathcal T)$$ die Borel-$$\sigma$$-Algebra als $$\sigma(\mathcal T)\eqqcolon\mathcal B(\Omega)$$ definieren. Dann ist automatisch jede [[stetige|Stetigkeit]] Funktion [[messbar|Messbare Funktion]].

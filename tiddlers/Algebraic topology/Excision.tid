@@ -1,14 +1,10 @@
 created: 20210206191601800
-modified: 20230213112617903
-revision: 0
-tags: Homology [[Topologie II]]
+modified: 20210323235205753
+tags: Homology
 title: Excision
 type: text/vnd.tiddlywiki
 
-There are two formulations of excision:
-
-* Suppose $$A,B \subseteq X$$ are subsets whose interiors cover $$X.$$ Then the inclusion $$i\colon (B,A \cap B) \hookrightarrow (X,A)$$ induces isomorphisms $$i_*\colon H_n(B, A \cap B) \to H_n(X,A)$$ for all $$n.$$
-* Let $$(X, A)$$ be a pair and let $$Z \subseteq A$$ such that $$\overbar{3}{-2}{Z} \subseteq \mathring{A}.$$ Then the inclusion induces for each $$n \in \Z$$ an isomorphism $$H_n(X \setminus Z, A \setminus Z) \cong H_n(X,A).$$
+Suppose $$A,B \subseteq X$$ are subsets such that their interiors cover $$X.$$ Then the inclusion $$i\colon (B,A \cap B) \hookrightarrow (X,A)$$ induces isomorphisms $$i_*\colon H_n(B, A \cap B) \to H_n(X,A)$$ for all $$n.$$
 
 @@.theorem
 <div>

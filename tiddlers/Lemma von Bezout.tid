@@ -1,13 +1,13 @@
 created: 20180517201845015
 creator: Leander
-modified: 20221124133849092
+modified: 20200601184847210
 modifier: Leander
 revision: 0
 tags: misc
 title: Lemma von Bezout
 type: text/vnd.tiddlywiki
 
-Für $$a,b\in\mathbb Z\setminus\{0\}$$ ist der [[größte gemeinsame Teiler|Größter gemeinsamer Teiler]] eine ganzzahlige [[Linearkombination]] von $$a$$ und $$b$$, d. h. es gibt $$s,t\in\mathbb Z$$, so dass
+Für $$a,b\in\mathbb Z\setminus\{0\}$$ ist der [[größte gemeinsame Teiler|Größter gemeinsamer Teiler]] eine ganzzahlige [[Linearkombination]] von $$a$$ und $$b$$, d.h. es gibt $$s,t\in\mathbb Z$$, so dass
 
 $$
 \operatorname{ggT}(a,b)=s\cdot a+t\cdot b.

@@ -1,6 +1,0 @@
-created: 20230729181340281
-modified: 20230729182626152
-tags: [[Machine learning]]
-title: i.i.d. data model
-
-A Family $$(X_j)_{j \in \N}\colon (\varOmega, \mathcal{A}, \prob) \to (\R^d, \Borel)$$ of independent, identically distributed random variables is called an //i.i.d. data model.//

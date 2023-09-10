@@ -1,6 +1,5 @@
 created: 20191122221305032
-modified: 20230514121033608
-revision: 0
+modified: 20210123163939421
 tags: [[Exterior algebra]] no-toc
 title: Hodge star
 type: text/vnd.tiddlywiki
@@ -13,7 +12,7 @@ called the //Hodge star operator.//
 
 * <div>If $$(e_i)$$ is an [[oriented|Orientierung]] [[orthonormal basis|Orthonormalbasis]] for $$V,$$ then requiring that
 $$
-\star\left(e_{\sigma(1)} \wedge\dots\wedge e_{\sigma(k)}\right) =
+\star(e_{\sigma(1)} \wedge\dots\wedge e_{\sigma(k)}) =
 e_{\sigma(k+1)} \wedge\dots\wedge e_{\sigma(m)}.
 $$
 for every even permutation $$\sigma \in S_m$$ uniquely defines the Hodge star.</div>

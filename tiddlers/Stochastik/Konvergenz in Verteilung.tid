@@ -1,24 +1,17 @@
 created: 20190616004726261
-modified: 20230729184358980
-revision: 0
+modified: 20200818164450702
 tags: Stochastik
 title: Konvergenz in Verteilung
 type: text/vnd.tiddlywiki
 
 Seien $$X,X_1,X_2,\dots$$ [[Zufallsvariablen|Zufallsvariable]] mit [[Verteilungsfunktionen|Verteilungsfunktion]] $$F,F_1,F_2,\dots.$$ Wir sagen, die Folge $$(F_n)$$ //konvergiert schwach gegen $$F$$// oder die Folge $$(X_n)$$ //konvergiert in Verteilung gegen $$X,$$// falls
+
 $$
 \lim_{n\to\infty} F_n(x)=F(x)
 $$
+
 in allen Stetigkeitspunkten $$x$$ von $$F.$$ Wir schreiben
 $$F_n\Rightarrow F,\ F_n\xrightarrow w F,\ X_n\Rightarrow X,\ X_n\xrightarrow d X.$$
-
-!! Alternative definition/notation
-
-$$(X_n)$$ converges (weakly) in law to $$X$$ if for all continuous and bounded $$g \in C_b(\R^d, \R),$$ we have
-$$
-\expect[g(X_n)] \to \expect[g(X)].
-$$
-We write $$X_n \xrightarrow{\mathscr{L}} X.$$
 
 !! Mehrdimensional
 

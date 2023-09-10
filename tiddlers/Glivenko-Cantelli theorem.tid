@@ -1,9 +1,0 @@
-created: 20230729230338848
-modified: 20230729230550658
-tags: [[Machine learning]]
-title: Glivenko-Cantelli theorem
-
-$$\mathcal{T} = \probmeasures(\R^d)$$ is learnable with respect to the Glivenko-Cantelli divergence $$\mathsf{d}_\mathrm{GC}$$ by the learning algorithm of the empirical distribution
-$$
-\hat{\mu}_n = \frac{1}{n} \sum_{j = 1}^n \delta_{X_j}.
-$$

@@ -1,6 +1,5 @@
 created: 20200326004008380
-modified: 20220920200855487
-revision: 0
+modified: 20200925183651562
 tags: [[Intrinsic differential geometry]]
 title: Geodesic
 type: text/vnd.tiddlywiki
@@ -26,7 +25,7 @@ Intuitively speaking, geodesics have no acceleration in the tangent direction.
 If $$x_i(t)$$ denote the components of $$\varphi(\gamma(t))$$ in a chart $$(U,\varphi),$$ the geodesic equations are given explicitly by
 
 $$
-\ddot{x}_k + \sum_{i,j} {{\varGamma\,}^{k}}_{ij}(x) \dot x_i \dot x_j = 0.
+\ddot x_k + \sum_{i,j} {\varGamma\,^{k}}_{ij}(x) \dot x_i \dot x_j = 0.
 $$
 
 !! Geodesic completeness

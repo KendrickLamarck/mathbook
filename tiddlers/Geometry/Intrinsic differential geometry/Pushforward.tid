@@ -1,6 +1,5 @@
 created: 20191112232507929
-modified: 20220503201241263
-revision: 0
+modified: 20201127152028070
 tags: [[Intrinsic differential geometry]]
 title: Pushforward
 type: text/vnd.tiddlywiki
@@ -46,5 +45,5 @@ $$
 $$
 This [[one-form|One-form]] is just another way to view the differential, since $$\D_p f(X)=\d_p f(X)\partial_t,$$ where $$\partial_t$$ is the standard basis for $$\T_{f(p)}\R.$$ In coordinates, we get
 $$
-\d f = \sum_i \partial_i f \, \d x_i.
+\d f = \sum_i \partial_i f \cdot \d x_i.
 $$

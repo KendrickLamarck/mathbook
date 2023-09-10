@@ -1,26 +1,21 @@
 created: 20181211152143869
-modified: 20230428162745376
-revision: 0
+modified: 20200730205426021
 tags: Borel-sigma-Algebra
 title: Verteilungsfunktion
 type: text/vnd.tiddlywiki
 
 Zu jeder [[monoton steigenden|Monotonie]], rechtsseitig [[stetigen|Stetigkeit]] Abbildung $$F\colon\R\to\R$$ gibt es genau ein [[Maß]] $$\mu$$ auf $$(\R,\Borel)$$ (wobei $$\Borel$$ die [[Borel-sigma-Algebra]] ist) mit
+
 $$
 F(t)-F(s)=\mu(\,\lopenI{s,t}\,)
 $$
+
 für alle $$s,t\in\R$$ mit $$s<t.$$ Umgekehrt ist für jedes Maß $$\mu$$ auf $$(\R,\Borel)$$ mit $$\mu(\,]s,t]\,)<\infty$$ für alle $$s<t$$ die Abbildung $$t\mapsto\mu(\,]s,t]\,)$$ monoton steigend und rechtsseitig stetig.
 
 Im Spezialfall $$F(\infty)-F(-\infty)=1,$$ also wenn $$\mu$$ ein [[Wahrscheinlichkeitsmaß]] ist, kann man o.E. voraussetzen, dass $$F(-\infty)=0$$ ist und man nennt $$F$$ die //Verteilungsfunktion// von $$\mu.$$
 
-@@.theorem
-<div>
-
 ''Korollar.''
 {{Lebesgue-Borel-Maß auf R}}
-
-</div>
-@@
 
 !! Anmerkungen
 

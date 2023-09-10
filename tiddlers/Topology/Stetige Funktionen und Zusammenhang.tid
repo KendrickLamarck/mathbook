@@ -1,11 +1,15 @@
+caption: Zwischenwertsatz / Satz vom Zusammenhang
 created: 20180517190854127
 creator: Leander
-modified: 20201103142755562
+modified: 20191229215812350
 modifier: Leander
-tags: Zusammenhang
+revision: 0
+tags: Zusammenhang Stetigkeit
 title: Stetige Funktionen und Zusammenhang
 type: text/vnd.tiddlywiki
 
 Seien $$(X,d_X),\ (Y,d_Y)$$ [[metrische Räume|Metrischer Raum]], $$A\subset X$$ [[zusammenhängend|Zusammenhang]] und $$f\colon A\to Y$$ [[stetig|Stetigkeit]]. Dann ist auch $$f(A)\subset Y$$ zusammenhängend.
 
-Der Satz verallgemeinert den [[Zwischenwertsatz]].
+Der Satz verallgemeinert den [[Zwischenwertsatz]]:
+
+{{Zwischenwertsatz}}

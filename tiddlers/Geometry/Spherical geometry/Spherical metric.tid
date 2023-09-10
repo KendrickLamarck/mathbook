@@ -1,10 +1,12 @@
 created: 20190216152554201
-modified: 20200929131427675
+modified: 20191013020442662
+revision: 0
 tags: no-toc [[Spherical geometry]]
 title: Spherical metric
 type: text/vnd.tiddlywiki
 
 The shortest curve in $$S^2$$ connecting two points $$x,y\in S^2,\ x\ne y,$$ is the shorter segment of the [[great circle|Great circle]] through $$x$$ and $$y.$$ This defines a metric $$d$$ on the [[sphere|Einheitssphäre]] given by
+
 $$
 \cos d(x,y)=\langle x,y\rangle.
 $$

@@ -1,13 +1,16 @@
 created: 20200403054257767
-modified: 20200920210643481
+modified: 20200403061443748
+revision: 0
 tags: [[Riemannian curvature]]
 title: Scalar curvature
 type: text/vnd.tiddlywiki
 
 The //scalar curvature// $$S \in \mathcal C^\infty(M)$$ of a Riemannian manifold $$(M,g)$$ is the trace of the [[Ricci curvature]] with respect to $$g$$:
+
 $$
 S=\tr_g \Ric = \sum_i \Ric_i^i,
 $$
+
 where $$\Ric_i^j = \sum_k g^{jk} \Ric_{ik}.$$
 
 * If $$\{E_i\}$$ is a local orthonormal frame, then $$S = \sum_i \Ric(E_i,E_i).$$

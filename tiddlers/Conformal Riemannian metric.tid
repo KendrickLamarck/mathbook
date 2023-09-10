@@ -1,0 +1,13 @@
+created: 20191123204654588
+modified: 20191123204959383
+revision: 0
+tags: [[Riemannian metric]] no-toc
+title: Conformal Riemannian metric
+
+A [[Riemannian metric]] on an open subset $$U\subseteq\R^n$$ is called //conformal// if
+
+$$
+g_p(u,v)=\lambda(p)\langle u,v\rangle_{\Bbb R^n}
+$$
+
+for some function $$\lambda\colon\Bbb R^n\to\Bbb R_{>0}.$$ In this case, angles measured using $$g$$ are equal to the euclidean angles.

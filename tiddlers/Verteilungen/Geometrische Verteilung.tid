@@ -1,13 +1,11 @@
 created: 20190103020052588
 creator: Leander
-modified: 20200601181832150
+modified: 20191011175001338
 modifier: Leander
 revision: 0
 tags: Verteilung
 title: Geometrische Verteilung
 type: text/vnd.tiddlywiki
-
-{{Wartezeit}}
 
 Sei $$p\in{]0,1]}.$$ Das durch die [[Zähldichte|Diskretes Maß]]
 
@@ -17,16 +15,5 @@ k\mapsto(1-p)^{k-1}p
 $$
 
 definierte [[Wahrscheinlichkeitsmaß]] auf $$\Bbb N$$ heißt //geometrische Verteilung zu $$p$$// und wird mit $$\operatorname{Geom}(p)$$ bezeichnet. 
+
 Sie ist die Verteilung der [[Wartezeit]].
-
-!! Gedächtnislosigkeit
-
-Sei $$T$$ [[geometrisch verteilt|Geometrische Verteilung]]. Dann gilt für $$k\ge 2$$
-
-$$
-\Bbb P(T\ge k-1+n \mid T\ge n)=\Bbb P(T\ge k)\qquad\forall n\in\Bbb N
-$$
-
-und wir sagen $$T$$ ist //gedächtnislos.// Ist umgekehrt $$T\colon\Omega\to\Bbb N$$ eine gedächtnislose [[Zufallsvariable]], so ist $$T$$ geometrisch verteilt.
-
-Siehe auch [[Exponentialverteilung]].

@@ -1,0 +1,13 @@
+created: 20180420181623217
+creator: Leander
+modified: 20191003212933168
+modifier: Leander
+revision: 0
+tags: no-toc Automorphismus
+title: Orientierungstreue
+type: text/vnd.tiddlywiki
+
+Ein [[Automorphismus]] eines $$\mathbb R$$-[[Vektorraumes|Vektorraum]] $$V$$ mit $$\dim V<\infty$$ heißt
+
+* //orientierungstreu//, falls $$\det F>0$$ und
+* //orientierungsuntreu//, falls $$\det F<0$$.

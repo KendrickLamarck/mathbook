@@ -1,5 +1,5 @@
 created: 20190505115155450
-modified: 20200502121117185
+modified: 20191004230037226
 revision: 0
 tags: Stochastik
 title: Zufallsvariable
@@ -7,7 +7,8 @@ type: text/vnd.tiddlywiki
 
 Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]] und $$(E,\mathcal E)$$ ein [[messbarer Raum|Sigma-Algebra]]. Eine [[messbare Abbildung|Messbare Funktion]] $$X\colon\Omega\to E$$ heißt //Zufallsvariable.//
 
-* Für $$\omega \in \Omega$$ heißt $$x=X(\omega)$$ eine //Realisierung// von $$X.$$
+!! Notation und Terminologie
+
 * Für $$B\in\mathcal E$$ schreiben wir $$\{X\in B\}$$ statt $$X^{-1}(B).$$
 * Wir schreiben $$\Bbb P(X\in B)$$ statt $$\Bbb P(\{X\in B\})$$ sowie $$\Bbb P(X\in A,X\in B)$$ für $$\Bbb P(\{X\in A\}\cap\{X\in B\}).$$
 * Ist $$X(\Omega)$$ höchstens abzählbar, so nennen wir $$X$$ //diskret.//

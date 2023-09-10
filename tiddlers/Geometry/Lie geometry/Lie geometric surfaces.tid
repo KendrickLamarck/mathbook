@@ -1,16 +1,20 @@
 caption: Surfaces
 created: 20191020202636460
-modified: 20200929125214614
+modified: 20191106223327125
+revision: 0
 tags: [[Lie geometry]]
 title: Lie geometric surfaces
-type: text/vnd.tiddlywiki
 
 A Lie geometric surface in $$\RP^3$$ is a two-parameter family of [[contact elements|Lie geometric contact element]]
+
 $$
 l(u_1,u_2)=\mathrm P(\R S_1(u_1,u_2)+\R S_2(u_1,u_2))
 $$
+
 satisfying
+
 $$
 \left\langle S_i,\frac{\partial S_j}{\partial u_k}\right\rangle=0,
 $$
+
 for any $$(i,j)\in\{(1,2),(2,1)\}$$ and both $$k\in\{1,2\}.$$

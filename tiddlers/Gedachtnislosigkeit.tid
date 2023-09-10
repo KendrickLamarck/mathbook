@@ -1,0 +1,25 @@
+created: 20190505124107256
+modified: 20190708225253327
+revision: 0
+tags: [[Geometrische Verteilung]] Exponentialverteilung
+title: Gedächtnislosigkeit
+
+!! Diskret
+
+Sei $$T$$ [[geometrisch verteilt|Geometrische Verteilung]]. Dann gilt für $$k\ge 2$$
+
+$$
+\Bbb P(T\ge k-1+n \mid T\ge n)=\Bbb P(T\ge k)\qquad\forall n\in\Bbb N
+$$
+
+und wir sagen $$T$$ ist //gedächtnislos.// Ist umgekehrt $$T\colon\Omega\to\Bbb N$$ eine gedächtnislose [[Zufallsvariable]], so ist $$T$$ geometrisch verteilt.
+
+!! Stetig
+
+Sei $$T$$ [[exponentialverteilt|Exponentialverteilung]]. Dann gilt für $$s>0$$
+
+$$
+\Bbb P(T>s+t\mid T>t)=\Bbb P(T>s)\qquad\forall t>0.
+$$
+
+Ist umgekehrt $$T$$ eine nichtnegative [[Zufallsvariable]] mit dieser Eigenschaft und gilt $$\Bbb P(T>0)>0,$$ so ist $$T$$ exponentialverteilt.

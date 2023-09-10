@@ -1,12 +1,14 @@
 created: 20181030132859111
 creator: Leander
-modified: 20200929131337502
+modified: 20191008210024889
 modifier: Leander
+revision: 0
 tags: [[Spherical triangle]] no-toc
 title: Napier's rule
 type: text/vnd.tiddlywiki
 
 Consider a right-angled [[spherical triangle|Spherical triangle]] with $$\gamma=\frac \pi 2$$ and let $$\bar a=\frac \pi 2-a,\ \bar b=\frac \pi 2-b.$$ Then
+
 $$\begin{aligned}
 \cos c&=\sin\bar b\sin\bar a=\cot\alpha\cot\beta, \\
 \cos\beta&=\sin\alpha\sin\bar b=\cot c\cot\bar a, \\
@@ -14,4 +16,5 @@ $$\begin{aligned}
 \cos\bar b&=\sin\beta\sin c=\cot\bar a\cot\alpha, \\
 \cos\alpha&=\sin\bar a\sin\beta=\cot\bar b\cot c.
 \end{aligned}$$
+
 That is: "The cosine of any part is equal to the product of sines of opposite parts and to the product of cotangents of adjacent parts." (The "parts" are $$\bar a,\bar b,\alpha,c,\beta,$$ in this cyclic order.)

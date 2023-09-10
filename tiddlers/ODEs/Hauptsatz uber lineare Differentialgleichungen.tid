@@ -1,12 +1,13 @@
 created: 20180801133437762
 creator: Leander
-modified: 20201124154023894
+modified: 20191011221447888
 modifier: Leander
+revision: 0
 tags: [[Lineare Differentialgleichung]] no-toc
 title: Hauptsatz über lineare Differentialgleichungen
 type: text/vnd.tiddlywiki
 
-''Satz (Hauptsatz über lineare Differentialgleichungen).'' Sei $$n\coloneqq\dim V.$$ Für $$t_0\in J,\ \xi_0\in V$$ gilt:
+Sei $$n\coloneqq\dim V.$$ Für $$t_0\in J,\ \xi_0\in V$$ gilt:
 
 # <div>Das [[Anfangswertproblem|Lineare Differentialgleichung]]
 $$

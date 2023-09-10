@@ -1,19 +1,23 @@
 created: 20180416185039004
 creator: Leander
-modified: 20210303002003992
+modified: 20180709204455039
 modifier: Leander
+revision: 0
 tags: Metrik
 title: Supremumsmetrik
-type: text/vnd.tiddlywiki
 
 Seien $$(Y,d)$$ ein [[metrischer Raum|Metrischer Raum]] und $$X$$ eine beliebige Menge, beide $$\ne\varnothing$$. Sei
+
 $$
 \mathcal B(X,Y)\coloneqq\{\,f\colon X\to Y:f\text{ beschränkt}\,\}
 $$
+
 die Menge der beschränkten Funktionen von $$X$$ in $$Y$$. Dann definiert
+
 $$
 d^{\sup}(f,g)\coloneqq\sup_{x\in X}d(f(x),g(x))
 $$
+
 eine [[Metrik]] auf $$\mathcal B(X,Y)$$, die sogenannte //Supremumsmetrik//.
 
 ''Bemerkung:'' {{Isomorphe metrische Räume}}

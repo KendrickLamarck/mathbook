@@ -1,6 +1,7 @@
 caption: Extrapolation
 created: 20200221192031737
-modified: 20201209223529258
+modified: 20200302172530824
+revision: 0
 tags: Newton-Cotes-Formeln
 title: Numerische Integration durch Extrapolation
 type: text/vnd.tiddlywiki
@@ -16,14 +17,19 @@ Wir wollen eine Funktion $$f\colon[a,b]\to\R$$ integrieren. Dazu gehen wir wie f
 # Bilde die zugehörige Trapezsumme $$f_i\coloneqq T(h_i),\ i=0,\dots,m.$$
 
 # <div>Berechne das Interpolationspolynom in $$h^2$$
+
 $$
 P_{0,\dots,m}(h^2)=\tau_0+\tau_1 h^2 + \dots + \tau_m h^{2m},
 $$
+
 das die Interpolationsbedingungen
+
 $$
 P_{0,\dots,m}(h_i^2)=T(h_i),\qquad i=0,\dots,m
 $$
+
 erfüllt. Dazu wende das [[Verfahren von Neville-Aitken]] auf die Daten
+
 $$
 (x_i,f_i)=(h_i^2,T(h_i)),\qquad i=0,\dots,m
 $$
@@ -32,9 +38,11 @@ an und werte es bei $$h^2=0$$ aus.</div>
 
 !! Fehler
 
-Sei $$f\in\smooth^{2m+2}([a,b])$$ und seien $$h_0,\dots,h_m$$ vorgegebene Extrapolationsschrittweiten. Dann genügt der Fehler zwischen dem extrapolierten Wert und dem exakten Integral der Gleichung
+Sei $$f\in\mathcal C^{2m+2}([a,b])$$ und seien $$h_0,\dots,h_m$$ vorgegebene Extrapolationsschrittweiten. Dann genügt der Fehler zwischen dem extrapolierten Wert und dem exakten Integral der Gleichung
+
 $$
 P_{0,\dots,m}(0)-\int_a^b f(x) \,\d x =
 (b-a)h_0^2 \cdots h_m^2 \frac{\beta_{m+1}}{(2m+1)!}f^{(2m+2)}(\xi)
 $$
+
 für eine von $$m$$ abhängige Konstante $$\beta_{m+1}$$ und ein geeignet gewähltes $$\xi\in[a,b].$$ Der Fehler liegt also in $$\mathcal O(h_0^2\cdots h_m^2).$$

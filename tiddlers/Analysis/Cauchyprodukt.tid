@@ -1,17 +1,21 @@
 created: 20180226123005429
 creator: Leander
 list: 
-modified: 20200920144514231
+modified: 20191011212213804
 modifier: Leander
+revision: 0
 tags: Reihe
 title: Cauchyprodukt
 type: text/vnd.tiddlywiki
 
 Seien $$\sum_{k=0}^\infty a_k$$ und $$\sum_{l=0}^\infty b_l$$ konvergente [[Reihen|Reihe]] und mindestens eine der beiden [[absolut konvergent|Absolute Konvergenz]]. Setze
+
 $$
 c_m \coloneqq \sum_{k=0}^m a_k b_{m-k}.
 $$
+
 Dann ist die Reihe $$\sum_{m=0}^\infty c_m$$ konvergent und für die Summen gilt
+
 $$
-\biggl(\sum_{k=0}^\infty a_k\biggr) \biggl(\sum_{l=0}^\infty b_l\biggr) = \sum_{m=0}^\infty c_m.
+\left(\sum_{k=0}^\infty a_k\right) \left(\sum_{l=0}^\infty b_l\right) = \sum_{m=0}^\infty c_m.
 $$

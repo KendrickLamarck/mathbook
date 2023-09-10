@@ -1,29 +1,23 @@
 caption: Divergenz
 created: 20190408225036837
-modified: 20200713194208013
+modified: 20200314174030526
+revision: 0
 tags: [[Linearer Differentialoperator]]
 title: Divergenz (Differentialoperator)
 type: text/vnd.tiddlywiki
 
-Sei $$F=(F_1,\dots,F_d)\colon U\to\Bbb R^d$$ mit $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] ein $$\mathcal C^1$$-[[Vektorfeld|Vector field]]. Dann definieren wir die //Divergenz// als
+{{KaTeX macros}}
+
+Sei $$F=(F_1,\dots,F_d)\colon U\to\Bbb R^d$$ mit $$U\subseteq\Bbb R^d$$ [[offen|Offenheit]] ein $$\mathcal C^1$$-[[Vektorfeld]]. Dann definieren wir die //Divergenz// als
+
 $$
-\tr F' = \sum_{i=1}^d\fracpartial{F_i}{x_i}
+
+\sum_{i=1}^d\fracpartial{F_i}{x_i}
 \eqqcolon\operatorname{div} F
 \colon U\to\R.
 $$
+
 Symbolisch ist $$\operatorname{div} F=\langle (\partial_1,\dots,\partial_d),(F_1,\dots,F_d)\rangle.$$
 
-We can generalize this to [[Riemannian manifolds|Riemannian metric]] as follows: Let $$Y \in \Gamma(\T M)$$ be a vector field on a Riemannian manifold $$M$$ with [[Levi-Civita connection]] $$\nabla.$$ Then the //divergence// of $$Y$$ is defined as
-$$
-\divergence Y\colon M \to \R,\quad
-\divergence Y \coloneqq \tr (\nabla Y).
-$$
-
-Die Divergenz erfüllt (auch auf Mannigfaltigkeiten) die Produktregel
-$$
-\divergence(gF) = \lang \grad g,F\rang + g\divergence F.
-$$
-
 !! With differential forms
-
 {{Differential operators with the exterior derivative}}

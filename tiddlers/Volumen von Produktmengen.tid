@@ -1,13 +1,15 @@
 caption: Produktmengen
 created: 20190105022541837
 creator: Leander
-modified: 20210323113651446
+modified: 20191010152057475
 modifier: Leander
+revision: 0
 tags: Volumen no-toc
 title: Volumen von Produktmengen
 type: text/vnd.tiddlywiki
 
 Sei $$k\in\{1,\dots,d-1\}$$ und seien $$K_1\subseteq\Bbb R^k$$ und $$K_2\subseteq\Bbb R^{d-k}$$ [[kompakt|Kompaktheit]]. Dann gilt
+
 $$
 \operatorname{Vol}_d(K_1\times K_2)=\operatorname{Vol}_k(K_1)\cdot\operatorname{Vol}_{d-k}(K_2).
 $$

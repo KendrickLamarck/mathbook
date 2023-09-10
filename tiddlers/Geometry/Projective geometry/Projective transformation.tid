@@ -1,6 +1,7 @@
 created: 20181217142151332
 list: [[Projective linear group]] [[Projective orthogonal group]] [[Uniqueness of projective transformations]] [[Fundamental theorem of projective geometry]] [[Central projection]] [[Projective transformations between lines]] [[Dual central projection]] [[Projective involution]]
-modified: 20200929130008397
+modified: 20191109153931581
+revision: 0
 tags: [[Projective geometry]]
 title: Projective transformation
 type: text/vnd.tiddlywiki
@@ -13,8 +14,8 @@ Let $$V,W$$ be $$n+1$$-dimensional [[vector spaces|Vektorraum]] over a field $$\
 
 * In [[affine coordinates|Affine coordinates]] $$p_i=x_i/x_{n+1},\ q_i=y_i/y_{n+1}$$ the map is a so-called fractional linear transformation $$
 \frac
-{a_{i,1}p_1+\dots+a_{i,n}p_n+a_{i,n+1}}
-{a_{n+1,1}p_1+\dots+a_{n+1,n}p_n+a_{n+1,n+1}}.
+{a_{i,1}p_1+\dots+a_{i,n}p_n+a_{i,(n+1)}}
+{a_{(n+1),1}p_1+\dots+a_{(n+1),n}p_n+a_{(n+1),(n+1)}}.
 $$
 
 

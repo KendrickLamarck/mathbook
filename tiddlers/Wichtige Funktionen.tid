@@ -1,9 +1,9 @@
 created: 20180315152314445
-list: Identität Indikatorfunktion [[Halbstetigkeit der Indikatorfunktion]] Kronecker-Delta Exponentialfunktion [[Trigonometrische Funktionen]] Gamma-Funktion Beta-Funktion
-modified: 20200603134420486
+list: Exponentialfunktion Gamma-Funktion Identität Indikatorfunktion Kronecker-Delta Kurve [[Trigonometrische Funktionen]] [[Dirichlet energy]]
+modified: 20200308151843524
 revision: 0
-tags: misc
+tags: Analysis
 title: Wichtige Funktionen
 type: text/vnd.tiddlywiki
 
-{{||$:/_templates/tree}}
+<<list-links [tag{!!title}]>>

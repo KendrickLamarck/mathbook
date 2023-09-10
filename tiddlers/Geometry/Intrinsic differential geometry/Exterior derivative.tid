@@ -1,37 +1,39 @@
 created: 20191129163954910
-modified: 20210123160915363
+modified: 20200120221257431
+revision: 0
 tags: [[Differential form]]
 title: Exterior derivative
 type: text/vnd.tiddlywiki
 
-{{Antiderivation}}
-
 For any manifold $$M^m,$$ the [[differential map|Pushforward]] $$\d\colon\Omega^0 M\to\Omega^1 M$$ has a unique linear extension to an [[antiderivation|Antiderivation]] $$\d\colon\Omega^* M\to\Omega^* M$$ satisfying $$\d^2=\d\circ\d=0.$$ This antiderivation has degree 1 in the sense that it sends $$\Omega^k M$$ to $$\Omega^{k+1} M.$$ It is called the //exterior derivative.//
 
 * <div>In coordinates, the exterior derivative is given by
+
 $$
-\d\Bigl( \sum_I\omega_I \, \d x^I \Bigr)=
+\d\Bigl( \sum_I\omega_I \, \d x_I \Bigr)=
   \sum_I \sum_i \partial_i\omega_I\,
-  \d x^i \wedge \d x^{i_1} \wedge\dots\wedge \d x^{i_k}.
+  \d x_i\wedge\d x_{i_1} \wedge\dots\wedge \d x_{i_k}.
 $$</div>
 
 * <div>The [[pullback of forms|Pullback of differential forms]] under a map $$f\colon M^m\to N^n$$ commutes with the exterior derivative, i.e. for $$\omega\in\Omega^* N$$ we have
+
 $$
 \d(f^*\omega)=f^*(\d\omega).
 $$</div>
 
-@@.theorem
 ''Theorem.''
 Suppose $$\omega\in\Omega^k(M^m)$$ is a $$k$$-form and $$X_0,\dots,X_k$$ are $$k+1$$ vector fields. Then
+
 $$\begin{aligned}
-&(\d\omega)(X_0,\dots,X_k) \\
-=&\mkern{27mu}\sum_{0 \le i \le k} (-1)^i
-  X_i(\omega(X_0,\dots,\cancel{X_i},\dots,X_k)) \\
-& +\sum_{0 \le i<j \le k} (-1)^{i+j}
-  \omega([X_i,X_j],X_0,\dots,\cancel{X_i},\dots,\cancel{X_j},\dots,X_k).
+&(\d\omega)(X_0,\dots,X_k) \\ =
+\phantom{+}&\kern{8mu}\sum_{0 \le i \le k} (-1)^i
+  X_i(\omega(X_0,\dots,\widehat X_i,\dots,X_k) \\ \phantom{=}+
+&\sum_{0 \le i<j \le k} (-1)^{i+j}
+  \omega([X_i,X_j],X_0,\dots,\widehat X_i,\dots,\widehat X_j,\dots,X_k)
 \end{aligned}$$
+
 In particular, if $$\omega$$ is a 1-form, we have
+
 $$
-(\d \omega)(X,Y) = X(\omega(Y)) - Y(\omega(X)) - \omega([X,Y]).
+\d \omega (X,Y) = X \omega(Y) - Y \omega(X) - \omega([X,Y]).
 $$
-@@

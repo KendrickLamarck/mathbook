@@ -1,12 +1,15 @@
 created: 20200323210144453
-modified: 20200920212140200
+modified: 20200401033457406
+revision: 0
 tags: Connection
 title: Connections on tensor bundles
 type: text/vnd.tiddlywiki
 
 Let $$V_1,\dots,V_n$$ and $$W$$ be vector bundles with connections $$\nabla^1,\dots,\nabla^n$$ and $$\nabla$$ on a manifold $$M.$$ For a section $$T$$ of $$V_1^* \otimes\dots\otimes V_n^* \otimes W \cong \hom_n(V_1,\dots,V_n;W)$$ and sections $$Y_i$$ of $$V_i,$$ the formula
+
 $$
 (\hat\nabla_X T)(Y_1,\dots,Y_n) \coloneqq
 \nabla_X(T(Y_1,\dots,Y_n))-\sum_i T(Y_1,\dots,\nabla^i_X Y_i,\dots,Y_n)
 $$
+
 defines a connection $$\hat\nabla$$ on the tensor bundle $$V_1^* \otimes\dots\otimes V_n^* \otimes W.$$

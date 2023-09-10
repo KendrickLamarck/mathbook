@@ -1,8 +1,9 @@
 created: 20190115162908788
 creator: Leander
 list: [[Eindeutigkeit von Dichten]] [[Integrierbarkeit und Dichten]] [[Satz von Radon-Nikodym]] Cauchy-Verteilung [[Stetige Dichte]] Normalverteilung
-modified: 20220108171759421
+modified: 20191201155950426
 modifier: Leander
+revision: 0
 tags: Lebesgue-Integral Maß
 title: Dichte
 type: text/vnd.tiddlywiki
@@ -15,18 +16,11 @@ $$
 
 für alle $$A\in\mathcal F$$ gilt. Wir schreiben dann auch $$\varphi=\frac{\mathrm d\nu}{\d\mu}$$ und $$\nu=\varphi\,\d\mu.$$
 
-* Es gilt automatisch $$\nu \ll \mu.$$
-* {{Eindeutigkeit von Dichten}}
-
-@@.theorem
-''Satz (Radon-Nikdoym).''
-{{Satz von Radon-Nikodym}}
-@@
-
 !! Integrierbarkeit
-
 {{Integrierbarkeit und Dichten}}
-
+!! Eindeutigkeit
+{{Eindeutigkeit von Dichten}}
+!! Satz von Radon-Nikodym
+{{Satz von Radon-Nikodym}}
 !! Stetige Dichten
-
 {{Stetige Dichte}}

@@ -1,8 +1,8 @@
 caption: Algorithmen
 created: 20180626202055083
 creator: Leander
-list: Sprache Berechnungsproblem [[Sprachen und Entscheidungsprobleme]] Turingmaschine [[Laufzeit und Speicherplatz von Turingmaschinen]] [[Nichtdeterministische Turingmaschine]] Berechenbarkeit [[Greedy-Algorithmus und Matroide]] Graphendurchmusterung Ford-Algorithmus [[Algorithmus von Dijkstra]] Huffman-Algorithmus [[Optimale statische Suchbäume]] [[Prims Algorithmus]] [[Kruskals Algorithmus]] Insertion-Sort Selection-Sort
-modified: 20200530152217601
+list: Sprache Berechnungsproblem [[Sprachen und Entscheidungsprobleme]] Turingmaschine Berechenbarkeit [[Greedy-Algorithmus und Matroide]] Graphendurchmusterung Ford-Algorithmus [[Algorithmus von Dijkstra]] Huffman-Algorithmus [[Optimale statische Suchbäume]] [[Prims Algorithmus]] [[Kruskals Algorithmus]] Insertion-Sort Selection-Sort
+modified: 20181009144336210
 modifier: Leander
 revision: 0
 tags: Mathematics

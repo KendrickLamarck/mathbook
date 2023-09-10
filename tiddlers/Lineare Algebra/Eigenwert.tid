@@ -2,16 +2,19 @@ caption: Eigenwerte
 created: 20180420190156869
 creator: Leander
 list: Eigenraum [[Charakteristisches Polynom]] [[Lineare Unabhängigkeit von Eigenvektoren]] Diagonalisierung [[Vielfachheit von Eigenwerten]] [[Eigenwerte symmetrischer Matrizen]] [[Eigenwerte selbstadjungierter Endomorphismen]]
-modified: 20201124151820474
+modified: 20191004225728729
 modifier: Leander
+revision: 0
 tags: Endomorphismus
 title: Eigenwert
 type: text/vnd.tiddlywiki
 
 Sei $$F$$ ein [[Endomorphismus]] des $$K$$-[[Vektorraums|Vektorraum]] $$V$$. Ein $$\lambda\in K$$ heißt //Eigenwert// von $$F,$$ wenn es ein $$v\in V$$ mit $$v\ne 0$$ gibt, so dass gilt
+
 $$
 F(v)=\lambda v.
 $$
+
 Jedes vom Nullvektor verschiedene $$v\in V$$ mit $$F(v)=\lambda v$$ heißt //Eigenvektor// von $$F$$ (zum Eigenwert $$\lambda$$).
 
 Ein $$\lambda\in K$$ ist genau dann ein Eigenwert von $$F$$, wenn $$\det(F-\lambda\operatorname{id}_V)=0$$ ist, siehe auch [[Charakteristisches Polynom]].

@@ -1,10 +1,12 @@
 created: 20200222181926404
-modified: 20201209223252887
+modified: 20200229165544418
+revision: 0
 tags: LR-Zerlegung
 title: Komponentenweiser Betrag bei Matrizen
 type: text/vnd.tiddlywiki
 
 Definieren wir $$|A|$$ und $$A\le B$$ für $$A,B\in\C^{m\times n}$$ komponentenweise, so gilt
+
 $$
 |A+B|\le|A|+|B|,\qquad |AB|\le |A|\cdot|B|.
 $$

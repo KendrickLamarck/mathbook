@@ -1,20 +1,26 @@
 created: 20180124194950942
 creator: Leander
-modified: 20200929131553732
+modified: 20180725162002712
 modifier: Leander
+revision: 0
 tags: [[Trigonometrische Funktionen]]
 title: Tangens und Cotangens
 type: text/vnd.tiddlywiki
 
 Wir definieren //Tangens// und //Cotangens// als
+
 $$
 \tan x \coloneqq \frac{\sin x}{\cos x},\quad x\neq\left(k+\frac{1}{2}\right)\pi,\,k\in\mathbb{Z}
 $$
+
 und
+
 $$
 \cot x \coloneqq \frac{\cos x}{\sin x},\quad x\neq k\pi,\,k\in\mathbb{Z}.
 $$
+
 Diese Funktionen sind $$\pi$$-periodisch und [[differenzierbar|Ableitung]]. Für die Ableitung des Tangens gilt
+
 $$
 \tan' x = 1+\tan^2 x = \frac{1}{\cos^2 x}.
 $$

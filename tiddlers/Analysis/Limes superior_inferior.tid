@@ -1,8 +1,9 @@
 created: 20171123181539135
 creator: Leander
 list: 
-modified: 20210109171408577
+modified: 20191011210213466
 modifier: Leander
+revision: 0
 tags: Folge
 title: Limes superior/inferior
 type: text/vnd.tiddlywiki
@@ -22,21 +23,25 @@ Im ersten Fall setzen wir
 $$
 \limsup_{n\to\infty} x_n \coloneqq +\infty.
 $$
+
 Im zweiten Fall definieren wir den Limes superior durch
 $$
 \limsup_{n\to\infty} x_n = \overline{\lim}\,x_n \coloneqq \lim s_n = \lim_{n\to\infty} \sup\{\,x_k \mid k \geq n\,\} \in \mathbb{R} \cup \{\,-\infty\,\}.
 $$
+
 Also existiert $$\limsup x_n \in \mathbb{R} \cup \{\,+\infty,-\infty\,\}$$ für jede reelle Folge $$(x_n)$$. Entsprechend definiert man
 $$
 \liminf_{n\to\infty} x_n = \underline{\lim}\,x_n \coloneqq \lim_{n\to\infty} \inf\{\,x_k \mid k \geq n\,\}.
 $$
 
-@@.theorem
-''Satz.'' {{Limes superior/inferior und Folgen}}
-@@
+!! Anschauung
 
 Anschaulich geben Limes superior und Limes inferior einen Schlauch an, so dass für jedes $$\epsilon>0$$ fast alle Folgenglieder einer Folge $$(a_n)$$ im offenen Intervall 
 $$
 \left]\liminf a_n-\epsilon,\limsup a_n+\epsilon\right[
 $$
 liegen. Damit folgt intuitiv auch der [[Satz zu Folgen|Limes superior/inferior und Folgen]], denn dann ist dieser schlauch "kleiner" als beliebiges $$\epsilon>0$$, Die Limiten konvergieren also gegen den Grenzwert.
+
+!! Häufungspunkte und Konvergenz
+
+{{Limes superior/inferior und Folgen}}

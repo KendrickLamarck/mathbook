@@ -1,12 +1,13 @@
 created: 20190116093631468
 creator: Leander
-modified: 20200929130051632
+modified: 20191116145513249
 modifier: Leander
+revision: 0
 tags: [[Projective geometry]] no-toc
 title: Theorem on the complete quadrilateral
-type: text/vnd.tiddlywiki
 
 Let $$A,B,C,D\in\Bbb R\mathrm P^2$$ be four points in [[general position|General position (projective space)]], let $$P=AB\cap CD,$$ $$Q=AD\cap BC,$$ $$\ell=PQ,$$ $$X=\ell\cap BD,$$ $$Y=\ell\cap AC.$$ Then the pair of points $$\{P,Q\}$$ on $$\ell$$ separates the pair $$\{X,Y\}$$ [[harmonically|Harmonic position]], i.e.
+
 $$
 \crossratio(P,X,Q,Y)=-1.
 $$

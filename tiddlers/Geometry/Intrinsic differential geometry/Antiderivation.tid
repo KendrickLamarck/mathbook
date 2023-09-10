@@ -1,9 +1,8 @@
 created: 20191129165327262
-modified: 20200601182307667
+modified: 20191129165602890
 revision: 0
-tags: [[Differential form]] no-toc
+tags: [[Graded algebra]]
 title: Antiderivation
-type: text/vnd.tiddlywiki
 
 An //antiderivation// on the [[graded algebra|Graded algebra]] $$(\Omega^* M,\wedge)$$ is a linear map $$D\colon \Omega^* M \to \Omega^* M$$ satisfying the following version of the Leibniz product rule for $$\omega\in\Omega^k M$$ and $$\eta\in\Omega^l M$$:
 

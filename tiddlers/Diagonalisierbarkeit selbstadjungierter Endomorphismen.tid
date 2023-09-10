@@ -1,0 +1,43 @@
+caption: Diagonalisierbarkeit
+created: 20180626182149565
+creator: Leander
+modified: 20200223185638749
+modifier: Leander
+revision: 0
+tags: [[Selbstadjungierter Endomorphismus]] no-toc
+title: Diagonalisierbarkeit selbstadjungierter Endomorphismen
+type: text/vnd.tiddlywiki
+
+Ist $$F$$ ein [[selbstadjungierter|Selbstadjungierter Endomorphismus]] [[Endomorphismus]] eines [[euklidischen|Euklidischer Vektorraum]] bzw. [[unitären|Unitärer Vektorraum]] [[Vektorraums|Vektorraum]], so gibt es eine [[Orthonormalbasis]] von $$V,$$ die aus [[Eigenvektoren|Eigenwert]] von $$F$$ besteht.
+
+Anschaulich gesprochen: Ein selbstadjungierter Endomorphismus ist bis auf eine orthogonale Transformation nur eine Achsenskalierung.
+
+''Korollar 1.''
+Ist $$A\in \mathbb K^{n\times n}$$ eine [[symmetrische|Symmetrische Matrix]] bzw. [[Hermite'sche|Hermite'sche Matrix]] [[Matrix]], so gibt es eine [[orthogonale|Orthogonale/unitäre Matrix]] bzw. unitäre Matrix $$S,$$ so dass
+
+$$
+\bar S^\mathrm T AS=
+\begin{pmatrix}
+\lambda_1 &                     & 0                      \\[3mu]
+          & \mkern{-15mu}\ddots                          \\[-5mu]
+0         &                     & \mkern{-15mu}\lambda_n
+\end{pmatrix}.
+$$
+
+''Korollar 2.''
+Sind $$\lambda_1,\dots,\lambda_k$$ die verschiedenen Eigenwerte eines selbstadjungierten oder unitären Endomorphismus $$F$$ von $$V,$$ so ist
+
+$$
+V=\Eig(F;\lambda_1)\operp\dots\operp\Eig(F;\lambda_n).
+$$
+
+!!! Algorithmus
+
+Um eine Orthonormalbasis aus Eigenvektoren zu finden, geht man folgendermaßen vor:
+
+# Man bestimme die Linearfaktorzerlegung des [[charakteristischen Polynoms|Charakteristisches Polynom]]$$
+P_F=\pm(t-\lambda_1)^{r_1}\cdots(t-\lambda_k)^{r_k},
+$$wobei $$\lambda_1,\dots,\lambda_k$$ paarweise verschieden sind.
+# Für jeden Eigenwert $$\lambda$$ der [[Vielfachheit|Vielfachheit von Eigenwerten]] $$r$$ bestimme man eine Basis von $$\operatorname{Eig}(F;\lambda)$$ durch Lösen eines [[linearen Gleichungssystems|Lineares Gleichungssystem]].
+# Man [[orthonormalisiere|Orthonormalisierungssatz]] die in 2. erhaltenen Basen unabhängig voneinander.
+# Die $$k$$ Basen der [[Eigenräume|Eigenraum]] aus 3. bilden zusammen die gesuchte Basis aus Eigenvektoren von $$V.$$

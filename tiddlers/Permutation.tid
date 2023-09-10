@@ -1,20 +1,20 @@
 created: 20180406133931829
 creator: Leander
 list: [[Transposition (Permutation)]] [[Determinante und Permutationen]] Fehlstand [[Signum (Permutation)]] [[Symmetrische Gruppe]]
-modified: 20210118213534805
+modified: 20191122194446710
 modifier: Leander
+revision: 0
 tags: Kombinatorik
 title: Permutation
 type: text/vnd.tiddlywiki
 
-Eine [[bijektive|Bijektivität]] Abbildung $$\{1,\ldots,n\}\to\{1,\ldots,n\}$$, also ein Element $$\sigma$$ der [[Permutationsgruppe|Symmetrische Gruppe]] $$S_n,$$ heißt //Permutation//.
+Eine [[bijektive|Bijektivität]] Abbildung $$\{1,\ldots,n\}\to\{1,\ldots,n\}$$, also ein Element $$\sigma$$ der [[Permutationsgruppe|Symmetrische Gruppe]] $$S_n$$ heißt //Permutation//.
 
 Die Gruppe $$S_n$$ enthält $$n!$$ Elemente. Die Gruppe ist für $$n\ge 3$$ nicht abelsch, $$S_1$$ und $$S_2$$ hingegen sind es.
 
-@@.theorem
 ''Lemma.''
 Ist $$n\ge 2$$, so gibt es zu jedem $$\sigma\in S_n$$ (nicht eindeutig bestimmte) [[Transpositionen|Transposition (Permutation)]] $$\tau_1,\ldots,\tau_k$$ mit
+
 $$
 \sigma=\tau_1\cdots\tau_k.
 $$
-@@

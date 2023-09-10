@@ -1,11 +1,13 @@
 caption: Area
 created: 20190216141628978
-modified: 20210314153847873
+modified: 20191008204041599
+revision: 0
 tags: no-toc [[Hyperbolic triangle]]
 title: Area of hyperbolic triangles
 type: text/vnd.tiddlywiki
 
 The area of a hyperbolic triangle with interior angles $$\alpha,\beta,\gamma$$ is
+
 $$
 \pi-(\alpha+\beta+\gamma).
 $$

@@ -1,0 +1,16 @@
+created: 20180702151232014
+creator: Leander
+modified: 20191004235239355
+modifier: Leander
+revision: 0
+tags: [[Math notation]]
+title: Offene Teilmenge
+type: text/vnd.tiddlywiki
+
+$$
+\supseteq\kern-12mu\raisebox1.5mu{$\circ$}
+$$
+
+$$
+\subseteq\kern-12mu\raisebox1.5mu{$\circ$}
+$$

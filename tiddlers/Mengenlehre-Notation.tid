@@ -1,6 +1,6 @@
 created: 20171031162123950
 creator: Leander
-modified: 20200702213931132
+modified: 20191229220532401
 modifier: Leander
 revision: 0
 tags: Mengenlehre
@@ -29,9 +29,9 @@ type: text/vnd.tiddlywiki
 :Intersection of $$A$$ and $$B$$
 
 ;$$A \setminus B \coloneqq \{\,x : x \in A \land x \notin B\,\}$$
-: $$A$$ ohne $$B$$, Komplement von $$B$$
+: $$A$$ ohne $$B$$, Komplement von $$A$$
 
-; $$A^\comp$$
+; $$A^C$$
 : Komplement von $$A$$, falls die Obermenge bekannt ist.
 
 ;$$A\sd B\coloneqq(A\setminus B)\cup(B\setminus A)$$

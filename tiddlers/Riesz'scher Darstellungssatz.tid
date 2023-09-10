@@ -1,13 +1,15 @@
 created: 20190122140847415
 creator: Leander
-modified: 20210302192250224
+modified: 20190122141223067
 modifier: Leander
+revision: 0
 tags: Hilbertraum
 title: Riesz'scher Darstellungssatz
-type: text/vnd.tiddlywiki
 
 Zu jeder [[stetigen|Stetigkeit linearer Abbildungen]] [[linearen Abbildung|Lineare Abbildung]] $$F\colon H\to\Bbb R$$ auf einem reellen [[Hilbertraum]] $$H$$ existiert ein $$h\in H$$ mit
+
 $$
 F(f)=\langle f,h\rangle
 $$
+
 für jedes $$f\in H.$$

@@ -1,17 +1,21 @@
 caption: Darstellende Matrix
 created: 20180528194613474
 creator: Leander
-modified: 20210314150226370
+modified: 20191003204815478
 modifier: Leander
+revision: 0
 tags: Bilinearform
 title: Darstellende Matrix (Bilinearformen)
 type: text/vnd.tiddlywiki
 
 Sei $$s$$ eine [[Bilinearform]] auf einem [[endlich-dimensionalen|Dimension]] $$K$$-[[Vektorraum]] $$V$$, Mit [[Basis]] $$\mathcal B=(v_1,\ldots,v_n)$$ und $$\Phi_\mathcal B$$ das dazugehörigen [[Koordinatensystem]]. Wir betrachten die [[Matrix]]
+
 $$
 A=M_\mathcal B(s)\coloneqq(s(v_i,v_j))_{ij}\in K^{n\times n}.
 $$
+
 und für $$v,w\in V$$ die Koordinaten $$x=\Phi_\mathcal B^{-1}(v)$$ und $$y=\Phi_\mathcal B^{-1}(w)$$. Dann ist
+
 $$
 s(v,w)=x^\mathrm T A y.
 $$
@@ -19,9 +23,11 @@ $$
 !! Eindeutigkeit
 
 Seien $$A,B\in K^{n\times n}$$, so dass
+
 $$
 x^\mathrm T A y=x^\mathrm T B y
 $$
+
 für alle $$x,y\in K^n$$. Dann ist $$A=B$$.
 
 ---

@@ -1,17 +1,21 @@
 created: 20180108173422179
 creator: Leander
 list: Einheitskreis [[Eigenschaften der trigonometrischen Funktionen]] Arcus-Funktionen [[Tangens und Cotangens]] Kreiszahl [[Werte von Sinus und Cosinus]]
-modified: 20200920214131362
+modified: 20191011163709366
 modifier: Leander
+revision: 0
 tags: [[Wichtige Funktionen]] [[Euclidean geometry]]
 title: Trigonometrische Funktionen
 type: text/vnd.tiddlywiki
 
 Es gibt genau eine zweimal [[differenzierbare|Ableitung in R]] Funktion $$y\colon\mathbb{R} \to \mathbb{R}$$ mit 
+
 $$
 y''+y=0, \qquad y(0)=0, \qquad y'(0)=1.
 $$
+
 Diese Funktion heißt //Sinus//, ihre [[Ableitung]] //Cosinus//. Sie werden bezeichnet als:
+
 $$\sin\colon\mathbb{R} \to \mathbb{R},\quad 
 \cos\colon\mathbb{R} \to \mathbb{R}.$$
 

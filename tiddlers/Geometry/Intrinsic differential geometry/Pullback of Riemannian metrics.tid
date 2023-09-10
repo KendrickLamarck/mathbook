@@ -1,11 +1,14 @@
 created: 20191123205425343
-modified: 20200920215642030
+modified: 20200414161904340
+revision: 0
 tags: [[Riemannian metric]] no-toc Pullback
 title: Pullback of Riemannian metrics
 type: text/vnd.tiddlywiki
 
 If $$f\colon M^m\to N^n$$ is a smooth map, we can pull back sections of $$\mathrm Q(\T N)$$ to sections of $$\mathrm Q(\T M)$$ in the natural way:
+
 $$
 (f^* g)(X_p,Y_p)\coloneqq g(f_* X_p, f_* Y_p).
 $$
+
 $$f^* g$$ is a [[Riemannian metric]] if and only if $$f$$ is an [[immersion|Immersion und Submersion]].

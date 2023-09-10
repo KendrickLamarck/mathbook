@@ -1,6 +1,6 @@
 created: 20180708145416010
 creator: Leander
-modified: 20200530152333934
+modified: 20191011222751692
 modifier: Leander
 revision: 0
 tags: Algorithmus
@@ -23,10 +23,5 @@ Eine //deterministische Turingmaschine (DTM)// ist gegeben durch:
 * Terminiert die DTM in einem Zustand $$q\in F,$$ so //akzeptiert// sie den Input.
 * Anfangs zeigt der Kopf auf das erste Zeichen des //Inputs//.
 
-!! Rechenzeit und Speicherplatz
-
-{{Laufzeit und Speicherplatz von Turingmaschinen}}
-
 !! Nichtdeterministische Turingmaschine
-
 {{Nichtdeterministische Turingmaschine}}

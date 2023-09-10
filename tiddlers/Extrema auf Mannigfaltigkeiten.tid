@@ -1,23 +1,27 @@
 created: 20190331224112580
-creator: Leander
 list: [[Extrema unter Nebenbedingungen]] Lagrange-Multiplikatoren
-modified: 20201127210004041
-modifier: Leander
-tags: [[Extrinsic differential geometry]] Extremwerte
+modified: 20191228154622009
+revision: 0
+tags: [[Untermannigfaltigkeiten des Rn]] Extremwerte
 title: Extrema auf Mannigfaltigkeiten
 type: text/vnd.tiddlywiki
 
-Seien $$G\subset V$$ [[offen|Offenheit]] und $$M\subset G$$ eine [[Mannigfaltigkeit|Untermannigfaltigkeit]]. Sei $$f\colon G\to\R$$ eine [[differenzierbare|Ableitung]] Funktion. Wir suchen [[lokale Extrema|Extremwerte]] der Funktion $$f|_M.$$ Sei $$p\in M$$ und $$\phi\colon U\to\R^n$$ ein Koordinatensystem dazu wie in der Mannigfaltigkeitsdefinition mit $$\phi(p)=0.$$ Eine notwendige Bedingung dafür, dass $$f|_M$$ in $$p$$ ein lokales Extremum hat ist dann
+Seien $$G\subset V$$ [[offen|Offenheit]] und $$M\subset G$$ eine [[Mannigfaltigkeit|Untermannigfaltigkeit]]. Sei $$f\colon G\to\Bbb R$$ eine [[differenzierbare|Ableitung]] Funktion. Wir suchen [[lokale Extrema|Extremwerte]] der Funktion $$f|_M.$$ Sei $$p\in M$$ und $$\phi\colon U\to\Bbb R^d$$ ein Koordinatensystem dazu wie in der Mannigfaltigkeitsdefinition mit $$\phi(p)=0.$$ Eine notwendige Bedingung dafür, dass $$f|_M$$ in $$p$$ ein lokales Extremum hat ist dann
+
 $$
-\mathrm D_p f(\T_p M)=\{0\}.
+\mathrm D_p f(\mathrm T_p M)=\{0\}.
 $$
+
 Ist $$M=g^{-1}(\{q\})$$ [[gleichungsdefiniert|Gleichungsdefinierte Mannigfaltigkeiten]], so bedeutet das, dass
+
 $$
-\ker\D_p g \subseteq \ker\D_p f.
+\ker\mathrm D_p g\subseteq\ker\mathrm D_p f.
 $$
 
 !! Extrema unter Nebenbedingungen
 
-{{Lagrange-Multiplikatoren}}
-
 {{Extrema unter Nebenbedingungen}}
+
+!! Lagrange-Multiplikatoren
+
+{{Lagrange-Multiplikatoren}}

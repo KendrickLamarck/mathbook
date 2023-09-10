@@ -1,12 +1,15 @@
 created: 20190216193430990
-modified: 20200929130643528
+modified: 20191013010555792
+revision: 0
 tags: [[Hyperbolic geometry]]
 title: Hemisphere model
 type: text/vnd.tiddlywiki
 
 The map
+
 $$
 \begin{pmatrix} x_1\\x_2\\x_3 \end{pmatrix}\mapsto
 \frac 1 {x_3}\begin{pmatrix} x_1\\x_2\\-1 \end{pmatrix}
 $$
+
 maps $$H^2$$ to the lower [[hemisphere|Hemisphere]] of $$S^2.$$ Replacing the $$-1$$ with a $$1$$ gives a map to the upper hemisphere. These models are conformal and circles, horocycles, lines and hypercycles are represented by (parts of) circles in $$S^2.$$

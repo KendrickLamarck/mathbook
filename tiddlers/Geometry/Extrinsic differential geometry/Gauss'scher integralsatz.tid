@@ -1,0 +1,13 @@
+created: 20190212161716577
+modified: 20191228153344611
+revision: 0
+tags: [[Integrale über Untermannigfaltigkeiten des Rn]]
+title: Gauß'scher integralsatz
+type: text/vnd.tiddlywiki
+
+Sei $$A\subseteq\Bbb R^d$$ ein [[Kompaktum mit glattem Rand]], $$\nu\colon\partial A\to\Bbb R^d$$ das [[äußere Einheits-Normalenfeld|Normalenvektor]] und $$U\subseteq\Bbb R^d$$ eine [[offene|Offenheit]] und [[beschränkte|Beschränktheit in R]] Menge, die $$A$$ enthält. Dann gilt für jedes $$\mathcal C^1$$-[[Vektorfeld]] $$F\colon U\to\Bbb R^d$$:
+
+$$
+\int_A \operatorname{div} F(x)\,\mathrm d^d x=
+\int_{\partial A} \langle F(x),\nu(x)\rangle\,\Bbb S(\mathrm dx).
+$$

@@ -1,19 +1,25 @@
 created: 20180601212429689
 creator: Leander
-modified: 20210314150553422
+modified: 20191003195139480
 modifier: Leander
+revision: 0
 tags: Sesquilinearform
 title: Hermite'sche Form
 type: text/vnd.tiddlywiki
 
 Eine [[Sesquilinearform]] $$s$$ heißt //Hermite'sch//, wenn gilt:
+
 $$
 s(v,w)=\overline{s(w,v)}.
 $$
+
 Sie ist genau dann [[Hermite'sch|Hermite'sche Form]], wenn ihre [[darstellende Matrix|Darstellende Matrix (Sesquilinearformen)]] $$A\coloneqq M_\mathcal A(s)$$ Hermite'sch ist, d.h.
+
 $$
-A^\transp=\overbar{4}{-2}{A}.
+A^\mathrm T=\bar A.
 $$
+
+---
 
 !! Normalform
 

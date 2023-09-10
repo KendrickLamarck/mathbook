@@ -1,0 +1,14 @@
+created: 20180517201627645
+creator: Leander
+modified: 20180707124046943
+modifier: Leander
+revision: 0
+tags: Zahlentheorie
+title: Größter gemeinsamer Teiler
+
+Seien $$a,b\in\mathbb Z\setminus\{0\}.$$ Eine positive ganze Zahl $$m$$ heißt //größter gemeinsamer Teiler (ggT)// von $$a$$ und $$b$$, wenn gilt:
+
+# $$m$$ teilt $$a$$ und $$b$$
+# Jede Zahl $$\tilde m\in\mathbb Z\setminus\{0\}$$ die $$a$$ und $$b$$ teilt, teilt auch $$m$$.
+
+Die Zahl $$m$$ ist dann auch die größte Zahl, die $$a$$ und $$b$$ teilt, ist also insbesondere eindeutig bestimmt.

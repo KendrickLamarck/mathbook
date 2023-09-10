@@ -1,16 +1,16 @@
 created: 20190616003927179
-modified: 20200821104543411
-tags: Erwartungswert
+modified: 20190709202043395
+revision: 0
+tags: Erwartungswert Normalverteilung
 title: Zentraler Grenzwertsatz
-type: text/vnd.tiddlywiki
 
-Sei $$(X_n)$$ eine Folge [[unabhängig|Stochastische Unabhängigkeit]] identisch [[verteilter|Verteilung]] [[Zufallsvariablen|Zufallsvariable]] mit $$0<\sigma^2\coloneqq \Var(X_1)<\infty.$$ Weiter sei $$m\coloneqq\expect(X_1)$$ und $$S_n\coloneqq X_1+\dots+X_n.$$ Dann gilt für alle $$x\in\Bbb R$$:
+Sei $$(X_n)$$ eine Folge [[unabhängig|Stochastische Unabhängigkeit]] identisch [[verteilter|Verteilung]] [[Zufallsvariablen|Zufallsvariable]] mit $$0<\sigma^2\coloneqq V(X_1)<\infty.$$ Weiter sei $$m\coloneqq\Bbb E(X_1)$$ und $$S_n\coloneqq X_1+\dots+X_n.$$ Dann gilt für alle $$x\in\Bbb R$$:
+
 $$
-\lim_{n\to\infty} \prob{\left(
-  \sqrt{\frac{n}{\sigma^2}}\left(
-    \frac{S_n}{n}-m
-  \right) \le x
-\right)} =
-\frac 1 {\sqrt{2\pi}} \int_{-\infty}^x e^{-\half y^2}\,\d y,
+\lim_{n\to\infty}\Bbb P\left(
+\sqrt{\frac{n}{\sigma^2}}\left(\frac{S_n}{n}-m\right)\le x
+\right)=
+\frac 1 {\sqrt{2\pi}} \int_{-\infty}^x e^{-\frac{y^2}{2}}\,\mathrm dy,
 $$
+
 d.h. $$S_n^*\coloneqq\sqrt{\frac{n}{\sigma^2}}\left(\frac{S_n}{n}-m\right)$$ [[konvergiert in Verteilung|Konvergenz in Verteilung]] gegen die [[Standardnormalverteilung|Normalverteilung]].

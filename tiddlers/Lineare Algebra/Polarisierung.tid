@@ -1,16 +1,20 @@
 created: 20180601211953882
 creator: Leander
-modified: 20210126134427143
+modified: 20191003194620608
 modifier: Leander
+revision: 0
 tags: no-toc [[Quadratische Form]]
 title: Polarisierung
 type: text/vnd.tiddlywiki
 
 Ist $$\operatorname{char}K\ne 2,$$ so gilt für jede [[symmetrische|Symmetrische Form]] [[Bilinearform]] $$s$$ und die dazugehörige [[quadratische Form|Quadratische Form]] $$q$$ auf $$V$$
+
 $$
 s(v,w)=\frac{1}{2}(q(v+w)-q(v)-q(w)).
 $$
+
 Für eine [[Hermite'sche Sesquilinearform|Hermite'sche Form]] und ihre quadratische Form gilt dagegen
+
 $$
 s(v,w)=\frac14(q(v+w)-q(v-w)+iq(v+iw)-iq(v-iw)).
 $$

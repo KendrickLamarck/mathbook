@@ -1,13 +1,16 @@
 created: 20180626174752740
 creator: Leander
-modified: 20210314150035865
+modified: 20191004201417624
 modifier: Leander
+revision: 0
 tags: no-toc [[Adjungierte Abbildung]]
 title: Adjungierter Endomorphismus
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein [[euklidischer|Euklidischer Vektorraum]]/[[unitärer|Unitärer Vektorraum]] [[Vektorraum]]. Zu $$F\in\operatorname{End}(V)$$ gibt es genau einen //adjungierten Endomorphismus// $$F^*$$ oder $$F^\mathrm{ad}$$, so dass für alle $$v,w\in V$$ gilt:
+
 $$
 \langle F(v),w\rangle=\langle v,F^*(w)\rangle.
 $$
+
 Ist $$A$$ die darstellende Matrix von $$F,$$ so ist $$\bar A^\mathrm T$$ die darstellende Matrix von $$F^*.$$

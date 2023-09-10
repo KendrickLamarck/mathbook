@@ -1,19 +1,22 @@
 created: 20200127225524137
-modified: 20200920211742685
+modified: 20200401050704947
+revision: 0
 tags: [[Riemannian curvature]]
 title: Sectional curvature
 type: text/vnd.tiddlywiki
 
 Let $$M$$ be a Riemannian manifold and let $$X,Y$$ be an orthonormal basis of a plane $$\varPi\subseteq\T_p M.$$ We define the //sectional curvature// of $$\varPi$$ as
+
 $$
-K(\varPi\,)\coloneqq S(X\wedge Y, X\wedge Y) = R(X,Y,Y,X).
+K(\varPi)\coloneqq S(X\wedge Y, X\wedge Y) = R(X,Y,Y,X).
 $$
+
 For an arbitrary, not necessarily orthonormal basis $$X,Y$$ of $$\varPi$$ it is given by
+
 $$
-K(\varPi\,) = \frac
+K(\varPi) = \frac
 { S(X\wedge Y, X\wedge Y) }
 { \lang X \wedge Y, X \wedge Y \rang }.
 $$
-The sectional curvatures of the two-planes in $$\T_p M$$ completely determine the [[Riemannian curvature]] operator/tensor at $$p\in M.$$
 
-The sectional curvature is the [[Gauss curvature]] of the "flattest" surface $$N \subset M$$ with $$\T_p N = \varPi,$$ the image of $$\varPi$$ under the [[exponential map|Exponential map]].
+The sectional curvatures of the two-planes in $$\T_p M$$ completely determine the [[Riemannian curvature]] operator/tensor at $$p\in M.$$

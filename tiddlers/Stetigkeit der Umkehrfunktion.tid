@@ -1,0 +1,12 @@
+created: 20171225163342781
+list: 
+modified: 20180517190001611
+modifier: Leander
+revision: 0
+tags: Stetigkeit
+title: Stetigkeit der Umkehrfunktion
+type: text/vnd.tiddlywiki
+
+Sei $$f\colon \mathbb{R} \supset J \to \mathbb{R}$$ streng [[monoton|Monotonie]] wachsend auf einem Intervall $$J \subset \mathbb{R}$$. Dann ist $$f$$ [[injektiv|Injektivität]] und die [[Umkehrfunktion|Umkehrabbildung]] $$f^{-1}\colon f(J) \to \mathbb{R}$$ ist streng monoton wachsend und [[stetig|Stetigkeit]].
+
+Analog für streng monoton fallend.

@@ -1,19 +1,12 @@
 created: 20191214233343931
-modified: 20210130193101772
+modified: 20191214235244040
+revision: 0
 tags: [[Differential form]]
 title: De Rham cohomology
-type: text/vnd.tiddlywiki
 
-We say a $$k$$-form $$\omega$$ on $$M^m$$ is //closed// if $$\d\omega = 0.$$ We say $$\omega$$ is //exact// if there is a $$(k-1)$$-form $$\eta$$ such that $$\omega = \d\eta.$$ We write $$Z^k(M)$$ for the space of closed forms and $$B^k(M)$$ for the space of exact forms, i.e. $$Z^k(M) = \ker \d|_{\Omega^k}$$ and $$B^k(M) = \img \d|_{\Omega^{k-1}}.$$
+We say a $$k$$-form $$\omega$$ on $$M^m$$ is //closed// if $$\d\omega = 0.$$ We say $$\omega$$ is //exact// if there is a $$(k-1)$$-form $$\eta$$ such that $$\omega = \d\eta.$$ We write $$Z^k(M)$$ for the space of closed forms and $$B^k(M)$$ for the space of exact forms, i.e. $$Z^k(M) = \ker \d|_{\Omega^k}$$ and $$B^k(M) = \operatorname{Im} \d|_{\Omega^{k-1}}.$$
 
 We define the //de Rham cohomology// to be the quotient vector space $$H^k(M) \coloneqq Z^k / B^k$$ and $$Z,B,H$$ to be the corresponding direct sums. The //cohomology ring// $$H$$ is an algebra under the wedge product.
 
-@@.theorem
 ''Theorem.''
 If $$M^m$$ is an orientable closed manifold with $$n$$ components, then $$H^0(M)\cong\R^n$$ and $$H^m\cong\R^n.$$
-@@
-
-@@.theorem
-''Lemma (Poincaré).''
-Any closed $$k$$-form defined on an open ball in $$\R^n$$ is exact. More generally, any closed form on a contractible domain is exact.
-@@

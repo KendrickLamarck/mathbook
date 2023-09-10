@@ -1,73 +1,51 @@
 created: 20191213213736739
 lie_bracket_coordinates: \sum_{i,j} (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i) \partial_i.
-modified: 20201127154527803
-tags: [[Intrinsic differential geometry]]
+modified: 20200413182347645
+revision: 0
+tags: Differentialgeometrie
 title: Lie derivative
 type: text/vnd.tiddlywiki
 
-!! Functions
-
-On $$\R^n$$ we can identify $$f\colon \R^n \to \R^n \leftrightarrow \sum_k f_k \fracpartial{}{x_k}.$$ We define the Lie derivative of $$F\colon \R^n \to \R$$ as the smooth function
-$$
-\L_f F \coloneqq \sum_kf_k \fracpartial{}{x_k}F =
-\lang f,\grad F\rang.
-$$
-If for two flows $$\Phi$$ and $$\Psi$$ of vector fields $$f$$ and $$g$$ on $$\R^n$$ and a real-valued function $$F,$$ we define
-$$
-\Delta(t,s,x) \coloneqq
-F(\Phi^t \circ \Psi^s(x)) - F(\Psi^s \circ \Phi^t(x)),
-$$
-we get
-$$
-\left.\frac{\partial^2}{\partial t\partial s}\right|_{t=s=0} \Delta(t,s) =
-(\L_g \L_f - \L_f \L_g) F(x)
-$$
-and this commutator is a first-order differential operator.
-
-@@.theorem
-''Theorem.''
-If we define the vector field $$[g,f]$$ by
-$$
-[g,f]_l \coloneqq \sum_{k=1}^n \left(
-  g_k \fracpartial{f_l}{x_k}-f_k\fracpartial{g_l}{x_k}
-\right),
-$$
-then $$\L_g\L_f - \L_f\L_g = \L_{[g,f]}.$$
-@@
+{{KaTeX macros}}
 
 !! Vector fields
 
 If $$X,Y\in\mathfrak X(M)$$ and $$\theta_t$$ is the [[local flow|Local flow]] of $$X$$ around $$p,$$ then the //Lie derivative// $$\L_X Y$$ of $$Y$$ with respect to $$X$$ is the vector field defined by
+
 $$
 (\L_X Y)_p \coloneqq
-\left.\fracderiv{}{t}\right|_{t=0}
+\fracderiv{}{t}\biggr|_{t=0}
   \theta_{-t*}{\left(Y_{\theta_t(p)}\right)}
 \in \T_p M.
 $$
 
-* The Lie derivative and [[Lie bracket|Lie algebra of vector fields]] coincide, that is, we have $$\L_X Y=[X,Y].$$
+!!! Properties
+
+* The Lie derivative and [[Lie bracket|Lie-Algebra der Vektorfelder]] coincide, that is, we have $$\L_X Y=[X,Y].$$
 
 * Suppose $$f\colon M^m \to N^n$$ is a smooth map and $$Y\in\mathfrak X(N)$$ is $$f$$-[[related|Verknüpfte Vektorfelder]] to $$X\in\mathfrak X(M)$$ while $$Y'$$ is $$f$$-related to $$X'.$$ Then $$[Y,Y']$$ is $$f$$-related to $$[X,X'].$$
 
 * {{Lie bracket and commuting flows}}
 
-* <div>If $$X$$ and $$Y$$ are given in coordinates as $$\sum\alpha^i \partial_i$$ and $$\sum \beta^i \partial_i$$ respectively, the Lie bracket can be computed as
+* <div>If $$X$$ and $$Y$$ are given in coordiantes as $$\sum\alpha^i \partial_i$$ and $$\sum \beta^i \partial_i$$ respectively, the Lie bracket can be computed as
+
 $$
 \sum_{i,j}
 (\alpha^j \partial_j \beta^i-\beta^j \partial_j \alpha^i)
 \partial_i.
 $$</div>
 
-{{Lie algebra of vector fields}}
-
 !! Differential forms
 
 Let $$\omega\in\Omega^k(M),$$ $$X\in\mathfrak X(M)$$ and let $$\theta_t$$ be the local flow of $$X$$ around $$p.$$ We define
+
 $$
 (\L_X \omega)_p \coloneqq
-\left.\fracderiv{}{t}\right|_{t=0}
+\fracderiv{}{t}\Bigr|_{t=0}
   (\theta_t^* \omega)_p \in \Lambda^k \T_p M.
 $$
+
+!!! Properties
 
 * <div>The Lie derivative is a derivation on $$\Omega^* M,$$ i.e. an $$\R$$-linear map satisfying
 $$

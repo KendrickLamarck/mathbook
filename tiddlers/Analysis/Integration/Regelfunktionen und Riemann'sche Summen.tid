@@ -1,15 +1,19 @@
 created: 20180125195132217
 creator: Leander
 list: 
-modified: 20201112140558986
+modified: 20191011170729316
 modifier: Leander
+revision: 0
 tags: Regelintegral no-toc
 title: Regelfunktionen und Riemann'sche Summen
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon [a,b]\to\mathbb R$$ eine [[Regelfunktion]]. Dann gibt es zu jedem $$\epsilon>0$$ ein $$\delta>0$$ mit folgender Eigenschaft: Ist $$\mathcal Z$$ eine Zerlegung und ihre Maschenweite $$\delta(\mathcal Z)<\delta$$, so ist
+
 $$
-\biggl|\int_a^b f(x)\,\mathrm dx - S(f,\mathcal Z)\biggr|<\epsilon.
+\left|\int_a^b f(x)\,\mathrm dx - S(f,\mathcal Z)\right|<\epsilon.
 $$
+
 Die [[Riemann'schen Summen|Riemann'sche Summe]] einer Zerlegungsfolge mit gegen $$0$$ [[konvergierender|Konvergenz]] Maschenweite konvergieren also gegen das [[Regelintegral]].
+
 Damit ist jede Regelintegrierbare Funktion auch Riemann-integrierbar.

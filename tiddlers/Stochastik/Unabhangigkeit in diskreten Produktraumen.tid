@@ -1,9 +1,8 @@
 created: 20190505113604136
-modified: 20200601174035796
+modified: 20190708225021816
 revision: 0
-tags: Stochastik
+tags: [[Stochastische Unabhängigkeit]]
 title: Unabhängigkeit in diskreten Produkträumen
-type: text/vnd.tiddlywiki
 
 Seien $$(\Omega_i,\Bbb P_i),\ 1\le i\le n$$ [[diskrete Wahrscheinlichkeitsräume|Diskretes Maß]]. Für Ereignisse $$A_i\in\mathcal P(\Omega_i),\ 1\le i\le n$$ seien
 

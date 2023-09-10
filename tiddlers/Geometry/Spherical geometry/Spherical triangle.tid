@@ -1,7 +1,8 @@
 caption: Triangles
 created: 20181018210150739
 list: [[Existence and uniqueness of spherical triangles]] [[Area of spherical triangles]] [[Spherical cosine theorems]] [[Spherical half-angle theorem]] [[Spherical sine theorem]] [[Napier's rule]] [[Hyperbolic cosine theorems]] [[Hyperbolic sine theorem]]
-modified: 20210314154446812
+modified: 20191010155436412
+revision: 0
 tags: [[Spherical geometry]]
 title: Spherical triangle
 type: text/vnd.tiddlywiki
@@ -9,10 +10,14 @@ type: text/vnd.tiddlywiki
 A spherical triangle, or more specifically an //Euler triangle// is the intersection of three [[hemispheres|Hemisphere]] with poles not on one [[great circle|Great circle]].
 
 It can also be defined by its three vertices: Suppose $$A,B,C\in S^2$$ do not all lie on one great circle. Then the intersection of $$S^2$$ with the cone
+
 $$
 \mathcal C=\{\,\lambda A+\mu B+\nu C\in\mathbb R^3\mid \lambda,\mu,\nu\ge 0\,\}
 $$
+
 is an Euler triangle.
+
+!! Area
 
 {{Area of spherical triangles}}
 
@@ -20,14 +25,18 @@ is an Euler triangle.
 
 {{Existence and uniqueness of spherical triangles}}
 
-!! Cosine and sine theorems and the half-angle theorem
+!! Cosine theorems
 
-{{Spherical cosine theorems}} {{Spherical sine theorem}} {{Spherical half-angle theorem}}
+{{Spherical cosine theorems}}
+
+!! Sine theorem
+
+{{Spherical sine theorem}}
+
+!! Half-angle theorem
+
+{{Spherical half-angle theorem}}
 
 !! Napier's rule
 
 {{Napier's rule}}
-
-!! Orientation
-
-{{Oriented spherical triangle}}

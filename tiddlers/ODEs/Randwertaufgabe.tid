@@ -1,13 +1,15 @@
 created: 20191117154718231
-modified: 20201124143826986
+modified: 20191117155809206
+revision: 0
 tags: [[Lineare Differentialgleichung]]
 title: Randwertaufgabe
-type: text/vnd.tiddlywiki
 
 Eine eindimensionale //Randwertaufgabe// ist eine lineare Differentialgleichung zweiter Ordnung, d.h. eine Gleichung der Form
+
 $$
 -y''+p(x)y'+q(x)y=s(x),\quad x\in [a,b],
 $$
+
 bei der in den Randpunkten $$r\in\{a,b\}$$ jeweils eine der folgenden Randbedingungen gegeben ist:
 
 * $$y(r)=g_D(r)$$ @@float:right; (Vorgabe eines Wertes, Dirichlet-Randbedingung),@@

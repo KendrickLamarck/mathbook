@@ -1,13 +1,16 @@
 created: 20181015212914622
-modified: 20200929131412577
+modified: 20191010155436505
+revision: 0
 tags: [[Spherical geometry]]
 title: Great circle
 type: text/vnd.tiddlywiki
 
 A //great circle (Großkreis)// in $$S^2$$ is the intersection of $$S^2$$ with a 2-dimensional [[subspace|Untervektorraum]] of $$\mathbb R^3,$$ which can be written as 
+
 $$
 E=\{\,x\in\mathbb R^3\mid\langle x,a\rangle=0\,\}
 $$
+
 where $$a\in S^2.$$
 
 * The points $$\pm a\in S^2$$ are called the //poles// of the great circle $$E\cap S^2.$$

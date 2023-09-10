@@ -1,14 +1,14 @@
 created: 20170911225557462
 creator: Leander
-modified: 20200526201517688
+modified: 20191011161809437
 modifier: Leander
 revision: 0
-tags: [[Trigonometrische Funktionen]]
+tags: [[Euclidean geometry]]
 title: Pythagorean trigonometric identities
 type: text/vnd.tiddlywiki
 
-$$\begin{aligned}
-\sin^2 \theta + \cos^2 \theta &= 1\\
-1 + \tan^2 \theta &= \sec^2 \theta\\
-1 + \cot^2 \theta &= \csc^2 \theta
-\end{aligned}$$
+$$\begin{gathered}
+\sin^2 \theta + \cos^2 \theta = 1\\
+1 + \tan^2 \theta = \sec^2 \theta\\
+1 + \cot^2 \theta = \csc^2 \theta
+\end{gathered}$$

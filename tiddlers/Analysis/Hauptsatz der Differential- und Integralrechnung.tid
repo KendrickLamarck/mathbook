@@ -1,24 +1,31 @@
 created: 20180222125758494
 creator: Leander
 list: 
-modified: 20201112142057419
+modified: 20181021153402730
 modifier: Leander
+revision: 0
 tags: [[Ableitung in R]] Regelintegral
 title: Hauptsatz der Differential- und Integralrechnung
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon J\to\mathbb R$$ stetig auf dem Intervall $$J$$ und sei $$a\in J$$. Dann gilt:
+
 Die Funktion $$F\colon J\to\mathbb R$$ mit
+
 $$
 F(x) \coloneqq \int_a^x f(t)\,\mathrm dt
 $$
+
 ist eine [[Stammfunktion]] von $$f$$.
 
 Die Funktion $$G\colon J\to\mathbb R$$ ist genau dann eine Stammfunktion von $$f$$, wenn
+
 $$
 G(x)=\int_a^x f(t)\,\mathrm dt + \mathrm{const}=\int_a^x f(t)\,\mathrm dt + G(a).
 $$
+
 Insbesondere ist dann also für $$a,b\in J$$ (auch für $$b\le a$$)
+
 $$
 \int_a^b f(t)\,\mathrm dt=G(b)-G(a)\eqqcolon G(x)\big|_a^b.
 $$

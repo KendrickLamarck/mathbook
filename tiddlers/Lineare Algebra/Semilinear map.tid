@@ -1,12 +1,14 @@
 created: 20190121132356110
 creator: Leander
-modified: 20210314151353569
+modified: 20190217231133021
 modifier: Leander
+revision: 0
 tags: [[Lineare Abbildung]]
 title: Semilinear map
 type: text/vnd.tiddlywiki
 
 A map $$F$$ between [[vector spaces|Vektorraum]] $$V,W$$ over a [[field|Körper]] $$\mathbf F$$ is called //semilinear,// if there is a field automorphism $$\varphi$$ such that for all $$v,w\in V,\ \lambda\in \mathbf F$$
+
 $$
 F(v+w)=F(v)+F(w),\qquad F(\lambda v)=\varphi(\lambda)F(v).
 $$

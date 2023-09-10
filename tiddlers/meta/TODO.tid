@@ -1,61 +1,19 @@
 created: 20190206093529806
 creator: Leander
-modified: 20220109164004632
+modified: 20200121212255407
 modifier: Leander
-tags: meta
+revision: 0
+tags: 
 title: TODO
 type: text/vnd.tiddlywiki
 
-{{Reminder}}
-
-!! Issues
-
-* Migrate this TODO to the github issues
-
-* Structure changes
-** Organize plane curves (distinct from space curves?)
-** Exterior algebra: Linear algebra, Algebra or differential geometry?
-** Distinguish the different types of normal fields / normal vectors etc. better
-** Change some names (with parentheses) maybe, now that it's possible with relink
-
-* We don't want to commit changes where only the //modified// field has changed.
-
-* A lot of paragraphs are wrong
-
-!! Content ideas
-
-* Examples, in particular statistics, particular distributions, estimators and so on
-* Wofür sind die [[Verteilungen|Verteilung]] gut?
-
-* Add sources (as embedded PDFs?)
-** Copyright / ethical issues, some stuff wasn't meant to be published. Just use those which are freely accessible on the web
-
-* Musical isomorphisms
-* Make the [[Zig-zag lemma]] picture look more zig-zag and less snake
-* Get the woven diagram for the CW boundary map in here. I don't care if it makes sense, I just want to do it. (but make it vertical maybe)
-* Make this more explicitly like a blog
-
-!! Tech ideas
-
-* Hosting a node wiki on the web would be great
-
-* replacing particular $$\KaTeX$$ code with macros that reflect the use (an example would be `\smooth`) would be great to reduce manual edits in the future.
-** `\differential{f}{p}` to toggle between $$\D_p f$$ and $$\D f(p).$$
-** avoid single letters
-
-* Try applying the 5-color subpalettes to the Solarized palettes
-* Filter field & "open all" button in $:/_templates/tree
-* Assign css class to KaTeX links in [[$:/plugins/tiddlywiki/katex/wrapper.js]]
-* Tag selector / same tags as parent in excision dialogue
-* css svg rendering options
-* Maybe images should be saved in _images and not in _system
-
-* Commutative diagrams as images (for now)
-** Partially solved. TeX w/ `\documentclass{standalone}`, convert with pdf2svg and see [[Pushout]] for an example.
-** What could be better: Color, direct svg generating from within TeX.
-
-!! (Future) collaboration
-
-* More line breaks so it's easier to see what was changed in a commit
-* Translate everything to English to improve accessibility?
-* Comments that only editors can see. Who is an editor? [[$:/status/UserName]] is present / not empty? &rarr; reveal widget
+* Think about structure: Some tiddlers could be tagged with <<tag no-toc>> to be excluded from various tables of content ~~or just have their tags removed~~.
+** Optimize for searchability
+** More transclusions, smaller tables of content
+* The landing page is shit
+* Cooperation
+** Webserver
+*** Proxy
+* Consider an alias mechanism
+* Review the {{$:/core/ui/UntaggedTemplate}} tiddlers
+* [[Connection]] in coordinates

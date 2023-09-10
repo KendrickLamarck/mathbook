@@ -1,19 +1,22 @@
 created: 20190408230643462
-modified: 20210219130246734
-tags: [[Intrinsic differential geometry]]
+modified: 20200101185113347
+revision: 0
+tags: [[Integrals over manifolds]]
 title: Stokes'scher Integralsatz
 type: text/vnd.tiddlywiki
 
-!! Intrinsic
+!! Abstrakt
 
 Suppose $$M^m$$ is an [[oriented manifold with boundary|Oriented manifold]] and $$\omega\in\Omega^{m-1}_\mathrm cM$$ is an $$(m-1)$$-form on $$M$$ with compact support. Then
+
 $$
 \int_M \d\omega = \int_{\partial M} \omega.
 $$
 
-!! Extrinsic
+!! Elementar
 
 Definiere zu einer $$\mathcal C^2$$-Abbildung $$\varphi=(\varphi_1,\varphi_2,\varphi_3)\colon\Bbb R^2\to\Bbb R^3,\ (u,v)\mapsto\varphi(u,v)$$ das sogenannte //Dachprodukt// als
+
 $$
 \varphi_u\land\varphi_v\coloneqq
 \begin{pmatrix}
@@ -22,19 +25,24 @@ $$
 \partial_u\varphi_1\partial_v\varphi_2-\partial_u\varphi_2\partial_v\varphi_1
 \end{pmatrix}.
 $$
+
 Sei $$\varOmega\subseteq\Bbb R^3$$ [[offen|Offenheit]] und
 $$a\in\mathcal C^1(\varOmega\to\R^3)$$
-ein $$\mathcal C^1$$-[[Vektorfeld|Vector field]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und
+ein $$\mathcal C^1$$-[[Vektorfeld]]. Sei $$A\subset\R^2$$ ein [[Kompaktum mit glattem Rand]] und
 $$\nu\colon\partial A\to S^1$$
 das [[äußere Einheits-Normalenfeld|Normalenvektor]]. Außerdem sei
 $$\varphi=(\varphi_1,\varphi_2,\varphi_3)\in\mathcal C^2(A\to\varOmega)$$
 eine Fläche der Klasse $$\mathcal C^2$$ in $$\varOmega.$$ Dann gilt
+
 $$
 \int_A \langle(\operatorname{rot}a)\circ\varphi,\varphi_u\land\varphi_v\rangle \,\d u\,\d v=
 \int_{\partial A}\langle a\circ\varphi,\d\varphi\rangle,
 $$
+
 wobei wir setzen:
+
 $$
 \langle a\circ\varphi,\d\varphi\rangle=\langle a\circ\varphi,\varphi_u\rangle\,\d u+\langle a\circ\varphi,\varphi_v\rangle\,\d v
 $$
-mit $$\varphi_u=(\partial_u\varphi_1,\partial_u\varphi_2,\partial_u\varphi_3)^\mathrm T.$$
+
+wobei $$\varphi_u=(\partial_u\varphi_1,\partial_u\varphi_2,\partial_u\varphi_3)^\mathrm T.$$

@@ -1,8 +1,14 @@
 created: 20191015194733898
-modified: 20200430184017611
+modified: 20191015200035552
 revision: 0
-tags: Curve no-toc
+tags: Kurve no-toc
 title: Regular curve
-type: text/vnd.tiddlywiki
 
-A //regular curve// is a [[differentiable|Ableitung]] [[curve|Curve]] $$\gamma\colon\R\supset I\to\R^n$$ with $$\gamma'(t)\ne 0$$ for all $$t\in I.$$
+A //regular curve// is a [[differentiable|Ableitung]] [[curve|Kurve]] $$\gamma\colon\R\supset I\to\R^n$$ with $$\gamma'(t)\ne 0$$ for all $$t\in I.$$ Let
+
+$$
+T(t)\coloneqq\frac 1 {|\gamma'(t)|} \gamma(t),
+\qquad N(t)\coloneqq\begin{pmatrix} 0 &-1 \\ 1 &0\end{pmatrix} T(t)
+$$
+
+denote the unit tangent vector field and unit normal vector field of $$\gamma.$$

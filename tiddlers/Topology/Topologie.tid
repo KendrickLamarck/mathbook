@@ -1,10 +1,11 @@
 created: 20180315143251840
 creator: Leander
-list: [[Topologischer Raum]] [[Stetigkeit (Topologie)]] Homöomorphismus [[Abgeschloffene Menge]] [[Separation axioms]] Kompaktheit [[Paracompact space]] [[Locally compact space]] Zusammenhang [[Local properties of topological spaces]] Umgebungsfilter Embedding Second-countable [[Locally finite collection]] Refinement [[Separable space]] [[Dense subset]] [[Metrizable space]] [[Urysohn metrization theorem]] [[Combinatorial topology]]
-modified: 20210319134301733
+list: [[Topologischer Raum]] Spurtopologie Offenheit Abgeschlossenheit Umgebung [[Innerer Punkt]] [[Abgeschlossene Hülle]] Randpunkt [[Häufungspunkt (Mengen)]] [[Abgeschloffene Menge]] [[Hausdorff'scher Raum]] [[Regular topological space]] [[Normal topological space]] [[Stetigkeit und offene Urbilder]] Kompaktheit Zusammenhang Umgebungsfilter Embedding [[Product topology]] Second-countable [[Topological base]] [[Locally finite collection]] Refinement [[Paracompact space]] [[Locally compact space]]
+modified: 20200411160757413
 modifier: Leander
+revision: 0
 tags: Mathematics
 title: Topologie
 type: text/vnd.tiddlywiki
 
-{{||$:/_templates/tree}}
+{{||$:/_mytemplates/treeTemplate}}

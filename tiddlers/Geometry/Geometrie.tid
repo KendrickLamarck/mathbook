@@ -1,16 +1,11 @@
 created: 20180315152240411
 creator: Leander
-list: [[Euclidean geometry]] [[Spherical geometry]] [[Hyperbolic geometry]] [[Projective geometry]] [[Möbius geometry]] [[Lie geometry]] [[Laguerre geometry]] [[Similarity geometry]] [[Affine geometry]] [[Elliptic geometry]] Subgeometry Curve [[Hilbert metric]]
-modified: 20210310200453910
+list: [[Euclidean geometry]] [[Spherical geometry]] [[Hyperbolic geometry]] [[Projective geometry]] [[Möbius geometry]] [[Lie geometry]] [[Laguerre geometry]] [[Similarity geometry]] [[Affine geometry]] [[Elliptic geometry]] Volumen Subgeometry [[Hilbert metric]] [[Cayley-Klein metric]]
+modified: 20200411160823266
 modifier: Leander
+revision: 0
 tags: Mathematics
 title: Geometrie
 type: text/vnd.tiddlywiki
 
-!! Conventions
-
-* Scalar products denoted as $$\lang \cdot,\cdot \rang$$ are usually the indefinite ones fixing some quadric. The euclidean one is denoted by $$(\cdot,\cdot).$$
-
-!! Contents
-
-{{||$:/_templates/tree}}
+{{||$:/_mytemplates/treeTemplate}}

@@ -1,8 +1,7 @@
 created: 20191016193527656
-modified: 20200430184006144
+modified: 20191102213559159
 revision: 0
-tags: Curve no-toc
+tags: Kurve no-toc
 title: Projective curve
-type: text/vnd.tiddlywiki
 
 Let $$\gamma\colon I\to\R^{n+1}$$ be a differentiable curve. Then $$[\gamma]\colon I\to\R\mathrm P^n$$ is a curve in $$\R\mathrm P^n.$$ The tangent to this curve at $$[\gamma(t)]$$ is the line through the points $$[\gamma(t)],[\gamma'(t)].$$ We call the curve //regular,// if $$\gamma(t),\gamma'(t)$$ are linearly independent for all $$t\in I.$$

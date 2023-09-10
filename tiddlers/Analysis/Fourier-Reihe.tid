@@ -1,27 +1,35 @@
 created: 20200109190205164
-modified: 20211118204139147
+modified: 20200311002229343
+revision: 0
 tags: Analysis
 title: Fourier-Reihe
 type: text/vnd.tiddlywiki
 
 Für eine $$2\pi$$-periodische Funktion $$f\in L^2(\R/2\pi\to\C)$$ definieren wir die //Fourier-Reihe// durch
+
 $$
 \sum_{k\in\Z} c_k e^{\i kt},
 $$
+
 wobei die Koeffizienten $$c_k$$ gegeben sind durch
+
 $$
 c_k =\langle f, e^{\i kt}\rangle= \frac 1 {2\pi} \int_{-\pi}^\pi f(t) e^{-\i kt}\,\d t.
 $$
+
 Die Reihe lässt sich auch in der Form
+
 $$
 \frac{a_0}{2} +
 \sum_{k=1}^\infty (a_k\cos(kx)+b_k\sin(kx))
 $$
+
 darstellen, wobei die Koeffizienten dann durch $$a_k=2\Re(c_k)$$ und $$b_k=-2\Im(c_k)$$ gegeben sind.
 
 * Ob und wo die Reihe konvergiert, muss untersucht werden.
 * Die Herleitung ist, Funktionen aus dem [[Hilbertraum]] $$L^2(\R/2\pi)$$ der periodischen Funktionen mithilfe von [[Gram-Schmidt|Orthonormalisierungssatz]] auf den vom Orthonormalsystem $$\{t\mapsto e^{\i kt}\mid k\in\Z\}$$ aufgespannten Unterraum zu projizieren.
 * <div>Ist $$f$$ eine $$2\pi$$-periodische, komplexwertige, quadratisch integrierbare Funktion, so gilt
+
 $$
 \|f-\hat f_{r,s}\|=\min_{ g=\sum_{k=-r}^s\beta_k e^{\i kx} } \|f-g\|.
 $$</div>

@@ -1,40 +1,41 @@
 created: 20190216185217976
-modified: 20201010204546256
+modified: 20191107154546365
+revision: 0
 tags: [[Hyperbolic geometry]]
 title: Poincaré disk model
 type: text/vnd.tiddlywiki
 
 The //Poincaré model// of the [[hyperbolic plane|Hyperbolic geometry]] is $$D^2$$ and is obtained by central projection to the plane $$x_3=0$$ from the point $$-e_3,$$ which is //stereographic projection// of $$H^2.$$ It is the map
 
-$$\begin{aligned}
-\sigma_{H^2}\begin{pmatrix} x_1\\x_2\\x_3 \end{pmatrix}&=
+$$\begin{gathered}
+\sigma_{H^2}\begin{pmatrix} x_1\\x_2\\x_3 \end{pmatrix}=
 \frac 1 {x_3+1} \begin{pmatrix} x_1\\x_2 \end{pmatrix}, \\
-\sigma_{H^2}{}^{-1}\begin{pmatrix} u_1\\u_2 \end{pmatrix}&=
-\frac 1 {1-{u_1}^2-{u_2}^2}\begin{pmatrix} 2u_1\\2u_2\\ 1+{u_1}^2+{u_2}^2 \end{pmatrix}.
-\end{aligned}$$
+\sigma_{H^2}^{-1}\begin{pmatrix} u_1\\u_2 \end{pmatrix}=
+\frac 1 {1-u_1^2-u_2^2}\begin{pmatrix} 2u_1\\2u_2\\ 1+u_1^2+u_2^2 \end{pmatrix}.
+\end{gathered}$$
 
-@@.theorem
 ''Theorem.''
-Stereographic projection $$\sigma_{H^2}\colon H^2\to D^2$$ maps [[intersections|Circles, hypercycles and horocycles]] of $$H^2\subset\R^{2,1}$$ with planes in $$\R^{2,1}$$ to intersections of $$D^2$$ with circles and lines. In particular, [[hyperbolic lines|Hyperbolic line]] are mapped to intersections of $$D^2$$ with circles and lines that intersect the unit circle $$\partial D^2$$ orthogonally.
-@@
+Stereographic projection $$\sigma_{H^2}\colon H^2\to D^2$$ maps [[intersections|Circles, hypercycles and horocycles]] of $$H^2\subset\Bbb R^{2,1}$$ with planes in $$\R^{2,1}$$ to intersections of $$D^2$$ with circles and lines. In particular, [[hyperbolic lines|Hyperbolic line]] are mapped to intersections of $$D^2$$ with circles and lines that intersect the unit circle $$\partial D^2$$ orthogonally.
 
 !! Riemannian metric
 
-Consider two curves $$\hat\gamma,\hat\eta\colon\openI{-\varepsilon,\varepsilon}\to H^2$$ in the hyperbolic plane with $$\hat\gamma(0)=\hat\eta(0)=\hat p.$$ Let $$\gamma=\sigma_{H^2}\circ\hat\gamma$$ and $$\eta=\sigma_{H^2}\circ\hat\eta$$ be their images in $$D^2$$ under stereographic projection and let $$\hat v=\hat\gamma'(0),\ \hat w=\hat\eta'(0),\ v=\gamma'(0),\ w=\eta'(0).$$ Then
+Consider two curves $$\hat\gamma,\hat\eta\colon{]-\epsilon,\epsilon[}\to H^2$$ in the hyperbolic plane with $$\hat\gamma(0)=\hat\eta(0)=\hat p.$$ Let $$\gamma=\sigma_{H^2}\circ\hat\gamma$$ and $$\eta=\sigma_{H^2}\circ\hat\eta$$ be their images in $$D^2$$ under stereographic projection and let $$\hat v=\hat\gamma'(0),\ \hat w=\hat\eta'(0),\ v=\gamma'(0),\ w=\eta'(0).$$ Then
+
 $$
-\langle\hat v,\hat w\rangle_{\R^{2,1}}=
-  \frac 4 {\left(1-p_1{}^2-p_2{}^2\right)^2}
-\langle v,w\rangle_{\R^2}.
+\langle\hat v,\hat w\rangle_{\Bbb R^{2,1}}=
+\frac 4 {(1-p_1^2-p_2^2)^2}\langle v,w\rangle_{\Bbb R^2}.
 $$
 
 !! Isometries
 
 The [[isometries|Isometrie]] are the [[Möbius transformations|Möbius transformation]] that map $$D^2\to D^2.$$ These are the maps
+
 $$
 z\mapsto\frac{az+b}{\bar a z+\bar b},\quad
 z\mapsto\frac{a\bar z+b}{\bar a\bar z+\bar b}
 $$
-with $$a,b\in\C$$ and $$|a|^2-|b|^2>0,$$ which is the group $$\PSU(1,1).$$
+
+with $$a,b\in\Bbb C$$ and $$|a|^2-|b|^2>0,$$ which is the group $$\operatorname{PSU}(1,1).$$
 
 !! Map to the Klein model
 

@@ -1,6 +1,7 @@
 created: 20180814190935866
-modified: 20210319201803289
+modified: 20180814190939645
+revision: 0
 title: $:/config/DefaultMoreSidebarTab
 type: text/vnd.tiddlywiki
 
-$:/core/ui/MoreSideBar/Explorer
+$:/core/ui/MoreSideBar/Missing

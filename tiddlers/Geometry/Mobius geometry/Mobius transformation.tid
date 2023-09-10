@@ -1,17 +1,18 @@
 created: 20190505145002249
-modified: 20210313191332990
+modified: 20191010175858127
+revision: 0
 tags: [[Möbius geometry]] no-toc
 title: Möbius transformation
 type: text/vnd.tiddlywiki
 
-Consider the following two maps of $$\overhat{0}{-1}{\R}^n$$:
+Consider the following two maps of $$\widehat\Bbb R^n$$:
 
 * {{Reflection in a hyperplane}}
 
 * {{Inversion in a hypersphere}}
 
-A //Möbius transformation// is a composition of [[reflections in hyperplanes|Reflection in a hyperplane]] and [[hyperspheres|Inversion in a hypersphere]]. The Möbius transformations on $$\overhat{0}{-1}{\R}^n$$ form a [[group|Gruppe]] called the //Möbius group// denoted by $$\operatorname{Möb}(n).$$ There are orientation preserving and orientation reversing Möbius transformations, depending on if there is an even or odd number of reflections. The [[subgroup|Untergruppe]] of [[orientation preserving|Orientierung]] transformations is called the //special Möbius group// and is denoted by $$\operatorname{SMöb}(n)$$ or $$\operatorname{Möb^+}(n).$$
+A //Möbius transformation// is a composition of [[reflections in hyperplanes|Reflection in a hyperplane]] and [[hyperspheres|Inversion in a hypersphere]]. The Möbius transformations on $$\widehat\R^n$$ form a [[group|Gruppe]] called the //Möbius group// denoted by $$\operatorname{Möb}(n).$$ There are orientation preserving and orientation reversing Möbius transformations, depending on if there is an even or odd number of reflections. The [[subgroup|Untergruppe]] of [[orientation preserving|Orientierungstreue]] transformations is called the //special Möbius group// and is denoted by $$\operatorname{SMöb}(n)$$ or $$\operatorname{Möb^+}(n).$$
 
-A Möbius transformation maps any hyperplane or hypersphere to a hyperplane or hypersphere. Conversely, any bijective map $$\overhat{0}{-1}{\R}^n\to\overhat{0}{-1}{\R}^n$$ that maps hyperspheres to hyperspheres is a Möbius transformation
+A Möbius transformation maps any hyperplane or hypersphere to a hyperplane or hypersphere. ''Any'' bijective map $$\widehat\R^n\to\widehat\R^n$$ that maps hyperspheres to hyperspheres is a Möbius transformation.
 
-The Möbius transformations are also conformal. This time, the converse is only true for dimensions greater than 2: {{Liouville's theorem}}
+The Möbius transformations are conformal.

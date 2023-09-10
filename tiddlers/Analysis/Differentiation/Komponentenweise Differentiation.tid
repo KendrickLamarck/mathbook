@@ -1,16 +1,20 @@
 created: 20180529171444404
 creator: Leander
-modified: 20211211150505392
+modified: 20190601110154745
 modifier: Leander
+revision: 0
 tags: Ableitung
 title: Komponentenweise Differentiation
 type: text/vnd.tiddlywiki
 
 Seien $$V$$ und $$W_1,\ldots,W_m$$ [[endlichdimensionale|Dimension]] [[Banachräume|Banachraum]]
+
 $$
 f=(f_1,\ldots,f_m)\colon V\supset G\to W_1\times\dots\times W_m
 $$
+
 mit Komponentenfunktionen $$f_i\colon G\to W_i$$. Dann ist $$f$$ genau dann in $$p$$ [[differenzierbar|Ableitung]], wenn alle $$f_i$$ in $$p$$ differenzierbar sind. In diesem Fall gilt für alle $$v\in V$$
+
 $$
-\D_p f(v)=(\D_p f_1(v),\dots,\D_p f_m(v)).
+\mathrm D_p f(v)=(\mathrm D_p f_1(v),\ldots,\mathrm D_p f_m(v)).
 $$

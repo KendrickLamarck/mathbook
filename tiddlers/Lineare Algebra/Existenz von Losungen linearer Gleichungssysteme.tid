@@ -1,14 +1,17 @@
 caption: Existenz von Lösungen
 created: 20180326182156087
 creator: Leander
-modified: 20210314151257107
+modified: 20191004230653471
 modifier: Leander
+revision: 0
 tags: [[Lineares Gleichungssystem]] no-toc
 title: Existenz von Lösungen linearer Gleichungssysteme
 type: text/vnd.tiddlywiki
 
 Der [[Lösungsraum]] des [[linearen Gleichungssystems|Lineares Gleichungssystem]] $$Ax=b$$ mit $$A\in K^{m\times n}$$ und $$b\in K^m$$ ist genau dann nicht leer, wenn
+
 $$
-\Rang A=\Rang(A;b),
+\text{rang }A=\text{rang}(A;b),
 $$
+
 wobei $$(A;b)$$ die erweiterte Koeffizentenmatrix ist. Das ist äquivalent zur Anschauung, dass nach Anwendung des Gauss-Verfahrens in der [[Matrix]] unterhalb des letzten Pivotelements alle Zeilen $$0$$ sein müssen.

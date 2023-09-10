@@ -1,21 +1,27 @@
 created: 20180519174635674
 creator: Leander
-modified: 20201208185559924
+modified: 20191121232715988
 modifier: Leander
+revision: 0
 tags: [[Jordan'sche Normalform]] no-toc
 title: Hauptraum
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]] und $$F\in\operatorname{End}(V)$$ mit [[charakteristischem Polynom|Charakteristisches Polynom]]
+
 $$
 P_F(t)=(\lambda_1-t)^{r_1}\cdots(\lambda_k-t)^{r_k},
 $$
+
 wobei $$\lambda_1,\ldots,\lambda_k$$ die verschiedenen [[Eigenwerte|Eigenwert]] von $$F$$ sind. Der //Hauptraum// zum Eigenwert $$\lambda_j$$ ist
+
 $$
 \operatorname{Hau}(F;\lambda_j)\coloneqq\ker(F-\lambda_j\operatorname{id}_V)^{r_j}.
 $$
+
 Er besteht aus den [[Hauptvektoren|Hauptvektor]] von $$F$$ zum Eigenwert $$\lambda_j$$ und dem Nullvektor.
 
+---
 !! Eigenschaften
 
 * $$\dim\operatorname{Hau}(F;\lambda_j)=r_j.$$

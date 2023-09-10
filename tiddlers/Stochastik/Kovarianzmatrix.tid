@@ -1,12 +1,14 @@
 created: 20190621150235273
-modified: 20210118152815646
-tags: Stochastik no-toc
+modified: 20190621150645076
+revision: 0
+tags: Stochastik
 title: Kovarianzmatrix
-type: text/vnd.tiddlywiki
 
 Ist $$\Bbb X=(X_1,\dots,X_n)$$ ein [[Zufallsvektor|Zufallsvariable]], so definieren wir die //Kovarianzmatrix// als
+
 $$
 \operatorname{Cov}(\Bbb X,\Bbb X)\coloneqq
 \Bbb E\left((\Bbb X-\Bbb E(\Bbb X))(\Bbb X-\Bbb E(\Bbb X))^\mathrm T\right)=(\operatorname{Cov}(X_i,X_j))_{1\le i,j\le n}.
 $$
+
 Diese Matrix ist [[symmetrisch|Symmetrische Matrix]] und [[positiv semidefinit|Definitheit]].

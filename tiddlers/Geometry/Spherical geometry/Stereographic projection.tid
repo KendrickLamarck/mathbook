@@ -1,48 +1,30 @@
 created: 20190210221038641
 creator: Leander
-modified: 20211026170826707
+modified: 20191107161220760
 modifier: Leander
+revision: 0
 tags: [[Spherical geometry]]
 title: Stereographic projection
 type: text/vnd.tiddlywiki
 
 !! Euclidean
 
-//stereographic projection// $$\sigma\colon \sphere^2\setminus \{e_3\}\to\R^2$$ maps a point on the [[unit sphere|Einheitssphäre]] along the ray from the north pole to the plane $$x_3=0.$$ The equations are
+//stereographic projection// $$\sigma\colon S^2\setminus \{e_3\}\to\R^2$$ maps a point on the [[unit sphere|Einheitssphäre]] along the ray from the north pole to the plane $$x_3=0.$$ The equations are
+
 $$\begin{gathered}
 \sigma \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix} =
-  \frac{1}{1-x_3}
-  \begin{pmatrix} x_1 \\ x_2 \end{pmatrix}, \\
+\frac 1 {1-x_3} \begin{pmatrix} x_1 \\ x_2 \end{pmatrix},\\
 \sigma^{-1}\begin{pmatrix} u_1 \\ u_2 \end{pmatrix} =
-  \frac{1}{\|u\|^2+1}
-  \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
+\frac 1 {\|u\|^2+1} \begin{pmatrix} 2u_1 \\ 2u_2 \\ \|u\|^2-1 \end{pmatrix}.
 \end{gathered}$$
-Stereographic projection maps circles in $$\sphere^2$$ which contain $$e_3$$ to lines in $$\R^2$$ and all other circles in $$\sphere^2$$ to circles in $$\R^2.$$ All circles and lines in $$\R^2$$ are images of circles in $$\sphere^2.$$
 
-The map can also be obtained as [[inversion|Inversion in a hypersphere]] in the sphere with center $$e_n$$ and radius $$\sqrt 2$$ restricted to the unit sphere for $$\sigma$$ or the plane $$e_n = 0$$ for $$\sigma^{-1}.$$ From this we obtain the general versions of the formulas above:
-$$
-\sigma(x) =
-  \frac{x-\lang e_n,x \rang e_n}
-       {1-\lang e_n,x \rang}, \qquad
-\sigma^{-1}(u) =
-  \frac{2u+\left(\|u\|^2-1\right)e_n}
-       {\|u\|^2+1}.
-$$
-An advantage of these is that we can obtain a hyperbolic version of sterographic projection by using Lorentz scalar products and $$-e_n$$ instead of $$e_n,$$ see also [[Poincaré disk model]].
-
-!! Riemannian metric
-
-Stereographic projection induces the Riemannian metric
-$$
-g_p(v,w) = \frac 4 {\left(1+\|p\|^2\right)^2} \lang v,w \rang
-$$
-on $$\R^2.$$ From this, we can see that stereographic projection is [[conformal|Conformal map]].
+Stereographic projection maps circles in $$S^2$$ which contain $$e_3$$ to lines in $$\Bbb R^2$$ and all other circles in $$S^2$$ to circles in $$\Bbb R^2.$$ All circles and lines in $$\Bbb R^2$$ are images of circles in $$S^2.$$
 
 !! Projective
 
-$$\sphere^n=\{\, [x]\in\RP^{n+1}\mid \langle x,x\rangle_{n+1,1}=0 \,\}$$ can be mapped to $$\overhat{0}{-1}{\R}^n$$ bijectively via stereographic projection:
-$$\begin{gathered}
-\sigma\colon \sphere^n \setminus \{e_\infty\} \to \R^n, \qquad
+$$S^n=\{[x]\in\R\mathrm P^n\mid \langle x,x\rangle_{3,1}=0\}\subset\R\mathrm P^{n+1}$$ can be mapped to $$\widehat\Bbb R^n$$ bijectively via stereographic projection:
+
+$$
 \begin{bmatrix}
   x_1     \\
   \vdots  \\
@@ -54,13 +36,21 @@ $$\begin{gathered}
   x_1    \\
   \vdots \\
   x_n    \\
-\end{pmatrix}, \\
-\sigma^{-1}\colon \R^n \to \sphere^n \setminus \{e_\infty\}, \qquad
-u \mapsto
+\end{pmatrix}.
+$$
+
+For the direction
+$$\widehat\R^n\to S^n$$
+we get
+
+$$
+\Bbb R^n\ni u\mapsto
 \begin{bmatrix}
   2u        \\
   \|u\|^2-1 \\
   \|u\|^2+1
 \end{bmatrix}.
-\end{gathered}$$
-The missing point, the north pole $$[e_\infty]=[e_{n+1}+e_{n+2}],$$ is mapped to $$\infty \in \overhat{0}{-1}{\R}^n$$ and vice versa.
+$$
+
+
+$$\infty$$ is mapped to the north pole $$[e_\infty]=[e_{n+1}+e_{n+2}]$$ and vice versa.

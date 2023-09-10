@@ -1,0 +1,54 @@
+created: 20190102175918810
+creator: Leander
+list: Rechteck [[Elementare Menge]]
+modified: 20191028134319112
+modifier: Leander
+revision: 0
+tags: Lebesgue-Borel-Maß
+title: Lebesgue-Maß im R2
+type: text/vnd.tiddlywiki
+
+{{Elementare Menge}}
+
+@@color:red;text-align:center;
+''Dieser Abschnitt ist hässlich und nur als Vorbereitung für den Test gut.''
+@@
+
+# <div>
+Definiere
+$$
+\lambda_\mathcal R\colon\mathcal R\to [0,\infty[,\quad [/]a,b[/]\times [/]c,d[/]\mapsto (b-a)(d-c).
+$$
+</div>
+
+# <div>
+Definiere für $$A=R_1\cup\dots\cup R_n$$ [[elementar|Elementare Menge]], d.h. endliche Vereinigung von paarweise disjunkten [[Rechtecken|Rechteck]]
+$$
+\lambda_\mathcal E\colon\mathcal E\to[0,\infty[,\quad A\mapsto\sum_{i=1}^n\lambda_\mathcal R(R_i).
+$$
+Diese Abbildung ist $$\sigma$$-additiv und $$\sigma$$-subadditiv, falls für eine Folge von (paarweise disjunkten) Mengen elementaren Mengen $$(A_n)_{n\in\Bbb N}$$ auch $$\bigcup_{n\in\Bbb N} A_n$$ in $$\mathcal E$$ liegt.
+</div>
+
+# <div>
+Sei $$E=[0,1]^2,$$ $$\mathcal R_E\coloneqq\{R\cap E:R\in\mathcal R\},$$ $$\mathcal E_E\coloneqq \{A\cap E:A\in\mathcal E\},$$ $$\lambda_{\mathcal E_E}\coloneqq\lambda_\mathcal E|_{\mathcal E_E}.$$ Definiere das [[äußere Maß|Äußeres Maß]] von $$A\subset E$$ als
+$$
+\lambda_E^*(A)\coloneqq
+\inf\Bigl\{\sum_{n\in\Bbb N}\lambda_{\mathcal E_E}(R_n):R_n\in\mathcal R_E\ \forall n\in\Bbb N,\ A\subseteq\bigcup_{n\in\Bbb N} R_n\Bigr\}.
+$$
+Dies setzt $$\lambda_{\mathcal E_E}$$ fort, ist aber nicht mehr $$\sigma$$-additiv.
+</div>
+
+# Eine Menge $$A\in\mathcal P(E)$$ heißt //Lebesgue-messbar,// falls zu jedem $$\epsilon>0$$ ein $$B\in\mathcal E_E$$ existiert mit $$\lambda_E^*(A\sd B)\le\epsilon.$$ Sei $$\mathcal F_E\subset\mathcal P(E)$$ die Menge der Lebesgue-messbaren Mengen. Die Einschränkung $$\lambda_E$$ von $$\lambda_E^*$$ auf $$\mathcal F_E$$ heißt das //Lebesgue-Maß// auf $$E.$$ $$\mathcal F_E$$ ist eine $$\sigma$$-[[Algebra|Sigma-Algebra]] und $$\lambda_E$$ ein [[Maß]] darauf
+
+# <div>
+Definiere
+$$
+E_{i,j}\coloneqq [i,i+1]\times[j,j+1],\quad
+E_{i,j}^0\coloneqq{[i,i+1[}\times{[j,j+1[}
+$$
+und alles mit Index $${i,j}$$ für $$E_{i,j}$$ genau so wie zuvor für $$E$$. Eine Menge $$A\subseteq\Bbb R^2$$ heißt nun //Lebesgue-messbar,// wenn für alle $$i,j\in\Bbb Z$$ $$A\cap E_{i,j}$$ in $$\mathcal F_{i,j}$$ liegt. Ist $$\mathcal F$$ die Menge der Lebesgue-messbaren Teilmengen des $$\Bbb R^2,$$ so definieren wir das zweidimensionale Lebesgue-Maß $$\lambda\colon\mathcal F\to[0,\infty]$$ als
+$$
+\lambda(A)\coloneqq\sum_{i,j\in\Bbb Z} \lambda_{i,j}(A\cap E_{i,j}).
+$$
+$$\lambda$$ ist ein Maß auf der $$\sigma$$-Algebra $$\mathcal F.$$ Es handelt sich um die [[Vervollständigung|Vollständiger Maßraum]] des [[Lebesgue-Borel-Maß]]es.
+</div>

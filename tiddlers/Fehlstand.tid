@@ -1,11 +1,14 @@
 created: 20180407140007574
-modified: 20210118213437025
+modified: 20180410191952490
+revision: 0
 tags: Permutation
 title: Fehlstand
 type: text/vnd.tiddlywiki
 
 Ist $$\sigma\in S_n$$ eine [[Permutation]], so nennt man jedes Paar $$i,j\in\{1,\ldots,n\}$$ mit
+
 $$
 i<j,\quad\sigma(i)>\sigma(j)
 $$
+
 einen //Fehlstand// von $$\sigma$$.

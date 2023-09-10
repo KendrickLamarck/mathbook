@@ -1,28 +1,25 @@
 created: 20180408200508008
 creator: Leander
-modified: 20201209224347408
+modified: 20181113211355887
 modifier: Leander
+revision: 0
 tags: Zahldarstellung
 title: Komplement (Zahldarstellung)
 type: text/vnd.tiddlywiki
 
 Für $$\ell\in\mathbb N\setminus\{0\},\ b\in\mathbb N\setminus\{0,1\}$$ und $$n\in\{0,\ldots,b^\ell\}$$ ist
+
 $$
 K_b^\ell(n)\coloneqq (b^\ell-n)\mod b^\ell
 $$
-das //$$\ell$$-stellige $$b$$-Komplement// von $$n$$.
 
-@@.theorem
-<div>
+das //$$\ell$$-stellige $$b$$-Komplement// von $$n$$.
 
 ''Lemma.''
 Für $$\ell\ge 1,\,b\ge 2$$ und $$n=\sum_{i=0}^{\ell-1}z_ib^i$$ mit $$z_i\in\{0,\ldots,b-1\}$$ gilt:
 
 # $$K_b^\ell(n+1)=\sum_{i=0}^{\ell-1}(b-1-z_i)b^i$$ sowie $$K_b^\ell(0)=0$$,
 # $$K_b^\ell\left(K_b^\ell(n)\right)=n$$.
-
-</div>
-@@
 
 Berechne also das $$b$$-Komplement wie folgt:
 

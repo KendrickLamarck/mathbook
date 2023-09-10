@@ -1,11 +1,14 @@
 created: 20190219235313250
-modified: 20200929125759184
+modified: 20190224182225240
+revision: 0
 tags: [[Projective conic]]
 title: Steiner's generation of conics
 type: text/vnd.tiddlywiki
 
 Let $$P_1,P_2\in\Bbb R\mathrm P^2.$$ Consider them as lines in $$\Bbb R\mathrm P^{2*}.$$ Let $$f\colon P_1\to P_2$$ be a [[projective transformation|Projective transformation]] mapping each line through $$P_1$$ to a line through $$P_2.$$ Then the set
+
 $$
 Q=\{\, \ell \cap f(\ell) \mid \ell \in P_1 \,\}
 $$
+
 is a [[conic|Projective conic]] in $$\Bbb R\mathrm P^2$$ which is non-degenerate if and only if $$f$$ does not map the line $$P_1 P_2$$ to itself.

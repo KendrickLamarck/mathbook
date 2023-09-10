@@ -1,16 +1,19 @@
 created: 20180722233923924
 creator: Leander
-list: [[Duale Basis]] [[Duale Abbildung]] [[Darstellende Matrix der dualen Abbildung]] Annullator [[Kern und Bild der dualen Abbildung]] Bidualraum [[Bilinearformen und dualität]] [[Dualraum von Quotientenvektorräumen]]
-modified: 20210622115352438
+list: [[Duale Basis]] [[Duale Abbildung]] [[Darstellende Matrix der dualen Abbildung]] Annullator [[Kern und Bild der dualen Abbildung]] Bidualraum
+modified: 20191004224422101
 modifier: Leander
+revision: 0
 tags: Vektorraum
 title: Dualraum
 type: text/vnd.tiddlywiki
 
 Ist $$V$$ ein $$K$$-[[Vektorraum]], so heißt
+
 $$
 V^*\coloneqq\hom_K(V,K)
 $$
+
 der //Dualraum// von $$V.$$ Die Elemente von $$V^*$$ heißen //Linearformen// auf $$V.$$
 
 !! Duale Basis

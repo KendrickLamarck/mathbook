@@ -1,16 +1,19 @@
 created: 20180226125605494
 creator: Leander
 list: 
-modified: 20200929124731860
+modified: 20180504185828746
 modifier: Leander
+revision: 0
 tags: Potenzreihe
 title: Abel'scher Grenzwertsatz
 type: text/vnd.tiddlywiki
 
 Die reelle [[Potenzreihe]] $$\sum_{k=0}^\infty a_k(x-x_0)^k$$ sei auf dem Intervall $$J\subset\mathbb R$$ konvergent. Dann ist die durch
+
 $$
 f(x) = \sum_{k=0}^\infty a_k(x-x_0)^k
 $$
+
 definierte Funktion [[stetig|Stetigkeit]] auf $$J$$.
 
 ''Bemerkung'': Das ist nur interessant für die Randpunkte des offenen Konvergenzintervalls, denn im Inneren ist die Funktion [[differenzierbar|Differentiation von Potenzreihen]], also erst recht stetig.

@@ -1,12 +1,10 @@
 created: 20180509204602672
 creator: Leander
-modified: 20201103141513693
+modified: 20191229221956765
 modifier: Leander
+revision: 0
 tags: Zusammenhang
 title: Wegzusammenhang
 type: text/vnd.tiddlywiki
 
-Ein topologischer Raum $$X$$ heißt //wegzusammenhängend//, falls es zu je zwei Punkten $$p,q\in X$$ einen Weg von $$p$$ nach $$q$$, d.h. eine [[stetige|Stetigkeit]] Abbildung $$\gamma\colon[0,1]\to X$$ mit $$\gamma(0)=p$$ und $$\gamma(1)=q$$ gibt.
-
-* Wegzusammenhang impliziert zusammenhang, aber nicht umgekehrt.
-* Stetige Funktionen erhalten Wegzusammenhang.
+Ein topologischer Raum $$X$$ heißt //wegzusammenhängend//, falls es zu je zwei Punkten $$p,q\in X$$ einen Weg von $$p$$ nach $$q$$, d.h. eine [[stetige|Stetigkeit]] Abbildung $$c\colon[0,1]\to X$$ mit $$c(0)=p$$ und $$c(1)=q$$ gibt.

@@ -1,11 +1,10 @@
 created: 20180502124651552
 creator: Leander
-modified: 20200601185034101
+modified: 20180626195808428
 modifier: Leander
 revision: 0
-tags: Baum misc
+tags: Datenstrukturen Baum
 title: Heap
-type: text/vnd.tiddlywiki
 
 Fasst man ein Array A [[als Binärbaum auf|Array als Binärbaum]], so besitzen sie die //MaxHeap//-Eigenschaft, falls ``A[parent(i)] >= A[i]`` für $$1<i\le n$$. Analog definiert man //MinHeap//.
 

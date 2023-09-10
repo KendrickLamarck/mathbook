@@ -1,21 +1,25 @@
 created: 20180410213151219
 list: Rundung Maschinengenauigkeit
-modified: 20201209224458850
+modified: 20200217213559799
+revision: 0
 tags: Zahldarstellung
 title: Maschinenzahl
 type: text/vnd.tiddlywiki
 
 ''Konvention 1.''
 Es sei $$b\in\mathbb N$$ mit $$b\ge 2$$. Eine Zahl $$x\in\mathbb R$$ der Form
+
 $$
 x=\sigma\cdot\left(\sum_{i=0}^{m-1}z_i\cdot b^{-i}\right)\cdot b^E
 $$
+
 mit $$E\in\mathbb Z$$, $$\sigma\in\{\pm 1\}$$, $$z_i\in\{0,\ldots,b-1\}$$ und $$z_0\ne 0$$ heißt $$m$$-stellige $$b$$-adische //normalisierte Gleitkommazahl// mit //Mantisse// $$\sum_{i=0}^{m-1}z_i\cdot b^{-i}$$ und //Exponent// $$E$$.
 
 Die Menge $$F(b,m,E_{\min},E_{\max})$$ der so darstellbaren Zahlen heißt //Maschinenzahlbereich//.
 
 ''Konvention 2.''
 In anderen Definitionen geht die Summe häufig von $$i=1$$ bis $$m$$ und man fordert $$z_1\ne 0.$$ Der Maschinenzahlbereich wird auch als $$\Bbb M(b,m,e)$$ angegeben, wobei gemeint ist, dass der Exponent $$e$$ Stellen hat. Eine Zahl ist dann also von der Form
+
 $$
 \pm (z_1 b^{-1} +\dots+ z_m b^{-m})
 b^{\pm(\beta_1 b^{e-1} +\dots+ \beta_e b^0)}.

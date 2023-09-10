@@ -1,16 +1,20 @@
 created: 20180725115357103
 creator: Leander
-modified: 20210314152453443
+modified: 20191004223956795
 modifier: Leander
+revision: 0
 tags: Dualraum
 title: Duale Abbildung
 type: text/vnd.tiddlywiki
 
 Seien $$V$$ und $$W$$ $$K$$-[[Vektorräume|Vektorraum]] mit $$F\in\hom(V,W)$$ und $$\psi\in W^*.$$ Dann erklären wir die //duale Abbildung// als
+
 $$
 F^*\colon W^*\to V^*,\quad \psi\mapsto F^*(\psi)\coloneqq \psi\circ F.
 $$
+
 Diese Abbildung ist wieder [[linear|Lineare Abbildung]]. Man erhält insgesamt einen [[Isomorphismus]]
+
 $$
 \hom(V,W)\to\hom(W^*,V^*),\quad F\mapsto F^*.
 $$

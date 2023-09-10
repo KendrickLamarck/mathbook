@@ -1,15 +1,18 @@
 caption: Rotationssymmetrische Funktionen
 created: 20190104213315177
 creator: Leander
-modified: 20210323113219043
+modified: 20191011174534429
 modifier: Leander
+revision: 0
 tags: Lebesgue-Integral
 title: Integral rotationssymmetrischer Funktionen
 type: text/vnd.tiddlywiki
 
 Sei $$g\colon {[0,\infty[}\to\Bbb R$$ [[messbar|Messbare Funktion]], dann ist die Abbildung $$x\mapsto g(\|x\|)$$ genau dann über $$\Bbb R^d$$ [[Lebesgue-integrierbar|Lebesgue-Integral]], wenn die Abbildung $$r\mapsto r^{d-1}g(r)$$ über $$[0,\infty[$$ Lebesgue-integrierbar ist, und dann gilt
+
 $$
 \int_{\Bbb R^d} g(\|x\|)\,\lambda_d(\mathrm dx)=
 d\tau_d\int_{[0,\infty[} r^{d-1} g(r)\,\lambda_1(\mathrm dr),
 $$
+
 wobei $$\tau_d=\pi^{d/2}/\Gamma(1+\frac d 2)$$ das [[Volumen]] der $$d$$-dimensionalen [[Einheitssphäre]] ist.

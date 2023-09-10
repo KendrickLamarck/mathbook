@@ -1,13 +1,15 @@
 created: 20180423191435101
 creator: Leander
-modified: 20210326125007221
+modified: 20180725162024458
 modifier: Leander
-tags: [[Derived topologies]] no-toc
+revision: 0
+tags: Topologie
 title: Spurtopologie
-type: text/vnd.tiddlywiki
 
 Sei $$(X,\mathcal T)$$ ein [[topologischer Raum|Topologie]] und sei $$Y\subset X$$. Dann ist
+
 $$
 \mathcal T_Y\coloneqq\{\,U\cap Y:U\in\mathcal T\,\}
 $$
+
 eine Topologie auf $$Y$$, die //Spurtopologie// oder //Unterraumtopologie//.

@@ -1,8 +1,9 @@
 created: 20180420190933516
 creator: Leander
-modified: 20210219161245574
+modified: 20191004165022362
 modifier: Leander
-tags: Endomorphismus
+revision: 0
+tags: Eigenwert
 title: Diagonalisierung
 type: text/vnd.tiddlywiki
 
@@ -23,4 +24,4 @@ V=\operatorname{Eig}(F;\lambda_1)\oplus\dots\oplus\operatorname{Eig}(F;\lambda_k
 
 !! Selbstadjungierte Endomorphismen
 
-{{Spektralsatz}}
+{{Diagonalisierbarkeit selbstadjungierter Endomorphismen}}

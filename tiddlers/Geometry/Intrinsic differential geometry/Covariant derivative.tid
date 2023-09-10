@@ -1,14 +1,18 @@
 created: 20200213232741256
-modified: 20200528133439482
+modified: 20200402184516406
 revision: 0
 tags: Connection
 title: Covariant derivative
 type: text/vnd.tiddlywiki
 
+!! General
+
 Suppose $$\nabla$$ is a [[connection|Connection]] on some [[vector bundle|Vector bundle]] $$E\to M.$$ If $$\gamma\colon I\to M$$ is a curve and $$\sigma$$ is a section of $$E$$, then we write the //covariant derivative// of $$\sigma$$ along $$\gamma$$ (conflating $$\sigma$$ and $$\sigma\circ\gamma$$) as
+
 $$
 \frac{\D}{\d t}\sigma\coloneqq\nabla_{\dot\gamma}\sigma.
 $$
+
 If $$X$$ is any vector field, we also call $$\nabla_X \sigma$$ the covariant derivative of $$\sigma$$ in direction $$X.$$
 
 !! Special case: submanifolds of $$\R^n$$
@@ -16,6 +20,7 @@ If $$X$$ is any vector field, we also call $$\nabla_X \sigma$$ the covariant der
 Let $$M^m$$ be a smooth submanifold of $$\R^n$$. Let $$X$$ be a vector field on $$\R^n$$ restricted to $$M.$$ At every point $$p \in M$$ there is a decomposition $$\T_p \R^n = \T_p M \oplus \mathrm N_p M$$ into the tangent and normal parts and we write the projections to these parts as $$X_p=\pi^\parallel X_p+\pi^\perp X_p.$$
 
 Now consider a curve $$\gamma$$ in $$M.$$ Then we can take the derivative $$\d X / \d t$$ (conflating $$X$$ and $$X\circ\gamma$$) of $$X$$ along $$\gamma$$ and we define the //covariant derivative// of $$X$$ along $$\gamma$$ as the vector field
+
 $$
 \frac{\D X}{\d t} \coloneqq \pi^\parallel {\left( \frac{\d X}{\d t} \right)}.
 $$

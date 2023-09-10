@@ -1,15 +1,15 @@
 created: 20180708143210023
 creator: Leander
-modified: 20210214161401549
+modified: 20180708143952828
 modifier: Leander
+revision: 0
 tags: Algorithmus
 title: Sprache
-type: text/vnd.tiddlywiki
 
-Sei $$\Sigma \ne \varnothing$$ ein endliche Menge.
+Sei $$\Sigma\ne\varnothing$$ ein endliche Menge.
 
-* Für $$k\in\N$$ ist $$\Sigma^k$$ die Menge der Funktionen $$\{1,\dots,k\}\to\Sigma.$$
+* Für $$k\in\mathbb N$$ ist $$\Sigma^k$$ die Menge der Funktionen $$\{1,\dots,k\}\to\Sigma.$$
 * Schreibt man $$f\in\Sigma^k$$ als Folge $$f(1),\dots,f(k),$$ so nennt man es //Wort// oder //Zeichenkette// über dem //Alphabet// $$\Sigma.$$
 * Das einzige Element von $$\Sigma^0$$ nennt man //leeres Wort// und schreibt es manchmal $$\varepsilon.$$
-* $$\Sigma^*\coloneqq\bigcup_{k\in\N}\Sigma^k.$$
+* $$\displaystyle{\Sigma^*\coloneqq\bigcup_{k\in\mathbb N}\Sigma^k}.$$
 * Eine Teilmenge $$L\subset\Sigma^*$$ heißt //Sprache// über dem Alphabet $$\Sigma.$$

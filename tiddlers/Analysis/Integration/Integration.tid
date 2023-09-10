@@ -1,11 +1,11 @@
 created: 20181023222623310
 creator: Leander
 list: Regelintegral Riemann-Integral [[Haar'sches Maß]] [[Monoton approximierbare Funktionen]] Lebesgue-Integral [[Stetige Teilung der Eins]] [[Glatte Teilung der Eins]]
-modified: 20200530144041055
+modified: 20200411160818698
 modifier: Leander
 revision: 0
 tags: Analysis
 title: Integration
 type: text/vnd.tiddlywiki
 
-{{||$:/_templates/tree}}
+{{||$:/_mytemplates/treeTemplate}}

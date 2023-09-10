@@ -1,12 +1,15 @@
 created: 20180106235903503
 list: 
-modified: 20201116152817203
+modified: 20191003222758986
+revision: 0
 tags: no-toc [[Ableitung in R]]
 title: Rechenregeln für die Ableitung
 type: text/vnd.tiddlywiki
 
 Seien $$f,g\colon J\to\mathbb{R}$$ [[differenzierbar|Ableitung]] in $$x \in J$$ und sei $$c \in \mathbb{R}$$. Dann sind auch die [[Funktionen|Abbildung]] $$f+g,\ cf,\ fg\colon J \to \mathbb{R}$$ in $$x$$ differenzierbar. Hat $$g$$ keine Nullstellen in $$J,$$ so ist auch $$f/g:J \to \mathbb{R}$$ in $$x$$ differenzierbar.
+
 In diesem Fall gilt:
+
 $$
 \begin{aligned}
 (f+g)'(x) &= f'(x)+g'(x),\\

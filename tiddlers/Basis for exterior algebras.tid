@@ -1,14 +1,17 @@
 created: 20191122205453383
-modified: 20200923184717467
+modified: 20200313211156043
+revision: 0
 tags: [[Exterior algebra]] no-toc
 title: Basis for exterior algebras
 type: text/vnd.tiddlywiki
 
 If $$e_1,\dots,e_m$$ is a basis for $$V,$$ then
+
 $$
-\{\,e_{i_1\cdots i_k}\coloneqq e_{i_1}\wedge\dots\wedge e_{i_k} \mid
-1 \le i_1 < \dots < i_k \le m\,\}
+\{e_{i_1\cdots i_k}\coloneqq e_{i_1}\wedge\dots\wedge e_{i_k} \mid
+1 \le i_1 < \dots < i_k \le m\}
 $$
+
 is a basis for $$\Lambda_k V.$$ From this it follows that:
 
 * $$\dim\Lambda_k V = \binom m k,$$ in particular

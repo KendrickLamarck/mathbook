@@ -1,13 +1,15 @@
 created: 20180223142523221
 creator: Leander
 list: 
-modified: 20211023125045165
+modified: 20191003234952831
 modifier: Leander
+revision: 0
 tags: no-toc Regelintegral
 title: Partielle Integration in R
 type: text/vnd.tiddlywiki
 
 Seien $$u,v\colon [a,b]\to\mathbb R$$ [[differenzierbar|Ableitung]] mit [[stetigen|Stetigkeit]] Ableitungen. Dann gilt (natürlich auch für unbestimmte Integrale)
+
 $$
 \int_a^b u'(x)v(x)\,\mathrm dx=(uv)\big|_a^b-\int_a^b u(x)v'(x)\,\mathrm dx.
 $$

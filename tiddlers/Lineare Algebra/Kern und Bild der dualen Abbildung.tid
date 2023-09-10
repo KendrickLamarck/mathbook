@@ -1,29 +1,34 @@
 created: 20180725124913612
 creator: Leander
-modified: 20201211150857543
+modified: 20191004224001517
 modifier: Leander
+revision: 0
 tags: Dualraum no-toc
 title: Kern und Bild der dualen Abbildung
 type: text/vnd.tiddlywiki
 
 Zu einer [[linearen Abbildung|Lineare Abbildung]] $$F\colon V\to W$$ hat man ein Diagramm
+
 $$
 \ker F\subset V\xrightarrow{F}\operatorname{Im}F\subset W,
 $$
+
 und entsprechend für die [[duale Abbildung|Duale Abbildung]]
+
 $$
 V^*\supset\operatorname{Im}F^*\xleftarrow{F^*}W^*\supset\ker F^*.
 $$
 
-@@.theorem
 ''Satz.'' Für jede lineare Abbildung $$F\colon V\to W$$ zwischen [[endlichdimensionalen|Dimension]] [[Vektorräumen|Vektorraum]] gilt
+
 $$
 \operatorname{Im}F^*=(\ker F)^0,\qquad\ker F^*=(\operatorname{Im}F)^0.
 $$
 
 ''Korollar 1.''
-$$\operatorname{Rang}F^*=\operatorname{Rang}F.$$
+$$
+\operatorname{Rang}F^*=\operatorname{Rang}F.
+$$
 
 ''Korollar 2.''
 Für jede Matrix $$A\in K^{m\times n}$$ gilt wegen der [[transponierten darstellenden Matrix|Darstellende Matrix der dualen Abbildung]] Zeilenrang=Spaltenrang.
-@@

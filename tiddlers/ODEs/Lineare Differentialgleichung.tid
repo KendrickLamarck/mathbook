@@ -1,33 +1,39 @@
 created: 20180801132454460
 creator: Leander
-list: [[Hauptsatz über lineare Differentialgleichungen]] [[Lineare Differentialgleichung mit konstanten Koeffizienten]] [[Lineare Differentialgleichung höherer Ordnung]] [[Lineare Differentialgleichung höherer Ordnung mit konstanten Koeffizienten]] [[Linear ODEs with periodic coefficients]] Randwertaufgabe [[Standard basis of solutions of linear ODEs]]
-modified: 20201201173047882
+list: [[Hauptsatz über lineare Differentialgleichungen]] [[Lineare Differentialgleichung mit konstanten Koeffizienten]] [[Lineare Differentialgleichung höherer Ordnung]] [[Lineare Differentialgleichung höherer Ordnung mit konstanten Koeffizienten]]
+modified: 20190413152506933
 modifier: Leander
+revision: 0
 tags: [[Gewöhnliche Differentialgleichung]]
 title: Lineare Differentialgleichung
 type: text/vnd.tiddlywiki
 
 Eine //lineare Differentialgleichung 1. Ordnung// auf einem [[offenen|Offenheit]] Intervall $$J\subset\mathbb R$$ ist eine [[Differentialgleichung|Gewöhnliche Differentialgleichung]] der Form
+
 $$
 \dot x=F(t)x+g(t),
 $$
-wobei $$F\colon J\to\operatorname{End}(V)$$ und $$g\colon J\to V$$ [[stetig|Stetigkeit]] sind. Jede Lösung $$x$$ ist dann offenbar [[stetig differenzierbar|Stetige Differenzierbarkeit]]. Wir definieren
+
+wobei
+
 $$
-L\colon\mathcal C^1(J,V)\to\mathcal C^0(J,V),\quad x\mapsto \dot x-F(t)x.
+F\colon J\to\operatorname{End}(V),\quad t\mapsto F(t)
 $$
-Dann ist $$L$$ eine [[lineare Abbildung|Lineare Abbildung]]. Die auf $$J$$ definierten Lösungen der zugehörigen homogenen linearen Differentialgleichung
+
+und $$g\colon J\to V$$ [[stetig|Stetigkeit]] sind. Jede Lösung $$x$$ ist dann offenbar [[stetig differenzierbar|Stetige Differenzierbarkeit]]. Wir definieren
+
+$$
+\mathrm L\colon\mathcal C^1(J,V)\to\mathcal C^0(J,V),\quad x\mapsto \dot x-F(t)x.
+$$
+
+Dann ist $$\mathrm L$$ eine [[lineare Abbildung|Lineare Abbildung]]. Die auf $$J$$ definierten Lösungen der zugehörigen homogenen linearen Differentialgleichung
+
 $$
 \dot x=F(t)x
 $$
-bilden deshalb einen [[Vektorraum]] $$\ker L$$ und alle Lösungen auf $$J$$ erhält man, indem man zu einer partikulären Lösung $$\tilde x$$ alle Lösungen der homogenen Gleichung addiert.
 
-@@.theorem
-<div>
+bilden deshalb einen [[Vektorraum]] $$\ker \mathrm L$$ und alle Lösungen auf $$J$$ erhält man, indem man zu einer partikulären Lösung $$\tilde x$$ alle Lösungen der homogenen Gleichung addiert.
+
+!! Hauptsatz
 
 {{Hauptsatz über lineare Differentialgleichungen}}
-
-</div>
-
-''Theorem.''
-Let all Eigenvalues of $$A \in \R^{n \times n}$$ have $$\Re(\lambda_i)<0$$ and let $$b\colon \R \to \R^n$$ be a bounded function. Then $$\dot{x} = Ax + b(t)$$ has a unique solution which is bounded on $$\R.$$
-@@

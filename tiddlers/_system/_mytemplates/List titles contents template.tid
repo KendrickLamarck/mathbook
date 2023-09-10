@@ -1,0 +1,14 @@
+created: 20170825231234437
+modified: 20200411160438433
+revision: 0
+title: $:/_mytemplates/List titles contents template
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}]">
+<$link to={{!!title}}>
+<h1>
+<$view field="title"/>
+</h1>
+</$link>
+<$transclude mode="block"/>
+</$list>

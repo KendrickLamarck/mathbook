@@ -1,8 +1,8 @@
 created: 20190616004726261
-modified: 20200818164450702
+modified: 20190705142117003
+revision: 0
 tags: Stochastik
 title: Konvergenz in Verteilung
-type: text/vnd.tiddlywiki
 
 Seien $$X,X_1,X_2,\dots$$ [[Zufallsvariablen|Zufallsvariable]] mit [[Verteilungsfunktionen|Verteilungsfunktion]] $$F,F_1,F_2,\dots.$$ Wir sagen, die Folge $$(F_n)$$ //konvergiert schwach gegen $$F$$// oder die Folge $$(X_n)$$ //konvergiert in Verteilung gegen $$X,$$// falls
 
@@ -10,19 +10,6 @@ $$
 \lim_{n\to\infty} F_n(x)=F(x)
 $$
 
-in allen Stetigkeitspunkten $$x$$ von $$F.$$ Wir schreiben
-$$F_n\Rightarrow F,\ F_n\xrightarrow w F,\ X_n\Rightarrow X,\ X_n\xrightarrow d X.$$
+in allen Stetigkeitspunkten $$x$$ von $$F.$$
 
-!! Mehrdimensional
-
-Wir sagen, eine Folge $$(Y_n)$$ von $$\R^s$$-wertigen Zufallsvariablen konvergiert in Verteilung gegen einen Zufallsvektor $$Y$$ mit Verteilung $$Q,$$ wenn für alle $$A \in \Borel(\R^s)$$ mit $$Q(\partial A) = 0$$ gilt:
-$$
-\lim_{n \to \infty} \prob(Y_n \in A) = Q(A).
-$$
-Es reicht aus, dies für alle Oktanten $$\lopenI{-\infty,a_1} \times\dots\times \lopenI{-\infty,a_s}$$ mit $$a_i \in \lopenI{-\infty,\infty}$$ zu zeigen.
-
-Wenn $$X_n \xrightarrow{d} X,$$ so gelten folgende Aussagen:
-
-* Ist $$f\colon \R^s \to \R^r$$ stetig, so gilt $$f(X_n) \xrightarrow{d} f(X).$$
-* Wenn $$|Y_n| \xrightarrow{\prob} 0,$$ so gilt $$X_n + Y_n \xrightarrow{d} X.$$
-* Sei $$M$$ eine feste $$r \times s$$-Matrix und $$(M_n)$$ eine Folge zufälliger Matrizen in $$\R^{r \times s}.$$ Gilt dann $$\|M_n-M\| \xrightarrow{\prob} 0$$ (für eine beliebige Norm), so folgt $$M_n X_n \xrightarrow{d} MX.$$
+Wir schreiben $$F_n\Rightarrow F,\ F_n\xrightarrow w F,\ X_n\Rightarrow X,\ X_n\xrightarrow d X.$$

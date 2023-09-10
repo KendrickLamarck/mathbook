@@ -1,23 +1,30 @@
 created: 20180525163821536
 creator: Leander
-modified: 20210314145616417
+modified: 20191004200452116
 modifier: Leander
+revision: 0
 tags: Skalarprodukt no-toc
 title: Standardskalarprodukt in R
 type: text/vnd.tiddlywiki
 
 Das Standard- oder kanonische [[Skalarprodukt]] im $$\mathbb R^n$$ ist für $$x,y\in\mathbb R^n$$ definiert als
+
 $$
 \langle x,y\rangle\coloneqq\sum_{i=1}^n x_i y_i=x^\mathrm T y.
 $$
+
 Definiert man weiter
+
 $$
 \|x\|\coloneqq\sqrt{\langle x,x\rangle},
 $$
+
 so erhält man die [[Euklidische Norm|lp-Norm]] oder 2-[[Norm]].
 
 Mit diesem Skalarprodukt und der dazugehörigen Norm kann man auch eine Winkelmessung erklären: Für von Null verschiedene Vektoren $$x,y\in\mathbb R^n$$ definiert man den Winkel zwischen $$x$$ und $$y$$ als
+
 $$
 \measuredangle(x,y)\coloneqq\arccos\frac{\langle x,y\rangle}{\|x\|\cdot\|y\|}.
 $$
+
 Weiter gibt es die geometrische Interpretation, dass der eine Vektor senkrecht auf den anderen projiziert wird und dann die Längen der resultierenden Vektoren multipliziert werden.

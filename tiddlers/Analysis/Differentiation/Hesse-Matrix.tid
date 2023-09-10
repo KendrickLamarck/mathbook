@@ -1,25 +1,22 @@
 created: 20180907141051891
 creator: Leander
-modified: 20220102192217565
+modified: 20190411212352629
 modifier: Leander
+revision: 0
 tags: [[Höhere Ableitungen]]
 title: Hesse-Matrix
 type: text/vnd.tiddlywiki
 
-Sei $$f\colon\R^n\supset G\to\R$$ eine zweimal [[stetig differenzierbare|Stetige Differenzierbarkeit]] Funktion. Dann ist die //Hesse-Matrix// von $$f$$ am Punkt $$p\in G$$ definiert durch
+Sei $$f\colon\mathbb R^n\supset G\to\mathbb R$$ eine zweimal [[stetig differenzierbare|Stetige Differenzierbarkeit]] Funktion. Dann ist die //Hesse-Matrix// von $$f$$ am Punkt $$p\in G$$ definiert durch
+
 $$
 H_f(p)\coloneqq
 \begin{pmatrix}
-\displaystyle\frac{\partial^2 f}{{\partial x_1}^2}(p)
-  &\cdots
-  &\displaystyle\frac{\partial^2 f}{\partial x_1 \partial x_n}(p) \\
-\vdots
-  &
-  &\vdots \\[1ex]
-\displaystyle\frac{\partial^2 f}{\partial x_n \partial x_1}(p)
-  &\cdots
-  &\displaystyle\frac{\partial^2 f}{{\partial x_n}^2}(p) \\
+\partial_1\partial_1 f(p)&\cdots&\partial_1\partial_n f(p) \\
+\vdots                   &     &\vdots                    \\
+\partial_n\partial_1 f(p)&\cdots&\partial_n\partial_n f(p) \\
 \end{pmatrix}
-\in\R^{n\times n}.
+\in\Bbb R^{n\times n}.
 $$
+
 Nach dem [[Satz von Schwarz]] ist sie [[symmetrisch|Symmetrische Matrix]]. Sie ist die [[darstellende Matrix|Darstellende Matrix (Bilinearformen)]] der zweiten Ableitung.

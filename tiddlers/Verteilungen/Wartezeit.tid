@@ -1,9 +1,8 @@
 created: 20190512224451010
-modified: 20200601181857182
+modified: 20190708225152519
 revision: 0
-tags: Verteilung no-toc
+tags: [[Geometrische Verteilung]]
 title: Wartezeit
-type: text/vnd.tiddlywiki
 
 Gegeben sei eine [[Folge]] $$(X_n)_{n\in\Bbb N}$$ [[unabhängig|Stochastische Unabhängigkeit]] [[Bernoulli-verteilter|Bernoulli-Verteilung]] [[Zufallsvariablen|Zufallsvariable]] mit gemeinsamer Erfolgswahrscheinlichkeit $$p>0.$$ Definiere die //Wartezeit auf den ersten Erfolg// als
 

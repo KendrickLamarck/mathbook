@@ -1,18 +1,22 @@
 created: 20191129163359498
-modified: 20200923184834395
+modified: 20191201215528282
+revision: 0
 tags: [[Differential form]] no-toc
 title: Basis for differential forms
-type: text/vnd.tiddlywiki
 
 If we have a coordinate chart $$(U,\varphi),$$ it induces bases $$(\partial_i)$$ and $$(\d x_i)$$ of $$\T_p M$$ and $$\T_p^* M$$ respectively. Similarly, 
+
 $$
 \{\, \d x_{i_1} \wedge\dots\wedge \d x_{i_k} \mid
 1\le i_1 <\dots< i_k\le m \,\}
 $$
+
 forms the standard coordinate basis for $$k$$-forms. Any $$\omega\in\Omega^k M$$ can locally be expressed as
+
 $$
 \omega|_U=\sum_{i_1 <\dots< i_k}
 \omega_{i_1 \cdots i_k}\d x_{i_1} \wedge\dots\wedge \d x_{i_k} =
 \sum_I \omega_I\d x_I
 $$
+
 (where $$I=(i_1,\dots,i_k)$$ is the appropriate multi-index) for some smooth functions $$\omega_I\in\mathcal C^\infty U.$$

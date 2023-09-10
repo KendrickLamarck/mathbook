@@ -1,11 +1,14 @@
 created: 20200323195544884
-modified: 20200920215632327
+modified: 20200323200620791
+revision: 0
 tags: Pullback no-toc
 title: Pullback of the Levi-Civita connection
 type: text/vnd.tiddlywiki
 
 Let $$(N,g)$$ be a Riemannian manifold with [[Levi-Civita connection]] $$\nabla$$ and let $$f\colon M\to N$$ be a diffeomorphism. Define the pullback $$f^*\nabla$$ of $$\nabla$$ by
+
 $$
 (f^*\nabla)_X Y\coloneqq f^{-1}_*(\nabla_{f_* X} f_* Y)
 $$
+
 For $$X,Y\in\mathfrak X(M).$$ Then $$f^*\nabla$$ is the Levi-Civita connection on $$(M,f^*g).$$

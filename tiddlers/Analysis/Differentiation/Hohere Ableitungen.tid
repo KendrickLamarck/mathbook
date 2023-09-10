@@ -1,31 +1,41 @@
 created: 20180611214308645
 creator: Leander
 list: [[Satz von Taylor]] Schrankensatz [[Satz von Schwarz]] Hesse-Matrix [[Höhere Ableitungen und Richtungsableitungen]] [[Höhere Ableitungen auf dem Rn]] [[Assoziativität höherer Ableitungen]] [[Formel für die zweite Ableitung]]
-modified: 20211107175628139
+modified: 20200213230632816
 modifier: Leander
+revision: 0
 tags: Ableitung
 title: Höhere Ableitungen
 type: text/vnd.tiddlywiki
 
 Sei $$L^k(V,W)$$ der [[Vektorraum]] der $$k$$-[[linearen Abbildungen|Lineare Abbildung]] von $$V^k$$ nach $$W$$ und 
+
 $$
 j_k\colon L(V,L^{k-1}(V,W))\to L^k(V,W)
 $$
+
 der kanonische [[Isomorphismus]] mit
+
 $$
 j_k(\Phi)(v_1,\dots,v_k)\coloneqq \Phi(v_1)(v_2,\dots,v_k).
 $$
+
 Ist $$f\colon V\supset G\to W$$ bereits $$(k-1)$$-mal [[differenzierbar|Ableitung]] und ist die $$(k-1)$$-te Ableitung
+
 $$
 \D^{k-1}f\colon G\to L^{k-1}(V,W),\quad x\mapsto \D_x^{k-1}f
 $$
+
 in $$p\in G$$ differenzierbar, so heißt $$f$$ in $$p$$ $$k$$-mal differenzierbar und die $$k$$-te Ableitung in $$p$$ ist gegeben durch
+
 $$\begin{aligned}
 \D_p^k f(v_1,\dots,v_k)&\coloneqq
 j_k(\D_p(\D^{k-1}f))(v_1,\dots,v_k) \\&=
 \D_p(\D^{k-1}f)(v_1)(v_2,\dots,v_k).
 \end{aligned}$$
+
 Die $$k$$-te Ableitung einer $$k$$-mal differenzierbaren Abbildung $$f\colon V\supset G\to W$$ an einer Stelle $$p$$ ist also eine $$k$$-lineare Abbildung
+
 $$
 \D_p^k f\in L^k(V,W).
 $$

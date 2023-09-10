@@ -1,13 +1,13 @@
 created: 20180611212106786
 creator: Leander
-modified: 20210303001755912
+modified: 20180611212224580
 modifier: Leander
+revision: 0
 tags: [[Metrischer Raum]]
 title: Isometrie
-type: text/vnd.tiddlywiki
 
 Eine Abbildung $$f\colon X\to Y$$ zwischen [[metrischen Räumen|Metrischer Raum]] $$(X,d),(Y,\tilde d)$$ heißt //isometrisch// oder eine //Isometrie//, wenn für alle $$x_1,x_2\in X$$
+
 $$
 \tilde d(f(x_1),f(x_2))=d(x_1,x_2).
 $$
-Isometrien sind automatisch injektiv. Manchmal wird die Surjektivität für Isometrien gefordert, andernorts heißen surjektive Isometrien //Isometrische Isomorphismen.//

@@ -1,16 +1,20 @@
 created: 20180107011851521
 creator: Leander
-modified: 20200929131150173
+modified: 20191008203712997
 modifier: Leander
-tags: no-toc [[Hyperbolic geometry]]
+revision: 0
+tags: no-toc Hyperbelfunktionen
 title: Areafunktionen
 type: text/vnd.tiddlywiki
 
 Die [[Hyperbelfunktionen]] $$\sinh$$ und $$\tanh$$ sind injektiv und besitzen daher [[Umkehrfunktionen|Umkehrabbildung]]. Diese werden //Area Sinus Hyperbolicus// und //Area Tangens Hyperbolicus// genannt:
+
 $$
 \sinh^{-1} = \operatorname{Arsinh}\colon\mathbb{R} \to \mathbb{R}, \qquad \tanh^{-1} = \operatorname{Artanh}\colon\left]-1,1\right[ \to \mathbb{R}.
 $$
+
 Es gilt
+
 $$
 \operatorname{Arsinh}(x) = \log\left(x+\sqrt{x^2+1}\right), \qquad \operatorname{Artanh}(x) = \log\sqrt{\frac{1+x}{1-x}}.
 $$

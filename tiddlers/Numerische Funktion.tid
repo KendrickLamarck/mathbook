@@ -1,7 +1,8 @@
 created: 20181217152132353
-modified: 20210227170846467
+modified: 20191011211500047
+revision: 0
 tags: Borel-sigma-Algebra
 title: Numerische Funktion
 type: text/vnd.tiddlywiki
 
-Sei $$\REx\coloneqq [-\infty,\infty] = \R \cup{-\infty,+\infty}.$$ Wir definieren außerdem $$\REx\coloneqq\sigma(\mathcal B\cup\{-\infty\}\cup\{\infty\}),$$ wobei $$\mathcal B$$ die [[Borel-sigma-Algebra]] ist. Eine Funktion $$f\colon\Omega\to\REx$$ heißt //numerisch.//
+Sei $$\overline\mathbb R\coloneqq [-\infty,\infty].$$ Wir definieren außerdem $$\overline\mathcal B\coloneqq\sigma(\mathcal B\cup\{-\infty\}\cup\{\infty\}),$$ wobei $$\mathcal B$$ die [[Borel-sigma-Algebra]] ist. Eine Funktion $$f\colon\Omega\to\overline\mathbb R$$ heißt //numerisch.//

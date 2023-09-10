@@ -1,7 +1,8 @@
 created: 20180430171946458
 creator: Leander
-modified: 20201209223221297
+modified: 20200302211358260
 modifier: Leander
+revision: 0
 tags: [[Metrischer Raum]] Numerik
 title: Banach'scher Fixpunktsatz
 type: text/vnd.tiddlywiki
@@ -11,6 +12,7 @@ Seien $$(X,d)$$ ein nicht-leerer, [[vollständiger|Vollständigkeit]] [[metrisch
 * Der Satz gilt auch, wenn nur $$f^m=f\circ\dots\circ f$$ eine Kontraktion ist für ein $$m\in\N.$$
 
 * <div>Es gelten die a priori- und a posteriori Fehlerabschätzungen
+
 $$
 \|x^*-x_n\|\le\frac{\alpha^n}{1-\alpha}\|x_1-x_0\|,\quad
 \|x^*-x_n\|\le\frac{\alpha}{1-\alpha}\|x_n-x_{n-1}\|.

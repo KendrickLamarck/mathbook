@@ -1,19 +1,19 @@
 created: 20190510071003657
-modified: 20200816162723958
+modified: 20190715220619669
+revision: 0
 tags: Verteilung
 title: Gamma-Verteilung
-type: text/vnd.tiddlywiki
 
 Eine [[Zufallsvariable]] $$T$$ heißt //Gamma-verteilt// zu $$q,\lambda>0,$$ falls ihre [[Dichte]] folgende Form hat:
 
 $$
-f_{q,\lambda}(x)=
-\frac{\lambda^q}{\Gamma(q)} x^{q-1}e^{-\lambda x}\mathbf 1_{]0,\infty[}
+f_{\lambda,q}(x)=
+\frac{\lambda^q}{\Gamma(q)} x^{q-1}e^{-\lambda x}\mathbf 1_{]0,\infty[}.
 $$
 
-(siehe auch [[Gamma-Funktion]]). Wir schreiben $$T\sim\Gamma_{q,\lambda}.$$
+Wir schreiben $$T\sim\Gamma_{q,\lambda}.$$
 
-!! Beziehung zu anderen Verteilungen
+---
 
-* {{Beziehung von Exponential- und Gammaverteilung}}
-* {{Beziehung von Gamma- und Beta-Verteilung}}
+* Es gilt $$\operatorname{Exp}(\lambda)=\Gamma_{1,\lambda}.$$
+* Die Summe unabhängig $$\operatorname{Exp}(\lambda)$$-verteilter Zufallsvariablen $$T_1,\dots,T_n$$ ist $$\Gamma_{n,\lambda}$$-verteilt.

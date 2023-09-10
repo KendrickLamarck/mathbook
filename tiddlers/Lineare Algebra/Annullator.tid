@@ -1,24 +1,23 @@
 created: 20180725111711107
 creator: Leander
-modified: 20201016150409900
+modified: 20181229135012190
 modifier: Leander
+revision: 0
 tags: Dualraum
 title: Annullator
-type: text/vnd.tiddlywiki
 
 Ist $$V$$ ein $$K$$-[[Vektorraum]] und $$U\subset V$$ ein [[Untervektorraum]], so heißt
+
 $$
 U^0\coloneqq\{\,\varphi\in V^*:\varphi|_U=0\,\}\subset V^*
 $$
+
 Der zu $$U$$ //orthogonale Raum// oder der //Annullator// von $$U$$. Er ist ebenfalls ein Untervektorraum.
 
-* <div>Es gilt die Dimensionsformel
+Es gilt
+
 $$
 \dim U^0=\dim V-\dim U.
 $$
-Genauer: Ist $$(u_1,\dots,u_k)$$ [[Basis]] von $$U$$ und $$\mathcal B=(u_1,\dots,u_k,v_1,\dots,v_r)$$ Basis von $$V,$$ so bilden die Linearformen $$v_1{}^*,\dots,v_r{}^*$$ eine Basis von $$U^0.$$</div>
 
-* <div>Sind $$U_1$$ und $$U_2$$ Untervektorräume eines endlichdimensionalen Vektorraumes, so gilt
-$$
-(U_1 \cap U_2)^0 = U_1{}^0 + U_2{}^0.
-$$</div>
+Genauer: Ist $$(u_1,\dots,u_k)$$ [[Basis]] von $$U$$ und $$\mathcal B=(u_1,\dots,u_k,v_1,\dots,v_r)$$ Basis von $$V,$$ so bilden die Linearformen $$v_1^*,\dots,v_r^*$$ eine Basis von $$U^0.$$

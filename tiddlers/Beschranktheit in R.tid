@@ -1,5 +1,5 @@
 created: 20171123173357184
-modified: 20200619220723801
+modified: 20191011223541857
 revision: 0
 tags: Ordnungstheorie
 title: Beschränktheit in R
@@ -18,5 +18,7 @@ Entsprechend definiert man //untere Schranke,// //Infimum// und //Minimum.//
 * Falls A nicht nach oben bzw. unten beschränkt ist, schreibt man $$\sup A = +\infty$$ bzw. $$\inf A = -\infty$$.
 
 * Für die leere Menge schreibt man, weil jede Zahl eine obere/untere Schranke ist, $$\sup \varnothing = -\infty$$ und $$\inf \varnothing = +\infty$$.
+
+---
 
 {{Existenz von Infimum, Supremum und Folgen}}

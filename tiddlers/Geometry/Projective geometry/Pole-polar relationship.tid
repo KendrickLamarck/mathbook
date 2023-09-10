@@ -1,15 +1,18 @@
 created: 20190206095520255
 creator: Leander
-modified: 20200929125647871
+modified: 20191109133501359
 modifier: Leander
+revision: 0
 tags: [[Projective geometry]]
 title: Pole-polar relationship
 type: text/vnd.tiddlywiki
 
 A [[nondegenerate|Ausartungsraum]] [[symmetric|Symmetrische Form]] [[bilinear form|Bilinearform]] $$b$$ on a vector space $$V$$ defines a relation between subspaces of $$P(V)$$: If $$U$$ is a $$k+1$$-dimensional linear subspace of $$V$$ and $$\dim V=n+1,$$ then the orthogonal subspace of $$U$$ with respect to $$b$$ is
+
 $$
 U^\perp\coloneqq \{w\in V\mid q(u,w)=0\ \forall u\in U\}.
 $$
+
 The $$k$$-plane $$P(U)$$ and the $$(n-k-1)$$-plane $$P(U^\perp)$$ in $$P(V)$$ are called //polar// to each other. In particular, this defines a relation between points and hyperplanes.
 
 !! Conics

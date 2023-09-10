@@ -1,14 +1,14 @@
 created: 20180527214531873
 creator: Leander
-modified: 20210314151615764
+modified: 20191121232546060
 modifier: Leander
+revision: 0
 tags: [[Charakteristisches Polynom]] [[Jordan'sche Normalform]] no-toc
 title: Minimalpolynom und charakteristisches Polynom
-type: text/vnd.tiddlywiki
 
 Sei $$A\in K^{n\times n}$$ und das [[charakteristische Polynom|Charakteristisches Polynom]] $$P_A(t)$$ zerfalle in Linearfaktoren. Sei $$m_A(t)$$ das [[Minimalpolynom]] von $$A$$. Dann ist
-$$\begin{aligned}
-P_A(t)&=(\lambda_1-t)^{n_1}\cdots(\lambda_k-t)^{n_k},\\
-m_A(t)&=(\lambda_1-t)^{m_1}\cdots(\lambda_k-t)^{m_k},
-\end{aligned}$$
+
+$$\begin{aligned}P_A(t)&=(\lambda_1-t)^{n_1}\cdots(\lambda_k-t)^{n_k},\\
+m_A(t)&=(\lambda_1-t)^{m_1}\cdots(\lambda_k-t)^{m_k},\end{aligned}$$
+
 wobei $$\lambda_1,\ldots,\lambda_k$$ die verschiedenen [[Eigenwerte|Eigenwert]] von $$A$$ sind. Für alle $$j\in\{1,\ldots,k\}$$ ist $$n_j$$ die algebraische [[Vielfachheit|Vielfachheit von Eigenwerten]] und $$m_j$$ die Größe des größten Jordan-Blocks.

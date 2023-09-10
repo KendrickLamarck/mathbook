@@ -1,21 +1,27 @@
 created: 20180109170526405
 creator: Leander
 list: 
-modified: 20201016130640785
+modified: 20191003221440995
 modifier: Leander
+revision: 0
 tags: Abbildung
 title: Konvexität
 type: text/vnd.tiddlywiki
 
 Seien $$J\subset \mathbb{R}$$ ein Intervall und $$f\colon J \to \mathbb{R}$$. Dann heißt $$f$$ //konvex//, wenn für alle $$x,y,z \in J$$ mit $$x<z<y$$ gilt
+
 $$
 f(z) \leq f(x) + \frac{f(y)-f(x)}{y-x}(z-x).
 $$
+
 Das heißt, dass die Kurve zwischen je zwei Punkten unterhalb der Sekante durch diese Punkte liegt. Eine alternative Charakterisierung ist, dass für alle $$\lambda \in [0,1]$$ und alle $$x,y \in J$$ gelten muss:
+
 $$
 f((1-\lambda)x+\lambda y) \leq (1-\lambda)f(x)+\lambda f(y).
 $$
+
 Oder für $$p\coloneqq\frac{1}{\lambda},q\coloneqq1-\frac{1}{\lambda}$$ mit $$\frac{1}{p}+\frac{1}{q}=1$$:
+
 $$
 f\left(\frac{x}{p}+\frac{y}{q}\right)\le\frac{f(x)}{p}+\frac{f(y)}{q}.
 $$

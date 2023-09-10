@@ -1,21 +1,23 @@
 created: 20180605180215946
 creator: Leander
-modified: 20210314145704299
+modified: 20191004193834769
 modifier: Leander
+revision: 0
 tags: Orthogonalität no-toc
 title: Orthonormalbasis
 type: text/vnd.tiddlywiki
 
 Eine [[orthogonale|Orthogonale Vektoren]] Familie $$(v_1,\dots,v_n)$$ heißt //orthonormal//, falls $$\|v_i\|=1$$ für alle $$i$$ und //Orthonormalbasis//, falls sie auch eine [[Basis]] ist, d.h. eine Basis mit
+
 $$
 \langle v_i,v_j\rangle=\delta_{ij}.
 $$
+
 Ist in der Familie $$v_i\ne 0$$ für alle $$i,$$ so sind die Vektoren [[linear unabhängig|Lineare Unabhängigkeit]].
 
-@@.theorem
 ''Lemma.''
 Sei $$(v_1,\dots,v_n)$$ eine Orthonormalbasis von $$V$$ und $$v\in V$$ beliebig. Setzt man $$\lambda_i\coloneqq\langle v,v_i\rangle,$$ so ist
+
 $$
 v=\lambda_1v_1+\dots+\lambda_nv_n.
 $$
-@@

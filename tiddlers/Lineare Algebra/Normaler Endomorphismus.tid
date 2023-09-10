@@ -1,16 +1,20 @@
 created: 20180627204216675
 creator: Leander
-modified: 20210219161327559
+modified: 20191003204353871
 modifier: Leander
+revision: 0
 tags: [[Adjungierte Abbildung]]
 title: Normaler Endomorphismus
 type: text/vnd.tiddlywiki
 
 Ein [[Endomorphismus]] $$F$$ eines [[unitären|Unitärer Vektorraum]] [[Vektorraums|Vektorraum]] heißt //normal//, wenn
+
 $$
 F\circ F^\mathrm{ad}=F^\mathrm{ad}\circ F.
 $$
+
 Entsprechend heißt eine [[Matrix]] $$A\in\mathbb C^{n\times n}$$ //normal//, wenn
+
 $$
 A\cdot \bar A^\mathrm T=\bar A^\mathrm T\cdot A.
 $$

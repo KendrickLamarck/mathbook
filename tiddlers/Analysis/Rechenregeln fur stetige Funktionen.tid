@@ -1,8 +1,9 @@
 created: 20171225161004202
 creator: Leander
 list: 
-modified: 20201103134212447
+modified: 20191229220121793
 modifier: Leander
+revision: 0
 tags: no-toc Stetigkeit
 title: Rechenregeln für stetige Funktionen
 type: text/vnd.tiddlywiki
@@ -10,7 +11,9 @@ type: text/vnd.tiddlywiki
 Seien $$(X_i,d_i),\,i=1,2,3$$ [[metrische Räume|Metrischer Raum]] und $$f_i\colon X_i\supset G_i\to X_{i+1}$$ für $$i=1,2$$ Abbildungen mit $$f_1(G_1)\subset G_{2}$$. Es sei $$f_1$$ [[stetig|Stetigkeit]] in $$p_1\in G_1$$ und $$f_2$$ stetig in $$p_2\coloneqq f_1(p_1).$$ Dann ist $$f_2\circ f_1\colon X_1\supset G_1\to X_3$$ stetig in $$p_1$$. Kurz: die Komposition stetiger Abbildungen ist stetig.
 
 Ist $$(X,d)$$ ein metrischer Raum und sind $$f,g\colon X\supset G\to\mathbb R$$ stetig in $$p\in G$$, so sind auch die Abbildungen $$f+g,\ f-g,\ fg,\ \lambda f$$ in $$p$$ stetig. Insbesondere ist also
+
 $$
 \mathcal C^0(X,\mathbb R)\coloneqq\{f\colon X\to\mathbb R\mid f\text{ stetig}\}
 $$
+
 ein reller [[Vektorraum]].

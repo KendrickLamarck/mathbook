@@ -1,8 +1,8 @@
 caption: Matrizen
 created: 20170206224656431
 creator: Leander
-list: [[Zeilenraum und Spaltenraum]] Rang [[Inverse Matrix]] [[Rang von Produktmatrizen]] Matrizenmultiplikation [[Symmetrische Matrix]] [[Alternierende Matrix]] [[Hermite'sche Matrix]] [[Allgemeine lineare Gruppe]] [[Spezielle lineare Gruppe]] [[Transposition (Matrizen)]] Elementarmatrizen [[Äquivalente und ähnliche Matrizen]]
-modified: 20200604142410779
+list: [[Transposition (Matrizen)]] [[Zeilenraum und Spaltenraum]] Rang [[Inverse Matrix]] [[Rang von Produktmatrizen]] Matrizenmultiplikation [[Symmetrische Matrix]] [[Alternierende Matrix]] [[Hermite'sche Matrix]] [[Allgemeine lineare Gruppe]] [[Spezielle lineare Gruppe]] Elementarmatrizen [[Äquivalente und ähnliche Matrizen]]
+modified: 20191004232853372
 modifier: Leander
 revision: 0
 tags: [[Lineare Algebra]]

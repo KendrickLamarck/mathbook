@@ -1,16 +1,21 @@
 created: 20180226121155213
 list: 
-modified: 20201112141552040
+modified: 20191003235725774
+revision: 0
 tags: no-toc Reihe Regelintegral
 title: Reihen-Integral-Kriterium
 type: text/vnd.tiddlywiki
 
 Sei $$f\colon {[m,\infty[}\to\mathbb R,\, m\in\mathbb N$$ eine [[monoton fallende|Monotonie]] Funktion mit $$f(x)\ge 0$$ für alle $$x\in{[m,\infty[}$$, die über jedes Intervall $$[m,b]$$ [[integrierbar|Regelfunktion]] ist. Dann existiert das [[uneigentliche Integral|Uneigentliches Integral]]
+
 $$
 \int_m^\infty f(x)\,\mathrm dx
 $$
+
 genau dann, wenn die [[Reihe]]
+
 $$
 \sum_{i=m}^\infty f(i)
 $$
+
 konvergiert.

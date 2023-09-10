@@ -1,24 +1,27 @@
 created: 20181106152953258
 list: [[Adjungierter Differentialoperator]] Gradient [[Divergenz (Differentialoperator)]] Laplace-Operator Rotation
-modified: 20211023125045095
+modified: 20200111000956974
+revision: 0
 tags: Ableitung
 title: Linearer Differentialoperator
 type: text/vnd.tiddlywiki
 
 Für $$\alpha=(\alpha_1,\dots,\alpha_d)\in\N_0^d$$ sei
+
 $$
 |\alpha| \coloneqq \alpha_1+\dots+\alpha_d,\qquad
 \D_i^j   \coloneqq \frac{\partial^j}{\partial x_i^j},\qquad
 \D^\alpha\coloneqq \D_1^{\alpha_1}\cdots\D_d^{\alpha_d}.
 $$
+
 Sei $$U\subset\mathbb R^d$$ [[offen|Offenheit]] und $$a_\alpha\in\mathcal C^\infty(U),\ \alpha\in\mathbb N_0^d.$$ Dann heißt der Operator
+
 $$
 L\coloneqq\sum_{\alpha\in\mathbb N_0^d\colon|\alpha|\le n} a_\alpha\mathrm D^\alpha
 $$
+
 ein //linearer Differentialoperator $$n$$-ter Ordnung.//
 
 Der Raum aller linearen Differentialoperatoren ist ein reeller [[Vektorraum]] über $$\mathcal C^\infty(U).$$ Wir können sie außerdem mit der Komposition verknüpfen, diese ist ist im Allgemeinen jedoch nicht kommutativ.
 
-@@.theorem
 ''Satz.'' {{Adjungierter Differentialoperator}}
-@@

@@ -1,13 +1,16 @@
 created: 20180430174935940
 creator: Leander
-modified: 20201030174908746
+modified: 20191011225929951
 modifier: Leander
+revision: 0
 tags: Kompaktheit no-toc
 title: Kompaktheit von Quadern
 type: text/vnd.tiddlywiki
 
 Seien $$I_1,\ldots, I_n$$ [[abgeschlossene|Abgeschlossenheit]] und [[beschränkte|Beschränktheit (metrische Räume)]] Intervalle in $$\mathbb R$$. Dann ist der abgeschlossene Quader
+
 $$
 Q\coloneqq I_1\times\dots\times I_n
 $$
+
 [[kompakt|Kompaktheit]].

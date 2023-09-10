@@ -1,10 +1,7 @@
 created: 20191020193435230
-modified: 20210314153127147
-tags: Curve no-toc
+modified: 20191020194002628
+revision: 0
+tags: Kurve
 title: Evolute
-type: text/vnd.tiddlywiki
 
-The //evolute// of a regular curve $$\gamma$$ is the curve on which the center of the [[osculating circle|Osculating circle]] moves. It is also the curve [[enveloped|Projective lines enveloping a curve]] by the normals (i.e. the lines spanned by the normal vectors) of $$\gamma.$$ The evolute is given by
-$$
-\gamma - \frac{1}{\kappa}N.
-$$
+The //evolute// of a curve $$\gamma$$ is the curve on which the center of the [[osculating circle|Osculating circle]] moves. It is also the curve [[enveloped|Projective lines enveloping a curve]] by the normals (i.e. the lines spanned by the normal vectors) of $$\gamma.$$

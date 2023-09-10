@@ -1,11 +1,11 @@
 created: 20190509221117631
-modified: 20200702210406586
+modified: 20191011174949219
 revision: 0
 tags: Verteilung
 title: Hypergeometrische Verteilung
 type: text/vnd.tiddlywiki
 
-Seien $$K,n\le N.$$ Das durch die Zähldichte
+Sei $$K\le N,\ n\le N.$$ Das durch die Zähldichte
 
 $$
 H(\cdot;n,N,K)\colon\{0,\dots,n\}\to[0,1],\quad
@@ -14,7 +14,7 @@ k\mapsto\frac
 {\binom N n}
 $$
 
-definierte [[Wahrscheinlichkeitsmaß]] auf $$\{0,\dots,n\}$$ heißt //hypergeometrische Verteilung zu $$n,N$$ und $$K$$// und wird mit $$\operatorname{Hyp}(n,N,K)$$ bezeichnet. Manchmal wird auch die Bezeichnung $$\Hyp(A,B,n)$$ verwendet, die durch $$A+B = N$$ und $$K = B$$ mit der zuvor genannten in Verbindung steht.
+definierte [[Wahrscheinlichkeitsmaß]] auf $$\{0,\dots,n\}$$ heißt //hypergeometrische Verteilung zu $$n,N$$ und $$K$$// und wird mit $$\operatorname{Hyp}(n,N,K)$$ bezeichnet.
 
 Sie modelliert folgendes Zufallsexperiment: Sei eine Grundmenge mit $$N$$ Elementen gegeben, von denen $$K$$ Elemente die Eigenschaft $$E$$ besitzen. Aus der Grundmenge wird $$n$$-mal ohne zurücklegen gezogen. Die Anzahl $$k$$ der gezogenen Elemente, die die Eigenschaft $$E$$ besitzen ist hypergeometrisch verteilt.
 

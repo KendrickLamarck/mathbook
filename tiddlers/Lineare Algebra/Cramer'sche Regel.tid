@@ -1,16 +1,20 @@
 created: 20180410210127242
 creator: Leander
-modified: 20201211150522163
+modified: 20191003213950221
 modifier: Leander
+revision: 0
 tags: [[Lineares Gleichungssystem]]
 title: Cramer'sche Regel
 type: text/vnd.tiddlywiki
 
 Sei $$A\in\operatorname{GL}(n;K)$$, $$b\in K^n$$ und $$x=(x_1,\ldots,x_n)\in K^n$$ die eindeutig bestimmte Lösung des [[Gleichungssystems|Lineares Gleichungssystem]]
+
 $$
 A\cdot x=b.
 $$
+
 Bezeichnen $$a^1,\ldots,a^n$$ die Spaltenvektoren der [[Matrix]] $$A$$, so gilt für jedes $$i\in\{1,\ldots,n\}$$
+
 $$
 x_i=\frac{\det(a^1,\ldots,a^{i-1},b,a^{i+1},\ldots,a^n)}{\det A}.
 $$

@@ -1,24 +1,27 @@
 created: 20190107161903402
 creator: Leander
-modified: 20201116144304780
+modified: 20191011172739992
 modifier: Leander
+revision: 0
 tags: Lebesgue-Integral no-toc
 title: Monotoner Konvergenzsatz
 type: text/vnd.tiddlywiki
 
 Sei $$(f_n)_{n\in\Bbb N}$$ eine [[Folge]] nichtnegativer [[messbarer|Messbare Funktion]] [[numerischer|Numerische Funktion]] Funktionen mit $$f_n\uparrow f$$ $$\mu$$-f.ü. für $$n\to\infty.$$ Dann gilt
+
 $$
 \lim_{n\to\infty}\int f_n\,\mathrm d\mu=\int f\,\mathrm d\mu\in[0,\infty].
 $$
 
-@@.theorem
 ''Korollar.''
 Für beliebige nichtnegative messbare Funktionen $$(f_n)_{n\in\Bbb N}$$ gilt
+
 $$
 \int\sum_{n\in\Bbb N} f_n\,\mathrm d\mu=\sum_{n\in\Bbb N}\int f_n\,\mathrm d\mu.
 $$
+
 Insbesondere gilt für paarweise disjunkte [[messbare|Maß]] Mengen $$(A_n)_{n\in\Bbb N}$$ und jede nichtnegative messbare Funktion $$f$$:
+
 $$
 \int_{\bigcup_{n\in\Bbb N} A_n} f\,\mathrm d\mu=\sum_{n\in\Bbb N}\int_{A_n} f\,\mathrm d\mu.
 $$
-@@

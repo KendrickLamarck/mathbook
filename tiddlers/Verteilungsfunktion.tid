@@ -1,27 +1,21 @@
 created: 20181211152143869
-modified: 20200730205426021
+modified: 20190509195403851
+revision: 0
 tags: Borel-sigma-Algebra
 title: Verteilungsfunktion
 type: text/vnd.tiddlywiki
 
-Zu jeder [[monoton steigenden|Monotonie]], rechtsseitig [[stetigen|Stetigkeit]] Abbildung $$F\colon\R\to\R$$ gibt es genau ein [[Maß]] $$\mu$$ auf $$(\R,\Borel)$$ (wobei $$\Borel$$ die [[Borel-sigma-Algebra]] ist) mit
+Zu jeder [[monoton steigenden|Monotonie]], rechtsseitig [[stetigen|Stetigkeit]] Abbildung $$F\colon\mathbb R\to\mathbb R$$ gibt es genau ein [[Maß]] $$\mu$$ auf $$(\mathbb R,\mathcal B)$$ (wobei $$\mathcal B$$ die [[Borel-sigma-Algebra]] ist) mit
 
 $$
-F(t)-F(s)=\mu(\,\lopenI{s,t}\,)
+F(t)-F(s)=\mu(]s,t])
 $$
 
-für alle $$s,t\in\R$$ mit $$s<t.$$ Umgekehrt ist für jedes Maß $$\mu$$ auf $$(\R,\Borel)$$ mit $$\mu(\,]s,t]\,)<\infty$$ für alle $$s<t$$ die Abbildung $$t\mapsto\mu(\,]s,t]\,)$$ monoton steigend und rechtsseitig stetig.
+für alle $$s,t\in\mathbb R$$ mit $$s<t.$$
+
+Umgekehrt ist für jedes Maß $$\mu$$ auf $$(\Bbb R,\mathcal B)$$ mit $$\mu(]s,t])<\infty$$ für alle $$s<t$$ die Abbildung $$t\mapsto\mu(]s,t])$$ monoton steigend und rechtsseitig stetig.
 
 Im Spezialfall $$F(\infty)-F(-\infty)=1,$$ also wenn $$\mu$$ ein [[Wahrscheinlichkeitsmaß]] ist, kann man o.E. voraussetzen, dass $$F(-\infty)=0$$ ist und man nennt $$F$$ die //Verteilungsfunktion// von $$\mu.$$
 
 ''Korollar.''
 {{Lebesgue-Borel-Maß auf R}}
-
-!! Anmerkungen
-
-* Die Stetigkeit der Verteilungsfunktion in einem Punkt $$t$$ ist äquivalent zu $$\mu\{t\} = 0.$$ Die Sprungstellen sind also die Einpunktmengen mit Maß größer als null.
-* <div>Wenn die Verteilungsfunktion eines Wahrscheinlichkeitsmaßes stetig in $$t$$ ist, gilt
-$$
-\prob(\,\lopenI{-\infty,t}\,) = \alpha \iff
-\prob(\,\ropenI{t,\infty}\,) = 1-\alpha
-$$</div>

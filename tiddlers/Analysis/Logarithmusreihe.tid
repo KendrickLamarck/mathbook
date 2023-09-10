@@ -1,17 +1,21 @@
 created: 20180226125923435
 creator: Leander
 list: 
-modified: 20201112141148333
+modified: 20200202201718717
 modifier: Leander
+revision: 0
 tags: Potenzreihe
 title: Logarithmusreihe
 type: text/vnd.tiddlywiki
 
 Für $$x\in[-1,1[$$ ist
+
 $$
 \log\frac{1}{1-x} = \sum_{k=0}^\infty \frac{x^{k+1}}{k+1}.
 $$
+
 Für $$x=-1$$ liefert das $$\log 2$$ als Grenzwert für die alternierende [[harmonische Reihe|Harmonische Reihe]]
+
 $$
 \sum_{k=1}^\infty\frac{(-1)^{k+1}}{k}.
 $$

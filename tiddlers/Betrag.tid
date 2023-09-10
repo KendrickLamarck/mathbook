@@ -1,7 +1,8 @@
 created: 20171031161429242
 creator: Leander
-modified: 20210303002530714
+modified: 20191011220035328
 modifier: Leander
+revision: 0
 tags: Norm [[Komplexe Zahlen]]
 title: Betrag
 type: text/vnd.tiddlywiki
@@ -23,4 +24,5 @@ Für $$z \in \mathbb{C}, z=a+bi$$:
 $$
 |z|\coloneqq\sqrt{z \cdot \bar{z}}=\sqrt{(a+bi)(a-bi)}=\sqrt{a^{2}+b^{2}}
 $$
+
 {{Rechenregeln für den Betrag}}

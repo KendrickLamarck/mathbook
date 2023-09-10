@@ -1,21 +1,27 @@
 created: 20170206213323371
 creator: Leander
 list: 
-modified: 20201211150705080
+modified: 20191004232326838
 modifier: Leander
+revision: 0
 tags: Vektorraum no-toc
 title: Lineare Hülle
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]]. Dann ist der //Spann// oder die //lineare Hülle//
+
 $$
 \operatorname{span}_K (v_i)_{i \in I}
 $$
+
 definiert als die Menge aller $$v \in V$$, die sich aus einer endlichen Teilfamilie von $$(v_i)_{i \in I}$$ [[linear kombinieren|Linearkombination]] lassen: Zu $$v \in V$$ muss es eine Zahl $$r \in \mathbb{N}$$ sowie Indizes $$i_1,\dots,i_r \in I$$ und Skalare $$\lambda_1,\dots,\lambda_r$$ geben, so dass
+
 $$
 v = \lambda_1 v_{i_1} + \dots + \lambda_r v_{i_r}.
 $$
+
 Man nennt $$\operatorname{span}_K (v_i)_{i \in I}$$ den von der Familie aufgespannten oder erzeugten Raum. Ist $$I = \varnothing$$, so setzt man
+
 $$
 \operatorname{span}_K (v_i)_{i \in \varnothing} = \{0\}.
 $$

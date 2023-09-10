@@ -1,11 +1,12 @@
 created: 20200307011802629
-modified: 20200716004747671
-tags: Analysis
+modified: 20200308151839368
+revision: 0
+tags: [[Wichtige Funktionen]] Analysis
 title: Dirichlet energy
 type: text/vnd.tiddlywiki
 
 Let $$\varOmega\subseteq\R^n$$ be an open set and $$f\colon\varOmega\to\R$$ differentiable. The //Dirichlet energy// of $$f$$ is defined as
+
 $$
-E_\D[f] \coloneqq \frac 1 2 \int_\varOmega \|{\grad f(x)}\|^2 \,\d x.
+E[f] \coloneqq \frac 1 2 \int_\varOmega \|{\grad f(x)}\|^2 \,\d x.
 $$
-$$E[f]$$ vanishes if and only if $$f$$ is locally constant, so the Dirichlet energy measures how variable/constant a function is.

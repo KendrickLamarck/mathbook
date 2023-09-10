@@ -1,28 +1,31 @@
 created: 20191014230419938
-modified: 20210314153822442
+modified: 20191104160832527
+revision: 0
 tags: [[Hyperbolic geometry]] [[Spherical geometry]] [[Euclidean geometry]]
 title: Ptolemy's theorem
-type: text/vnd.tiddlywiki
 
 If $$a,b,c,d$$ are the lengths of the sides and $$e,f$$ the lenghts of the diagonals of a quadrilateral that is inscribed in a circle, then:
 
-* <div>In euclidean geometry:
+!! Euclidean
+
 $$
 ef=ac+bd.
-$$</div>
+$$
 
-* <div>In spherical geometry:
+!! Spherical
+
 $$
 \sin\frac e 2 \sin\frac f 2 =
 \sin\frac a 2 \sin\frac c 2 +
 \sin\frac b 2 \sin\frac d 2.
-$$</div>
+$$
 
-* <div>And in hyperbolic geometry:
+!! Hyperbolic
+
 $$
 \sinh\frac e 2 \sinh\frac f 2 =
 \sinh\frac a 2 \sinh\frac c 2 +
 \sinh\frac b 2 \sinh\frac d 2.
-$$</div>
+$$
 
 The hyperbolic version also holds for quadrilaterals that are inscribed in a [[horocycle or hypercycle|Circles, hypercycles and horocycles]].

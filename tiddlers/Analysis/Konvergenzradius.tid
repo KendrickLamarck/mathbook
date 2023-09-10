@@ -1,14 +1,17 @@
 created: 20180226124221335
 creator: Leander
 list: 
-modified: 20201112141357324
+modified: 20191003224815810
 modifier: Leander
+revision: 0
 tags: no-toc Potenzreihe
 title: Konvergenzradius
 type: text/vnd.tiddlywiki
 
 Zur [[Potenzreihe]] $$\sum_{k=0}^\infty a_k(z-z_0)^k$$ heißt
+
 $$
 R\coloneqq\frac{1}{\limsup \sqrt[k]{|a_k|}}
 $$
+
 der //Konvergenzradius//. Er ist $$+\infty$$, wenn der [[Limes Superior|Limes superior/inferior]] $$=0$$ ist und $$0$$, wenn der Limes superior = $$+\infty$$ ist.

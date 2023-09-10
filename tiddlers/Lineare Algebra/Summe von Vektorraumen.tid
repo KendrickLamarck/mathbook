@@ -2,16 +2,20 @@ caption: Summe
 created: 20180108175155773
 creator: Leander
 list: [[Direkte Summe]] [[Dimensionsformel für Summen]] Faktorisierungssatz
-modified: 20201211150957182
+modified: 20191003194049109
 modifier: Leander
+revision: 0
 tags: Vektorraum
 title: Summe von Vektorräumen
 type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$K$$-[[Vektorraum]] mit [[Untervektorräumen|Untervektorraum]] $$W_1,\dots,W_r\subset V$$. Dann definieren wir die Summe dieser Untervektorräume als
+
 $$
 W_1+\dots+W_r \coloneqq \{\,v \in V : \exists v_j \in W_j( v = v_1 + \dots + v_r)\,\}.
 $$
+
+---
 
 !! Eigenschaften
 

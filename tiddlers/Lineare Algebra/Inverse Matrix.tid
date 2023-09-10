@@ -1,15 +1,18 @@
 created: 20180329181911966
 creator: Leander
-modified: 20210314151121723
+modified: 20191028134459057
 modifier: Leander
+revision: 0
 tags: Matrix
 title: Inverse Matrix
 type: text/vnd.tiddlywiki
 
 Eine [[Matrix]] $$A\in K^{n\times n}$$ heißt //invertierbar//, wenn es ein $$A'\in K^{n\times n}$$ gibt mit
+
 $$
 A\cdot A'=A'\cdot A=E_n.
 $$
+
 Die inverse Matrix $$A'$$ ist eindeutig bestimmt und es gilt:
 
 * $$(A^{-1})^{-1}=A$$

@@ -1,10 +1,11 @@
 created: 20191122230038059
-modified: 20201211150721848
+modified: 20191122231541488
+revision: 0
 tags: Dualraum
 title: Dualraum von Quotientenvektorräumen
-type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein Vektorraum und $$U\subset V$$ ein Untervektorraum. Wir können den Dualraum des [[Quotientenvektorraumes|Quotientenvektorraum]] mit dem [[Annullator]] von $$U$$ identifizieren:
+
 $$
 (V/U)^*\cong U^0\subseteq V^*.
 $$

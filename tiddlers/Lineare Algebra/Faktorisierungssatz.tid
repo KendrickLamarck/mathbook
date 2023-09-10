@@ -1,15 +1,18 @@
 created: 20180323120504463
 creator: Leander
-modified: 20210314152146186
+modified: 20191003193527048
 modifier: Leander
+revision: 0
 tags: [[Lineare Abbildung]]
 title: Faktorisierungssatz
 type: text/vnd.tiddlywiki
 
 Sei $$F\colon V\to W$$ [[linear|Lineare Abbildung]] und
+
 $$
 \mathcal A=(u_1,\ldots,u_r,v_1,\ldots,v_k)
 $$
+
 eine [[Basis]] von $$V$$ mit $$\ker F=\operatorname{span}(v_1,\ldots,v_k).$$ Definieren wir $$U=\operatorname{span}(u_1,\ldots,u_k),$$ so gilt
 
 # $$V=U\oplus\ker F$$.
@@ -19,8 +22,11 @@ P\colon V=U\oplus\ker F\to U,\quad v=u+v'\mapsto u
 $$ die [[Projektion]] auf den ersten [[Summanden|Direkte Summe]], so ist $$F=F|_U\circ P$$.
 
 Insbesondere hat jede nichtleere Faser $$F^{-1}(w)$$ mit $$U$$ genau einen Schnittpunkt, und es ist
+
 $$
 P(v)=F^{-1}(F(v))\cap U.
 $$
+
 Die Umkehrung $$(F|_U)^{-1}\colon\operatorname{Im}F\to U$$ nennt man einen //Schnitt//, da sie aus jeder Faser genau einen Punkt ausschneidet.
+
 Der Summand $$U$$ ist nicht eindeutig bestimmt.

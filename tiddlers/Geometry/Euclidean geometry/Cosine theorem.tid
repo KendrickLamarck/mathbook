@@ -1,9 +1,8 @@
 created: 20191105192446341
-modified: 20200526201430053
+modified: 20191105192509981
 revision: 0
-tags: [[Trigonometrische Funktionen]]
+tags: [[Euclidean geometry]]
 title: Cosine theorem
-type: text/vnd.tiddlywiki
 
 $$
 c^2=a^2+b^2-2ab\cos(\gamma)

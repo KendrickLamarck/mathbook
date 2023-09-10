@@ -1,12 +1,14 @@
 created: 20180430171547808
 creator: Leander
-modified: 20210303001752578
+modified: 20200229165808379
 modifier: Leander
+revision: 0
 tags: [[Metrischer Raum]]
 title: Kontraktion
 type: text/vnd.tiddlywiki
 
 Eine Abbildung $$f\colon X\to Y$$ zwischen [[metrischen Räumen|Metrischer Raum]] $$(X,d_X),(Y,d_Y)$$ heißt //kontrahierend// oder //Kontraktion//, wenn es ein $$\lambda\in{]0,1[}$$ gibt (auch //Kontraktionsmodul// genannt), so dass für alle $$x_1,x_2\in X$$
+
 $$
 d_Y(f(x_1),f(x_2))\le\lambda\cdot d_X(x_1,x_2).
 $$

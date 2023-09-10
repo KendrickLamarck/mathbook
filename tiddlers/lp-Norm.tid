@@ -1,21 +1,21 @@
 created: 20180416181816836
 creator: Leander
-modified: 20210303002512193
+modified: 20180725162430100
 modifier: Leander
+revision: 0
 tags: Norm
 title: lp-Norm
-type: text/vnd.tiddlywiki
 
 Für $$x=(x_1,\ldots,x_n)\in\mathbb R^n$$ definiert
+
 $$
 \|x\|_p\coloneqq\sqrt[p]{\sum_{i=1}^n |x_i|^p}
 $$
+
 eine [[Norm]], die $$l^p$$-Norm auf $$\mathbb R^n$$. Der Spezialfall $$p=2$$ liefert die //Euklidische Norm//, welche die //Euklidische// [[Metrik]] oder //Standardmetrik// induziert.
+
 Ist $$1\le p\le q\le+\infty$$ und $$x\in\mathbb R^n$$, so ist
+
 $$
 \|x\|_q\le\|x\|_p\le n^{\frac{1}{p}-\frac{1}{q}}\|x\|_p.
 $$
-
-!! $$p = \infty$$
-
-{{l-unendlich-Norm}}

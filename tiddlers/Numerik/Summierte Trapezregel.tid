@@ -1,18 +1,24 @@
 created: 20200221001703377
-modified: 20201209223725943
+modified: 20200229234447150
+revision: 0
 tags: Newton-Cotes-Formeln
 title: Summierte Trapezregel
 type: text/vnd.tiddlywiki
 
 Wir zerlegen das Integrationsintervall $$[a,b]$$ in $$n$$ gleich große Teilintervalle $$[x_i,x_{i+1}],\ i=0,\dots,n-1,$$ wobei $$x_i=a+ih$$ und $$ h=(b-a)/n.$$ Auf jedem Teilintervall interpolieren wir nun linear und erhalten
+
 $$
 \int_{x_i}^{x_{i+1}} f(x) \,\d x\approx h\frac{f(x_i)+f(x_{i+1})}{2}
 $$
+
 und für die Summe
+
 $$
 T(h) = h\left[ \frac{f(a)}{2}+f(a+h)+\dots+f(b-h)+\frac{f(b)}{2} \right].
 $$
+
 Für den Fehler erhalten wir
+
 $$
 \left| T(h)-\int_a^b f(x)\,\d x \right|\le
 \frac{b-a}{12} h^2 \cdot\sup_{\xi\in[a,b]} f''(\xi)=\mathcal O(h^2).
@@ -21,8 +27,10 @@ $$
 !! Reihenentwicklung
 
 Sei $$f\in\mathcal C^{2m+2}([a,b]).$$ Dann hat die Trapezsumme $$T(h)$$ die Entwicklung
+
 $$
 T(h) = \tau_0 + \tau_1 h^2 + \tau_2 h^4 +\dots+ \tau_m h^{2m} +
 \alpha_{m+1}(h) h^{2m+2},
 $$
+
 wobei $$\tau_0=\int_a^b f(x)\,\d x.$$ Die Koeffizienten $$\tau_i$$ sind von $$h$$ unabhängige Konstanten und das Restglied erfüllt $$|\alpha_{m+1}(h)|\le M$$ für alle $$h=(b-a)/n,\ n\in\N$$ und eine Konstante $$M.$$

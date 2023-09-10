@@ -1,18 +1,24 @@
 created: 20181106161446195
 creator: Leander
-modified: 20200924215238126
+modified: 20191117163504945
 modifier: Leander
+revision: 0
 tags: [[Haar'sches Maß]]
 title: Partielle Integration
-type: text/vnd.tiddlywiki
 
-Sei $$U \subseteq \R^d$$ [[offen|Offenheit]] und $$i \in \{1,\dots,d\}.$$ Dann gelten
+{{KaTeX macros}}
+
+Sei $$U\subseteq\mathbb R^d$$ [[offen|Offenheit]] und $$i\in\{1,\dots,d\}.$$ Dann gelten
+
 $$
 \int_U \fracpartial{}{x_i}\varphi(x)\,\d x=0
 $$
-für jedes $$\varphi \in \smoothcs^1(U)$$ sowie
+
+für jedes $$\varphi\in\mathcal C^1_\mathrm c(U)$$ sowie
+
 $$
  \int_U \fracpartial{}{x_i} f(x) g(x)\,\d x=
 -\int_U f(x) \fracpartial{}{x_i} g(x)\,\d x
 $$
-für jedes $$f \in \smooth^1(U)$$ und jedes $$g \in \smoothcs^1(U).$$
+
+für jedes $$f\in\mathcal C^1(U)$$ und jedes $$g\in\mathcal C^1_\mathrm c(U).$$

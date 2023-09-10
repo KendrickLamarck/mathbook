@@ -1,16 +1,20 @@
 created: 20191220195817702
 list: [[Metric connection]] Torsion [[Levi-Civita connection]] [[Christoffel symbols]] [[Covariant derivative]] Holonomy [[Parallel transport]]
-modified: 20200928165419421
-tags: [[Intrinsic differential geometry]]
+modified: 20200402052949364
+revision: 0
+tags: Differentialgeometrie
 title: Connection
 type: text/vnd.tiddlywiki
 
-Given a [[vector bundle|Vector bundle]] $$E \to M,$$ a connection on $$E$$ is a bilinear map
+Given a [[vector bundle|Vector bundle]] $$E \to M,$$ a connection on $$E$$ is a bilinear map 
+
 $$
 \nabla\colon\mathfrak X(M)\times\Gamma(E)\to \Gamma(E),\quad
 (X,\sigma)\mapsto\nabla_X\sigma,
 $$
+
 which is $$\mathcal C^\infty(M)$$-linear in $$X$$ and satisfies a product rule for $$\sigma$$:
+
 $$
 \nabla_{fX} \sigma = f \nabla_X \sigma,\quad
 \nabla_X(f\sigma) = (Xf)\sigma + f \nabla_X \sigma.
@@ -25,11 +29,14 @@ $$</div>
 
 * If $$\sigma$$ and $$\tau$$ agree locally along a curve with $$\gamma'(0) = X_p,$$ then $$\nabla_{X_p}\sigma = \nabla_{X_p}\tau.$$
 
+!! Torsion
+{{Torsion}}
 
-!! Torsion, Metricity and the Levi-Civita connection
+!! Metric connections
+{{Metric connection}}
 
+!! Levi-Civita connection
 {{Levi-Civita connection}}
 
 !! In Coordinates
-
 {{Christoffel symbols}}

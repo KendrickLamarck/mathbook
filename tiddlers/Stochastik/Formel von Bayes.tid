@@ -1,13 +1,14 @@
 created: 20190426115251748
-modified: 20200814173249380
-tags: Wahrscheinlichkeitsmaß
+modified: 20190714205547533
+revision: 0
+tags: Stochastik
 title: Formel von Bayes
 type: text/vnd.tiddlywiki
 
-Seien $$(\Omega,\mathcal A,\prob)$$ ein [[Wahrscheinlichkeitsraum|Maß]] und $$A\in\mathcal A$$ mit $$\prob(A)>0.$$ Weiter sei $$(B_n)$$ eine (endliche oder unendliche) [[Folge]] paarweise disjunkter Ereignisse in $$\mathcal A$$ mit $$A\subseteq\bigcup_n B_n.$$ Dann gilt
+Seien $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Maß]] und $$A\in\mathcal A$$ mit $$\Bbb P(A)>0.$$ Weiter sei $$(B_n)_{n\in\Bbb N}$$ eine (endliche oder unendliche) [[Folge]] paarweise disjunkter Ereignisse in $$\mathcal A$$ mit $$A\subseteq\bigcup_n B_n.$$ Dann gilt
 
 $$
-\prob(B_n\mid A)=\frac
-{\prob(A\mid B_n)\prob(B_n)}
-{\sum_k \prob(A\mid B_k)\prob(B_k)}.
+\Bbb P(B_n\mid A)=\frac
+{\Bbb P(A\mid B_n)\Bbb P(B_n)}
+{\sum_k \Bbb P(A\mid B_k)\Bbb P(B_k)}.
 $$

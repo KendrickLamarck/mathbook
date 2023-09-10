@@ -1,22 +1,21 @@
 created: 20171123172124946
 creator: Leander
 list: 
-modified: 20201112140723968
+modified: 20191011204418977
 modifier: Leander
+revision: 0
 tags: Folge
 title: Cauchyfolge
 type: text/vnd.tiddlywiki
 
 Eine [[Folge]] $$(x_n)$$ in einem [[metrischen Raum|Metrischer Raum]] $$(X,d)$$ heißt //Cauchyfolge//, wenn gilt:
+
 $$
 \forall\epsilon>0\,\exists N\in\mathbb N\,\forall n,m\ge N\colon\quad
 d(x_n,x_m)<\epsilon.
 $$
 
-@@.theorem
-''Satz.''
 Jede [[konvergente|Konvergenz]] Folge ist eine Cauchyfolge.
-@@
 
 !! Reihenkriterium
 

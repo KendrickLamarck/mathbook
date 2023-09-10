@@ -1,8 +1,9 @@
 created: 20180211210907664
 creator: Leander
 list: 
-modified: 20200829224106097
+modified: 20191003224110693
 modifier: Leander
+revision: 0
 tags: no-toc Reihe
 title: Cauchy-Kriterium für Konvergenz von Reihen
 type: text/vnd.tiddlywiki
@@ -10,7 +11,7 @@ type: text/vnd.tiddlywiki
 Die [[Reihe|Reihe]] $$\sum_{k=0}^\infty a_k$$ ist genau dann konvergent, wenn die Folge der Partialsummen eine [[Cauchyfolge]] ist, also es zu jedem $$\epsilon>0$$ ein $$N\in\mathbb N$$ gibt, so dass für alle $$n\ge m\ge N$$ gilt:
 
 $$
-\biggl|\sum_{k=m}^n a_k\biggr|<\epsilon.
+\left|\sum_{k=m}^n a_k\right|<\epsilon.
 $$
 
 !! Nullfolgenkriterium

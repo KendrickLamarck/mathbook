@@ -1,11 +1,14 @@
 created: 20191214195010403
-modified: 20200924201422457
-tags: [[Integrals of differential forms]] Volumen no-toc
+modified: 20200316013037365
+revision: 0
+tags: [[Integrals over manifolds]] Volumen no-toc
 title: Volume of manifolds
 type: text/vnd.tiddlywiki
 
 The //volume// of a [[smooth manifold|Smooth manifold]] $$M$$ with a specified [[volume form|Volume form]] $$\varOmega$$ (in particular, a Riemannian manifold) is defined to be 
+
 $$
 \vol(M)\coloneqq \int_M 1 \,\d\vol = \int_M \varOmega.
 $$
+
 If $$M$$ is compact, this works directly. If it is not, take the limit over a compact exhaustion.

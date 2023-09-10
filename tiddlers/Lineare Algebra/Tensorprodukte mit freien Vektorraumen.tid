@@ -1,12 +1,14 @@
 created: 20191121230632619
-modified: 20201117221010584
+modified: 20191121233024604
+revision: 0
 tags: Tensorprodukt no-toc
 title: Tensorprodukte mit freien Vektorräumen
-type: text/vnd.tiddlywiki
 
 Seien $$V$$ und $$W$$ zwei $$K$$-Vektorräume und sei $$F$$ der [[freie Vektorraum|Freier Vektorraum]] der Menge $$V\times W.$$ Sei $$R$$ der Untervektorraum, der von den Elementen der Form
+
 $$\begin{aligned}
 (v+v',w)-(v,w)-(v',w), &\quad (v,w+w')-(v,w)-(v,w'), \\
 (av,w)-a(v,w), &\quad (v,aw)-a(v,w)
 \end{aligned}$$
+
 erzeugt wird. Dann ist das Tensorprodukt $$V\otimes W$$ gleich dem [[Quotientenvektorraum]] $$F/R.$$ Wir bezeichnen die Äquivalenzklasse, die $$(v,w)$$ enthält mit $$v\otimes w$$ und Elemente dieser Art sind ein Erzeugendensystem von $$V\otimes W.$$

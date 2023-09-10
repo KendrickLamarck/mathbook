@@ -1,19 +1,22 @@
 created: 20191201190539305
-modified: 20201209224251589
+modified: 20200220194307477
+revision: 0
 tags: Polynominterpolation
 title: Verfahren von Neville-Aitken
 type: text/vnd.tiddlywiki
 
 Sei $$\hat x$$ eine Stelle an der das interpolationspolynom $$P(x),$$ welches die Stützstellen $$(x_i,f_i),\ i=0,\dots,n$$ interpoliert, ausgewertet werden soll und sei $$P_{k,\dots,l}(x)$$ das Polynom, welches die Teilmenge von Stützstellen $$\{(x_k,f_k),(x_{k+1},f_{k+1}),\dots,(x_l,f_l)\}$$ interpoliert. Dann gilt für alle $$0\le k\le l\le n$$:
+
 $$\begin{aligned}
 P_k(\hat x)   &= f_k,
-  &\text{ falls $k=l$,} \\[7mu]
+  &\text{ falls $k=l$,} \\
 P_{k,\dots,l}(\hat x) &= \frac
   { (\hat x-x_k)P_{k+1,\dots,l}(\hat x) -
     (\hat x-x_l)P_{k,\dots,l-1}(\hat x) }
   { x_l - x_k },
   &\text{ falls $k<l$}.
 \end{aligned}$$
+
 Mithilfe dieses Rekursionsschemas kann man anfangend mit den konstanten Werten $$P_0,\dots,P_n$$ als nächstes $$P_{0,1},P_{1,2},\dots,P_{n-1,n}$$ berechnen und so weiter, bis schließlich $$P_{0,\dots,n}(\hat x)=P(\hat x)$$ ist.
 
 Dieser Algorithmus ist geeignet, wenn man das Interpolationspolynom nur an wenigen Stellen auswerten muss.

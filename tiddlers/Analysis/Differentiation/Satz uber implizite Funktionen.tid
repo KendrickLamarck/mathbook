@@ -1,20 +1,25 @@
 created: 20180708175605905
 creator: Leander
-modified: 20201223161023269
+modified: 20190329192729944
 modifier: Leander
+revision: 0
 tags: [[Stetige Differenzierbarkeit]]
 title: Satz über implizite Funktionen
 type: text/vnd.tiddlywiki
 
 Seien $$V_0,V_1,W$$ endlichdimensionale [[Banachräume|Banachraum]], $$G\subset V_0\times V_1$$ [[offen|Offenheit]] und $$f\colon V_0\times V_1\supset G\to W$$ [[stetig differenzierbar|Stetige Differenzierbarkeit]]. Sei $$(p,q)\in G$$ mit
+
 $$\begin{gathered}
 f(p,q)=0, \\
-\D_{(p,q)}f(0,\cdot)\colon V_1\to W \text{ invertierbar}.
+\mathrm D_{(p,q)}f(0,\cdot)\colon V_1\to W \text{ invertierbar}.
 \end{gathered}$$
+
 Beachte, dass damit $$\dim V_1=\dim W.$$ Dann lässt sich
+
 $$
 f(x,y)=0
 $$
+
 in einer [[Umgebung]] von $$(p,q)$$ eindeutig nach einer stetig differenzierbaren Abbildung $$y=g(x)$$ auflösen.
 
 Genauer: Es gibt offene Umgebungen $$U_0\subset V_0$$ von $$p$$ und $$U_1\subset V_1$$ von $$q,$$ mit folgenden Eigenschaften:
@@ -25,7 +30,5 @@ f(x,y)=0.$$
 # Die nach 1. eindeutig bestimmte Funktion $$g\colon U_0\to U_1$$ mit $$
 f(x,g(x))=0$$ ist stetig differenzierbar.
 
-# <div>Für alle $$x\in U_0$$ ist $$\D_{(x,g(x))}f(0,\cdot)\colon V_1\to W$$ [[invertierbar|Umkehrabbildung]] und für $$v\in V_0$$ ist
-$$
-\D_x g(v)= -(\D_{(x,g(x))} f(0,\cdot))^{-1} \circ \D_{(x,g(x))} f(v,0).
-$$</div>
+# Für alle $$x\in U_0$$ ist $$\mathrm D_{(x,g(x))}f(0,\cdot)\colon V_1\to W$$ [[invertierbar|Umkehrabbildung]] und für $$v\in V_0$$ ist $$
+\mathrm D_x g(v)=-(\mathrm D_{(x,g(x))} f(0,\cdot))^{-1}\circ\mathrm D_{(x,g(x))} f(v,0).$$

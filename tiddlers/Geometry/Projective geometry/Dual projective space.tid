@@ -1,12 +1,12 @@
 created: 20190128135149346
 creator: Leander
-modified: 20210126135235725
+modified: 20191109133501357
 modifier: Leander
+revision: 0
 tags: [[Projective geometry]]
 title: Dual projective space
-type: text/vnd.tiddlywiki
 
-For a [[projective space|Projective space]] $$\Proj(V),$$ we define the //dual projective space// to be $$\Proj(V^*).$$ We can identify subspaces using the [[annihilator|Annullator]], from which we obtain the following //duality principle// for projective planes:
+For a [[projective space|Projective space]] $$P(V),$$ we define the //dual projective space// to be $$P(V^*).$$ We obtain the following //duality principle://
 
 <<<
 From every theorem that talks only about incidence relations between points and lines in a projective plane, one obtains another valid theorem by interchanging the words "point" and "line" and the phrases "goes through" and "lies on".

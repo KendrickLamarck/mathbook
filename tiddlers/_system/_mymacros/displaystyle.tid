@@ -1,0 +1,13 @@
+created: 20200411151711026
+modified: 20200413182257636
+revision: 0
+tags: $:/tags/Macro
+title: $:/_mymacros/displaystyle
+type: text/vnd.tiddlywiki
+
+\define displaystyle(tiddler:<<currentTiddler>> field:text)
+{{KaTeX macros}}
+<$set name=latext tiddler=$tiddler$ field=$field$>
+<$latex text=<<latext>> displayMode="true"/>
+</$set>
+\end

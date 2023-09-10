@@ -1,15 +1,20 @@
 created: 20190505144355910
-modified: 20210313191356152
+modified: 20191103003503837
+revision: 0
 tags: [[Möbius geometry]] no-toc
 title: Inversion in a hypersphere
 type: text/vnd.tiddlywiki
 
 //Reflection// or //inversion// in a hypersphere with center $$c$$ and radius $$r$$ is the map
+
 $$
 x\mapsto c+\frac{r^2}{\|x-c\|^2}(x-c).
 $$
+
 This maps a point $$x$$ inside or outside the hypersphere along the ray through $$c$$ and $$x$$ to the point $$x'$$ such that
+
 $$
 \|x-c\|\cdot\|x'-c\|=r^2.
 $$
-If we consider $$\overhat{0}{-1}{\R}^n\coloneqq\R^n\cup\{\infty\}$$ and map $$c$$ to $$\infty$$ and vice versa, this map is an [[involution|Involution]] of $$\overhat{0}{-1}{\R}^n.$$
+
+If we consider $$\widehat\Bbb R^n\coloneqq\Bbb R^n\cup\{\infty\}$$ and map $$c$$ to $$\infty$$ and vice versa, this map is an [[involution|Involution]] of $$\widehat\Bbb R^n.$$

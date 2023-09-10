@@ -1,37 +1,46 @@
 created: 20191114195905882
-list: [[Tangent bundle]] [[Vector field]] [[Cotangent space]]
-modified: 20200927203125952
-tags: [[Intrinsic differential geometry]]
+list: [[Tangent bundle]] Vektorfeld [[Cotangent space]]
+modified: 20200403052108485
+revision: 0
+tags: Differentialgeometrie
 title: Tangent space
 type: text/vnd.tiddlywiki
 
+{{KaTeX macros}}
+
 Let $$M^m$$ be a [[smooth manifold|Smooth manifold]], $$p\in M.$$ The //tangent space// $$\T_p M$$ is the set of all derivations on the algebra of [[germs|Germ]] $$\mathcal C^\infty(p),$$ i.e. all [[linear|Lineare Abbildung]] functionals $$X_p\colon\mathcal C^\infty(p)\to\R$$ that satisfy the Leibniz product rule
+
 $$
 X_p(gh)=(X_p g)h(p)+(X_p h)g(p),
 $$
-which is a linear subspace of $$\smooth^\infty(p)^*.$$ In the case of $$\T_p\R^m,$$ it consists of the [[directional derivatives|Richtungsableitung]] $$\partial_v$$ at $$p,$$ so $$\T_p\R^m\cong\R^m.$$
+
+which is a [[linear subspace|Untervektorraum]] of the [[dual space|Dualraum]] $$\mathcal C^\infty(p)^*.$$ In the case of $$\T_p\R^m,$$ it consists of the [[directional derivatives|Richtungsableitung]] $$\partial_v$$ at $$p,$$ so $$\T_p\R^m\cong\R^m.$$
 
 !! Coordinates
 
 For a coordinate chart $$(U,\varphi)$$ around $$p,$$
-$$\varphi_*\colon\T_p M\to \T_{\varphi(p)}\R^m\cong\R^m$$
-is an isomorphism. The $$\fracpartial{}{x_i}$$ are a [[basis|Basis]] of $$\T_{\varphi(p)}\R^m$$ and we get a basis of $$\T_pM$$ by taking
+$$\varphi_*\colon\T_p M\to \T_p\R^m\cong\R^m$$
+is an isomorphism. The $$\fracpartial{}{x_i}$$ are a [[basis|Basis]] of $$\T_p\R^m$$ and we get a basis of $$\T_pM$$ by taking
+
 $$
 \partial_i=\partial_{i,p}\coloneqq
 \varphi^{-1}_*{\left(\fracpartial{}{x_i}\right)}.
 $$
 
-Suppose a function $$g\in\mathcal C^\infty(U)$$ has coordinate expression
-$$g\circ\varphi^{-1}\colon\varphi(U)\to\R,$$
+Suppose a function $$f\in\mathcal C^\infty(U)$$ has coordinate expression
+$$f\circ\varphi^{-1}\colon\varphi(U)\to\R,$$
 then at $$p\in U$$ we get
+
 $$
-\partial_i g=
-\varphi^{-1}_*{\left(\fracpartial{}{x_i}\right)}(g)=
-\fracpartial{(g\circ\varphi^{-1})}{x_i}(\varphi(p)).
+\partial_i f=
+\varphi^{-1}_*{\left(\fracpartial{}{x_i}\right)}(f)=
+\fracpartial{}{x_i}{\left(f\circ\varphi^{-1}\right)}.
 $$
+
 For the real-valued functions $$x_i=\pi_i\circ\varphi$$ in particular we find
-$$\partial_i(\pi_j\circ\varphi)=\fracpartial{\pi_j}{x_i}=\delta_{ij},$$
-so we can express any $$X_p\in\T_p M$$ in terms of our basis $$\{\partial_i\}$$ as follows:
+$$\partial_i(\pi_j\circ\varphi)=\fracpartial{\pi_j}{x_i}=\delta_{ij}.$$
+We can express any $$X_p\in\T_p M$$ in terms of our basis $$\{\partial_i\}$$ as follows:
+
 $$
-X_p=\sum_{i=1}^m X_p(\pi_i\circ\varphi)\cdot\partial_i.
+X_p=\sum_{i=1}^m \left(X_p(\pi_i\circ\varphi\right))\partial_i.
 $$

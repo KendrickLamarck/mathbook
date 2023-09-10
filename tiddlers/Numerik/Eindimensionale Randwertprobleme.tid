@@ -1,26 +1,32 @@
 created: 20200218154352407
-modified: 20201209224135954
+modified: 20200301005525793
+revision: 0
 tags: Numerik
 title: Eindimensionale Randwertprobleme
 type: text/vnd.tiddlywiki
 
 Wir betrachten eine lineare Differentialgleichung der Form
+
 $$
 -y''+p(x)y'+q(x)y =s(x),\qquad x\in[a,b].
 $$
+
 An den beiden Rändern ist eine der folgenden Randbedingungen gegeben:
 
-# $$y(r)=g_D(r)$$ @@float:right; (vorgabe eines Wertes, Dirichlet-Randbedingung),@@
-# $$y'(r)=g_N(r)$$ @@float:right; (vorgabe der Ableitung, Neumann-Randbedingung),@@
-# $$y'(r)+\alpha y(r)=g_C(r)$$ @@float:right; (gemischte Randbedingung, Cauchy-Randbedingung).@@
+# $$y(r)=g_D(r)$$ @@float:right; Vorgabe eines Wertes, Dirichlet-Randbedingung,@@
+# $$y'(r)=g_N(r)$$ @@float:right; Vorgabe der Ableitung, Neumann-Randbedingung,@@
+# $$y'(r)+\alpha y(r)=g_C(r)$$ @@float:right; gemischte Randbedingung, Cauchy-Randbedingung.@@
 
 Zum lösen benutzen wir das //Finite-Differenzen-Verfahren,// bei dem wir die Ableitungen durch einen der folgenden Differenzenquotienten, genannt //Vorwärtsdifferenz, Rückwärtsdifferenz// und //zentrale Differenz,// ersetzen:
+
 $$\begin{aligned}
 y'(x) &= \frac{y(x+h)-y(x)}{h}+\mathcal O(h), \\
 y'(x) &= \frac{y(x)-y(x-h)}{h}+\mathcal O(h), \\
 y'(x) &= \frac{y(x+h)-y(x-h)}{2h}+\mathcal O(h^2)
 \end{aligned}$$
+
 und für die zweite Ableitung
+
 $$
 y''(x) = \frac{y(x-h)-2y(x)+y(x+h)}{h^2} + \mathcal O(h^2).
 $$
@@ -28,37 +34,48 @@ $$
 !! Gleichungssystem
 
 Jetzt definieren wir ein Gitter, indem wir $$h=\frac{b-a}{n}$$ setzen für ein $$n\in\N$$ und $$x_0=a,\ x_i = a+ih$$, bis $$x_n = a+nh=b.$$ Wir erhalten ein lineares Gleichungssystem
+
 $$
 \frac{-u_{i-1}+2u_i-u_{i+1}}{h^2}+p(x_i)\frac{u_{i+1}-u_{i-1}}{2h} + q(x_i)u_i=s(x_i).
 $$
+
 Für die Werte $$u_h(x_i)=u_i,\ i=0,\dots,n$$ auf dem Gitter, mit zwei überhängenden Punkten $$u_{-1}$$ und $$u_{n+1}.$$ Mit den Definitionen
+
 $$
 \lambda_i\coloneqq -\frac{p(x_i)}{2h},\quad
 \sigma_i\coloneqq q(x_i)+\frac 2 {h^2},\quad
 \mu_i\coloneqq \frac{p(x_i)}{2h}-\frac 1 {h^2}
 $$
+
 wird daraus
+
 $$
 \lambda_i u_{i-1} + \sigma_i u_i + \mu_i u_{i+1} = s(x_i).
 \tag*\dag
 $$
+
 Die Gleichungen mit überhängenden Punkten können wir mithilfe der Randbedingungen Lösen. Wir betrachten beispielhaft die drei Fälle am linken Rand:
 
 # <div>In diesem Fall lassen wir eine Gleichung Weg, da der Wert schon vorgegeben ist und setzen diesen in die nächste Gleichung ein: Aus der Gleichung $$\dag$$ für $$i=1$$ wird durch Einsetzen von $$u_0 = g_D(x_0)$$
+
 $$
 \sigma_1 u_1 + \mu_1 u_2 = s(x_1) - \lambda_1 g_D(x_0).
 $$</div>
 
 # <div>Durch umstellen der diskretisierten Randbedingung
+
 $$
 \frac{u_1-u_{-1}}{2h}=g_N(x_0)
 $$
+
 nach $$u_{-1}$$ und Einsetzen in $$\dag$$ erhalten wir
+
 $$
 (\lambda_0+\mu_0) u_1 + \sigma_0 u_0 = s(x_n) + 2h\lambda_0 g_N(x_0).
 $$</div>
 
 # Eine Cauchy-Randbedingung wird analog zu 2. behandelt, mit der diskretisierten Bedingung
+
 $$
 \frac{u_1-u_{-1}}{2h}+\alpha u_0 = g_C(x_0).
 $$

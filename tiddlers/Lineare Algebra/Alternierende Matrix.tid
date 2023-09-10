@@ -1,9 +1,10 @@
 created: 20180319123323892
 creator: Leander
-modified: 20210314151032837
+modified: 20190705144048442
 modifier: Leander
+revision: 0
 tags: Matrix
 title: Alternierende Matrix
 type: text/vnd.tiddlywiki
 
-Ist $$\operatorname{char}K \ne 2$$, so heißt eine [[Matrix]] $$A\in K^{n\times n}$$ //alternierend// oder //schiefsymmetrisch//, falls $$A^\transp=-A$$. Die alternierenden Matrizen bilden einen [[Untervektorraum]] von $$K^{n\times n}$$.
+Ist $$\operatorname{char}K \ne 2$$, so heißt eine [[Matrix]] $$A\in K^{n\times n}$$ //alternierend// oder //schiefsymmetrisch//, falls $$A^\mathrm T=-A$$. Die alternierenden Matrizen bilden einen [[Untervektorraum]] von $$K^{n\times n}$$.

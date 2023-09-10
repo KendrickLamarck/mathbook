@@ -1,29 +1,37 @@
 created: 20180411144211872
 creator: Leander
-modified: 20201209224425073
+modified: 20200217214807287
 modifier: Leander
+revision: 0
 tags: Maschinenzahl
 title: Rundung
 type: text/vnd.tiddlywiki
 
 ''Konvention 1.''
 Es sei $$F$$ ein [[Maschinenzahlbereich|Maschinenzahl]]. Eine [[Abbildung]] $$\rd\colon\R\to F$$ heißt //Rundung// zu $$F$$, falls für alle $$x\in\mathbb R$$ gilt:
+
 $$
 |x-\rd(x)|=\min_{a\in F}|x-a|.
 $$
+
 ''Konvention 2.''
 Wir nennen $$\operatorname{gl}\colon\R\to\Bbb M(p,m,e)$$ die //Gleitpunkt - oder Gleitkommazahl:// Für $$x_{\min}\le x\le x_{\max},\ x=\pm(z_1p^{-1}+z_2p^{-2}+\cdots)p^t$$ mit $$z_1\ne 0$$ sei
+
 $$
 \gl(x)\coloneqq\pm p^t \cdot \begin{cases}
 (z_1p^{-1}+\dots+z_mp^{-m})        &\text{falls } z_{m+1} < p/2 \\
 (z_1p^{-1}+\dots+z_mp^{-m}+p^{-m}) &\text{falls } z_{m+1} \ge p/2.
 \end{cases}
 $$
+
 Für den absoluten Rundungsfehler gilt
+
 $$
 |\gl(x)-x|\le \frac{p^{-m}}{2} p^t.
 $$
+
 Für den relativen Fehler gilt
+
 $$
 \frac{|\gl(x)-x|}{|x|}\le\frac p 2 p^{-m}.
 $$

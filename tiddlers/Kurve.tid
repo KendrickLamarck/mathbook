@@ -1,0 +1,18 @@
+created: 20180529172904078
+creator: Leander
+modified: 20191102213538172
+modifier: Leander
+revision: 0
+tags: [[Wichtige Funktionen]]
+title: Kurve
+type: text/vnd.tiddlywiki
+
+Eine [[stetige|Stetigkeit]] Abbildung $$f\colon\mathbb R\supseteq {]a,b[}\to W$$ nennt man //Kurve//.
+
+!! Regular curve
+
+{{Regular curve}}
+
+!! Projective (regular) curve
+
+{{Projective curve}}

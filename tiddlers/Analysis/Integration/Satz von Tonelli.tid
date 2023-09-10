@@ -1,17 +1,21 @@
 created: 20190128112402613
 creator: Leander
-modified: 20210323114809718
+modified: 20190406184058200
 modifier: Leander
+revision: 0
 tags: Lebesgue-Integral
 title: Satz von Tonelli
 type: text/vnd.tiddlywiki
 
 Seien $$(\Omega_1,\mathcal F_1,\mu_1),(\Omega_2,\mathcal F_2,\mu_2)$$ $$\sigma$$-endliche [[Maßräume|Maß]]. Sei $$f\colon\Omega_1\times\Omega_2\to[0,\infty]$$ $$\mathcal F_1\otimes\mathcal F_2$$-[[messbar|Messbare Funktion]]. Dann sind
+
 $$
 \omega_1\mapsto\int_{\Omega_2} f_{\omega_1}^{(1)}\,\mathrm d\mu_2, \qquad
 \omega_2\mapsto\int_{\Omega_1} f_{\omega_2}^{(2)}\,\mathrm d\mu_1
 $$
+
 messbar bezüglich $$\mathcal F_i$$ und der Borel-$$\sigma$$-Algebra, wobei $$f_{\omega_1}^{(1)}\coloneqq f(\omega_1,\cdot)$$ und analog für $$f_{\omega_2}^{(2)},$$ und es gilt
+
 $$
 \int f\,\mathrm d(\mu_1\otimes\mu_2)=
 \int_{\Omega_1}\left(\int_{\Omega_2} f_{\omega_1}^{(1)}(\omega_2)\,\mu_2(\mathrm d\omega_2)\right)\mu_1(\mathrm d\omega_1).

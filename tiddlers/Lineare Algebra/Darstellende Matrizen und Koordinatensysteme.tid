@@ -1,15 +1,18 @@
 created: 20180330140336174
 creator: Leander
 list: 
-modified: 20210314150639470
+modified: 20180728125713824
 modifier: Leander
+revision: 0
 tags: [[Darstellende Matrix (lineare Abbildungen)]] Koordinatensystem
 title: Darstellende Matrizen und Koordinatensysteme
 type: text/vnd.tiddlywiki
 
 Sei $$F\colon V\to W$$ eine [[lineare Abbildung|Lineare Abbildung]] und seien $$\mathcal A$$ und $$\mathcal B$$ [[Basen|Basis]] von $$V$$ und $$W$$. Dann gilt
+
 $$
 \Phi_\mathcal B\circ M_\mathcal B^\mathcal A(F)=F\circ\Phi_\mathcal A,\quad\text{also }
 M_\mathcal B^\mathcal A(F)=\Phi_\mathcal B^{-1}\circ F\circ \Phi_\mathcal A.
 $$
+
 Zum besseren Verständnis zeichne man ein Diagramm.

@@ -1,13 +1,15 @@
 caption: In R
 created: 20191011225902609
-modified: 20200530150048579
+modified: 20191011231018249
 revision: 0
-tags: Kompaktheit no-toc
+tags: Kompaktheit
 title: Kompaktheit in R
 type: text/vnd.tiddlywiki
 
-''Satz (Heine-Borel).'' {{Satz von Heine-Borel}}
-
-!! Quader
+! Quader
 
 {{Kompaktheit von Quadern}}
+
+! Satz von Heine-Borel
+
+{{Satz von Heine-Borel}}

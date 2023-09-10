@@ -1,8 +1,9 @@
 created: 20161201124043723
 creator: Leander
-modified: 20210405125035218
+modified: 20190104225959548
 modifier: Leander
+revision: 0
 title: $:/SiteSubtitle
 type: text/vnd.tiddlywiki
 
-Last modified: <$list filter="[!is[system]sort[modified]last[]get[modified]format:relativedate[]]" }}}>{{!!title}}</$list>
+Sätze und Definitionen

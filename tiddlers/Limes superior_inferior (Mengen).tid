@@ -1,5 +1,5 @@
 created: 20190617140142858
-modified: 20200626000604199
+modified: 20191004235122982
 revision: 0
 tags: Mengenlehre
 title: Limes superior/inferior (Mengen)
@@ -8,12 +8,12 @@ type: text/vnd.tiddlywiki
 Gegeben sei eine Mengenfolge $$(A_n)_{n\in\Bbb N}\in \mathcal P(\Omega)^\N.$$ Dann definieren wir
 
 $$\begin{gathered}
-\liminf_{n\to\infty} A_n\coloneqq
-  \bigcup_{n=0}^\infty \bigcap_{m=n}^\infty A_m, \\[3ex]
 \limsup_{n\to\infty} A_n\coloneqq
-  \bigcap_{n=0}^\infty \bigcup_{m=n}^\infty A_m.
+\bigcup_{n=0}^\infty \bigcap_{m=n}^\infty A_m, \\[3ex]
+\limsup_{n\to\infty} A_n\coloneqq
+\bigcap_{n=0}^\infty \bigcup_{m=n}^\infty A_m.
 \end{gathered}$$
 
-* $$\liminf A_n$$ ist die Menge aller $$\omega\in\Omega,$$ die in allen bis auf endlich vielen $$A_n$$ enthalten sind.
-
 * $$\limsup A_n$$ ist die Menge aller $$\omega\in\Omega,$$ die in unendlich vielen $$A_n$$ enthalten sind,
+
+* $$\liminf A_n$$ ist die Menge aller $$\omega\in\Omega,$$ die in allen bis auf endlich vielen $$A_n$$ enthalten sind.

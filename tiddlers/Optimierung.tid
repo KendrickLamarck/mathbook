@@ -1,8 +1,9 @@
 created: 20180415144136711
 list: Landau-Symbole Aufteilungs-Beschleunigungs-Satz Komplexitätsklassen [[Polynomielle Reduktion]] [[Greedy-Algorithmus und Matroide]] [[Problem des Handelsreisenden]] Konvergenzordnung
-modified: 20201213234201602
+modified: 20191011223709691
+revision: 0
 tags: Mathematics
 title: Optimierung
 type: text/vnd.tiddlywiki
 
-{{||$:/_templates/tree}}
+<<list-links [tag{!!title}]>>

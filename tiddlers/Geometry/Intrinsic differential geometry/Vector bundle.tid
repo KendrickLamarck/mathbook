@@ -1,7 +1,7 @@
 created: 20191116225728237
-modified: 20200623230228776
+modified: 20200321224047835
 revision: 0
-tags: [[Intrinsic differential geometry]]
+tags: Differentialgeometrie
 title: Vector bundle
 type: text/vnd.tiddlywiki
 
@@ -18,6 +18,8 @@ A (smooth) //vector bundle// of rank $$k$$ is a map $$\pi\colon E^{m+k}\to M^m$$
 
 * each fiber $$\pi^{-1}(p)$$ is a [[vector space|Vektorraum]] of dimension $$k,$$
 * each point in $$M$$ has a //trivializing neighborhood// $$U,$$ meaning there is a fiber-preserving diffeomorphism $$E_U\to U\times\R^k$$ that is a vector space [[isomorphism|Isomorphismus]] on each fiber.
+
+A //frame// for a local bundle $$E_U$$ is a set of $$k$$ sections $$\sigma_i \in \Gamma(E_U)$$ such that at each $$p\in U,$$ the $$\sigma_i(p)$$ form a basis for $$E_p.$$
 
 Operations on vector spaces induce operations on vector bundles by acting pointwise, for example the //dual bundle// $$E^*$$ with $$(E^*)_p=(E_p)^*$$ or the direct sum $$(E\oplus F)_p=E_p\oplus F_p.$$
 

@@ -1,18 +1,22 @@
 created: 20180723110125120
 creator: Leander
-modified: 20210126135411057
+modified: 20190219191116422
 modifier: Leander
+revision: 0
 tags: [[Symmetrische Form]]
 title: Ausartungsraum
 type: text/vnd.tiddlywiki
 
 Der //Ausartungsraum// oder //Kern// einer [[symmetrischen|Symmetrische Form]] [[Bilinearform]] $$b$$ auf einem [[Vektorraum]] $$V$$ ist definiert als
+
 $$
 \ker b=V_0\coloneqq\{\,v\in V\mid\forall w\in V\colon b(v,w)=0\,\}.
 $$
+
 $$b$$ heißt //ausgeartet// oder //degeneriert//, wenn $$\ker b\ne \{0\}$$ und //nicht ausgeartet// oder //nicht degeneriert//, wenn $$\ker b=\{0\}.$$
 
 ''Bemerkung:'' Ist $$B=M_\mathcal B(b)$$ für eine [[Basis]] $$\mathcal B=(v_1,\dots,v_n)$$ von $$V,$$ so gilt für $$v=\sum x_iv_i$$ und $$x=(x_1,\dots,x_n)$$
+
 $$
 v\in\ker b\iff x\in\ker B.
 $$

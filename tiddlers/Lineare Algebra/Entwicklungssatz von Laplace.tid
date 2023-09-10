@@ -1,17 +1,22 @@
 created: 20180410200449533
 creator: Leander
-modified: 20201129152742583
+modified: 20180728213730221
 modifier: Leander
+revision: 0
 tags: Determinante
 title: Entwicklungssatz von Laplace
 type: text/vnd.tiddlywiki
 
 Ist $$n\ge 2$$ und $$A\in K^{n\times n}$$, so gilt für jedes $$i\in\{1,\ldots,n\}$$
+
 $$
 \det A=\sum_{j=1}^n (-1)^{i+j}\cdot a_{ij}\cdot\det A'_{ij},
 $$
+
 (Entwicklung nach der $$i$$-ten Zeile), wobei $$A'_{ij}$$ die [[Matrix]] $$A$$ ohne die $$i$$-te Zeile und $$j$$-te Spalte ist. Für jedes $$j\in\{1,\ldots,n\}$$ gilt weiterhin
+
 $$
 \det A=\sum_{i=1}^n (-1)^{i+j}\cdot a_{ij}\cdot\det A'_{ij}.
 $$
+
 (Entwicklung nach $$j$$-ter Spalte)

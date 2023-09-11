@@ -10,7 +10,8 @@
     ],
     "themes": [
         "tiddlywiki/vanilla",
-        "tiddlywiki/snowwhite"
+        "tiddlywiki/snowwhite",
+        "centralised-custom"
     ],
     "config": {
         "retain-original-tiddler-path": true

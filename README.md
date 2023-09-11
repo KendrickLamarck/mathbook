@@ -1,6 +1,6 @@
 # mathbook
 
-A mathematics knowledge base powered by [TiddlyWiki](https://tiddlywiki.com). To view, simply go to http://mathematik.tiddlyspot.com.
+A mathematics knowledge base powered by [TiddlyWiki](https://tiddlywiki.com). To view, simply go to http://mathematik.tiddlyhost.com.
 
 ## Wie kann ich mitarbeiten?
 

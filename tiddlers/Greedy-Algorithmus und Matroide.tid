@@ -2,9 +2,9 @@ created: 20180415143633665
 creator: Leander
 modified: 20190512160558489
 modifier: Leander
-revision: 0
 tags: Algorithmus Matroid Optimierung
 title: Greedy-Algorithmus und Matroide
+type: text/vnd.tiddlywiki
 
 Gegeben seien ein [[Unabhängigkeitssystem]] $$(E,\mathcal I)$$ sowie eine Gewichtsfunktion $$w\colon E\to\mathbb R_{\ge 0}.$$ Gesucht ist eine Teilmenge $$X\in\mathcal I$$ mit $$w(X)\coloneqq\sum_{e\in X}w(e)$$ maximal.
 

@@ -2,8 +2,8 @@ created: 20180626211410010
 creator: Leander
 modified: 20180626212324332
 modifier: Leander
-revision: 0
 tags: Algorithmus
 title: Algorithmus von Dijkstra
+type: text/vnd.tiddlywiki
 
 In einem gerichteten [[Graphen|Graph]] mit nicht-negativen Kantengewichten findet dieser Algorithmus einen kürzeste-Wege-Baum ausgehend von einem Startknoten. Dazu wird eine [[Prioritätswarteschlange|Heap]] mit den Knoten (nach ihrem Potential geordnet) befüllt, dann immer der Knoten mit minimalem Potential entnommen und die von ihm ausgehenden Kanten betrachtet. Wird eine Potentialverletzung gefunden, so wird das Potential des betroffenen Knotens im Heap angepasst.

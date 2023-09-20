@@ -1,8 +1,8 @@
 created: 20190629201805622
 modified: 20190713233029503
-revision: 0
 tags: Markov-Kette
 title: Mehrfache Übergangswahrscheinlichkeiten von Markov-Ketten
+type: text/vnd.tiddlywiki
 
 Sei $$(X_n)$$ eine [[Markov-Kette]] mit [[Übergangsmatrix|Stochastische Matrix]] $$P$$ und sei $$p^{(n)}_{ij}=(P^n)_{ij}.$$ Für $$m,n\in\N_0,\ i,j\in I$$ mit $$\Bbb P(X_m=i)>0$$ gilt dann
 

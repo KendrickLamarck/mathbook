@@ -1,0 +1,15 @@
+created: 20230918203228372
+modified: 20230918220802139
+tags: [[Machine learning]]
+title: Cumulant generating function
+type: text/vnd.tiddlywiki
+
+Let $$X\colon (\varOmega, \mathcal{A}, \prob) \to (\R, \mathcal{B}(\R))$$ be a real valued random variable. We write the [[Laplace transform|Laplace-Transformation]] of $$X$$ as
+$$
+\mathscr{L}_X \colon \R \to \ropenI{0, \infty}, \qquad
+\mathscr{L}_X(\alpha) \coloneqq \expect\left[e^{\alpha X}\right]
+$$
+(Which in normal terms is the laplace transform of the probability density, if there is one). Using the convention $$\log(\infty) = \infty,$$ we then define the //cumulant generating function// as
+$$
+\psi_X(\alpha) \coloneqq \log\mathscr{L}_X(\alpha).
+$$

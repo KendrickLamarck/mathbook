@@ -2,9 +2,9 @@ created: 20180708142730626
 creator: Leander
 modified: 20180708143155015
 modifier: Leander
-revision: 0
 tags: Algorithmus
 title: Berechnungsproblem
+type: text/vnd.tiddlywiki
 
 Es sei $$P\subset D\times E$$ eine [[Relation]], so dass es zu jedem $$d\in D$$ ein $$e\in E$$ mit $$(d,e)\in P$$ gibt. Dann heißt $$P$$ //Berechnungsproblem.//
 

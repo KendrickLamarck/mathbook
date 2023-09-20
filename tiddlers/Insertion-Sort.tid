@@ -2,9 +2,9 @@ created: 20180703190311887
 creator: Leander
 modified: 20180703190442707
 modifier: Leander
-revision: 0
 tags: Algorithmus
 title: Insertion-Sort
+type: text/vnd.tiddlywiki
 
 * Läuft in Zeit $$\Theta(n^2).$$
 * In-Place

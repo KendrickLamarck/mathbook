@@ -1,8 +1,8 @@
 created: 20180411234147405
 modified: 20180411234714337
-revision: 0
 tags: Graph
 title: Teilgraph
+type: text/vnd.tiddlywiki
 
 Sei $$G=(V(G),E(G),\Psi_G)$$ ein [[Graph]] (gerichtet oder ungerichtet). Ein Graph $$H=(V(H),E(H),\Psi_H)$$ ist ein //Teilgraph// von $$G$$, falls
 

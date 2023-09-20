@@ -1,8 +1,8 @@
 created: 20190629203221591
 modified: 20190710230218065
-revision: 0
 tags: Markov-Kette
 title: Erreichbarkeit in Markov-Ketten
+type: text/vnd.tiddlywiki
 
 Seien $$i,j\in I.$$ $$j$$ heißt von $$i$$ aus //erreichbar,// ($$i\leadsto j$$) falls ein $$n\in\Bbb N$$ existiert mit $$p_{ij}^{(n)}=(P^n)_{ij}>0.$$
 

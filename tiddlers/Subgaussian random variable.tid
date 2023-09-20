@@ -1,0 +1,32 @@
+created: 20230919154641140
+modified: 20230919173205730
+tags: [[Machine learning]]
+title: Subgaussian random variable
+type: text/vnd.tiddlywiki
+
+A centered (meaning $$\expect[X] = 0$$) real-valued random variable $$X$$ with cumulant generating function $$\psi_X(\alpha)$$ is called //subgaussian with variance proxy $$\sigma^2$$// if $$\psi_X(\alpha) \le \frac{1}{2} \sigma^2 \alpha^2$$ holds for all $$\alpha > 0.$$
+
+!! Chernoff bound
+
+For subgaussian (in particular: gaussian) random variables $$X,$$ we have the bound $$\prob(X \ge \varepsilon) \le e^{-\frac{1}{2}\frac{\varepsilon^2}{\sigma^2}}.$$
+
+!! Arithmetic means
+
+Let $$\{X_j\}_{j \in \N}$$ be a sequence of i.i.d. subgaussian random variables with variance proxy $$\sigma^2$$. Then $$\overbar{2}{-1}{X}_n$$ is subgaussian with variance proxy $$frac{\sigma^2}{n}$$. In particular, we have
+$$
+\prob(\overbar{2}{-1}{X}_n \ge \varepsilon) \le
+e^{-\frac{1}{2}\frac{\varepsilon^2}{\sigma^2}n}.
+$$
+If $$-X_j$$ is a also subgaussian with the same variance proxy, we have
+$$
+\prob\left(\,\left|\overbar{2}{-1}{X}_n\right| \ge \varepsilon\,\right) \le
+2e^{-\frac{1}{2}\frac{\varepsilon^2}{\sigma^2}n}.
+$$
+
+!! Bounded random variables
+
+A real-valued, centered random variable with values in $$[a, b]$$ is subgaussian with variance proxy $$\frac{(b-a)^2}{4}$$. In particular, for the arithmetic mean $$\overbar{2}{-1}{X}_n$$ of centered random variables with values in $$[a, b]$$ the following inequality holds:
+$$
+\prob\left(\,\left|\overbar{2}{-1}{X}_n\right| \ge \varepsilon\,\right) \le
+2 e^{-2\frac{\varepsilon^2}{(b-a)^2}n}.
+$$

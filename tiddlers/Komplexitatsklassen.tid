@@ -2,9 +2,9 @@ created: 20180718124317301
 creator: Leander
 modified: 20180718132110440
 modifier: Leander
-revision: 0
 tags: Optimierung
 title: Komplexitätsklassen
+type: text/vnd.tiddlywiki
 
 Die Klasse $$\mathbf P$$ besteht aus allen [[Sprachen|Sprache]] $$L,$$ (bzw. [[zugehörigen Entscheidungsproblemen|Sprachen und Entscheidungsprobleme]]), für die es eine [[deterministische Turingmaschine|Turingmaschine]] $$M$$ gibt, die $$L$$ entscheidet und $$t_M(n)\le p(n)$$ für alle $$n\in\mathbb Z_{\ge 0}$$ für eine [[Polynomfunktion|Polynom]] $$p.$$
 

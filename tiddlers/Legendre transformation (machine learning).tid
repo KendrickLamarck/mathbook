@@ -1,0 +1,11 @@
+created: 20230919152457762
+modified: 20230919153515175
+tags: [[Machine learning]]
+title: Legendre transformation (machine learning)
+type: text/vnd.tiddlywiki
+
+Let $$\psi(\alpha)$$ be a (convex??) function on $$\R_+ = \openI{0, \infty}$$ such that $$\psi(\alpha)$$ is finite for at least one $$\alpha \in \R_+$$. Then the function $$\psi^*\colon \R_+ \to \R \cup \infty$$ defined by
+$$
+\psi^*(\varepsilon) \coloneqq \sup_{\alpha \in \R_+} \alpha\varepsilon - \psi(\alpha)
+$$
+is called the //Legendre transform// of $$\psi$$.

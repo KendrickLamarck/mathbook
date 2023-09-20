@@ -2,9 +2,9 @@ created: 20180708144723160
 creator: Leander
 modified: 20180718201503530
 modifier: Leander
-revision: 0
 tags: Algorithmus
 title: Berechenbarkeit
+type: text/vnd.tiddlywiki
 
 Eine Funktion $$f\colon D\to E$$ (eindeutiges [[Berechnungsproblem]]) heißt //berechenbar,// falls es eine [[deterministische Turingmaschine|Turingmaschine]] gibt, die bei Input $$x\in D$$ nach endlich vielen Schritten terminiert und Output $$f(x)$$ liefert.
 

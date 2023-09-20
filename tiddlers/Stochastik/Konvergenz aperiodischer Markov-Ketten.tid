@@ -1,7 +1,7 @@
 created: 20190710230904698
 modified: 20190710231126377
-revision: 0
 tags: Markov-Kette
 title: Konvergenz aperiodischer Markov-Ketten
+type: text/vnd.tiddlywiki
 
 Sei $$(X_n)_{n\in\N_0}$$ eine [[Markov-Kette]] mit endlichem Zustandsraum $$I$$ und [[Übergangsmatrix|Stochastische Matrix]] $$P.$$ ist die Kette [[irreduzibel|Irreduzibilität]] und [[aperiodisch|Aperiodischer Zustand]], so existiert ein $$r\in\N,$$ so dass alle Elemente der Matrix $$P^r$$ strikt positiv sind. Insbesondere sind die Voraussetzungen des [[Konvergenzsatzes|Konvergenzsatz für endliche Markov-Ketten]] erfüllt und die Markov-Kette ist konvergent.

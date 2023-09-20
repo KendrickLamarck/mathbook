@@ -1,8 +1,8 @@
 created: 20190629201039912
 modified: 20190710225819573
-revision: 0
 tags: Markov-Kette
 title: Konvergenzsatz für endliche Markov-Ketten
+type: text/vnd.tiddlywiki
 
 Sei $$(X_n)$$ eine [[Markov-Kette]] auf einem endlichen Zustandsraum $$I$$ mit [[Übergangsmatrix|Stochastische Matrix]] $$P=(p_{ij})_{i,j\in I}.$$ Angenommen, es existiere $$r\in\N,$$ so dass die Matrix $$P^r$$ mindestens eine Spalte mit strikt positiven Einträgen besitzt. Dann gilt:
 

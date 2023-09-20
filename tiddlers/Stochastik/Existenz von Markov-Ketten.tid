@@ -1,7 +1,7 @@
 created: 20190629202223352
 modified: 20190629202324704
-revision: 0
 tags: Markov-Kette
 title: Existenz von Markov-Ketten
+type: text/vnd.tiddlywiki
 
 Sei $$P$$ eine [[stochastische Matrix|Stochastische Matrix]], $$\nu$$ ein [[Wahrscheinlichkeitsmaß]] auf $$I$$ und $$N\in\Bbb N.$$ Dann gibt es einen diskreten Wahrscheinlichkeitsraum $$(\Omega,P_\nu)$$ und Abbildungen $$X_i\colon\Omega\to I,\ 0\le i\le N,$$ so dass $$X_0,\dots,X_N$$ eine homogene [[Markov-Kette]] mit Startverteilung $$\nu$$ und Übergangsmatrix $$P$$ ist.

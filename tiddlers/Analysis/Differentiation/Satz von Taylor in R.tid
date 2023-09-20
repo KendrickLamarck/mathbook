@@ -2,35 +2,28 @@ caption: Satz von Taylor
 created: 20180108164601258
 creator: Leander
 list: 
-modified: 20191117164722242
+modified: 20230919172320530
 modifier: Leander
-revision: 0
 tags: [[Ableitung in R]]
 title: Satz von Taylor in R
 type: text/vnd.tiddlywiki
 
 Seien $$J \subset \mathbb R$$ ein Intervall, $$x_0\in J$$ und $$n \geq 1$$. Sei $$f\colon J \to \mathbb R$$ $$n$$-mal [[differenzierbar|Ableitung]]. Dann gilt für die durch
-
 $$
 f(x) = \left( \sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} (x-x_0)^k \right) + R(x)
 $$
-
 definierte [[Funktion|Abbildung]] $$R\colon J \to \mathbb R$$
-
 $$
 \lim_{x \to x_0} \frac{R(x)}{(x-x_0)^n} = 0.
 $$
-
 Wir nennen
-
 $$
 T_{f,x_0,n}(x)=\sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} (x-x_0)^k
 $$
+das Taylorpolynom $$n$$-ten [[Grades|Grad von Polynomen]] von $$f$$ an der Stelle $$x_0$$ und $$R$$ das zugehörige Restglied.
 
-das Taylorpolynom $$n$$-ten [[Grades|Grad von Polynomen]] von $$f$$ an der Stelle $$x_0$$ und $$R$$ das zugehörige Restglied. Ist $$f$$ sogar $$n+1$$-mal differenzierbar, so gibt es zu jedem $$x \in J \setminus \{x_0\}$$ ein $$\xi$$ zwischen $$x_0$$ und $$x$$, so dass
-
+Ist $$f$$ sogar $$n+1$$-mal differenzierbar, so gibt es zu jedem $$x \in J \setminus \{x_0\}$$ ein $$\xi$$ zwischen $$x_0$$ und $$x$$, so dass
 $$
 R(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!} (x-x_0)^{n+1}.
 $$
-
 (Lagrangesche Form des Restglieds.)

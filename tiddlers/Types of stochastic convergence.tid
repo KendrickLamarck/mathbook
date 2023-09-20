@@ -1,8 +1,8 @@
 created: 20230729184452028
 modified: 20230729185209446
-revision: 0
 tags: [[Machine learning]]
 title: Types of stochastic convergence
+type: text/vnd.tiddlywiki
 
 Let $$X_n\colon (\varOmega, \mathcal{A}, \prob) \to (\R^d, \Borel)$$ be a sequence of random variables. We know the following kinds of convergence:
 

@@ -2,9 +2,9 @@ created: 20180703190127026
 creator: Leander
 modified: 20180703190307647
 modifier: Leander
-revision: 0
 tags: Algorithmus
 title: Selection-Sort
+type: text/vnd.tiddlywiki
 
 * Läuft in Zeit $$\Theta(n^2).$$
 * In-Place

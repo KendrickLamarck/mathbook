@@ -1,8 +1,8 @@
 created: 20230707212521215
 modified: 20230729215238469
-revision: 0
 tags: [[Machine learning]]
 title: Unsupervised learning
+type: text/vnd.tiddlywiki
 
 Let $$\mathsf{d}(\cdot\mmid\cdot)$$ be some [[statistical distance|Statistical distance]] of probability measures on $$\R^d.$$ An //unsupervised statistical learning algorithm// is a collection of functions $$\{\hat\mu_n \colon \R^{dn} \to \probmeasures(\R^d)\}_{n \in \N}$$ such that for any $$\mu \in \probmeasures(\R^d),$$ the mapping
 $$

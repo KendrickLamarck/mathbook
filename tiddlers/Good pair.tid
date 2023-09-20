@@ -1,8 +1,8 @@
 created: 20230223161502355
 modified: 20230223161741973
-revision: 0
 tags: [[Topologie II]]
 title: Good pair
+type: text/vnd.tiddlywiki
 
 A pair of topological spaces $$(X, A)$$ is called a //good pair// if $$A$$ is closed and there exists an open neighborhood $$U$$ of $$A$$ that deformation retracts onto $$A.$$
 

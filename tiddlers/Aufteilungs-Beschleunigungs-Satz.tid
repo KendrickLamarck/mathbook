@@ -2,9 +2,9 @@ created: 20180413124400919
 creator: Leander
 modified: 20180719183551342
 modifier: Leander
-revision: 0
 tags: Optimierung
 title: Aufteilungs-Beschleunigungs-Satz
+type: text/vnd.tiddlywiki
 
 Es sei $$f\colon\mathbb N\to\mathbb N$$ [[monoton wachsend|Monotonie]] und $$a,b,c\in\mathbb R$$ mit $$a>1$$, sodass $$f(1)<c/a$$ ist und die folgende rekursive Ungleichung gilt:
 $$

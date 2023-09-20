@@ -1,8 +1,8 @@
 created: 20190710230347512
 modified: 20190710230614440
-revision: 0
 tags: Markov-Kette
 title: Aperiodischer Zustand
+type: text/vnd.tiddlywiki
 
 Sei $$i$$ ein Zustand einer [[Markov-Kette]]. Die Zahl
 

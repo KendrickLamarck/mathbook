@@ -3,7 +3,6 @@ description: Precision colors for machines and people
 license: MIT, Ethan Schoonover, https://github.com/altercation/solarized/blob/master/LICENSE
 modified: 20200629172502643
 name: SolarizedLight
-revision: 0
 tags: $:/tags/Palette
 title: $:/palettes/SolarizedLight
 type: application/x-tiddler-dictionary

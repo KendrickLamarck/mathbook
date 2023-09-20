@@ -1,7 +1,7 @@
 created: 20190629203352859
 modified: 20190629203512264
-revision: 0
 tags: Markov-Kette
 title: Irreduzibilität
+type: text/vnd.tiddlywiki
 
 Sei $$P$$ eine [[stochastische Matrix|Stochastische Matrix]] auf $$I.$$ $$P,$$ bzw. jede Markov-Kette mit Übergangsmatrix $$P,$$ heißt //irreduzibel,// wenn je zwei Elemente aus $$I$$ [[äquivalent|Erreichbarkeit in Markov-Ketten]] sind.

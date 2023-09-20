@@ -1,8 +1,8 @@
 created: 20191122203330057
 modified: 20191122204056508
-revision: 0
 tags: [[Multilineare Abbildung]]
 title: Alternierende multilineare Abbildung
+type: text/vnd.tiddlywiki
 
 Seien $$V$$ und $$W$$ $$K$$-[[Vektorräume|Vektorraum]]. Eine [[multilineare Abbildung|Multilineare Abbildung]] $$F\colon V^p\to W$$ heißt //alternierend,// falls eine der folgenden äquivalenten Aussagen gilt:
 

@@ -1,8 +1,8 @@
 created: 20230729181606074
 modified: 20230729213112459
-revision: 0
 tags: [[Machine learning]]
 title: Stationary markov chain data model
+type: text/vnd.tiddlywiki
 
 First, a summary of the definition of a [[stationary Markov chain|Stationäre Markov-Kette]]:
 

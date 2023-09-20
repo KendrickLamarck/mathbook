@@ -2,9 +2,9 @@ created: 20180723125707571
 creator: Leander
 modified: 20180723125848418
 modifier: Leander
-revision: 0
 tags: $:/tags/KaTeX/Snippet
 title: $:/tags/KaTeX/Snippet/Diagonalmatrix
+type: text/vnd.tiddlywiki
 
 $$\begin{pmatrix}
 \lambda_1 && 0\, \\

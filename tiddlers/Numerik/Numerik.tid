@@ -1,7 +1,6 @@
 created: 20191201182627477
 list: Zahldarstellung [[Explizites Einschrittverfahren]] [[Explizites Eulerverfahren]] [[Implizites Euler-Verfahren]] Fehleranalyse Polynominterpolation [[Eindimensionale Randwertprobleme]] [[Zweidimensionale Randwertprobleme]] [[Konvergenz von Randwertproblemen]] Spline Newton-Cotes-Formeln [[Diskrete Fourier-Transformation]] [[Schnelle Fourier-Transformation]] LR-Zerlegung [[Banach'scher Fixpunktsatz]] Newton-Verfahren Cholesky-Zerlegung
 modified: 20200601182814453
-revision: 0
 tags: Mathematics
 title: Numerik
 type: text/vnd.tiddlywiki

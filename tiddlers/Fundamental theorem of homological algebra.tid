@@ -1,8 +1,8 @@
 created: 20230220123236490
 modified: 20230220171624804
-revision: 0
 tags: [[Topologie II]]
 title: Fundamental theorem of homological algebra
+type: text/vnd.tiddlywiki
 
 Consider $$C_\bullet,D_\bullet \in \text{\rm ch}_{\ge 0}\text{\rm Mod-}R.$$ Assume
 

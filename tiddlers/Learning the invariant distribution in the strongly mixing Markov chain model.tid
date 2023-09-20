@@ -1,8 +1,8 @@
 created: 20230729214457380
 modified: 20230729224212235
-revision: 0
 tags: [[Machine learning]]
 title: Learning the invariant distribution in the strongly mixing Markov chain model
+type: text/vnd.tiddlywiki
 
 Let $$\mathcal{S} \subseteq \R^d$$ be a finite state space and let $$\{\rho_s\}_{s \in \mathcal{S}}$$ be a discrete probability density on $$\mathcal{S}$$ such that the strongly mixing Markov chain data model has $$\bar{\rho}$$ as invariant distribution (is this the distribution defined by the density $$\rho$$???). We define $$\mu = \mu_\rho$$ via $$\mu\{s\} = \rho_s.$$ We can then define a metric $$\mathsf{d}_\mathcal{S}$$ on $$\probmeasures(\R^d)$$ as
 $$

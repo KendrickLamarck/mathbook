@@ -1,9 +1,9 @@
 created: 20190615132748455
 list: [[Stochastische Matrix]] [[Existenz von Markov-Ketten]] [[Mehrfache Übergangswahrscheinlichkeiten von Markov-Ketten]] [[Erreichbarkeit in Markov-Ketten]] [[Abgeschlossene Zustandsmenge]] Irreduzibilität [[Stationäre Markov-Kette]] [[Stationäre Verteilung]] [[Konvergenzsatz für endliche Markov-Ketten]]
 modified: 20230424134108684
-revision: 0
 tags: Stochastik
 title: Markov-Kette
+type: text/vnd.tiddlywiki
 
 Sei $$I\ne\varnothing$$ höchstens abzählbar. Sei $$(\Omega,\mathcal A,\Bbb P)$$ ein [[Wahrscheinlichkeitsraum|Wahrscheinlichkeitsmaß]]. Eine Folge $$X_0,X_1,\dots$$ $$I$$-wertiger Zufallsvariablen auf $$(\Omega,\mathcal A,\Bbb P)$$ heißt //(zeitlich homogene) Markov-Kette// mit [[Übergangsmatrix|Stochastische Matrix]] $$P,$$ wenn für alle $$n\in\Bbb N$$ und $$i_0,\dots,i_{n+1}\in I$$ mit $$\Bbb P(X_0=i_0,\dots,X_{n+1}=i_{n+1})>0$$ gilt:
 $$

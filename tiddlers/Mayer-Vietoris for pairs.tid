@@ -1,8 +1,8 @@
 created: 20230223155251493
 modified: 20230223161639882
-revision: 0
 tags: [[Topologie II]]
 title: Mayer-Vietoris for pairs
+type: text/vnd.tiddlywiki
 
 If a map of pairs $$f\colon (X, A) \to (Y, B)$$ induces an isomorphism $$h_k(X, A) \xrightarrow{\cong} h_k(Y, B),$$ there is a long exact Mayer-Vietoris sequence
 $$

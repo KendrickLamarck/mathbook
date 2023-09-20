@@ -1,8 +1,8 @@
 created: 20190628180820643
 modified: 20230424134705973
-revision: 0
 tags: Markov-Kette
 title: Stationäre Markov-Kette
+type: text/vnd.tiddlywiki
 
 Eine [[Markov-Kette]] $$(X_n)$$ heißt //stationär,// falls für beliebiges $$m\in\N$$ die Ketten $$(X_n)_{n\in\N_0}$$ und $$(X_{m+n})_{n\in\N_0}$$ dieselben endlichdimensionalen Verteilungen besitzen, d.h. falls für beliebige $$m\in\N$$ und $$r\in\N_0$$ die [[Zufallsvektoren|Zufallsvariable]] $$(X_0,\dots,X_r)$$ und $$(X_m,\dots,X_{m+r})$$ die selbe [[Verteilung]] besitzen.
 

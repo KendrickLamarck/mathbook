@@ -1,8 +1,8 @@
 created: 20191109133344166
 modified: 20191109153257197
-revision: 0
 tags: [[Projective geometry]] no-toc
 title: Projective space
+type: text/vnd.tiddlywiki
 
 Let $$V$$ be a [[vector space|Vektorraum]] over a [[field|Körper]] $$F.$$ The //projective space// of $$V$$ is the set $$\mathrm P(V)$$ of one-dimensional [[subspaces|Untervektorraum]] of $$V.$$ If the dimension of $$V$$ is $$n+1$$ then the dimension of the projective space is (defined to be) $$n.$$
 

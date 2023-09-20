@@ -2,9 +2,9 @@ created: 20180718130621810
 creator: Leander
 modified: 20180718132353147
 modifier: Leander
-revision: 0
 tags: Optimierung
 title: Polynomielle Reduktion
+type: text/vnd.tiddlywiki
 
 Seien $$L_1$$ und $$L_2$$ [[Sprachen|Sprache]] über $$\Sigma_1$$ und $$\Sigma_2.$$ Dann heißt //$$L_1$$ polynomiell auf $$L_2$$ reduzierbar//, in Zeichen $$L_1\preceq_p L_2,$$ wenn es eine in polynomieller Zeit [[berechenbare|Berechenbarkeit]] Funktion $$f\colon\Sigma_1^*\to\Sigma_2^*$$ gibt, so dass
 

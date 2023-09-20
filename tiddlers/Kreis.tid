@@ -3,9 +3,9 @@ created: 20180411235651081
 creator: Leander
 modified: 20180712122350853
 modifier: Leander
-revision: 0
 tags: Kantenzug
 title: Kreis
+type: text/vnd.tiddlywiki
 
 Ein //Kreis// ist ein geschlossener [[Kantenzug]] $$v_1,e_1,\ldots,v_k,e_k,v_{k+1}$$, so dass $$v_i\ne v_j$$ für $$1\le i<j\le k+1$$.
 

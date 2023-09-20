@@ -1,9 +1,9 @@
 caption: Contact elements
 created: 20191014231128715
 modified: 20191107194832697
-revision: 0
 tags: [[Lie geometry]]
 title: Lie geometric contact element
+type: text/vnd.tiddlywiki
 
 A //Lie geometric contact element// is a line that is contained in the [[Lie quadric]]. They contain exactly one point sphere (but with a sort of orientation) and, if the point is not $$\infty$$, exactly one hyperplane. [[Lie transformations|Lie transformation]] map contact elements to contact elements.
 

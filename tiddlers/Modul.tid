@@ -1,8 +1,8 @@
 created: 20191123201130062
 modified: 20230223124622211
-revision: 0
 tags: Algebra
 title: Modul
+type: text/vnd.tiddlywiki
 
 Ein //Modul// (Plural: Moduln) über einem kommutativen [[Ring|Ring]] $$(R,+,\cdot)$$ oder //$$R$$-Modul// ist eine abelsche Gruppe $$(M,+)$$ zusammen mit einer Abbildung
 $$

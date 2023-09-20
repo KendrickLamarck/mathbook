@@ -1,7 +1,7 @@
 created: 20191121225716145
 modified: 20191121225823946
-revision: 0
 tags: Algebra
 title: Freier Vektorraum
+type: text/vnd.tiddlywiki
 
 Der //freie Vektorraum// einer Menge $$S$$ über einem Körper $$K$$ ist die Menge aller formalen endlichen Linearkombinationen $$\sum a_i s_i$$ mit $$a_i\in K$$ und $$s_i\in S.$$

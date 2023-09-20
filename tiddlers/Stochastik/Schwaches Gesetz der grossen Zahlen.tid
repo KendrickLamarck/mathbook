@@ -1,8 +1,8 @@
 created: 20190607002423766
 modified: 20230428165128006
-revision: 0
 tags: Erwartungswert
 title: Schwaches Gesetz der großen Zahlen
+type: text/vnd.tiddlywiki
 
 Sei $$(X_n)$$ eine [[Folge]] [[unkorellierter|Kovarianz]], identisch [[verteilter|Verteilung]] [[Zufallsvariablen|Zufallsvariable]] mit endlicher [[Varianz]]. Dann gilt
 $$

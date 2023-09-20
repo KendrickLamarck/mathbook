@@ -1,8 +1,8 @@
 created: 20221009134022379
 modified: 20221015144226007
-revision: 0
 tags: 
 title: What is a monad?
+type: text/vnd.tiddlywiki
 
 Let $$\mathcal{C}$$ be a category. $$[\mathcal{C},\mathcal{C}]$$ is the category of endofunctors of $$C$$ with natural transformations as morphisms. It has a monoidal structure with composition of functors and the identity morphism (?).
 

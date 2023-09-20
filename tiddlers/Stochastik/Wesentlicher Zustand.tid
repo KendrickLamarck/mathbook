@@ -1,8 +1,8 @@
 created: 20190710225853776
 modified: 20190710230242152
-revision: 0
 tags: Markov-Kette
 title: Wesentlicher Zustand
+type: text/vnd.tiddlywiki
 
 Ein Zustand $$i$$ einer [[Markov-Kette]] heißt //wesentlich,// wenn aus $$i\leadsto j$$ stets $$j\leadsto i$$ folgt. Andernfalls heißt er //unwesentlich.//
 

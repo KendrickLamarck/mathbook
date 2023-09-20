@@ -1,6 +1,5 @@
 created: 20190616004726261
-modified: 20230729184358980
-revision: 0
+modified: 20230919185030391
 tags: Stochastik
 title: Konvergenz in Verteilung
 type: text/vnd.tiddlywiki
@@ -11,6 +10,10 @@ $$
 $$
 in allen Stetigkeitspunkten $$x$$ von $$F.$$ Wir schreiben
 $$F_n\Rightarrow F,\ F_n\xrightarrow w F,\ X_n\Rightarrow X,\ X_n\xrightarrow d X.$$
+
+@@.theorem
+''Theorem (convergence in law and weak convergence).'' {{Convergence in law and weak convergence}}
+@@
 
 !! Alternative definition/notation
 

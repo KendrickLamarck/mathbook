@@ -1,8 +1,8 @@
 created: 20190615132836168
 modified: 20190629201748456
-revision: 0
 tags: Markov-Kette
 title: Stochastische Matrix
+type: text/vnd.tiddlywiki
 
 Es sei $$I\ne\varnothing$$ höchstens abzählbar. Eine Matrix $$P=(p_{ij})_{i,j\in I}$$ heißt //stochastische Matrix// oder //Übergangsmatrix,// falls
 

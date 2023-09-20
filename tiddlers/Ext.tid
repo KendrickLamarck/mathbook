@@ -1,8 +1,8 @@
 created: 20230220192215623
 modified: 20230220194043699
-revision: 0
 tags: [[Topologie II]]
 title: Ext
+type: text/vnd.tiddlywiki
 
 Suppose $$L,N \in \text{\textrm{Mod}-}R.$$ Choose a projective resolution $$P_\bullet \xrightarrow{r} L.$$ Then define
 $$

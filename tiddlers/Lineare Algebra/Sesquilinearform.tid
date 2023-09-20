@@ -3,9 +3,9 @@ creator: Leander
 list: [[Hermite'sche Form]] Polarisierung [[Darstellende Matrix (Sesquilinearformen)]] [[Transformationsformel (Sesquilinearformen)]]
 modified: 20191122203117188
 modifier: Leander
-revision: 0
 tags: Bilinearform
 title: Sesquilinearform
+type: text/vnd.tiddlywiki
 
 Sei $$V$$ ein $$\mathbb C$$-[[Vektorraum]]. Eine Abbildung $$s\colon V\times V\to K$$ heißt //Sesquilinearform//, wenn für alle $$v,v'w,w'\in V$$ und $$\lambda\in\mathbb C$$ gilt:
 $$\begin{aligned}

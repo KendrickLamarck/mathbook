@@ -2,9 +2,9 @@ created: 20180415145635752
 creator: Leander
 modified: 20180725162310982
 modifier: Leander
-revision: 0
 tags: Optimierung
 title: Problem des Handelsreisenden
+type: text/vnd.tiddlywiki
 
 Gegeben seien endlich viele Punkte $$p_1,\ldots,p_n\in\mathbb R^2$$. Gesucht ist der kürzeste Kreis durch alle Punkte: Für eine [[Permutation]] $$\sigma\in S_n$$ mit $$\sigma(1)=1$$ ist
 

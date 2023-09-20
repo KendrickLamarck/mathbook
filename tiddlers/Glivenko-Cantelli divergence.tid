@@ -1,8 +1,8 @@
 created: 20230729225705977
-modified: 20230729230505825
-revision: 0
+modified: 20230919175418044
 tags: [[Machine learning]]
 title: Glivenko-Cantelli divergence
+type: text/vnd.tiddlywiki
 
 Let $$\mathcal{F}_\mathrm{GC} = \{\,g=\mathbf{1}_{\lopenI{-\infty, a}} : a \in \R^d \,\}$$ be the set of indicator functinos on left open intervals on $$\R^d,$$ i.e. $$\lopenI{-\infty, a} = \{\, x = (x_1,...,x_d)^\transp \in \R^d : x_j \le a_j \forall j \,\}.$$ The Glivenko-Cantelli divergence is then defined as
 $$
@@ -13,3 +13,8 @@ $$
 where these cumulative distribution functions are defined as in the 1-dimensional case with the $$d$$-dimensional intervals.
 
 This is a metric on $$\probmeasures(\R^d).$$
+
+@@.theorem
+''Theorem.''
+In the i.i.d. data model, $$\mathcal{T} = \probmeasures(\R)$$ is PAC-learnable by the empirical distribution $$\hat\mu_n = \frac{1}{n} \sum_{j = 1}^n \delta_{X_j}$$ with respect to $$\mathsf{d}_\mathrm{GC}$$, where the sample size required to learn $$\mathsf{d}_\mathrm{GC}$$-precision $$\varepsilon$$ with probability at least $$1-\delta$$ is bounded by from above by $$n(\varepsilon,\delta) = \frac{-2}{\varepsilon^2} \log\frac{\varepsilon\delta}{4}$$.
+@@

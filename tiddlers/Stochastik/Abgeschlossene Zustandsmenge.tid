@@ -1,7 +1,7 @@
 created: 20190629203239465
 modified: 20190629203421703
-revision: 0
 tags: Markov-Kette
 title: Abgeschlossene Zustandsmenge
+type: text/vnd.tiddlywiki
 
 Sei $$P$$ eine [[stochastische Matrix|Stochastische Matrix]] auf $$I.$$ Eine nichtleere Menge $$J\subseteq I$$ heißt //abgeschlossen,// falls keine Zustände $$j\in J$$ und $$i\in I\setminus J$$ existieren mit $$i\leadsto j.$$

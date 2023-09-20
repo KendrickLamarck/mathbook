@@ -1,8 +1,8 @@
 created: 20190628182518692
 modified: 20190629200845288
-revision: 0
 tags: Markov-Kette
 title: Stationäre Verteilung
+type: text/vnd.tiddlywiki
 
 Gegeben sei eine [[Markov-Kette]] mit Zustandsraum $$I$$ und Übergangsmatrix $$P=(p_{ij})_{i,j\in I}.$$ Eine [[Wahrscheinlichkeitsverteilung|Verteilung]] $$\nu$$ auf $$I$$ heißt //stationär// oder //invariant// bzgl. $$P,$$ falls
 

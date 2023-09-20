@@ -1,0 +1,10 @@
+created: 20230919153342333
+modified: 20230919154346433
+tags: [[Machine learning]]
+title: Chernoff bound
+type: text/vnd.tiddlywiki
+
+Assume $$X$$ to be a real-valued random variable such that the Laplace transform $$\mathscr{L}_X(\alpha)$$ is finite on $$\ropenI{0,\alpha^*}$$ (could be the wrong interval). Let $$\psi_X(\alpha)$$ be the cumulant generating function of $$X$$$. Then we have
+$$
+\prob(X \ge \varepsilon) \le e^{-\psi_X^*(\varepsilon)}.
+$$

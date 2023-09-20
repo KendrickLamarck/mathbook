@@ -2,9 +2,9 @@ created: 20180708144313360
 creator: Leander
 modified: 20180708145006431
 modifier: Leander
-revision: 0
 tags: Algorithmus
 title: Sprachen und Entscheidungsprobleme
+type: text/vnd.tiddlywiki
 
 Das zu einer [[Sprache]] $$L\subset\Sigma^*$$ gehörende [[Entscheidungsproblem|Berechnungsproblem]] ist
 

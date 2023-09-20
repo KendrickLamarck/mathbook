@@ -1,7 +1,7 @@
 created: 20230724122217006
 modified: 20230724124010832
-revision: 0
 tags: [[Machine learning]]
 title: Statistical distance
+type: text/vnd.tiddlywiki
 
 A //statistical distance// or //divergence// $$d(\cdot\mmid\cdot)$$ is an informal distance measure between probability measures or other objects like [[markov kernels|Übergangskern]]. It is usually required to fulfill $$d(\mu \mmid \nu) = 0 \iff \mu = \nu.$$ If it is a metric, we write it as $$d(\cdot, \cdot)$$ instead.

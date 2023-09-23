@@ -1,0 +1,50 @@
+created: 20230920181201812
+modified: 20230923142409721
+tags: [[Machine learning]]
+title: Wasserstein-1-metric
+type: text/vnd.tiddlywiki
+
+* <div>A function $$g\colon \R^d \to \R$$ is Lipschitz continuous with respect to a metric $$\mathfrak{d}$$ on $$\R^d$$ if
+$$
+|g(x) - g(y) \le C \mathfrak{d}(x, y)\quad \forall x, y \in \R^d.
+$$
+$$C$$ is called the Lipschitz constant of $$g$$.
+</div>
+
+* We define $$\Lip(\mathfrak{d})$$ as the set of functions $$g\colon \R^d \to \R$$ which are Lispchitz continuous with $$C \le 1$$. With $$\Lip_y(\mathfrak{d})$$ we denote the space of functions $$f \in \Lip(\mathfrak{d})$$ such that $$f(y) = 0$$.
+
+* <div>Let $$\nu \in \measures(\R^d)$$ be a signed measure for which there exists $$y \in \R^d$$ such that
+$$
+\int_{\R^d} \mathfrak{d}(y, x)\,\d|\nu|(x) < \infty.
+$$
+The space of all such signed measures is denoted by $$\measures^\mathfrak{d}(\R^d)$$. In particular, we assume that $$\mathfrak{d}(y, x)$$ as a function of $$x$$ is $$\Borel(\R^d)$$-measurable.
+</div>
+
+* <div>The //Wasserstein-1-norm// of the difference of two measures $$\nu,\mu \in \measures^\mathfrak{d}(\R^d)$$ with the same $$y \in \R^d$$ as in the last definition is defined as
+$$
+\|\mu - \nu\|_\wasserstein1 = \sup_{g \in \Lip_y(\mathfrak{d})} |L_{\mu - \nu}(g)|.
+$$
+</div>
+
+* Restricting to $$\measures^{\mathfrak{d},+}_1(\R^d) \coloneqq \probmeasures(\R^d) \cap \measures^\mathfrak{d}(\R^d)$$ yields the Lipschitz metric $$\mathsf{d}_\wasserstein1$$.
+
+!! Properties
+
+For all $$\mu, \nu \in \measures^\mathfrak{d}(\R^d)$$, we have:
+
+* The Wasserstein-1-norm $$\|\mu\|_\wasserstein1$$ is finite.
+
+* <div>If $$\mu,\nu \in \measures^{\mathfrak{d},+}_1(\R^d)$$ are probability measures on $$(\R^d, \Borel(\R^d))$$, we can replace $$\Lip_y(\mathfrak{d})$$ by just $$\Lip(\mathfrak{d})$$:
+$$
+\|\mu - \nu\|_\wasserstein1 =
+\sup_{g \in \Lip(\mathfrak{d})} |L_{\mu - \nu}(g)|.
+$$
+</div>
+
+* The Wasserstein-1-norm is a semi-norm, i.e. it fulfills the triangle inequailty and $$\|a\mu\|_\wasserstein1 = |a| \|\mu\|_\wasserstein1$$.
+
+* Assume that the $$\mathfrak{d}$$-topology is not weaker than the $$|\cdot|$$-topology, i.e. $$x_n \xrightarrow{\mathfrak{d}} x$$ implies $$x_n \xrightarrow{|\cdot|} x$$. Furthermore, for probability measures $$\mu, \nu$$ $$d_\wasserstein1(\mu,\nu) = 0$$ implies $$\mu = \nu$$ and thus the restriction of $$\|\cdot\|_\wasserstein1$$ to $$\measures_1^{\mathfrak{d}, +}$$ is a metric.
+
+$$
+\gdef\wasserstein1{{W_1(\mathfrak{d})}}
+$$

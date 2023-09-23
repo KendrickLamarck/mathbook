@@ -1,7 +1,14 @@
 created: 20230707212243403
-modified: 20230707212313951
+list: [[Types of stochastic convergence]] Borel-Cantelli-Lemma [[Markovsche Ungleichung]] [[Statistical distance]] [[i.i.d. data model]] [[Stationary markov chain data model]] [[Unsupervised learning]] [[Learning the invariant distribution in the strongly mixing Markov chain model]] [[F-divergence and F-weak and F-strong topology]] [[Glivenko-Cantelli divergence]] [[Glivenko-Cantelli theorem]] [[Cumulant generating function]] [[Legendre transformation (machine learning)]] [[Chernoff bound]] [[Subgaussian random variable]] [[Bounded linear operator, dual space, weak topology]] [[Convergence in law and weak convergence]] [[Signed measure]] [[Total variation]] Radon-Norm [[Equivalence of total variation and Radon norm]] [[Parameter distance of measures]] Wasserstein-1-metric [[Wasserstein-1-norm and Radon norm]] [[Relative Entropie]] [[Jensen-Shannon divergence]] [[Gibbs variational principle]] [[Bobkov-Götze theorem]]
+modified: 20230923150908040
 tags: Mathematics
 title: Machine learning
 type: text/vnd.tiddlywiki
+
+!! Nonstandard notation
+
+* $$L^\infty$$ is the space of measurable bounded (not essentially bounded!) functions together with $$\|\cdot\|_\infty$$.
+
+!! Topics
 
 {{||$:/_templates/tree}}

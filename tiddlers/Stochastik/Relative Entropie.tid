@@ -1,8 +1,8 @@
 created: 20200702195420281
 creator: Leander
-modified: 20210314001037946
+modified: 20230923143329463
 modifier: Leander
-tags: Stochastik
+tags: Stochastik [[Machine learning]]
 title: Relative Entropie
 type: text/vnd.tiddlywiki
 
@@ -15,3 +15,7 @@ falls die [[Radon-Nikodym-Ableitung|Dichte]] existiert. Besitzen $$\prob$$ und $
 $$
 \int_\R \rho(x) \log\frac{\rho(x)}{\sigma(x)}\,\d x.
 $$
+
+!! In machine learning
+
+We write this as $$\dKL(\mu \mmid \nu).$$ We have $$\dKL(\mu \mmid \nu) \ge 0$$ with $$\dKL(\mu \mmid \nu) = 0$$ if and only if $$\mu = \nu$$.

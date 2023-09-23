@@ -1,0 +1,20 @@
+created: 20230922144640628
+modified: 20230922150912997
+tags: [[Machine learning]]
+title: Parameter distance of measures
+type: text/vnd.tiddlywiki
+
+We consider the case of classic parametric statistics, where we have a subset $$\varTheta \subseteq \R^d$$ and an injective mapping $$\mu_{(\cdot)}\colon \varTheta \to \probmeasures(\R^d)$$. Then if $$\nu = \mu_\theta$$ and $$\nu' = \mu_{\theta'}$$, $$\metric_\varTheta(\nu, \nu') \coloneqq |\theta - \theta'|$$ defines a metric on $$\img\mu_{(\cdot)}$$.
+
+@@.theorem
+<div>
+
+''Lemma.'' Suppose $$\metric(\cdot\mmid\cdot)$$ is a divergence on $$\probmeasures(\R^d)$$ and the mapping $$\mu_{(\cdot)}\colon \varTheta \to \probmeasures(\R^d)$$ is injective and continuous with respect to $$\metric.$$ Then
+
+* On $$\img\mu_{(\cdot)}$$, the $$\metric_\varTheta$$-topology is stronger than the $$\metric$$-topology.
+* If $$\varTheta$$ is compact, then the $$\metric_\varTheta$$- and $$\metric$$-topologies are equivalent on $$\img\mu_{(\cdot)}$$.
+
+</div>
+@@
+
+$$\gdef\metric{\mathsf{d}}$$

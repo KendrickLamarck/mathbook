@@ -1,10 +1,10 @@
 created: 20230729225705977
-modified: 20230919175418044
+modified: 20230920145432789
 tags: [[Machine learning]]
 title: Glivenko-Cantelli divergence
 type: text/vnd.tiddlywiki
 
-Let $$\mathcal{F}_\mathrm{GC} = \{\,g=\mathbf{1}_{\lopenI{-\infty, a}} : a \in \R^d \,\}$$ be the set of indicator functinos on left open intervals on $$\R^d,$$ i.e. $$\lopenI{-\infty, a} = \{\, x = (x_1,...,x_d)^\transp \in \R^d : x_j \le a_j \forall j \,\}.$$ The Glivenko-Cantelli divergence is then defined as
+Let $$\mathcal{F}_\mathrm{GC} = \{\,g=\indicator_{\lopenI{-\infty, a}} : a \in \R^d \,\}$$ be the set of indicator functinos on left open intervals on $$\R^d,$$ i.e. $$\lopenI{-\infty, a} = \{\, x = (x_1,...,x_d)^\transp \in \R^d : x_j \le a_j \forall j \,\}.$$ The Glivenko-Cantelli divergence is then defined as
 $$
 \mathsf{d}_\mathrm{GC}(\mu, \nu) =
 \mathsf{d}_{\mathcal{F}_\mathrm{GC}} =

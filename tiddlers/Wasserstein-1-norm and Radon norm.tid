@@ -1,0 +1,21 @@
+created: 20230922141529099
+modified: 20230923142933098
+tags: [[Machine learning]]
+title: Wasserstein-1-norm and Radon norm
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\metric{\mathfrak{d}}
+\gdef\wasserstein1{{W_1(\metric)}}
+\gdef\probmeasuresd{\measures^{\metric,+}_1}
+$$
+
+</div>
+
+Let $$\metric(x, y) = |x - y|$$ and $$B \subseteq \R^d$$ be bounded sets. With $$\probmeasuresd(B)$$ we denote all probability measures with support in $$B$$, i.e. for $$\mu \in \probmeasuresd$$ we have $$\mu(A) = 0$$ for arbitrary $$A \in \Borel(\R^d)$$ such that $$A \cap B = \varnothing$$. Let $$r_B = inf_{y \in B} \sup_{x \in B} \metric(x, y)$$ be the radius of $$B.$$ Then for $$\mu, \nu \in \probmeasuresd(B)$$,
+$$
+\mathsf{d}_\wasserstein1(\mu,\nu) \le r_B\mathsf{d}_\mathrm{RD}(\mu, \nu).
+$$
+Furthermore, for compact sets $$B$$, the $$|\cdot|$$-Wasserstein-1-metric defines a weaker topology than the Radon norm or the metric of total variation.

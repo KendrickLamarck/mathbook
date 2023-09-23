@@ -1,5 +1,5 @@
 created: 20181113154921049
-modified: 20201112143122789
+modified: 20230920141114155
 tags: [[Monoton approximierbare Funktionen]] no-toc
 title: Approximation halbstetiger Funktionen
 type: text/vnd.tiddlywiki
@@ -15,5 +15,5 @@ f\ \text{unterhalbstetig,}\ \{f<0\}\text{ beschränkt}
 \,\right\}.
 $$
 
-''Korollar:'' $$\mathcal H^\uparrow(\mathbb R^d)\cap\mathcal H^\downarrow(\mathbb R^d)=\mathcal C_\mathrm c(\mathbb R^d).$$
+''Korollar:'' $$\mathcal H^\uparrow(\mathbb R^d)\cap\mathcal H^\downarrow(\mathbb R^d)=\smoothcs(\mathbb R^d).$$
 @@

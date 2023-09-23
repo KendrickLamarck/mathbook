@@ -1,1 +1,1 @@
-\mathcal{M}_1^+
+\measures_1^+

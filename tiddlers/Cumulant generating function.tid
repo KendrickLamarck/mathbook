@@ -1,5 +1,5 @@
 created: 20230918203228372
-modified: 20230918220802139
+modified: 20230923150055223
 tags: [[Machine learning]]
 title: Cumulant generating function
 type: text/vnd.tiddlywiki
@@ -13,3 +13,7 @@ $$
 $$
 \psi_X(\alpha) \coloneqq \log\mathscr{L}_X(\alpha).
 $$
+
+@@.theorem
+''Lemma.'' Let $$X$$ e a real-valued random variable such that $$\mathscr{L}_X(\alpha)$$ is finite on an interval $$I \subseteq \R$$. Then the cumulant generating function $$\psi_X(\alpha) = \log\mathscr{L}_X(\alpha)$$ is convex on $$I$$.
+@@

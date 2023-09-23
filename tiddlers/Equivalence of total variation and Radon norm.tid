@@ -1,0 +1,12 @@
+created: 20230920150208345
+modified: 20230920150456643
+tags: [[Machine learning]]
+title: Equivalence of total variation and Radon norm
+type: text/vnd.tiddlywiki
+
+Let $$\mathcal{T} \subseteq \probmeasures(\R^d)$$ be the space of measures that are defined by a probability density $$f(x)$$ with respect to the Lebesgue measure $$\d x$$ on $$\R^d$$. Then the following holds for $$\mu, \nu \in \mathcal{T}$$:
+$$
+\mathsf{d}_\mathrm{TV}(\mu, \nu) =
+\mathsf{d}_{\smoothcs(\R^d)}(\mu, \nu) =
+\mathsf{d}_\mathrm{RD}(\mu, \nu).
+$$

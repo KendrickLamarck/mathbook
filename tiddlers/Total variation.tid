@@ -1,0 +1,30 @@
+created: 20230920141716601
+modified: 20230920145940728
+tags: [[Machine learning]]
+title: Total variation
+type: text/vnd.tiddlywiki
+
+The //norm of total variation// $$\|\cdot\|_\mathrm{TV}$$ on $$\measures(\R^d)$$ is defined as
+$$
+\|\gamma\|_\mathrm{TV} \coloneqq \sup_{
+  \substack{g \in L^\infty(\R^d), \\ \|g\|_\infty \le 1}
+}
+\left| \int_{\R^d} g \,\d\gamma \right|.
+$$
+
+!! Alternative definition 1
+
+The Hahn-Jordan decomposition says that any signed measure $$\gamma \in \measures(\R^d)$$ can be decomposed as $$\gamma = \gamma^+ - \gamma^-$$, where $$\gamma^\pm$$ are non-negative measures. There also exists a partition of $$\R^d$$ into two disjoint Borel-measurable sets $$A^\pm$$ such that $$\gamma^-(A^+) = \gamma^+(A^-) = 0$$. We then define
+$$
+\|\gamma\|_\mathrm{TV} \coloneqq \gamma^+(A^+) + \gamma^-(A^-) = (\gamma^+ + \gamma^-)(\R^d) = |\gamma|(\R^d).
+$$
+The supremum in the original definition is thus assumed by $$g = \indicator_{A^+} - \indicator_{A^-}.$$
+
+!! Alternative definition 2
+
+We can also define
+$$
+\mathsf{d}_\mathrm{TV}(\mu, \nu) \coloneqq
+2\sup_{A \in \Borel(\R^d)} |\mu(A) - \nu(A)|.
+$$
+The total variation is therefore equal to the $$\mathcal{F}$$-divergence for $$\mathcal{F} = \{\,2\indicator_A : A \in \Borel(\R^d)\,\},$$ showing that it is stronger than the Glivenko-Cantelli divergence.

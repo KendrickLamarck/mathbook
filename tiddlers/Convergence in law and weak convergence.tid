@@ -1,7 +1,7 @@
 created: 20230919183941788
-modified: 20230919184230816
+modified: 20230920141139288
 tags: [[Machine learning]]
 title: Convergence in law and weak convergence
 type: text/vnd.tiddlywiki
 
-Let $$X_n \sim \mu_n,\;X \sim \mu$$ be $$\R^d$$-valued random variables. Then $$X_n \xrightarrow{\mathscr{L}} X$$ if and only if $$\mu_n \rightharpoonup \mu$$ in $$C_\mathrm{c}(\R^d, \R)'$$ or $$C_\mathrm{b}(\R^d, \R)'$$.
+Let $$X_n \sim \mu_n,\;X \sim \mu$$ be $$\R^d$$-valued random variables. Then $$X_n \xrightarrow{\mathscr{L}} X$$ if and only if $$\mu_n \rightharpoonup \mu$$ in $$\smoothcs(\R^d, \R)'$$ or $$\smoothbd(\R^d, \R)'$$.

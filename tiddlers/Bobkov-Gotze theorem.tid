@@ -1,0 +1,11 @@
+created: 20230923150852092
+modified: 20230923151245585
+tags: [[Machine learning]]
+title: Bobkov-Götze theorem
+type: text/vnd.tiddlywiki
+
+Let $$\mu \in \probmeasures(\R^d)$$ and $$\mathfrak{d}$$ a metric on $$\R^d$$ such that $$\mathfrak{d}(y, \cdot)$$ is Borel-measurable for all $$y \in \R^d$$. Then the following statements are equivalent:
+
+* For $$X \sim \mu$$ and $$g \in \Lip(\mathfrak{d}),$$ $$Y_g = g(X) - \expect_\mu[g(X)]$$ is subgaussian with a variance proxy $$\sigma^2 > 0$$ that does not depend on $$g$$.
+
+* $$\mathsf{d}_{W_1(\mathfrak{d})}(\mu, \nu) \le \sqrt{2\sigma^2 \dKL(\mu \mmid \nu)}$$ holds for all $$\nu \in \probmeasures(\R^d)$$.

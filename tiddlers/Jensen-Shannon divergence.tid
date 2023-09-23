@@ -1,0 +1,15 @@
+created: 20230923143023524
+modified: 20230923143710850
+tags: [[Machine learning]]
+title: Jensen-Shannon divergence
+type: text/vnd.tiddlywiki
+
+For $$\mu, \nu \in \probmeasures(\R^d)$$ with $$\mu \sim \nu$$, the Jensen-Shannon divergence is defined by
+$$
+\def\munuover2{\frac{\mu + \nu}{2}}
+\dJS(\mu \mmid \nu) \coloneqq \frac{1}{2}\left(
+  \dKL\left(\mu \middle\| \munuover2\right) +
+  \dKL\left(\nu \middle\| \munuover2\right)
+\right).
+$$
+We have $$\dJS(\mu\mmid\nu) \ge 0$$ with equality if and only if $$\mu = \nu$$.

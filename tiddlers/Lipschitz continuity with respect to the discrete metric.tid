@@ -1,0 +1,20 @@
+created: 20230925201957986
+modified: 20230925203004510
+tags: [[Machine learning]]
+title: Lipschitz continuity with respect to the discrete metric
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\ddiscrete{\mathfrak{d}_\mathrm{d}}
+\gdef\probmeasuresdd{\measures_1^{+, \ddiscrete}}
+$$
+
+</div>
+
+Let $$\ddiscrete$$ be the discrete metric on $$\R^d$$. Then the following holds:
+
+* $$\probmeasuresdd(\R^d) = \probmeasures(\R^d)$$;
+* $$\Lip(\ddiscrete) = \{\, g \in L^\infty(\R^d) : \sup_{x \in \R^d} g(x) - \inf_{x \in \R^d} g(x) \le 1 \,\}$$;
+* On $$\probmeasures(\R^d)$$, we have $$\dTV = 2 \mathsf{d}_{W_1(\ddiscrete)}$$.

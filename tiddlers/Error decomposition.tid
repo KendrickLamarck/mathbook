@@ -1,0 +1,42 @@
+created: 20230925215837951
+modified: 20230925221052316
+tags: [[Machine learning]]
+title: Error decomposition
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\calLhat{\overhat{4}{-1.5}{\mathcal{L}}}
+\gdef\epsmod{\varepsilon_{n, \mathrm{mod}}}
+\gdef\epslearn{\varepsilon_{n, \mathrm{learn}}}
+\gdef\epssampl{\varepsilon_{n, \mathrm{sampl}}}
+$$
+
+</div>
+
+Let $$\hat\mu_n$$ be a statistical learning algorithm and $$X_j \sim \mu$$ data from an i.i.d. data model. Let $$\mathsf{d}$$ be a divergence and $$\mathcal{H}_n$$ be the hypothesis space associated with $$\hat\mu_n.$$ Furthermore, let $$\calLhat_n$$ (together with $$c_n$$ and $$h_n$$) be an empirical risk function associated with $$\mathsf{d}$$. Then the following hold:
+
+* <span>The error decomposition in model error, learning error and statistical error is given by
+$$
+0 \le \mathsf{d}(\mu \mmid \hat\mu_n) \le \epsmod(\mu) + \epslearn + 2\epssampl(\mu)
+$$
+Where
+$$\begin{aligned}
+\epsmod(\mu) &\coloneqq \inf_{\nu \in \mathcal{H}_n} \mathsf{d}(\mu \mmid \nu), \\
+\epslearn &\coloneqq c_n\left( \calLhat_n(\hat\mu_n,\chi_n) - \inf_{\nu \in \mathcal{H}_n} \calLhat_n(\nu, \chi_n) \right), \\
+\epssampl &\coloneqq \sup_{\nu \in \mathcal{H}_n}\left| \mathsf{d}(\mu \mmid \nu) - \left( c_n\calLhat_n(\nu, \chi_n) + h_n(\mu) \right) \right|.
+\end{aligned}$$
+</span>
+
+* <span>In particular for an ERM-learner $$\hat\mu_n$$, we have
+$$
+0 \le \mathsf{d}(\mu \mmid \hat\mu_n) \le \epsmod(\mu) + 2\epssampl
+$$
+</span>
+
+* <span>If in addition $$\mathcal{H}_n = \mathcal{H}$$ and $$\mu \in \mathcal{T} \subseteq{H},$$ then we have
+$$
+0 \le \mathsf{d}(\mu \mmid \hat\mu_n) \le 2 \epssampl(\mu).
+$$
+</span>

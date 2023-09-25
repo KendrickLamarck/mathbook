@@ -1,8 +1,16 @@
 created: 20230920181201812
-modified: 20230923142409721
+modified: 20230925201950669
 tags: [[Machine learning]]
 title: Wasserstein-1-metric
 type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\wasserstein1{{W_1(\mathfrak{d})}}
+$$
+
+</div>
 
 * <div>A function $$g\colon \R^d \to \R$$ is Lipschitz continuous with respect to a metric $$\mathfrak{d}$$ on $$\R^d$$ if
 $$
@@ -44,7 +52,3 @@ $$
 * The Wasserstein-1-norm is a semi-norm, i.e. it fulfills the triangle inequailty and $$\|a\mu\|_\wasserstein1 = |a| \|\mu\|_\wasserstein1$$.
 
 * Assume that the $$\mathfrak{d}$$-topology is not weaker than the $$|\cdot|$$-topology, i.e. $$x_n \xrightarrow{\mathfrak{d}} x$$ implies $$x_n \xrightarrow{|\cdot|} x$$. Furthermore, for probability measures $$\mu, \nu$$ $$d_\wasserstein1(\mu,\nu) = 0$$ implies $$\mu = \nu$$ and thus the restriction of $$\|\cdot\|_\wasserstein1$$ to $$\measures_1^{\mathfrak{d}, +}$$ is a metric.
-
-$$
-\gdef\wasserstein1{{W_1(\mathfrak{d})}}
-$$

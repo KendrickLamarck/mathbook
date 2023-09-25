@@ -1,0 +1,11 @@
+created: 20230925200617707
+modified: 20230925205541148
+tags: [[Machine learning]]
+title: Hoeffding's inequality
+type: text/vnd.tiddlywiki
+
+A real-valued, centered random variable with values in $$[a, b]$$ is subgaussian with variance proxy $$\frac{(b-a)^2}{4}$$. In particular, for the arithmetic mean $$\overbar{2}{-1}{X}_n$$ of centered random variables with values in $$[a, b]$$ the following inequality holds:
+$$
+\prob\left(\,\left|\overbar{2}{-1}{X}_n\right| \ge \varepsilon\,\right) \le
+2 e^{-2\frac{\varepsilon^2}{(b-a)^2}n}.
+$$

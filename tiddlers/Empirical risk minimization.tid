@@ -1,0 +1,32 @@
+created: 20230925210513746
+modified: 20230925215950757
+tags: [[Machine learning]]
+title: Empirical risk minimization
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\calLhat{\overhat{4}{-1.5}{\mathcal{L}}}
+$$
+
+</div>
+
+* <span>An //empirical risk function// $$\calLhat = \{\calLhat_n\}$$ for a given divergence $$\mathsf{d}$$ is a family of mappings $$\calLhat_n\colon \mathcal{H} \times \R^{dn} \to \R$$ such that $$(x_1,\dots,x_n) = \chi \mapsto \hat{\mu}_n \in \argmin_\mathcal{H} \calLhat(\nu,\chi)$$ is measurable (for some adequate choice, if the $$\argmin$$ contains multiple elements). Furthermore, there exists a sequence $$c_n > 0$$ and some functions $$h_n\colon \mathcal{T} \to \R$$ such that for all $$\nu \in \mathcal{T}$$ with $$X_j \sim \mu$$ i.i.d.
+$$
+c_n \calLhat(\nu) + h_n(\mu) = c_n \calLhat(\nu,\chi_n) + h_n(\mu, \chi_n) \xrightarrow{\prob} \mathsf{d}(\mu \mmid \nu).
+$$
+</span>
+
+* <span>An empirical risk function is called //unbiased// if for all $$\mu \in \mathcal{T}$$ and $$\nu \in \mathcal{H}_n$$ we have: If $$X_j \sim \mu$$ i.i.d. for all $$n \in \N,$$ then
+$$
+\expect[c_n\calLhat(\nu) + h_n(\mu)] = \mathsf{d}(\mu \mmid \nu).
+$$
+</span>
+
+* <span>A statistical learning algorithm is called an //ERM (empirical risk minimization) - learner//, if
+$$
+\hat{\mu}_n(\chi_n) \in \argmin_{\nu \in \mathcal{H}} \calLhat_n(\nu, \chi_n).
+$$
+The process of (approximately) minimizing $$\calLhat(\nu, \chi_n)$$ is called the training of the ERM-learner.
+</span>

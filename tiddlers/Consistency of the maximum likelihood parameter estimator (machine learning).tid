@@ -1,0 +1,21 @@
+created: 20230926214745388
+modified: 20230926220340467
+tags: [[Machine learning]]
+title: Consistency of the maximum likelihood parameter estimator (machine learning)
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\calLhat{\overhat{4}{-1.5}{\mathcal{L}}}
+$$
+
+</div>
+
+Let $$\{\mu_\theta\}_{\theta \in \varTheta} \subseteq \probmeasures(\R^d)$$ be a parametric model with $$\varTheta \subseteq \R^q$$ compact. Assume $$\varTheta \ni \theta \mapsto \mu_\theta \in \mathcal{H}$$ is injective and continuous with respect to $$\mathsf{d}$$.
+
+* $$\hat\mu_n = \mu_{\hat\theta_n}$$ is an ERM-learner with respect to the empirical risk function $$\calLhat(\mu_\theta)$$ (is this the negative log-likelihood???? Do the measures have densities?)
+
+* The ERM-learner $$\hat\mu_n$$ learns $$\mathcal{T} = \mathcal{H}$$ with respect to $$\mathsf{d}$$ if and only if $$\hat\theta_n \coloneqq \argmin_{\theta \in \varTheta} \calLhat_n(\mu_\theta)$$ is [[consistent|Schätzer]].
+
+* Suppose the conditions of the  [[uniform law of large numbers|Uniform law of large numbers (machine learning)]] hold. Then the maximum likelihood parameter estimator is consistent.

@@ -1,0 +1,24 @@
+created: 20230926211223790
+modified: 20230926215213381
+tags: [[Machine learning]]
+title: Uniform law of large numbers (machine learning)
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\calLhat{\overhat{4}{-1.5}{\mathcal{L}}}
+\gdef\epssampl{\varepsilon_{n, \mathrm{sampl}}}
+$$
+
+</div>
+
+Let $$\mathcal{H}, \mathcal{T} \subseteq \probmeasures(\R^d)$$. We assume that $$\mathcal{H}$$ is compact with respect to $$\mathsf{d}$$ and $$\mathcal{T} \subseteq \mathcal{H}$$. Furthermure, we assume $$X_j \sim \mu$$ in the i.i.d. data model.
+
+Let $$c_n \calLhat_n(\nu) \coloneqq \frac{1}{n} \sum_j l(X_j \mid \nu)$$ be an unbiased empirical loss function such that for all $$x \in \R^d,\mathcal{H}\ni \nu \mapsto l(x \mid \nu) \in \R$$ is continuous. Further, (assume??) for $$\mu \in \mathcal{T}$$, the function $$K(x) \coloneqq \sup_{\nu \in \mathcal{H}} |l(x \mid \nu)|$$ is $$L^1$$-integrable w.r.t. $$\mu$$. Then we have:
+$$
+\epssampl(\mu) = \sup_{\nu \in \mathcal{H}} \left|
+  -\frac{1}{n} \sum_{j = 1}^n l(X_j \mid \nu) + h_n(\mu) - \mathsf{d}(\mu \mmid \nu)
+\right| \xrightarrow{P-\text{a.s.}} 0.
+$$
+If $$\mathcal{T} \subseteq \mathcal{H}$$, $$\mathcal{T}$$ is learned by the ERM learner $$\hat\mu_n \in \argmin_{\nu \in \mathcal{H}} \calLhat_n(\nu)$$. Otherwise, the ERM learner learns $$\mathcal{T}$$ agnostically.

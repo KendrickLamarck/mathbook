@@ -1,8 +1,14 @@
 created: 20230922144640628
-modified: 20230922150912997
+modified: 20230926214626131
 tags: [[Machine learning]]
 title: Parameter distance of measures
 type: text/vnd.tiddlywiki
+
+<span>
+
+$$\gdef\metric{\mathsf{d}}$$
+
+</span>
 
 We consider the case of classic parametric statistics, where we have a subset $$\varTheta \subseteq \R^d$$ and an injective mapping $$\mu_{(\cdot)}\colon \varTheta \to \probmeasures(\R^d)$$. Then if $$\nu = \mu_\theta$$ and $$\nu' = \mu_{\theta'}$$, $$\metric_\varTheta(\nu, \nu') \coloneqq |\theta - \theta'|$$ defines a metric on $$\img\mu_{(\cdot)}$$.
 
@@ -16,5 +22,3 @@ We consider the case of classic parametric statistics, where we have a subset $$
 
 </div>
 @@
-
-$$\gdef\metric{\mathsf{d}}$$

@@ -1,6 +1,7 @@
 created: 20230707212243403
 list: [[Types of stochastic convergence]] Borel-Cantelli-Lemma [[Markovsche Ungleichung]] [[Statistical distance]] [[i.i.d. data model]] [[Stationary markov chain data model]] [[Unsupervised learning]] [[Learning the invariant distribution in the strongly mixing Markov chain model]] [[F-divergence and F-weak and F-strong topology]] [[Glivenko-Cantelli divergence]] [[Glivenko-Cantelli theorem]] [[Cumulant generating function]] [[Legendre transformation (machine learning)]] [[Chernoff bound]] [[Subgaussian random variable]] [[Hoeffding's inequality]] [[Bounded linear operator, dual space, weak topology]] [[Convergence in law and weak convergence]] [[Signed measure]] [[Total variation]] Radon-Norm [[Equivalence of total variation and Radon norm]] [[Parameter distance of measures]] Wasserstein-1-metric [[Wasserstein-1-norm and Radon norm]] [[Relative Entropie]] [[Jensen-Shannon divergence]] [[Gibbs variational principle]] [[Bobkov-Götze theorem]] [[Lipschitz continuity with respect to the discrete metric]] [[Pinsker's inequality]] [[Empirical risk minimization]] [[Maximum likelihood estimation (machine learning)]] [[Error decomposition]] [[Uniform law of large numbers (machine learning)]] [[Consistency of the maximum likelihood parameter estimator (machine learning)]] [[Draft of 'Consistency of the maximum likelihood parameter estimator']]
 modified: 20230926215826946
+revision: 3
 tags: Mathematics
 title: Machine learning
 type: text/vnd.tiddlywiki

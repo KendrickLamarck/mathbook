@@ -1,6 +1,7 @@
 created: 20191201194114330
 list: Lagrange-Interpolation [[Verfahren von Neville-Aitken]] Newton-Interpolation Hermite-Interpolation [[Fehler der Polynominterpolation]]
 modified: 20200220200411721
+revision: 0
 tags: Numerik
 title: Polynominterpolation
 type: text/vnd.tiddlywiki

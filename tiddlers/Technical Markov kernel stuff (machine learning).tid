@@ -1,0 +1,47 @@
+created: 20230928214549005
+modified: 20231007211720113
+tags: [[Supervised learning]]
+title: Technical Markov kernel stuff (machine learning)
+type: text/vnd.tiddlywiki
+
+Prerequisites:
+
+* [[Bedingte Erwartung]]
+* [[Bedingte Wahrscheinlichkeit]]
+* [[Reguläre bedingte Verteilung]]
+
+@@.theorem
+''Theorem.''
+Let $$Z = (Y, X)\colon\probspace\to (\R^s \times \R^d, \Borel)$$ such that $$Y$$ is an $$L^2$$-random variable. Then there exists a regular conditional distribution denoted by $$Y_*\prob_{|X=x}(\cdot)$$.
+@@
+
+@@.theorem
+''Lemma.''
+Let $$Z = (X, Y)\colon \probspace \to (\R^s \times \R^d, \Borel)$$ be given. Then $$Z_*\prob$$, the distribution of $$Z$$, is uniquely determined by the marginal distribution $$X_*\prob$$ of $$X$$ and the regular conditional distribution $$Y_*\prob_{|X=x}(\cdot)$$. We have for $$B \in \Borel(\R^s \times \R^d)$$:
+$$
+Z_*\prob(B) = \int_{\R^d}\left(
+  \int_{\R^s} \indicator_B(y, x)\,\d Y_*\prob_{|X = x}(y)
+\right)
+\d X_*\prob(x)
+$$
+@@
+
+If on the other hand we start with a Markov kernel $$\nu_{|X} \in \markovkernels(\R^d, \Borel(\R^s)$$ and a marginal distribution $$X_*\prob$$, we denote the resulting measure in $$\probmeasures(\R^{s+d})$$, where we replace $$Y_*\prob_{|X=x}$$ with $$\nu_{|X=x}$$ in the last formula, by $$\nu_{|X}X_*\prob$$.
+
+Now [[Bedingte Verteilung]].
+
+@@.theorem
+Choose $$Z = (Y, X)\colon \probspace \to (\R^s \times \R^d, \Borel)$$ such that we can define the conditional density
+$$
+f(y \mid x) = \begin{cases}
+  \frac{f_Z(y, x)}{f_X(x)} & \text{falls $f_X(x) > 0$} \\
+  \indicator_{[0, 1]^s}(y) & \text{else}.
+\end{cases}
+$$
+Then
+$$
+Y_*\prob_{|X=x}(B) \coloneqq
+\int_{\R^s} \indicator_B(y) f(y \mid x) \,\d y
+$$
+defines a [[regular conditional distribution|Reguläre bedingte Verteilung]] of $$Y$$ given $$X = x$$.
+@@

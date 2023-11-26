@@ -1,0 +1,19 @@
+created: 20231003210108391
+modified: 20231010210644703
+tags: [[Machine learning]]
+title: Dudley's inequality applied to ERM learning
+type: text/vnd.tiddlywiki
+
+<span>$$\gdef\Lbar{{\overbar{3}{-2}{L}}}\gdef\distbar{\mathsf{\bar{d}}}$$</span>
+Assume given an empirical risk function $$\empriskfunc_n(\nu,\chi_n) = \sum_{j=1}^n l(X_j \mid \nu)$$ with $$c_n = 1/n$$ (what is h???) and $$X_j \sim \mu \in \mathcal{H}$$ i.i.d. Assume that the conditions for  [[Dudley's inequality|Dudley's inequality]] for $$Z_\mu \coloneqq \mathsf{d}(\mu \mmid \nu) - (c_1 l(X_1 \mid \nu) - h_1(\mu))$$ are fulfilled. Then we have for the ERM-learner $$\hat\mu_n$$
+$$
+\expect[\mathsf{d}(\mu \mmid \hat \mu_n)] \le
+24 \frac{\Lbar}{\sqrt{n}} \int_0^\infty \sqrt{\log N(\epsilon,\distbar,\mathcal{H})}\,\d\epsilon + \epsmod.
+$$
+If $$\mathcal{T} \subseteq \mathcal{H}$$, i.e. $$\epsmod = 0$$, we have
+$$
+\prob[\mathsf{d}(\mu \mmid \hat\mu_n) > \varepsilon] \le
+24 \frac{\Lbar}{\varepsilon\sqrt{n}} \int_0^\infty \sqrt{\log N(\epsilon,\distbar,\mathcal{H})}\,\d\epsilon.
+$$
+
+Well and then there's some stuff about the binary and multiclass classification tasks being PAC-learnable if the hypothesis space is parametrized by a compact parameter set or a set of uniformly bounded and Lipschitz-continuous functions with $$\distbar_\mathrm{KL}$$ if $$\mathcal{T} = \mathcal{H}$$ for the ERM-learner and the negative log-likelihood as ERF.

@@ -1,0 +1,18 @@
+created: 20231029155328459
+modified: 20231118194708823
+tags: [[Classical mechanics]]
+title: Mehrteilchensystem
+type: text/vnd.tiddlywiki
+
+Betrachte ein System aus $$N$$ Massepunkten mit Massen $$m_i$$. Die Kraft auf das Teilchen $$i$$ kann man dann schreiben als
+$$
+\force_i(\position_1,\dots,\position_N,\velocity_1,\dots,\velocity_N,t) =
+\sum_{\substack{j=1 \\ j \ne i}}^N \force_{ij} + \force_i^\mathrm{extern}.
+$$
+Wir definieren:
+
+* Die Gesamtmasse $$M \coloneqq \sum_{i=1}^N m_i$$
+* Den Schwerpunkt $$\vector{R} \coloneqq \frac{1}{M} \sum_{i=1}^N m_i \position_i$$.
+* Den (linearen) Gesamtimpuls $$\vector{P} \coloneqq \sum_{i=1}^N m_i \velocity_i$$ (also $$\vector{P} = M \vector{\dot{R}}$$).
+* Den Gesamtdrehimpuls $$\vector{L} \coloneqq \sum_{i=1}^N (\position_i \times \momentum_i) = \sum_{i=1}^N \vector{l}_i$$.
+* Das Gesamt-Drehmoment $$\vector{N} \coloneqq \dot{\vector{L}} = \sum_{i=1}^N (\position_i \times \force_i)$$.

@@ -1,0 +1,68 @@
+created: 20231002130333206
+modified: 20231010221834866
+tags: [[Supervised learning]]
+title: Supervised parametric model
+type: text/vnd.tiddlywiki
+
+The general approach consist of three steps:
+
+* Choose a parametric family of distributions that are given by discrete densities $$p(y \mid \xi)$$ or by continuous densities $$f(y \mid \xi)$$ where $$\xi \in \varXi \subseteq \R^c$$. We also assume continuity of the mappings $$\xi \mapsto p(y \mid \xi)$$ or $$\xi \mapsto f(y \mid \xi)$$ with respect to $$\dKL$$ on $$\probmeasures(\R^s)$$.
+* We then choose continuous //inverse link functions// $$\varphi\colon \R^q \to \varXi$$. These "normalize" the intermediate value in $$\R^q$$ so that it actually lies in the parameter space $$\varXi$$. For example, $$(z_1,{z_2}^2)$$ makes sure that $$(\mu,\sigma) \in \R \times \openI{0,\infty}$$ (no it doesn't lmao) and $$\softmax$$ always produces a discrete probability density.
+* In the last step, we select a family of measurable functions or //models// $$\phi(\cdot\mid\theta)\colon \R^d \to \R^q$$ where $$\theta \in \varTheta$$ is a parameter. We can also directly model these as a set of functions, i.e. $$\phi \in \varTheta \subseteq \smooth(\R^d, \R^q)$$.
+
+We use these elements to construct a hypothesis space of Markov kernels
+
+$$\begin{aligned}
+\mathcal{H} &= \{\,
+  \nu_{\theta|X} = f(y \mid \varphi \circ \phi(x \mid \theta))\,\d y : \theta \in \varTheta
+\,\} \\
+\mathcal{H} &= \{\,
+  \nu_{\theta|X} : \nu_{\theta|X}\{y\} = p(y \mid \varphi \circ \phi(x \mid \theta))
+\,\}
+\end{aligned}$$
+
+!! Examples
+
+!!! Regression
+
+* $$s=1$$
+* $$q=2$$
+* $$f(y \mid \xi) = \frac{1}{\sqrt{2\pi\sigma}}\exp\left(-\frac{1}{2}\frac{(y-\mu)^2}{\sigma^2}\right)$$
+* $$\xi=(\mu,\sigma) \in \varXi = \R \times \openI{0,\infty}$$
+* $$\varphi(z_1,z_2)=(z_1,{z_2}^2)$$
+
+!!! Count regression
+
+* $$s=1$$
+* $$p(y \mid \lambda) = e^{-\lambda}\frac{\lambda^y}{y!},\ y \in \N_0$$
+* $$\xi = \lambda \in \openI{0,\infty}$$
+* $$\varphi(z) = e^z$$
+
+!!! Binary classification
+
+* $$s=1$$
+* $$p(1 \mid p) = p,\ p(0 \mid p) = 1-p$$
+* $$\xi=p \in \openI{0, 1}$$
+* $$\varphi(z) = \frac{e^z}{1+e^z}$$
+
+!!! Multiclass classification
+
+* $$s=1$$
+* $$\mathcal{C} \subseteq \R$$ finite class space with $$c$$ classes
+* $$p(y_1 \mid p_1,\dots,p_c) = p_l,\ y_l \in \mathcal{C}$$
+* $$\xi = (p_1,\dots,p_l) \in \varXi = \{(p_1,\dots,p_c) \in \openI{0, \infty}^c : \sum p_l = 1\}$$
+* <span>$$\varphi(z) = \softmax(z)$$,
+{{softmax}}
+</span>
+
+!! Model spaces
+
+The following standard model spaces $$\{\,\phi(\cdot\mid\theta) : \theta \in \varTheta\,\}$$ are frequently used:
+
+!!! Linear models
+
+Linear transformation of covariates with target $$q=1$$: $$\varTheta \subseteq \R^{d+1}$$ and $$\phi(x \mid \theta) = \bar\theta^\transp x + \theta_0,$$ $$\theta = (\theta_0, \bar\theta) \in \R^{d+1}$$ for the regression supplemented by a constant $$\sigma$$ not depending on $$x$$.
+
+!!! Neural networks
+
+{{Neural network}}

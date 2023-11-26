@@ -1,0 +1,24 @@
+created: 20231004222829971
+modified: 20231004230031035
+tags: [[Machine learning]]
+title: Universal approximation
+type: text/vnd.tiddlywiki
+
+For any continuous function $$f \in \smooth([0,1]^d, \R)$$ and any $$\varepsilon > 0$$ there exists a shallow (depth $$L=2$$) neural network $$\phi(x \mid \theta)$$ with sufficiently large width $$W$$ and parameter bound $$B > 0$$ such that
+$$
+\|f- \phi(\cdot \mid \theta)\|_\infty \le \varepsilon.
+$$
+
+!! Quantitative
+
+For any $$f \in \smooth^s([0,1]^d,\R)$$ with sobolev $$\infty$$-norm $$\|f\|_s \le 1$$ and any $$\varepsilon > 0$$, there exists a constant $$c(d,s)$$ only depending on $$d$$ and $$s$$ and a deep neural network with depth $$L = \left\lceil c(d,s)\left(\log\frac{1}{\varepsilon} + 1\right) \right\rceil$$, width $$W = \left\lceil c(d,s)\frac{1}{\varepsilon^{-d/s}} \right\rceil$$ and parameter bound $$B = 1$$ such that
+$$
+\|f - \phi(\cdot\mid\theta)\|_\infty \le \varepsilon.
+$$
+
+!! Adjusted for PAC-learning
+
+For any $$f \in \smooth([0,1]^d,\R^c)$$ with sobolev norm $$\|\phi\|_s \le Q$$ and any $$\varepsilon > 0$$, there exists a constant $$c(d,s)$$ only depending on $$d$$ and $$s$$ and a deep neural network with depth $$L(\varepsilon) = \left\lceil c(d,s) \log\left(\frac{q\sqrt{c}}{\varepsilon}\right)+1 \right\rceil$$ and width $$W(\varepsilon) = c \left\lceil c(d,s) \left(\frac{Q\sqrt{c}}{\varepsilon}\right)^{-d/s} \right\rceil$$ and parameter bound $$B = 1$$ such that
+$$
+\|f - Q\phi(\cdot\mid\theta)\|_\infty \le \varepsilon.
+$$

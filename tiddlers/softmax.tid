@@ -1,0 +1,9 @@
+created: 20231003214143525
+modified: 20231003214220647
+tags: [[Machine learning]]
+title: softmax
+type: text/vnd.tiddlywiki
+
+$$
+\softmax(z)_l = \frac{e^{z_l}}{\sum_{k=1}^c e^{z_k}},\quad l=1,\dots,c.
+$$

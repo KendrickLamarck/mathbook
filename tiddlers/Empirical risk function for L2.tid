@@ -1,0 +1,13 @@
+created: 20230927144541549
+modified: 20231007211206449
+tags: [[Unsupervised learning]]
+title: Empirical risk function for L2
+type: text/vnd.tiddlywiki
+
+Let $$X_j\colon (\varOmega, \mathcal{A}, \prob) \to (\R^d, \Borel(\R^d))$$ i.i.d. and $$\mu \in \probmeasures(\R^d)$$ such that $$X \sim \mu$$. Furthermore assume $$\d\mu(x) = f(x \mid \mu)\,\d x$$ with density functions in $$L^2(\R^d, \d x)$$. We also assume that $$\mathcal{H} \subseteq \probmeasures(\R^d)$$ is a hypothesis space of measures with continuous $$L^2(\R^d, \d x)$$-densities. Then
+$$
+\empriskfunc_n(\nu, \chi_n) \coloneqq \sum_{j = 1}^n \left[
+  \int_{\R^d}f(x \mid \nu)^2\,\d x - 2f(X_j \mid \nu)
+\right]
+$$
+is an unbiased empirical risk function with respect to $$\mathsf{d}_2(\cdot,\cdot)^2$$ (The squared $$L^2$$-distance). We set $$c_n \coloneqq 1/n$$ and $$h_n(\mu) \coloneqq \int_{\R^d} f(x \mid \mu)^2\,\d x$$.

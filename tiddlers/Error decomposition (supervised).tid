@@ -1,0 +1,26 @@
+caption: Error decomposition
+created: 20231001114111293
+modified: 20231010215905497
+tags: [[Supervised learning]]
+title: Error decomposition (supervised)
+type: text/vnd.tiddlywiki
+
+In the setting of supervised learning with $$\mathcal{H},\mathcal{T},\mathsf{D},\hat\mu_{n|X}$$, and an ERF $$\empriskfunc_n$$ given, we have analogously to the unsupervised case:
+$$
+\mathsf{D}(\mu_{|X} \mmid \hat\mu_{|X}) \le
+\epsmod + \epslearn + 2\epssampl
+$$
+where
+$$\begin{aligned}
+\epsmod &\coloneqq \inf_{\nu_{|X} \in \mathcal{H}_n}
+  \mathsf{D}(\mu_{|X} \mmid \nu_{|X}), \\
+\epslearn &\coloneqq c_n\left(
+  \empriskfunc(\hat\mu_{n|X}, \chi_n)
+  - \inf_{\nu_{|X} \in \mathcal{H}_n}
+  \empriskfunc(\nu_{|X}, \chi_n)
+\right), \\
+\epssampl &\coloneqq \sup_{\nu_{|X} \in \mathcal{H}_n}\left|
+  \mathsf{D}(\mu_{|X} \mmid \nu_{|X}) -\left(c_n\empriskfunc_n(\nu_{|X},\chi_n) + h_n(\mu_{|X})\right)
+\right|.
+\end{aligned}$$
+The special cases $$\mathcal{T} \subseteq \mathcal{H}$$, $$\mathcal{H}$$ finite and ERM-learning work like in the unsupervised case.

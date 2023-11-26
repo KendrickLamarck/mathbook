@@ -1,0 +1,24 @@
+created: 20231029140912806
+modified: 20231029142311758
+tags: [[Classical mechanics]]
+title: Newton's laws
+type: text/vnd.tiddlywiki
+
+!! Galilei'sches Trägheitsgesetz:
+
+Jeder Körper verharrt in Ruhe oder einer gleichförmigen Bewegung (d.h. $$\acceleration \equiv 0$$), wenn er keiner äußeren Kraft unterworfen ist.
+
+!! Bewegungsgesetz
+
+Die Beschleunigung eines Körpers ist proportional zur Gesamtkraft $$\force$$, die auf den Massepunkt wirkt. Der Proportionalitätsfaktor ist die (träge) Masse $$m$$. In Formeln:
+$$
+\force = m\acceleration.
+$$
+Hier darf die Masse nicht zeitabhängig sein.
+
+!! Das dritte
+
+Die Wirkung zweier Körper aufeinander ist stets gleich und von entgegengesetzter Richtung: In einem System mit zwei Teilchen sei die Kraft, die Teilchen 2 auf Teilchen 1 auswirkt $$\force_{12}$$ und $$\force_{21}$$ umgekehrt. Dann gilt in Formeln
+$$
+\force_{12} = -\force_{21}.
+$$

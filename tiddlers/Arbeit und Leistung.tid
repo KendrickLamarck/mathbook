@@ -1,0 +1,15 @@
+created: 20231029153932434
+modified: 20231029155048329
+tags: [[Classical mechanics]]
+title: Arbeit und Leistung
+type: text/vnd.tiddlywiki
+
+Sei $$\force$$ eine Kraft und sei $$\gamma\colon [a, b] \to \R^3$$ eine stückweise glatte Kurve. Dann ist die entlang $$\gamma$$ verrichtete //Arbeit (work)// definiert als
+$$
+W \coloneqq -\int_\gamma F(\position,\velocity,t)\cdot\d \position =
+-\int_a^b \langle \force(\position(t),\velocity(t),t),\velocity(t)\rangle\,\d t.
+$$
+Die //Leistung (power)// ist definiert als
+$$
+P \coloneqq \fracderiv{W}{t} = -\langle\force(\position,\velocity,t),\velocity\rangle.
+$$

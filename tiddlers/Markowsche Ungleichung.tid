@@ -1,0 +1,18 @@
+created: 20190607001035031
+modified: 20231005192607156
+tags: Stochastik [[Machine learning]]
+title: Markowsche Ungleichung
+type: text/vnd.tiddlywiki
+
+Sei $$X$$ eine reellwertige [[Zufallsvariable]] und $$\Phi\colon\Bbb R\to [0,\infty[$$ monoton wachsend. Dann gilt
+$$
+\Bbb P(X\ge a)\le
+\frac
+{\Bbb E(\Phi(X))}
+{\Phi(a)}
+$$
+für alle $$a\in\Bbb R$$ mit $$\Bbb\Phi(a)>0.$$
+
+!! Chebychev'sche Ungleichung
+
+{{Chebychev'sche Ungleichung}}

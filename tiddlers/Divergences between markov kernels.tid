@@ -1,0 +1,27 @@
+created: 20230930181841228
+modified: 20231009184057763
+tags: [[Statistical distance]]
+title: Divergences between markov kernels
+type: text/vnd.tiddlywiki
+
+Let $$\mu_{|X},\nu_{|X} \in \markovkernels(\R^d, \Borel(\R^s))$$. let $$\mathsf{d}(\mu \mmid \nu)$$ be a divergence on $$\probmeasures(\R^s)$$ such that $$x \mapsto \mathsf{d}(\mu_{|X=x} \mmid \nu_{|X=x})$$ is measurable. We then define for $$p \in \ropenI{1,\infty}$$ the distance between $$\mu_{|X}$$ and $$\nu_{|X}$$ with respect to $$\mathsf{d}$$ in the $$p$$-th mean as
+$$\begin{aligned}
+\mathsf{D}_p(\mu_{|X} \mmid \nu_{|X}) =
+\mathsf{D}_{p,X,\mathsf{d}}(\mu_{|X} \mmid \nu_{|X}) &\coloneqq
+\expect\left[\mathsf{d}(\mu_{|X} \mmid \nu_{|X})^p\right]^{1/p} \\ &=
+\left(\int_{\R^d} \mathsf{d}(\mu_{|X=x} \mmid \nu_{|X=x})^p \,\d X_*\prob(x)\right)^{1/p}.
+\end{aligned}$$
+And for $$p=\infty$$ as
+$$
+\mathsf{D}_\infty(\mu_{|X} \mmid \nu_{|X}) = \mathsf{D}_{\infty,X,\mathsf{d}}(\mu_{|X} \mmid \nu_{|X}) \coloneqq
+\esssup_{x \in \R^d} \mathsf{d}(\mu_{|X=x} \mmid \nu_{|X=x})
+$$
+where the essential supremum is taken w.r.t. the measure $$X_*\prob$$.
+
+@@.theorem
+''Lemma.''
+Let $$\mu_{|X},\nu_{|X} \in \markovkernels(\R^d, \Borel(\R^s))$$ and $$X_*\prob$$ a distribution on $$\R^d$$. Then we have
+$$
+\mathsf{D}_{1,X,\mathrm{KL}}(\mu_{|X} \mmid \nu_{|X}) = \dKL(\mu_{|X}X_*\prob \mmid \nu_{|X}X_*\prob).
+$$
+@@

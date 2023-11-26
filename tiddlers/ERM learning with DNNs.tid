@@ -1,0 +1,12 @@
+created: 20231004205614314
+modified: 20231011150455911
+tags: [[Supervised learning]]
+title: ERM learning with DNNs
+type: text/vnd.tiddlywiki
+
+Consider the multiclass classification task. For ERM-learning $$\hat\mu_n = \hat\mu_{\hat\theta_n|X}$$ with deep neural networks with depth $$L$$, width $$W$$, parameter bound $$B$$ and input space $$[0, 1]^d$$, we have the estimate of the expected error
+$$\begin{aligned}
+&\expect[\mathsf{D}_{1,X,\mathrm{KL}}(\mu_{|X} \mmid \mu_{\hat\theta_n|X})] \\ \le{}
+&48 \frac{c^2L^{3/2}(2WB)^{L+1}e^{(2WB)^L\sqrt{d}}}{\sqrt{n}}
+\cdot\int_0^1 \sqrt{\log\left(1 + \frac{2}{\zeta}\right)}\,\d\zeta + \epsmod.
+\end{aligned}$$

@@ -1,0 +1,25 @@
+created: 20231002185658739
+modified: 20231011150843456
+tags: [[Machine learning]]
+title: Neural network
+type: text/vnd.tiddlywiki
+
+A neural network (in the context of [[supervised parametric models|Supervised parametric model]]) is a function
+$$
+\phi(x \mid \theta) = \phi_{\theta_L}^{(L)} \circ\dots\circ \phi_{\theta_1}^{(1)}
+$$
+where $$\phi_{\theta_l}^{(l)}\colon \R^{d_{l-1}} \to \R^{d_l}$$ with $$d_0 = d$$ is defined by
+$$
+\phi_{\theta_l}^{(l)}(x_{l-1}) \coloneqq \bar\chi(\bar\theta_l x_{l-1} + \theta_{0,l})
+$$
+for $$l \ne L$$. For $$l=L$$, the //activation// $$\bar\chi$$ is omitted.
+
+Here, $$\bar\theta_l \in \R^{d_l \times d_{l-1}}$$, $$\theta_{0,l} \in \R^{d_l}$$. We combine $$\theta_l = (\bar\theta_l,\theta_{0,l})$$ and after some identifications we get the whole parameter $$\theta = (\theta_1,\dots,\theta_l)$$. For $$\varTheta \subseteq \R^q$$ with $$q = \sum_{l=1}^L(d_l d_{l-1} + d_l)$$, we choose $$\{\theta \in \R^q : |\theta|_\infty \le B\}$$ for some parameter bound $$B$$.
+
+The activation $$\bar\chi$$ is a function $$\chi\colon \R \to \R$$, applied conponent-wise. Common functions include:
+
+* The sigmoid $$\chi(\zeta) \coloneqq e^\zeta/(1+e^\zeta)$$,
+* $$\ReLu(\zeta) \coloneqq \max\{\zeta,0\}$$,
+* other non-polynomial functions like $$\ReQu(\zeta) \coloneqq \max\{\zeta,0\}^2$$.
+
+For $$L=1$$ neural networks are identical to the linear models introduced [[elsewhere|Supervised parametric model]]. An neural network with $$L=2$$ is called //shallow//, for $$L > 2$$ it is called //deep//. The //width// is $$W \coloneqq \max\{d_0,\dots,d_L\}$$.

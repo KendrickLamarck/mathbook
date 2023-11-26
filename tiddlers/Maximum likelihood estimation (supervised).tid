@@ -1,0 +1,56 @@
+created: 20231002112832659
+modified: 20231010221255978
+tags: [[Supervised learning]]
+title: Maximum likelihood estimation (supervised)
+type: text/vnd.tiddlywiki
+
+<span>
+
+$$
+\gdef\conddensity{f(y \mid x,\nu_{|X})}
+\gdef\caltbar{\overbar{2.5}{-1}{\mathcal{T}}}
+\gdef\calhbar{\overbar{3.5}{-2}{\mathcal{H}}}
+$$
+
+</span>
+
+For $$\nu_{|X} \in \mathcal{H} \subseteq \markovkernels(\R^d, \Borel(\R^s))$$ we assume the existence of conditional densities, i.e. $$\d\nu_{|X=x}(y) = \conddensity\,\d y$$ $$X_*\prob$$-a.s. where $$\conddensity \ge 0$$ is a function that is measurable in $$y$$ and $$x$$ with $$\int_{\R^s} \conddensity\,\d y = 1$$.
+
+Based on $$l(z \mid \nu_{|X}) = l((y, x) \mid \nu_{|X}) = -\log f(y \mid x,\nu_{|X})$$, we define the negative log-likelihood for supervised learning
+$$
+\empriskfunc(\nu_{|X},\chi_n) \coloneqq
+\sum_{j=1}^n l(Z_j \mid \nu_{|X}) =
+-\sum_{j=1}^n \log f(y \mid x,\nu_{|X}).
+$$
+If $$Y$$ is discretely instead of continuously distributed, i.e. $$\nu_{|X=x}\{y_l\} = p(y_l \mid x, \nu_{|X})$$ holds $$X_*\prob$$-a.s. for some sequence $$\{y_l\}_{l \in \N}$$ such that $$\sum_{l=1}^\infty p(y_l \mid x,\nu_{|X}) = 1$$, simply replace $$\conddensity$$ with $$p(y \mid x, \nu_{|X})$$.
+
+@@.theorem
+<div>
+
+Let $$\mathcal{T},\mathcal{H} \subseteq \markovkernels(\R^d, \Borel(\R^s))$$ be chosen so that for both sets Markov kernels there exist conditional densities $$f(y \mid x,\nu_{|X})$$ and $$f(y \mid x,\mu_{|X})$$ respectively for $$\nu_{|X} \in \mathcal{H}$$ and $$\mu_{|X} \in \mathcal{T}$$. Let also $$l(Z \mid \nu_{|X}) \in L^1(\R^{s+d}, \mu)$$ for all $$\nu_{|X} \in \mathcal{H}$$ and $$\mu = \mu_{|X} X_*\prob,\mu_{|X} \in \mathcal{T}$$.
+
+* <span>Then the negative log-likelihood is an unbiased empirical risk function for $$\mathsf{D}_{1,X,\mathrm{KL}}(\cdot\mmid\cdot)$$ with $$c_n \coloneqq 1/n$$ and
+$$
+h(\mu) \coloneqq \int_{\R^{s+d}} \log f(y \mid x, \mu_{|X})\,\d\mu_{|X=x}(y)\,\d X_*\prob(x).
+$$
+</span>
+
+* <span>Supervised ERM-learning with respect to $$\mathsf{D}_{1,X,\mathrm{KL}}$$ is in one-to-one correspondence with unsupervised ERM-learning with respect to $$\dKL$$: Suppose that $$X \sim f_X(x)\,\d x$$. Let
+$$\begin{aligned}
+\caltbar &\coloneqq \{\, \mu = \mu_{|X} X_*\prob : \mu_{|X} \in \mathcal{T} \,\} \subseteq \probmeasures(\R^{s+d}) \\
+\calhbar &\coloneqq \{\, \mu = \mu_{|X} X_*\prob : \mu_{|X} \in \mathcal{H} \,\} \subseteq \probmeasures(\R^{s+d}).
+\end{aligned}$$
+Then
+$$
+\hat\mu_n \in \argmin_{\nu \in \calhbar} -\sum_{j=1}^n \log f(Z_j \mid \nu),\quad
+f(Z_j \mid \nu) = f(y \mid x,\nu_{|X})f_X(x)
+$$
+holds if and only if the regular conditional probability $$\hat\mu_{n|X}$$ of $$\hat\mu_n$$ with respect to $$\sigma(X)$$ is an ERM-learner for the supervised ERM-learning problem. $$\nu_{|X}$$ is the regular conditional distribution of $$\nu$$ with respect to $$\sigma(X)$$.
+</span>
+
+</div>
+@@
+
+!! Interpretation
+
+Supervised learning is like unsupervised learning with a part of the distribution, namely the marginal distribution $$X_*\prob$$ fixed. This explains why it is easier in practice, even though we learn a Markov kernel which is a more complex object, consisting of many distributions at once.

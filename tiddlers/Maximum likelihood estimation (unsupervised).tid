@@ -1,0 +1,41 @@
+caption: Maximum likelihood estimation
+created: 20230925213421227
+modified: 20231008154041207
+tags: [[Unsupervised learning]]
+title: Maximum likelihood estimation (unsupervised)
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\likelihood{\mathscr{L}}
+\gdef\calLhat{\overhat{4}{-1.5}{\mathcal{L}}}
+$$
+
+</div>
+
+Let $$\nu \in \probmeasures(\R^d)$$ be a probability measure and $$\chi_n = (X_1, \dots, X_n)$$ a sample of i.i.d. random variables $$X_j$$ with values in $$\R^d$$.
+
+* <span>Let $$\nu$$ be a discrete probability measure. Then we define the likelihood of the data given $$\nu$$ as
+$$
+\likelihood(\chi_n \mid \nu) \coloneqq \prod_{j = 1}^n \nu\{X_j\}.
+$$
+</span>
+
+* <span>If $$\nu$$ is $$\R^d$$-valued with continuous density function $$\d\nu(x) = f(x \mid \nu)\,\d x$$ then the likelihood is defined as
+$$
+\likelihood(\chi_n \mid \nu) \coloneqq \prod_{j = 1}^n f(X_j \mid \nu).
+$$
+</span>
+
+* Let $$\mathcal{H} \subseteq \probmeasures(\R^d)$$ be a hypothesis space such that all elements from $$\mathcal{H}$$ are either discrete or have a continuous density. A maximum likelihood estimation is then a statistical learning algorithm that fulfills $$\hat\mu_n = \hat\mu_n(\chi_n) \in \argmax_{\nu \in \mathcal{H}} \likelihood(\chi_n \mid \nu)$$.
+
+Since $$\log$$ increases strictly monotonically on $$\R_+$$, maximizing the likelihood is equivalent to maximizing $$\log\likelihood$$ or minimizing $$-\log\likelihood$$.
+
+@@.theorem
+''Lemma.'' Let $$X_j \sim \mu$$ for some $$\mu \in \mathcal{T} \subseteq \probmeasures(\R^d)$$ follow the i.i.d. data model and let $$\chi_n$$ be the sample of $$n$$ observations. We assume continuous distributions throughout $$\mathcal{H}$$ and $$\mathcal{T}$$, i.e. $$\d\nu(x) = f(x \mid \nu)\,\d x$$ and $$l(x \mid \nu) = \log f(x \mid \nu) \in L^1(\R^d, \mu)$$ for $$\nu \in \mathcal{T} \cup \mathcal{H}$$ and $$\mu \in \mathcal{T}$$ arbitrary. Then the negative log-likelihood
+$$
+\calLhat_n(\nu, \chi_n) = -\log\likelihood(\chi_n \mid \nu) = - \sum_{j=1}^n l(X_j \mid \nu)
+$$
+is an unbiased empirical risk function for the Kullback-Leibler divergence $$\dKL$$ with $$c_n = 1/n$$ and $$h_n(\mu) = \expect[l(X \mid \mu)] = \int_{\R^d} l(x \mid \mu)\,\d \mu(x)$$. The analogous statement also holds for the discrete case.
+@@

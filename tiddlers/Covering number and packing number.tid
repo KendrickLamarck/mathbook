@@ -1,0 +1,14 @@
+created: 20231003200726132
+modified: 20231003202404506
+tags: [[Machine learning]]
+title: Covering number and packing number
+type: text/vnd.tiddlywiki
+
+Let $$(X,d)$$ be a metric space and let $$\varepsilon > 0$$.
+
+* The //covering number// $$N(\varepsilon) = N(\varepsilon, d, X)$$ is the smallest number of centers $$\{x_1,\dots,x_{N(\varepsilon)} \} \subseteq X$$ such that closed $$d$$-balls with radius $$\varepsilon$$ around $$x_j$$ cover $$X$$.
+* The //packing number// $$D(\varepsilon) = D(\varepsilon, d, X)$$ is the largest number of points $$\{x_1,\dots,x_{D(\varepsilon)}\} \subseteq X$$ such that the minimal $$d$$-distance between any two of the $$\nu_j$$ is larger than $$\varepsilon$$.
+
+@@.theorem
+''Theorem.'' $$D(2\varepsilon) \le N(\varepsilon) \le D(\varepsilon).$$
+@@

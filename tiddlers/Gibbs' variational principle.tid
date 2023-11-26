@@ -1,0 +1,11 @@
+created: 20230923145520301
+modified: 20231007210250321
+tags: [[Subgaussian random variable]] no-toc
+title: Gibbs' variational principle
+type: text/vnd.tiddlywiki
+
+Let $$X\colon (\R^d, \Borel(\R^d), \mu) \to (\R, \Borel(\R))$$ be a random variable with cumulant generating function $$\psi_{X,\mu}(\alpha) = \log\expect_\mu[e^{\alpha X}]$$. Then for $$\alpha > 0,$$ we have
+$$
+\psi_X(\alpha) = \sup_{\nu \in \probmeasures(\R^d)}
+(\alpha\expect_\nu[X] - \dKL(\nu \mmid \mu)).
+$$

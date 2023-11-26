@@ -1,0 +1,24 @@
+created: 20231119184326254
+modified: 20231119185808404
+tags: [[Lagrangian mechanics (physics)]]
+title: Virtuelle Arbeit
+type: text/vnd.tiddlywiki
+
+!! Virtuelle Verrückung
+
+Eine virtuelle Verrückung $$\delta \position_i$$ ist eine mit den Zwangsbedingungen verträgliche Änderung. Denke: Nur die Komponente tangential zur Mannigfaltigkeit. Wenn sich z. B. ein Teilchen auf einem Draht bewegt und sich der Draht ebenfalls bewegt, ist $$\delta\position$$ immer tangential zum Draht, die tatsächliche Teilchenbewegung $$\dot\position_i$$ aber nicht. Mathematisch ist $$\delta\position_i$$ für eine Variation $$\vector{R}(t,\epsilon)$$ von $$\position$$ das Variationsvektorfeld, d.h. $$\delta\position_i(t) \in \T_{\position(t)}M$$.
+
+!! Prinzip der virtuellen Arbeit
+
+Man fordert allgemein dass die Zwangskräfte in der Sume über alle Teilchen keine Arbeit leisten. d. h. die //virtuelle Arbeit// ist 0:
+$$
+W_\mathrm{V} \coloneqq \sum_{i=1}^N \vector{Z}_i\cdot\delta\position_i = 0.
+$$
+
+!! d'Alembert'sches Prinzip
+
+Aus der modifizierten Newton'schen Bewegungsgleichung und dem Prinzip der virtuellen Arbeit ergibt sich das d'Alembert'sche Prinzip: Für alle virtuellen Verrückungen gilt
+$$
+\sum_{i=1}^N(m_i \acceleration_i - \force_i) \cdot \delta\position_i = 0.
+$$
+Hier tauchen die $$\vector{Z}_i$$ nicht mehr explizit auf, die $$\delta\position_i$$ können aber noch voneinander abhängen.

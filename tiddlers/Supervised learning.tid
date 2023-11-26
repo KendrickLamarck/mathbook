@@ -1,0 +1,37 @@
+created: 20230930193818230
+list: [[Technical Markov kernel stuff (machine learning)]] [[Error decomposition (supervised)]] [[Maximum likelihood estimation (supervised)]] [[Supervised parametric model]] [[ERM learning with DNNs]]
+modified: 20231010214721600
+tags: [[Machine learning]]
+title: Supervised learning
+type: text/vnd.tiddlywiki
+
+Let $$\mathcal{H}_n \subseteq \markovkernels(\R^d, \Borel(\R^s))$$ be a hypothesis space of Markov kernels and let $$Z_j = (Y_j, X_j) \sim \mu = \mu_{|X}X_*\prob$$ be the data generating process. $$\mathcal{T}$$ is the set of Markov kernels we want to learn. Let $$\mathsf{D}(\cdot\mmid\cdot) = \mathsf{D}_{p,X,\mathsf{d}}(\cdot\mmid\cdot)$$ be a divergence on $$\markovkernels(\R^d, \Borel(\R^s))$$.
+
+* <span>A learning algorithm is a collection of maps $$\hat\mu_{n|X}\colon \R^{(s + d)n} \to \markovkernels(\R^d, \Borel(\R^s))$$. We assume the map
+$$
+\R^{(s + d)n} \ni \chi \mapsto \mathsf{D}(\mu_{|X} \mmid \hat\mu_{n|X}(\chi))
+$$
+to be measurable.
+</span>
+
+* <span>An empirical risk function is a collection of maps $$\empriskfunc_n\colon\mathcal{H} \times \R^{(d+s)n} \to \R$$ such that $$\chi \mapsto \hat\mu_{n|X}(\chi) \in \argmin_{\nu \in \mathcal{H}} \empriskfunc_n(\nu, \chi)$$ is measurable (for some choice in $$\argmin$$, if it is not unique) (this is not in the script???). There must also exist a sequence $$c_n > 0$$ and functions $$h_n\colon \mathcal{T} \to \R$$ such that for all $$\nu_{|X} \in \mathcal{H}$$ and all $$\mu \in \mathcal{T}$$ such that $$Z_j \sim \mu$$
+$$
+c_n\empriskfunc_n(\nu_{|X},\chi_n) + h_n(\mu) \xrightarrow{\prob}
+\mathsf{D}(\mu_{|X} \mmid \nu_{|X}).
+$$
+</span>
+
+* <span>The ERF is called unbiased if
+$$
+\expect\left[
+  c_n\empriskfunc_n(\nu_{|X},\chi_n) + h_n(\mu)
+\right]
+= \mathsf{D}(\mu_{|X} \mmid \nu_{|X}).
+$$
+</span>
+
+* <span>$$\hat\mu_{n|X}$$ is called an ERM-learner if for all $$n$$
+$$
+\hat\mu_{n|X} \in \argmin_{\nu_{|X} \in \mathcal{H}_n} \empriskfunc_n(\nu_{|X}, \chi_n).
+$$
+</span>

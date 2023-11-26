@@ -1,0 +1,81 @@
+created: 20230928133634391
+modified: 20231007211006577
+tags: [[Unsupervised learning]]
+title: Learning with histograms
+type: text/vnd.tiddlywiki
+
+Let $$D_j \subset \R^d$$ be a decomposition of $$\R^d$$ into countably many disjoint domains. Define the space of histograms over the partition $$\{D_j\}$$ as
+$$
+\mathcal{H}\coloneqq\biggl\{\,
+  f(x)\,\d x :
+  f(x) = \sum_{j=1}^\infty f_j\indicator_{D_j},\enspace
+  f_j \ge 0,\enspace
+  \sum_{j=1}^\infty f_j\int_{D_j}\d x = 1
+\,\biggr\}.
+$$
+The ERM-learner in this hypothesis space is
+$$
+\hat{f}(x) \coloneqq \sum_{j=1}^\infty \hat{f}_j \indicator_{D_j}(x),\quad
+\hat{f}_j = \hat{f}_j(\chi_n) \coloneqq \frac{
+ \#\{l = 1,\dots,n : X_l \in D_j\} 
+}{
+  n \int_{D_j}\d x
+}.
+$$
+
+!! PAC-learning
+
+Now for $$L > 0$$ let
+$$
+\mathcal{T}_L \coloneqq \left\{\,
+  \nu \in \probmeasures\left([0, 1]^d\right) :
+  \begin{array}{l}
+  \d\nu(x) = f(x \mid \nu) \,\d x,\\
+  \forall x,y\colon|f(x \mid \nu) - f(y \mid \nu)| \le L|x - y|
+  \end{array}
+  \!\!
+\right\}.
+$$
+The Lipschitz property Helps to control $$\epsmod$$. The densities in $$\mathcal{T}_L$$ are also uniformly bounded, i.e. there exists $$f_{\max}$$ such that $$0 \le f(x \mid \nu) \le f_{\max}$$ for all $$x \in [0, 1]^d$$ and $$\nu \in \mathcal{T}_L$$.
+
+@@.theorem
+''Lemma.''
+Let $$\varDelta^{-1} \in \N$$ and let $$D_j,\;1,\dots,\varDelta^{-d}$$ be the subdivision of $$[0, 1]^d$$ into squares with edge length $$\varDelta$$. Let $$\mathcal{H}$$ be the hypothesis space with histogram densities
+$$
+f(x \mid \nu) = \sum_{j=1}^{\varDelta^{-d}} f_j \indicator_{D_j}(x),\quad
+0 \le f_j \le f_{\max},\enspace \sum_{j=1}^{\varDelta^{-d}} f_j \varDelta^d = 1.
+$$
+Then
+$$
+\sup_{\mu \in \mathcal{T}_L} \epsmod =
+\sup_{\mu \in \mathcal{T}_L}
+  \inf_{\nu \in \mathcal{H}} \mathsf{d}_2(\mu, \nu)^2 \le
+\left(L\sqrt{d}\varDelta\right)^2.
+$$
+We also get
+$$
+\prob(\epssampl \ge \varepsilon) \le
+\frac{2}{\varDelta^d} \exp\left(-\frac{1}{2}n\left(\frac{\varepsilon}{f_{\max}}\right)^2\right).
+$$
+@@
+
+@@.theorem
+<div>
+
+''Theorem.''
+Let $$\mathcal{T}_L \subseteq \probmeasures([0, 1]^d)$$ be the space of $$L$$-Lipschitz densities, as above, for some fixed $$L > 0$$. Let $$\mathcal{H}_n$$ be the hypothesis space of histograms on $$[0, 1]^d$$ with bin width
+$$
+\varDelta \coloneqq \sqrt{
+  \frac{d f_{\max}}{\sqrt{n}\log n}
+}.
+$$
+Then:
+
+* The ERM-learner $$\hat\mu_n$$ from above is a $$\mathsf{d}_2(\cdot,\cdot)^2$$ PAC-learner for $$\mathcal{T}_L$$,
+
+* $$\mathsf{d}_2(\mu, \hat\mu_n)^2 \ge 2 f_{\max} \frac{\log n}{\sqrt{n}}$$ $$\prob$$-almost surely (over the sampling of $$X_j \sim \mu$$ in the i.i.d. data model) only occurs finitely often. Hence $$\mathsf{d}_2(\mu, \hat\mu_n)^2$$ converges to zero a.s. with rate $$\log(n) / \sqrt{n}$$.
+
+</div>
+@@
+
+Note that the algorithm does not depend on the Lipschitz constant and the constant $$f_{\max}$$ could be replaced with any other constant $$c > 0$$ without changing the content of this theorem.

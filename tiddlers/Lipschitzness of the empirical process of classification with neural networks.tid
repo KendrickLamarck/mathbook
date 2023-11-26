@@ -1,0 +1,50 @@
+created: 20231003213347703
+modified: 20231010230551592
+tags: [[Machine learning]]
+title: Lipschitzness of the empirical process of classification with neural networks
+type: text/vnd.tiddlywiki
+
+<span>
+
+$$
+\gdef\Lbar{{\overbar{3}{-2}{L}}}
+\gdef\distbar{\mathsf{\bar{d}}}
+$$
+
+</span>
+
+@@.theorem
+<div>
+
+''Theorem (Lipschitz properties of DNN).''
+Let $$\phi(\cdot \mid \cdot)\colon [0, 1]^d \times \varTheta \to \R^c$$ be a deep neural network for with $$d_L=c$$ and $$\ReLu$$ activation. Let $$W$$ be the width of the network, $$L$$ the depth and $$B \ge 1$$ the parameter bound. Then
+
+* The image of $$\phi$$ is contained in $$\{z \in \R^c : |z| \le C\}$$, where $$C = (2WB)^L \sqrt{d}$$.
+
+* $$\varTheta \ni \theta \mapsto \phi(x \mid \theta)$$ is Lipschitz continuous with respect to the 2-norm (for all $$x$$???) with Lipschitz constant $$L_1 = L(2WB)^L$$.
+
+* For linear models the result holds with $$L = 1$$ and for shallow neural networks with $$L = 2$$.
+
+</div>
+@@
+
+@@.theorem
+<div>
+
+''Lemma.''
+Let $$\varphi\colon \R^c \to \R^c$$ be the [[softmax|softmax]] function. Then
+
+* $$\varphi$$ is Lipschitz continuous with constant $$L_2 = c$$,
+* $$\bar\varphi\mapsto\log(\bar\varphi)$$ has Lipschitz constant $$L_3 = ce^{2c}$$ provided $$\bar\varphi$$ is in the image of the softmax function $$\varphi$$ defined on $$\{\xi \in \R^c : |\xi| \le C\}$$.
+
+</div>
+@@
+
+@@.theorem
+''Theorem.''
+Let $$Z_{1,\theta} = Z_{1,\mu_{\theta|X}}$$ be the empirical process associated with classification with the set of neural networks defined above where $$\mu = \mu_{|X} X_*\prob$$ is the distribution of $$Z = (Y, X)$$. Then $$Z_{1,\theta}$$ is sub-gaussian with variogram proxy $$\Lbar^2\mathsf{d}^2_\varTheta$$ where
+$$
+\Lbar = 2c^2L(2WB)^Le^{(2WB)^L\sqrt{d}}.
+$$
+Here $$d$$ is the dimension of the input, $$c$$ the number of classes, $$W$$ the width, $$L$$ the depth and $$B$$ the parameter bound of the DNNs. For the linear model this estimate remains valid with $$L = 1$$ and for shallow neural networks with $$L = 2$$.
+@@

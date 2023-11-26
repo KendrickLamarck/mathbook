@@ -1,0 +1,36 @@
+created: 20231002195601683
+modified: 20231010230119102
+tags: [[Machine learning]]
+title: Convergence rates for finite hypothesis spaces
+type: text/vnd.tiddlywiki
+
+Let $$\mathcal{H}$$ be finite and $$\hat\mu_n$$ the $$\mathsf{d}$$-ERM-learner for an unbiased empirical risk function $$\empriskfunc.$$ We further assume that $$Z_{\nu,n} \coloneqq \mathsf{d}(\mu \mmid \nu) - \left(c_n\empriskfunc_n(\nu) + h_n(\mu)\right)$$ is subgaussian for $$\nu \in \mathcal{H}$$ with the common variance proxy $$\sigma_n^2$$. Then
+
+* $$\expect[\sup_{\nu \in \mathcal{H}} Z_{\nu,n}] \le \sqrt{2\sigma_n^2 \log|\mathcal{H}|}$$
+
+* <span>If $$Z_{\nu,1}$$ is subgaussian with variance proxy $$\sigma_1^2 = \sigma^2$$ and $$\empriskfunc_n(\nu) = \sum_{j=1}^n l(X_j \mid \nu)$$ and $$h_n(\mu) = h(\mu),$$ we have $$\sigma_n^2 = \sigma^2 / n$$ and thus
+$$
+\expect\Bigl[\,\sup_{\nu \in \mathcal{H}} Z_{\nu,n}\Bigr] \le \sqrt{\frac{2\sigma^2\log|\mathcal{H}|}{n}}
+$$
+</span>
+
+* <span>For $$\mu \in \mathcal{H}$$ and $$X_j \sim \mu$$ we have
+$$
+\expect[\mathsf{d}(\mu \mmid \hat\mu_n)] \le
+2 \sqrt{\frac{2\sigma^2\log|\mathcal{H}|}{n}}
+$$
+</span>
+
+* <span>Let $$\varepsilon > 0$$. We furthermore obtain
+$$
+\prob[\mathsf{d}(\mu \mmid \hat\mu_n) > \varepsilon] \le
+2 \sqrt{\frac{2\sigma^2\log|\mathcal{H}|}{n}}, \\[1em]
+\prob(\mu \ne \hat\mu_n) \le 2
+\frac{
+  \sqrt{2\sigma^2\log|\mathcal{H}|}
+}{
+  \inf_{\nu \in \mathcal{H} \setminus \{\mu\}}
+  \mathsf{d}(\mu \mmid \nu) \sqrt{n}
+}.
+$$
+</span>

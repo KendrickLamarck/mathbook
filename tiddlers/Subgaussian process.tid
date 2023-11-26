@@ -1,0 +1,23 @@
+created: 20231003143710053
+modified: 20231008154320633
+tags: [[Subgaussian random variable]]
+title: Subgaussian process
+type: text/vnd.tiddlywiki
+
+<span>
+
+$$
+\gdef\Lbar{{\overbar{3}{-2}{L}}}
+\gdef\distbar{\mathsf{\bar{d}}}
+$$
+
+</span>
+
+Let a metric $$\mathsf{\bar{d}}$$ on $$\mathcal{H} \subseteq \probmeasures(\R^d)$$ the supervised case also works) be given and $$\Lbar > 0$$. A family of random variables (is that what it is??? it doesn't actually say what this is) is a sub-gaussian process with variogram proxy $$\Lbar^2\distbar^2$$ if $$\expect(Z_\nu) = 0$$ and for all $$\mu,\nu \in \mathcal{H}$$ the increment $$Z_\mu - Z_\nu$$ is sub-gaussian with variance proxy $$\Lbar^2\distbar(\mu, \nu)^2$$.
+
+''Remark.''
+The //variogram// of a stochastic process $$\{Z_\nu\}_{\nu \in \mathcal{H}}$$ is defined as $$\gamma(\mu, \nu) \coloneqq \expect[(Z_\nu - Z_\mu)^2]$$.
+
+@@.theorem
+''Theorem (Dudley's inequality).'' {{Dudley's inequality}}
+@@

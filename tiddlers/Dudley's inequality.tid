@@ -1,0 +1,22 @@
+created: 20231003210425575
+modified: 20231010202017836
+tags: [[Subgaussian random variable]]
+title: Dudley's inequality
+type: text/vnd.tiddlywiki
+
+<span>$$\gdef\Lbar{{\overbar{3}{-2}{L}}} \gdef\distbar{\mathsf{\bar{d}}}$$</span>
+Let $$\{Z_\nu\}_{\nu \in \mathcal{H}}$$ be a sub-gaussian process with variogram proxy $$\Lbar^2\distbar^2$$. Let $$\mathcal{H}$$ be, with respect to $$\distbar$$, a bounded and separable metric space and assume $$Z_\nu$$ has continuous paths, i.e. $$\mathcal{H} \ni \nu \mapsto Z_\nu(\omega)$$ is continuous $$\prob$$-a.s. Then we have
+$$
+\expect\biggl[\sup_{\nu \in \mathcal{H}} Z_\nu\biggr] \le
+12 \sum_{k=k_0}^\infty 2^{-k} \sqrt{\log N(2^{-k},\Lbar\distbar,\mathcal{H})}
+$$
+with $$k_0 \in \Z$$ the largest number, such that
+$$
+\frac{2^{-k_0}}{\Lbar} \ge \operatorname{rad}_\distbar\mathcal{H} = \inf_{\nu \in \mathcal{H}} \sup_{\nu \in \mathcal{H}} \distbar(\mu, \nu).
+$$
+There is also an alternative formulation of this integral with the so-called metric entropy integral:
+$$\begin{aligned}
+\expect\biggl[\sup_{\nu \in \mathcal{H}} Z_\nu\biggr] &\le
+24 \int_0^\infty\sqrt{\log N(\varepsilon,\Lbar\distbar,\mathcal{H})} \,\d\varepsilon \\ &=
+24 \Lbar \int_0^\infty\sqrt{\log N(\varepsilon,\distbar,\mathcal{H})} \,\d\varepsilon.
+\end{aligned}$$

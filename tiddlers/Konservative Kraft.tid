@@ -1,0 +1,20 @@
+created: 20231029142335846
+modified: 20231029155251939
+tags: [[Classical mechanics]]
+title: Konservative Kraft
+type: text/vnd.tiddlywiki
+
+Gegeben sei ein Mehrteilchensystem mit $$N$$ Teilchen und Kräften der Form $$\force_i = \force(\position_i)$$. Dann heißt $$\force_i$$ eine //konservative Kraft//, wenn sie sich als Gradient eines Potentials darstellen lässt, d.h.
+$$
+\force_i = -\nabla_i V(\position_1,\dots,\position_N)
+$$
+für ein $$V\colon \R^{3N} \to \R$$.
+
+!! Äquivalente Charakterisierungen
+
+* <div>Entlang jeder stückweise glatten, regulären Kurve $$\gamma\colon [a, b] \to \R^3$$ ist das Wegintegral
+$$
+\int_\gamma \force(\position)\cdot\d \position
+$$
+Nur abhängig von Start- und Endpunkt $$a$$ und $$b$$ und nicht von der Kurve selbst.</div>
+* $$\rot\force = 0$$

@@ -1,0 +1,4 @@
+title: $:/config/SaveWikiButton/Template
+type: text/vnd.tiddlywiki
+
+$:/core/save/offline-external-js

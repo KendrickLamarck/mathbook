@@ -1,0 +1,32 @@
+created: 20231119182201263
+modified: 20231119185517833
+tags: [[Lagrangian mechanics (physics)]]
+title: Zwangsbedingungen
+type: text/vnd.tiddlywiki
+
+Gegeben sei ein $$N$$-Teilchen-System mit Positionen $$\position_1,\dots,\position_N.$$ Es gibt folgende Arten von Zwangsbedingungen:
+
+; Holonom
+: Gegeben durch $$p$$ geschlossene Gleichungen der Form $$A_\lambda(\position_1,\dots,\position_N,t) = 0.$$ (Eigentlich muss das glaube ich ne Funktion mit konstantem Rang oder so was sein damit die Menge eine Mannigfaltigkeit ist). Die Zahl der Freiheitsgrade reduziert sich von $$3N$$ auf $$3N-p$$.
+
+; Rheonom
+: Explizit zeitabhängig.
+
+; Skleronom
+: Nicht explizit zeitabhängig, d.h. $$\fracpartial{A_\lambda}{t} = 0$$.
+
+; Nicht-holonom
+: <span>Typischerweise gegeben in der Form
+$$
+\sum_{i=1}^N \vector{a}_{\lambda,i}(\position_1,\dots,\position_N,t) \cdot \velocity_i + a_\lambda(\position_1,\dots,\position_N,t) = 0.
+$$
+Das ist nur dann wirklich nicht-holonom, wenn $$\vector{a}_{\lambda,i}$$ und $$a_\lambda$$ nicht als $$\vector{a}_{\lambda,i} = \nabla_i A_\lambda$$ und $$a_\lambda = \fracpartial{A_\lambda}{t}$$ aus dem totalen Differential einer holonomen Zwangsbedingung kommen.
+</span>
+
+; Ungleichungen
+: Keine Reduktion der Freiheitsgrade.
+
+Wir nehmen an, dass all diese Zwangsbedingungen durch Zwangskräfte $$\vector{Z}_i$$ hervorgerufen werden. Die Newton'sche Bewegungsgleichung wird so erweitert zu
+$$
+m_i\acceleration_i = \force_i + \vector{Z}_i.
+$$

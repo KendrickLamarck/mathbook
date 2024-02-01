@@ -1,0 +1,10 @@
+created: 20240129202009713
+modified: 20240130181624305
+tags: [[Lagrangian mechanics (physics)]]
+title: Generalisierte Kräfte
+type: text/vnd.tiddlywiki
+
+Für $$k=1,\dots,f$$:
+$$
+Q_k = \sum_{i=1}^N \vector{F}_i \cdot \fracpartial{\vector{r}_i}{q_k}.
+$$

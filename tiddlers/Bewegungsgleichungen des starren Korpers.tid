@@ -1,0 +1,25 @@
+created: 20240201201514401
+modified: 20240201202822787
+tags: [[Rigid body]]
+title: Bewegungsgleichungen des starren Körpers
+type: text/vnd.tiddlywiki
+
+<span>
+$$
+\gdef\Nrelext{{\vector{N}}_\mathrm{rel}^\mathrm{extern}}
+$$
+</span>
+Im körperfesten System:
+$$
+J\dot\angularv + \angularv \times J \angularv = \Nrelext
+$$
+wobei
+$$
+\Nrelext \coloneqq \dot \angularmomentum_\mathrm{rel} = \sum_{i=1}^N {\position_i}' \times {\force_i}^\mathrm{extern}.
+$$
+In Komponenten ergibt sich mit den Hauptträgheitsmomenten $$J_i$$ und den Komponenten $$N_i$$ von $$\Nrelext$$ bzgl. der Hautträgheitsachsen:
+$$\begin{aligned}
+J_1 \dot\omega_1 - \omega_2\omega_3(J_2 - J_3) &= N_1, \\
+J_2 \dot\omega_2 - \omega_1\omega_3(J_3 - J_1) &= N_2, \\
+J_3 \dot\omega_3 - \omega_1\omega_2(J_1 - J_2) &= N_3.
+\end{aligned}$$

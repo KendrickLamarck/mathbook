@@ -1,0 +1,67 @@
+created: 20240131114813681
+modified: 20240201135716072
+tags: [[Hamiltonian mechanics (physics)]]
+title: Kanonische Transformation
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\Kamiltonian{\tilde{H}}
+\gdef\momenta{\mathbf{p}}
+\gdef\coords{\mathbf{q}}
+\gdef\Momenta{\mathbf{P}}
+\gdef\Coords{\mathbf{Q}}
+$$
+
+</div>
+
+Transformationen $$\Momenta(\momenta, \coords, t)$$ und $$Q(\momenta, \coords, t)$$, die die transformierten Hamilton-Gleichungen erfüllen, heißen //kanonische Transformationen//: Für
+$$
+\Kamiltonian(\Momenta, \Coords, t) \coloneqq H(\momenta(\Momenta, \Coords, t), \coords(\Momenta, \Coords, t), t)
+$$
+muss gelten
+$$
+\dot{Q}_k = \fracpartial{\Kamiltonian}{P_k},\qquad
+\dot{P}_k = -\fracpartial{\Kamiltonian}{Q_k}.
+$$
+Ins Variationsprinzip umformuliert muss gelten
+$$
+\delta\int_{t_1}^{t_2} \d t\,
+\langle \momenta, \dot\coords \rangle - H(\momenta, \coords, t) =
+\delta\int_{t_1}^{t_2} \d t\,
+\langle \Momenta, \dot\Coords \rangle - \Kamiltonian(\Momenta, \Coords, t) = 0.
+$$
+Eine hinreichende Bedingung hierfür ist
+$$
+\langle \momenta, \dot\coords \rangle - H(\momenta, \coords, t) =
+\langle \Momenta, \dot\Coords \rangle - \Kamiltonian(\Momenta, \Coords, t) + \fracderiv{}{t}M_1(\coords, \Coords, t).
+$$
+für eine sog. Erzeugende Funktion $$M_1$$. Es existieren insgesamt vier Arten von erzeugenden Funktionen mit den folgenden Eigenschaften:
+
+* $$M_1(\coords, \Coords, t)$$
+** $$p_k = \fracpartial{M_1}{q_k}$$
+** $$P_k = -\fracpartial{M_1}{Q_k}$$
+* $$M_2(\coords, \Momenta, t) \coloneqq -\mathscr{L}_\Coords M_1$$
+** $$p_k = \fracpartial{M_2}{q_k}$$
+** $$Q_k = \fracpartial{M_2}{P_k}$$
+* $$M_3(\momenta, \Coords, t) \coloneqq -\mathscr{L}_\coords M_1$$
+** $$q_k = -\fracpartial{M_3}{p_k}$$
+** $$P_k = -\fracpartial{M_3}{Q_k}$$
+* $$M_4(\momenta, \Momenta, t) \coloneqq -\mathscr{L}_{\coords,\Coords} M_1$$
+** $$q_k = -\fracpartial{M_4}{p_k}$$
+** $$Q_k = \fracpartial{M_4}{P_k}$$
+
+und in allen vier Fällen ist $$\Kamiltonian = H + \fracpartial{M_i}{t}$$.
+
+!! Phasenraum
+
+Kanonische Transformationen können auch so charakterisiert werden: Sei $$M$$ die Hesse-Matrix einer Erzeugenden. Dann gilt
+$$
+M^\transp J M = J.
+$$
+Man sagt, $$M$$ ist in der symplektischen Gruppe.
+
+!! Poissonklammern
+
+{{Poissonklammer (Physik)}}

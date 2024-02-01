@@ -1,0 +1,25 @@
+created: 20240125093711484
+modified: 20240201201212745
+tags: [[Rigid body]]
+title: Trägheitstensor
+type: text/vnd.tiddlywiki
+
+$$
+J_{ij} = \sum_{k=1}^N m_k (\vector{r}_k{}^2\delta_{ij} - r_i^{(k)}r_j^{(k)}),
+$$
+$$
+J = \sum_{k=1}^N m_k \vector{r}_k{}^2 I_3 - \vector{r}_k \vector{r}_k{}^\transp =
+\sum_{k=1}^N m_k \begin{pmatrix}
+y_k^2 + z_k^2 & x_k y_k & x_k z_k \\
+y_k x_k & x_k^2 + z_k^2 & y_k z_k \\
+z_k x_k & z_k y_k & x_k^2 + y_k^2
+\end{pmatrix}.
+$$
+Der Tensor ist offenbar symmetrisch. Daher existiert eine Orthonormalbasis (ein körperfestes Koordinatensystem), in dem der Tensor diagonal ist. In diesem System hat er die Form
+$$
+J'_{ii} = \delta_{ij}\int\d \vector{y}\, \rho(\vector{y}) (|\vector{y}|^2 - y_{ii}{}^2).
+$$
+Hier sieht man, dass die Matrix positiv semidefinit ist.
+
+* Die Größe $$\vector{n}^\transp J \vector{n}$$ heißt ''Trägheitsmoment'' in der Achse $$\vector{n}.$$ Ist $$\vector{n}$$ ein Eigenvektor, so heißt sie ''Hauptträgheitsmoment.''
+* Für das kontinuierliche Modell alles genau so aber mit Integralen und Masseverteilung $$\rho(\vector{r})$$ statt $$m_k.$$

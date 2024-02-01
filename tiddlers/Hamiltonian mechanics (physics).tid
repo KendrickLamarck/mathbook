@@ -1,0 +1,47 @@
+created: 20240130192600196
+modified: 20240131102902878
+tags: Physics
+title: Hamiltonian mechanics (physics)
+type: text/vnd.tiddlywiki
+
+Sei $$L$$ eine Lagrange-Funktion. Die Hamilton-Funktion $$H$$ ist definiert als die Legendre-Transformation von $$L$$ bzgl. $$\dot{q}_k$$, also
+$$
+H \coloneqq \sum_{k = 1}^f \dot{q}_k \fracpartial{L}{\dot{q}_k} - L =
+\sum_{k = 1}^f \dot{q}_k p_k - L.
+$$
+mit der Definition der //generalisierten Impulse// als $$p_k \coloneqq \fracpartial{L}{\dot{q}_k}$$. Man setzt voraus, dass diese letzte Gleichung nach $$\dot{q}_k$$ aufgelöst werden kann, um die Funktionen $$\dot{q}_k(p_k)$$ zu finden, so dass die Funktion tatsächlich von den $$q_k$$ und $$p_k$$ (und $$t$$) abhängt und nicht mehr von den $$\dot{q}_k$$. Im einfachsten Fall ist z. B.
+$$
+p_k = \fracpartial{L}{\dot{q}_k} = \fracpartial{T}{\dot{q}_k} = \fracpartial{}{\dot{q}_k} \frac{m}{2}\sum_{k=1}^f{\dot{q}_k}^2 = m\dot{q}_k
+\iff \dot{q}_k = \frac{p_k}{m}.
+$$
+
+Im skleronomen, konservativen Fall ist $$L = T - V$$ und $$\sum \dot{q}_k p_k = \sum m \dot{q}_k{}^2 = 2T$$, also $$H = T + V = E$$.
+
+!! Bewegungsgleichungen
+
+Die $$f$$ Euler-Lagrange-Gleichungen 2. Ordnung sind äquivalent zu den $$2f$$ //Hamilton'schen / kanonischen Gleichungen// 1. Ordnung
+$$
+\dot{q}_k = \fracpartial{H}{p_k}, \qquad
+\dot{p}_k = -\fracpartial{H}{q_k}.
+$$
+
+!! Rezept
+
+# Wähle generalisierte Koordinaten $$q_1,\dots,q_f$$ und die Transformation $$\position(q_1,\dots,q_f,t)$$, die die Zwangsbedingungen berücksichtigen.
+# Bestimme $$T$$ und, falls das System konservativ ist, $$V$$ und die Lagrangefunktion $$L$$.
+# <span>Finde die generalisierten (kanonisch konjugierten) Impulse
+$$
+p_k(\{q_k\},\{\dot{q}_k\},t) =
+\fracpartial{L}{\dot{q}_k}(\{q_k\},\{\dot{q}_k\},t)
+$$
+und stelle nach $$\dot{q}_k$$ um, d.h. finde die Umkehrfunktionen $$\dot{q}_k(\{p_k\},\{q_k\},t)$$.</span>
+# <span>Stelle die Hamiltonfunktion
+$$
+H = \mathscr{L}L = \sum_{k=1}^f \dot{q}_k\fracpartial{L}{\dot{q}_k} - L
+$$
+in Abhängigkeit von $$\{p_k\},\{q_k\},t$$ auf. Nutze hierfür. die Umkehrfunktionen aus ii. Im konservativ-skleronomen Fall ist einfach $$H = T + V$$.</span>
+# <span>Aufstellen und lösen der Bewegungsgleichungen
+$$
+\dot{q}_k = \fracpartial{H}{p_k}, \qquad
+\dot{p}_k = -\fracpartial{H}{q_k}.
+$$</span>

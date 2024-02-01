@@ -1,0 +1,31 @@
+created: 20240129173433515
+modified: 20240201143227122
+tags: Physics
+title: TP I Klausurthemen 2024
+type: text/vnd.tiddlywiki
+
+* Newton'sche Mechanik
+** Newton'sche Axiome
+** Mehrteilchensysteme
+** Konservative Kraft und Potential
+* Lagrange
+** Zwangsbedingungen
+** Virtuelle Verrückung / d'Alembert'sches Prinzip
+** Lagrange I
+** Lagrange II
+** Variationsprinzip
+** Eichtransformationen
+** Forminvarianz
+** Noether-Theorem
+** Lagrange für Felder
+* Hamilton
+** Legendre-Transformation
+** Variationsprinzip
+** Kanonische Transformationen
+** Phasenraum
+** Poissonklammern
+** Hamilton-Jacobi
+* Starrer Körper
+** Trägheitstensor
+* Misc
+** Erzeugende von Drehmatrizen

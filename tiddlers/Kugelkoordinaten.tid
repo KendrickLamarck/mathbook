@@ -1,0 +1,19 @@
+created: 20240201180414675
+modified: 20240201181719258
+tags: misc
+title: Kugelkoordinaten
+type: text/vnd.tiddlywiki
+
+$$
+(r,\theta,\phi) \mapsto r \begin{pmatrix}
+\sin(\theta)\cos(\varphi) \\
+\sin(\theta)\sin(\varphi) \\
+\cos(\theta)
+\end{pmatrix}
+$$
+Mit $$r \in \ropenI{0, \infty}, \theta \in [0, \pi]$$ und $$\varphi \in \ropenI{0, 2\pi}$$.
+
+Das Volumenelement ist
+$$
+\d V = r^2 \sin(\theta) \,\d r \,\d\theta \,\d\varphi.
+$$

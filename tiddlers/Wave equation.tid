@@ -1,0 +1,9 @@
+created: 20240201142347939
+modified: 20240201142602993
+tags: 
+title: Wave equation
+type: text/vnd.tiddlywiki
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \Delta_{x,y,z} u.
+$$

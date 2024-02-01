@@ -1,0 +1,52 @@
+created: 20240129201214250
+modified: 20240129205722738
+tags: [[Lagrangian mechanics (physics)]]
+title: Lagrange-Gleichungen 2. Art
+type: text/vnd.tiddlywiki
+
+!! Nicht-konservativ
+
+Wir nehmen holonome Zwangsbedingungen an, d.h.
+$$
+A_\lambda(\position_1,\dots,\position_N,t) = 0,\quad
+\lambda=1,\dots,p.
+$$
+Wir wählen dann einen Satz $$\{q_k\},k=1,\dots,f=3N - p$$ von verallgemeinerten Koordinaten, die mit $$\position_i(\{q_k\},t)$$ die Mannigfaltigkeit parametrisiert, auf der die Zwangsbedingungen erfüllt sind. Führen wir die verallgemeinerten Kräfte
+$$
+Q_k = \sum_{i=1}^N \vector{F}_i \cdot \fracpartial{\position_i}{q_k}.
+$$
+ein, so sind die allgemeinen Lagrange-Bewegungsgleichungen 2. Art gegeben durch
+$$
+\fracderiv{}{t}\fracpartial{T}{\dot{q}_k} - \fracpartial{T}{q_k} - Q_k = 0,
+$$
+wobei
+$$
+T = \sum_{i=1}^N \frac{m_i}{2} \velocity_i{}^2 = \sum_{i=1}^N \frac{\momentum_i{}^2}{2 m_i}
+$$
+die kinetische Energie ist.
+
+!! Konservative Systeme
+
+In einem konservativen SYstem kann man die Lagrange-Funktion
+$$
+L \coloneqq T - V
+$$
+definieren und die Bewegung wird beschrieben durch die Euler-Lagrange-Gleichungen
+$$
+\fracderiv{}{t}\fracpartial{L}{\dot{q}_k} - \fracpartial{L}{q_k} = 0.
+$$
+Man kann sich das als eine Umformulierung von $$\force = \dot\momentum$$ vorstellen und $$L$$ als eine Art Potential mit
+$$
+\fracpartial{L}{q_k} = p_k, \qquad
+\fracpartial{L}{\dot{q_k}} = F_k.
+$$
+
+!! Rezept
+
+# Generalisierte Koordinaten wählen
+# <span>Geschwindigkeiten $$
+\velocity_i = \fracderiv{}{t} \position_i(\{q_k\},t) = \sum_{k = 1}^f \fracpartial{\position_i}{q_k} \dot{q}_k + \fracpartial{\position_i}{t}
+$$
+berechnen und damit $$T = \sum_{i=1}^N \frac{m_i}{2} \velocity_i{}^2$$ berechnen</span>
+# Lagrange-Funktion (für konservative Kräfte) oder verallgemeinerte Kräfte (für nichtkonservative Kräfte) aufstellen
+# Bewegungsgleichungen lösen

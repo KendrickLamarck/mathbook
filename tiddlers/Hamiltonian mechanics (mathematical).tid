@@ -1,9 +1,8 @@
 created: 20210115165607520
 list: [[Generating functions for symplectic maps]] [[Legendre transformation (hamiltonian mechanics)]] [[Poisson bracket]] [[Poisson manifold]] [[Poisson map]] [[Symplecticity of Hamiltonian flows]] [[Symplectic geometry]] [[Symplectic matrix]] [[Symplectic map]] [[Symplectic maps in coordinates]]
-modified: 20230919152452335
-revision: 0
+modified: 20240130192557047
 tags: Physics
-title: Hamiltonian mechanics
+title: Hamiltonian mechanics (mathematical)
 type: text/vnd.tiddlywiki
 
 For an arbitrary function $$H\colon \R^n \times \R^n \to \R,\ (x,p) \mapsto H(x,p)$$ called the //Hamiltonian,// we define the corresponding //Hamiltonian vector field//

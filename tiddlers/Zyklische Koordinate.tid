@@ -1,0 +1,17 @@
+created: 20240130194820355
+modified: 20240131115119785
+tags: [[Lagrangian mechanics (physics)]]
+title: Zyklische Koordinate
+type: text/vnd.tiddlywiki
+
+!! Lagrange
+
+Sei $$L$$ eine Lagrange-Funktion. Eine generalisierte Koordinate $$q_k$$ mit $$\fracpartial{L}{q_k} = 0$$ heißt //zyklische Koordinate.// Aus den Lagrange-Gleichen 2. Art folgt dann
+$$
+\fracderiv{}{t} \fracpartial{L}{\dot{q}_k} = \fracderiv{p_k}{t} = 0,
+$$
+d.h. der zugehörige generalisierte Impuls ist eine Erhaltungsgröße.
+
+!! Hamilton
+
+$$q_k$$ ist eine zyklische Koordinate einer Hamilton-Funktion $$H$$, wenn $$\fracpartial{H}{q_k} = 0$$. Aus den Bewegungsgleichungen folgt dann, dass $$\dot{p}_k = 0$$, d. h. $$p_k$$ ist konstant und die Zahl der Freiheitsgrade reduziert sich um 1.

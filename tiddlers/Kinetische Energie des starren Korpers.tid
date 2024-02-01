@@ -1,0 +1,21 @@
+created: 20240201201125230
+modified: 20240201201406483
+tags: [[Rigid body]]
+title: Kinetische Energie des starren Körpers
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\angularv{\vector{\omega}}
+$$
+
+</div>
+
+Die kinetische Energie eines starren Körpers lässt sich zerlegen in die Bewegung des Schwerpunktes und den Rotationsanteil:
+$$
+T = T_\mathrm{S} + T_\mathrm{Rot} = \frac{1}{2} M {\vector{v}_\mathrm{S}}^2 + \frac{1}{2} \angularv^\transp J \angularv,
+$$
+wobei $$angularv$$ die [[Winkelgeschwindigkeit|Winkelgeschwindigkeit]] und $$J$$ der ''Trägheitstensor'' ist.
+
+* Man kann auch schreiben $$T_\mathrm{Rot} = \frac{1}{2} \angularv \cdot \angularmomentum_{\mathrm{rel}}$$.

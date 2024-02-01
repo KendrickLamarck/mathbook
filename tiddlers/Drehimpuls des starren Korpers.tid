@@ -1,0 +1,19 @@
+created: 20240201195941386
+modified: 20240201200920806
+tags: [[Rigid body]]
+title: Drehimpuls des starren Körpers
+type: text/vnd.tiddlywiki
+
+Der Drehimpuls eines starren Körpers setzt sich aus einem Schwerpunkts- und einem Rotationsanteil zusammen:
+$$
+\angularmomentum =
+\underbrace{
+  M(\position_\mathrm{S} \times \velocity_\mathrm{S})
+}_{\small{\eqqcolon \angularmomentum_\mathrm{S}}}
++ \underbrace{
+  \sum_{i=1}^N m_i {\position_i}' \times (\vector{\omega} \times {\position_i}')
+}_{\small{\eqqcolon \angularmomentum_\mathrm{rel}}}
+$$
+
+* Ohne äußere Kräfte ist der Drehimpuls eine Erhaltungsgröße.
+* Es gilt $$\angularmomentum_{\mathrm{rel}} = J \vector{\omega}$$ (man denke an $$\momentum = m \velocity$$).

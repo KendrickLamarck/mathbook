@@ -1,5 +1,5 @@
 created: 20231029155328459
-modified: 20231118194708823
+modified: 20240129191554152
 tags: [[Classical mechanics]]
 title: Mehrteilchensystem
 type: text/vnd.tiddlywiki
@@ -16,3 +16,9 @@ Wir definieren:
 * Den (linearen) Gesamtimpuls $$\vector{P} \coloneqq \sum_{i=1}^N m_i \velocity_i$$ (also $$\vector{P} = M \vector{\dot{R}}$$).
 * Den Gesamtdrehimpuls $$\vector{L} \coloneqq \sum_{i=1}^N (\position_i \times \momentum_i) = \sum_{i=1}^N \vector{l}_i$$.
 * Das Gesamt-Drehmoment $$\vector{N} \coloneqq \dot{\vector{L}} = \sum_{i=1}^N (\position_i \times \force_i)$$.
+
+!! Erhaltungsgrößen
+
+* $$\dot{\vector{P}} = \sum \force_i^\mathrm{extern}$$. Insbesondere ist der Gesamtimpuls in einem System ohne äußere Kräfte eine Erhaltungsgröße. Der Schwerpunkt des Systems bleibt in Ruhe oder bewegt sich gleichförmig.
+* Falls wir eine Zentralkraft haben, d.h. $$\force_{12} = f(|\position_1 - \position_2|)(\position_1 - \position_2),$$ dann ist der Gesamtrdrehimpuls ebenfalls nur von den äußeren Kräften abhängig.
+* Falls alle Kräfte konservativ sind, so ist die Gesamtenergie $$E = T + V$$ erhalten.

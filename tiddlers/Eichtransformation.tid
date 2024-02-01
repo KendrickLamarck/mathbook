@@ -1,0 +1,13 @@
+created: 20240130191034231
+modified: 20240130191701644
+tags: [[Lagrangian mechanics (physics)]]
+title: Eichtransformation
+type: text/vnd.tiddlywiki
+
+Die Transformation
+$$
+L \mapsto L' \coloneqq L + \fracderiv{}{t} M(\{q_k\},t)
+$$
+mit beliebiger Eichfunktion $$M$$ lässt die Lagrangegleichungen invariant.
+
+Wenn $$\vector{A}$$ ein Vektorpotential für $$\vector{V}$$ ist, d.h. $$\vector{V} = \rot\vector{A}$$, dann ist auch $$\vector{A} + \nabla f$$ für beliebiges $$f$$  ein Vektorpotential für $$\vector{V}$$, da Gradientenfelder rotationsfrei sind. Auch dies wird als Eichtransformation bezeichnet.

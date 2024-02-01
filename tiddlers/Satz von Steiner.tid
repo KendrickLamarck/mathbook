@@ -1,0 +1,14 @@
+created: 20240201194838762
+modified: 20240201195809810
+tags: [[Rigid body]]
+title: Satz von Steiner
+type: text/vnd.tiddlywiki
+
+Sei $$J$$ der [[Trägheitstensor|Trägheitstensor]] in einem im Schwerpunkt $$S$$ zentrierten körperfesten System $$K'$$ und sei $$\tilde{K}$$ ein zu $$K'$$ achsenparalleles, um einen Vektor $$\vector{a}$$ verschobenes System. Dann ist $$\tilde{J}$$, der Trägheitstensor in $$\tilde{K}$$, gegeben durch
+$$
+\tilde{J} = J + M(\vector{a}^2 I - \vector{a}\vector{a}^\transp).
+$$
+Für das Trägheitsmoment in eine Beliebige Achsenrichtung $$\vector{n}$$ folgt
+$$
+\tilde{J}_{\vector{n}} = J_{\vector{n}} + M(\vector{a}^2 - (\vector{a}\cdot\vector{n})^2)
+$$

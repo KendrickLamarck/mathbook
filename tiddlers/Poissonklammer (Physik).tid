@@ -1,0 +1,36 @@
+created: 20240201131753670
+modified: 20240201134534062
+tags: [[Hamiltonian mechanics (physics)]]
+title: Poissonklammer (Physik)
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\momenta{\mathbf{p}}
+\gdef\coords{\mathbf{q}}
+\gdef\Momenta{\mathbf{P}}
+\gdef\Coords{\mathbf{Q}}
+$$
+
+</div>
+
+Eine //Observable// ist eine Funktion auf dem Phasenraum $$g(\coords, \momenta, t)$$. Die Betrachtung der Zeitentwicklung führt auf die Definition der Poisson-Klammer:
+$$\begin{aligned}
+\fracderiv{g}{t} &= \sum_{k=1}^f\left(
+  \fracpartial{g}{q_k}\fracderiv{q_k}{t} +
+  \fracpartial{g}{p_k}\fracderiv{p_k}{t}
+\right) +
+\fracpartial{g}{t} \\ &=
+\underbrace{\sum_{k=1}^f\left(
+  \fracpartial{g}{q_k}\fracpartial{H}{p_k} -
+  \fracpartial{g}{p_k}\fracpartial{H}{q_k}
+\right)}_{\eqqcolon\{g, H\}} +
+\fracpartial{g}{t} \\ &=
+\{g, H\} + \fracpartial{g}{t}.
+\end{aligned}$$
+
+* Für nicht explizit zeitabhängige Observablen $$g$$ gilt also $$\dot{g} = \{g, H\}$$ und $$g$$ ist eine Erhaltungsgröße genau dann wenn $$\{g, H\} = 0$$.
+* Für $$g = q_k$$ oder $$g = p_k$$ ergeben sich einfach wieder die kanonischen Gleichungen.
+* Es gilt $$\{q_i,q_j\} = 0,\ \{p_i,p_j\} = 0$$ und $$\{q_i,p_j\} = \delta_{ij}.$$ Eine Transformation is genau dann kanonisch, wenn sie diese sog. //Fundamentalrelationen// erhält.
+* Wir können auch schreiben $$\{f, g\} = \nabla f J \nabla g$$.

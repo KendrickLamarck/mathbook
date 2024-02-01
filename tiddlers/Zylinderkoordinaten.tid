@@ -1,0 +1,19 @@
+created: 20240201181318190
+modified: 20240201182244703
+tags: misc
+title: Zylinderkoordinaten
+type: text/vnd.tiddlywiki
+
+$$
+(r,\varphi,z) \mapsto \begin{pmatrix}
+r\cos\varphi\\
+r\sin\varphi\\
+z
+\end{pmatrix}
+$$
+Mit $$r \in \ropenI{0, \infty}, \varphi\in \ropenI{0, 2\pi}$$ und $$ z \in \R$$.
+
+Das Volumenelement ist
+$$
+\d V = r\,\d r \,\d\varphi\,\d z.
+$$

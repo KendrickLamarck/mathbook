@@ -1,0 +1,22 @@
+created: 20231119185843826
+modified: 20240129201126309
+tags: [[Lagrangian mechanics (physics)]]
+title: Lagrange-Gleichungen 1. Art
+type: text/vnd.tiddlywiki
+
+Wir nehmen an, dass wir [[Zwangsbedingungen|Zwangsbedingungen]] holonomer oder nicht-holonomer Art haben, in der Form
+$$
+\sum_{i=1}^N \vector{a}_{\lambda,i}(\position_1,\dots,\position_N,t) \cdot \velocity_i + a_\lambda(\position_1,\dots,\position_N,t) = 0.
+$$
+Im holonomen Fall ist $$\vector{a}_{\lambda,i} = \nabla_i A_\lambda$$ und $$a_\lambda = \fracpartial{A_\lambda}{t}$$. Dann sind die Lagrange-Gleichungen 1. Art gegeben durch
+$$
+m_i\vector{\ddot r}= \force_i + \vector{Z}_i = \force_i + \sum_{\lambda=1}^p \mu_\lambda \vector{a}_{i,\lambda}.
+$$
+
+!! Rezept
+
+# Gleichungen für die $$p$$ voneinander unabhängigen Zwangsbedingungen bestimmen,
+# Die $$3n + p$$ Gleichungen (Lagrange-Gleichungen + Zwangsbedingungen) lösen,
+# Wenn gewünscht: Zwängskräfte explizit aus $$\vector{Z}_i = \sum_{\lambda=1}^p \mu_\lambda \vector{a}_{i,\lambda}$$ bestimmen.
+
+Obwohl die Anzahl der Freiheitsgerade nur $$f = 3n - p$$ ist, müssen $$3n + p$$ Gleichungen gelöst werden. Man erhält aber die Zwangskräfte explizit.

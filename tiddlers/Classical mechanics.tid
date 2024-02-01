@@ -1,18 +1,23 @@
 created: 20231029140127992
 list: [[Newton's laws]] [[Konservative Kraft]] Inertialsystem Mehrteilchensystem [[Arbeit und Leistung]]
-modified: 20231118203659390
+modified: 20240201175732199
 tags: Physics
 title: Classical mechanics
 type: text/vnd.tiddlywiki
 
+$$
+\gdef\angularmomentum{\vector{L}}
+$$
+
 !! Basic definitions
 
-* Vektorielle Größen sind fett
+* Vektorielle Größen sind fett (außer griechische Buchstaben, OK das klappt nicht so ganz vielleicht doch lieber Vektorpfeile oder Unterstrichen)
 * Ortsvektor: $$\position\colon \R \to \R^3$$
 * Geschwindigkeit: $$\velocity(t) \coloneqq \dot{\position}(t)$$
 * Beschleunigung: $$\acceleration(t) \coloneqq \dot{\velocity}(t) = \ddot{\position}(t)$$
 * Impuls: $$\momentum(t) \coloneqq m(t)\velocity(t)$$ (meist ist $$m$$ konstant).
 * Kraft: $$\force(\position(t), \velocity(t), t) \in \R^3$$.
+* Drehimpuls: $$\angularmomentum(t) \coloneqq \position(t) \times \momentum(t)$$.
 
 !! Contents
 

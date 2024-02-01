@@ -1,0 +1,49 @@
+created: 20240201135648753
+modified: 20240201141933635
+tags: [[Hamiltonian mechanics (physics)]]
+title: Hamilton-Jacobi-Theorie
+type: text/vnd.tiddlywiki
+
+<div>
+
+$$
+\gdef\Kamiltonian{\tilde{H}}
+\gdef\momenta{\mathbf{p}}
+\gdef\coords{\mathbf{q}}
+\gdef\Momenta{\mathbf{P}}
+\gdef\Coords{\mathbf{Q}}
+$$
+
+</div>
+
+Das Ziel ist, transformierte Variablen $$\Coords$$, $$\Momenta$$ zu finden, so dass die transformierte Hamilton-Funktion $$\Kamiltonian$$ bzgl. aller $$Q_k$$ und $$P_k$$ und damit auch die $$Q_k \eqqcolon \alpha_k$$ und $$P_k \eqqcolon \beta_k$$ selbst konstant ist. Wir wählen den erzeugenden-Ansatz $$M_2(\coords, \Momenta, t)$$, d.h. $$p_k = \fracpartial{M_2}{q_k}$$ und $$Q_k = \fracpartial{M_2}{P_k}$$. Wir nennen diese Funktion $$S$$, die Wirkungsfunktion. Sie löst die Hamilton-Jacobi-Differentialgleichung
+$$
+\Kamiltonian = H\left(q_,\dots,q_f,\fracpartial{S}{q_1},\dots,\fracpartial{S}{q_f},t\right) + \fracpartial{S}{t} = 0.
+$$
+Diese nichtlineare PDGL 1. Ordnung hängt nur noch von den $$f+1$$ Variablen $$q_1,\dots,q_f,t$$ ab.
+
+Tatsächlich ist
+$$
+S = \int L \,\d t + C
+$$
+das Wirkungsintegral.
+
+!! Rezept
+
+# Hamiltonfunktion und HJD aufstellen
+# HJD für $$S$$ lösen (good luck)
+# <span>Löse die $$f$$ Gleichungen für die $$q_k$$
+$$
+Q_k = \fracpartial{S}{P_k} = \fracpartial{S}{\alpha_k} = \beta_k = \text{const.}
+$$
+um $$q_k(\alpha_1,\dots,\alpha_f,\beta_1,\dots,\beta_f,t)$$ zu erhalten.</span>
+# <span>Dann Impulse $$p_k(q_1,\dots,q_f,\alpha_1,\dots,\alpha_f,t)$$ aus
+$$
+p_k = \fracpartial{S}{q_k}
+$$ bestimmen.</span>
+# <span>Jetzt noch die $$2f$$ konstanten $$\alpha_k,\beta_k$$ mithilfe der $$2f$$ Anfangsbedingungen
+$$\begin{aligned}
+q_k(0) &= q_k(\alpha_1,\dots,\alpha_f,\beta_1,\dots,\beta_f,t=0) \\
+p_k(0) &= p_k(\alpha_1,\dots,\alpha_f,\beta_1,\dots,\beta_f,t=0)
+\end{aligned}$$
+bestimmen.</span>

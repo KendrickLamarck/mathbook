@@ -1,0 +1,17 @@
+created: 20240201125746784
+modified: 20240201130359399
+tags: [[Hamiltonian mechanics (physics)]]
+title: Phasenraum
+type: text/vnd.tiddlywiki
+
+Der Phasenraum zu einem System mit $$f$$ Freiheitsgraden ist ein $$2f$$-dimensionaler Raum zusammen mit dem metrischen Tensor
+$$
+\begin{pmatrix}
+0 & I \\
+-I & 0
+\end{pmatrix}
+$$
+mit der Reihenfolge der Koordinaten im Phasenraum $$\vector{x} = (q_1,\dots,q_f,p_1,\dots,p_f)^\transp$$ lassen sich die kanonischen Gleichungen schreiben als
+$$
+\dot{\vector{x}} = J \vector{\nabla}_{\mathbf{q},\mathbf{p}} H = J \vector{H}_{\vector{x}}.
+$$

@@ -1,7 +1,6 @@
 created: 20210130192555781
-modified: 20210206150022611
-revision: 0
-tags: [[Hamiltonian mechanics]]
+modified: 20240130192557049
+tags: [[Hamiltonian mechanics (mathematical)]]
 title: Symplecticity of Hamiltonian flows
 type: text/vnd.tiddlywiki
 
@@ -14,7 +13,7 @@ $$
 i.e. $$(\Phi^t)^*\omega = \omega$$ or, in other words, $$\L_{X_H} \omega = 0.$$
 @@
 
-For $$n=1,$$ this coincides with the [[Liouville theorem|Hamiltonian mechanics]]. For $$n>1,$$ it means that for any surface $$S \subset \R^{2n}$$
+For $$n=1,$$ this coincides with the [[Liouville theorem|Hamiltonian mechanics (mathematical)]]. For $$n>1,$$ it means that for any surface $$S \subset \R^{2n}$$
 $$
 \int_S \omega = \int_{\Phi^t(S)} \omega.
 $$

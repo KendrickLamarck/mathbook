@@ -1,5 +1,5 @@
 created: 20231029140912806
-modified: 20231029142311758
+modified: 20240129183428160
 tags: [[Classical mechanics]]
 title: Newton's laws
 type: text/vnd.tiddlywiki
@@ -14,11 +14,11 @@ Die Beschleunigung eines Körpers ist proportional zur Gesamtkraft $$\force$$, d
 $$
 \force = m\acceleration.
 $$
-Hier darf die Masse nicht zeitabhängig sein.
+Hier darf die Masse nicht zeitabhängig sein, ansonsten kann man auch allgemeiner $$\force = \dot\momentum$$ schreiben.
 
 !! Das dritte
 
-Die Wirkung zweier Körper aufeinander ist stets gleich und von entgegengesetzter Richtung: In einem System mit zwei Teilchen sei die Kraft, die Teilchen 2 auf Teilchen 1 auswirkt $$\force_{12}$$ und $$\force_{21}$$ umgekehrt. Dann gilt in Formeln
+Die Wirkung zweier Körper aufeinander ist stets gleich und von entgegengesetzter Richtung: In einem System mit zwei Teilchen sei $$\force_{12}$$ die Kraft, die Teilchen 2 auf Teilchen 1 auswirkt und $$\force_{21}$$ umgekehrt. Dann gilt in Formeln
 $$
 \force_{12} = -\force_{21}.
 $$

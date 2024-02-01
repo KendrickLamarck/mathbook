@@ -1,20 +1,16 @@
 created: 20180612214113032
 creator: Leander
-modified: 20190325193544302
+modified: 20231203183006381
 modifier: Leander
-revision: 0
 tags: [[Höhere Ableitungen]]
 title: Schrankensatz
 type: text/vnd.tiddlywiki
 
 Seien $$V,W$$ endlichdimensionale [[Banachräume|Banachraum]] und sei $$f\colon V\supset G\to W$$ eine [[differenzierbare|Ableitung]] Abbildung. Seien $$a,b\in G$$, so dass die Strecke
-
 $$
 \overline{ab}\coloneqq\{\,a+t(b-a):0\le t\le 1\,\}
 $$
-
 in $$G$$ enthalten ist. Dann gilt
-
 $$
 \|f(b)-f(a)\|\le\sup_{x\in\overline{ab}}\|\mathrm D_x f\|\|b-a\|.
 $$

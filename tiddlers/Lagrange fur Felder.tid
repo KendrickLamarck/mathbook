@@ -1,0 +1,18 @@
+created: 20240130200221738
+modified: 20240130201008365
+tags: [[Lagrangian mechanics (physics)]]
+title: Lagrange für Felder
+type: text/vnd.tiddlywiki
+
+Wir definieren den Vierervektor $$x^\mu = (t, x_1, x_2, x_3)^\transp = (t, \position)$$ (eigentlich $$ct$$ aber $$c = 1$$). Wir verwenden die Einstein'sche Summenkonvention. Wir definieren die Lagrangedichte
+$$
+\mathscr{L}(\{\psi_k\}, \{\psi_{k,\mu}\}, x^\mu)
+$$
+wobei $$\psi_k(\position,t)$$ die Felder und $$\psi_{k,\mu} = \fracderiv{\psi}{x^\mu},\mu=0,\dots,3$$ die Ableitungen der Felder sind. Mit der analog zur klassischen Lagrange-Mechanik definierten Wirkung
+$$
+S = \int\d x^\mu\, \mathscr{L}(\{\psi_k\}, \{\psi_{k,\mu}\}, x^\mu)
+$$
+ergeben sich aus dem Variationsprinzip $$\delta S = 0$$ die Lagrange-Gleichungen für Felder
+$$
+\fracpartial{\mathscr{L}}{\psi_k} - \fracpartial{}{x^\mu}\fracpartial{\mathscr{L}}{\psi_{k,\mu}} = 0.
+$$

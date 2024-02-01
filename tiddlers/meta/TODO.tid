@@ -1,8 +1,7 @@
 created: 20190206093529806
 creator: Leander
-modified: 20220109164004632
+modified: 20240129183126495
 modifier: Leander
-revision: 0
 tags: meta
 title: TODO
 type: text/vnd.tiddlywiki
@@ -22,6 +21,8 @@ type: text/vnd.tiddlywiki
 * We don't want to commit changes where only the //modified// field has changed.
 
 * A lot of paragraphs are wrong
+
+* We want more macros at the beginning of tiddlers but the katex produces an empty paragraph which indents the first paragraph. We have to do annoying stuff with spans or divs. Is there another way? (Search for gdef for examples)
 
 !! Content ideas
 

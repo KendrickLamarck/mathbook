@@ -1,0 +1,19 @@
+created: 20240312123240634
+modified: 20240320132746811
+tags: Masterarbeit
+title: Approximation constant
+type: text/vnd.tiddlywiki
+
+Let $$x \in \R.$$ The //approximation constant// of $$x$$ is defined as
+$$
+C(x) \coloneqq \inf_{p/q \in \Q \setminus \{x\}} q^2 \left|x - \frac{p}{q}\right|.
+$$
+A(n irrational) number is sometimes called //badly approximable// if $$C(X) > 0$$.
+
+* Every rational number is badly approximable by this definition.
+* <span>An irrational number is badly approximable if and only if the sequence $$(a_k)$$ of partial denominators in the continued fraction expansion
+$$
+x = a_0 + \cfrac{1}{a_1 + \cfrac{1}{a_2 + \cdots}}
+$$
+is bounded.</span>
+* The worst approximable rational numbers are the integers, with $$C(x) = 1$$.

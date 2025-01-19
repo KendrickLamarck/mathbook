@@ -1,15 +1,13 @@
 created: 20171225155400248
 creator: Leander
 list: 
-modified: 20191003222522071
+modified: 20240716124726623
 modifier: Leander
-revision: 0
 tags: no-toc [[Grenzwert von Funktionen]]
 title: Rechenregeln für Grenzwerte
 type: text/vnd.tiddlywiki
 
 Seien $$f,g\colon\mathbb{K} \supset D \to \mathbb{K}$$ und $$c \in \mathbb{K}$$. Dann gilt
-
 $$
 \begin{aligned}
 \lim_{x \to p}(f+g)(x)&=\lim_{x \to p}f(x) + \lim_{x \to p}g(x)\\
@@ -17,15 +15,11 @@ $$
 \lim_{x \to p}(cf)(x)&=c\lim_{x \to p}f(x).
 \end{aligned}
 $$
-
 falls die [[Grenzwerte|Grenzwert von Funktionen]] auf der rechten Seite existieren. Weiter gilt
-
 $$
 \lim_{x \to p} f(x) = a \neq 0 \implies \lim_{x \to p}\frac{1}{f(x)}=\frac{1}{a}
 $$
-
 und
-
 $$
 \lim_{x \to p} |f(x)| = \infty \iff \lim_{x \to p} \frac{1}{f(x)} = 0.
 $$

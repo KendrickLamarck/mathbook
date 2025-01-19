@@ -1,5 +1,5 @@
 created: 20240129173433515
-modified: 20240201143227122
+modified: 20240202233436729
 tags: Physics
 title: TP I Klausurthemen 2024
 type: text/vnd.tiddlywiki
@@ -8,6 +8,7 @@ type: text/vnd.tiddlywiki
 ** Newton'sche Axiome
 ** Mehrteilchensysteme
 ** Konservative Kraft und Potential
+** Zweikörperproblem
 * Lagrange
 ** Zwangsbedingungen
 ** Virtuelle Verrückung / d'Alembert'sches Prinzip
@@ -27,5 +28,6 @@ type: text/vnd.tiddlywiki
 ** Hamilton-Jacobi
 * Starrer Körper
 ** Trägheitstensor
+** Bewegungsgleichungen
 * Misc
 ** Erzeugende von Drehmatrizen

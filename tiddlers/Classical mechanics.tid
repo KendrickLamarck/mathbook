@@ -1,6 +1,6 @@
 created: 20231029140127992
 list: [[Newton's laws]] [[Konservative Kraft]] Inertialsystem Mehrteilchensystem [[Arbeit und Leistung]]
-modified: 20240201175732199
+modified: 20240203194417226
 tags: Physics
 title: Classical mechanics
 type: text/vnd.tiddlywiki
@@ -18,6 +18,7 @@ $$
 * Impuls: $$\momentum(t) \coloneqq m(t)\velocity(t)$$ (meist ist $$m$$ konstant).
 * Kraft: $$\force(\position(t), \velocity(t), t) \in \R^3$$.
 * Drehimpuls: $$\angularmomentum(t) \coloneqq \position(t) \times \momentum(t)$$.
+* Drehmoment: $$\vector{M}(t) \coloneqq \position(t) \times \force(t)$$.
 
 !! Contents
 

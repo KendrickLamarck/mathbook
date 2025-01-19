@@ -1,5 +1,5 @@
 created: 20240125093711484
-modified: 20240201201212745
+modified: 20240203195314419
 tags: [[Rigid body]]
 title: Trägheitstensor
 type: text/vnd.tiddlywiki
@@ -21,5 +21,5 @@ J'_{ii} = \delta_{ij}\int\d \vector{y}\, \rho(\vector{y}) (|\vector{y}|^2 - y_{i
 $$
 Hier sieht man, dass die Matrix positiv semidefinit ist.
 
-* Die Größe $$\vector{n}^\transp J \vector{n}$$ heißt ''Trägheitsmoment'' in der Achse $$\vector{n}.$$ Ist $$\vector{n}$$ ein Eigenvektor, so heißt sie ''Hauptträgheitsmoment.''
+* Die Größe $$\vector{n}^\transp J \vector{n}$$ heißt ''Trägheitsmoment'' in der normierten Drehachse $$\vector{n}.$$ Ist $$\vector{n}$$ ein Eigenvektor, so heißt sie ''Hauptträgheitsmoment.''
 * Für das kontinuierliche Modell alles genau so aber mit Integralen und Masseverteilung $$\rho(\vector{r})$$ statt $$m_k.$$

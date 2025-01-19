@@ -1,0 +1,11 @@
+created: 20240321144923053
+modified: 20240321145215418
+tags: Masterarbeit
+title: Mediant
+type: text/vnd.tiddlywiki
+
+The //mediant// of two fractions $$p_1 / q_1$$ and $$p_2 / q_2$$ with non-negative numerator and denominator is defined as
+$$
+\frac{p_1 + p_2}{q_1 + q_2}.
+$$
+The mediant is always between the two original numbers.

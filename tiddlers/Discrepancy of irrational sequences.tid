@@ -1,0 +1,31 @@
+created: 20240320160854438
+modified: 20240325165700132
+tags: Masterarbeit
+title: Discrepancy of irrational sequences
+type: text/vnd.tiddlywiki
+
+Let $$z$$ be irrational and let $$a_i,q_i$$ be the partial quotients and convergents of its partial fraction expansion. and let $$S(z) \coloneqq (\{nz\})_{n \in \N}$$ be the sequence of the fraction parts of $$nz$$. and $$\N \ni N \ge 1$$. Then $$N$$ can be represented in the form
+$$
+N = \sum_{i = 0}^{l(N)} c_i q_i,
+$$
+where $$l(N)$$ is the unique nonnegative integer with $$q_l(N) \le N < q_{l(N) + 1}$$ and where the $$c_i$$ are integers with $$0 \le c_i \le a_{i + 1}$$ for $$0 \le i \le l(N)$$. Furthermore, we have
+$$
+D_N(S(z)) < \frac{1}{N}
+\sum_{\substack{i = 0 \\ c_i \ne 0}}^{l(N)} (c_i + 1)
+\le \frac{1}{N} \sum_{i = 1}^{l(N) + 1} a_i.
+$$
+This bound is minimized by the golden ratio, since all of its partial quotients are 1.
+
+@@.theorem
+''Corollary.''
+If $$z$$ is irrational such that $$\sum_{i = 1}^m a_i = O(m)$$, then $$D_N(S(z)) = O(N^{-1} \log N)$$.
+@@
+
+@@.theorem
+''Corollary.''
+If $$z$$ is irrational such that there exists $$K \in \N_+$$ with $$a_i \le K$$ for all $$i \ge 1$$, then
+$$
+D_N(S(z)) < G(K)N^{-1} \log(N + 1) \quad \forall N \ge 1,
+$$
+where $$G(K) = 2 / \log 2$$ for $$K = 1,2,3$$ and $$G(K) = (K + 1) / \log(K + 1)$$ for $$K \ge 4$$.
+@@

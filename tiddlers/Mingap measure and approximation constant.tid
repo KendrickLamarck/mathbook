@@ -1,0 +1,87 @@
+created: 20240605201425923
+modified: 20240709160832290
+tags: Masterarbeit
+title: Mingap measure and approximation constant
+type: text/vnd.tiddlywiki
+
+<div>$$
+\gdef\mingap{\operatorname{\mathtt{mingap}}}
+\gdef\scaledmingap{\operatorname{\mathtt{scaled\_mingap}}}
+\gdef\worstscaledmingap{\operatorname{\mathtt{worst\_scaled\_mingap}}}
+$$</div>
+Let $$p/q \in \openI{0, 1}$$ be a reduced fraction and let $$n \le q - 1$$. We consider sets
+$$
+A_n \coloneqq \left\{\, k\frac{p}{q} \mod 1 : k=0,\dots,n\,\right\} \subseteq \ropenI{0, 1}.
+$$
+Let $$(a_k)_{k=0,\dots,n}$$ be this set sorted in ascending order. Then we are looking for the minimal gap between two consecutive numbers, including $$1 \equiv 0$$, i.e.
+$$
+\mingap\left(\frac{p}{q}, n\right) \coloneqq \min \{a_1 - 0, a_2 - a_1,\dots,a_n - a_{n - 1}, 1 - a_n\}.
+$$
+If the dots were evenly spaced, we would expect this to be close to $$\frac{1}{n + 1}$$, so we could scale by $$n + 1$$ to make this independent of $$n$$. For reasons not entirely clear yet, we will scale by $$n$$ instead:
+$$
+\scaledmingap\left(\frac{p}{q}, n\right) \coloneqq n \cdot \mingap\left(\frac{p}{q}, n\right).
+$$
+We now minimize over $$n$$ to pick out the worst case sequence length:
+$$
+\worstscaledmingap\left(\frac{p}{q}\right) \coloneqq
+\min_{n = 1}^{q - 1}\scaledmingap\left(\frac{p}{q}, n\right).
+$$
+
+@@.theorem
+''Theorem.''
+The $$\worstscaledmingap$$ of $$p/q$$ is equal to its [[Approximation constant]] $$C(p/q)$$:
+$$
+\worstscaledmingap\left(\frac{p}{q}\right) = \inf_{\tilde{p}/\tilde{q} \in \Q \setminus \{p/q\}} \tilde{q}^2 \left|\frac{p}{q} - \frac{\tilde{p}}{\tilde{q}}\right|.
+$$
+@@
+
+''Proof.''
+We assume $$q > 2$$ and $$p < q$$.
+From the [[Three-gap theorem]], we know that the smallest gap is either the first or last gap. In other words,
+$$
+\mingap\left(\frac{p}{q}, n\right) = \min\left\{\min_{k = 1}^n \left(k \frac{p}{q} \mod 1\right), 1 - \max_{k = 1}^n \left(k \frac{p}{q} \mod 1\right)\right\}.
+$$
+$$k \frac{p}{q} \mod 1$$ is small if $$k \frac{p}{q}$$ is close to a smaller integer $$l$$, so we can reformulate
+$$
+\min_{k=1}^n \left(k \frac{p}{q} \mod 1\right) =
+\min_{k=1}^n \min_{\Z \ni l \le k \frac{p}{q}} k \frac{p}{q} - l.
+$$
+Similarly, $$1 - \left(k \frac{p}{q} \mod 1\right)$$ is small if $$k \frac{p}{q}$$ is close to a larger integer, so we have
+$$\begin{aligned}
+1 - \max_{k = 1}^n \left(k \frac{p}{q} \mod 1\right)
+&= \min_{k=1}^n \left(1 - \left(k \frac{p}{q} \mod 1\right)\right) \\
+&= \min_{k=1}^n \min_{\Z \ni l \ge k \frac{p}{q}} l - k \frac{p}{q}.
+\end{aligned}$$
+With the identity $$\min\{\min A, \min B\} = \min(A \cup B)$$ we get
+$$
+\min\left\{
+  \min_{k=1}^n \min_{\Z \ni l \le k \frac{p}{q}} k \frac{p}{q} - l,
+  \min_{k=1}^n \min_{\Z \ni l \ge k \frac{p}{q}} l - k \frac{p}{q}
+\right\} =
+\min_{k=1}^n \min_{l \in \Z} \left| k \frac{p}{q} - l \right|.
+$$
+Finally,
+$$\begin{aligned}
+& \worstscaledmingap(p/q) \\
+= &\min_{n=1}^{q - 1} n \cdot \min_{k=1}^n \min_{l \in \Z}
+  \left| k \frac{p}{q} - l \right| \\
+= &\min_{l \in \Z} \min_{n=1}^{q - 1} \min_{k=1}^n
+  n \left| k \frac{p}{q} - l \right| \\
+= &\min_{l \in \Z} \min_{1 \le k \le n \le q - 1}
+  n \left| k \frac{p}{q} - l \right| \\
+= &\min_{l \in \Z} \min_{k=1}^{q - 1} \min_{n=k}^{q-1}
+  n \left| k \frac{p}{q} - l \right|\\
+= & \min_{l \in \Z} \min_{k=1}^{q - 1}
+  k \left| k \frac{p}{q} - l \right| \\
+= & \min_{l \in \Z} \min_{k=1}^{q - 1}
+  k^2 \left|\frac{p}{q} - \frac{l}{k} \right| \\
+= & \min_{k=1}^{q - 1} \min_{l \in \Z}
+  k^2 \left|\frac{p}{q} - \frac{l}{k} \right|.
+\end{aligned}$$
+Since the minimum in the approximation constant is assumed for some $$\tilde{q} < q$$ if $$p \ge 2$$, we can also write it as
+$$
+C(p/q) =
+\min_{\tilde{q}=1}^{q-1} \min_{\tilde{p} \in \Z}
+\tilde{q}^2 \left| \frac{p}{q} - \frac{\tilde{p}}{\tilde{q}} \right|.
+$$
+And we see that these expressions are equal to up to variable names.

@@ -1,0 +1,11 @@
+created: 20240430121922778
+modified: 20240430122203731
+tags: Masterarbeit
+title: Markov triple
+type: text/vnd.tiddlywiki
+
+Three numbers $$a,b,c \in \Z$$ are called a //markov triple// if
+$$
+a^2 + b^2 + c^2 = 3abc.
+$$
+Any member of a Markov triple is called a //Markov number.//

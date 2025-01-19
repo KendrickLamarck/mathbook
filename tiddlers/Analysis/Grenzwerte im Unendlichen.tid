@@ -1,19 +1,15 @@
 created: 20171225154417455
 list: 
-modified: 20191003222259864
-revision: 0
+modified: 20240716124841339
 tags: no-toc [[Grenzwert von Funktionen]]
 title: Grenzwerte im Unendlichen
 type: text/vnd.tiddlywiki
 
 Seien $$f\colon\mathbb{R} \supset D \to \mathbb{R}$$ eine [[Funktion|Abbildung]] und $$p,a \in \mathbb{R} \cup \{-\infty,+\infty\}$$. Wir definieren:
-
 $$
 \lim_{x \to p} f(x)=a,
 $$
-
 wenn es wenigstens eine [[Folge]] $$(x_n)$$ in $$D\setminus \{p\}$$ gibt, für die $$\lim x_n = p$$ ist und wenn für jede solche Folge gilt:
-
 $$
 \lim_{n \to \infty} f(x_n) = a.
 $$

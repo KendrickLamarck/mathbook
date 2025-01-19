@@ -1,0 +1,63 @@
+created: 20240408132043278
+modified: 20240606100221130
+tags: Masterarbeit
+title: Three-gap theorem
+type: text/vnd.tiddlywiki
+
+Let $$\alpha$$ be any real number and $$N \in \N$$. The set $$\{n\alpha \mod 1 \mid n \ge N\} \subset \sphere^1$$ has the following property: There are at most three distinct distances of consecutive points around the circle.
+
+The length of the largest gap is the sum of the lengths of the two smaller gaps.
+
+
+!! Bound
+
+The ratios of the three distances are bounded by a positive constant $$R$$ if and only if $$\alpha$$ is badly approximable. In fact, if the partial quotients in the continued fraction expansion are bounded by $$B$$, we have
+$$
+B - 1 \le R \le B + 2.
+$$
+
+!! Exact result
+
+Let $$p_n/q_n$$ be the convergents of the continued fraction $$\alpha = [a_0;a_1,a_2,\dots]$$ and let $$r_n \coloneqq |q_n\alpha - p_n|$$. Then the three gaps are
+$$
+r_{k+1}, \\
+r_k - i r_{k+1}, \\
+r_k - (i - 1) r_{k+1},
+$$
+where the integers $$n,i$$ (and $$j$$) are determined uniquely by the conditions
+$$\begin{gathered}
+N = q_n + i q_{n + 1} + j, \\
+1 \le i \le a_{n + 2}, \\
+q \le j \le q_{n + 1}.
+\end{gathered}$$
+
+@@color:orange; Something is wrong here and I don't remember where this came from. Dammit@@
+
+!! Gap lengths AGAIN
+
+Let $$u_1,\dots,u_N$$ be the permutation of $$\{1,\dots,N\}$$ such that the sequence $$(\{u_n \alpha\})_n$$ is strictly increasing. Then among the $$N + 1$$ total gaps there are
+
+* $$N + 1 - u_1$$ gaps of length $$L_1 = \{u_1 \alpha\},$$
+* $$N + 1 - u_N$$ gaps of length $$L_2 = 1 - \{u_N \alpha\}$$ and
+* $$u_N + u_1 - (N + 1)$$ gaps of length $$L_1 + L_2$$.
+
+The gaps of length $$L_1 + L_2$$ exist if and only if $$u_N + u_1 > N + 1$$.
+
+!!! $$u_1$$ and $$u_N$$ in terms of the continued fraction
+
+Let $$p_i / q_i$$ be the convergents of the partial fraction expansion of $$\alpha$$. For $$N \in \N_+$$, define the unique integers $$t,r,s$$ by the conditions
+$$\begin{gathered}
+q_{t - 1} + q_t \le N < q_t + q_{t + 1}, \\
+N - q_{t - 1} = r q_t + s.
+\end{gathered}$$
+Note that $$0 \le s \le q_t - 1$$ and $$1 \le r \le a_{t + 1}$$.
+
+@@.theorem
+''Theorem.''
+If $$t$$ is even, $$u_1 = q_t$$ and $$u_N = q_{t - 1} + r q_t$$. If $$t$$ is odd, $$u_1$$ and $$u_N$$ are swapped.
+@@
+
+@@.theorem
+''Corollary.''
+The gaps of length $$L_1 + L_2$$ exist if and only if $$s < q_t - 1$$.
+@@

@@ -1,0 +1,24 @@
+created: 20240319132442126
+modified: 20240319180527166
+tags: Masterarbeit
+title: Diskrepanz
+type: text/vnd.tiddlywiki
+
+Sei $$S = (s_n)$$ eine endliche oder unenendliche Folge in $$I^d = \ropenI{0, 1}^d$$ und sei $$\mathcal{B}$$ eine Menge von Lebesgue-messbaren Teilmengen von $$I^d$$. Dann ist die //Diskrepanz// von $$S$$ (bzw. der ersten $$N$$ Elemente von $$S$$) bezüglich $$\mathcal{B}$$ definiert als
+$$
+D_N(S;\mathcal{B}) \coloneqq \sup_{B \in \mathcal{B}} \left| \frac{\#(\{s_1,\dots,s_N\} \cap B)}{N} - \lambda_d(B)\right|,
+$$
+wobei $$\lambda_d$$ das $$d$$-dimensionale Lebesgue-Maß ist.
+
+* Wenn $$\mathcal{B}$$ die Menge der Quader $$\prod_{i=1}^d \ropenI{a_i,b_i}$$ nennen wir das die (extreme) Diskrepanz $$D_N(S)$$.
+* Wenn $$\mathcal{B}$$ die Menge der Quader $$\prod_{i=1}^d \ropenI{0, b_i}$$ ist, nennen wir das die //Stern-Diskrepanz// $$D_N^*(S)$$.
+
+@@.theorem
+''Satz.''
+Es gilt
+$$
+D_N^*(S) \le D_N(S) \le 2^d D_N^*(S).
+$$
+@@
+
+A sequence is said to be //uniformly distributed// in $$I^d$$, if $$\lim_{N \to \infty} D_N(S) = 0$$.

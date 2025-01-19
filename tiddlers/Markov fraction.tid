@@ -1,0 +1,35 @@
+created: 20240430123912360
+modified: 20241105171232566
+tags: Masterarbeit
+title: Markov fraction
+type: text/vnd.tiddlywiki
+
+Let $$\frac{p_1}{q_1},\frac{p_2}{q_2} \in \Q$$. Consider the generating rule for a new fraction $$\frac{p'}{q'},$$ where
+$$
+p' = \frac{p_1\,q_1 + p_2\,q_2}{p_2\,q_1 - p_1\,q_2},\qquad
+q' = \frac{{q_1}^2 + {q_2}^2}{p_2\,q_1 - p_1\,q_2}.
+$$
+Starting the generation with $$\frac{k}{1}$$ and $$\frac{k+1}{1}$$ for each $$k \in \Z$$ generates a plane binary tree of so-called //Markov fractions.// We usually look at the $$k=0$$ tree. The faces of the tree can be labeled by the fractions and every node of the tree then corresponds to the (centered) [[rational Markov triple|Rational Markov triple]] $$\left(\frac{p_1}{q_1}, \frac{p'}{q'}, \frac{p_2}{q_2}\right)$$.
+
+This tree is graph-isomorphic to the Stern-Brocot tree, so we can use the rationals as labels for the Markov fractions.
+
+!! Companions
+
+The //right companions// and //left companions// of a Markov fraction $$\frac{p}{q}$$ are the rational numbers $$\gamma_k^+\left(\frac{p}{q}\right)$$ and $$\gamma_k^-\left(\frac{p}{q}\right)$$ for $$k \ge 2$$, defined by
+$$
+\gamma_k^\pm\left(\frac{p}{q}\right) = \frac{p}{q} \pm \frac{u_{k - 1}}{q\, u_k},
+$$
+where $$(u_k)$$ is the integer sequence determined by the recursion
+$$
+u_0 = 0, \quad u_1 = 1, \quad u_{k + 1} = 3q\, u_k - u_{k - 1}.
+$$
+
+* <span>The fraction representation
+$$
+\gamma_k^\pm\left(\frac{p}{q}\right) = \frac{p\,u_k \pm u_{k -1}}{q\, u_k}
+$$
+is reduced.</span>
+* <span>The recursion defines $$u_k$$ not just for $$k \in \N$$ but for $$k \in \Z$$ also and we get $$u_{-k} = -u_k$$. This implies $$\gamma_0^\pm\left(\frac{p}{q}\right) = \infty$$ and
+$$
+\gamma_{-k}^+\left(\frac{p}{q}\right) = \gamma_k^-\left(\frac{p}{q} + 3\right).
+$$</span>

@@ -1,0 +1,26 @@
+created: 20240430130146008
+modified: 20240705134607855
+tags: Masterarbeit
+title: Rational Markov triple
+type: text/vnd.tiddlywiki
+
+A triple of rational numbers $$(x_1,x_2,x_3) = \left(\frac{p_1}{q_1}, \frac{p_2}{q_2}, \frac{p_3}{q_3}\right)$$ is a //rational Markov triple// if $$(q_1,q_2,q_3)$$ is a [[Markov triple|Markov triple]] and the numerators satisfy the equations
+$$
+p_2\,q_1 - p_1\,q_2 = q_3, \qquad p_3\,q_2 - p_2\,q_3 = q_1.
+$$
+These imply the equation
+$$
+p_3\,q_1 - p_1\,q_3 = q_2' = \frac{q_1^2 + q_3^2}{q_2} = 3 q_1 q_3 - q_2.
+$$
+
+* Rational markov triples are strictly increasing, i.e. $$x_1 < x_2 < x_3$$.
+* All three fractions are reduced.
+* For a given Markov triple and two integers $$p_i,p_j$$ that satisfy one of the three equations given above, the third can be computed and the triple completed.
+
+!! Types
+
+A rational markov triple $$\left(\frac{p_1}{q_1}, \frac{p_2}{q_2}, \frac{p_3}{q_3}\right)$$ is called
+
+* //singular// if the Markov triple $$(q_1,q_2,q_3)$$ is singular, i.e. $$\{q_1,q_2,q_3\} \subseteq \{1,2\}$$,
+* //integral// if $$q_1 = q_2 = q_3 = 1$$ and
+* //centered// if $$q_2 \ge \max\{q_1,q_3\}$$.

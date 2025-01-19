@@ -1,0 +1,15 @@
+created: 20240325141336316
+modified: 20240325143151259
+tags: Masterarbeit
+title: Approximation exponent
+type: text/vnd.tiddlywiki
+
+The //approximation exponent// or //(Liouville-Roth) irrationality measure// of a real number $$x$$ is the supremal natural number $$\mu$$ such that there exist infinitely many integer pairs $$(p,q) \in \Z \times \Z_{>0}$$ that satisfy
+$$
+0 < \left| x - \frac{p}{q} \right| < \frac{1}{q^n}.
+$$
+
+* The rationals have approximation exponent 1.
+* Algebraic irrationals have approximation exponent 2.
+* All irrationals have an approximation exponent of at least 2.
+* Numbers with approximation exponent $$\infty$$ are called //Liouville numbers//.

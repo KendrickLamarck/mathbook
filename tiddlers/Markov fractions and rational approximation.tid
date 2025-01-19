@@ -1,0 +1,49 @@
+created: 20240430120643689
+modified: 20240430123833586
+tags: Masterarbeit
+title: Markov fractions and rational approximation
+type: text/vnd.tiddlywiki
+
+The rational numbers $$x \in \Q$$ with approximation constant $$C(x) \ge 1/3$$ are precisely the [[markov fractions|Markov fraction]] and their companions. Furthermore, $$C(x) = 1/3$$ if and only if $$x$$ is the first left or right companion of a Markov fraction.
+
+!! Best approximants of Markov fractions
+
+Every Markov fraction is the middle of a unique centered [[rational Markov triple|Rational Markov triple]]. If $$\left(\frac{p_1}{q_1}, \frac{p_2}{q_2}, \frac{p_3}{q_3}\right)$$ is a centered rational Markov triple, then the best approximants of $$\frac{p_2}{q_2}$$ are precisely $$\frac{p_1}{q_1}$$ and $$\frac{p_3}{q_3}$$, i.e.
+$$
+C\left(\frac{p_2}{q_2}\right) =
+{q_1}^2 \left(\frac{p_2}{q_2} - \frac{p_1}{q_1}\right) =
+{q_3}^2 \left(\frac{p_3}{q_3} - \frac{p_2}{q_2}\right)
+$$
+and for every rational number $$\frac{a}{b}$$ not contained in the triple,
+$$
+C\left(\frac{p_2}{q_2}\right) < b^2 \left| \frac{p_2}{q_2} - \frac{a}{b} \right|.
+$$
+In particular, this implies
+$$
+C\left(\frac{p_2}{q_2}\right) = \frac{q_1 q_3}{q_2} > \frac{1}{3}.
+$$
+
+!! Best approximants of companions
+
+<div>
+
+$$
+\gdef\kthcompanion{\gamma_k^\pm\left(\frac{p}{q}\right)}
+$$
+
+</div>
+
+The best approximants of a companion $$\kthcompanion, k \ge 2,$$ are precisely $$\frac{p}{q}$$ and $$\gamma_{k - 1}^\pm\left(\frac{p}{q}\right)$$, i.e.
+$$
+C\left(\kthcompanion\right) =
+q^2 \left|\kthcompanion - \frac{p}{q}\right| =
+(q u_{k - 1})^2 \left|\kthcompanion - \gamma_{k -1}^\pm\left(\frac{p}{q}\right)\right|
+$$
+and
+$$
+C\left(\kthcompanion\right) < b^2 \left|\kthcompanion - \frac{a}{b}\right|
+$$
+for every rational number $$\frac{a}{b}$$ except $$\frac{p}{q}$$, $$\gamma_{k -1}^\pm\left(\frac{p}{q}\right)$$ and $$\kthcompanion$$. Moreover,
+$$
+C\left(\kthcompanion\right) = q \frac{u_{k - 1}}{u_k} \ge \frac{1}{3}.
+$$

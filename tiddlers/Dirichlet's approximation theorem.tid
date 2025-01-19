@@ -1,0 +1,10 @@
+created: 20240325144216748
+modified: 20240326135430347
+tags: Masterarbeit
+title: Dirichlet's approximation theorem
+type: text/vnd.tiddlywiki
+
+For any real numbers $$\alpha \in \R$$ and $$N \ge 1$$ there exist integers $$p \in \Z$$ and $$q \in [1,N]$$ such that
+$$
+|q\alpha - p| \le \frac{1}{\lfloor N \rfloor + 1} < \frac{1}{N}.
+$$

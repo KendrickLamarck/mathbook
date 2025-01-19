@@ -1,5 +1,5 @@
 created: 20240129180442250
-modified: 20240129182956649
+modified: 20240202212837973
 tags: Physics
 title: Winkelgeschwindigkeit
 type: text/vnd.tiddlywiki
@@ -16,4 +16,4 @@ Die Winkelgeschwindigkeit ist die Drehachse und ihre Länge ist die Ableitung de
 
 !! Beispiel
 
-In ebenen Polarkoordinaten $$(r,\phi)$$ in der $$x$$-$$y$$-Ebene ist $$\angularvelocity = \dot\phi \vector{e}_z.$$
+In ebenen Polarkoordinaten $$(r,\varphi)$$ in der $$x$$-$$y$$-Ebene ist $$\angularvelocity = \dot\varphi \vector{e}_z.$$

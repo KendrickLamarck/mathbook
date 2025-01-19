@@ -1,5 +1,5 @@
 created: 20240201131753670
-modified: 20240201134534062
+modified: 20240203160148023
 tags: [[Hamiltonian mechanics (physics)]]
 title: Poissonklammer (Physik)
 type: text/vnd.tiddlywiki
@@ -34,3 +34,4 @@ $$\begin{aligned}
 * Für $$g = q_k$$ oder $$g = p_k$$ ergeben sich einfach wieder die kanonischen Gleichungen.
 * Es gilt $$\{q_i,q_j\} = 0,\ \{p_i,p_j\} = 0$$ und $$\{q_i,p_j\} = \delta_{ij}.$$ Eine Transformation is genau dann kanonisch, wenn sie diese sog. //Fundamentalrelationen// erhält.
 * Wir können auch schreiben $$\{f, g\} = \nabla f J \nabla g$$.
+* Es gilt die Produktregel $$\{fg,h\} = f\{g,h\} + g\{f,h\}$$.

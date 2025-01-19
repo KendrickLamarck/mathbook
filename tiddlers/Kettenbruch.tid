@@ -1,0 +1,48 @@
+created: 20240320133357465
+modified: 20240325163429198
+tags: Masterarbeit
+title: Kettenbruch
+type: text/vnd.tiddlywiki
+
+Ein Kettenbruch in unserem Sinne ist ein Bruch der Art
+$$
+a_0 + \cfrac{1}{a_1 + \cfrac{1}{a_2 + \cdots}}
+$$
+mit $$a_l \in \N_+$$ für $$l \ge 1$$. Wir verwenden hierfür auch die Notation $$[a_0;a_1,a_2,\dots]$$.
+
+!! Irrationale Zahlen
+
+Jede Irrationale Zahl $$z$$ hat eine eindeutige Kettenbruchentwicklung. Dabei ist $$a_0 = \lfloor z \rfloor$$. Der //$$i$$-te Konvergent// ist definiert als
+$$
+r_i \coloneqq [a_0;a_1,\dots,a_i].
+$$
+Definiert man rekursiv
+$$\begin{aligned}
+p_{-2} &\coloneqq 0, &p_{-1} &\coloneqq 1,
+&p_i &\coloneqq a_i p_{i-1} + p_{i-2}, \\
+q_{-2} &\coloneqq 1, &q_{-1} &\coloneqq 0,
+&q_i &\coloneqq a_i q_{i-1} + q_{i-2},
+\end{aligned}$$
+so ist $$r_i = p_i / q_i$$, wobei $$\gcd(p_i,q_i) = 1$$, $$1=q_0 < q_1 < q_2 < \cdots$$ und
+$$
+\left| z - \frac{p_i}{q_i} \right|
+< \frac{1}{q_i q_{i+1}}
+< \frac{1}{{q_i}^2},
+\quad i \ge 0.
+$$
+Daran sieht man, dass jede irrationale Zahl einen [[Approximationsexponenten|Approximation exponent]] von mindestens 2 hat.
+
+!! Rationale Zahlen
+
+Die Kettenbruchentwicklung von rationalen Zahlen ist endlich. Wegen $$[a_0;a_1,\dots,a_l] = [a_0;a_1,\dots,a_{l-1}, a_l-1, 1]$$ Muss man für die Eindeutigkeit $$a_l = 1$$ und $$l \ge 1$$ fordern. Die Konvergenten kann man genau so wie im irrationalen Fall definieren und es gilt
+$$
+\frac{1}{q_i (q_i + q_{i + 1})} \le \left| z - \frac{p_i}{q_i} \right| < \frac{1}{q_i q_{i+1}}, \quad  0 \le i \le l - 1.
+$$
+Die Konvergenten sind beste Approximationen für $$z$$ im folgenden Sinne: Ist $$h \in \N$$ mit $$1 \le h < q_{i + 1}$$ für ein $$i \le l - 1$$, dann ist
+$$
+|hz - b| \ge |q_i z - p_i| \quad \forall b \in \Z.
+$$
+
+!! Optimalität der Konvergenten
+
+Wenn $$p/q$$ ein Konvergent einer Kettenbruchentwicklung einer reellen Zahl $$z$$ ist, dann gibt es keinen Bruch mit Nenner $$\tilde{q} \le q$$, der näher an $$z$$ ist als $$p/q$$.

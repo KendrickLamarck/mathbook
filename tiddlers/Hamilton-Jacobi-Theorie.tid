@@ -1,5 +1,5 @@
 created: 20240201135648753
-modified: 20240201141933635
+modified: 20240205135859585
 tags: [[Hamiltonian mechanics (physics)]]
 title: Hamilton-Jacobi-Theorie
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ $$
 
 </div>
 
-Das Ziel ist, transformierte Variablen $$\Coords$$, $$\Momenta$$ zu finden, so dass die transformierte Hamilton-Funktion $$\Kamiltonian$$ bzgl. aller $$Q_k$$ und $$P_k$$ und damit auch die $$Q_k \eqqcolon \alpha_k$$ und $$P_k \eqqcolon \beta_k$$ selbst konstant ist. Wir wählen den erzeugenden-Ansatz $$M_2(\coords, \Momenta, t)$$, d.h. $$p_k = \fracpartial{M_2}{q_k}$$ und $$Q_k = \fracpartial{M_2}{P_k}$$. Wir nennen diese Funktion $$S$$, die Wirkungsfunktion. Sie löst die Hamilton-Jacobi-Differentialgleichung
+Das Ziel ist, transformierte Variablen $$\Coords$$, $$\Momenta$$ zu finden, so dass die transformierte Hamilton-Funktion $$\Kamiltonian$$ bzgl. aller $$Q_k$$ und $$P_k$$ und damit auch die $$Q_k \eqqcolon \alpha_k$$ und $$P_k \eqqcolon \beta_k$$ selbst konstant sind. Wir wählen den erzeugenden-Ansatz $$M_2(\coords, \Momenta, t)$$, d.h. $$p_k = \fracpartial{M_2}{q_k}$$ und $$Q_k = \fracpartial{M_2}{P_k}$$. Wir nennen $$M_2$$ nun $$S$$, die Wirkungsfunktion und setzen alle $$P_k = \alpha_k$$ konstant. Die Wirkungsfunktion ist die Lösung der Hamilton-Jacobi-Differentialgleichung
 $$
 \Kamiltonian = H\left(q_,\dots,q_f,\fracpartial{S}{q_1},\dots,\fracpartial{S}{q_f},t\right) + \fracpartial{S}{t} = 0.
 $$
